@@ -247,6 +247,8 @@ def cmd_observe(root=None):
         return
 
     strong = strong_of(e)
+    mutual_pairs = {tuple(sorted((edge["a"], edge["b"])))
+                    for edge in obs.get("edges", {}).get("mutual_strong", [])}
     similar = [t["root"] for t in e["top"] if t["root"] in lived]
     messages = []
     if strong:
@@ -269,7 +271,9 @@ def cmd_observe(root=None):
         ریشه=root, شاهد=e["attestation"], زیسته=(root in lived),
         پیام=messages,
         نشانی_همسایگان=[dict(همسایه=t["root"], مشترک=t["shared"],
-                             lift=t["lift"], درجه=t["tier"]) for t in strong],
+                             lift=t["lift"], درجه=t["tier"],
+                             دوسویه=(tuple(sorted((root, t["root"]))) in mutual_pairs))
+                        for t in strong],
         قید="فقط نشانی. برو کتاب را بخوان؛ اگر گفتی «همچنان همین را می‌بینم»، مجاز است.",
         ناسازگاری=bool(mismatch),
     ), ensure_ascii=False, indent=1))

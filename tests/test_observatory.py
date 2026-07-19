@@ -101,6 +101,30 @@ def test_edges_superset_of_lived_graph():
     assert not missing, f"جفت‌های زیسته که رصدخانه نمی‌بیند: {missing}"
 
 
+def test_observe_root_reports_mutual_vs_one_way():
+    """observe ROOT باید برای هر همسایهٔ قوی بگوید دوسویه است یا یک‌طرفه —
+    این داده از پیش در edges.mutual_strong محاسبه شده؛ فقط بی‌نمایش مانده بود.
+    ساختار است، نه معنا: دقیقاً همان تمایزِ reciprocal/one_way که
+    breathe_record برای ریشه‌های زیسته می‌دهد، این‌جا برای رصدخانه هم."""
+    obs = _obs()
+    mutual = {tuple(sorted((e["a"], e["b"]))) for e in obs["edges"]["mutual_strong"]}
+    root = "ابد"
+    e = next(x for x in obs["roots"] if x["root"] == root)
+    strong = [t for t in e["top"] if t["tier"] == "قوی"]
+    assert len(strong) >= 2, "ریشهٔ آزمون باید چند همسایهٔ قوی داشته باشد"
+
+    out = subprocess.run([sys.executable, "cli/monad", "observe", root],
+                         capture_output=True, text=True, cwd=ROOT)
+    result = json.loads(out.stdout)
+    reported = {n["همسایه"]: n["دوسویه"] for n in result["نشانی_همسایگان"]}
+    assert set(reported) == {t["root"] for t in strong}
+    for nb, is_mutual in reported.items():
+        expected = tuple(sorted((root, nb))) in mutual
+        assert is_mutual == expected, f"{root}↔{nb}: گزارش {is_mutual}، انتظار {expected}"
+    # این ریشه باید هم مثالِ دوسویه هم یک‌طرفه داشته باشد (پوششِ واقعیِ هر دو حالت)
+    assert True in reported.values() and False in reported.values()
+
+
 def test_islands_partition_and_grounded():
     """جزیره‌های ماشینی: افرازِ درستِ گره‌های دارای یال — هر گره در دقیقاً یک
     جزیره؛ هر یال درونِ یک جزیره؛ مرتب و قطعی."""
