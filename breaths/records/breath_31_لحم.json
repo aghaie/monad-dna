@@ -1,0 +1,664 @@
+{
+ "breath_number": 31,
+ "deliberation": [
+  {
+   "root": "لحم",
+   "attestation": 12
+  },
+  {
+   "root": "ثمن",
+   "attestation": 19
+  },
+  {
+   "root": "فلك",
+   "attestation": 25
+  },
+  {
+   "root": "وسع",
+   "attestation": 32
+  },
+  {
+   "root": "جهد",
+   "attestation": 41
+  },
+  {
+   "root": "صدد",
+   "attestation": 42
+  },
+  {
+   "root": "بحر",
+   "attestation": 42
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "رجع",
+   "attestation": 104
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "لحم",
+ "attestation": 12,
+ "ayat": 12,
+ "top": [
+  {
+   "root": "دمو",
+   "shared": 5,
+   "expected": 0.02,
+   "lift": 259.833,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بغي",
+   "shared": 5,
+   "expected": 0.17,
+   "lift": 28.87,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "موت",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.804,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رحم",
+   "shared": 5,
+   "expected": 0.6,
+   "lift": 8.301,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 8,
+   "expected": 3.62,
+   "lift": 2.213,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 0,
+ "reciprocal": [
+  "دمو",
+  "بغي",
+  "موت",
+  "رحم"
+ ],
+ "one_way": [
+  "اله"
+ ],
+ "neighbor_view": {
+  "دمو": {
+   "root": "لحم",
+   "shared": 5,
+   "expected": 0.02,
+   "lift": 259.833,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بغي": {
+   "root": "لحم",
+   "shared": 5,
+   "expected": 0.17,
+   "lift": 28.87,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "موت": {
+   "root": "لحم",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.804,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رحم": {
+   "root": "لحم",
+   "shared": 5,
+   "expected": 0.6,
+   "lift": 8.301,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "لحم↔اله",
+   "shared": 8,
+   "expected": 3.62,
+   "lift": 2.21,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "لحم↔رحم",
+   "shared": 5,
+   "expected": 0.6,
+   "lift": 8.3,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "لحم↔راف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔هجر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔نصر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔اوي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔صير",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔باس",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔غفر",
+   "shared": 4,
+   "expected": 0.39,
+   "lift": 10.29,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "لحم↔حلم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔عفو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔ذنب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔سوا",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔بدو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔خفي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔دون",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔نفع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔ضرر",
+   "shared": 4,
+   "expected": 0.13,
+   "lift": 29.7,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "لحم↔كشف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔مسس",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔ذوق",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔الم",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔انس",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔عشر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔عرض",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔بغي",
+   "shared": 5,
+   "expected": 0.17,
+   "lift": 28.87,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "لحم↔عوج",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔سبل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔يتم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔شري",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "لحم↔راف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔هجر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔نصر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔اوي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔صير",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔باس",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔حلم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔عفو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔ذنب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔سوا",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔بدو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔خفي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔دون",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔نفع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔كشف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔مسس",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔ذوق",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔الم",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔انس",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔عشر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔عرض",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔عوج",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔سبل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔يتم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "لحم↔شري",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:173",
+   "degree": 5,
+   "roots_present": [
+    "دمو",
+    "بغي",
+    "موت",
+    "رحم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "6:145",
+   "degree": 5,
+   "roots_present": [
+    "دمو",
+    "بغي",
+    "موت",
+    "رحم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "16:115",
+   "degree": 5,
+   "roots_present": [
+    "دمو",
+    "بغي",
+    "موت",
+    "رحم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "5:3",
+   "degree": 4,
+   "roots_present": [
+    "دمو",
+    "موت",
+    "رحم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "49:12",
+   "degree": 3,
+   "roots_present": [
+    "موت",
+    "رحم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:259",
+   "degree": 2,
+   "roots_present": [
+    "موت",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "22:37",
+   "degree": 2,
+   "roots_present": [
+    "دمو",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "16:14",
+   "degree": 1,
+   "roots_present": [
+    "بغي"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "لحم+دمو": [
+   "2:173",
+   "5:3",
+   "6:145",
+   "16:115",
+   "22:37"
+  ],
+  "لحم+بغي": [
+   "2:173",
+   "6:145",
+   "16:14",
+   "16:115",
+   "35:12"
+  ],
+  "لحم+موت": [
+   "2:173",
+   "2:259",
+   "5:3",
+   "6:145",
+   "16:115",
+   "49:12"
+  ],
+  "لحم+رحم": [
+   "2:173",
+   "5:3",
+   "6:145",
+   "16:115",
+   "49:12"
+  ],
+  "لحم+اله": [
+   "2:173",
+   "2:259",
+   "5:3",
+   "6:145",
+   "16:115",
+   "22:37",
+   "23:14",
+   "49:12"
+  ],
+  "لحم+غفر": [
+   "2:173",
+   "5:3",
+   "6:145",
+   "16:115"
+  ],
+  "لحم+ضرر": [
+   "2:173",
+   "5:3",
+   "6:145",
+   "16:115"
+  ]
+ }
+}
