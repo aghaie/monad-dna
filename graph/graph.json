@@ -18,6 +18,7 @@
   "باس",
   "بحر",
   "بدو",
+  "برر",
   "بشر",
   "بعد",
   "بعض",
@@ -28,6 +29,7 @@
   "توب",
   "ثمن",
   "جري",
+  "جعل",
   "جنن",
   "جهد",
   "حبب",
@@ -50,6 +52,7 @@
   "ذنب",
   "ذوق",
   "راف",
+  "راي",
   "رجع",
   "رحم",
   "رسل",
@@ -180,7 +183,8 @@
   "كلف",
   "جهد",
   "قسم",
-  "صدد"
+  "صدد",
+  "بحر"
  ],
  "open_queue": [
   "اذن",
@@ -188,7 +192,6 @@
   "رجع",
   "قلل",
   "سخر",
-  "بحر",
   "شطن",
   "رضو",
   "جري",
@@ -221,6 +224,7 @@
   "ذكر",
   "قبل",
   "ايي",
+  "برر",
   "نفس",
   "يوم",
   "رسل",
@@ -235,11 +239,13 @@
   "اخر",
   "قوم",
   "هدي",
+  "راي",
   "علم",
   "امن",
   "كون",
   "عذب",
-  "عمل"
+  "عمل",
+  "جعل"
  ],
  "edges": [
   {
@@ -1524,11 +1530,147 @@
   },
   {
    "a": "بحر",
+   "b": "برر",
+   "directions": {
+    "بحر→برر": {
+     "breath": 40,
+     "lift": 46.77,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بحر",
    "b": "بغي",
    "directions": {
     "بغي→بحر": {
      "breath": 26,
      "lift": 8.661,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "بحر→بغي": {
+     "breath": 40,
+     "lift": 8.661,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بحر",
+   "b": "جري",
+   "directions": {
+    "بحر→جري": {
+     "breath": 40,
+     "lift": 19.488,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بحر",
+   "b": "جعل",
+   "directions": {
+    "بحر→جعل": {
+     "breath": 40,
+     "lift": 3.008,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بحر",
+   "b": "راي",
+   "directions": {
+    "بحر→راي": {
+     "breath": 40,
+     "lift": 3.149,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بحر",
+   "b": "سخر",
+   "directions": {
+    "بحر→سخر": {
+     "breath": 40,
+     "lift": 22.271,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بحر",
+   "b": "شكر",
+   "directions": {
+    "بحر→شكر": {
+     "breath": 40,
+     "lift": 13.557,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بحر",
+   "b": "ظلم",
+   "directions": {
+    "بحر→ظلم": {
+     "breath": 40,
+     "lift": 2.688,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بحر",
+   "b": "فضل",
+   "directions": {
+    "بحر→فضل": {
+     "breath": 40,
+     "lift": 8.473,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -1549,9 +1691,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "بحر→فلك": {
+     "breath": 40,
+     "lift": 56.124,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
