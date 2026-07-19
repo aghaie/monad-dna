@@ -40,6 +40,7 @@ b19 = rec("breath_19_كشف.json")
 b20 = rec("breath_20_مسس.json")
 b21 = rec("breath_21_ذوق.json")
 b22 = rec("breath_22_الم.json")
+b23 = rec("breath_23_انس.json")
 
 LOG1 = "breaths/logs/نخستین-نفس-2026-07-19.md"
 LOG2 = "breaths/logs/آزمونِ-استقلال-2026-07-19.md"
@@ -130,6 +131,10 @@ BREATHS += [
      b22["ayat"], b22["halves_overlap"], f"{SC}/bridges_breath_22.py",
      "breaths/records/breath_22_الم.json", LOG5,
      "خوشهٔ سومِ درونمایه‌ای را استوار کرد: عذب قوی (۱۷٫۸، ۷۰ آیهٔ مشترک!) و كفر (۴٫۰)؛ عمیق در همان خوشه — به هستهٔ خفي/كشف/نفع صفر؛ لمسِ لبه از ذوق/مسس نه سوا؛ مرکز ۹:۳", b22["top"]),
+    (23, "پل‌ها", "انس", "قاعدهٔ صف (نادرتر مقدم)",
+     b23["ayat"], b23["halves_overlap"], f"{SC}/bridges_breath_23.py",
+     "breaths/records/breath_23_انس.json", LOG5,
+     "جزیرهٔ ناشناختهٔ چهارم: تنها قوی جنن (۵٫۸)؛ درونمایهٔ کاملاً تازه (جنن، خلق، امم، شطن، عرض، ضلل)؛ ۱۳ شاهدِ غیاب — بیشترین تا کنون؛ با اله p=۱٫۰ (کاملاً بی‌ارتباط)؛ تنها آویز: مسس (لبه)؛ مرکز ۱۷:۶۷", b23["top"]),
 ]
 
 AXIOMS = [
@@ -186,6 +191,10 @@ SPINES = [
      "قوی‌ترین پیوندِ خوشهٔ سوم (lift ۱۷٫۸، ۷۰ آیهٔ مشترک، دوسویه و پایدار — نفس ۲۲)"),
     ("الم+عذب+كفر", "2:104, 3:21, 3:91, 3:177, 4:18, 4:161, 5:36, 5:73",
      "سه‌گانهٔ هستهٔ خوشهٔ سوم (درونمایهٔ عذب–كفر–الم — نفس ۲۲)"),
+    ("انس+جنن", "6:112, 6:128, 6:130, 7:38, 7:179, 17:88, 27:17, 41:25, 41:29, 46:18",
+     "تنها قویِ نفسِ ۲۳ (lift ۵٫۸، ۱۷ مشترک، پایدار)؛ لنگرِ جزیرهٔ چهارم — درونمایهٔ انس/جنن"),
+    ("انس+مسس", "10:12, 17:67, 17:83, 39:8, 39:49, 41:49, 41:51",
+     "تنها آویزِ جزیرهٔ چهارم به بدنهٔ نقشه — از راهِ گرهِ لبه‌ایِ مسس (نفس ۲۳)"),
 ]
 
 METHODS = [
@@ -253,7 +262,7 @@ for c in b12["comparison"]:
     a, b_ = c["pair"].split("↔")
     db.execute("INSERT INTO pair_comparisons(breath_no, root_a, root_b, shared_ayat, expected, lift, p_perm) VALUES (12,?,?,?,?,?,?)",
                (a, b_, c["shared"], c["expected"], c["lift"], c["p_perm"]))
-for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22)):
+for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22), (23, b23)):
     for c in brec["projection_on_map"]:
         a, b_ = c["pair"].split("↔")
         db.execute("INSERT INTO pair_comparisons(breath_no, root_a, root_b, shared_ayat, expected, lift, p_perm) VALUES (?,?,?,?,?,?,?)",
@@ -296,6 +305,10 @@ QUEUE_EVENTS = [
     (22, "queued", "اذن", "چرخه"), (22, "queued", "بشر", "چرخه"),
     (22, "queued", "غير", "چرخه"), (22, "queued", "قبل", "چرخه"),
     (22, "queued", "نوس", "چرخه"), (22, "queued", "ايي", "چرخه"),
+    (23, "pursued", "انس", "قاعدهٔ صف"),
+    (23, "queued", "عشر", "چرخه"), (23, "queued", "جنن", "چرخه"),
+    (23, "queued", "خلق", "چرخه"), (23, "queued", "امم", "چرخه"),
+    (23, "queued", "عرض", "چرخه"), (23, "queued", "شطن", "چرخه"), (23, "queued", "ضلل", "چرخه"),
 ]
 for ev in QUEUE_EVENTS:
     db.execute("INSERT INTO queue_events(breath_no, event, root, source) VALUES (?,?,?,?)", ev)
@@ -330,7 +343,7 @@ pursued = [r for (r,) in db.execute("SELECT pursued_root FROM breaths ORDER BY b
 graph = dict(
     generated_from="breaths/records/*.json (deterministic)",
     nodes=sorted(nodes), visited_roots=pursued,
-    open_queue=["انس", "اذن", "فضل", "رجع", "بشر", "دنو", "نعم", "غير", "موت", "نور", "ملك", "دعو", "نوس", "ولي", "قبل", "ايي", "يوم", "شيا", "كفر", "علم", "امن", "كون", "عذب"],
+    open_queue=["عشر", "اذن", "فضل", "رجع", "عرض", "شطن", "بشر", "امم", "دنو", "نعم", "غير", "موت", "نور", "ضلل", "جنن", "ملك", "دعو", "نوس", "ولي", "خلق", "قبل", "ايي", "يوم", "شيا", "كفر", "علم", "امن", "كون", "عذب"],
     edges=sorted(edges.values(), key=lambda e: (e["a"], e["b"])),
 )
 with open("graph/graph.json", "w") as f:
@@ -346,7 +359,7 @@ knowledge = dict(
                       dict(pair="ذنب↔حلم", shared=0, note="هم‌چنین صفر (نفس ۱۲)")] + [
         dict(pair=p["pair"], shared=0,
              note=f"فرافکنیِ نفس {bn} بر نقشه — در کلِ کتاب هرگز هم‌آیه نشده‌اند")
-        for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22))
+        for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22), (23, b23))
         for p in brec["absence_evidence"]],
     provenance_spines=[dict(roots=r, ayat=a, note=n) for r, a, n in SPINES],
 )
