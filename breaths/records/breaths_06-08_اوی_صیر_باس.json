@@ -1,0 +1,330 @@
+[
+ {
+  "pursued": "اوي",
+  "attestation": 36,
+  "ayat": 36,
+  "top": [
+   {
+    "root": "صير",
+    "shared": 7,
+    "expected": 0.17,
+    "lift": 41.812,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "باس",
+    "shared": 10,
+    "expected": 0.39,
+    "lift": 25.854,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "نور",
+    "shared": 8,
+    "expected": 1.0,
+    "lift": 7.964,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "نصر",
+    "shared": 6,
+    "expected": 0.79,
+    "lift": 7.586,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "كفر",
+    "shared": 7,
+    "expected": 2.68,
+    "lift": 2.608,
+    "p_perm": 0.01,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "يوم",
+    "shared": 5,
+    "expected": 2.18,
+    "lift": 2.297,
+    "p_perm": 0.0963,
+    "stable": false,
+    "tier": "نامشخص"
+   },
+   {
+    "root": "قول",
+    "shared": 11,
+    "expected": 7.98,
+    "lift": 1.378,
+    "p_perm": 0.113,
+    "stable": false,
+    "tier": "نامشخص"
+   },
+   {
+    "root": "اله",
+    "shared": 14,
+    "expected": 10.85,
+    "lift": 1.291,
+    "p_perm": 0.103,
+    "stable": false,
+    "tier": "نامشخص"
+   },
+   {
+    "root": "كون",
+    "shared": 8,
+    "expected": 6.79,
+    "lift": 1.178,
+    "p_perm": 0.4053,
+    "stable": false,
+    "tier": "نامشخص"
+   }
+  ],
+  "halves_overlap": 4,
+  "breath_number": 6,
+  "new_gaps_queued": [
+   "صير",
+   "باس",
+   "نور"
+  ],
+  "reciprocal_confirmations": [
+   "نصر"
+  ],
+  "queue_after": [
+   "صير",
+   "باس",
+   "دون",
+   "نور",
+   "غفر"
+  ]
+ },
+ {
+  "pursued": "صير",
+  "attestation": 29,
+  "ayat": 29,
+  "top": [
+   {
+    "root": "اوي",
+    "shared": 7,
+    "expected": 0.17,
+    "lift": 41.812,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "باس",
+    "shared": 11,
+    "expected": 0.31,
+    "lift": 35.304,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "نور",
+    "shared": 6,
+    "expected": 0.81,
+    "lift": 7.415,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "ملك",
+    "shared": 5,
+    "expected": 0.89,
+    "lift": 5.629,
+    "p_perm": 0.0066,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "كفر",
+    "shared": 10,
+    "expected": 2.16,
+    "lift": 4.624,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "عذب",
+    "shared": 5,
+    "expected": 1.56,
+    "lift": 3.2,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "ارض",
+    "shared": 6,
+    "expected": 2.05,
+    "lift": 2.932,
+    "p_perm": 0.0166,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "بين",
+    "shared": 6,
+    "expected": 2.11,
+    "lift": 2.842,
+    "p_perm": 0.0066,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "اله",
+    "shared": 17,
+    "expected": 8.74,
+    "lift": 1.945,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "امن",
+    "shared": 6,
+    "expected": 3.36,
+    "lift": 1.785,
+    "p_perm": 0.0598,
+    "stable": false,
+    "tier": "نامشخص"
+   }
+  ],
+  "halves_overlap": 3,
+  "breath_number": 7,
+  "new_gaps_queued": [
+   "باس",
+   "كفر"
+  ],
+  "reciprocal_confirmations": [
+   "اوي"
+  ],
+  "queue_after": [
+   "باس",
+   "دون",
+   "نور",
+   "غفر",
+   "كفر"
+  ]
+ },
+ {
+  "pursued": "باس",
+  "attestation": 73,
+  "ayat": 67,
+  "top": [
+   {
+    "root": "صير",
+    "shared": 11,
+    "expected": 0.31,
+    "lift": 35.304,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "مهد",
+    "shared": 5,
+    "expected": 0.16,
+    "lift": 31.025,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "اوي",
+    "shared": 10,
+    "expected": 0.39,
+    "lift": 25.854,
+    "p_perm": 0.0033,
+    "stable": true,
+    "tier": "قوی"
+   },
+   {
+    "root": "نفع",
+    "shared": 5,
+    "expected": 0.53,
+    "lift": 9.497,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "ضرر",
+    "shared": 7,
+    "expected": 0.75,
+    "lift": 9.307,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "قري",
+    "shared": 5,
+    "expected": 0.58,
+    "lift": 8.618,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "شدد",
+    "shared": 7,
+    "expected": 1.06,
+    "lift": 6.581,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "حسب",
+    "shared": 6,
+    "expected": 1.1,
+    "lift": 5.475,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "خلد",
+    "shared": 5,
+    "expected": 0.92,
+    "lift": 5.411,
+    "p_perm": 0.0066,
+    "stable": false,
+    "tier": "محتمل"
+   },
+   {
+    "root": "نور",
+    "shared": 8,
+    "expected": 1.87,
+    "lift": 4.279,
+    "p_perm": 0.0033,
+    "stable": false,
+    "tier": "محتمل"
+   }
+  ],
+  "halves_overlap": 2,
+  "breath_number": 8,
+  "new_gaps_queued": [],
+  "reciprocal_confirmations": [
+   "صير",
+   "اوي"
+  ],
+  "queue_after": [
+   "دون",
+   "نور",
+   "غفر",
+   "كفر"
+  ]
+ }
+]

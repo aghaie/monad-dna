@@ -1,0 +1,154 @@
+{
+ "step1_encounter": {
+  "ayah": "1:1",
+  "text": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+  "words": [
+   [
+    "سْمِ",
+    "سمو"
+   ],
+   [
+    "ٱللَّهِ",
+    "اله"
+   ],
+   [
+    "رَّحْمَٰنِ",
+    "رحم"
+   ],
+   [
+    "رَّحِيمِ",
+    "رحم"
+   ]
+  ]
+ },
+ "step2_gap": {
+  "pursued_root": "اله",
+  "in_word": "ٱللَّهِ",
+  "attestation_tokens": 2851,
+  "ayat_with_root": 1879
+ },
+ "step4_return": {
+  "total_ayat": 6236,
+  "gathered_ayat": 1879,
+  "neighborhood_size": 509
+ },
+ "step5_deepening": [
+  {
+   "root": "حرف",
+   "ayat_shared": 6,
+   "expected": 1.81,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خنزر",
+   "ayat_shared": 5,
+   "expected": 1.51,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "هلل",
+   "ayat_shared": 5,
+   "expected": 1.51,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "فيا",
+   "ayat_shared": 6,
+   "expected": 1.81,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كسو",
+   "ayat_shared": 5,
+   "expected": 1.51,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قرض",
+   "ayat_shared": 7,
+   "expected": 2.11,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "فاي",
+   "ayat_shared": 9,
+   "expected": 2.71,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "لوي",
+   "ayat_shared": 5,
+   "expected": 1.51,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "صيد",
+   "ayat_shared": 5,
+   "expected": 1.51,
+   "lift": 3.319,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عصم",
+   "ayat_shared": 11,
+   "expected": 3.62,
+   "lift": 3.042,
+   "p_perm": 0.0033,
+   "stable_across_halves": false,
+   "tier": "محتمل"
+  }
+ ],
+ "stability_halves": {
+  "half1_top": [
+   "حلف",
+   "سخط",
+   "صيد",
+   "طفا",
+   "فيا",
+   "قلد",
+   "كعب",
+   "لوي",
+   "نيل",
+   "همم"
+  ],
+  "half2_top": [
+   "حسد",
+   "خدع",
+   "خون",
+   "شكو",
+   "ضوا",
+   "عفف",
+   "فاي",
+   "ميل",
+   "نشز",
+   "هلل"
+  ],
+  "overlap": 0
+ }
+}

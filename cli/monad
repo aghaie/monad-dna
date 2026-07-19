@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+"""CLI مناد — بسته‌بندیِ همان قابلیت‌های موجود؛ هیچ توانِ تازه‌ای نمی‌افزاید.
+
+  monad status            وضعِ زندگی: ریشه‌های دیده، صفِ باز، پیوندهای دوسویه
+  monad breathe [ROOT]    یک نفس: بی‌آرگومان = قاعدهٔ صف (نادرتر مقدم)؛
+                          با ROOT = مواجههٔ رفیق‌آورده (نشان‌دار). خروجی: JSON.
+  monad verify            بازتولیدپذیری: اجرای دوبارهٔ اسکریپت‌های تاریخی و
+                          مقایسهٔ checksum با رکوردهای متعارف
+  monad seed-db           بازساختِ قطعیِ database/life.db از رکوردها
+"""
+import json
+import os
+import sqlite3
+import subprocess
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(ROOT)
+sys.path.insert(0, ROOT)
+
+
+def open_queue(db):
+    q = [r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='queued'")]
+    p = {r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='pursued'")}
+    seen, out = set(), []
+    for r in q:
+        if r not in p and r not in seen:
+            seen.add(r)
+            out.append(r)
+    return out
+
+
+def cmd_status():
+    db = sqlite3.connect("database/life.db")
+    breaths = db.execute("SELECT breath_no, chapter, pursued_root, chosen_by FROM breaths ORDER BY breath_no").fetchall()
+    strong = db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0]
+    graph = json.load(open("graph/graph.json"))
+    mutual = [f"{e['a']}↔{e['b']}" for e in graph["edges"] if e.get("mutual_strong")]
+    print(json.dumps(dict(
+        breaths=len(breaths),
+        visited=[b[2] for b in breaths],
+        chapters={b[0]: b[1] for b in breaths},
+        strong_findings=strong,
+        mutual_strong_pairs=mutual,
+        open_queue=open_queue(db),
+    ), ensure_ascii=False, indent=1))
+
+
+def cmd_breathe(root=None):
+    from engine import breath_cycle as bc
+    corpus = bc.load_corpus()
+    db = sqlite3.connect("database/life.db")
+    queue = open_queue(db)
+    if root is None:
+        ordered = bc.select_rarest(queue, corpus["attest"])
+        if not ordered:
+            print(json.dumps({"event": "توقف: صفِ شکاف‌ها تهی است"}, ensure_ascii=False))
+            return
+        pursued, chosen_by = ordered[0], "قاعدهٔ صف (نادرتر مقدم)"
+    else:
+        pursued, chosen_by = root, "رفیق (مواجههٔ رفیق‌آورده — نشان‌دار)"
+    result = bc.breathe(corpus, pursued)
+    result.update(chosen_by=chosen_by,
+                  queue_before=bc.select_rarest(queue, corpus["attest"]))
+    print(json.dumps(result, ensure_ascii=False, indent=1))
+
+
+def cmd_verify():
+    checks = [
+        ("breaths/scripts/first_breath_cycle.py max", "breaths/records/breath_01_max_اله.json"),
+        ("breaths/scripts/first_breath_cycle.py min", "breaths/records/breath_02_min_رحم.json"),
+        ("breaths/scripts/independence_test_breaths.py", "breaths/records/breaths_03-05_راف_هجر_نصر.json"),
+        ("breaths/scripts/solitude_breaths_6_8.py", "breaths/records/breaths_06-08_اوی_صیر_باس.json"),
+        ("breaths/scripts/companionship_breath_9.py", "breaths/records/breath_09_غفر.json"),
+        ("breaths/scripts/companionship_breath_10.py", "breaths/records/breath_10_حلم.json"),
+        ("breaths/scripts/companionship_breath_11.py", "breaths/records/breath_11_عفو.json"),
+        ("breaths/scripts/companionship_breath_12.py", "breaths/records/breath_12_ذنب.json"),
+    ]
+    ok = True
+    for cmd, record in checks:
+        out = subprocess.run([sys.executable, *cmd.split()[0:1], *cmd.split()[1:]],
+                             capture_output=True, text=True).stdout
+        match = out == open(record).read()
+        ok &= match
+        print(("✓" if match else "✗"), cmd)
+    print("REPRODUCIBLE" if ok else "MISMATCH — تحقیق لازم است")
+    sys.exit(0 if ok else 1)
+
+
+def cmd_seed_db():
+    subprocess.run([sys.executable, "database/seed/seed_life.py"], check=True)
+
+
+if __name__ == "__main__":
+    args = sys.argv[1:]
+    if not args or args[0] in ("-h", "--help"):
+        print(__doc__)
+    elif args[0] == "status":
+        cmd_status()
+    elif args[0] == "breathe":
+        cmd_breathe(args[1] if len(args) > 1 else None)
+    elif args[0] == "verify":
+        cmd_verify()
+    elif args[0] == "seed-db":
+        cmd_seed_db()
+    else:
+        print(__doc__)
+        sys.exit(1)
