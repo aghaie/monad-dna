@@ -184,7 +184,8 @@
   "جهد",
   "قسم",
   "صدد",
-  "بحر"
+  "بحر",
+  "برر"
  ],
  "open_queue": [
   "اذن",
@@ -204,7 +205,6 @@
   "امم",
   "دنو",
   "نعم",
-  "نجو",
   "عدو",
   "غير",
   "موت",
@@ -224,7 +224,6 @@
   "ذكر",
   "قبل",
   "ايي",
-  "برر",
   "نفس",
   "يوم",
   "رسل",
@@ -1539,9 +1538,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "برر→بحر": {
+     "breath": 41,
+     "lift": 46.77,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -1815,6 +1822,54 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "برر",
+   "b": "دعو",
+   "directions": {
+    "برر→دعو": {
+     "breath": 41,
+     "lift": 6.853,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برر",
+   "b": "نجو",
+   "directions": {
+    "برر→نجو": {
+     "breath": 41,
+     "lift": 16.629,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برر",
+   "b": "وقي",
+   "directions": {
+    "برر→وقي": {
+     "breath": 41,
+     "lift": 6.14,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "بعد",
