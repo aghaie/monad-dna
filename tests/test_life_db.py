@@ -25,10 +25,10 @@ def test_axioms_exact():
 
 
 def test_counts():
-    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 12
-    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 27
-    assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 5
-    assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 5
+    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 17
+    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 45
+    assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 7
+    assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 6
 
 
 def test_absence_evidence_in_db():
@@ -42,7 +42,7 @@ def test_open_queue():
     q = [r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='queued'")]
     p = {r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='pursued'")}
     open_q = {r for r in q if r not in p}
-    assert open_q == {"سوا", "دون", "نور", "كفر"}
+    assert open_q == {"ضرر", "نور", "دعو", "ولي", "شيا", "كفر", "علم", "امن", "كون", "ملك"}
 
 
 def test_every_finding_traceable():

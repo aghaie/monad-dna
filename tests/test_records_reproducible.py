@@ -16,6 +16,11 @@ CASES = [
     (["breaths/scripts/companionship_breath_10.py"], "breaths/records/breath_10_حلم.json"),
     (["breaths/scripts/companionship_breath_11.py"], "breaths/records/breath_11_عفو.json"),
     (["breaths/scripts/companionship_breath_12.py"], "breaths/records/breath_12_ذنب.json"),
+    (["breaths/scripts/bridges_breath_13.py"], "breaths/records/breath_13_سوا.json"),
+    (["breaths/scripts/bridges_breath_14.py"], "breaths/records/breath_14_بدو.json"),
+    (["breaths/scripts/bridges_breath_15.py"], "breaths/records/breath_15_خفي.json"),
+    (["breaths/scripts/bridges_breath_16.py"], "breaths/records/breath_16_دون.json"),
+    (["breaths/scripts/bridges_breath_17.py"], "breaths/records/breath_17_نفع.json"),
 ]
 
 
