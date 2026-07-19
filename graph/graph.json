@@ -1,6 +1,7 @@
 {
  "generated_from": "breaths/records/*.json (deterministic)",
  "nodes": [
+  "اتي",
   "اخذ",
   "اخر",
   "اذن",
@@ -44,6 +45,7 @@
   "راف",
   "رجع",
   "رحم",
+  "رسل",
   "سبل",
   "سمو",
   "سوا",
@@ -79,6 +81,7 @@
   "قرض",
   "قري",
   "قول",
+  "قوم",
   "كتب",
   "كسو",
   "كشف",
@@ -131,10 +134,10 @@
   "مسس",
   "ذوق",
   "الم",
-  "انس"
+  "انس",
+  "عشر"
  ],
  "open_queue": [
-  "عشر",
   "اذن",
   "فضل",
   "رجع",
@@ -157,14 +160,33 @@
   "قبل",
   "ايي",
   "يوم",
+  "رسل",
+  "اتي",
   "شيا",
   "كفر",
+  "قوم",
   "علم",
   "امن",
   "كون",
   "عذب"
  ],
  "edges": [
+  {
+   "a": "اتي",
+   "b": "عشر",
+   "directions": {
+    "عشر→اتي": {
+     "breath": 24,
+     "lift": 2.961,
+     "p": 0.0199,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
   {
    "a": "اخذ",
    "b": "دون",
@@ -888,6 +910,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "عشر→انس": {
+     "breath": 24,
+     "lift": 12.895,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1456,6 +1486,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 25
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جنن",
+   "b": "عشر",
+   "directions": {
+    "عشر→جنن": {
+     "breath": 24,
+     "lift": 6.119,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -2374,6 +2420,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "رسل",
+   "b": "عشر",
+   "directions": {
+    "عشر→رسل": {
+     "breath": 24,
+     "lift": 2.795,
+     "p": 0.0365,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "سبل",
    "b": "هجر",
    "directions": {
@@ -2696,6 +2758,54 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عشر",
+   "b": "قوم",
+   "directions": {
+    "عشر→قوم": {
+     "breath": 24,
+     "lift": 3.214,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "عشر",
+   "b": "كون",
+   "directions": {
+    "عشر→كون": {
+     "breath": 24,
+     "lift": 1.632,
+     "p": 0.0399,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عشر",
+   "b": "يوم",
+   "directions": {
+    "عشر→يوم": {
+     "breath": 24,
+     "lift": 3.817,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
