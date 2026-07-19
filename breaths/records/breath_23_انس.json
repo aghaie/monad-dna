@@ -1,0 +1,667 @@
+{
+ "breath_number": 23,
+ "deliberation": [
+  {
+   "root": "انس",
+   "attestation": 97
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "رجع",
+   "attestation": 104
+  },
+  {
+   "root": "بشر",
+   "attestation": 123
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "نعم",
+   "attestation": 140
+  },
+  {
+   "root": "غير",
+   "attestation": 154
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "انس",
+ "attestation": 97,
+ "ayat": 93,
+ "top": [
+  {
+   "root": "عشر",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.895,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "مسس",
+   "shared": 7,
+   "expected": 0.85,
+   "lift": 8.235,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خلق",
+   "shared": 19,
+   "expected": 3.25,
+   "lift": 5.844,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جنن",
+   "shared": 17,
+   "expected": 2.92,
+   "lift": 5.816,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "امم",
+   "shared": 8,
+   "expected": 1.61,
+   "lift": 4.967,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نعم",
+   "shared": 9,
+   "expected": 1.89,
+   "lift": 4.752,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عرض",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.657,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شطن",
+   "shared": 5,
+   "expected": 1.16,
+   "lift": 4.298,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دعو",
+   "shared": 9,
+   "expected": 2.71,
+   "lift": 3.316,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ضلل",
+   "shared": 6,
+   "expected": 2.54,
+   "lift": 2.367,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "عشر",
+  "مسس",
+  "امم",
+  "نعم",
+  "عرض",
+  "شطن",
+  "دعو"
+ ],
+ "one_way": [
+  "خلق",
+  "جنن",
+  "ضلل"
+ ],
+ "neighbor_view": {
+  "عشر": {
+   "root": "انس",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.895,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "مسس": {
+   "root": "انس",
+   "shared": 7,
+   "expected": 0.85,
+   "lift": 8.235,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خلق": null,
+  "جنن": null,
+  "امم": {
+   "root": "انس",
+   "shared": 8,
+   "expected": 1.61,
+   "lift": 4.967,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نعم": {
+   "root": "انس",
+   "shared": 9,
+   "expected": 1.89,
+   "lift": 4.752,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عرض": {
+   "root": "انس",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.657,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شطن": {
+   "root": "انس",
+   "shared": 5,
+   "expected": 1.16,
+   "lift": 4.298,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دعو": {
+   "root": "انس",
+   "shared": 9,
+   "expected": 2.71,
+   "lift": 3.316,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ضلل": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "انس↔اله",
+   "shared": 9,
+   "expected": 28.02,
+   "lift": 0.32,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔رحم",
+   "shared": 4,
+   "expected": 4.67,
+   "lift": 0.86,
+   "p_perm": 0.6777
+  },
+  {
+   "pair": "انس↔راف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔هجر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔نصر",
+   "shared": 0,
+   "expected": 2.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔اوي",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔صير",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.31,
+   "p_perm": 0.3688
+  },
+  {
+   "pair": "انس↔باس",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔غفر",
+   "shared": 0,
+   "expected": 3.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔حلم",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔عفو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔ذنب",
+   "shared": 1,
+   "expected": 0.55,
+   "lift": 1.81,
+   "p_perm": 0.4518
+  },
+  {
+   "pair": "انس↔سوا",
+   "shared": 1,
+   "expected": 2.25,
+   "lift": 0.44,
+   "p_perm": 0.9037
+  },
+  {
+   "pair": "انس↔بدو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔خفي",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔دون",
+   "shared": 0,
+   "expected": 2.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔نفع",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔ضرر",
+   "shared": 4,
+   "expected": 1.04,
+   "lift": 3.83,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "انس↔كشف",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.35,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "انس↔مسس",
+   "shared": 7,
+   "expected": 0.85,
+   "lift": 8.23,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "انس↔ذوق",
+   "shared": 2,
+   "expected": 0.91,
+   "lift": 2.2,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "انس↔الم",
+   "shared": 0,
+   "expected": 1.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "انس↔راف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔هجر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔نصر",
+   "shared": 0,
+   "expected": 2.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔اوي",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔باس",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔غفر",
+   "shared": 0,
+   "expected": 3.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔حلم",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔عفو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔بدو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔خفي",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔دون",
+   "shared": 0,
+   "expected": 2.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔نفع",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "انس↔الم",
+   "shared": 0,
+   "expected": 1.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "17:67",
+   "degree": 4,
+   "roots_present": [
+    "مسس",
+    "عرض",
+    "دعو",
+    "ضلل"
+   ]
+  },
+  {
+   "ayah": "39:8",
+   "degree": 4,
+   "roots_present": [
+    "مسس",
+    "نعم",
+    "دعو",
+    "ضلل"
+   ]
+  },
+  {
+   "ayah": "41:51",
+   "degree": 4,
+   "roots_present": [
+    "مسس",
+    "نعم",
+    "عرض",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "7:38",
+   "degree": 3,
+   "roots_present": [
+    "جنن",
+    "امم",
+    "ضلل"
+   ]
+  },
+  {
+   "ayah": "7:179",
+   "degree": 3,
+   "roots_present": [
+    "جنن",
+    "نعم",
+    "ضلل"
+   ]
+  },
+  {
+   "ayah": "17:83",
+   "degree": 3,
+   "roots_present": [
+    "مسس",
+    "نعم",
+    "عرض"
+   ]
+  },
+  {
+   "ayah": "39:49",
+   "degree": 3,
+   "roots_present": [
+    "مسس",
+    "نعم",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "6:112",
+   "degree": 2,
+   "roots_present": [
+    "جنن",
+    "شطن"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "انس+عشر": [
+   "2:60",
+   "6:128",
+   "6:130",
+   "7:160",
+   "55:33"
+  ],
+  "انس+مسس": [
+   "10:12",
+   "17:67",
+   "17:83",
+   "39:8",
+   "39:49",
+   "41:49",
+   "41:51"
+  ],
+  "انس+خلق": [
+   "4:28",
+   "15:26",
+   "16:4",
+   "19:67",
+   "21:37",
+   "23:12",
+   "25:49",
+   "32:7",
+   "36:77",
+   "50:16",
+   "51:56",
+   "55:3",
+   "55:14",
+   "70:19",
+   "76:2",
+   "86:5",
+   "90:4",
+   "95:4",
+   "96:2"
+  ],
+  "انس+جنن": [
+   "6:112",
+   "6:128",
+   "6:130",
+   "7:38",
+   "7:179",
+   "17:88",
+   "27:17",
+   "41:25",
+   "41:29",
+   "46:18",
+   "51:56",
+   "55:33",
+   "55:39",
+   "55:56",
+   "55:74",
+   "72:5",
+   "72:6"
+  ],
+  "انس+امم": [
+   "7:38",
+   "7:160",
+   "17:71",
+   "31:14",
+   "41:25",
+   "46:15",
+   "46:18",
+   "75:5"
+  ],
+  "انس+نعم": [
+   "7:179",
+   "14:34",
+   "17:83",
+   "25:49",
+   "39:8",
+   "39:49",
+   "41:51",
+   "46:15",
+   "89:15"
+  ],
+  "انس+عرض": [
+   "17:67",
+   "17:83",
+   "33:72",
+   "41:51",
+   "42:48"
+  ],
+  "انس+شطن": [
+   "6:112",
+   "12:5",
+   "17:53",
+   "25:29",
+   "59:16"
+  ],
+  "انس+دعو": [
+   "10:12",
+   "17:11",
+   "17:67",
+   "17:71",
+   "33:53",
+   "39:8",
+   "39:49",
+   "41:49",
+   "41:51"
+  ],
+  "انس+ضلل": [
+   "7:38",
+   "7:179",
+   "17:67",
+   "25:29",
+   "39:8",
+   "41:29"
+  ],
+  "انس+ضرر": [
+   "10:12",
+   "17:67",
+   "39:8",
+   "39:49"
+  ]
+ }
+}
