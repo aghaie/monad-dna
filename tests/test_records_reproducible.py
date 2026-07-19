@@ -35,6 +35,7 @@ CASES = [
     (["breaths/scripts/bridges_breath_29.py"], "breaths/records/breath_29_يتم.json"),
     (["breaths/scripts/bridges_breath_30.py"], "breaths/records/breath_30_شري.json"),
     (["breaths/scripts/bridges_breath_31.py"], "breaths/records/breath_31_لحم.json"),
+    (["breaths/scripts/bridges_breath_32.py"], "breaths/records/breath_32_دمو.json"),
 ]
 
 
