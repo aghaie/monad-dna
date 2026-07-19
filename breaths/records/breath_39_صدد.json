@@ -1,0 +1,883 @@
+{
+ "breath_number": 39,
+ "deliberation": [
+  {
+   "root": "صدد",
+   "attestation": 42
+  },
+  {
+   "root": "سخر",
+   "attestation": 42
+  },
+  {
+   "root": "جري",
+   "attestation": 64
+  },
+  {
+   "root": "يمن",
+   "attestation": 71
+  },
+  {
+   "root": "رضو",
+   "attestation": 73
+  },
+  {
+   "root": "شكر",
+   "attestation": 75
+  },
+  {
+   "root": "قلل",
+   "attestation": 76
+  },
+  {
+   "root": "حرم",
+   "attestation": 83
+  },
+  {
+   "root": "نجو",
+   "attestation": 84
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "صدد",
+ "attestation": 42,
+ "ayat": 41,
+ "top": [
+  {
+   "root": "عوج",
+   "shared": 5,
+   "expected": 0.06,
+   "lift": 84.499,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سبل",
+   "shared": 25,
+   "expected": 1.08,
+   "lift": 23.186,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حرم",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.853,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سجد",
+   "shared": 6,
+   "expected": 0.53,
+   "lift": 11.266,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بغي",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.14,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عمل",
+   "shared": 10,
+   "expected": 2.06,
+   "lift": 4.859,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كفر",
+   "shared": 14,
+   "expected": 3.06,
+   "lift": 4.579,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بعد",
+   "shared": 6,
+   "expected": 1.45,
+   "lift": 4.148,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "هدي",
+   "shared": 7,
+   "expected": 1.76,
+   "lift": 3.973,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عذب",
+   "shared": 7,
+   "expected": 2.21,
+   "lift": 3.169,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "عوج",
+  "سبل",
+  "حرم",
+  "سجد",
+  "بغي",
+  "كفر",
+  "هدي"
+ ],
+ "one_way": [
+  "عمل",
+  "بعد",
+  "عذب"
+ ],
+ "neighbor_view": {
+  "عوج": {
+   "root": "صدد",
+   "shared": 5,
+   "expected": 0.06,
+   "lift": 84.499,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سبل": {
+   "root": "صدد",
+   "shared": 25,
+   "expected": 1.08,
+   "lift": 23.186,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حرم": {
+   "root": "صدد",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.853,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سجد": {
+   "root": "صدد",
+   "shared": 6,
+   "expected": 0.53,
+   "lift": 11.266,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بغي": {
+   "root": "صدد",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.14,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عمل": null,
+  "كفر": {
+   "root": "صدد",
+   "shared": 14,
+   "expected": 3.06,
+   "lift": 4.579,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعد": null,
+  "هدي": {
+   "root": "صدد",
+   "shared": 7,
+   "expected": 1.76,
+   "lift": 3.973,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عذب": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "صدد↔اله",
+   "shared": 32,
+   "expected": 12.35,
+   "lift": 2.59,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "صدد↔رحم",
+   "shared": 1,
+   "expected": 2.06,
+   "lift": 0.49,
+   "p_perm": 0.8904
+  },
+  {
+   "pair": "صدد↔راف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔هجر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔نصر",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔اوي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔صير",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔باس",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔غفر",
+   "shared": 3,
+   "expected": 1.33,
+   "lift": 2.26,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "صدد↔حلم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔عفو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔ذنب",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.11,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "صدد↔سوا",
+   "shared": 4,
+   "expected": 0.99,
+   "lift": 4.03,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "صدد↔بدو",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.24,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "صدد↔خفي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔دون",
+   "shared": 2,
+   "expected": 0.93,
+   "lift": 2.14,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "صدد↔نفع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔ضرر",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.17,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "صدد↔كشف",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔مسس",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔ذوق",
+   "shared": 2,
+   "expected": 0.4,
+   "lift": 4.99,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "صدد↔الم",
+   "shared": 3,
+   "expected": 0.48,
+   "lift": 6.25,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "صدد↔انس",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔عشر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔عرض",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔بغي",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.14,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "صدد↔عوج",
+   "shared": 5,
+   "expected": 0.06,
+   "lift": 84.5,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "صدد↔سبل",
+   "shared": 25,
+   "expected": 1.08,
+   "lift": 23.19,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "صدد↔يتم",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔شري",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.61,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "صدد↔لحم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔دمو",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔ثمن",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.01,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "صدد↔فلك",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔وسع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔كلف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔جهد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔قسم",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "صدد↔راف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔هجر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔نصر",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔اوي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔صير",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔باس",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔حلم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔عفو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔خفي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔نفع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔كشف",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔مسس",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔انس",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔عشر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔عرض",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔يتم",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔لحم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔دمو",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔فلك",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔وسع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔كلف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔جهد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "صدد↔قسم",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:217",
+   "degree": 5,
+   "roots_present": [
+    "سبل",
+    "حرم",
+    "سجد",
+    "عمل",
+    "كفر"
+   ]
+  },
+  {
+   "ayah": "22:25",
+   "degree": 5,
+   "roots_present": [
+    "سبل",
+    "حرم",
+    "سجد",
+    "كفر",
+    "عذب"
+   ]
+  },
+  {
+   "ayah": "47:32",
+   "degree": 5,
+   "roots_present": [
+    "سبل",
+    "عمل",
+    "كفر",
+    "بعد",
+    "هدي"
+   ]
+  },
+  {
+   "ayah": "48:25",
+   "degree": 5,
+   "roots_present": [
+    "حرم",
+    "سجد",
+    "كفر",
+    "هدي",
+    "عذب"
+   ]
+  },
+  {
+   "ayah": "3:99",
+   "degree": 4,
+   "roots_present": [
+    "عوج",
+    "سبل",
+    "بغي",
+    "عمل"
+   ]
+  },
+  {
+   "ayah": "5:2",
+   "degree": 4,
+   "roots_present": [
+    "حرم",
+    "سجد",
+    "بغي",
+    "هدي"
+   ]
+  },
+  {
+   "ayah": "7:45",
+   "degree": 4,
+   "roots_present": [
+    "عوج",
+    "سبل",
+    "بغي",
+    "كفر"
+   ]
+  },
+  {
+   "ayah": "11:19",
+   "degree": 4,
+   "roots_present": [
+    "عوج",
+    "سبل",
+    "بغي",
+    "كفر"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "صدد+عوج": [
+   "3:99",
+   "7:45",
+   "7:86",
+   "11:19",
+   "14:3"
+  ],
+  "صدد+سبل": [
+   "2:217",
+   "3:99",
+   "4:160",
+   "4:167",
+   "7:45",
+   "7:86",
+   "8:36",
+   "8:47",
+   "9:9",
+   "9:34",
+   "11:19",
+   "13:33",
+   "14:3",
+   "16:88",
+   "16:94",
+   "22:25",
+   "27:24",
+   "29:38",
+   "40:37",
+   "43:37"
+  ],
+  "صدد+حرم": [
+   "2:217",
+   "4:160",
+   "5:2",
+   "8:34",
+   "22:25",
+   "48:25"
+  ],
+  "صدد+سجد": [
+   "2:217",
+   "5:2",
+   "8:34",
+   "22:25",
+   "27:24",
+   "48:25"
+  ],
+  "صدد+بغي": [
+   "3:99",
+   "5:2",
+   "7:45",
+   "7:86",
+   "11:19",
+   "14:3"
+  ],
+  "صدد+عمل": [
+   "2:217",
+   "3:99",
+   "8:47",
+   "9:9",
+   "27:24",
+   "29:38",
+   "40:37",
+   "47:1",
+   "47:32",
+   "63:2"
+  ],
+  "صدد+كفر": [
+   "2:217",
+   "4:167",
+   "7:45",
+   "8:36",
+   "11:19",
+   "13:33",
+   "16:88",
+   "22:25",
+   "27:43",
+   "34:43",
+   "47:1",
+   "47:32",
+   "47:34",
+   "48:25"
+  ],
+  "صدد+بعد": [
+   "4:167",
+   "14:3",
+   "16:94",
+   "28:87",
+   "34:32",
+   "47:32"
+  ],
+  "صدد+هدي": [
+   "5:2",
+   "13:33",
+   "27:24",
+   "34:32",
+   "43:37",
+   "47:32",
+   "48:25"
+  ],
+  "صدد+عذب": [
+   "8:34",
+   "9:34",
+   "16:88",
+   "16:94",
+   "22:25",
+   "48:25",
+   "58:16"
+  ],
+  "صدد+اله": [
+   "2:217",
+   "3:99",
+   "4:61",
+   "4:160",
+   "4:167",
+   "5:2",
+   "5:91",
+   "7:45",
+   "7:86",
+   "8:34",
+   "8:36",
+   "8:47",
+   "9:9",
+   "9:34",
+   "11:19",
+   "13:33",
+   "14:3",
+   "14:10",
+   "16:88",
+   "16:94"
+  ],
+  "صدد+سوا": [
+   "9:9",
+   "16:94",
+   "40:37",
+   "63:2"
+  ],
+  "صدد+الم": [
+   "9:34",
+   "22:25",
+   "48:25"
+  ]
+ }
+}
