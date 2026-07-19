@@ -14,6 +14,9 @@
   monad observe [ROOT]    مشورت با رصدخانه (موجودِ سوم): بی‌آرگومان = کجاها
                           غیرعادی و نزیسته‌اند؛ با ROOT = سه‌نوع‌پیام. فقط نشانی،
                           هرگز نمی‌نویسد. (بساز: python3 observatory/build.py)
+  monad recall ROOT       L4 — حافظهٔ انتخابی: فقط برشِ مرتبط با این ریشه از
+                          life.db/graph/knowledge/رصدخانه؛ نه کلِ تاریخ.
+                          فقط‌خواندنی، الگوریتمی، coverage صریح.
 """
 import json
 import os
@@ -104,6 +107,65 @@ def cmd_breathe_record(root=None):
     record = bc.breathe_record(corpus, pursued=pursued, queue=deliberation_queue,
                                lived=lived, breath_no=breath_no, chosen_by=chosen_by)
     print(json.dumps(record, ensure_ascii=False, indent=1))
+
+
+def cmd_recall(root):
+    """L4 — حافظهٔ انتخابی (Retrieval): فقط برشِ مرتبط با یک ریشه، نه کلِ تاریخ.
+
+    الگوریتمیِ محض، فقط‌خواندنی. جایگزینِ بارگذاریِ کاملِ knowledge.json/دفترها
+    در هر جلسه — بدونِ حذفِ هیچ سطرِ مرتبط (زیرمجموعه‌سازیِ کامل، نه نمونه).
+    `coverage` صریح می‌گوید چه کسری از کل بار شد؛ سقفِ خاموش ممنوع
+    (docs/PERFORMANCE-ARCHITECTURE.md، اصلِ L4).
+    """
+    db = sqlite3.connect("database/life.db")
+    findings_total = db.execute("SELECT COUNT(*) FROM findings").fetchone()[0]
+    findings = [
+        dict(breath_no=b, center=c, neighbor=n, shared=s, expected=e,
+             lift=l, p_perm=p, stable=bool(st), tier=t)
+        for b, c, n, s, e, l, p, st, t in db.execute(
+            "SELECT breath_no, center_root, neighbor_root, shared_ayat, expected, "
+            "lift, p_perm, stable, tier FROM findings "
+            "WHERE center_root=? OR neighbor_root=? ORDER BY breath_no", (root, root))]
+
+    graph = json.load(open("graph/graph.json"))
+    graph_edges = [e for e in graph["edges"] if root in (e["a"], e["b"])]
+
+    know = json.load(open("discoveries/knowledge.json"))
+    strong = [f for f in know["strong_findings"] if root in (f["center"], f["neighbor"])]
+    absence = [p for p in know["absence_evidence"] if root in p["pair"].split("↔")]
+    spines = [s for s in know["provenance_spines"] if root in s["roots"].split("+")]
+
+    obs_entry = None
+    if os.path.exists("observatory/observatory.json"):
+        obs = json.load(open("observatory/observatory.json"))
+        e = next((x for x in obs["roots"] if x["root"] == root), None)
+        if e:
+            island = next((isl for isl in obs["edges"]["islands"] if root in isl["roots"]), None)
+            obs_entry = dict(
+                attestation=e["attestation"], ayat=e["ayat"], top=e["top"],
+                mutual_strong_edges=[x for x in obs["edges"]["mutual_strong"]
+                                     if root in (x["a"], x["b"])],
+                island_size=(island["size"] if island else None))
+
+    print(json.dumps(dict(
+        root=root,
+        coverage=dict(
+            life_db_findings_total=findings_total,
+            life_db_findings_for_root=len(findings),
+            knowledge_strong_total=len(know["strong_findings"]),
+            knowledge_strong_for_root=len(strong),
+            knowledge_absence_total=len(know["absence_evidence"]),
+            knowledge_absence_for_root=len(absence),
+            knowledge_spines_total=len(know["provenance_spines"]),
+            knowledge_spines_for_root=len(spines),
+            note="فقط سطرهای مرتبط با این ریشه بار شد؛ کلِ تاریخ لازم نیست.",
+        ),
+        findings=findings,
+        graph_edges=graph_edges,
+        knowledge=dict(strong_findings=strong, absence_evidence=absence,
+                       provenance_spines=spines),
+        observatory=obs_entry,
+    ), ensure_ascii=False, indent=1))
 
 
 def cmd_verify():
@@ -248,6 +310,11 @@ if __name__ == "__main__":
         cmd_seed_db()
     elif args[0] == "observe":
         cmd_observe(args[1] if len(args) > 1 else None)
+    elif args[0] == "recall":
+        if len(args) < 2:
+            print(json.dumps({"خطا": "recall نیازمندِ ROOT است"}, ensure_ascii=False))
+            sys.exit(1)
+        cmd_recall(args[1])
     else:
         print(__doc__)
         sys.exit(1)
