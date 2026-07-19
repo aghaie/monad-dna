@@ -130,3 +130,75 @@ def joint_ayat(corpus, roots, limit=20):
     sets = [corpus["root_ayat"][r] for r in roots]
     hit = set.intersection(*sets) if sets else set()
     return [f"{s}:{a}" for s, a in sorted(hit)][:limit]
+
+
+def breathe_record(corpus, pursued, queue, lived, breath_no, chosen_by, seed=SEED):
+    """رکوردِ کاملِ یک نفسِ پل (L3) — همان بدنهٔ اسکریپت‌های تاریخیِ
+    breaths/scripts/bridges_breath_NN.py، فقط پارامتری‌شده و بی‌تغییرِ رفتار.
+
+    هیچ توکن/مدل مصرف نمی‌کند؛ خروجی قطعی است (seed ثابت). قیدِ طلایی
+    (docs/PERFORMANCE-ARCHITECTURE.md): خروجی باید بایت‌به‌بایت با رکوردِ
+    متعارف یکی باشد؛ داورش tests/test_breathe_record.py است. این فقط
+    اسکریپت‌نویسیِ دستیِ ۸۲٪-همسان را از لایهٔ مدل برمی‌دارد — نه معنا
+    می‌سازد، نه چیزی به ساختار می‌افزاید.
+
+    پارامترها همان‌های اسکریپت‌اند: `queue` = QUEUE (فقط برای deliberation؛
+    مرتب‌سازیِ پایدار بر شاهد)، `lived` = LIVED (ترتیب مهم است — فرافکنی و
+    ستون‌ها به همان ترتیب ساخته می‌شوند).
+    """
+    attest = corpus["attest"]
+    main = breathe(corpus, pursued, seed)
+
+    reciprocal, one_way, neighbor_view = [], [], {}
+    for row in main["top"]:
+        nb = row["root"]
+        back = breathe(corpus, nb, seed)
+        hit = next((r for r in back["top"] if r["root"] == pursued), None)
+        neighbor_view[nb] = hit
+        if hit and hit["p_perm"] < 0.05:
+            reciprocal.append(nb)
+        else:
+            one_way.append(nb)
+
+    projection = [pair_stats(corpus, pursued, r, seed) for r in lived]
+    absence = [p for p in projection if p["shared"] == 0]
+
+    A = corpus["root_ayat"][pursued]
+    top_roots = [r["root"] for r in main["top"]]
+    deg = []
+    for sa in A:
+        d = [r for r in top_roots if sa in corpus["root_ayat"][r]]
+        if d:
+            deg.append((len(d), f"{sa[0]}:{sa[1]}", d))
+    deg.sort(key=lambda x: (-x[0], tuple(map(int, x[1].split(":")))))
+    central = [{"ayah": a, "degree": n, "roots_present": r} for n, a, r in deg[:8]]
+
+    spines = {}
+    for row in main["top"]:
+        if row["p_perm"] < 0.05:
+            spines[f"{pursued}+{row['root']}"] = joint_ayat(
+                corpus, [pursued, row["root"]])
+    for p in projection:
+        if p["p_perm"] < 0.05 and p["shared"] > 0:
+            b = p["pair"].split("↔")[1]
+            spines.setdefault(f"{pursued}+{b}", joint_ayat(corpus, [pursued, b]))
+
+    return {
+        "breath_number": breath_no,
+        "deliberation": sorted(
+            [{"root": r, "attestation": attest[r]} for r in queue],
+            key=lambda x: x["attestation"]),
+        "chosen_by": chosen_by,
+        "pursued": pursued,
+        "attestation": main["attestation"],
+        "ayat": main["ayat"],
+        "top": main["top"],
+        "halves_overlap": main["halves_overlap"],
+        "reciprocal": reciprocal,
+        "one_way": one_way,
+        "neighbor_view": {k: v for k, v in neighbor_view.items()},
+        "projection_on_map": projection,
+        "absence_evidence": absence,
+        "central_ayat": central,
+        "citation_spines": spines,
+    }

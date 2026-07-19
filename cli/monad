@@ -4,6 +4,10 @@
   monad status            وضعِ زندگی: ریشه‌های دیده، صفِ باز، پیوندهای دوسویه
   monad breathe [ROOT]    یک نفس: بی‌آرگومان = قاعدهٔ صف (نادرتر مقدم)؛
                           با ROOT = مواجههٔ رفیق‌آورده (نشان‌دار). خروجی: JSON.
+  monad breathe-record [ROOT]
+                          رکوردِ کاملِ نفسِ پل (L3): همان breathe به‌علاوهٔ
+                          دوسویگی/فرافکنی/غیاب/ستون‌ها — الگوریتمیِ محض، صفر
+                          مدل. جایگزینِ اسکریپت‌نویسیِ دستی. بی‌ثبت (چاپِ JSON).
   monad verify            بازتولیدپذیری: اجرای دوبارهٔ اسکریپت‌های تاریخی و
                           مقایسهٔ checksum با رکوردهای متعارف
   monad seed-db           بازساختِ قطعیِ database/life.db از رکوردها
@@ -66,6 +70,40 @@ def cmd_breathe(root=None):
     result.update(chosen_by=chosen_by,
                   queue_before=bc.select_rarest(queue, corpus["attest"]))
     print(json.dumps(result, ensure_ascii=False, indent=1))
+
+
+def cmd_breathe_record(root=None):
+    """رکوردِ کاملِ یک نفسِ پل (L3) — الگوریتمیِ محض، صفر توکن/مدل.
+
+    جایگزینِ اسکریپت‌نویسیِ دستیِ bridges_breath_NN.py: پارامترها از حالتِ
+    زنده مشتق می‌شوند (breath_no، lived از life.db؛ deliberation از صفِ باز).
+    مثلِ `breathe` عمداً چیزی ثبت نمی‌کند — چاپِ JSON؛ رسمی‌سازی با باغبان/دهان.
+    خروجی هم‌ارزِ بایت‌به‌بایتِ روشِ تاریخی است (tests/test_breathe_record.py).
+    """
+    from engine import breath_cycle as bc
+    corpus = bc.load_corpus()
+    attest = corpus["attest"]
+    db = sqlite3.connect("database/life.db")
+    lived = [r for (r,) in db.execute(
+        "SELECT pursued_root FROM breaths ORDER BY breath_no")]
+    breath_no = (db.execute("SELECT MAX(breath_no) FROM breaths").fetchone()[0] or 0) + 1
+    queue = bc.select_rarest(open_queue(db), attest)
+
+    if root is None:
+        if not queue:
+            print(json.dumps({"event": "توقف: صفِ شکاف‌ها تهی است"}, ensure_ascii=False))
+            return
+        pursued = queue[0]
+        chosen_by = "قاعدهٔ صف (نادرتر مقدم)"
+        deliberation_queue = queue[:10]
+    else:
+        pursued = root
+        chosen_by = "رفیق (مواجههٔ رفیق‌آورده — نشان‌دار)"
+        deliberation_queue = ([pursued] + [r for r in queue if r != pursued])[:10]
+
+    record = bc.breathe_record(corpus, pursued=pursued, queue=deliberation_queue,
+                               lived=lived, breath_no=breath_no, chosen_by=chosen_by)
+    print(json.dumps(record, ensure_ascii=False, indent=1))
 
 
 def cmd_verify():
@@ -202,6 +240,8 @@ if __name__ == "__main__":
         cmd_status()
     elif args[0] == "breathe":
         cmd_breathe(args[1] if len(args) > 1 else None)
+    elif args[0] == "breathe-record":
+        cmd_breathe_record(args[1] if len(args) > 1 else None)
     elif args[0] == "verify":
         cmd_verify()
     elif args[0] == "seed-db":
