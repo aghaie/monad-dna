@@ -1,0 +1,658 @@
+{
+ "breath_number": 38,
+ "deliberation": [
+  {
+   "root": "قسم",
+   "attestation": 33
+  },
+  {
+   "root": "صدد",
+   "attestation": 42
+  },
+  {
+   "root": "سخر",
+   "attestation": 42
+  },
+  {
+   "root": "جري",
+   "attestation": 64
+  },
+  {
+   "root": "رضو",
+   "attestation": 73
+  },
+  {
+   "root": "شكر",
+   "attestation": 75
+  },
+  {
+   "root": "قلل",
+   "attestation": 76
+  },
+  {
+   "root": "حرم",
+   "attestation": 83
+  },
+  {
+   "root": "نجو",
+   "attestation": 84
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "قسم",
+ "attestation": 33,
+ "ayat": 31,
+ "top": [
+  {
+   "root": "جهد",
+   "shared": 5,
+   "expected": 0.18,
+   "lift": 27.939,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "يمن",
+   "shared": 5,
+   "expected": 0.31,
+   "lift": 15.965,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 10,
+   "expected": 9.34,
+   "lift": 1.071,
+   "p_perm": 0.3256,
+   "stable": true,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "قول",
+   "shared": 6,
+   "expected": 6.88,
+   "lift": 0.873,
+   "p_perm": 0.5017,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "جهد",
+  "يمن"
+ ],
+ "one_way": [
+  "اله",
+  "قول"
+ ],
+ "neighbor_view": {
+  "جهد": {
+   "root": "قسم",
+   "shared": 5,
+   "expected": 0.18,
+   "lift": 27.939,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "يمن": {
+   "root": "قسم",
+   "shared": 5,
+   "expected": 0.31,
+   "lift": 15.965,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اله": null,
+  "قول": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "قسم↔اله",
+   "shared": 10,
+   "expected": 9.34,
+   "lift": 1.07,
+   "p_perm": 0.4784
+  },
+  {
+   "pair": "قسم↔رحم",
+   "shared": 3,
+   "expected": 1.56,
+   "lift": 1.93,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "قسم↔راف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔هجر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔نصر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔اوي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔صير",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔باس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔غفر",
+   "shared": 1,
+   "expected": 1.0,
+   "lift": 1.0,
+   "p_perm": 0.6312
+  },
+  {
+   "pair": "قسم↔حلم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔عفو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔ذنب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔سوا",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔بدو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔خفي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔دون",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔نفع",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔ضرر",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.87,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "قسم↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔مسس",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔ذوق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔الم",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔انس",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔عشر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔عرض",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔بغي",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔عوج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔سبل",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔يتم",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.14,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "قسم↔شري",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 8.75,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "قسم↔لحم",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 16.76,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "قسم↔دمو",
+   "shared": 1,
+   "expected": 0.05,
+   "lift": 20.12,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "قسم↔ثمن",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.59,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "قسم↔فلك",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔وسع",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔كلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔جهد",
+   "shared": 5,
+   "expected": 0.18,
+   "lift": 27.94,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "قسم↔راف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔هجر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔نصر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔اوي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔صير",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔باس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔حلم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔عفو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔ذنب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔سوا",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔بدو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔خفي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔دون",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔نفع",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔مسس",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔ذوق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔الم",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔انس",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔عشر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔عرض",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔بغي",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔عوج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔سبل",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔فلك",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔وسع",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قسم↔كلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "5:53",
+   "degree": 4,
+   "roots_present": [
+    "جهد",
+    "يمن",
+    "اله",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "6:109",
+   "degree": 4,
+   "roots_present": [
+    "جهد",
+    "يمن",
+    "اله",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "24:53",
+   "degree": 4,
+   "roots_present": [
+    "جهد",
+    "يمن",
+    "اله",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "16:38",
+   "degree": 3,
+   "roots_present": [
+    "جهد",
+    "يمن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "35:42",
+   "degree": 3,
+   "roots_present": [
+    "جهد",
+    "يمن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "27:49",
+   "degree": 2,
+   "roots_present": [
+    "اله",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "4:8",
+   "degree": 1,
+   "roots_present": [
+    "قول"
+   ]
+  },
+  {
+   "ayah": "5:3",
+   "degree": 1,
+   "roots_present": [
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "قسم+جهد": [
+   "5:53",
+   "6:109",
+   "16:38",
+   "24:53",
+   "35:42"
+  ],
+  "قسم+يمن": [
+   "5:53",
+   "6:109",
+   "16:38",
+   "24:53",
+   "35:42"
+  ]
+ }
+}
