@@ -1,0 +1,603 @@
+{
+ "breath_number": 24,
+ "deliberation": [
+  {
+   "root": "عشر",
+   "attestation": 27
+  },
+  {
+   "root": "عرض",
+   "attestation": 79
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "رجع",
+   "attestation": 104
+  },
+  {
+   "root": "امم",
+   "attestation": 119
+  },
+  {
+   "root": "بشر",
+   "attestation": 123
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "نعم",
+   "attestation": 140
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "عشر",
+ "attestation": 27,
+ "ayat": 26,
+ "top": [
+  {
+   "root": "انس",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.895,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جنن",
+   "shared": 5,
+   "expected": 0.82,
+   "lift": 6.119,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "يوم",
+   "shared": 6,
+   "expected": 1.57,
+   "lift": 3.817,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قوم",
+   "shared": 8,
+   "expected": 2.49,
+   "lift": 3.214,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اتي",
+   "shared": 6,
+   "expected": 2.03,
+   "lift": 2.961,
+   "p_perm": 0.0199,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رسل",
+   "shared": 5,
+   "expected": 1.79,
+   "lift": 2.795,
+   "p_perm": 0.0365,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امن",
+   "shared": 5,
+   "expected": 3.01,
+   "lift": 1.659,
+   "p_perm": 0.0797,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "علم",
+   "shared": 5,
+   "expected": 3.04,
+   "lift": 1.647,
+   "p_perm": 0.1993,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "كون",
+   "shared": 8,
+   "expected": 4.9,
+   "lift": 1.632,
+   "p_perm": 0.0399,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قول",
+   "shared": 9,
+   "expected": 5.77,
+   "lift": 1.561,
+   "p_perm": 0.0532,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "انس"
+ ],
+ "one_way": [
+  "جنن",
+  "يوم",
+  "قوم",
+  "اتي",
+  "رسل",
+  "امن",
+  "علم",
+  "كون",
+  "قول"
+ ],
+ "neighbor_view": {
+  "انس": {
+   "root": "عشر",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.895,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "جنن": null,
+  "يوم": null,
+  "قوم": null,
+  "اتي": null,
+  "رسل": null,
+  "امن": null,
+  "علم": null,
+  "كون": null,
+  "قول": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "عشر↔اله",
+   "shared": 12,
+   "expected": 7.83,
+   "lift": 1.53,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "عشر↔رحم",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔راف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔هجر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔نصر",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔اوي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔صير",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔باس",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.58,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "عشر↔غفر",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔حلم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔عفو",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔ذنب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔سوا",
+   "shared": 2,
+   "expected": 0.63,
+   "lift": 3.18,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "عشر↔بدو",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔خفي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔دون",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.69,
+   "p_perm": 0.4884
+  },
+  {
+   "pair": "عشر↔نفع",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 4.89,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "عشر↔ضرر",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.43,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "عشر↔كشف",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔مسس",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔ذوق",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔الم",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔انس",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.89,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "عشر↔رحم",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔راف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔هجر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔نصر",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔اوي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔صير",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔غفر",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔حلم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔عفو",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔ذنب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔بدو",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔خفي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔كشف",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔مسس",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔ذوق",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عشر↔الم",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "6:130",
+   "degree": 7,
+   "roots_present": [
+    "انس",
+    "جنن",
+    "يوم",
+    "اتي",
+    "رسل",
+    "كون",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "5:12",
+   "degree": 6,
+   "roots_present": [
+    "جنن",
+    "قوم",
+    "اتي",
+    "رسل",
+    "امن",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "58:22",
+   "degree": 6,
+   "roots_present": [
+    "جنن",
+    "يوم",
+    "قوم",
+    "رسل",
+    "امن",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "6:128",
+   "degree": 5,
+   "roots_present": [
+    "انس",
+    "جنن",
+    "يوم",
+    "علم",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "9:24",
+   "degree": 5,
+   "roots_present": [
+    "قوم",
+    "اتي",
+    "رسل",
+    "كون",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "2:60",
+   "degree": 4,
+   "roots_present": [
+    "انس",
+    "قوم",
+    "علم",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "2:196",
+   "degree": 4,
+   "roots_present": [
+    "يوم",
+    "امن",
+    "علم",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "7:160",
+   "degree": 4,
+   "roots_present": [
+    "انس",
+    "قوم",
+    "علم",
+    "كون"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "عشر+انس": [
+   "2:60",
+   "6:128",
+   "6:130",
+   "7:160",
+   "55:33"
+  ],
+  "عشر+جنن": [
+   "5:12",
+   "6:128",
+   "6:130",
+   "55:33",
+   "58:22"
+  ],
+  "عشر+يوم": [
+   "2:196",
+   "5:89",
+   "6:128",
+   "6:130",
+   "9:36",
+   "58:22"
+  ],
+  "عشر+قوم": [
+   "2:60",
+   "5:12",
+   "7:142",
+   "7:160",
+   "8:65",
+   "9:24",
+   "9:36",
+   "58:22"
+  ],
+  "عشر+اتي": [
+   "4:19",
+   "5:12",
+   "6:130",
+   "9:24",
+   "11:13",
+   "34:45"
+  ],
+  "عشر+رسل": [
+   "5:12",
+   "6:130",
+   "9:24",
+   "34:45",
+   "58:22"
+  ],
+  "عشر+كون": [
+   "2:196",
+   "6:130",
+   "7:160",
+   "8:65",
+   "9:24",
+   "11:13",
+   "34:45",
+   "58:22"
+  ]
+ }
+}
