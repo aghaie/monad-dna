@@ -176,7 +176,8 @@
   "فلك",
   "وسع",
   "كلف",
-  "جهد"
+  "جهد",
+  "قسم"
  ],
  "open_queue": [
   "اذن",
@@ -185,7 +186,6 @@
   "قلل",
   "صدد",
   "سخر",
-  "قسم",
   "بحر",
   "شطن",
   "رضو",
@@ -2186,6 +2186,14 @@
    "directions": {
     "جهد→قسم": {
      "breath": 37,
+     "lift": 27.939,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "قسم→جهد": {
+     "breath": 38,
      "lift": 27.939,
      "p": 0.0033,
      "stable": false,
@@ -4263,6 +4271,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قسم",
+   "b": "يمن",
+   "directions": {
+    "قسم→يمن": {
+     "breath": 38,
+     "lift": 15.965,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
