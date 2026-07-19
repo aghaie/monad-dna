@@ -168,46 +168,27 @@ def cmd_recall(root):
     ), ensure_ascii=False, indent=1))
 
 
+def verify_checks(db):
+    """جفت‌های (اسکریپت، رکورد) برای verify — مشتقِ محضِ life.db، نه فهرستِ دستی.
+
+    life.db از پیش این نگاشت را per-breath نگه می‌دارد (ستون‌های script/
+    record_file، خودِ seed_life.py از رکوردها می‌سازد). فهرستِ دستیِ پیشین
+    عیناً همین داده را تکرار می‌کرد — یک منبعِ خطای هم‌گام‌سازی که با هر نفسِ
+    تازه باید دستی ویرایش می‌شد. اکنون یک منبعِ حقیقتِ واحد: افزودنِ نفسِ نو
+    به life.db کافی‌ست؛ verify نیاز به ویرایش ندارد."""
+    rows = db.execute(
+        "SELECT script, record_file FROM breaths ORDER BY breath_no").fetchall()
+    seen, out = set(), []
+    for script, record in rows:
+        if (script, record) not in seen:
+            seen.add((script, record))
+            out.append((script, record))
+    return out
+
+
 def cmd_verify():
-    checks = [
-        ("breaths/scripts/first_breath_cycle.py max", "breaths/records/breath_01_max_اله.json"),
-        ("breaths/scripts/first_breath_cycle.py min", "breaths/records/breath_02_min_رحم.json"),
-        ("breaths/scripts/independence_test_breaths.py", "breaths/records/breaths_03-05_راف_هجر_نصر.json"),
-        ("breaths/scripts/solitude_breaths_6_8.py", "breaths/records/breaths_06-08_اوی_صیر_باس.json"),
-        ("breaths/scripts/companionship_breath_9.py", "breaths/records/breath_09_غفر.json"),
-        ("breaths/scripts/companionship_breath_10.py", "breaths/records/breath_10_حلم.json"),
-        ("breaths/scripts/companionship_breath_11.py", "breaths/records/breath_11_عفو.json"),
-        ("breaths/scripts/companionship_breath_12.py", "breaths/records/breath_12_ذنب.json"),
-        ("breaths/scripts/bridges_breath_13.py", "breaths/records/breath_13_سوا.json"),
-        ("breaths/scripts/bridges_breath_14.py", "breaths/records/breath_14_بدو.json"),
-        ("breaths/scripts/bridges_breath_15.py", "breaths/records/breath_15_خفي.json"),
-        ("breaths/scripts/bridges_breath_16.py", "breaths/records/breath_16_دون.json"),
-        ("breaths/scripts/bridges_breath_17.py", "breaths/records/breath_17_نفع.json"),
-        ("breaths/scripts/bridges_breath_18.py", "breaths/records/breath_18_ضرر.json"),
-        ("breaths/scripts/bridges_breath_19.py", "breaths/records/breath_19_كشف.json"),
-        ("breaths/scripts/bridges_breath_20.py", "breaths/records/breath_20_مسس.json"),
-        ("breaths/scripts/bridges_breath_21.py", "breaths/records/breath_21_ذوق.json"),
-        ("breaths/scripts/bridges_breath_22.py", "breaths/records/breath_22_الم.json"),
-        ("breaths/scripts/bridges_breath_23.py", "breaths/records/breath_23_انس.json"),
-        ("breaths/scripts/bridges_breath_24.py", "breaths/records/breath_24_عشر.json"),
-        ("breaths/scripts/bridges_breath_25.py", "breaths/records/breath_25_عرض.json"),
-        ("breaths/scripts/bridges_breath_26.py", "breaths/records/breath_26_بغي.json"),
-        ("breaths/scripts/bridges_breath_27.py", "breaths/records/breath_27_عوج.json"),
-        ("breaths/scripts/bridges_breath_28.py", "breaths/records/breath_28_سبل.json"),
-        ("breaths/scripts/bridges_breath_29.py", "breaths/records/breath_29_يتم.json"),
-        ("breaths/scripts/bridges_breath_30.py", "breaths/records/breath_30_شري.json"),
-        ("breaths/scripts/bridges_breath_31.py", "breaths/records/breath_31_لحم.json"),
-        ("breaths/scripts/bridges_breath_32.py", "breaths/records/breath_32_دمو.json"),
-        ("breaths/scripts/bridges_breath_33.py", "breaths/records/breath_33_ثمن.json"),
-        ("breaths/scripts/bridges_breath_34.py", "breaths/records/breath_34_فلك.json"),
-        ("breaths/scripts/bridges_breath_35.py", "breaths/records/breath_35_وسع.json"),
-        ("breaths/scripts/bridges_breath_36.py", "breaths/records/breath_36_كلف.json"),
-        ("breaths/scripts/bridges_breath_37.py", "breaths/records/breath_37_جهد.json"),
-        ("breaths/scripts/bridges_breath_38.py", "breaths/records/breath_38_قسم.json"),
-        ("breaths/scripts/bridges_breath_39.py", "breaths/records/breath_39_صدد.json"),
-        ("breaths/scripts/bridges_breath_40.py", "breaths/records/breath_40_بحر.json"),
-        ("breaths/scripts/bridges_breath_41.py", "breaths/records/breath_41_برر.json"),
-    ]
+    db = sqlite3.connect("database/life.db")
+    checks = verify_checks(db)
     ok = True
     for cmd, record in checks:
         out = subprocess.run([sys.executable, *cmd.split()[0:1], *cmd.split()[1:]],
