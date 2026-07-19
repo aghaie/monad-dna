@@ -1,0 +1,586 @@
+{
+ "breath_number": 25,
+ "deliberation": [
+  {
+   "root": "عرض",
+   "attestation": 79
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "رجع",
+   "attestation": 104
+  },
+  {
+   "root": "امم",
+   "attestation": 119
+  },
+  {
+   "root": "بشر",
+   "attestation": 123
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "نعم",
+   "attestation": 140
+  },
+  {
+   "root": "غير",
+   "attestation": 154
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "عرض",
+ "attestation": 79,
+ "ayat": 72,
+ "top": [
+  {
+   "root": "بغي",
+   "shared": 5,
+   "expected": 1.04,
+   "lift": 4.812,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "انس",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.657,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دنو",
+   "shared": 6,
+   "expected": 1.48,
+   "lift": 4.06,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ذكر",
+   "shared": 12,
+   "expected": 3.05,
+   "lift": 3.937,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سمع",
+   "shared": 5,
+   "expected": 1.88,
+   "lift": 2.657,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غفر",
+   "shared": 6,
+   "expected": 2.33,
+   "lift": 2.573,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ولي",
+   "shared": 6,
+   "expected": 2.33,
+   "lift": 2.573,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اتي",
+   "shared": 14,
+   "expected": 5.61,
+   "lift": 2.495,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ايي",
+   "shared": 10,
+   "expected": 4.08,
+   "lift": 2.454,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دعو",
+   "shared": 5,
+   "expected": 2.1,
+   "lift": 2.379,
+   "p_perm": 0.0731,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "انس",
+  "ذكر"
+ ],
+ "one_way": [
+  "بغي",
+  "دنو",
+  "سمع",
+  "غفر",
+  "ولي",
+  "اتي",
+  "ايي",
+  "دعو"
+ ],
+ "neighbor_view": {
+  "بغي": null,
+  "انس": {
+   "root": "عرض",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.657,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دنو": null,
+  "ذكر": {
+   "root": "عرض",
+   "shared": 12,
+   "expected": 3.05,
+   "lift": 3.937,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سمع": null,
+  "غفر": null,
+  "ولي": null,
+  "اتي": null,
+  "ايي": null,
+  "دعو": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "عرض↔اله",
+   "shared": 24,
+   "expected": 21.69,
+   "lift": 1.11,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "عرض↔رحم",
+   "shared": 6,
+   "expected": 3.61,
+   "lift": 1.66,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "عرض↔راف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔هجر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔نصر",
+   "shared": 0,
+   "expected": 1.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔اوي",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.41,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "عرض↔صير",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔باس",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔غفر",
+   "shared": 6,
+   "expected": 2.33,
+   "lift": 2.57,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "عرض↔حلم",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.33,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "عرض↔عفو",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.79,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "عرض↔ذنب",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.34,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "عرض↔سوا",
+   "shared": 1,
+   "expected": 1.74,
+   "lift": 0.57,
+   "p_perm": 0.8372
+  },
+  {
+   "pair": "عرض↔بدو",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔خفي",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.59,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "عرض↔دون",
+   "shared": 1,
+   "expected": 1.64,
+   "lift": 0.61,
+   "p_perm": 0.8206
+  },
+  {
+   "pair": "عرض↔نفع",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔ضرر",
+   "shared": 2,
+   "expected": 0.81,
+   "lift": 2.47,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "عرض↔كشف",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔مسس",
+   "shared": 3,
+   "expected": 0.66,
+   "lift": 4.56,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "عرض↔ذوق",
+   "shared": 2,
+   "expected": 0.7,
+   "lift": 2.84,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "عرض↔الم",
+   "shared": 1,
+   "expected": 0.84,
+   "lift": 1.19,
+   "p_perm": 0.5515
+  },
+  {
+   "pair": "عرض↔انس",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.66,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "عرض↔عشر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "عرض↔راف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔هجر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔نصر",
+   "shared": 0,
+   "expected": 1.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔صير",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔باس",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔بدو",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔نفع",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔كشف",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عرض↔عشر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "24:33",
+   "degree": 4,
+   "roots_present": [
+    "بغي",
+    "دنو",
+    "غفر",
+    "اتي"
+   ]
+  },
+  {
+   "ayah": "3:23",
+   "degree": 3,
+   "roots_present": [
+    "ولي",
+    "اتي",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "6:35",
+   "degree": 3,
+   "roots_present": [
+    "بغي",
+    "اتي",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "7:169",
+   "degree": 3,
+   "roots_present": [
+    "دنو",
+    "غفر",
+    "اتي"
+   ]
+  },
+  {
+   "ayah": "18:57",
+   "degree": 3,
+   "roots_present": [
+    "ذكر",
+    "ايي",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "53:29",
+   "degree": 3,
+   "roots_present": [
+    "دنو",
+    "ذكر",
+    "ولي"
+   ]
+  },
+  {
+   "ayah": "2:83",
+   "degree": 2,
+   "roots_present": [
+    "ولي",
+    "اتي"
+   ]
+  },
+  {
+   "ayah": "2:235",
+   "degree": 2,
+   "roots_present": [
+    "ذكر",
+    "غفر"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "عرض+بغي": [
+   "4:94",
+   "6:35",
+   "17:28",
+   "24:33",
+   "28:55"
+  ],
+  "عرض+انس": [
+   "17:67",
+   "17:83",
+   "33:72",
+   "41:51",
+   "42:48"
+  ],
+  "عرض+دنو": [
+   "4:94",
+   "7:169",
+   "8:67",
+   "24:33",
+   "46:20",
+   "53:29"
+  ],
+  "عرض+ذكر": [
+   "2:235",
+   "6:68",
+   "18:57",
+   "20:124",
+   "21:24",
+   "21:42",
+   "23:71",
+   "26:5",
+   "32:22",
+   "53:29",
+   "72:17",
+   "74:49"
+  ],
+  "عرض+سمع": [
+   "2:224",
+   "5:42",
+   "8:23",
+   "28:55",
+   "41:4"
+  ],
+  "عرض+غفر": [
+   "2:235",
+   "3:133",
+   "7:169",
+   "12:29",
+   "24:33",
+   "57:21"
+  ],
+  "عرض+ولي": [
+   "2:83",
+   "3:23",
+   "4:135",
+   "8:23",
+   "9:76",
+   "53:29"
+  ],
+  "عرض+اتي": [
+   "2:83",
+   "3:23",
+   "4:16",
+   "6:4",
+   "6:35",
+   "7:169",
+   "9:76",
+   "11:76",
+   "15:81",
+   "23:71",
+   "24:33",
+   "26:5",
+   "36:46",
+   "57:21"
+  ],
+  "عرض+ايي": [
+   "6:4",
+   "6:35",
+   "6:68",
+   "12:105",
+   "15:81",
+   "18:57",
+   "21:32",
+   "32:22",
+   "36:46",
+   "54:2"
+  ],
+  "عرض+مسس": [
+   "17:67",
+   "17:83",
+   "41:51"
+  ]
+ }
+}
