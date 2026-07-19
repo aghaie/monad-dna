@@ -147,10 +147,10 @@
   "انس",
   "عشر",
   "عرض",
-  "بغي"
+  "بغي",
+  "عوج"
  ],
  "open_queue": [
-  "عوج",
   "لحم",
   "فلك",
   "اذن",
@@ -160,6 +160,7 @@
   "بحر",
   "شطن",
   "رضو",
+  "سبل",
   "شكر",
   "بشر",
   "حرم",
@@ -612,6 +613,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 23
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "عوج",
+   "directions": {
+    "عوج→اله": {
+     "breath": 27,
+     "lift": 2.213,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -1575,6 +1592,14 @@
    "directions": {
     "بغي→عوج": {
      "breath": 26,
+     "lift": 38.494,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "عوج→بغي": {
+     "breath": 27,
      "lift": 38.494,
      "p": 0.0033,
      "stable": false,
@@ -2707,6 +2732,22 @@
   },
   {
    "a": "سبل",
+   "b": "عوج",
+   "directions": {
+    "عوج→سبل": {
+     "breath": 27,
+     "lift": 21.125,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبل",
    "b": "هجر",
    "directions": {
     "هجر→سبل": {
@@ -2840,6 +2881,22 @@
     "نفع→شفع": {
      "breath": 17,
      "lift": 24.474,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صدد",
+   "b": "عوج",
+   "directions": {
+    "عوج→صدد": {
+     "breath": 27,
+     "lift": 84.499,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
