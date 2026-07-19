@@ -25,8 +25,8 @@ def test_axioms_exact():
 
 
 def test_counts():
-    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 24
-    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 58
+    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 25
+    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 59
     assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 7
     assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 6
 
@@ -42,7 +42,7 @@ def test_open_queue():
     q = [r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='queued'")]
     p = {r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='pursued'")}
     open_q = {r for r in q if r not in p}
-    assert open_q == {"اذن", "فضل", "رجع", "عرض", "شطن", "بشر", "امم", "دنو", "نعم", "غير", "موت", "نور", "ضلل", "جنن", "ملك", "دعو", "نوس", "ولي", "خلق", "قبل", "ايي", "يوم", "رسل", "اتي", "شيا", "كفر", "قوم", "علم", "امن", "كون", "عذب"}
+    assert open_q == {"بغي", "اذن", "فضل", "رجع", "شطن", "بشر", "امم", "دنو", "نعم", "غير", "موت", "سمع", "نور", "ضلل", "جنن", "ملك", "دعو", "نوس", "ولي", "خلق", "ذكر", "قبل", "ايي", "يوم", "رسل", "اتي", "شيا", "كفر", "قوم", "علم", "امن", "كون", "عذب"}
 
 
 def test_every_finding_traceable():
