@@ -1,0 +1,730 @@
+{
+ "breath_number": 41,
+ "deliberation": [
+  {
+   "root": "برر",
+   "attestation": 32
+  },
+  {
+   "root": "سخر",
+   "attestation": 42
+  },
+  {
+   "root": "يمن",
+   "attestation": 71
+  },
+  {
+   "root": "رضو",
+   "attestation": 73
+  },
+  {
+   "root": "شكر",
+   "attestation": 75
+  },
+  {
+   "root": "قلل",
+   "attestation": 76
+  },
+  {
+   "root": "حرم",
+   "attestation": 83
+  },
+  {
+   "root": "نجو",
+   "attestation": 84
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "راي",
+   "attestation": 328
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "برر",
+ "attestation": 32,
+ "ayat": 30,
+ "top": [
+  {
+   "root": "بحر",
+   "shared": 9,
+   "expected": 0.19,
+   "lift": 46.77,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نجو",
+   "shared": 6,
+   "expected": 0.36,
+   "lift": 16.629,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "دعو",
+   "shared": 6,
+   "expected": 0.88,
+   "lift": 6.853,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "وقي",
+   "shared": 7,
+   "expected": 1.14,
+   "lift": 6.14,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اله",
+   "shared": 13,
+   "expected": 9.04,
+   "lift": 1.438,
+   "p_perm": 0.0897,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "امن",
+   "shared": 5,
+   "expected": 3.48,
+   "lift": 1.438,
+   "p_perm": 0.1462,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "كون",
+   "shared": 6,
+   "expected": 5.66,
+   "lift": 1.061,
+   "p_perm": 0.392,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "بحر",
+  "نجو",
+  "دعو",
+  "وقي"
+ ],
+ "one_way": [
+  "اله",
+  "امن",
+  "كون"
+ ],
+ "neighbor_view": {
+  "بحر": {
+   "root": "برر",
+   "shared": 9,
+   "expected": 0.19,
+   "lift": 46.77,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "نجو": {
+   "root": "برر",
+   "shared": 6,
+   "expected": 0.36,
+   "lift": 16.629,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "دعو": {
+   "root": "برر",
+   "shared": 6,
+   "expected": 0.88,
+   "lift": 6.853,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "وقي": {
+   "root": "برر",
+   "shared": 7,
+   "expected": 1.14,
+   "lift": 6.14,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اله": null,
+  "امن": null,
+  "كون": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "برر↔اله",
+   "shared": 13,
+   "expected": 9.04,
+   "lift": 1.44,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "برر↔رحم",
+   "shared": 2,
+   "expected": 1.51,
+   "lift": 1.33,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "برر↔راف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔هجر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔نصر",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔اوي",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔صير",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔باس",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.1,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "برر↔غفر",
+   "shared": 1,
+   "expected": 0.97,
+   "lift": 1.03,
+   "p_perm": 0.6179
+  },
+  {
+   "pair": "برر↔حلم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔عفو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔ذنب",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.62,
+   "p_perm": 0.1661
+  },
+  {
+   "pair": "برر↔سوا",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.38,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "برر↔بدو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔خفي",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.71,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "برر↔دون",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔نفع",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔ضرر",
+   "shared": 2,
+   "expected": 0.34,
+   "lift": 5.94,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "برر↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔مسس",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.65,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "برر↔ذوق",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.41,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "برر↔الم",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔انس",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.24,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "برر↔عشر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔عرض",
+   "shared": 2,
+   "expected": 0.35,
+   "lift": 5.77,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "برر↔بغي",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.31,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "برر↔عوج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔سبل",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.27,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "برر↔يتم",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.45,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "برر↔شري",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔لحم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔دمو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔ثمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔فلك",
+   "shared": 2,
+   "expected": 0.12,
+   "lift": 16.63,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "برر↔وسع",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔كلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔جهد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔قسم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔صدد",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.07,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "برر↔بحر",
+   "shared": 9,
+   "expected": 0.19,
+   "lift": 46.77,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "برر↔راف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔هجر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔نصر",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔اوي",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔صير",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔حلم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔عفو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔بدو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔دون",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔نفع",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔الم",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔عشر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔عوج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔شري",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔لحم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔دمو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔ثمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔وسع",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔كلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔جهد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "برر↔قسم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "10:22",
+   "degree": 5,
+   "roots_present": [
+    "بحر",
+    "نجو",
+    "دعو",
+    "اله",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "6:63",
+   "degree": 4,
+   "roots_present": [
+    "بحر",
+    "نجو",
+    "دعو",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "17:67",
+   "degree": 4,
+   "roots_present": [
+    "بحر",
+    "نجو",
+    "دعو",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "58:9",
+   "degree": 4,
+   "roots_present": [
+    "نجو",
+    "وقي",
+    "اله",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "2:177",
+   "degree": 3,
+   "roots_present": [
+    "وقي",
+    "اله",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "5:2",
+   "degree": 3,
+   "roots_present": [
+    "وقي",
+    "اله",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "5:96",
+   "degree": 3,
+   "roots_present": [
+    "بحر",
+    "وقي",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "29:65",
+   "degree": 3,
+   "roots_present": [
+    "نجو",
+    "دعو",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "برر+بحر": [
+   "5:96",
+   "6:59",
+   "6:63",
+   "6:97",
+   "10:22",
+   "17:67",
+   "17:70",
+   "27:63",
+   "30:41"
+  ],
+  "برر+نجو": [
+   "6:63",
+   "10:22",
+   "17:67",
+   "29:65",
+   "31:32",
+   "58:9"
+  ],
+  "برر+دعو": [
+   "6:63",
+   "10:22",
+   "17:67",
+   "29:65",
+   "31:32",
+   "52:28"
+  ],
+  "برر+وقي": [
+   "2:177",
+   "2:189",
+   "2:224",
+   "3:198",
+   "5:2",
+   "5:96",
+   "58:9"
+  ],
+  "برر+عرض": [
+   "2:224",
+   "17:67"
+  ],
+  "برر+فلك": [
+   "10:22",
+   "29:65"
+  ]
+ }
+}
