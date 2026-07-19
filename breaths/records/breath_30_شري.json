@@ -1,0 +1,776 @@
+{
+ "breath_number": 30,
+ "deliberation": [
+  {
+   "root": "لحم",
+   "attestation": 12
+  },
+  {
+   "root": "شري",
+   "attestation": 25
+  },
+  {
+   "root": "فلك",
+   "attestation": 25
+  },
+  {
+   "root": "وسع",
+   "attestation": 32
+  },
+  {
+   "root": "صدد",
+   "attestation": 42
+  },
+  {
+   "root": "بحر",
+   "attestation": 42
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "رجع",
+   "attestation": 104
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "شري",
+ "attestation": 25,
+ "ayat": 23,
+ "top": [
+  {
+   "root": "ثمن",
+   "shared": 11,
+   "expected": 0.07,
+   "lift": 156.97,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قلل",
+   "shared": 9,
+   "expected": 0.27,
+   "lift": 32.975,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سبل",
+   "shared": 5,
+   "expected": 0.6,
+   "lift": 8.266,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نوس",
+   "shared": 6,
+   "expected": 0.83,
+   "lift": 7.23,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نزل",
+   "shared": 6,
+   "expected": 0.95,
+   "lift": 6.33,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كتب",
+   "shared": 6,
+   "expected": 1.03,
+   "lift": 5.831,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عذب",
+   "shared": 7,
+   "expected": 1.24,
+   "lift": 5.649,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اخر",
+   "shared": 5,
+   "expected": 0.89,
+   "lift": 5.602,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كفر",
+   "shared": 5,
+   "expected": 1.72,
+   "lift": 2.915,
+   "p_perm": 0.0299,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 17,
+   "expected": 6.93,
+   "lift": 2.453,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 5,
+ "reciprocal": [
+  "ثمن",
+  "قلل",
+  "سبل",
+  "نوس",
+  "نزل",
+  "كتب",
+  "عذب",
+  "اخر"
+ ],
+ "one_way": [
+  "كفر",
+  "اله"
+ ],
+ "neighbor_view": {
+  "ثمن": {
+   "root": "شري",
+   "shared": 11,
+   "expected": 0.07,
+   "lift": 156.97,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "قلل": {
+   "root": "شري",
+   "shared": 9,
+   "expected": 0.27,
+   "lift": 32.975,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سبل": {
+   "root": "شري",
+   "shared": 5,
+   "expected": 0.6,
+   "lift": 8.266,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نوس": {
+   "root": "شري",
+   "shared": 6,
+   "expected": 0.83,
+   "lift": 7.23,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نزل": {
+   "root": "شري",
+   "shared": 6,
+   "expected": 0.95,
+   "lift": 6.33,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كتب": {
+   "root": "شري",
+   "shared": 6,
+   "expected": 1.03,
+   "lift": 5.831,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عذب": {
+   "root": "شري",
+   "shared": 7,
+   "expected": 1.24,
+   "lift": 5.649,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخر": {
+   "root": "شري",
+   "shared": 5,
+   "expected": 0.89,
+   "lift": 5.602,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كفر": null,
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "شري↔اله",
+   "shared": 17,
+   "expected": 6.93,
+   "lift": 2.45,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شري↔رحم",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔راف",
+   "shared": 1,
+   "expected": 0.05,
+   "lift": 20.86,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "شري↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔نصر",
+   "shared": 1,
+   "expected": 0.51,
+   "lift": 1.98,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "شري↔اوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔صير",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔باس",
+   "shared": 2,
+   "expected": 0.25,
+   "lift": 8.09,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "شري↔غفر",
+   "shared": 1,
+   "expected": 0.75,
+   "lift": 1.34,
+   "p_perm": 0.505
+  },
+  {
+   "pair": "شري↔حلم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔عفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔ذنب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔سوا",
+   "shared": 1,
+   "expected": 0.56,
+   "lift": 1.8,
+   "p_perm": 0.4053
+  },
+  {
+   "pair": "شري↔بدو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔خفي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔دون",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔نفع",
+   "shared": 2,
+   "expected": 0.18,
+   "lift": 11.07,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "شري↔ضرر",
+   "shared": 2,
+   "expected": 0.26,
+   "lift": 7.75,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "شري↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔مسس",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔الم",
+   "shared": 3,
+   "expected": 0.27,
+   "lift": 11.14,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شري↔انس",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔عشر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔عرض",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔بغي",
+   "shared": 2,
+   "expected": 0.33,
+   "lift": 6.03,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "شري↔عوج",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔سبل",
+   "shared": 5,
+   "expected": 0.6,
+   "lift": 8.27,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شري↔يتم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "شري↔رحم",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔اوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔صير",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔حلم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔عفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔ذنب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔بدو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔خفي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔دون",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔مسس",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔انس",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔عشر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔عرض",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔عوج",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شري↔يتم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "5:44",
+   "degree": 7,
+   "roots_present": [
+    "ثمن",
+    "قلل",
+    "نوس",
+    "نزل",
+    "كتب",
+    "كفر",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:174",
+   "degree": 6,
+   "roots_present": [
+    "ثمن",
+    "قلل",
+    "نزل",
+    "كتب",
+    "عذب",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:102",
+   "degree": 5,
+   "roots_present": [
+    "نوس",
+    "نزل",
+    "اخر",
+    "كفر",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "3:77",
+   "degree": 5,
+   "roots_present": [
+    "ثمن",
+    "قلل",
+    "عذب",
+    "اخر",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "3:187",
+   "degree": 5,
+   "roots_present": [
+    "ثمن",
+    "قلل",
+    "نوس",
+    "كتب",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "3:199",
+   "degree": 5,
+   "roots_present": [
+    "ثمن",
+    "قلل",
+    "نزل",
+    "كتب",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:41",
+   "degree": 4,
+   "roots_present": [
+    "ثمن",
+    "قلل",
+    "نزل",
+    "كفر"
+   ]
+  },
+  {
+   "ayah": "2:79",
+   "degree": 4,
+   "roots_present": [
+    "ثمن",
+    "قلل",
+    "كتب",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "شري+ثمن": [
+   "2:41",
+   "2:79",
+   "2:174",
+   "3:77",
+   "3:187",
+   "3:199",
+   "5:44",
+   "5:106",
+   "9:9",
+   "12:20",
+   "16:95"
+  ],
+  "شري+قلل": [
+   "2:41",
+   "2:79",
+   "2:174",
+   "3:77",
+   "3:187",
+   "3:199",
+   "5:44",
+   "9:9",
+   "16:95"
+  ],
+  "شري+سبل": [
+   "4:44",
+   "4:74",
+   "9:9",
+   "9:111",
+   "31:6"
+  ],
+  "شري+نوس": [
+   "2:102",
+   "2:207",
+   "3:187",
+   "5:44",
+   "12:21",
+   "31:6"
+  ],
+  "شري+نزل": [
+   "2:41",
+   "2:90",
+   "2:102",
+   "2:174",
+   "3:199",
+   "5:44"
+  ],
+  "شري+كتب": [
+   "2:79",
+   "2:174",
+   "3:187",
+   "3:199",
+   "4:44",
+   "5:44"
+  ],
+  "شري+عذب": [
+   "2:86",
+   "2:90",
+   "2:174",
+   "2:175",
+   "3:77",
+   "3:177",
+   "31:6"
+  ],
+  "شري+اخر": [
+   "2:86",
+   "2:102",
+   "3:77",
+   "4:74",
+   "5:106"
+  ],
+  "شري+كفر": [
+   "2:41",
+   "2:90",
+   "2:102",
+   "3:177",
+   "5:44"
+  ],
+  "شري+اله": [
+   "2:79",
+   "2:90",
+   "2:102",
+   "2:174",
+   "2:207",
+   "3:77",
+   "3:177",
+   "3:187",
+   "3:199",
+   "4:74",
+   "5:44",
+   "5:106",
+   "9:9",
+   "9:111",
+   "12:21",
+   "16:95",
+   "31:6"
+  ],
+  "شري+باس": [
+   "2:102",
+   "3:187"
+  ],
+  "شري+نفع": [
+   "2:102",
+   "12:21"
+  ],
+  "شري+ضرر": [
+   "2:102",
+   "3:177"
+  ],
+  "شري+الم": [
+   "2:174",
+   "3:77",
+   "3:177"
+  ],
+  "شري+بغي": [
+   "2:90",
+   "2:207"
+  ]
+ }
+}
