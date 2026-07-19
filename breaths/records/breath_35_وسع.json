@@ -1,0 +1,832 @@
+{
+ "breath_number": 35,
+ "deliberation": [
+  {
+   "root": "وسع",
+   "attestation": 32
+  },
+  {
+   "root": "جهد",
+   "attestation": 41
+  },
+  {
+   "root": "صدد",
+   "attestation": 42
+  },
+  {
+   "root": "بحر",
+   "attestation": 42
+  },
+  {
+   "root": "سخر",
+   "attestation": 42
+  },
+  {
+   "root": "جري",
+   "attestation": 64
+  },
+  {
+   "root": "قلل",
+   "attestation": 76
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "رجع",
+   "attestation": 104
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "وسع",
+ "attestation": 32,
+ "ayat": 29,
+ "top": [
+  {
+   "root": "كلف",
+   "shared": 6,
+   "expected": 0.04,
+   "lift": 161.276,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "فضل",
+   "shared": 5,
+   "expected": 0.43,
+   "lift": 11.687,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سبل",
+   "shared": 5,
+   "expected": 0.76,
+   "lift": 6.556,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غفر",
+   "shared": 6,
+   "expected": 0.94,
+   "lift": 6.387,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نفس",
+   "shared": 8,
+   "expected": 1.26,
+   "lift": 6.371,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "شيا",
+   "shared": 10,
+   "expected": 2.09,
+   "lift": 4.789,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وقي",
+   "shared": 5,
+   "expected": 1.1,
+   "lift": 4.537,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 7,
+   "expected": 1.65,
+   "lift": 4.252,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "علم",
+   "shared": 14,
+   "expected": 3.39,
+   "lift": 4.135,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رحم",
+   "shared": 6,
+   "expected": 1.46,
+   "lift": 4.122,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "كلف",
+  "فضل",
+  "سبل",
+  "غفر",
+  "نفس",
+  "شيا",
+  "وقي",
+  "علم",
+  "رحم"
+ ],
+ "one_way": [
+  "كلل"
+ ],
+ "neighbor_view": {
+  "كلف": {
+   "root": "وسع",
+   "shared": 6,
+   "expected": 0.04,
+   "lift": 161.276,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "فضل": {
+   "root": "وسع",
+   "shared": 5,
+   "expected": 0.43,
+   "lift": 11.687,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سبل": {
+   "root": "وسع",
+   "shared": 5,
+   "expected": 0.76,
+   "lift": 6.556,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غفر": {
+   "root": "وسع",
+   "shared": 6,
+   "expected": 0.94,
+   "lift": 6.387,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نفس": {
+   "root": "وسع",
+   "shared": 8,
+   "expected": 1.26,
+   "lift": 6.371,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "شيا": {
+   "root": "وسع",
+   "shared": 10,
+   "expected": 2.09,
+   "lift": 4.789,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "وقي": {
+   "root": "وسع",
+   "shared": 5,
+   "expected": 1.1,
+   "lift": 4.537,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كلل": null,
+  "علم": {
+   "root": "وسع",
+   "shared": 14,
+   "expected": 3.39,
+   "lift": 4.135,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رحم": {
+   "root": "وسع",
+   "shared": 6,
+   "expected": 1.46,
+   "lift": 4.122,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "وسع↔اله",
+   "shared": 20,
+   "expected": 8.74,
+   "lift": 2.29,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وسع↔رحم",
+   "shared": 6,
+   "expected": 1.46,
+   "lift": 4.12,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "وسع↔راف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔هجر",
+   "shared": 3,
+   "expected": 0.13,
+   "lift": 23.89,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وسع↔نصر",
+   "shared": 1,
+   "expected": 0.64,
+   "lift": 1.57,
+   "p_perm": 0.4884
+  },
+  {
+   "pair": "وسع↔اوي",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.97,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "وسع↔صير",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.41,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "وسع↔باس",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.21,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "وسع↔غفر",
+   "shared": 6,
+   "expected": 0.94,
+   "lift": 6.39,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وسع↔حلم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔عفو",
+   "shared": 2,
+   "expected": 0.14,
+   "lift": 13.87,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "وسع↔ذنب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔سوا",
+   "shared": 1,
+   "expected": 0.7,
+   "lift": 1.42,
+   "p_perm": 0.4718
+  },
+  {
+   "pair": "وسع↔بدو",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔خفي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔دون",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔نفع",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔ضرر",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.07,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "وسع↔كشف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔مسس",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.77,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "وسع↔ذوق",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔الم",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔انس",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔عشر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔عرض",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔بغي",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔عوج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔سبل",
+   "shared": 5,
+   "expected": 0.76,
+   "lift": 6.56,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "وسع↔يتم",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.77,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "وسع↔شري",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔لحم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔دمو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔ثمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔فلك",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "وسع↔راف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔حلم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔ذنب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔بدو",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔خفي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔دون",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔نفع",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔كشف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔ذوق",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔الم",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔انس",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔عشر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔عرض",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔بغي",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔عوج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔شري",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔لحم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔دمو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔ثمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وسع↔فلك",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "40:7",
+   "degree": 7,
+   "roots_present": [
+    "سبل",
+    "غفر",
+    "شيا",
+    "وقي",
+    "كلل",
+    "علم",
+    "رحم"
+   ]
+  },
+  {
+   "ayah": "2:233",
+   "degree": 4,
+   "roots_present": [
+    "كلف",
+    "نفس",
+    "وقي",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "2:261",
+   "degree": 4,
+   "roots_present": [
+    "سبل",
+    "شيا",
+    "كلل",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "2:286",
+   "degree": 4,
+   "roots_present": [
+    "كلف",
+    "غفر",
+    "نفس",
+    "رحم"
+   ]
+  },
+  {
+   "ayah": "5:54",
+   "degree": 4,
+   "roots_present": [
+    "فضل",
+    "سبل",
+    "شيا",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "7:156",
+   "degree": 4,
+   "roots_present": [
+    "شيا",
+    "وقي",
+    "كلل",
+    "رحم"
+   ]
+  },
+  {
+   "ayah": "24:22",
+   "degree": 4,
+   "roots_present": [
+    "فضل",
+    "سبل",
+    "غفر",
+    "رحم"
+   ]
+  },
+  {
+   "ayah": "53:32",
+   "degree": 4,
+   "roots_present": [
+    "غفر",
+    "نفس",
+    "وقي",
+    "علم"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "وسع+كلف": [
+   "2:233",
+   "2:286",
+   "6:152",
+   "7:42",
+   "23:62",
+   "65:7"
+  ],
+  "وسع+فضل": [
+   "2:268",
+   "3:73",
+   "5:54",
+   "24:22",
+   "24:32"
+  ],
+  "وسع+سبل": [
+   "2:261",
+   "4:100",
+   "5:54",
+   "24:22",
+   "40:7"
+  ],
+  "وسع+غفر": [
+   "2:268",
+   "2:286",
+   "4:100",
+   "24:22",
+   "40:7",
+   "53:32"
+  ],
+  "وسع+نفس": [
+   "2:233",
+   "2:286",
+   "4:97",
+   "6:152",
+   "7:42",
+   "23:62",
+   "53:32",
+   "65:7"
+  ],
+  "وسع+شيا": [
+   "2:247",
+   "2:255",
+   "2:261",
+   "3:73",
+   "5:54",
+   "6:80",
+   "7:89",
+   "7:156",
+   "20:98",
+   "40:7"
+  ],
+  "وسع+وقي": [
+   "2:233",
+   "7:156",
+   "39:10",
+   "40:7",
+   "53:32"
+  ],
+  "وسع+كلل": [
+   "2:261",
+   "4:130",
+   "6:80",
+   "7:89",
+   "7:156",
+   "20:98",
+   "40:7"
+  ],
+  "وسع+علم": [
+   "2:115",
+   "2:233",
+   "2:247",
+   "2:255",
+   "2:261",
+   "2:268",
+   "3:73",
+   "5:54",
+   "6:80",
+   "7:89",
+   "20:98",
+   "24:32",
+   "40:7",
+   "53:32"
+  ],
+  "وسع+رحم": [
+   "2:286",
+   "4:100",
+   "6:147",
+   "7:156",
+   "24:22",
+   "40:7"
+  ],
+  "وسع+اله": [
+   "2:115",
+   "2:233",
+   "2:247",
+   "2:255",
+   "2:261",
+   "2:268",
+   "2:286",
+   "3:73",
+   "4:97",
+   "4:100",
+   "4:130",
+   "5:54",
+   "6:80",
+   "6:152",
+   "7:89",
+   "20:98",
+   "24:22",
+   "24:32",
+   "39:10",
+   "65:7"
+  ],
+  "وسع+هجر": [
+   "4:97",
+   "4:100",
+   "24:22"
+  ],
+  "وسع+عفو": [
+   "2:286",
+   "24:22"
+  ]
+ }
+}
