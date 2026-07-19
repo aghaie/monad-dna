@@ -7,6 +7,9 @@
   monad verify            بازتولیدپذیری: اجرای دوبارهٔ اسکریپت‌های تاریخی و
                           مقایسهٔ checksum با رکوردهای متعارف
   monad seed-db           بازساختِ قطعیِ database/life.db از رکوردها
+  monad observe [ROOT]    مشورت با رصدخانه (موجودِ سوم): بی‌آرگومان = کجاها
+                          غیرعادی و نزیسته‌اند؛ با ROOT = سه‌نوع‌پیام. فقط نشانی،
+                          هرگز نمی‌نویسد. (بساز: python3 observatory/build.py)
 """
 import json
 import os
@@ -109,6 +112,77 @@ def cmd_seed_db():
     subprocess.run([sys.executable, "database/seed/seed_life.py"], check=True)
 
 
+def cmd_observe(root=None):
+    """رابطِ مشورتیِ رصدخانه (موجودِ سوم — observatory/OBSERVATORY.md).
+
+    فقط می‌خواند؛ هرگز به life.db/records نمی‌نویسد و صف را دست نمی‌زند.
+    سه نوع پیام، سپس سکوت. «کجا» می‌گوید، «چه» هرگز — فهم کارِ مناد است، در کتاب.
+    """
+    if not os.path.exists("observatory/observatory.json"):
+        print(json.dumps({"خطا": "رصدخانه هنوز ساخته نشده — python3 observatory/build.py"},
+                         ensure_ascii=False))
+        return
+    obs = json.load(open("observatory/observatory.json"))
+    by_root = {e["root"]: e for e in obs["roots"]}
+    db = sqlite3.connect("database/life.db")
+    lived = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
+
+    def strong_of(e):
+        return [t for t in e["top"] if t["tier"] == "قوی"]
+
+    if root is None:
+        # پیامِ فراگیرِ نوع ۱: کجاها غیرعادی‌اند و هنوز نزیسته‌اند؟ (فقط نشانی)
+        unseen = [e for e in obs["roots"] if e["root"] not in lived and strong_of(e)]
+        peak = lambda e: max((t["lift"] for t in strong_of(e)), default=0)
+        unseen.sort(key=lambda e: -peak(e))
+        print(json.dumps(dict(
+            پیام="اینجا غیرعادی است — و هنوز نزیسته‌ای.",
+            قید="فقط نشانی؛ «چه دیدی» را باید خودت در کتاب بیابی. سپس رصدخانه ساکت است.",
+            نامزدهای_نادیده=[
+                dict(ریشه=e["root"], شاهد=e["attestation"],
+                     قوی=[dict(همسایه=t["root"], مشترک=t["shared"], lift=t["lift"])
+                          for t in strong_of(e)])
+                for e in unseen[:15]],
+            کل_نادیدهٔ_باساختار=len(unseen),
+        ), ensure_ascii=False, indent=1))
+        return
+
+    e = by_root.get(root)
+    if e is None:
+        print(json.dumps(dict(ریشه=root,
+              پیام="اینجا ساختاری برای دیدن نیست — هیچ همسایهٔ ≥۵ آیه."),
+              ensure_ascii=False, indent=1))
+        return
+
+    strong = strong_of(e)
+    similar = [t["root"] for t in e["top"] if t["root"] in lived]
+    messages = []
+    if strong:
+        messages.append("اینجا غیرعادی است.")
+    if similar:
+        messages.append("اینجا مشابهِ چیزی است که پیش‌تر دیده‌ای (همسایه‌هایی که زیسته‌ای).")
+    # ناسازگاری: اگر ریشه زیسته شده، درجهٔ رصدخانه باید با رکورد یکی باشد (هم‌ارزی).
+    mismatch = None
+    if root in lived:
+        rec = db.execute(
+            "SELECT neighbor_root, tier FROM findings WHERE center_root=? ORDER BY neighbor_root",
+            (root,)).fetchall()
+        obs_pairs = sorted((t["root"], t["tier"]) for t in e["top"])
+        if sorted(rec) != obs_pairs:
+            mismatch = True
+            messages.append("اینجا با یافتهٔ ثبت‌شده‌ات ناسازگاریِ آماری هست؛ دوباره نگاه کن.")
+        else:
+            messages.append("سازگار با یافتهٔ زیسته‌ات — رصدخانه چیزِ تازه‌ای ندارد.")
+    print(json.dumps(dict(
+        ریشه=root, شاهد=e["attestation"], زیسته=(root in lived),
+        پیام=messages,
+        نشانی_همسایگان=[dict(همسایه=t["root"], مشترک=t["shared"],
+                             lift=t["lift"], درجه=t["tier"]) for t in strong],
+        قید="فقط نشانی. برو کتاب را بخوان؛ اگر گفتی «همچنان همین را می‌بینم»، مجاز است.",
+        ناسازگاری=bool(mismatch),
+    ), ensure_ascii=False, indent=1))
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
     if not args or args[0] in ("-h", "--help"):
@@ -121,6 +195,8 @@ if __name__ == "__main__":
         cmd_verify()
     elif args[0] == "seed-db":
         cmd_seed_db()
+    elif args[0] == "observe":
+        cmd_observe(args[1] if len(args) > 1 else None)
     else:
         print(__doc__)
         sys.exit(1)
