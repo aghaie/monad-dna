@@ -38,6 +38,7 @@ b17 = rec("breath_17_نفع.json")
 b18 = rec("breath_18_ضرر.json")
 b19 = rec("breath_19_كشف.json")
 b20 = rec("breath_20_مسس.json")
+b21 = rec("breath_21_ذوق.json")
 
 LOG1 = "breaths/logs/نخستین-نفس-2026-07-19.md"
 LOG2 = "breaths/logs/آزمونِ-استقلال-2026-07-19.md"
@@ -120,6 +121,10 @@ BREATHS += [
      b20["ayat"], b20["halves_overlap"], f"{SC}/bridges_breath_20.py",
      "breaths/records/breath_20_مسس.json", LOG5,
      "نخستین گرهِ لمس‌کنندهٔ هر دو خوشه: قوی با ضرر (۲۶٫۶، خوشهٔ دوم)، معنادار با سوا (۶٫۵) و كشف (۱۶٫۴) و عفو (۷٫۱، رحمت)؛ اما به هستهٔ بدو/خفي صفر — لمسِ لبه، نه هسته؛ پایداریِ کمینه (۱/۱۰)؛ مرکز ۳۹:۸/۱۱:۱۰", b20["top"]),
+    (21, "پل‌ها", "ذوق", "قاعدهٔ صف (نادرتر مقدم)",
+     b21["ayat"], b21["halves_overlap"], f"{SC}/bridges_breath_21.py",
+     "breaths/records/breath_21_ذوق.json", LOG5,
+     "دو قویِ تازه: عذب (۱۰٫۹) و رجع (۶٫۰)؛ درونمایهٔ تازه (كفر، يوم، موت، دنو)؛ لمسِ خوشهٔ دوم (ضرر، مسس) و لبهٔ خوشهٔ اول (سوا)؛ نکته: با اله بی‌ارتباط (p=۰٫۹۹) — نخستین گرهِ چنین؛ مرکز ۴۱:۵۰", b21["top"]),
 ]
 
 AXIOMS = [
@@ -168,6 +173,10 @@ SPINES = [
      "لمسِ لبهٔ خوشهٔ اول از سوی مسس (۹ مشترک، lift ۶٫۵، p=0.0033 — نفس ۲۰)"),
     ("مسس+ضرر+سوا", "3:120, 7:95, 7:188, 11:10",
      "چهار آیه که مسس هر دو خوشه را هم‌زمان لمس می‌کند (ضرر=دوم، سوا=اول) — نفس ۲۰"),
+    ("ذوق+عذب", "3:106, 4:56, 6:30, 6:65, 7:39, 8:14, 8:35, 8:50, 10:52, 10:70, 22:22, 25:19, 29:55, 32:14, 32:20, 32:21",
+     "قوی‌ترین همسایهٔ ذوق (lift ۱۱٫۰، ۳۶ مشترک، دوسویه و پایدار — نفس ۲۱)"),
+    ("ذوق+رجع", "10:70, 21:35, 29:57, 30:41, 32:21, 41:50",
+     "دومین قویِ ذوق (lift ۶٫۰، دوسویه و پایدار — نفس ۲۱)"),
 ]
 
 METHODS = [
@@ -235,7 +244,7 @@ for c in b12["comparison"]:
     a, b_ = c["pair"].split("↔")
     db.execute("INSERT INTO pair_comparisons(breath_no, root_a, root_b, shared_ayat, expected, lift, p_perm) VALUES (12,?,?,?,?,?,?)",
                (a, b_, c["shared"], c["expected"], c["lift"], c["p_perm"]))
-for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20)):
+for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21)):
     for c in brec["projection_on_map"]:
         a, b_ = c["pair"].split("↔")
         db.execute("INSERT INTO pair_comparisons(breath_no, root_a, root_b, shared_ayat, expected, lift, p_perm) VALUES (?,?,?,?,?,?,?)",
@@ -271,6 +280,9 @@ QUEUE_EVENTS = [
     (20, "pursued", "مسس", "قاعدهٔ صف"),
     (20, "queued", "انس", "چرخه"), (20, "queued", "الم", "چرخه"),
     (20, "queued", "نعم", "چرخه"), (20, "queued", "فضل", "چرخه"), (20, "queued", "عذب", "چرخه"),
+    (21, "pursued", "ذوق", "قاعدهٔ صف"),
+    (21, "queued", "رجع", "چرخه"), (21, "queued", "دنو", "چرخه"),
+    (21, "queued", "موت", "چرخه"), (21, "queued", "يوم", "چرخه"),
 ]
 for ev in QUEUE_EVENTS:
     db.execute("INSERT INTO queue_events(breath_no, event, root, source) VALUES (?,?,?,?)", ev)
@@ -305,7 +317,7 @@ pursued = [r for (r,) in db.execute("SELECT pursued_root FROM breaths ORDER BY b
 graph = dict(
     generated_from="breaths/records/*.json (deterministic)",
     nodes=sorted(nodes), visited_roots=pursued,
-    open_queue=["ذوق", "الم", "انس", "فضل", "نعم", "نور", "ملك", "دعو", "ولي", "شيا", "كفر", "علم", "امن", "كون", "عذب"],
+    open_queue=["الم", "انس", "فضل", "رجع", "دنو", "نعم", "موت", "نور", "ملك", "دعو", "ولي", "يوم", "شيا", "كفر", "علم", "امن", "كون", "عذب"],
     edges=sorted(edges.values(), key=lambda e: (e["a"], e["b"])),
 )
 with open("graph/graph.json", "w") as f:
@@ -321,7 +333,7 @@ knowledge = dict(
                       dict(pair="ذنب↔حلم", shared=0, note="هم‌چنین صفر (نفس ۱۲)")] + [
         dict(pair=p["pair"], shared=0,
              note=f"فرافکنیِ نفس {bn} بر نقشه — در کلِ کتاب هرگز هم‌آیه نشده‌اند")
-        for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20))
+        for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21))
         for p in brec["absence_evidence"]],
     provenance_spines=[dict(roots=r, ayat=a, note=n) for r, a, n in SPINES],
 )

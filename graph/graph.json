@@ -37,6 +37,7 @@
   "ذنب",
   "ذوق",
   "راف",
+  "رجع",
   "رحم",
   "سبل",
   "سمو",
@@ -81,6 +82,7 @@
   "مسك",
   "ملك",
   "مهد",
+  "موت",
   "نصر",
   "نعم",
   "نفس",
@@ -117,18 +119,22 @@
   "نفع",
   "ضرر",
   "كشف",
-  "مسس"
+  "مسس",
+  "ذوق"
  ],
  "open_queue": [
-  "ذوق",
   "الم",
   "انس",
   "فضل",
+  "رجع",
+  "دنو",
   "نعم",
+  "موت",
   "نور",
   "ملك",
   "دعو",
   "ولي",
+  "يوم",
   "شيا",
   "كفر",
   "علم",
@@ -1459,6 +1465,22 @@
   },
   {
    "a": "دنو",
+   "b": "ذوق",
+   "directions": {
+    "ذوق→دنو": {
+     "breath": 21,
+     "lift": 4.792,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دنو",
    "b": "نصر",
    "directions": {
     "نصر→دنو": {
@@ -1683,6 +1705,38 @@
   },
   {
    "a": "ذوق",
+   "b": "رجع",
+   "directions": {
+    "ذوق→رجع": {
+     "breath": 21,
+     "lift": 5.955,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ذوق",
+   "b": "سوا",
+   "directions": {
+    "ذوق→سوا": {
+     "breath": 21,
+     "lift": 4.739,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
    "b": "ضرر",
    "directions": {
     "ضرر→ذوق": {
@@ -1692,6 +1746,46 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ذوق→ضرر": {
+     "breath": 21,
+     "lift": 7.302,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
+   "b": "عذب",
+   "directions": {
+    "ذوق→عذب": {
+     "breath": 21,
+     "lift": 10.953,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 36
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ذوق",
+   "b": "كفر",
+   "directions": {
+    "ذوق→كفر": {
+     "breath": 21,
+     "lift": 3.518,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 16
     }
    },
    "mutual_strong": false,
@@ -1708,6 +1802,62 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ذوق→مسس": {
+     "breath": 21,
+     "lift": 8.968,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
+   "b": "موت",
+   "directions": {
+    "ذوق→موت": {
+     "breath": 21,
+     "lift": 3.574,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
+   "b": "نور",
+   "directions": {
+    "ذوق→نور": {
+     "breath": 21,
+     "lift": 4.7,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
+   "b": "يوم",
+   "directions": {
+    "ذوق→يوم": {
+     "breath": 21,
+     "lift": 2.983,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
