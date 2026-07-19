@@ -55,6 +55,7 @@
   "رسل",
   "رضو",
   "سبل",
+  "سجد",
   "سخر",
   "سكن",
   "سمع",
@@ -128,6 +129,7 @@
   "نور",
   "نوس",
   "هجر",
+  "هدي",
   "هلل",
   "هود",
   "وجد",
@@ -177,19 +179,20 @@
   "وسع",
   "كلف",
   "جهد",
-  "قسم"
+  "قسم",
+  "صدد"
  ],
  "open_queue": [
   "اذن",
   "فضل",
   "رجع",
   "قلل",
-  "صدد",
   "سخر",
   "بحر",
   "شطن",
   "رضو",
   "جري",
+  "سجد",
   "سكن",
   "شكر",
   "بشر",
@@ -228,12 +231,15 @@
   "قتل",
   "نزل",
   "كتب",
+  "بعد",
   "اخر",
   "قوم",
+  "هدي",
   "علم",
   "امن",
   "كون",
-  "عذب"
+  "عذب",
+  "عمل"
  ],
  "edges": [
   {
@@ -1662,6 +1668,22 @@
   },
   {
    "a": "بعد",
+   "b": "صدد",
+   "directions": {
+    "صدد→بعد": {
+     "breath": 39,
+     "lift": 4.148,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
    "b": "عفو",
    "directions": {
     "عفو→بعد": {
@@ -1746,6 +1768,14 @@
    "directions": {
     "بغي→صدد": {
      "breath": 26,
+     "lift": 10.14,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    },
+    "صدد→بغي": {
+     "breath": 39,
      "lift": 10.14,
      "p": 0.0033,
      "stable": false,
@@ -2283,6 +2313,22 @@
     "عفو→حبب": {
      "breath": 11,
      "lift": 14.2,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
+   "b": "صدد",
+   "directions": {
+    "صدد→حرم": {
+     "breath": 39,
+     "lift": 12.853,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -3295,9 +3341,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 25
+    },
+    "صدد→سبل": {
+     "breath": 39,
+     "lift": 23.186,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 25
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -3439,6 +3493,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سجد",
+   "b": "صدد",
+   "directions": {
+    "صدد→سجد": {
+     "breath": 39,
+     "lift": 11.266,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -3734,6 +3804,38 @@
   },
   {
    "a": "صدد",
+   "b": "عذب",
+   "directions": {
+    "صدد→عذب": {
+     "breath": 39,
+     "lift": 3.169,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صدد",
+   "b": "عمل",
+   "directions": {
+    "صدد→عمل": {
+     "breath": 39,
+     "lift": 4.859,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "صدد",
    "b": "عوج",
    "directions": {
     "عوج→صدد": {
@@ -3743,6 +3845,46 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "صدد→عوج": {
+     "breath": 39,
+     "lift": 84.499,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صدد",
+   "b": "كفر",
+   "directions": {
+    "صدد→كفر": {
+     "breath": 39,
+     "lift": 4.579,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "صدد",
+   "b": "هدي",
+   "directions": {
+    "صدد→هدي": {
+     "breath": 39,
+     "lift": 3.973,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
