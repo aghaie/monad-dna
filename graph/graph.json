@@ -27,6 +27,7 @@
   "تحت",
   "توب",
   "ثمن",
+  "جري",
   "جنن",
   "جهد",
   "حبب",
@@ -54,6 +55,7 @@
   "رسل",
   "رضو",
   "سبل",
+  "سخر",
   "سكن",
   "سمع",
   "سمو",
@@ -113,6 +115,7 @@
   "مهد",
   "موت",
   "مول",
+  "نجو",
   "نزل",
   "نصر",
   "نعم",
@@ -164,19 +167,21 @@
   "شري",
   "لحم",
   "دمو",
-  "ثمن"
+  "ثمن",
+  "فلك"
  ],
  "open_queue": [
-  "فلك",
   "اذن",
   "فضل",
   "رجع",
   "قلل",
   "وسع",
   "صدد",
+  "سخر",
   "بحر",
   "شطن",
   "رضو",
+  "جري",
   "سكن",
   "جهد",
   "شكر",
@@ -185,6 +190,7 @@
   "امم",
   "دنو",
   "نعم",
+  "نجو",
   "عدو",
   "غير",
   "موت",
@@ -884,6 +890,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "امر",
+   "b": "فلك",
+   "directions": {
+    "فلك→امر": {
+     "breath": 34,
+     "lift": 5.519,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "امم",
    "b": "انس",
    "directions": {
@@ -1284,6 +1306,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ايي",
+   "b": "فلك",
+   "directions": {
+    "فلك→ايي": {
+     "breath": 34,
+     "lift": 4.24,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "باس",
    "b": "حسب",
    "directions": {
@@ -1466,6 +1504,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "بحر",
+   "b": "فلك",
+   "directions": {
+    "فلك→بحر": {
+     "breath": 34,
+     "lift": 56.124,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "بدو",
@@ -1758,9 +1812,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "فلك→بغي": {
+     "breath": 34,
+     "lift": 16.629,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -1982,6 +2044,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جري",
+   "b": "فلك",
+   "directions": {
+    "فلك→جري": {
+     "breath": 34,
+     "lift": 27.282,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -3188,6 +3266,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "سخر",
+   "b": "فلك",
+   "directions": {
+    "فلك→سخر": {
+     "breath": 34,
+     "lift": 42.761,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "سكن",
    "b": "يتم",
    "directions": {
@@ -3426,6 +3520,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "شكر",
+   "b": "فلك",
+   "directions": {
+    "فلك→شكر": {
+     "breath": 34,
+     "lift": 21.69,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "صدد",
@@ -3837,6 +3947,22 @@
   },
   {
    "a": "فضل",
+   "b": "فلك",
+   "directions": {
+    "فلك→فضل": {
+     "breath": 34,
+     "lift": 13.557,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فضل",
    "b": "مسس",
    "directions": {
     "مسس→فضل": {
@@ -3850,6 +3976,38 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "فلك",
+   "b": "كلل",
+   "directions": {
+    "فلك→كلل": {
+     "breath": 34,
+     "lift": 6.342,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فلك",
+   "b": "نجو",
+   "directions": {
+    "فلك→نجو": {
+     "breath": 34,
+     "lift": 19.955,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "قتل",
