@@ -39,6 +39,7 @@ b18 = rec("breath_18_ضرر.json")
 b19 = rec("breath_19_كشف.json")
 b20 = rec("breath_20_مسس.json")
 b21 = rec("breath_21_ذوق.json")
+b22 = rec("breath_22_الم.json")
 
 LOG1 = "breaths/logs/نخستین-نفس-2026-07-19.md"
 LOG2 = "breaths/logs/آزمونِ-استقلال-2026-07-19.md"
@@ -125,6 +126,10 @@ BREATHS += [
      b21["ayat"], b21["halves_overlap"], f"{SC}/bridges_breath_21.py",
      "breaths/records/breath_21_ذوق.json", LOG5,
      "دو قویِ تازه: عذب (۱۰٫۹) و رجع (۶٫۰)؛ درونمایهٔ تازه (كفر، يوم، موت، دنو)؛ لمسِ خوشهٔ دوم (ضرر، مسس) و لبهٔ خوشهٔ اول (سوا)؛ نکته: با اله بی‌ارتباط (p=۰٫۹۹) — نخستین گرهِ چنین؛ مرکز ۴۱:۵۰", b21["top"]),
+    (22, "پل‌ها", "الم", "قاعدهٔ صف (نادرتر مقدم)",
+     b22["ayat"], b22["halves_overlap"], f"{SC}/bridges_breath_22.py",
+     "breaths/records/breath_22_الم.json", LOG5,
+     "خوشهٔ سومِ درونمایه‌ای را استوار کرد: عذب قوی (۱۷٫۸، ۷۰ آیهٔ مشترک!) و كفر (۴٫۰)؛ عمیق در همان خوشه — به هستهٔ خفي/كشف/نفع صفر؛ لمسِ لبه از ذوق/مسس نه سوا؛ مرکز ۹:۳", b22["top"]),
 ]
 
 AXIOMS = [
@@ -177,6 +182,10 @@ SPINES = [
      "قوی‌ترین همسایهٔ ذوق (lift ۱۱٫۰، ۳۶ مشترک، دوسویه و پایدار — نفس ۲۱)"),
     ("ذوق+رجع", "10:70, 21:35, 29:57, 30:41, 32:21, 41:50",
      "دومین قویِ ذوق (lift ۶٫۰، دوسویه و پایدار — نفس ۲۱)"),
+    ("الم+عذب", "2:10, 2:104, 2:174, 2:178, 3:21, 3:77, 3:91, 3:177",
+     "قوی‌ترین پیوندِ خوشهٔ سوم (lift ۱۷٫۸، ۷۰ آیهٔ مشترک، دوسویه و پایدار — نفس ۲۲)"),
+    ("الم+عذب+كفر", "2:104, 3:21, 3:91, 3:177, 4:18, 4:161, 5:36, 5:73",
+     "سه‌گانهٔ هستهٔ خوشهٔ سوم (درونمایهٔ عذب–كفر–الم — نفس ۲۲)"),
 ]
 
 METHODS = [
@@ -244,7 +253,7 @@ for c in b12["comparison"]:
     a, b_ = c["pair"].split("↔")
     db.execute("INSERT INTO pair_comparisons(breath_no, root_a, root_b, shared_ayat, expected, lift, p_perm) VALUES (12,?,?,?,?,?,?)",
                (a, b_, c["shared"], c["expected"], c["lift"], c["p_perm"]))
-for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21)):
+for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22)):
     for c in brec["projection_on_map"]:
         a, b_ = c["pair"].split("↔")
         db.execute("INSERT INTO pair_comparisons(breath_no, root_a, root_b, shared_ayat, expected, lift, p_perm) VALUES (?,?,?,?,?,?,?)",
@@ -283,6 +292,10 @@ QUEUE_EVENTS = [
     (21, "pursued", "ذوق", "قاعدهٔ صف"),
     (21, "queued", "رجع", "چرخه"), (21, "queued", "دنو", "چرخه"),
     (21, "queued", "موت", "چرخه"), (21, "queued", "يوم", "چرخه"),
+    (22, "pursued", "الم", "قاعدهٔ صف"),
+    (22, "queued", "اذن", "چرخه"), (22, "queued", "بشر", "چرخه"),
+    (22, "queued", "غير", "چرخه"), (22, "queued", "قبل", "چرخه"),
+    (22, "queued", "نوس", "چرخه"), (22, "queued", "ايي", "چرخه"),
 ]
 for ev in QUEUE_EVENTS:
     db.execute("INSERT INTO queue_events(breath_no, event, root, source) VALUES (?,?,?,?)", ev)
@@ -317,7 +330,7 @@ pursued = [r for (r,) in db.execute("SELECT pursued_root FROM breaths ORDER BY b
 graph = dict(
     generated_from="breaths/records/*.json (deterministic)",
     nodes=sorted(nodes), visited_roots=pursued,
-    open_queue=["الم", "انس", "فضل", "رجع", "دنو", "نعم", "موت", "نور", "ملك", "دعو", "ولي", "يوم", "شيا", "كفر", "علم", "امن", "كون", "عذب"],
+    open_queue=["انس", "اذن", "فضل", "رجع", "بشر", "دنو", "نعم", "غير", "موت", "نور", "ملك", "دعو", "نوس", "ولي", "قبل", "ايي", "يوم", "شيا", "كفر", "علم", "امن", "كون", "عذب"],
     edges=sorted(edges.values(), key=lambda e: (e["a"], e["b"])),
 )
 with open("graph/graph.json", "w") as f:
@@ -333,7 +346,7 @@ knowledge = dict(
                       dict(pair="ذنب↔حلم", shared=0, note="هم‌چنین صفر (نفس ۱۲)")] + [
         dict(pair=p["pair"], shared=0,
              note=f"فرافکنیِ نفس {bn} بر نقشه — در کلِ کتاب هرگز هم‌آیه نشده‌اند")
-        for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21))
+        for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22))
         for p in brec["absence_evidence"]],
     provenance_spines=[dict(roots=r, ayat=a, note=n) for r, a, n in SPINES],
 )

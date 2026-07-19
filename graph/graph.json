@@ -3,6 +3,7 @@
  "nodes": [
   "اخذ",
   "اخر",
+  "اذن",
   "ارض",
   "الم",
   "اله",
@@ -11,8 +12,10 @@
   "انس",
   "اوي",
   "ايد",
+  "ايي",
   "باس",
   "بدو",
+  "بشر",
   "بعد",
   "بعض",
   "بين",
@@ -120,20 +123,26 @@
   "ضرر",
   "كشف",
   "مسس",
-  "ذوق"
+  "ذوق",
+  "الم"
  ],
  "open_queue": [
-  "الم",
   "انس",
+  "اذن",
   "فضل",
   "رجع",
+  "بشر",
   "دنو",
   "نعم",
+  "غير",
   "موت",
   "نور",
   "ملك",
   "دعو",
+  "نوس",
   "ولي",
+  "قبل",
+  "ايي",
   "يوم",
   "شيا",
   "كفر",
@@ -176,6 +185,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "اذن",
+   "b": "الم",
+   "directions": {
+    "الم→اذن": {
+     "breath": 22,
+     "lift": 4.746,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "ارض",
    "b": "خفي",
    "directions": {
@@ -209,6 +234,102 @@
   },
   {
    "a": "الم",
+   "b": "ايي",
+   "directions": {
+    "الم→ايي": {
+     "breath": 22,
+     "lift": 2.662,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "الم",
+   "b": "بشر",
+   "directions": {
+    "الم→بشر": {
+     "breath": 22,
+     "lift": 5.025,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "الم",
+   "b": "عذب",
+   "directions": {
+    "الم→عذب": {
+     "breath": 22,
+     "lift": 17.797,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 70
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "الم",
+   "b": "غير",
+   "directions": {
+    "الم→غير": {
+     "breath": 22,
+     "lift": 3.511,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "الم",
+   "b": "قبل",
+   "directions": {
+    "الم→قبل": {
+     "breath": 22,
+     "lift": 3.332,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "الم",
+   "b": "كفر",
+   "directions": {
+    "الم→كفر": {
+     "breath": 22,
+     "lift": 4.042,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 22
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "الم",
    "b": "مسس",
    "directions": {
     "مسس→الم": {
@@ -218,6 +339,46 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "الم→مسس": {
+     "breath": 22,
+     "lift": 7.493,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "الم",
+   "b": "نوس",
+   "directions": {
+    "الم→نوس": {
+     "breath": 22,
+     "lift": 3.037,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "الم",
+   "b": "ولي",
+   "directions": {
+    "الم→ولي": {
+     "breath": 22,
+     "lift": 3.383,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
