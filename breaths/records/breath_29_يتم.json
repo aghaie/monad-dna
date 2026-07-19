@@ -1,0 +1,711 @@
+{
+ "breath_number": 29,
+ "deliberation": [
+  {
+   "root": "لحم",
+   "attestation": 12
+  },
+  {
+   "root": "يتم",
+   "attestation": 23
+  },
+  {
+   "root": "شري",
+   "attestation": 25
+  },
+  {
+   "root": "فلك",
+   "attestation": 25
+  },
+  {
+   "root": "وسع",
+   "attestation": 32
+  },
+  {
+   "root": "صدد",
+   "attestation": 42
+  },
+  {
+   "root": "بحر",
+   "attestation": 42
+  },
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "رجع",
+   "attestation": 104
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "يتم",
+ "attestation": 23,
+ "ayat": 22,
+ "top": [
+  {
+   "root": "سكن",
+   "shared": 8,
+   "expected": 0.23,
+   "lift": 34.358,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قرب",
+   "shared": 10,
+   "expected": 0.32,
+   "lift": 31.149,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "مول",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.259,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بني",
+   "shared": 6,
+   "expected": 0.53,
+   "lift": 11.338,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سبل",
+   "shared": 5,
+   "expected": 0.58,
+   "lift": 8.642,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اتي",
+   "shared": 5,
+   "expected": 1.71,
+   "lift": 2.916,
+   "p_perm": 0.0266,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كون",
+   "shared": 9,
+   "expected": 4.15,
+   "lift": 2.169,
+   "p_perm": 0.0233,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 10,
+   "expected": 6.63,
+   "lift": 1.509,
+   "p_perm": 0.0465,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قول",
+   "shared": 6,
+   "expected": 4.88,
+   "lift": 1.23,
+   "p_perm": 0.1927,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 0,
+ "reciprocal": [
+  "سكن",
+  "قرب",
+  "مول",
+  "بني",
+  "سبل"
+ ],
+ "one_way": [
+  "اتي",
+  "كون",
+  "اله",
+  "قول"
+ ],
+ "neighbor_view": {
+  "سكن": {
+   "root": "يتم",
+   "shared": 8,
+   "expected": 0.23,
+   "lift": 34.358,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قرب": {
+   "root": "يتم",
+   "shared": 10,
+   "expected": 0.32,
+   "lift": 31.149,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "مول": {
+   "root": "يتم",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.259,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بني": {
+   "root": "يتم",
+   "shared": 6,
+   "expected": 0.53,
+   "lift": 11.338,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سبل": {
+   "root": "يتم",
+   "shared": 5,
+   "expected": 0.58,
+   "lift": 8.642,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اتي": null,
+  "كون": null,
+  "اله": null,
+  "قول": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "يتم↔اله",
+   "shared": 10,
+   "expected": 6.63,
+   "lift": 1.51,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "يتم↔رحم",
+   "shared": 1,
+   "expected": 1.1,
+   "lift": 0.91,
+   "p_perm": 0.6977
+  },
+  {
+   "pair": "يتم↔راف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔نصر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔اوي",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.87,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "يتم↔صير",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔باس",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.23,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "يتم↔غفر",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔حلم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔عفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔ذنب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔سوا",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔بدو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔خفي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔دون",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔نفع",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔ضرر",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.05,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "يتم↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔مسس",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔الم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔انس",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.05,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "يتم↔عشر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔عرض",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.94,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "يتم↔بغي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔عوج",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔سبل",
+   "shared": 5,
+   "expected": 0.58,
+   "lift": 8.64,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "يتم↔راف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔نصر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔صير",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔غفر",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔حلم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔عفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔ذنب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔سوا",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔بدو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔خفي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔دون",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔نفع",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔مسس",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔الم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔عشر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔بغي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "يتم↔عوج",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:177",
+   "degree": 7,
+   "roots_present": [
+    "سكن",
+    "قرب",
+    "مول",
+    "بني",
+    "سبل",
+    "اتي",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "59:7",
+   "degree": 7,
+   "roots_present": [
+    "سكن",
+    "قرب",
+    "بني",
+    "سبل",
+    "اتي",
+    "كون",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:83",
+   "degree": 6,
+   "roots_present": [
+    "سكن",
+    "قرب",
+    "بني",
+    "اتي",
+    "اله",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "2:215",
+   "degree": 6,
+   "roots_present": [
+    "سكن",
+    "قرب",
+    "بني",
+    "سبل",
+    "اله",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "4:36",
+   "degree": 6,
+   "roots_present": [
+    "سكن",
+    "قرب",
+    "بني",
+    "سبل",
+    "كون",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "8:41",
+   "degree": 6,
+   "roots_present": [
+    "سكن",
+    "قرب",
+    "بني",
+    "سبل",
+    "كون",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "6:152",
+   "degree": 5,
+   "roots_present": [
+    "قرب",
+    "مول",
+    "كون",
+    "اله",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "4:127",
+   "degree": 4,
+   "roots_present": [
+    "اتي",
+    "كون",
+    "اله",
+    "قول"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "يتم+سكن": [
+   "2:83",
+   "2:177",
+   "2:215",
+   "4:8",
+   "4:36",
+   "8:41",
+   "59:7",
+   "76:8"
+  ],
+  "يتم+قرب": [
+   "2:83",
+   "2:177",
+   "2:215",
+   "4:8",
+   "4:36",
+   "6:152",
+   "8:41",
+   "17:34",
+   "59:7",
+   "90:15"
+  ],
+  "يتم+مول": [
+   "2:177",
+   "4:2",
+   "4:6",
+   "4:10",
+   "6:152",
+   "17:34"
+  ],
+  "يتم+بني": [
+   "2:83",
+   "2:177",
+   "2:215",
+   "4:36",
+   "8:41",
+   "59:7"
+  ],
+  "يتم+سبل": [
+   "2:177",
+   "2:215",
+   "4:36",
+   "8:41",
+   "59:7"
+  ],
+  "يتم+اتي": [
+   "2:83",
+   "2:177",
+   "4:2",
+   "4:127",
+   "59:7"
+  ],
+  "يتم+كون": [
+   "4:2",
+   "4:6",
+   "4:36",
+   "4:127",
+   "6:152",
+   "8:41",
+   "17:34",
+   "18:82",
+   "59:7"
+  ],
+  "يتم+اله": [
+   "2:83",
+   "2:177",
+   "2:215",
+   "2:220",
+   "4:6",
+   "4:36",
+   "4:127",
+   "6:152",
+   "8:41",
+   "59:7"
+  ]
+ }
+}
