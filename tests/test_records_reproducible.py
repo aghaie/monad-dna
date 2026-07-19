@@ -1,61 +1,36 @@
 """بازتولیدپذیریِ رکوردهای متعارف — اجرای دوبارهٔ اسکریپت‌های تاریخی باید
-بایت‌به‌بایت همان رکوردها را بدهد. (پوششِ نفس‌های ۳–۸ که RNG دنباله‌دار دارند.)"""
+بایت‌به‌بایت همان رکوردها را بدهد. (پوششِ نفس‌های ۳–۸ که RNG دنباله‌دار دارند.)
+
+CASES دیگر دستی نیست: از life.db مشتق می‌شود (همان منبعِ verify_checks در
+cli/monad) — پیش‌تر این فهرست این‌جا و در cli/monad دوبار نگه‌داری می‌شد و هر
+نفسِ تازه نیازِ ویرایشِ هر دو را داشت؛ اکنون یک منبعِ حقیقتِ واحد."""
+import importlib.util
 import os
+import sqlite3
 import subprocess
 import sys
+from importlib.machinery import SourceFileLoader
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 
-CASES = [
-    (["breaths/scripts/first_breath_cycle.py", "max"], "breaths/records/breath_01_max_اله.json"),
-    (["breaths/scripts/first_breath_cycle.py", "min"], "breaths/records/breath_02_min_رحم.json"),
-    (["breaths/scripts/independence_test_breaths.py"], "breaths/records/breaths_03-05_راف_هجر_نصر.json"),
-    (["breaths/scripts/solitude_breaths_6_8.py"], "breaths/records/breaths_06-08_اوی_صیر_باس.json"),
-    (["breaths/scripts/companionship_breath_9.py"], "breaths/records/breath_09_غفر.json"),
-    (["breaths/scripts/companionship_breath_10.py"], "breaths/records/breath_10_حلم.json"),
-    (["breaths/scripts/companionship_breath_11.py"], "breaths/records/breath_11_عفو.json"),
-    (["breaths/scripts/companionship_breath_12.py"], "breaths/records/breath_12_ذنب.json"),
-    (["breaths/scripts/bridges_breath_13.py"], "breaths/records/breath_13_سوا.json"),
-    (["breaths/scripts/bridges_breath_14.py"], "breaths/records/breath_14_بدو.json"),
-    (["breaths/scripts/bridges_breath_15.py"], "breaths/records/breath_15_خفي.json"),
-    (["breaths/scripts/bridges_breath_16.py"], "breaths/records/breath_16_دون.json"),
-    (["breaths/scripts/bridges_breath_17.py"], "breaths/records/breath_17_نفع.json"),
-    (["breaths/scripts/bridges_breath_18.py"], "breaths/records/breath_18_ضرر.json"),
-    (["breaths/scripts/bridges_breath_19.py"], "breaths/records/breath_19_كشف.json"),
-    (["breaths/scripts/bridges_breath_20.py"], "breaths/records/breath_20_مسس.json"),
-    (["breaths/scripts/bridges_breath_21.py"], "breaths/records/breath_21_ذوق.json"),
-    (["breaths/scripts/bridges_breath_22.py"], "breaths/records/breath_22_الم.json"),
-    (["breaths/scripts/bridges_breath_23.py"], "breaths/records/breath_23_انس.json"),
-    (["breaths/scripts/bridges_breath_24.py"], "breaths/records/breath_24_عشر.json"),
-    (["breaths/scripts/bridges_breath_25.py"], "breaths/records/breath_25_عرض.json"),
-    (["breaths/scripts/bridges_breath_26.py"], "breaths/records/breath_26_بغي.json"),
-    (["breaths/scripts/bridges_breath_27.py"], "breaths/records/breath_27_عوج.json"),
-    (["breaths/scripts/bridges_breath_28.py"], "breaths/records/breath_28_سبل.json"),
-    (["breaths/scripts/bridges_breath_29.py"], "breaths/records/breath_29_يتم.json"),
-    (["breaths/scripts/bridges_breath_30.py"], "breaths/records/breath_30_شري.json"),
-    (["breaths/scripts/bridges_breath_31.py"], "breaths/records/breath_31_لحم.json"),
-    (["breaths/scripts/bridges_breath_32.py"], "breaths/records/breath_32_دمو.json"),
-    (["breaths/scripts/bridges_breath_33.py"], "breaths/records/breath_33_ثمن.json"),
-    (["breaths/scripts/bridges_breath_34.py"], "breaths/records/breath_34_فلك.json"),
-    (["breaths/scripts/bridges_breath_35.py"], "breaths/records/breath_35_وسع.json"),
-    (["breaths/scripts/bridges_breath_36.py"], "breaths/records/breath_36_كلف.json"),
-    (["breaths/scripts/bridges_breath_37.py"], "breaths/records/breath_37_جهد.json"),
-    (["breaths/scripts/bridges_breath_38.py"], "breaths/records/breath_38_قسم.json"),
-    (["breaths/scripts/bridges_breath_39.py"], "breaths/records/breath_39_صدد.json"),
-    (["breaths/scripts/bridges_breath_40.py"], "breaths/records/breath_40_بحر.json"),
-    (["breaths/scripts/bridges_breath_41.py"], "breaths/records/breath_41_برر.json"),
-]
+_loader = SourceFileLoader("monad_cli", os.path.join(ROOT, "cli/monad"))
+_spec = importlib.util.spec_from_loader("monad_cli", _loader)
+_monad_cli = importlib.util.module_from_spec(_spec)
+_loader.exec_module(_monad_cli)
+
+CASES = _monad_cli.verify_checks(sqlite3.connect("database/life.db"))
 
 
 def run(cmd):
-    return subprocess.run([sys.executable, *cmd], capture_output=True,
+    return subprocess.run([sys.executable, *cmd.split()], capture_output=True,
                           text=True, cwd=ROOT).stdout
 
 
 def test_all_records_byte_identical():
+    assert len(CASES) >= 37, "پوششِ نفس‌های تاریخی نباید کوچک شود"
     for cmd, record in CASES:
         with open(record) as f:
             want = f.read()
         got = run(cmd)
-        assert got == want, f"record mismatch: {' '.join(cmd)}"
+        assert got == want, f"record mismatch: {cmd}"
