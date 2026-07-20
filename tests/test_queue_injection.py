@@ -31,8 +31,21 @@ monad_cli = importlib.util.module_from_spec(_spec)
 _loader.exec_module(monad_cli)
 
 
-def _backup_injections():
+def _read_injections():
+    """خواندنِ صرف — بدونِ تغییرِ فایل (برای سنجش‌های میانِ آزمون)."""
     return open(INJ_FILE).read() if os.path.exists(INJ_FILE) else None
+
+
+def _backup_injections():
+    """پشتیبان از حالتِ واقعیِ زیستهٔ فایل، سپس آن را برای آزمون خالی می‌کند —
+    وگرنه آزمون‌ها با تزریق‌های واقعیِ تولیدشده (مثلِ queue-sync-observatory
+    که در تولید اجرا شده) تداخل می‌کنند. فقط یک‌بار در ابتدای هر آزمون فراخوان
+    شود؛ برای سنجشِ میانی از _read_injections استفاده کن. در finally با
+    _restore_injections دقیقاً همان حالتِ واقعی بازمی‌گردد."""
+    saved = _read_injections()
+    if os.path.exists(INJ_FILE):
+        os.remove(INJ_FILE)
+    return saved
 
 
 def _restore_injections(saved):
@@ -68,11 +81,12 @@ def test_queue_add_tags_source_by_observatory_structure():
 def test_queue_add_rejects_lived_root():
     """ریشهٔ زیسته را نمی‌شود تزریق کرد — فایل دست‌نخورده می‌ماند."""
     saved = _backup_injections()
+    before_test = _read_injections()  # حالتِ خالی‌شدهٔ ابتدای آزمون
     try:
         out = _run("queue-add", "رحم")
         assert out.returncode != 0
-        after = _backup_injections()
-        assert after == saved, "فایلِ تزریق نباید برای ریشهٔ زیسته تغییر کند"
+        after = _read_injections()
+        assert after == before_test, "فایلِ تزریق نباید برای ریشهٔ زیسته تغییر کند"
     finally:
         _restore_injections(saved)
 
