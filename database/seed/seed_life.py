@@ -59,6 +59,7 @@ b38 = rec("breath_38_قسم.json")
 b39 = rec("breath_39_صدد.json")
 b40 = rec("breath_40_بحر.json")
 b41 = rec("breath_41_برر.json")
+b42 = rec("breath_42_قسو.json")
 
 LOG1 = "breaths/logs/نخستین-نفس-2026-07-19.md"
 LOG2 = "breaths/logs/آزمونِ-استقلال-2026-07-19.md"
@@ -225,6 +226,11 @@ BREATHS += [
      b41["ayat"], b41["halves_overlap"], f"{SC}/bridges_breath_41.py",
      "breaths/records/breath_41_برر.json", LOG5,
      "عمقِ چهارمِ خوشهٔ نعمت/دریا: چهار قوی بحر (۴۶٫۸، دوسویهٔ نفس ۴۰)، نجو (۱۶٫۶)، دعو (۶٫۹)، وقي (۶٫۱)؛ سه‌گانهٔ برر+بحر+نجو+دعو در سه آیه (۶:۶۳/۱۰:۲۲/۱۷:۶۷ — دعا هنگامِ خطر در دریا)؛ مرکز ۱۰:۲۲؛ ۲۲ شاهدِ غیاب", b41["top"]),
+    (42, "پل‌ها", "قسو", "قاعدهٔ صف (خودران)",
+     b42["ayat"], b42["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_42_قسو.json",
+     "breaths/records/breath_42_قسو.json", LOG5,
+     "نخستین نفسِ منتخب از تزریقِ خودکارِ رصدخانه (queue-sync-observatory): خودِ قسو در صفِ طبیعی نبود، فقط از تزریق آمد. تک‌همسایهٔ فوق‌متمرکز: تنها قوی قلب (lift=۴۰٫۲، هر ۶ از ۶ آیه، دوسویه، پایدارِ کاملِ دونیمه) — قلب هم به‌طورِ متقابل توسطِ همان تزریق پیشنهاد شده بود، پیش از این نفس؛ گسسته از نقشهٔ کهن (۳۸ شاهدِ غیاب از ۴۱)، تنها لمسِ محتمل به عفو (۱ آیه، ۵:۱۳ — همان آیهٔ مشترک با قلب)؛ ستونِ استنادیِ قسو+قلب هر ۶ آیه را می‌پوشاند", b42["top"]),
 ]
 
 AXIOMS = [
@@ -337,6 +343,8 @@ SPINES = [
      "دومین قویِ بحر — دریا و نیکی/خشکی هم‌نشین (lift ۴۶٫۸ — نفس ۴۰)"),
     ("برر+بحر+نجو+دعو", "6:63, 10:22, 17:67",
      "هستهٔ عمقِ چهارمِ خوشهٔ دریا — دعا هنگامِ خطر در دریا (نفس ۴۱)"),
+    ("قسو+قلب", "2:74, 5:13, 6:43, 22:53, 39:22, 57:16",
+     "بیشترین فشردگیِ دیده‌شده تا این‌جا — هر ۶ آیهٔ قسو با قلب مشترک است، یعنی صددرصدِ حضورش (lift=۴۰٫۲، دوسویه — نفس ۴۲)"),
 ]
 
 METHODS = [
@@ -418,7 +426,7 @@ for c in b12["comparison"]:
     a, b_ = c["pair"].split("↔")
     db.execute("INSERT INTO pair_comparisons(breath_no, root_a, root_b, shared_ayat, expected, lift, p_perm) VALUES (12,?,?,?,?,?,?)",
                (a, b_, c["shared"], c["expected"], c["lift"], c["p_perm"]))
-for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22), (23, b23), (24, b24), (25, b25), (26, b26), (27, b27), (28, b28), (29, b29), (30, b30), (31, b31), (32, b32), (33, b33), (34, b34), (35, b35), (36, b36), (37, b37), (38, b38), (39, b39), (40, b40), (41, b41)):
+for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22), (23, b23), (24, b24), (25, b25), (26, b26), (27, b27), (28, b28), (29, b29), (30, b30), (31, b31), (32, b32), (33, b33), (34, b34), (35, b35), (36, b36), (37, b37), (38, b38), (39, b39), (40, b40), (41, b41), (42, b42)):
     for c in brec["projection_on_map"]:
         a, b_ = c["pair"].split("↔")
         db.execute("INSERT INTO pair_comparisons(breath_no, root_a, root_b, shared_ayat, expected, lift, p_perm) VALUES (?,?,?,?,?,?,?)",
@@ -506,6 +514,8 @@ QUEUE_EVENTS = [
     (40, "queued", "برر", "چرخه"), (40, "queued", "راي", "چرخه"), (40, "queued", "جعل", "چرخه"),
     (41, "pursued", "برر", "قاعدهٔ صف"),
     (41, "queued", "وقي", "چرخه"),
+    (42, "pursued", "قسو", "قاعدهٔ صف"),
+    (42, "queued", "قلب", "چرخه"),
 ]
 for ev in QUEUE_EVENTS:
     db.execute("INSERT INTO queue_events(breath_no, event, root, source) VALUES (?,?,?,?)", ev)
@@ -537,15 +547,19 @@ for e in edges.values():
     e["best_tier"] = "قوی" if strong else "محتمل"
 
 pursued = [r for (r,) in db.execute("SELECT pursued_root FROM breaths ORDER BY breath_no")]
+# open_queue مشتقِ محضِ queue_events است (نه فهرستِ دستی — تصحیحِ نفسِ ۴۲: فهرستِ
+# hardcoded پیش‌تر «نجو» را کم داشت و هر نفسِ تازه نیازِ ویرایشِ دستی داشت).
+_q_natural = [r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='queued'")]
+_q_pursued = {r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='pursued'")}
+_seen, _open_q = set(), []
+for r in _q_natural:
+    if r not in _q_pursued and r not in _seen:
+        _seen.add(r)
+        _open_q.append(r)
 graph = dict(
     generated_from="breaths/records/*.json (deterministic)",
     nodes=sorted(nodes), visited_roots=pursued,
-    open_queue=["اتي", "اخر", "اذن", "امم", "امن", "ايي", "بشر", "بعد", "بني", "جري", "جعل",
-                "جنن", "حرم", "خلق", "دعو", "دنو", "ذكر", "راي", "رجع", "رسل", "رضو", "سجد",
-                "سخر", "سكن", "سمع", "شطن", "شكر", "شيا", "ضلل", "طوع", "عدو", "عذب", "علم",
-                "عمل", "غير", "فضل", "قبل", "قتل", "قرب", "قلل", "قوم", "كتب", "كفر", "كون",
-                "ملك", "موت", "مول", "نجو", "نزل", "نعم", "نفس", "نور", "نوس", "هدي", "وقي",
-                "ولي", "يمن", "يوم"],
+    open_queue=sorted(_open_q),
     edges=sorted(edges.values(), key=lambda e: (e["a"], e["b"])),
 )
 with open("graph/graph.json", "w") as f:
@@ -561,7 +575,7 @@ knowledge = dict(
                       dict(pair="ذنب↔حلم", shared=0, note="هم‌چنین صفر (نفس ۱۲)")] + [
         dict(pair=p["pair"], shared=0,
              note=f"فرافکنیِ نفس {bn} بر نقشه — در کلِ کتاب هرگز هم‌آیه نشده‌اند")
-        for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22), (23, b23), (24, b24), (25, b25), (26, b26), (27, b27), (28, b28), (29, b29), (30, b30), (31, b31), (32, b32), (33, b33), (34, b34), (35, b35), (36, b36), (37, b37), (38, b38), (39, b39), (40, b40), (41, b41))
+        for bn, brec in ((13, b13), (14, b14), (15, b15), (16, b16), (17, b17), (18, b18), (19, b19), (20, b20), (21, b21), (22, b22), (23, b23), (24, b24), (25, b25), (26, b26), (27, b27), (28, b28), (29, b29), (30, b30), (31, b31), (32, b32), (33, b33), (34, b34), (35, b35), (36, b36), (37, b37), (38, b38), (39, b39), (40, b40), (41, b41), (42, b42))
         for p in brec["absence_evidence"]],
     provenance_spines=[dict(roots=r, ayat=a, note=n) for r, a, n in SPINES],
 )

@@ -5,11 +5,16 @@
   monad breathe [ROOT]    یک نفس: بی‌آرگومان = قاعدهٔ صف (نادرتر مقدم)؛
                           با ROOT = مواجههٔ رفیق‌آورده (نشان‌دار). خروجی: JSON.
   monad breathe-record [ROOT] [chosen_by]
-                          رکوردِ کاملِ نفسِ پل (L3): همان breathe به‌علاوهٔ
-                          دوسویگی/فرافکنی/غیاب/ستون‌ها — الگوریتمیِ محض، صفر
-                          مدل. جایگزینِ اسکریپت‌نویسیِ دستی. بی‌ثبت (چاپِ JSON).
-                          chosen_by اختیاری برای بازتولیدپذیریِ verify (منشأِ
-                          واقعی را وقتی ROOT صریح داده می‌شود نگه می‌دارد).
+                          پیش‌نمایشِ رکوردِ نفسِ بعدی (L3) از حالتِ زندهٔ
+                          life.db — برای دیدنِ اینکه نفسِ بعدی چه خواهد بود،
+                          پیش از ثبت. بی‌ثبت (چاپِ JSON). قابلِ اتکا برایِ
+                          verifyِ دائمی نیست (breath_no با رشدِ life.db عوض
+                          می‌شود) — برایِ آن از breathe-record-from استفاده کن.
+  monad breathe-record-from PATH
+                          بازتولیدِ قطعیِ یک رکوردِ ثبت‌شده از رویِ خودِ فایل —
+                          مستقل از حالتِ زندهٔ life.db، برای همیشه پایدار.
+                          اسکریپتِ درستِ ثبت‌شده در breaths.script برایِ
+                          نفس‌های L3 (نه breathe-record ساده).
   monad verify            بازتولیدپذیری: اجرای دوبارهٔ اسکریپت‌های تاریخی و
                           مقایسهٔ checksum با رکوردهای متعارف
   monad seed-db           بازساختِ قطعیِ database/life.db از رکوردها
@@ -155,6 +160,26 @@ def cmd_breathe_record(root=None, chosen_by=None):
 
     record = bc.breathe_record(corpus, pursued=pursued, queue=deliberation_queue,
                                lived=lived, breath_no=breath_no, chosen_by=chosen_by)
+    print(json.dumps(record, ensure_ascii=False, indent=1))
+
+
+def cmd_breathe_record_from(path):
+    """بازتولیدِ یک رکوردِ L3 از رویِ خودِ فایلِ منجمدشده — نه از حالتِ زندهٔ
+    life.db. این، نه `breathe-record ROOT`، اسکریپتِ درستِ verify برایِ
+    نفس‌های L3 است: breathe-record با ROOT صریح هم بازتولیدپذیر می‌نمود، اما
+    breath_no/lived/queueاش را از life.db زنده می‌خواند که با هر نفسِ تازه
+    عوض می‌شود (کشفِ نفسِ ۴۲: MAX(breath_no)+1 برای همیشه رشد می‌کند). این‌جا
+    همان‌طور که tests/test_breathe_record.py برایِ رکوردهای تاریخی می‌کند،
+    پارامترها را از خودِ رکورد (deliberation/projection_on_map/breath_number/
+    chosen_by) بازمی‌سازد — قطعی و مستقل از رشدِ آیندهٔ life.db، برایِ همیشه.
+    """
+    from engine import breath_cycle as bc
+    corpus = bc.load_corpus()
+    rec = json.load(open(path, encoding="utf-8"))
+    queue = [d["root"] for d in rec["deliberation"]]
+    lived = [p["pair"].split("↔")[1] for p in rec["projection_on_map"]]
+    record = bc.breathe_record(corpus, pursued=rec["pursued"], queue=queue, lived=lived,
+                               breath_no=rec["breath_number"], chosen_by=rec["chosen_by"])
     print(json.dumps(record, ensure_ascii=False, indent=1))
 
 
@@ -469,6 +494,11 @@ if __name__ == "__main__":
     elif args[0] == "breathe-record":
         cmd_breathe_record(args[1] if len(args) > 1 else None,
                           " ".join(args[2:]) or None)
+    elif args[0] == "breathe-record-from":
+        if len(args) < 2:
+            print(json.dumps({"خطا": "breathe-record-from نیازمندِ PATH است"}, ensure_ascii=False))
+            sys.exit(1)
+        cmd_breathe_record_from(args[1])
     elif args[0] == "verify":
         cmd_verify()
     elif args[0] == "seed-db":
