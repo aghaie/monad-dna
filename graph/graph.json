@@ -94,6 +94,7 @@
   "صدد",
   "صدر",
   "صوب",
+  "صوم",
   "صيد",
   "صير",
   "ضرر",
@@ -268,7 +269,8 @@
   "جلد",
   "ياس",
   "فقر",
-  "رجم"
+  "رجم",
+  "صوم"
  ],
  "open_queue": [
   "اتي",
@@ -947,6 +949,22 @@
   },
   {
    "a": "اله",
+   "b": "صوم",
+   "directions": {
+    "صوم→اله": {
+     "breath": 77,
+     "lift": 2.414,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
    "b": "صيد",
    "directions": {
     "اله→صيد": {
@@ -1420,6 +1438,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "صوم",
+   "directions": {
+    "صوم→امن": {
+     "breath": 77,
+     "lift": 4.705,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -5100,6 +5134,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صوم",
+   "b": "كون",
+   "directions": {
+    "صوم→كون": {
+     "breath": 77,
+     "lift": 2.41,
+     "p": 0.0465,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صوم",
+   "b": "يوم",
+   "directions": {
+    "صوم→يوم": {
+     "breath": 77,
+     "lift": 7.519,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
