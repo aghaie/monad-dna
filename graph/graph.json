@@ -29,6 +29,7 @@
   "تحت",
   "توب",
   "ثمن",
+  "جدد",
   "جري",
   "جعل",
   "جنن",
@@ -208,7 +209,8 @@
   "نقض",
   "حرق",
   "حيق",
-  "ضيع"
+  "ضيع",
+  "جدد"
  ],
  "open_queue": [
   "اتي",
@@ -2399,6 +2401,38 @@
      "breath": 33,
      "lift": 6.385,
      "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جدد",
+   "b": "خلق",
+   "directions": {
+    "جدد→خلق": {
+     "breath": 50,
+     "lift": 22.884,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جدد",
+   "b": "قول",
+   "directions": {
+    "جدد→قول": {
+     "breath": 50,
+     "lift": 2.255,
+     "p": 0.01,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
