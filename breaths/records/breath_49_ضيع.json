@@ -1,0 +1,838 @@
+{
+ "breath_number": 49,
+ "deliberation": [
+  {
+   "root": "ضيع",
+   "attestation": 10
+  },
+  {
+   "root": "جدد",
+   "attestation": 10
+  },
+  {
+   "root": "رجس",
+   "attestation": 10
+  },
+  {
+   "root": "قهر",
+   "attestation": 10
+  },
+  {
+   "root": "عنب",
+   "attestation": 11
+  },
+  {
+   "root": "طبع",
+   "attestation": 11
+  },
+  {
+   "root": "وقد",
+   "attestation": 11
+  },
+  {
+   "root": "ايد",
+   "attestation": 11
+  },
+  {
+   "root": "سفه",
+   "attestation": 11
+  },
+  {
+   "root": "عون",
+   "attestation": 11
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "ضيع",
+ "attestation": 10,
+ "ayat": 10,
+ "top": [
+  {
+   "root": "اجر",
+   "shared": 7,
+   "expected": 0.16,
+   "lift": 44.093,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حسن",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.139,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اله",
+   "shared": 6,
+   "expected": 3.01,
+   "lift": 1.991,
+   "p_perm": 0.0565,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "اجر",
+  "حسن"
+ ],
+ "one_way": [
+  "اله"
+ ],
+ "neighbor_view": {
+  "اجر": {
+   "root": "ضيع",
+   "shared": 7,
+   "expected": 0.16,
+   "lift": 44.093,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حسن": {
+   "root": "ضيع",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.139,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "ضيع↔اله",
+   "shared": 6,
+   "expected": 3.01,
+   "lift": 1.99,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "ضيع↔رحم",
+   "shared": 2,
+   "expected": 0.5,
+   "lift": 3.98,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "ضيع↔راف",
+   "shared": 1,
+   "expected": 0.02,
+   "lift": 47.97,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "ضيع↔هجر",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 23.1,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "ضيع↔نصر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔اوي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔صير",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔باس",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔غفر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔حلم",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔عفو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ذنب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔سوا",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.13,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "ضيع↔بدو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔خفي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔دون",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔نفع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ضرر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔كشف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔مسس",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ذوق",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔الم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔انس",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔عشر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔عرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔بغي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔عوج",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔سبل",
+   "shared": 2,
+   "expected": 0.26,
+   "lift": 7.6,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "ضيع↔يتم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔شري",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔لحم",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔دمو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ثمن",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔فلك",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔وسع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔كلف",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔جهد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔قسم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔صدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔بحر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔برر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔قسو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ستت",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔هبط",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔لون",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔نقض",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔حرق",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔حيق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "ضيع↔نصر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔اوي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔صير",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔باس",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔غفر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔حلم",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔عفو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ذنب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔بدو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔خفي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔دون",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔نفع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ضرر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔كشف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔مسس",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ذوق",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔الم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔انس",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔عشر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔عرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔بغي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔عوج",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔يتم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔شري",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔لحم",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔دمو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ثمن",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔فلك",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔وسع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔كلف",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔جهد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔قسم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔صدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔بحر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔برر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔قسو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔ستت",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔هبط",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔لون",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔نقض",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔حرق",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضيع↔حيق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "9:120",
+   "degree": 3,
+   "roots_present": [
+    "اجر",
+    "حسن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "11:115",
+   "degree": 3,
+   "roots_present": [
+    "اجر",
+    "حسن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "12:90",
+   "degree": 3,
+   "roots_present": [
+    "اجر",
+    "حسن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "3:171",
+   "degree": 2,
+   "roots_present": [
+    "اجر",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "3:195",
+   "degree": 2,
+   "roots_present": [
+    "حسن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "12:56",
+   "degree": 2,
+   "roots_present": [
+    "اجر",
+    "حسن"
+   ]
+  },
+  {
+   "ayah": "18:30",
+   "degree": 2,
+   "roots_present": [
+    "اجر",
+    "حسن"
+   ]
+  },
+  {
+   "ayah": "2:143",
+   "degree": 1,
+   "roots_present": [
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "ضيع+اجر": [
+   "3:171",
+   "7:170",
+   "9:120",
+   "11:115",
+   "12:56",
+   "12:90",
+   "18:30"
+  ],
+  "ضيع+حسن": [
+   "3:195",
+   "9:120",
+   "11:115",
+   "12:56",
+   "12:90",
+   "18:30"
+  ],
+  "ضيع+راف": [
+   "2:143"
+  ],
+  "ضيع+هجر": [
+   "3:195"
+  ],
+  "ضيع+سبل": [
+   "3:195",
+   "9:120"
+  ]
+ }
+}
