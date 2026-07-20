@@ -1,0 +1,928 @@
+{
+ "breath_number": 54,
+ "deliberation": [
+  {
+   "root": "طبع",
+   "attestation": 11
+  },
+  {
+   "root": "وقد",
+   "attestation": 11
+  },
+  {
+   "root": "ايد",
+   "attestation": 11
+  },
+  {
+   "root": "سفه",
+   "attestation": 11
+  },
+  {
+   "root": "عون",
+   "attestation": 11
+  },
+  {
+   "root": "عصو",
+   "attestation": 12
+  },
+  {
+   "root": "طين",
+   "attestation": 12
+  },
+  {
+   "root": "جحد",
+   "attestation": 12
+  },
+  {
+   "root": "خطب",
+   "attestation": 12
+  },
+  {
+   "root": "شبه",
+   "attestation": 12
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "طبع",
+ "attestation": 11,
+ "ayat": 11,
+ "top": [
+  {
+   "root": "قلب",
+   "shared": 11,
+   "expected": 0.27,
+   "lift": 40.232,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "امن",
+   "shared": 5,
+   "expected": 1.28,
+   "lift": 3.921,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 7,
+   "expected": 3.31,
+   "lift": 2.112,
+   "p_perm": 0.01,
+   "stable": true,
+   "tier": "قوی"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "قلب",
+  "امن"
+ ],
+ "one_way": [
+  "اله"
+ ],
+ "neighbor_view": {
+  "قلب": {
+   "root": "طبع",
+   "shared": 11,
+   "expected": 0.27,
+   "lift": 40.232,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "امن": {
+   "root": "طبع",
+   "shared": 5,
+   "expected": 1.28,
+   "lift": 3.921,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "طبع↔اله",
+   "shared": 7,
+   "expected": 3.31,
+   "lift": 2.11,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "طبع↔رحم",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔راف",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔هجر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔نصر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔اوي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔صير",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔باس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔غفر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔حلم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عفو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ذنب",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 15.32,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "طبع↔سوا",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔بدو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔خفي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔دون",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔نفع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ضرر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔كشف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔مسس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ذوق",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔الم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔انس",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عشر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔بغي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عوج",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔سبل",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.46,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "طبع↔يتم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔شري",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔لحم",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔دمو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ثمن",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔فلك",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔وسع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔كلف",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔جهد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔قسم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔صدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔بحر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔برر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔قسو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ستت",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔هبط",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔لون",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔نقض",
+   "shared": 1,
+   "expected": 0.02,
+   "lift": 62.99,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "طبع↔حرق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔حيق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ضيع",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔جدد",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔رجس",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔قهر",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عنب",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "طبع↔رحم",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔راف",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔هجر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔نصر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔اوي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔صير",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔باس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔غفر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔حلم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عفو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔سوا",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔بدو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔خفي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔دون",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔نفع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ضرر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔كشف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔مسس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ذوق",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔الم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔انس",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عشر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔بغي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عوج",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔يتم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔شري",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔لحم",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔دمو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ثمن",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔فلك",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔وسع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔كلف",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔جهد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔قسم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔صدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔بحر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔برر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔قسو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ستت",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔هبط",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔لون",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔حرق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔حيق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔ضيع",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔جدد",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔رجس",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔قهر",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طبع↔عنب",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "4:155",
+   "degree": 3,
+   "roots_present": [
+    "قلب",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "7:101",
+   "degree": 3,
+   "roots_present": [
+    "قلب",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "40:35",
+   "degree": 3,
+   "roots_present": [
+    "قلب",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "9:93",
+   "degree": 2,
+   "roots_present": [
+    "قلب",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "10:74",
+   "degree": 2,
+   "roots_present": [
+    "قلب",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "16:108",
+   "degree": 2,
+   "roots_present": [
+    "قلب",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "30:59",
+   "degree": 2,
+   "roots_present": [
+    "قلب",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "47:16",
+   "degree": 2,
+   "roots_present": [
+    "قلب",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "طبع+قلب": [
+   "4:155",
+   "7:100",
+   "7:101",
+   "9:87",
+   "9:93",
+   "10:74",
+   "16:108",
+   "30:59",
+   "40:35",
+   "47:16",
+   "63:3"
+  ],
+  "طبع+امن": [
+   "4:155",
+   "7:101",
+   "10:74",
+   "40:35",
+   "63:3"
+  ],
+  "طبع+اله": [
+   "4:155",
+   "7:101",
+   "9:93",
+   "16:108",
+   "30:59",
+   "40:35",
+   "47:16"
+  ],
+  "طبع+نقض": [
+   "4:155"
+  ]
+ }
+}
