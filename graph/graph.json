@@ -250,7 +250,8 @@
   "بغت",
   "طمن",
   "خزن",
-  "فدي"
+  "فدي",
+  "قرض"
  ],
  "open_queue": [
   "اتي",
@@ -1049,10 +1050,18 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    },
+    "قرض→اله": {
+     "breath": 68,
+     "lift": 3.319,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
    "mutual_strong": false,
-   "best_tier": "محتمل"
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -3125,6 +3134,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "حسن",
+   "b": "قرض",
+   "directions": {
+    "قرض→حسن": {
+     "breath": 68,
+     "lift": 30.199,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "حلم",
