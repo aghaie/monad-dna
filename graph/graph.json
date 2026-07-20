@@ -72,6 +72,7 @@
   "رحم",
   "رسل",
   "رضو",
+  "ريب",
   "سبح",
   "سبل",
   "ستت",
@@ -91,6 +92,7 @@
   "شعر",
   "شفع",
   "شكر",
+  "شكك",
   "شهد",
   "شيا",
   "صدد",
@@ -275,7 +277,8 @@
   "رجم",
   "صوم",
   "ثوي",
-  "وصف"
+  "وصف",
+  "شكك"
  ],
  "open_queue": [
   "اتي",
@@ -304,6 +307,7 @@
   "رجع",
   "رسل",
   "رضو",
+  "ريب",
   "سجد",
   "سخر",
   "سكن",
@@ -2770,6 +2774,22 @@
   },
   {
    "a": "بين",
+   "b": "شكك",
+   "directions": {
+    "شكك→بين": {
+     "breath": 80,
+     "lift": 7.326,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
    "b": "صير",
    "directions": {
     "صير→بين": {
@@ -4257,6 +4277,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "ربب",
+   "b": "شكك",
+   "directions": {
+    "شكك→ربب": {
+     "breath": 80,
+     "lift": 2.387,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "رجم",
    "b": "شطن",
    "directions": {
@@ -4479,6 +4515,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ريب",
+   "b": "شكك",
+   "directions": {
+    "شكك→ريب": {
+     "breath": 80,
+     "lift": 83.147,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "سبح",
@@ -5087,6 +5139,54 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "شكك",
+   "b": "علم",
+   "directions": {
+    "شكك→علم": {
+     "breath": 80,
+     "lift": 2.855,
+     "p": 0.0332,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شكك",
+   "b": "قبل",
+   "directions": {
+    "شكك→قبل": {
+     "breath": 80,
+     "lift": 7.371,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شكك",
+   "b": "قول",
+   "directions": {
+    "شكك→قول": {
+     "breath": 80,
+     "lift": 1.804,
+     "p": 0.0399,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "شيا",
