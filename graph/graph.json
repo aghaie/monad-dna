@@ -34,6 +34,7 @@
   "جدد",
   "جري",
   "جعل",
+  "جلد",
   "جنن",
   "جهد",
   "حبب",
@@ -87,6 +88,7 @@
   "شعر",
   "شفع",
   "شكر",
+  "شهد",
   "شيا",
   "صدد",
   "صدر",
@@ -258,7 +260,8 @@
   "حلف",
   "عصم",
   "حور",
-  "فوه"
+  "فوه",
+  "جلد"
  ],
  "open_queue": [
   "اتي",
@@ -753,6 +756,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "جلد",
+   "directions": {
+    "جلد→اله": {
+     "breath": 73,
+     "lift": 2.213,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -2881,6 +2900,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جلد",
+   "b": "شهد",
+   "directions": {
+    "جلد→شهد": {
+     "breath": 73,
+     "lift": 28.166,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
