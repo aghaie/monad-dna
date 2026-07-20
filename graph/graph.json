@@ -88,6 +88,7 @@
   "ضيع",
   "طبع",
   "طوع",
+  "طين",
   "ظلم",
   "عبد",
   "عدو",
@@ -230,7 +231,8 @@
   "ايد",
   "سفه",
   "عون",
-  "عصو"
+  "عصو",
+  "طين"
  ],
  "open_queue": [
   "اتي",
@@ -3185,6 +3187,22 @@
   },
   {
    "a": "خلق",
+   "b": "طين",
+   "directions": {
+    "طين→خلق": {
+     "breath": 60,
+     "lift": 23.838,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خلق",
    "b": "نفع",
    "directions": {
     "نفع→خلق": {
@@ -4794,6 +4812,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "طين",
+   "b": "قول",
+   "directions": {
+    "طين→قول": {
+     "breath": 60,
+     "lift": 2.255,
+     "p": 0.0133,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
    "mutual_strong": false,
