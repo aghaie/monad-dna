@@ -159,6 +159,7 @@
   "كسو",
   "كشف",
   "كفر",
+  "كفف",
   "كلف",
   "كلل",
   "كون",
@@ -200,6 +201,7 @@
   "وهب",
   "ياس",
   "يتم",
+  "يدي",
   "يمن",
   "يوم"
  ],
@@ -285,7 +287,8 @@
   "وصف",
   "شكك",
   "بدا",
-  "صمم"
+  "صمم",
+  "كفف"
  ],
  "open_queue": [
   "اتي",
@@ -1567,6 +1570,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "كفف",
+   "directions": {
+    "كفف→امن": {
+     "breath": 83,
+     "lift": 3.697,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -6277,6 +6296,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "قوم",
+   "b": "كفف",
+   "directions": {
+    "كفف→قوم": {
+     "breath": 83,
+     "lift": 4.477,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "كفر",
    "b": "ياس",
    "directions": {
@@ -6287,6 +6322,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كفف",
+   "b": "يدي",
+   "directions": {
+    "كفف→يدي": {
+     "breath": 83,
+     "lift": 20.247,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
