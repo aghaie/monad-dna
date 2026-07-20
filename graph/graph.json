@@ -222,7 +222,8 @@
   "قهر",
   "عنب",
   "طبع",
-  "وقد"
+  "وقد",
+  "ايد"
  ],
  "open_queue": [
   "اتي",
@@ -621,6 +622,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "ايد",
+   "directions": {
+    "ايد→اله": {
+     "breath": 56,
+     "lift": 2.112,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -1504,10 +1521,50 @@
   },
   {
    "a": "ايد",
+   "b": "بني",
+   "directions": {
+    "ايد→بني": {
+     "breath": 56,
+     "lift": 22.676,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ايد",
+   "b": "كفر",
+   "directions": {
+    "ايد→كفر": {
+     "breath": 56,
+     "lift": 6.096,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايد",
    "b": "نصر",
    "directions": {
     "نصر→ايد": {
      "breath": 5,
+     "lift": 20.69,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "ايد→نصر": {
+     "breath": 56,
      "lift": 20.69,
      "p": 0.0033,
      "stable": false,
