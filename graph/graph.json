@@ -253,7 +253,8 @@
   "خزن",
   "فدي",
   "قرض",
-  "حلف"
+  "حلف",
+  "عصم"
  ],
  "open_queue": [
   "اتي",
@@ -988,10 +989,18 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 11
+    },
+    "عصم→اله": {
+     "breath": 70,
+     "lift": 3.042,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
     }
    },
    "mutual_strong": false,
-   "best_tier": "محتمل"
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -5292,6 +5301,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عصم",
+   "b": "هدي",
+   "directions": {
+    "عصم→هدي": {
+     "breath": 70,
+     "lift": 9.695,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
