@@ -1,0 +1,891 @@
+{
+ "breath_number": 43,
+ "deliberation": [
+  {
+   "root": "ستت",
+   "attestation": 8
+  },
+  {
+   "root": "هبط",
+   "attestation": 8
+  },
+  {
+   "root": "لون",
+   "attestation": 9
+  },
+  {
+   "root": "نقض",
+   "attestation": 9
+  },
+  {
+   "root": "حرق",
+   "attestation": 9
+  },
+  {
+   "root": "حيق",
+   "attestation": 10
+  },
+  {
+   "root": "ضيع",
+   "attestation": 10
+  },
+  {
+   "root": "جدد",
+   "attestation": 10
+  },
+  {
+   "root": "رجس",
+   "attestation": 10
+  },
+  {
+   "root": "قهر",
+   "attestation": 10
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "ستت",
+ "attestation": 8,
+ "ayat": 8,
+ "top": [
+  {
+   "root": "عرش",
+   "shared": 6,
+   "expected": 0.04,
+   "lift": 146.156,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سوي",
+   "shared": 5,
+   "expected": 0.1,
+   "lift": 48.719,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خلق",
+   "shared": 7,
+   "expected": 0.28,
+   "lift": 25.03,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سمو",
+   "shared": 7,
+   "expected": 0.45,
+   "lift": 15.501,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "يوم",
+   "shared": 7,
+   "expected": 0.48,
+   "lift": 14.473,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ارض",
+   "shared": 7,
+   "expected": 0.56,
+   "lift": 12.401,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اله",
+   "shared": 5,
+   "expected": 2.41,
+   "lift": 2.074,
+   "p_perm": 0.0698,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "عرش",
+  "سوي",
+  "خلق",
+  "سمو",
+  "يوم",
+  "ارض"
+ ],
+ "one_way": [
+  "اله"
+ ],
+ "neighbor_view": {
+  "عرش": {
+   "root": "ستت",
+   "shared": 6,
+   "expected": 0.04,
+   "lift": 146.156,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سوي": {
+   "root": "ستت",
+   "shared": 5,
+   "expected": 0.1,
+   "lift": 48.719,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خلق": {
+   "root": "ستت",
+   "shared": 7,
+   "expected": 0.28,
+   "lift": 25.03,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سمو": {
+   "root": "ستت",
+   "shared": 7,
+   "expected": 0.45,
+   "lift": 15.501,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "يوم": {
+   "root": "ستت",
+   "shared": 7,
+   "expected": 0.48,
+   "lift": 14.473,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ارض": {
+   "root": "ستت",
+   "shared": 7,
+   "expected": 0.56,
+   "lift": 12.401,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "ستت↔اله",
+   "shared": 5,
+   "expected": 2.41,
+   "lift": 2.07,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "ستت↔رحم",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.49,
+   "p_perm": 0.3688
+  },
+  {
+   "pair": "ستت↔راف",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔هجر",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔نصر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔اوي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔صير",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔باس",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔غفر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔حلم",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔عفو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔ذنب",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔سوا",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔بدو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔خفي",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔دون",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.49,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "ستت↔نفع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔ضرر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔كشف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔مسس",
+   "shared": 2,
+   "expected": 0.07,
+   "lift": 27.35,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ستت↔ذوق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔الم",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.68,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "ستت↔انس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔عشر",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔عرض",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔بغي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔عوج",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔سبل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔يتم",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔شري",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔لحم",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔دمو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔ثمن",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔فلك",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔وسع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔كلف",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔جهد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔قسم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔صدد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔بحر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔برر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔قسو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "ستت↔راف",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔هجر",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔نصر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔اوي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔صير",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔باس",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔غفر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔حلم",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔عفو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔ذنب",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔سوا",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔بدو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔خفي",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔نفع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔ضرر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔كشف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔ذوق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔انس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔عشر",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔عرض",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔بغي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔عوج",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔سبل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔يتم",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔شري",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔لحم",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔دمو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔ثمن",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔فلك",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔وسع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔كلف",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔جهد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔قسم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔صدد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔بحر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔برر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ستت↔قسو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "7:54",
+   "degree": 7,
+   "roots_present": [
+    "عرش",
+    "سوي",
+    "خلق",
+    "سمو",
+    "يوم",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "10:3",
+   "degree": 7,
+   "roots_present": [
+    "عرش",
+    "سوي",
+    "خلق",
+    "سمو",
+    "يوم",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "32:4",
+   "degree": 7,
+   "roots_present": [
+    "عرش",
+    "سوي",
+    "خلق",
+    "سمو",
+    "يوم",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "57:4",
+   "degree": 7,
+   "roots_present": [
+    "عرش",
+    "سوي",
+    "خلق",
+    "سمو",
+    "يوم",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "25:59",
+   "degree": 6,
+   "roots_present": [
+    "عرش",
+    "سوي",
+    "خلق",
+    "سمو",
+    "يوم",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "11:7",
+   "degree": 5,
+   "roots_present": [
+    "عرش",
+    "خلق",
+    "سمو",
+    "يوم",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "50:38",
+   "degree": 4,
+   "roots_present": [
+    "خلق",
+    "سمو",
+    "يوم",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "58:4",
+   "degree": 1,
+   "roots_present": [
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "ستت+عرش": [
+   "7:54",
+   "10:3",
+   "11:7",
+   "25:59",
+   "32:4",
+   "57:4"
+  ],
+  "ستت+سوي": [
+   "7:54",
+   "10:3",
+   "25:59",
+   "32:4",
+   "57:4"
+  ],
+  "ستت+خلق": [
+   "7:54",
+   "10:3",
+   "11:7",
+   "25:59",
+   "32:4",
+   "50:38",
+   "57:4"
+  ],
+  "ستت+سمو": [
+   "7:54",
+   "10:3",
+   "11:7",
+   "25:59",
+   "32:4",
+   "50:38",
+   "57:4"
+  ],
+  "ستت+يوم": [
+   "7:54",
+   "10:3",
+   "11:7",
+   "25:59",
+   "32:4",
+   "50:38",
+   "57:4"
+  ],
+  "ستت+ارض": [
+   "7:54",
+   "10:3",
+   "11:7",
+   "25:59",
+   "32:4",
+   "50:38",
+   "57:4"
+  ],
+  "ستت+مسس": [
+   "50:38",
+   "58:4"
+  ]
+ }
+}
