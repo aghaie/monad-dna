@@ -34,6 +34,7 @@
   "جهد",
   "حبب",
   "حرف",
+  "حرق",
   "حرم",
   "حسب",
   "حسن",
@@ -201,7 +202,8 @@
   "ستت",
   "هبط",
   "لون",
-  "نقض"
+  "نقض",
+  "حرق"
  ],
  "open_queue": [
   "اتي",
@@ -628,6 +630,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "حرق",
+   "directions": {
+    "حرق→اله": {
+     "breath": 47,
+     "lift": 2.213,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -2576,6 +2594,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرق",
+   "b": "عذب",
+   "directions": {
+    "حرق→عذب": {
+     "breath": 47,
+     "lift": 10.311,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
