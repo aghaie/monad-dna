@@ -126,6 +126,7 @@
   "فري",
   "فضل",
   "فلك",
+  "فوه",
   "فيا",
   "قبل",
   "قتل",
@@ -256,7 +257,8 @@
   "قرض",
   "حلف",
   "عصم",
-  "حور"
+  "حور",
+  "فوه"
  ],
  "open_queue": [
   "اتي",
@@ -1047,6 +1049,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "فوه",
+   "directions": {
+    "فوه→اله": {
+     "breath": 72,
+     "lift": 2.042,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -5651,6 +5669,38 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "فوه",
+   "b": "قول",
+   "directions": {
+    "فوه→قول": {
+     "breath": 72,
+     "lift": 2.428,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "فوه",
+   "b": "كفر",
+   "directions": {
+    "فوه→كفر": {
+     "breath": 72,
+     "lift": 7.221,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "قتل",
