@@ -18,6 +18,7 @@
   "ايي",
   "باس",
   "بحر",
+  "بدا",
   "بدو",
   "برر",
   "بشر",
@@ -124,6 +125,7 @@
   "عند",
   "عهد",
   "عوج",
+  "عود",
   "عون",
   "غفر",
   "غني",
@@ -278,7 +280,8 @@
   "صوم",
   "ثوي",
   "وصف",
-  "شكك"
+  "شكك",
+  "بدا"
  ],
  "open_queue": [
   "اتي",
@@ -324,6 +327,7 @@
   "علم",
   "عمل",
   "عند",
+  "عود",
   "غني",
   "غير",
   "فضل",
@@ -727,6 +731,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "بدا",
+   "directions": {
+    "بدا→اله": {
+     "breath": 81,
+     "lift": 1.896,
+     "p": 0.0299,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -2307,6 +2327,54 @@
    },
    "mutual_strong": true,
    "best_tier": "قوی"
+  },
+  {
+   "a": "بدا",
+   "b": "خلق",
+   "directions": {
+    "بدا→خلق": {
+     "breath": 81,
+     "lift": 18.389,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بدا",
+   "b": "عود",
+   "directions": {
+    "بدا→عود": {
+     "breath": 81,
+     "lift": 76.798,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بدا",
+   "b": "كون",
+   "directions": {
+    "بدا→كون": {
+     "breath": 81,
+     "lift": 1.894,
+     "p": 0.0432,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "بدو",
