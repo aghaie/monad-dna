@@ -25,8 +25,8 @@ def test_axioms_exact():
 
 
 def test_counts():
-    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 52
-    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 112
+    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 53
+    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 114
     assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 8
     assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 7
 
@@ -47,8 +47,8 @@ def test_open_queue():
                        "ذكر", "راي", "رجع", "رسل", "رضو", "سجد", "سخر", "سكن", "سمع", "سمو",
                        "شطن", "شكر", "شيا", "ضلل", "طوع", "عدو", "عذب", "علم", "عمل", "غير",
                        "فضل", "قبل", "قتل", "قرب", "قلب", "قلل", "قول", "قوم", "كتب", "كفر",
-                       "كون", "ملك", "موت", "مول", "نجو", "نزل", "نعم", "نفس", "نور", "نوس",
-                       "هدي", "هزا", "وقي", "ولي", "يمن", "يوم"}
+                       "كون", "ملك", "موت", "مول", "نجو", "نخل", "نزل", "نعم", "نفس", "نور",
+                       "نوس", "هدي", "هزا", "وقي", "ولي", "يمن", "يوم"}
 
 
 def test_every_finding_traceable():

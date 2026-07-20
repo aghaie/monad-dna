@@ -62,18 +62,40 @@ def _run(*args):
                           capture_output=True, text=True, cwd=ROOT)
 
 
+def _pick_unlived_root(with_structure):
+    """ریشهٔ آزمونِ پویا — نه هاردکد. life.db همیشه رشد می‌کند (هر نفس یک
+    ریشهٔ تازه را می‌بلعد)، پس یک نامِ ثابت مثلِ «عنب» دیر یا زود زیسته و
+    نامعتبر می‌شود (دقیقاً همین اتفاق برایِ نفسِ ۵۳ افتاد). این تابع همیشه
+    یک ریشهٔ واقعاً نزیستهٔ کنونی را برمی‌گزیند — قطعی (اولین مواردِ
+    مرتب‌شده)، نه تصادفی."""
+    db = sqlite3.connect("database/life.db")
+    lived = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
+    obs = json.load(open("observatory/observatory.json"))
+    if with_structure:
+        cands = sorted(e["root"] for e in obs["roots"]
+                       if e["root"] not in lived and e["top"])
+    else:
+        cands = sorted(r for r in obs["roots_no_structure"] if r not in lived)
+    assert cands, "هیچ ریشهٔ نزیستهٔ مناسبی نماند — این خودش نشانه‌ای‌ست"
+    return cands[0]
+
+
+ROOT_A = _pick_unlived_root(True)   # باساختار → «باغبان (رصدخانه)»
+ROOT_B = _pick_unlived_root(False)  # بی‌ساختار → «باغبان (مستقیم)»
+
+
 def test_queue_add_tags_source_by_observatory_structure():
     """ریشهٔ باساختار (عنب) → «باغبان (رصدخانه)»؛ بی‌ساختار (نعق) →
     «باغبان (مستقیم)» — منشأ صادقانه، نه یک‌دست."""
     saved = _backup_injections()
     try:
-        out1 = _run("queue-add", "عنب")
-        out2 = _run("queue-add", "نعق")
+        out1 = _run("queue-add", ROOT_A)
+        out2 = _run("queue-add", ROOT_B)
         assert out1.returncode == 0 and out2.returncode == 0, (out1.stderr, out2.stderr)
         items = json.load(open(INJ_FILE))
         by_root = {i["root"]: i for i in items}
-        assert by_root["عنب"]["source"] == "باغبان (رصدخانه)"
-        assert by_root["نعق"]["source"] == "باغبان (مستقیم)"
+        assert by_root[ROOT_A]["source"] == "باغبان (رصدخانه)"
+        assert by_root[ROOT_B]["source"] == "باغبان (مستقیم)"
     finally:
         _restore_injections(saved)
 
@@ -95,11 +117,11 @@ def test_queue_add_is_idempotent():
     """تزریقِ دوبارهٔ همان ریشه خطا نیست، اما ورودیِ دوم اضافه نمی‌کند."""
     saved = _backup_injections()
     try:
-        _run("queue-add", "عنب")
-        out2 = _run("queue-add", "عنب")
+        _run("queue-add", ROOT_A)
+        out2 = _run("queue-add", ROOT_A)
         assert out2.returncode == 0
         items = json.load(open(INJ_FILE))
-        assert sum(1 for i in items if i["root"] == "عنب") == 1
+        assert sum(1 for i in items if i["root"] == ROOT_A) == 1
     finally:
         _restore_injections(saved)
 
@@ -109,10 +131,10 @@ def test_open_queue_includes_pending_injection():
     مسیرِ اصلی می‌ماند؛ تزریق فقط عضویت می‌دهد، گزینش را دور نمی‌زند."""
     saved = _backup_injections()
     try:
-        _run("queue-add", "عنب")
+        _run("queue-add", ROOT_A)
         db = sqlite3.connect("database/life.db")
         q = monad_cli.open_queue(db)
-        assert "عنب" in q
+        assert ROOT_A in q
     finally:
         _restore_injections(saved)
 
@@ -124,7 +146,7 @@ def test_queue_add_never_touches_life_db():
     saved = _backup_injections()
     before = hashlib.sha256(open("database/life.db", "rb").read()).hexdigest()
     try:
-        _run("queue-add", "عنب")
+        _run("queue-add", ROOT_A)
         after = hashlib.sha256(open("database/life.db", "rb").read()).hexdigest()
         assert before == after
     finally:
@@ -168,7 +190,7 @@ def test_queue_sync_observatory_only_adds_unseen_strong_candidates():
         items = json.load(open(INJ_FILE))
         assert all(i["source"] == "رصدخانه (خودکار)" for i in items)
         # نمونه‌ای که پیش‌تر می‌دانستیم قوی‌ترین نامزدِ نادیده است
-        assert any(i["root"] == "عنب" for i in items)
+        assert any(i["root"] == ROOT_A for i in items)
     finally:
         _restore_injections(saved)
 
@@ -222,13 +244,13 @@ def test_injection_report_groups_by_source_with_reason():
     today = monad_cli._today()
     saved_report = _backup_report(today)
     try:
-        _run("queue-add", "عنب", "دلیلِ دستی")
+        _run("queue-add", ROOT_A, "دلیلِ دستی")
         out = _run("injection-report")
         assert out.returncode == 0
         report = json.loads(out.stdout)
         assert report["تاریخ"] == today
         assert report["کلِ_تزریق‌های_امروز"] >= 1
-        entry = next(d for d in report["جزئیات"] if d["root"] == "عنب")
+        entry = next(d for d in report["جزئیات"] if d["root"] == ROOT_A)
         assert entry["note"] == "دلیلِ دستی"
         assert entry["source"] == "باغبان (رصدخانه)"
         assert os.path.exists(f"{REPORTS_DIR}/{today}.json")
@@ -241,11 +263,11 @@ def test_status_shows_pending_injections():
     """monad status باید صفِ تزریقیِ بازمانده را با منشأش نشان دهد — شفافیت."""
     saved = _backup_injections()
     try:
-        _run("queue-add", "عنب", "lift=255")
+        _run("queue-add", ROOT_A, "lift=255")
         out = _run("status")
         assert out.returncode == 0
         result = json.loads(out.stdout)
-        entry = next(i for i in result["queue_injections"] if i["root"] == "عنب")
+        entry = next(i for i in result["queue_injections"] if i["root"] == ROOT_A)
         assert entry["source"] == "باغبان (رصدخانه)"
         assert entry["note"] == "lift=255"
     finally:
@@ -256,9 +278,9 @@ def test_queue_add_records_note_and_breath_context():
     """یادداشتِ آزاد و بافتِ نفسِ فعلی (breath_no) باید ثبت شود — ردگیریِ منشأ."""
     saved = _backup_injections()
     try:
-        _run("queue-add", "عنب", "lift=255 در اطلس، هنوز نزیسته")
+        _run("queue-add", ROOT_A, "lift=255 در اطلس، هنوز نزیسته")
         items = json.load(open(INJ_FILE))
-        entry = next(i for i in items if i["root"] == "عنب")
+        entry = next(i for i in items if i["root"] == ROOT_A)
         assert entry["note"] == "lift=255 در اطلس، هنوز نزیسته"
         assert isinstance(entry["added_after_breath"], int)
     finally:
