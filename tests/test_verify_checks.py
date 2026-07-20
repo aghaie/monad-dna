@@ -2,7 +2,9 @@
 دستی. پیش‌تر هر نفسِ نو نیازِ ویرایشِ دستیِ cli/monad را داشت — منبعِ خطای
 هم‌گام‌سازی. اکنون افزودن به life.db به‌تنهایی کافی‌ست.
 """
+import json
 import os
+import shlex
 import sqlite3
 import subprocess
 import sys
@@ -48,3 +50,26 @@ def test_verify_still_reproducible():
                          capture_output=True, text=True)
     assert out.returncode == 0
     assert "REPRODUCIBLE" in out.stdout
+
+
+def test_cli_breathe_record_explicit_chosen_by_override():
+    """گشایشِ نفس‌های خودرانِ آینده: chosen_by باید بازنویسی‌پذیر باشد وگرنه
+    وقتی ROOT صریح داده می‌شود (برای بازتولیدپذیریِ آتیِ verify)، منشأِ
+    واقعی (مثلِ قاعدهٔ صف) به‌غلط «رفیق» ثبت می‌شود."""
+    out = subprocess.run(
+        [sys.executable, "cli/monad", "breathe-record", "قسو", "قاعدهٔ صف (خودران)"],
+        capture_output=True, text=True, cwd=ROOT)
+    result = json.loads(out.stdout)
+    assert result["pursued"] == "قسو"
+    assert result["chosen_by"] == "قاعدهٔ صف (خودران)"
+
+
+def test_verify_shlex_roundtrip_preserves_quoted_multiword_arg():
+    """اسکریپتِ ذخیره‌شده ممکن است آرگومانِ نقل‌قول‌شدهٔ چندکلمه‌ای داشته باشد
+    (chosen_by صریح) — cmd_verify باید با shlex.split آن را درست بشکافد، نه
+    با split سادهٔ فاصله (که سه‌تکه می‌کرد و آرگومانِ سوم را می‌شکست)."""
+    cmd = "cli/monad breathe-record قسو " + shlex.quote("قاعدهٔ صف (خودران)")
+    out = subprocess.run([sys.executable, *shlex.split(cmd)],
+                         capture_output=True, text=True, cwd=ROOT)
+    result = json.loads(out.stdout)
+    assert result["chosen_by"] == "قاعدهٔ صف (خودران)"

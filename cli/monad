@@ -4,10 +4,12 @@
   monad status            وضعِ زندگی: ریشه‌های دیده، صفِ باز، پیوندهای دوسویه
   monad breathe [ROOT]    یک نفس: بی‌آرگومان = قاعدهٔ صف (نادرتر مقدم)؛
                           با ROOT = مواجههٔ رفیق‌آورده (نشان‌دار). خروجی: JSON.
-  monad breathe-record [ROOT]
+  monad breathe-record [ROOT] [chosen_by]
                           رکوردِ کاملِ نفسِ پل (L3): همان breathe به‌علاوهٔ
                           دوسویگی/فرافکنی/غیاب/ستون‌ها — الگوریتمیِ محض، صفر
                           مدل. جایگزینِ اسکریپت‌نویسیِ دستی. بی‌ثبت (چاپِ JSON).
+                          chosen_by اختیاری برای بازتولیدپذیریِ verify (منشأِ
+                          واقعی را وقتی ROOT صریح داده می‌شود نگه می‌دارد).
   monad verify            بازتولیدپذیری: اجرای دوبارهٔ اسکریپت‌های تاریخی و
                           مقایسهٔ checksum با رکوردهای متعارف
   monad seed-db           بازساختِ قطعیِ database/life.db از رکوردها
@@ -33,6 +35,7 @@
 """
 import json
 import os
+import shlex
 import sqlite3
 import subprocess
 import sys
@@ -114,13 +117,20 @@ def cmd_breathe(root=None):
     print(json.dumps(result, ensure_ascii=False, indent=1))
 
 
-def cmd_breathe_record(root=None):
+def cmd_breathe_record(root=None, chosen_by=None):
     """رکوردِ کاملِ یک نفسِ پل (L3) — الگوریتمیِ محض، صفر توکن/مدل.
 
     جایگزینِ اسکریپت‌نویسیِ دستیِ bridges_breath_NN.py: پارامترها از حالتِ
     زنده مشتق می‌شوند (breath_no، lived از life.db؛ deliberation از صفِ باز).
     مثلِ `breathe` عمداً چیزی ثبت نمی‌کند — چاپِ JSON؛ رسمی‌سازی با باغبان/دهان.
     خروجی هم‌ارزِ بایت‌به‌بایتِ روشِ تاریخی است (tests/test_breathe_record.py).
+
+    `chosen_by` وقتی ROOT صریح داده شود قابلِ بازنویسی است — برایِ
+    بازتولیدپذیریِ verify: بدونِ آن، نفسِ ثبت‌شده با «رفیق» برچسب می‌خورد حتی
+    اگر واقعاً با قاعدهٔ صف انتخاب شده باشد؛ اسکریپتِ verify باید عیناً همان
+    منشأِ تاریخی را بازتولید کند، نه گزینشِ زنده‌ای که با گذرِ زمان تغییر
+    می‌کند (queue تغییر می‌کند، پس ROOT صریح برای بازتولیدپذیری لازم است، اما
+    منشأِ واقعی باید هم صریح داده شود، وگرنه گم می‌شود).
     """
     from engine import breath_cycle as bc
     corpus = bc.load_corpus()
@@ -136,11 +146,11 @@ def cmd_breathe_record(root=None):
             print(json.dumps({"event": "توقف: صفِ شکاف‌ها تهی است"}, ensure_ascii=False))
             return
         pursued = queue[0]
-        chosen_by = "قاعدهٔ صف (نادرتر مقدم)"
+        chosen_by = chosen_by or "قاعدهٔ صف (نادرتر مقدم)"
         deliberation_queue = queue[:10]
     else:
         pursued = root
-        chosen_by = "رفیق (مواجههٔ رفیق‌آورده — نشان‌دار)"
+        chosen_by = chosen_by or "رفیق (مواجههٔ رفیق‌آورده — نشان‌دار)"
         deliberation_queue = ([pursued] + [r for r in queue if r != pursued])[:10]
 
     record = bc.breathe_record(corpus, pursued=pursued, queue=deliberation_queue,
@@ -358,7 +368,9 @@ def cmd_verify():
     checks = verify_checks(db)
     ok = True
     for cmd, record in checks:
-        out = subprocess.run([sys.executable, *cmd.split()[0:1], *cmd.split()[1:]],
+        # shlex نه cmd.split(): برخی نفس‌های L3 آرگومانِ چندکلمه‌ای دارند
+        # (مثلِ chosen_by نقل‌قول‌شده) — split سادهٔ فاصله آن را می‌شکست.
+        out = subprocess.run([sys.executable, *shlex.split(cmd)],
                              capture_output=True, text=True).stdout
         match = out == open(record).read()
         ok &= match
@@ -455,7 +467,8 @@ if __name__ == "__main__":
     elif args[0] == "breathe":
         cmd_breathe(args[1] if len(args) > 1 else None)
     elif args[0] == "breathe-record":
-        cmd_breathe_record(args[1] if len(args) > 1 else None)
+        cmd_breathe_record(args[1] if len(args) > 1 else None,
+                          " ".join(args[2:]) or None)
     elif args[0] == "verify":
         cmd_verify()
     elif args[0] == "seed-db":
