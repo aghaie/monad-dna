@@ -134,10 +134,26 @@ def test_queue_add_never_touches_life_db():
 REPORTS_DIR = "database/queue_injection_reports"
 
 
-def _clear_test_report(date):
+def _backup_report(date):
+    """پشتیبان از گزارشِ واقعیِ همان تاریخ (اگر باشد) و حذفِ موقتش — گزارشِ
+    امروز ممکن است گزارشِ واقعیِ تولیدشده باشد، نه صرفاً بقایای آزمون؛
+    باید دقیقاً مثلِ queue_injections.json بازگردانده شود، نه برای همیشه حذف."""
     p = f"{REPORTS_DIR}/{date}.json"
+    saved = open(p).read() if os.path.exists(p) else None
     if os.path.exists(p):
         os.remove(p)
+    return saved
+
+
+def _restore_report(date, saved):
+    p = f"{REPORTS_DIR}/{date}.json"
+    if saved is None:
+        if os.path.exists(p):
+            os.remove(p)
+    else:
+        os.makedirs(REPORTS_DIR, exist_ok=True)
+        with open(p, "w") as f:
+            f.write(saved)
 
 
 def test_queue_sync_observatory_only_adds_unseen_strong_candidates():
@@ -204,7 +220,7 @@ def test_injection_report_groups_by_source_with_reason():
     """گزارشِ روزانه: کلِ تزریق‌ها، بر حسبِ منشأ، و دلیلِ (note) هر کدام."""
     saved = _backup_injections()
     today = monad_cli._today()
-    _clear_test_report(today)
+    saved_report = _backup_report(today)
     try:
         _run("queue-add", "عنب", "دلیلِ دستی")
         out = _run("injection-report")
@@ -218,7 +234,7 @@ def test_injection_report_groups_by_source_with_reason():
         assert os.path.exists(f"{REPORTS_DIR}/{today}.json")
     finally:
         _restore_injections(saved)
-        _clear_test_report(today)
+        _restore_report(today, saved_report)
 
 
 def test_status_shows_pending_injections():
