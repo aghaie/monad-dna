@@ -1,0 +1,909 @@
+{
+ "breath_number": 55,
+ "deliberation": [
+  {
+   "root": "وقد",
+   "attestation": 11
+  },
+  {
+   "root": "ايد",
+   "attestation": 11
+  },
+  {
+   "root": "سفه",
+   "attestation": 11
+  },
+  {
+   "root": "عون",
+   "attestation": 11
+  },
+  {
+   "root": "عصو",
+   "attestation": 12
+  },
+  {
+   "root": "طين",
+   "attestation": 12
+  },
+  {
+   "root": "جحد",
+   "attestation": 12
+  },
+  {
+   "root": "خطب",
+   "attestation": 12
+  },
+  {
+   "root": "شبه",
+   "attestation": 12
+  },
+  {
+   "root": "بغت",
+   "attestation": 13
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "وقد",
+ "attestation": 11,
+ "ayat": 11,
+ "top": [
+  {
+   "root": "نور",
+   "shared": 10,
+   "expected": 0.31,
+   "lift": 32.581,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اله",
+   "shared": 8,
+   "expected": 3.31,
+   "lift": 2.414,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "نور"
+ ],
+ "one_way": [
+  "اله"
+ ],
+ "neighbor_view": {
+  "نور": {
+   "root": "وقد",
+   "shared": 10,
+   "expected": 0.31,
+   "lift": 32.581,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "وقد↔اله",
+   "shared": 8,
+   "expected": 3.31,
+   "lift": 2.41,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "وقد↔رحم",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔راف",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔هجر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔نصر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔اوي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔صير",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔باس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔غفر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔حلم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عفو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ذنب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔سوا",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔بدو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔خفي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔دون",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔نفع",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.57,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "وقد↔ضرر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔كشف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔مسس",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.95,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "وقد↔ذوق",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔الم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔انس",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عشر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔بغي",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.3,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "وقد↔عوج",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔سبل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔يتم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔شري",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔لحم",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔دمو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ثمن",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔فلك",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔وسع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔كلف",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔جهد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔قسم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔صدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔بحر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔برر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔قسو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ستت",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔هبط",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔لون",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔نقض",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔حرق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔حيق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ضيع",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔جدد",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔رجس",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔قهر",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عنب",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔طبع",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "وقد↔رحم",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔راف",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔هجر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔نصر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔اوي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔صير",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔باس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔غفر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔حلم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عفو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ذنب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔سوا",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔بدو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔خفي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔دون",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ضرر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔كشف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ذوق",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔الم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔انس",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عشر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عوج",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔سبل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔يتم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔شري",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔لحم",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔دمو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ثمن",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔فلك",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔وسع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔كلف",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔جهد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔قسم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔صدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔بحر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔برر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔قسو",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ستت",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔هبط",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔لون",
+   "shared": 0,
+   "expected": 0.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔نقض",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔حرق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔حيق",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔ضيع",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔جدد",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔رجس",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔قهر",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔عنب",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وقد↔طبع",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:17",
+   "degree": 2,
+   "roots_present": [
+    "نور",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "3:10",
+   "degree": 2,
+   "roots_present": [
+    "نور",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "5:64",
+   "degree": 2,
+   "roots_present": [
+    "نور",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "13:17",
+   "degree": 2,
+   "roots_present": [
+    "نور",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "24:35",
+   "degree": 2,
+   "roots_present": [
+    "نور",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "66:6",
+   "degree": 2,
+   "roots_present": [
+    "نور",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "104:6",
+   "degree": 2,
+   "roots_present": [
+    "نور",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:24",
+   "degree": 1,
+   "roots_present": [
+    "نور"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "وقد+نور": [
+   "2:17",
+   "2:24",
+   "3:10",
+   "5:64",
+   "13:17",
+   "24:35",
+   "36:80",
+   "66:6",
+   "85:5",
+   "104:6"
+  ],
+  "وقد+اله": [
+   "2:17",
+   "3:10",
+   "5:64",
+   "13:17",
+   "24:35",
+   "28:38",
+   "66:6",
+   "104:6"
+  ]
+ }
+}

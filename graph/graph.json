@@ -159,6 +159,7 @@
   "وجد",
   "وحد",
   "وسع",
+  "وقد",
   "وقي",
   "ولي",
   "وهب",
@@ -220,7 +221,8 @@
   "رجس",
   "قهر",
   "عنب",
-  "طبع"
+  "طبع",
+  "وقد"
  ],
  "open_queue": [
   "اتي",
@@ -1035,6 +1037,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "وقد",
+   "directions": {
+    "وقد→اله": {
+     "breath": 55,
+     "lift": 2.414,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -5475,6 +5493,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "نور",
+   "b": "وقد",
+   "directions": {
+    "وقد→نور": {
+     "breath": 55,
+     "lift": 32.581,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "وسع",
