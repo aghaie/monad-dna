@@ -67,6 +67,7 @@
   "ربب",
   "رجس",
   "رجع",
+  "رجم",
   "رحم",
   "رسل",
   "رضو",
@@ -266,7 +267,8 @@
   "فوه",
   "جلد",
   "ياس",
-  "فقر"
+  "فقر",
+  "رجم"
  ],
  "open_queue": [
   "اتي",
@@ -4181,6 +4183,38 @@
     }
    },
    "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "رجم",
+   "b": "شطن",
+   "directions": {
+    "رجم→شطن": {
+     "breath": 76,
+     "lift": 28.553,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجم",
+   "b": "قول",
+   "directions": {
+    "رجم→قول": {
+     "breath": 76,
+     "lift": 2.899,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
    "best_tier": "قوی"
   },
   {
