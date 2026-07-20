@@ -66,6 +66,7 @@
   "ستت",
   "سجد",
   "سخر",
+  "سفه",
   "سكن",
   "سمع",
   "سمو",
@@ -223,7 +224,8 @@
   "عنب",
   "طبع",
   "وقد",
-  "ايد"
+  "ايد",
+  "سفه"
  ],
  "open_queue": [
   "اتي",
@@ -4214,6 +4216,38 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "سفه",
+   "b": "قول",
+   "directions": {
+    "سفه→قول": {
+     "breath": 57,
+     "lift": 3.156,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سفه",
+   "b": "قوم",
+   "directions": {
+    "سفه→قوم": {
+     "breath": 57,
+     "lift": 6.267,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "سكن",
