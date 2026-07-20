@@ -85,6 +85,7 @@
   "سجد",
   "سخر",
   "سرر",
+  "سطر",
   "سفه",
   "سكن",
   "سمع",
@@ -304,7 +305,8 @@
   "علن",
   "خبث",
   "كيل",
-  "لبب"
+  "لبب",
+  "سطر"
  ],
  "open_queue": [
   "اتي",
@@ -1842,6 +1844,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اول",
+   "b": "سطر",
+   "directions": {
+    "سطر→اول": {
+     "breath": 89,
+     "lift": 24.668,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اول",
@@ -5106,6 +5124,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "سطر",
+   "b": "قول",
+   "directions": {
+    "سطر→قول": {
+     "breath": 89,
+     "lift": 1.973,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "سفه",
