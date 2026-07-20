@@ -17,6 +17,11 @@
   monad recall ROOT       L4 — حافظهٔ انتخابی: فقط برشِ مرتبط با این ریشه از
                           life.db/graph/knowledge/رصدخانه؛ نه کلِ تاریخ.
                           فقط‌خواندنی، الگوریتمی، coverage صریح.
+  monad queue-add ROOT [یادداشت]
+                          تزریقِ یک پیشنهاد به صف (سیاستِ باغبان، دیدارِ
+                          ۲۰۲۶-۰۷-۲۰): صف طبیعی مسیرِ اصلی می‌ماند؛ این فقط
+                          عضویت می‌دهد. منشأ خودکار: رصدخانه/مستقیم.
+                          می‌نویسد به database/queue_injections.json فقط.
 """
 import json
 import os
@@ -29,11 +34,35 @@ os.chdir(ROOT)
 sys.path.insert(0, ROOT)
 
 
+QUEUE_INJECTIONS_FILE = "database/queue_injections.json"
+
+
+def load_injections():
+    if not os.path.exists(QUEUE_INJECTIONS_FILE):
+        return []
+    return json.load(open(QUEUE_INJECTIONS_FILE, encoding="utf-8"))
+
+
+def save_injections(items):
+    with open(QUEUE_INJECTIONS_FILE, "w", encoding="utf-8") as f:
+        json.dump(items, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+
+
 def open_queue(db):
+    """صفِ باز: صفِ طبیعی (queue_events) + پیشنهادهای تزریق‌شدهٔ باغبان
+    (database/queue_injections.json — سیاستِ صف، دیدارِ ۲۰۲۶-۰۷-۲۰: «صف
+    طبیعی مسیرِ اصلی است؛ باغبان پیشنهاد را وارد صف می‌کند؛ گزینشِ نهایی
+    همچنان با قاعدهٔ صف»). تزریق فقط عضویت می‌دهد؛ گزینش را دور نمی‌زند."""
     q = [r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='queued'")]
     p = {r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='pursued'")}
     seen, out = set(), []
     for r in q:
+        if r not in p and r not in seen:
+            seen.add(r)
+            out.append(r)
+    for inj in load_injections():
+        r = inj["root"]
         if r not in p and r not in seen:
             seen.add(r)
             out.append(r)
@@ -53,6 +82,8 @@ def cmd_status():
         strong_findings=strong,
         mutual_strong_pairs=mutual,
         open_queue=open_queue(db),
+        queue_injections=[i for i in load_injections()
+                          if i["root"] not in {b[2] for b in breaths}],
     ), ensure_ascii=False, indent=1))
 
 
@@ -186,6 +217,44 @@ def verify_checks(db):
     return out
 
 
+def cmd_queue_add(root, note=None):
+    """تزریقِ یک پیشنهاد به صف — سیاستِ باغبان (دیدارِ ۲۰۲۶-۰۷-۲۰):
+    «صف طبیعی مسیرِ اصلی است. رصدخانه فقط پیشنهاد می‌دهد. باغبان در صورتِ
+    لزوم یک پیشنهاد را وارد صف می‌کند. منشأ هر انتخاب هم ثبت می‌شود.»
+
+    فقط به database/queue_injections.json می‌نویسد — هرگز به life.db یا
+    seed_life.py (رسمی‌سازی کارِ جداگانه‌ای‌ست، LIFECYCLES.md§نفس). منشأ
+    خودکار: اگر ریشه در اطلسِ رصدخانه ساختار دارد → «باغبان (رصدخانه)»؛
+    وگرنه → «باغبان (مستقیم)». صف طبیعی می‌ماند: تزریق فقط عضویت می‌دهد،
+    گزینشِ نهایی همچنان با قاعدهٔ صف (نادرتر مقدم) در open_queue است.
+    """
+    db = sqlite3.connect("database/life.db")
+    lived = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
+    if root in lived:
+        print(json.dumps({"خطا": f"ریشهٔ «{root}» پیش‌تر زیسته شده — تزریق بی‌معناست"},
+                         ensure_ascii=False))
+        sys.exit(1)
+
+    items = load_injections()
+    if any(i["root"] == root for i in items):
+        print(json.dumps({"پیام": f"«{root}» از پیش در صفِ تزریقی است — کاری نشد"},
+                         ensure_ascii=False, indent=1))
+        return
+
+    source = "باغبان (مستقیم)"
+    if os.path.exists("observatory/observatory.json"):
+        obs = json.load(open("observatory/observatory.json"))
+        e = next((x for x in obs["roots"] if x["root"] == root), None)
+        if e and e["top"]:
+            source = "باغبان (رصدخانه)"
+
+    breath_no = db.execute("SELECT MAX(breath_no) FROM breaths").fetchone()[0] or 0
+    items.append(dict(root=root, source=source, note=note, added_after_breath=breath_no))
+    save_injections(items)
+    print(json.dumps({"تزریق‌شد": root, "منشأ": source, "یادداشت": note,
+                      "پس_از_نفس": breath_no}, ensure_ascii=False, indent=1))
+
+
 def cmd_verify():
     db = sqlite3.connect("database/life.db")
     checks = verify_checks(db)
@@ -300,6 +369,11 @@ if __name__ == "__main__":
             print(json.dumps({"خطا": "recall نیازمندِ ROOT است"}, ensure_ascii=False))
             sys.exit(1)
         cmd_recall(args[1])
+    elif args[0] == "queue-add":
+        if len(args) < 2:
+            print(json.dumps({"خطا": "queue-add نیازمندِ ROOT است"}, ensure_ascii=False))
+            sys.exit(1)
+        cmd_queue_add(args[1], " ".join(args[2:]) or None)
     else:
         print(__doc__)
         sys.exit(1)
