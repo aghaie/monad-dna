@@ -117,6 +117,96 @@ def test_queue_add_never_touches_life_db():
         _restore_injections(saved)
 
 
+REPORTS_DIR = "database/queue_injection_reports"
+
+
+def _clear_test_report(date):
+    p = f"{REPORTS_DIR}/{date}.json"
+    if os.path.exists(p):
+        os.remove(p)
+
+
+def test_queue_sync_observatory_only_adds_unseen_strong_candidates():
+    """رصدخانه مجاز است پیشنهادهای خودش را وارد صف کند (دستورِ باغبان،
+    ۲۰۲۶-۰۷-۲۰) — اما فقط نامزدهای «قوی»ِ نادیده، منشأ صریح «رصدخانه (خودکار)»."""
+    saved = _backup_injections()
+    try:
+        out = _run("queue-sync-observatory")
+        assert out.returncode == 0, out.stderr
+        result = json.loads(out.stdout)
+        assert result["تعدادِ_تزریق‌شده"] > 300, "باید اکثرِ ۳۶۳ نامزدِ قوی را بپوشاند"
+        items = json.load(open(INJ_FILE))
+        assert all(i["source"] == "رصدخانه (خودکار)" for i in items)
+        # نمونه‌ای که پیش‌تر می‌دانستیم قوی‌ترین نامزدِ نادیده است
+        assert any(i["root"] == "عنب" for i in items)
+    finally:
+        _restore_injections(saved)
+
+
+def test_queue_sync_observatory_is_idempotent():
+    """اجرای دوباره چیزِ تکراری اضافه نمی‌کند."""
+    saved = _backup_injections()
+    try:
+        _run("queue-sync-observatory")
+        n1 = len(json.load(open(INJ_FILE)))
+        out2 = _run("queue-sync-observatory")
+        n2 = len(json.load(open(INJ_FILE)))
+        assert out2.returncode == 0
+        assert n1 == n2
+    finally:
+        _restore_injections(saved)
+
+
+def test_queue_sync_observatory_never_touches_life_db():
+    """مرزِ سخت: فقط queue_injections.json نوشته می‌شود."""
+    import hashlib
+    saved = _backup_injections()
+    before = hashlib.sha256(open("database/life.db", "rb").read()).hexdigest()
+    try:
+        _run("queue-sync-observatory")
+        after = hashlib.sha256(open("database/life.db", "rb").read()).hexdigest()
+        assert before == after
+    finally:
+        _restore_injections(saved)
+
+
+def test_pursuit_selection_untouched_by_bulk_injection():
+    """«هیچ ریشه‌ای حق ندارد خارج از قواعدِ انتخاب اجرا شود»: پس از تزریقِ
+    انبوه، breaths (نفس‌های واقعاً زیسته) هیچ تغییری نمی‌کند — تزریق فقط
+    عضویت می‌دهد؛ گزینش/اجرا فقط با breathe/breathe-record است."""
+    saved = _backup_injections()
+    db = sqlite3.connect("database/life.db")
+    before = db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0]
+    try:
+        _run("queue-sync-observatory")
+        after = sqlite3.connect("database/life.db").execute(
+            "SELECT COUNT(*) FROM breaths").fetchone()[0]
+        assert before == after
+    finally:
+        _restore_injections(saved)
+
+
+def test_injection_report_groups_by_source_with_reason():
+    """گزارشِ روزانه: کلِ تزریق‌ها، بر حسبِ منشأ، و دلیلِ (note) هر کدام."""
+    saved = _backup_injections()
+    today = monad_cli._today()
+    _clear_test_report(today)
+    try:
+        _run("queue-add", "عنب", "دلیلِ دستی")
+        out = _run("injection-report")
+        assert out.returncode == 0
+        report = json.loads(out.stdout)
+        assert report["تاریخ"] == today
+        assert report["کلِ_تزریق‌های_امروز"] >= 1
+        entry = next(d for d in report["جزئیات"] if d["root"] == "عنب")
+        assert entry["note"] == "دلیلِ دستی"
+        assert entry["source"] == "باغبان (رصدخانه)"
+        assert os.path.exists(f"{REPORTS_DIR}/{today}.json")
+    finally:
+        _restore_injections(saved)
+        _clear_test_report(today)
+
+
 def test_status_shows_pending_injections():
     """monad status باید صفِ تزریقیِ بازمانده را با منشأش نشان دهد — شفافیت."""
     saved = _backup_injections()

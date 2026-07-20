@@ -18,10 +18,18 @@
                           life.db/graph/knowledge/رصدخانه؛ نه کلِ تاریخ.
                           فقط‌خواندنی، الگوریتمی، coverage صریح.
   monad queue-add ROOT [یادداشت]
-                          تزریقِ یک پیشنهاد به صف (سیاستِ باغبان، دیدارِ
-                          ۲۰۲۶-۰۷-۲۰): صف طبیعی مسیرِ اصلی می‌ماند؛ این فقط
-                          عضویت می‌دهد. منشأ خودکار: رصدخانه/مستقیم.
+                          تزریقِ دستیِ یک پیشنهاد به صف (سیاستِ باغبان،
+                          دیدارِ ۲۰۲۶-۰۷-۲۰): صف طبیعی مسیرِ اصلی می‌ماند؛
+                          این فقط عضویت می‌دهد. منشأ خودکار: رصدخانه/مستقیم.
                           می‌نویسد به database/queue_injections.json فقط.
+  monad queue-sync-observatory
+                          تزریقِ خودکارِ کلِ نامزدهای «قوی»ِ نادیدهٔ رصدخانه
+                          به صف — منشأ «رصدخانه (خودکار)». ایدم‌پوتنسی؛
+                          هرگز pursue نمی‌کند، فقط عضویت می‌دهد.
+  monad injection-report [تاریخ]
+                          گزارشِ روزانهٔ تزریق‌ها (پیش‌فرض: امروز) — بر حسبِ
+                          منشأ + جزئیات؛ در database/queue_injection_reports/
+                          هم ذخیره می‌شود.
 """
 import json
 import os
@@ -217,16 +225,38 @@ def verify_checks(db):
     return out
 
 
+def _current_breath_no(db):
+    return db.execute("SELECT MAX(breath_no) FROM breaths").fetchone()[0] or 0
+
+
+def _today():
+    import datetime
+    return datetime.date.today().isoformat()
+
+
+def _append_injection(root, source, note, breath_no, date):
+    """هستهٔ مشترکِ ثبتِ یک تزریق — فقط به queue_injections.json می‌نویسد.
+    فراخوان (queue-add یا queue-sync-observatory) مسئولِ تعیینِ منشأ است؛
+    این تابع فقط append-only می‌کند و هرگز pursue/breathe صدا نمی‌زند —
+    «هیچ ریشه‌ای حق ندارد خارج از قواعدِ انتخاب اجرا شود» (دستورِ باغبان):
+    تزریق فقط عضویت می‌دهد، گزینشِ نهایی همچنان با open_queue+select_rarest
+    در زمانِ breathe/breathe-record است، نه این‌جا."""
+    items = load_injections()
+    items.append(dict(root=root, source=source, note=note,
+                      added_after_breath=breath_no, date=date))
+    save_injections(items)
+    return items
+
+
 def cmd_queue_add(root, note=None):
-    """تزریقِ یک پیشنهاد به صف — سیاستِ باغبان (دیدارِ ۲۰۲۶-۰۷-۲۰):
+    """تزریقِ دستیِ یک پیشنهاد به صف — سیاستِ باغبان (دیدارِ ۲۰۲۶-۰۷-۲۰):
     «صف طبیعی مسیرِ اصلی است. رصدخانه فقط پیشنهاد می‌دهد. باغبان در صورتِ
     لزوم یک پیشنهاد را وارد صف می‌کند. منشأ هر انتخاب هم ثبت می‌شود.»
 
     فقط به database/queue_injections.json می‌نویسد — هرگز به life.db یا
     seed_life.py (رسمی‌سازی کارِ جداگانه‌ای‌ست، LIFECYCLES.md§نفس). منشأ
     خودکار: اگر ریشه در اطلسِ رصدخانه ساختار دارد → «باغبان (رصدخانه)»؛
-    وگرنه → «باغبان (مستقیم)». صف طبیعی می‌ماند: تزریق فقط عضویت می‌دهد،
-    گزینشِ نهایی همچنان با قاعدهٔ صف (نادرتر مقدم) در open_queue است.
+    وگرنه → «باغبان (مستقیم)».
     """
     db = sqlite3.connect("database/life.db")
     lived = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
@@ -248,11 +278,79 @@ def cmd_queue_add(root, note=None):
         if e and e["top"]:
             source = "باغبان (رصدخانه)"
 
-    breath_no = db.execute("SELECT MAX(breath_no) FROM breaths").fetchone()[0] or 0
-    items.append(dict(root=root, source=source, note=note, added_after_breath=breath_no))
-    save_injections(items)
+    breath_no = _current_breath_no(db)
+    _append_injection(root, source, note, breath_no, _today())
     print(json.dumps({"تزریق‌شد": root, "منشأ": source, "یادداشت": note,
                       "پس_از_نفس": breath_no}, ensure_ascii=False, indent=1))
+
+
+def cmd_queue_sync_observatory():
+    """تزریقِ خودکارِ پیشنهادهای رصدخانه به صف — دستورِ باغبان (۲۰۲۶-۰۷-۲۰):
+    «رصدخانه مجاز است پیشنهادهای خودش را نیز وارد صف کند، اما منشأ هر تزریق
+    باید ثبت شود، و هیچ ریشه‌ای حق ندارد خارج از قواعدِ انتخاب اجرا شود.»
+
+    فقط برای نامزدهای نادیده‌ای که رصدخانه «قوی» می‌بیند (همان فهرستِ
+    observe بی‌آرگومان) — هرگز معنا نمی‌سازد، فقط ساختارِ ازپیش‌محاسبه‌شده را
+    عضویت می‌دهد. منشأ همیشه «رصدخانه (خودکار)» — تمایزِ صریح از تزریقِ
+    دستیِ باغبان. ایدم‌پوتنسی: ریشه‌های ازپیش‌تزریق‌شده یا زیسته رد می‌شوند.
+    هرگز breathe/pursue صدا نمی‌زند — فقط صف را عضویت می‌دهد."""
+    if not os.path.exists("observatory/observatory.json"):
+        print(json.dumps({"خطا": "رصدخانه هنوز ساخته نشده"}, ensure_ascii=False))
+        sys.exit(1)
+    obs = json.load(open("observatory/observatory.json"))
+    db = sqlite3.connect("database/life.db")
+    lived = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
+    already = {i["root"] for i in load_injections()}
+
+    def strong_of(e):
+        return [t for t in e["top"] if t["tier"] == "قوی"]
+
+    candidates = [e for e in obs["roots"]
+                 if e["root"] not in lived and e["root"] not in already and strong_of(e)]
+    peak = lambda e: max((t["lift"] for t in strong_of(e)), default=0)
+    candidates.sort(key=lambda e: (-peak(e), e["root"]))  # قطعی: lift سپس الفبا
+
+    breath_no = _current_breath_no(db)
+    date = _today()
+    added = []
+    for e in candidates:
+        top = max(strong_of(e), key=lambda t: t["lift"])
+        note = f"lift={top['lift']} با {top['root']} (اطلسِ رصدخانه)"
+        _append_injection(e["root"], "رصدخانه (خودکار)", note, breath_no, date)
+        added.append(dict(root=e["root"], note=note))
+
+    print(json.dumps({"منشأ": "رصدخانه (خودکار)", "تعدادِ_تزریق‌شده": len(added),
+                      "تزریق‌ها": added}, ensure_ascii=False, indent=1))
+
+
+def cmd_injection_report(date=None):
+    """گزارشِ روزانهٔ تزریق‌ها — دستورِ باغبان: «در پایانِ هر روز گزارشی از
+    همهٔ تزریق‌های خودکار و دلیلِ هر کدام ارائه شود.»
+
+    مشتقِ محضِ queue_injections.json + life.db برای یک تاریخِ معین (پیش‌فرض:
+    امروز)؛ هم چاپ می‌شود هم در database/queue_injection_reports/ ذخیره —
+    قطعی، بی‌تولیدِ معنا، فقط تجمیعِ داده‌های ازپیش‌ثبت‌شده."""
+    date = date or _today()
+    db = sqlite3.connect("database/life.db")
+    lived = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
+    items = [i for i in load_injections() if i.get("date") == date]
+
+    by_source = {}
+    for i in items:
+        by_source.setdefault(i["source"], []).append(i)
+
+    report = {
+        "تاریخ": date,
+        "کلِ_تزریق‌های_امروز": len(items),
+        "بر_حسبِ_منشأ": {src: len(v) for src, v in by_source.items()},
+        "جزئیات": [{"root": i["root"], "source": i["source"], "note": i["note"],
+                    "زیسته_شده": (i["root"] in lived)} for i in items],
+    }
+    os.makedirs("database/queue_injection_reports", exist_ok=True)
+    with open(f"database/queue_injection_reports/{date}.json", "w", encoding="utf-8") as f:
+        json.dump(report, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    print(json.dumps(report, ensure_ascii=False, indent=1))
 
 
 def cmd_verify():
@@ -374,6 +472,10 @@ if __name__ == "__main__":
             print(json.dumps({"خطا": "queue-add نیازمندِ ROOT است"}, ensure_ascii=False))
             sys.exit(1)
         cmd_queue_add(args[1], " ".join(args[2:]) or None)
+    elif args[0] == "queue-sync-observatory":
+        cmd_queue_sync_observatory()
+    elif args[0] == "injection-report":
+        cmd_injection_report(args[1] if len(args) > 1 else None)
     else:
         print(__doc__)
         sys.exit(1)
