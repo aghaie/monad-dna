@@ -228,6 +228,7 @@
   "ليل",
   "مثل",
   "مدن",
+  "مرض",
   "مري",
   "مسس",
   "مسك",
@@ -407,7 +408,8 @@
   "فرح",
   "سرع",
   "سرف",
-  "ثمر"
+  "ثمر",
+  "مرض"
  ],
  "open_queue": [
   "اتي",
@@ -1812,6 +1814,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "مرض",
+   "directions": {
+    "مرض→اله": {
+     "breath": 132,
+     "lift": 2.309,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -8942,6 +8960,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "قلب",
+   "b": "مرض",
+   "directions": {
+    "مرض→قلب": {
+     "breath": 132,
+     "lift": 20.991,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "قهر",
    "b": "وحد",
    "directions": {
@@ -9360,6 +9394,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "مرض",
+   "b": "وجد",
+   "directions": {
+    "مرض→وجد": {
+     "breath": 132,
+     "lift": 13.693,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
