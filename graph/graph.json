@@ -89,6 +89,7 @@
   "رحم",
   "رسل",
   "رضو",
+  "روح",
   "ريب",
   "زرع",
   "سبح",
@@ -355,7 +356,8 @@
   "غرب",
   "صور",
   "نخل",
-  "زرع"
+  "زرع",
+  "نفخ"
  ],
  "open_queue": [
   "اتي",
@@ -5520,6 +5522,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "روح",
+   "b": "نفخ",
+   "directions": {
+    "نفخ→روح": {
+     "breath": 111,
+     "lift": 39.974,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "ريب",
    "b": "شكك",
    "directions": {
@@ -6562,9 +6580,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "نفخ→صور": {
+     "breath": 111,
+     "lift": 203.791,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -8042,6 +8068,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 28
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "نفخ",
+   "b": "يوم",
+   "directions": {
+    "نفخ→يوم": {
+     "breath": 111,
+     "lift": 4.595,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
