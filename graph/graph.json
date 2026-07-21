@@ -88,6 +88,7 @@
   "راي",
   "ربب",
   "ربص",
+  "ربع",
   "رجس",
   "رجع",
   "رجم",
@@ -124,6 +125,7 @@
   "شكك",
   "شمس",
   "شهد",
+  "شهر",
   "شيا",
   "صدد",
   "صدر",
@@ -379,7 +381,8 @@
   "بقي",
   "سنن",
   "كتم",
-  "هود"
+  "هود",
+  "شهر"
  ],
  "open_queue": [
   "اتي",
@@ -408,6 +411,7 @@
   "ذكر",
   "راي",
   "ربب",
+  "ربع",
   "رجع",
   "رسل",
   "رضو",
@@ -1270,6 +1274,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "شهر",
+   "directions": {
+    "شهر→اله": {
+     "breath": 121,
+     "lift": 2.733,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -4225,6 +4245,22 @@
   },
   {
    "a": "حرم",
+   "b": "شهر",
+   "directions": {
+    "شهر→حرم": {
+     "breath": 121,
+     "lift": 30.999,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
    "b": "صدد",
    "directions": {
     "صدد→حرم": {
@@ -5560,6 +5596,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "ربع",
+   "b": "شهر",
+   "directions": {
+    "شهر→ربع": {
+     "breath": 121,
+     "lift": 87.339,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "رجم",
    "b": "شطن",
    "directions": {
@@ -6838,6 +6890,54 @@
     "غرب→شمس": {
      "breath": 107,
      "lift": 57.316,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شهر",
+   "b": "علم",
+   "directions": {
+    "شهر→علم": {
+     "breath": 121,
+     "lift": 3.023,
+     "p": 0.0166,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "شهر",
+   "b": "قوم",
+   "directions": {
+    "شهر→قوم": {
+     "breath": 121,
+     "lift": 3.072,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شهر",
+   "b": "وقي",
+   "directions": {
+    "شهر→وقي": {
+     "breath": 121,
+     "lift": 7.739,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
