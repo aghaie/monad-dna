@@ -145,6 +145,27 @@ def test_verse_text_is_corpus_text():
     assert P["صرف"]["کل_قطعه‌های_STEM"] == n_stem
 
 
+def test_sync_covers_lived_roots():
+    """هم‌گام با زندگی: پس از sync هیچ ریشهٔ زیسته‌ای بی‌سیما نمی‌ماند؛
+    اجرای دوباره ایدم‌پوتنت است (هیچ ساختِ تازه)."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("tadabbor_build_sync",
+                                                  "tadabbor/build.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    lived = mod._lived_pursued()
+    assert TEST_ROOT in lived
+    r = subprocess.run([sys.executable, "tadabbor/build.py", "--sync"],
+                       check=True, capture_output=True, text=True)
+    out = json.loads(r.stdout)
+    assert out["ناکام"] == []
+    for root in lived:
+        assert os.path.exists(f"tadabbor/portraits/{root}.json"), root
+    r2 = subprocess.run([sys.executable, "tadabbor/build.py", "--sync"],
+                        check=True, capture_output=True, text=True)
+    assert json.loads(r2.stdout)["ساخته_شد"] == []
+
+
 def test_cli_ponder():
     """رابطِ CLI: ساختِ موفق با خروج ۰؛ ریشهٔ ناشناخته با خروج ۱ و «خطا»."""
     r = subprocess.run(["./cli/monad", "ponder", TEST_ROOT],

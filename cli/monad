@@ -28,6 +28,8 @@
                           سیمای ساختاریِ کاملِ ریشه برای تدبّرِ باغبان —
                           آیه‌ها، صورت‌ها، صرف، پراکندگی، هم‌آیی، بافتِ مجاور.
                           فقط می‌خواند؛ فقط به tadabbor/portraits/ می‌نویسد.
+  monad ponder-sync       هم‌گام با زندگی (تصمیمِ باغبان ۲۰۲۶-۰۷-۲۱): سیمای
+                          هر ریشهٔ زیسته‌ای که هنوز ندارد. ایدم‌پوتنت.
   monad queue-add ROOT [یادداشت]
                           تزریقِ دستیِ یک پیشنهاد به صف (سیاستِ باغبان،
                           دیدارِ ۲۰۲۶-۰۷-۲۰): صف طبیعی مسیرِ اصلی می‌ماند؛
@@ -495,6 +497,12 @@ def cmd_ponder(root):
     sys.exit(r.returncode)
 
 
+def cmd_ponder_sync():
+    """هم‌گامیِ تدبّرخانه با زندگی: سیمای ریشه‌های زیستهٔ بی‌سیما."""
+    r = subprocess.run([sys.executable, "tadabbor/build.py", "--sync"])
+    sys.exit(r.returncode)
+
+
 if __name__ == "__main__":
     args = sys.argv[1:]
     if not args or args[0] in ("-h", "--help"):
@@ -527,6 +535,8 @@ if __name__ == "__main__":
             print(json.dumps({"خطا": "ponder نیازمندِ ROOT است"}, ensure_ascii=False))
             sys.exit(1)
         cmd_ponder(args[1])
+    elif args[0] == "ponder-sync":
+        cmd_ponder_sync()
     elif args[0] == "queue-add":
         if len(args) < 2:
             print(json.dumps({"خطا": "queue-add نیازمندِ ROOT است"}, ensure_ascii=False))

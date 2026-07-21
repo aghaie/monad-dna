@@ -68,7 +68,7 @@ def _lived_crosslink(root):
     return out
 
 
-def portrait(root):
+def portrait(root, corpus=None):
     """سیمای ساختاریِ کاملِ یک ریشه — تابعِ محضِ پیکره؛ هیچ معنایی ساخته نمی‌شود."""
     db = _connect()
     row = db.execute("SELECT root_id, token_count FROM roots WHERE root_arabic=?",
@@ -160,7 +160,8 @@ def portrait(root):
                     "مکی_مدنی_آیه‌ها": dict(sorted(rev_ayah.items()))}
 
     # ۶. هم‌آیی — بازاستفادهٔ محضِ engine (همان seed، همان دو ابطال‌گر؛ صفر آمارِ تازه)
-    corpus = bc.load_corpus()
+    if corpus is None:
+        corpus = bc.load_corpus()
     cooccurrence = {"یادداشت": None, "top": [], "halves_overlap": None,
                     "ستون‌های_استنادی": {}}
     if root in corpus["root_ayat"]:
@@ -355,8 +356,19 @@ def render_md(p):
     return "\n".join(L)
 
 
-def build(root):
-    p = portrait(root)
+def rebuild_index():
+    index = {}
+    for jf in sorted(glob.glob(f"{OUT_DIR}/*.json")):
+        d = json.load(open(jf))
+        index[d["ریشه"]] = {"آیه‌ها": d["هویت"]["آیه‌ها"],
+                            "شاهد": d["هویت"]["شاهد"]}
+    with open("tadabbor/index.json", "w") as f:
+        json.dump(index, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+
+
+def build(root, corpus=None, reindex=True, quiet=False):
+    p = portrait(root, corpus)
     if p is None:
         print(json.dumps({"خطا": f"ریشهٔ «{root}» در پیکره نیست."},
                          ensure_ascii=False))
@@ -369,24 +381,51 @@ def build(root):
         f.write("\n")
     with open(md_path, "w") as f:
         f.write(render_md(p))
-    index = {}
-    for jf in sorted(glob.glob(f"{OUT_DIR}/*.json")):
-        d = json.load(open(jf))
-        index[d["ریشه"]] = {"آیه‌ها": d["هویت"]["آیه‌ها"],
-                            "شاهد": d["هویت"]["شاهد"]}
-    with open("tadabbor/index.json", "w") as f:
-        json.dump(index, f, ensure_ascii=False, indent=1)
-        f.write("\n")
-    print(json.dumps({"ریشه": root, "آیه‌ها": p["هویت"]["آیه‌ها"],
-                      "واژه‌ها": p["هویت"]["شاهد"],
-                      "json": json_path, "md": md_path},
-                     ensure_ascii=False, indent=1))
+    if reindex:
+        rebuild_index()
+    if not quiet:
+        print(json.dumps({"ریشه": root, "آیه‌ها": p["هویت"]["آیه‌ها"],
+                          "واژه‌ها": p["هویت"]["شاهد"],
+                          "json": json_path, "md": md_path},
+                         ensure_ascii=False, indent=1))
     return 0
+
+
+def _lived_pursued():
+    """ریشه‌های زیسته، به ترتیبِ نامِ رکورد — فقط از رکوردهای append-only."""
+    roots = []
+    for f in sorted(glob.glob("breaths/records/*.json")):
+        rec = json.load(open(f))
+        for b in (rec if isinstance(rec, list) else [rec]):
+            r = b.get("pursued") or b.get("step2_gap", {}).get("pursued_root")
+            if r and r not in roots:
+                roots.append(r)
+    return roots
+
+
+def sync():
+    """هم‌گام با زندگی (تصمیمِ باغبان، ۲۰۲۶-۰۷-۲۱): برای هر ریشهٔ زیسته‌ای
+    که هنوز سیما ندارد، سیما بساز. ایدم‌پوتنت؛ پیکره یک‌بار بار می‌شود."""
+    lived = _lived_pursued()
+    missing = [r for r in lived if not os.path.exists(f"{OUT_DIR}/{r}.json")]
+    built, failed = [], []
+    if missing:
+        corpus = bc.load_corpus()
+        for r in missing:
+            ok = build(r, corpus=corpus, reindex=False, quiet=True) == 0
+            (built if ok else failed).append(r)
+        rebuild_index()
+    print(json.dumps({"زیسته": len(lived), "از_پیش_موجود": len(lived) - len(missing),
+                      "ساخته_شد": built, "ناکام": failed},
+                     ensure_ascii=False, indent=1))
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print(json.dumps({"خطا": "نیازمندِ ریشه است — python3 tadabbor/build.py ریشه"},
+        print(json.dumps({"خطا": "نیازمندِ ریشه است — python3 tadabbor/build.py ریشه | --sync"},
                          ensure_ascii=False))
         sys.exit(1)
+    if sys.argv[1] == "--sync":
+        sys.exit(sync())
     sys.exit(build(sys.argv[1]))
