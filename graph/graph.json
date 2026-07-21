@@ -266,6 +266,7 @@
   "مكن",
   "ملك",
   "ملل",
+  "منن",
   "مني",
   "مهد",
   "موت",
@@ -472,7 +473,8 @@
   "سير",
   "عجب",
   "غرر",
-  "مسك"
+  "مسك",
+  "منن"
  ],
  "open_queue": [
   "اتي",
@@ -719,6 +721,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اجر",
+   "b": "منن",
+   "directions": {
+    "منن→اجر": {
+     "breath": 158,
+     "lift": 15.118,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "احد",
@@ -2727,6 +2745,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "منن",
+   "directions": {
+    "منن→امن": {
+     "breath": 158,
+     "lift": 2.76,
+     "p": 0.0166,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امن",
@@ -10089,6 +10123,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "عمل",
+   "b": "منن",
+   "directions": {
+    "منن→عمل": {
+     "breath": 158,
+     "lift": 3.985,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "عنب",
    "b": "نخل",
    "directions": {
@@ -10391,6 +10441,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "غير",
+   "b": "منن",
+   "directions": {
+    "منن→غير": {
+     "breath": 158,
+     "lift": 8.542,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "غير",
