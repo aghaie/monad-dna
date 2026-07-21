@@ -181,6 +181,7 @@
   "عوذ",
   "عون",
   "غرب",
+  "غضب",
   "غفر",
   "غني",
   "غير",
@@ -415,7 +416,8 @@
   "مرض",
   "فحش",
   "اذي",
-  "جهل"
+  "جهل",
+  "غضب"
  ],
  "open_queue": [
   "اتي",
@@ -1716,6 +1718,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "غضب",
+   "directions": {
+    "غضب→اله": {
+     "breath": 136,
+     "lift": 2.213,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -6327,6 +6345,22 @@
   },
   {
    "a": "ربب",
+   "b": "غضب",
+   "directions": {
+    "غضب→ربب": {
+     "breath": 136,
+     "lift": 2.387,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ربب",
    "b": "مري",
    "directions": {
     "مري→ربب": {
@@ -8343,6 +8377,22 @@
   },
   {
    "a": "عذب",
+   "b": "غضب",
+   "directions": {
+    "غضب→عذب": {
+     "breath": 136,
+     "lift": 4.419,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عذب",
    "b": "فدي",
    "directions": {
     "فدي→عذب": {
@@ -8781,6 +8831,38 @@
      "breath": 107,
      "lift": 3.072,
      "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "غضب",
+   "b": "قتل",
+   "directions": {
+    "غضب→قتل": {
+     "breath": 136,
+     "lift": 12.17,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "غضب",
+   "b": "كفر",
+   "directions": {
+    "غضب→كفر": {
+     "breath": 136,
+     "lift": 3.193,
+     "p": 0.0166,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
