@@ -142,6 +142,7 @@
   "عهد",
   "عوج",
   "عود",
+  "عوذ",
   "عون",
   "غرب",
   "غفر",
@@ -318,7 +319,8 @@
   "حبط",
   "عتد",
   "جهر",
-  "شرق"
+  "شرق",
+  "عوذ"
  ],
  "open_queue": [
   "اتي",
@@ -1217,6 +1219,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "عوذ",
+   "directions": {
+    "عوذ→اله": {
+     "breath": 95,
+     "lift": 1.562,
+     "p": 0.0498,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -4739,6 +4757,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ربب",
+   "b": "عوذ",
+   "directions": {
+    "عوذ→ربب": {
+     "breath": 95,
+     "lift": 3.79,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "رجم",
    "b": "شطن",
    "directions": {
@@ -5635,6 +5669,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "شطن",
+   "b": "عوذ",
+   "directions": {
+    "عوذ→شطن": {
+     "breath": 95,
+     "lift": 23.514,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "شفع",
    "b": "نفع",
    "directions": {
@@ -6425,6 +6475,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "عوذ",
+   "b": "قول",
+   "directions": {
+    "عوذ→قول": {
+     "breath": 95,
+     "lift": 2.652,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "عون",
