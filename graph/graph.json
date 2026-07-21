@@ -171,6 +171,7 @@
   "ظلم",
   "عبد",
   "عتد",
+  "عجز",
   "عدل",
   "عدو",
   "عذب",
@@ -450,7 +451,8 @@
   "حول",
   "خزي",
   "هون",
-  "نبت"
+  "نبت",
+  "عجز"
  ],
  "open_queue": [
   "اتي",
@@ -985,6 +987,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "عجز",
+   "directions": {
+    "عجز→ارض": {
+     "breath": 151,
+     "lift": 5.102,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ارض",
@@ -9197,6 +9215,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عجز",
+   "b": "ولي",
+   "directions": {
+    "عجز→ولي": {
+     "breath": 151,
+     "lift": 6.174,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
