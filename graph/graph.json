@@ -182,6 +182,7 @@
   "طمن",
   "طوع",
   "طيب",
+  "طير",
   "طين",
   "ظلم",
   "عبد",
@@ -499,7 +500,8 @@
   "رجو",
   "فوز",
   "رفع",
-  "ثني"
+  "ثني",
+  "طير"
  ],
  "open_queue": [
   "اتي",
@@ -8134,6 +8136,22 @@
   },
   {
    "a": "راي",
+   "b": "طير",
+   "directions": {
+    "طير→راي": {
+     "breath": 171,
+     "lift": 5.249,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "راي",
    "b": "قمر",
    "directions": {
     "قمر→راي": {
@@ -10683,6 +10701,54 @@
     "طمن→قلب": {
      "breath": 65,
      "lift": 23.469,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "طير",
+   "b": "علم",
+   "directions": {
+    "طير→علم": {
+     "breath": 171,
+     "lift": 2.141,
+     "p": 0.0498,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طير",
+   "b": "قول",
+   "directions": {
+    "طير→قول": {
+     "breath": 171,
+     "lift": 1.691,
+     "p": 0.0332,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "طير",
+   "b": "كلل",
+   "directions": {
+    "طير→كلل": {
+     "breath": 171,
+     "lift": 5.138,
      "p": 0.0033,
      "stable": true,
      "tier": "قوی",
