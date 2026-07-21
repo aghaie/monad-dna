@@ -14,6 +14,7 @@
   "امم",
   "امن",
   "انس",
+  "اهل",
   "اول",
   "اوي",
   "ايد",
@@ -185,6 +186,7 @@
   "لقي",
   "لون",
   "لوي",
+  "مدن",
   "مسس",
   "مسك",
   "ملك",
@@ -320,7 +322,8 @@
   "عتد",
   "جهر",
   "شرق",
-  "عوذ"
+  "عوذ",
+  "مدن"
  ],
  "open_queue": [
   "اتي",
@@ -1887,6 +1890,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
+   "b": "مدن",
+   "directions": {
+    "مدن→اهل": {
+     "breath": 96,
+     "lift": 15.284,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -4997,6 +5016,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "رسل",
+   "b": "مدن",
+   "directions": {
+    "مدن→رسل": {
+     "breath": 96,
+     "lift": 4.275,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "ريب",
    "b": "شكك",
    "directions": {
@@ -6843,6 +6878,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "قول",
+   "b": "مدن",
+   "directions": {
+    "مدن→قول": {
+     "breath": 96,
+     "lift": 2.652,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "قول",
