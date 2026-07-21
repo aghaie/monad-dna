@@ -162,6 +162,7 @@
   "فحش",
   "فدي",
   "فرح",
+  "فرض",
   "فري",
   "فضل",
   "فقر",
@@ -344,7 +345,8 @@
   "مكن",
   "نوب",
   "ملل",
-  "حنف"
+  "حنف",
+  "فرض"
  ],
  "open_queue": [
   "اتي",
@@ -1388,6 +1390,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "فرض",
+   "directions": {
+    "فرض→اله": {
+     "breath": 106,
+     "lift": 2.134,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -6860,6 +6878,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "علم",
+   "b": "فرض",
+   "directions": {
+    "فرض→علم": {
+     "breath": 106,
+     "lift": 4.283,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "علم",
