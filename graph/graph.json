@@ -121,6 +121,7 @@
   "صفو",
   "صمم",
   "صوب",
+  "صور",
   "صوم",
   "صيد",
   "صير",
@@ -211,6 +212,7 @@
   "نزل",
   "نصر",
   "نعم",
+  "نفخ",
   "نفس",
   "نفع",
   "نقض",
@@ -348,7 +350,8 @@
   "ملل",
   "حنف",
   "فرض",
-  "غرب"
+  "غرب",
+  "صور"
  ],
  "open_queue": [
   "اتي",
@@ -652,6 +655,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ارض",
+   "b": "صور",
+   "directions": {
+    "صور→ارض": {
+     "breath": 108,
+     "lift": 5.002,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -5899,6 +5918,22 @@
   },
   {
    "a": "سمو",
+   "b": "صور",
+   "directions": {
+    "صور→سمو": {
+     "breath": 108,
+     "lift": 6.253,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سمو",
    "b": "فكر",
    "directions": {
     "فكر→سمو": {
@@ -6436,6 +6471,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صور",
+   "b": "نفخ",
+   "directions": {
+    "صور→نفخ": {
+     "breath": 108,
+     "lift": 203.791,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "صور",
+   "b": "يوم",
+   "directions": {
+    "صور→يوم": {
+     "breath": 108,
+     "lift": 4.865,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
