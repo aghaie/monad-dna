@@ -25,8 +25,8 @@ def test_axioms_exact():
 
 
 def test_counts():
-    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 153
-    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 280
+    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 154
+    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 285
     assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 8
     assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 7
 
