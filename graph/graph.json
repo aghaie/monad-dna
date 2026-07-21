@@ -197,6 +197,7 @@
   "قول",
   "قوم",
   "كتب",
+  "كتم",
   "كسو",
   "كشف",
   "كفر",
@@ -376,7 +377,8 @@
   "سوي",
   "حزب",
   "بقي",
-  "سنن"
+  "سنن",
+  "كتم"
  ],
  "open_queue": [
   "اتي",
@@ -1574,6 +1576,22 @@
   },
   {
    "a": "اله",
+   "b": "كتم",
+   "directions": {
+    "كتم→اله": {
+     "breath": 119,
+     "lift": 2.489,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
    "b": "كسو",
    "directions": {
     "اله→كسو": {
@@ -1955,6 +1973,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "كتم",
+   "directions": {
+    "كتم→امن": {
+     "breath": 119,
+     "lift": 2.588,
+     "p": 0.0133,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امن",
@@ -7502,6 +7536,22 @@
   },
   {
    "a": "علم",
+   "b": "كتم",
+   "directions": {
+    "كتم→علم": {
+     "breath": 119,
+     "lift": 4.711,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "علم",
    "b": "لبب",
    "directions": {
     "لبب→علم": {
@@ -8159,6 +8209,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كتب",
+   "b": "كتم",
+   "directions": {
+    "كتم→كتب": {
+     "breath": 119,
+     "lift": 6.705,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كتم",
+   "b": "كون",
+   "directions": {
+    "كتم→كون": {
+     "breath": 119,
+     "lift": 2.121,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
