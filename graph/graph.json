@@ -58,6 +58,7 @@
   "جهل",
   "حبب",
   "حبط",
+  "حدد",
   "حذر",
   "حرج",
   "حرف",
@@ -430,7 +431,8 @@
   "سقي",
   "بسط",
   "صلي",
-  "وعظ"
+  "وعظ",
+  "حدد"
  ],
  "open_queue": [
   "اتي",
@@ -1303,6 +1305,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "حدد",
+   "directions": {
+    "حدد→اله": {
+     "breath": 142,
+     "lift": 2.489,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
     }
    },
    "mutual_strong": false,
@@ -4118,6 +4136,22 @@
   },
   {
    "a": "بين",
+   "b": "حدد",
+   "directions": {
+    "حدد→بين": {
+     "breath": 142,
+     "lift": 4.121,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
    "b": "شكك",
    "directions": {
     "شكك→بين": {
@@ -5211,6 +5245,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "حدد",
+   "b": "رسل",
+   "directions": {
+    "حدد→رسل": {
+     "breath": 142,
+     "lift": 6.541,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "حرج",
