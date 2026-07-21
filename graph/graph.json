@@ -46,6 +46,7 @@
   "ترب",
   "تمم",
   "توب",
+  "ثقل",
   "ثلث",
   "ثمر",
   "ثمن",
@@ -102,6 +103,7 @@
   "دنو",
   "دون",
   "دين",
+  "ذرر",
   "ذكر",
   "ذنب",
   "ذوق",
@@ -484,7 +486,8 @@
   "عدل",
   "شقق",
   "ثوب",
-  "حوط"
+  "حوط",
+  "ثقل"
  ],
  "open_queue": [
   "اتي",
@@ -764,6 +767,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اتي",
+   "b": "ثقل",
+   "directions": {
+    "ثقل→اتي": {
+     "breath": 165,
+     "lift": 2.961,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اتي",
@@ -1116,6 +1135,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "ثقل",
+   "directions": {
+    "ثقل→ارض": {
+     "breath": 165,
+     "lift": 3.816,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ارض",
@@ -5144,6 +5179,70 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 25
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثقل",
+   "b": "ذرر",
+   "directions": {
+    "ثقل→ذرر": {
+     "breath": 165,
+     "lift": 39.974,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثقل",
+   "b": "سمو",
+   "directions": {
+    "ثقل→سمو": {
+     "breath": 165,
+     "lift": 3.407,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثقل",
+   "b": "كون",
+   "directions": {
+    "ثقل→كون": {
+     "breath": 165,
+     "lift": 1.836,
+     "p": 0.0233,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ثقل",
+   "b": "نفس",
+   "directions": {
+    "ثقل→نفس": {
+     "breath": 165,
+     "lift": 4.442,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
