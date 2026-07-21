@@ -98,6 +98,7 @@
   "خير",
   "دبب",
   "دخل",
+  "درج",
   "دعو",
   "دمو",
   "دنو",
@@ -120,6 +121,7 @@
   "رزق",
   "رسل",
   "رضو",
+  "رفع",
   "روح",
   "رود",
   "ريب",
@@ -230,6 +232,7 @@
   "فكر",
   "فلك",
   "فوز",
+  "فوق",
   "فوه",
   "فيا",
   "قبل",
@@ -493,7 +496,8 @@
   "ثقل",
   "يقن",
   "رجو",
-  "فوز"
+  "فوز",
+  "رفع"
  ],
  "open_queue": [
   "اتي",
@@ -808,6 +812,22 @@
   },
   {
    "a": "اتي",
+   "b": "رفع",
+   "directions": {
+    "رفع→اتي": {
+     "breath": 169,
+     "lift": 2.655,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
    "b": "سرع",
    "directions": {
     "سرع→اتي": {
@@ -977,6 +997,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 33
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "رفع",
+   "directions": {
+    "رفع→اخذ": {
+     "breath": 169,
+     "lift": 4.406,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -7343,6 +7379,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "درج",
+   "b": "رفع",
+   "directions": {
+    "رفع→درج": {
+     "breath": 169,
+     "lift": 75.262,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "دعو",
    "b": "دون",
    "directions": {
@@ -8549,6 +8601,38 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "رفع",
+   "b": "شيا",
+   "directions": {
+    "رفع→شيا": {
+     "breath": 169,
+     "lift": 2.874,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رفع",
+   "b": "فوق",
+   "directions": {
+    "رفع→فوق": {
+     "breath": 169,
+     "lift": 41.958,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "روح",
