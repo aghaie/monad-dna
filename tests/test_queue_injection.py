@@ -178,15 +178,30 @@ def _restore_report(date, saved):
             f.write(saved)
 
 
+def _expected_unseen_strong_count():
+    """شمارشِ مستقلِ نامزدهای «قوی»ِ نادیده — نه هاردکد. مثلِ
+    _pick_unlived_root: life.db همیشه رشد می‌کند (هر نفس یک ریشهٔ تازه را
+    از میانِ نامزدهای رصدخانه هم می‌بلعد)، پس هر عددِ ثابت دیر یا زود
+    نادرست می‌شود (دقیقاً همین اتفاق در نفسِ ۱۰۴ افتاد: ۳۰۰ شد، نه >۳۰۰).
+    این تابع همان منطقِ cmd_queue_sync_observatory را مستقلاً بازمی‌سازد."""
+    db = sqlite3.connect("database/life.db")
+    lived = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
+    obs = json.load(open("observatory/observatory.json"))
+    return sum(1 for e in obs["roots"]
+              if e["root"] not in lived and any(t["tier"] == "قوی" for t in e["top"]))
+
+
 def test_queue_sync_observatory_only_adds_unseen_strong_candidates():
     """رصدخانه مجاز است پیشنهادهای خودش را وارد صف کند (دستورِ باغبان،
     ۲۰۲۶-۰۷-۲۰) — اما فقط نامزدهای «قوی»ِ نادیده، منشأ صریح «رصدخانه (خودکار)»."""
+    expected = _expected_unseen_strong_count()
     saved = _backup_injections()
     try:
         out = _run("queue-sync-observatory")
         assert out.returncode == 0, out.stderr
         result = json.loads(out.stdout)
-        assert result["تعدادِ_تزریق‌شده"] > 300, "باید اکثرِ ۳۶۳ نامزدِ قوی را بپوشاند"
+        assert result["تعدادِ_تزریق‌شده"] == expected, \
+            f"باید دقیقاً {expected} نامزدِ قوی‌ِ نادیدهٔ کنونی را بپوشاند"
         items = json.load(open(INJ_FILE))
         assert all(i["source"] == "رصدخانه (خودکار)" for i in items)
         # نمونه‌ای که پیش‌تر می‌دانستیم قوی‌ترین نامزدِ نادیده است
