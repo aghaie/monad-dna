@@ -25,7 +25,7 @@ def test_axioms_exact():
 
 
 def test_counts():
-    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 104
+    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 105
     assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 190
     assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 8
     assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 7
@@ -43,7 +43,7 @@ def test_open_queue():
     p = {r for (r,) in db.execute("SELECT root FROM queue_events WHERE event='pursued'")}
     open_q = {r for r in q if r not in p}
     assert open_q == {"اتي", "اجر", "اخر", "اذن", "ارض", "امم", "امن", "اول", "ايي", "بشر",
-                       "بصر", "بعد", "بني", "بين", "جري", "جعل", "جنن", "حرم", "حسن", "حنف", "خلف", "خلق",
+                       "بصر", "بعد", "بني", "بين", "جري", "جعل", "جنن", "حرم", "حسن", "خلف", "خلق",
                        "دعو", "دنو", "ذكر", "راي", "ربب", "رجع", "رسل", "رضو", "ريب", "سجد",
                        "سخر", "سرر", "سكن", "سمع", "سمو", "سوع", "شطن", "شكر", "شيا", "ضلل",
                        "طوع", "طيب", "عدو", "عذب", "علم", "عمل", "عند", "عود", "غني", "غير",
