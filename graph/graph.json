@@ -319,6 +319,7 @@
   "ياس",
   "يتم",
   "يدي",
+  "يقن",
   "يمن",
   "يوم"
  ],
@@ -487,7 +488,8 @@
   "شقق",
   "ثوب",
   "حوط",
-  "ثقل"
+  "ثقل",
+  "يقن"
  ],
  "open_queue": [
   "اتي",
@@ -895,6 +897,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
+   "b": "يقن",
+   "directions": {
+    "يقن→اتي": {
+     "breath": 166,
+     "lift": 2.75,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اجر",
@@ -1371,6 +1389,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "يقن",
+   "directions": {
+    "يقن→ارض": {
+     "breath": 166,
+     "lift": 3.037,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -3611,6 +3645,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايي",
+   "b": "يقن",
+   "directions": {
+    "يقن→ايي": {
+     "breath": 166,
+     "lift": 3.786,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -9019,6 +9069,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سمو",
+   "b": "يقن",
+   "directions": {
+    "يقن→سمو": {
+     "breath": 166,
+     "lift": 3.164,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
