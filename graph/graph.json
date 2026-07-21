@@ -279,6 +279,7 @@
   "هزا",
   "هلل",
   "هود",
+  "هون",
   "وثق",
   "وجد",
   "وحد",
@@ -445,7 +446,8 @@
   "حضر",
   "وهب",
   "حول",
-  "خزي"
+  "خزي",
+  "هون"
  ],
  "open_queue": [
   "اتي",
@@ -719,6 +721,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 33
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "هون",
+   "directions": {
+    "هون→اخذ": {
+     "breath": 149,
+     "lift": 4.915,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1023,6 +1041,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "هون",
+   "directions": {
+    "هون→ارض": {
+     "breath": 149,
+     "lift": 2.726,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -3100,6 +3134,22 @@
      "breath": 109,
      "lift": 4.416,
      "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايي",
+   "b": "هون",
+   "directions": {
+    "هون→ايي": {
+     "breath": 149,
+     "lift": 3.397,
+     "p": 0.0133,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -8550,6 +8600,22 @@
   },
   {
    "a": "شيا",
+   "b": "هون",
+   "directions": {
+    "هون→شيا": {
+     "breath": 149,
+     "lift": 2.671,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شيا",
    "b": "وسع",
    "directions": {
     "وسع→شيا": {
@@ -9099,6 +9165,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "عذب",
+   "b": "هون",
+   "directions": {
+    "هون→عذب": {
+     "breath": 149,
+     "lift": 13.563,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 19
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "عرب",
@@ -10324,6 +10406,22 @@
      "breath": 119,
      "lift": 2.121,
      "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كفر",
+   "b": "هون",
+   "directions": {
+    "هون→كفر": {
+     "breath": 149,
+     "lift": 4.126,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 8
