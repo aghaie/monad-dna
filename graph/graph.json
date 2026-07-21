@@ -54,6 +54,7 @@
   "حرف",
   "حرق",
   "حرم",
+  "حزب",
   "حسب",
   "حسن",
   "حقق",
@@ -368,7 +369,8 @@
   "فطر",
   "مري",
   "فقه",
-  "سوي"
+  "سوي",
+  "حزب"
  ],
  "open_queue": [
   "اتي",
@@ -1815,6 +1817,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "حزب",
+   "directions": {
+    "حزب→امن": {
+     "breath": 116,
+     "lift": 2.537,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -4099,6 +4117,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "حزب",
+   "b": "كون",
+   "directions": {
+    "حزب→كون": {
+     "breath": 116,
+     "lift": 1.872,
+     "p": 0.0432,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "حسن",
