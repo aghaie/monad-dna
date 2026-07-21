@@ -115,6 +115,7 @@
   "رجس",
   "رجع",
   "رجم",
+  "رجو",
   "رحم",
   "رزق",
   "رسل",
@@ -489,7 +490,8 @@
   "ثوب",
   "حوط",
   "ثقل",
-  "يقن"
+  "يقن",
+  "رجو"
  ],
  "open_queue": [
   "اتي",
@@ -1034,6 +1036,22 @@
      "breath": 12,
      "lift": 3.482,
      "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "رجو",
+   "directions": {
+    "رجو→اخر": {
+     "breath": 167,
+     "lift": 4.772,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -2009,6 +2027,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "رجو",
+   "directions": {
+    "رجو→اله": {
+     "breath": 167,
+     "lift": 1.721,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اله",
@@ -7804,6 +7838,22 @@
   },
   {
    "a": "ربب",
+   "b": "رجو",
+   "directions": {
+    "رجو→ربب": {
+     "breath": 167,
+     "lift": 2.121,
+     "p": 0.0332,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ربب",
    "b": "شرق",
    "directions": {
     "شرق→ربب": {
@@ -8065,6 +8115,86 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "رجو",
+   "b": "رحم",
+   "directions": {
+    "رجو→رحم": {
+     "breath": 167,
+     "lift": 3.69,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجو",
+   "b": "علم",
+   "directions": {
+    "رجو→علم": {
+     "breath": 167,
+     "lift": 1.904,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجو",
+   "b": "كون",
+   "directions": {
+    "رجو→كون": {
+     "breath": 167,
+     "lift": 2.553,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "رجو",
+   "b": "لقي",
+   "directions": {
+    "رجو→لقي": {
+     "breath": 167,
+     "lift": 11.976,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجو",
+   "b": "يوم",
+   "directions": {
+    "رجو→يوم": {
+     "breath": 167,
+     "lift": 3.063,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "رحم",
