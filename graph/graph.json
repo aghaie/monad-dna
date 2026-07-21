@@ -313,6 +313,7 @@
   "وثق",
   "وجد",
   "وحد",
+  "ودد",
   "وزن",
   "وسع",
   "وصف",
@@ -501,7 +502,8 @@
   "فوز",
   "رفع",
   "ثني",
-  "طير"
+  "طير",
+  "ودد"
  ],
  "open_queue": [
   "اتي",
@@ -1029,6 +1031,22 @@
     "هون→اخذ": {
      "breath": 149,
      "lift": 4.915,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "ودد",
+   "directions": {
+    "ودد→اخذ": {
+     "breath": 172,
+     "lift": 4.564,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -2776,6 +2794,22 @@
   },
   {
    "a": "اله",
+   "b": "ودد",
+   "directions": {
+    "ودد→اله": {
+     "breath": 172,
+     "lift": 1.896,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "وصف",
    "directions": {
     "وصف→اله": {
@@ -3285,6 +3319,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "امن",
+   "b": "ودد",
+   "directions": {
+    "ودد→امن": {
+     "breath": 172,
+     "lift": 2.156,
+     "p": 0.0498,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "انس",
@@ -5113,6 +5163,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بين",
+   "b": "ودد",
+   "directions": {
+    "ودد→بين": {
+     "breath": 172,
+     "lift": 3.924,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -8669,6 +8735,22 @@
    },
    "mutual_strong": true,
    "best_tier": "قوی"
+  },
+  {
+   "a": "رحم",
+   "b": "ودد",
+   "directions": {
+    "ودد→رحم": {
+     "breath": 172,
+     "lift": 3.558,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "رحم",
@@ -12512,6 +12594,22 @@
   },
   {
    "a": "كفر",
+   "b": "ودد",
+   "directions": {
+    "ودد→كفر": {
+     "breath": 172,
+     "lift": 4.79,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كفر",
    "b": "ياس",
    "directions": {
     "ياس→كفر": {
@@ -12673,6 +12771,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كون",
+   "b": "ودد",
+   "directions": {
+    "ودد→كون": {
+     "breath": 172,
+     "lift": 2.083,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
@@ -13117,6 +13231,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "وجد",
+   "b": "ودد",
+   "directions": {
+    "ودد→وجد": {
+     "breath": 172,
+     "lift": 11.248,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "وسع",
