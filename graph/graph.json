@@ -76,6 +76,7 @@
   "راف",
   "راي",
   "ربب",
+  "ربص",
   "رجس",
   "رجع",
   "رجم",
@@ -323,7 +324,8 @@
   "جهر",
   "شرق",
   "عوذ",
-  "مدن"
+  "مدن",
+  "ربص"
  ],
  "open_queue": [
   "اتي",
@@ -1034,6 +1036,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "ربص",
+   "directions": {
+    "ربص→اله": {
+     "breath": 97,
+     "lift": 2.213,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -4786,6 +4804,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ربص",
+   "b": "قول",
+   "directions": {
+    "ربص→قول": {
+     "breath": 97,
+     "lift": 2.63,
+     "p": 0.0133,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
    "mutual_strong": false,
