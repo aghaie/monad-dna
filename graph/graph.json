@@ -1,6 +1,7 @@
 {
  "generated_from": "breaths/records/*.json (deterministic)",
  "nodes": [
+  "ابد",
   "اتي",
   "اجر",
   "احد",
@@ -474,7 +475,8 @@
   "عجب",
   "غرر",
   "مسك",
-  "منن"
+  "منن",
+  "ابد"
  ],
  "open_queue": [
   "اتي",
@@ -523,6 +525,7 @@
   "ضلل",
   "طوع",
   "طيب",
+  "ظلم",
   "عدو",
   "عذب",
   "علم",
@@ -562,6 +565,166 @@
   "يوم"
  ],
  "edges": [
+  {
+   "a": "ابد",
+   "b": "امن",
+   "directions": {
+    "ابد→امن": {
+     "breath": 159,
+     "lift": 2.772,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابد",
+   "b": "تحت",
+   "directions": {
+    "ابد→تحت": {
+     "breath": 159,
+     "lift": 31.18,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ابد",
+   "b": "جري",
+   "directions": {
+    "ابد→جري": {
+     "breath": 159,
+     "lift": 24.359,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ابد",
+   "b": "جنن",
+   "directions": {
+    "ابد→جنن": {
+     "breath": 159,
+     "lift": 9.09,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابد",
+   "b": "خلد",
+   "directions": {
+    "ابد→خلد": {
+     "breath": 159,
+     "lift": 28.487,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ابد",
+   "b": "دخل",
+   "directions": {
+    "ابد→دخل": {
+     "breath": 159,
+     "lift": 14.045,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ابد",
+   "b": "رسل",
+   "directions": {
+    "ابد→رسل": {
+     "breath": 159,
+     "lift": 2.596,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابد",
+   "b": "ظلم",
+   "directions": {
+    "ابد→ظلم": {
+     "breath": 159,
+     "lift": 3.84,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابد",
+   "b": "عظم",
+   "directions": {
+    "ابد→عظم": {
+     "breath": 159,
+     "lift": 8.768,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابد",
+   "b": "نهر",
+   "directions": {
+    "ابد→نهر": {
+     "breath": 159,
+     "lift": 15.284,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
   {
    "a": "اتي",
    "b": "اذي",
