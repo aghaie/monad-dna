@@ -7,6 +7,7 @@
   "اخر",
   "اخو",
   "اذن",
+  "اذي",
   "ارض",
   "الم",
   "اله",
@@ -411,7 +412,8 @@
   "سرف",
   "ثمر",
   "مرض",
-  "فحش"
+  "فحش",
+  "اذي"
  ],
  "open_queue": [
   "اتي",
@@ -497,6 +499,22 @@
   "يوم"
  ],
  "edges": [
+  {
+   "a": "اتي",
+   "b": "اذي",
+   "directions": {
+    "اذي→اتي": {
+     "breath": 134,
+     "lift": 3.499,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
   {
    "a": "اتي",
    "b": "بغت",
@@ -713,6 +731,54 @@
      "breath": 22,
      "lift": 4.746,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذي",
+   "b": "اله",
+   "directions": {
+    "اذي→اله": {
+     "breath": 134,
+     "lift": 2.715,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اذي",
+   "b": "امن",
+   "directions": {
+    "اذي→امن": {
+     "breath": 134,
+     "lift": 3.136,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذي",
+   "b": "رسل",
+   "directions": {
+    "اذي→رسل": {
+     "breath": 134,
+     "lift": 3.304,
+     "p": 0.01,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
