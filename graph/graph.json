@@ -98,6 +98,7 @@
   "رجع",
   "رجم",
   "رحم",
+  "رزق",
   "رسل",
   "رضو",
   "روح",
@@ -237,6 +238,7 @@
   "مهد",
   "موت",
   "مول",
+  "موه",
   "نجو",
   "نخل",
   "نزل",
@@ -247,6 +249,7 @@
   "نفع",
   "نقض",
   "نكح",
+  "نهر",
   "نوب",
   "نور",
   "نوس",
@@ -403,7 +406,8 @@
   "تمم",
   "فرح",
   "سرع",
-  "سرف"
+  "سرف",
+  "ثمر"
  ],
  "open_queue": [
   "اتي",
@@ -2635,6 +2639,22 @@
   },
   {
    "a": "ايي",
+   "b": "ثمر",
+   "directions": {
+    "ثمر→ايي": {
+     "breath": 131,
+     "lift": 4.818,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايي",
    "b": "جحد",
    "directions": {
     "جحد→ايي": {
@@ -4027,11 +4047,147 @@
   },
   {
    "a": "ثمر",
+   "b": "جنن",
+   "directions": {
+    "ثمر→جنن": {
+     "breath": 131,
+     "lift": 7.231,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثمر",
+   "b": "خرج",
+   "directions": {
+    "ثمر→خرج": {
+     "breath": 131,
+     "lift": 12.638,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثمر",
+   "b": "رزق",
+   "directions": {
+    "ثمر→رزق": {
+     "breath": 131,
+     "lift": 18.204,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثمر",
+   "b": "قوم",
+   "directions": {
+    "ثمر→قوم": {
+     "breath": 131,
+     "lift": 2.849,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثمر",
+   "b": "كلل",
+   "directions": {
+    "ثمر→كلل": {
+     "breath": 131,
+     "lift": 7.206,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثمر",
+   "b": "موه",
+   "directions": {
+    "ثمر→موه": {
+     "breath": 131,
+     "lift": 28.345,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ثمر",
    "b": "نخل",
    "directions": {
     "نخل→ثمر": {
      "breath": 109,
      "lift": 70.864,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "ثمر→نخل": {
+     "breath": 131,
+     "lift": 70.864,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثمر",
+   "b": "نزل",
+   "directions": {
+    "ثمر→نزل": {
+     "breath": 131,
+     "lift": 5.515,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثمر",
+   "b": "نهر",
+   "directions": {
+    "ثمر→نهر": {
+     "breath": 131,
+     "lift": 13.895,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",

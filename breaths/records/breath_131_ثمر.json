@@ -1,0 +1,2100 @@
+{
+ "breath_number": 131,
+ "deliberation": [
+  {
+   "root": "ثمر",
+   "attestation": 24
+  },
+  {
+   "root": "مرض",
+   "attestation": 24
+  },
+  {
+   "root": "فحش",
+   "attestation": 24
+  },
+  {
+   "root": "اذي",
+   "attestation": 24
+  },
+  {
+   "root": "جهل",
+   "attestation": 24
+  },
+  {
+   "root": "غضب",
+   "attestation": 24
+  },
+  {
+   "root": "عمر",
+   "attestation": 24
+  },
+  {
+   "root": "سقي",
+   "attestation": 25
+  },
+  {
+   "root": "بسط",
+   "attestation": 25
+  },
+  {
+   "root": "صلي",
+   "attestation": 25
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "ثمر",
+ "attestation": 24,
+ "ayat": 22,
+ "top": [
+  {
+   "root": "نخل",
+   "shared": 5,
+   "expected": 0.07,
+   "lift": 70.864,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "موه",
+   "shared": 6,
+   "expected": 0.21,
+   "lift": 28.345,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رزق",
+   "shared": 7,
+   "expected": 0.38,
+   "lift": 18.204,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نهر",
+   "shared": 5,
+   "expected": 0.36,
+   "lift": 13.895,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خرج",
+   "shared": 7,
+   "expected": 0.55,
+   "lift": 12.638,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جنن",
+   "shared": 5,
+   "expected": 0.69,
+   "lift": 7.231,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 9,
+   "expected": 1.25,
+   "lift": 7.206,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نزل",
+   "shared": 5,
+   "expected": 0.91,
+   "lift": 5.515,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ايي",
+   "shared": 6,
+   "expected": 1.25,
+   "lift": 4.818,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قوم",
+   "shared": 6,
+   "expected": 2.11,
+   "lift": 2.849,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "نخل",
+  "موه",
+  "رزق",
+  "خرج",
+  "جنن",
+  "كلل",
+  "نزل",
+  "ايي"
+ ],
+ "one_way": [
+  "نهر",
+  "قوم"
+ ],
+ "neighbor_view": {
+  "نخل": {
+   "root": "ثمر",
+   "shared": 5,
+   "expected": 0.07,
+   "lift": 70.864,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "موه": {
+   "root": "ثمر",
+   "shared": 6,
+   "expected": 0.21,
+   "lift": 28.345,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "رزق": {
+   "root": "ثمر",
+   "shared": 7,
+   "expected": 0.38,
+   "lift": 18.204,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نهر": null,
+  "خرج": {
+   "root": "ثمر",
+   "shared": 7,
+   "expected": 0.55,
+   "lift": 12.638,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "جنن": {
+   "root": "ثمر",
+   "shared": 5,
+   "expected": 0.69,
+   "lift": 7.231,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كلل": {
+   "root": "ثمر",
+   "shared": 9,
+   "expected": 1.25,
+   "lift": 7.206,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نزل": {
+   "root": "ثمر",
+   "shared": 5,
+   "expected": 0.91,
+   "lift": 5.515,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ايي": {
+   "root": "ثمر",
+   "shared": 6,
+   "expected": 1.25,
+   "lift": 4.818,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قوم": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "ثمر↔اله",
+   "shared": 5,
+   "expected": 6.63,
+   "lift": 0.75,
+   "p_perm": 0.8372
+  },
+  {
+   "pair": "ثمر↔رحم",
+   "shared": 1,
+   "expected": 1.1,
+   "lift": 0.91,
+   "p_perm": 0.6977
+  },
+  {
+   "pair": "ثمر↔راف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔نصر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔اوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صير",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.77,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "ثمر↔باس",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.23,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "ثمر↔غفر",
+   "shared": 1,
+   "expected": 0.71,
+   "lift": 1.4,
+   "p_perm": 0.5017
+  },
+  {
+   "pair": "ثمر↔حلم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ذنب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سوا",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بدو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔خفي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔دون",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔نفع",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ضرر",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.05,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "ثمر↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مسس",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔الم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔انس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عشر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عرض",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بغي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عوج",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سبل",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.73,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "ثمر↔يتم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شري",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔لحم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔دمو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ثمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فلك",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.34,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "ثمر↔وسع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔كلف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جهد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔قسم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صدد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بحر",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.09,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "ثمر↔برر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔قسو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ستت",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔هبط",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔لون",
+   "shared": 2,
+   "expected": 0.02,
+   "lift": 80.99,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ثمر↔نقض",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حرق",
+   "shared": 1,
+   "expected": 0.03,
+   "lift": 31.49,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "ثمر↔حيق",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ضيع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جدد",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 28.35,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "ثمر↔رجس",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔قهر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عنب",
+   "shared": 4,
+   "expected": 0.04,
+   "lift": 103.07,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ثمر↔طبع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔وقد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ايد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سفه",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عون",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عصو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔طين",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جحد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔خطب",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شبه",
+   "shared": 3,
+   "expected": 0.03,
+   "lift": 94.48,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ثمر↔بغت",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔طمن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔خزن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فدي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔قرض",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عصم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حور",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 23.62,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "ثمر↔فوه",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جلد",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ياس",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فقر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔رجم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صوم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ثوي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔وصف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شكك",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بدا",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صمم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔كفف",
+   "shared": 1,
+   "expected": 0.05,
+   "lift": 20.25,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "ثمر↔حرج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔كيل",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔لبب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سطر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فاد",
+   "shared": 1,
+   "expected": 0.05,
+   "lift": 18.9,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "ثمر↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عتد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جهر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شرق",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عوذ",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مدن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ربص",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بوا",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صفو",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 17.72,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "ثمر↔فكر",
+   "shared": 4,
+   "expected": 0.06,
+   "lift": 62.99,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ثمر↔دبب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مكن",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 17.72,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "ثمر↔نوب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ملل",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حنف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔غرب",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 16.67,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "ثمر↔صور",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔نخل",
+   "shared": 5,
+   "expected": 0.07,
+   "lift": 70.86,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ثمر↔زرع",
+   "shared": 3,
+   "expected": 0.04,
+   "lift": 70.86,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ثمر↔نفخ",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فطر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مري",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فقه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سوي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حزب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بقي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سنن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔كتم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔هود",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شهر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مني",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حذر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ربع",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عرب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ترب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔تمم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فرح",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سرع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سرف",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 13.5,
+   "p_perm": 0.0731
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "ثمر↔راف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔نصر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔اوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حلم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ذنب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سوا",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بدو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔خفي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔دون",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔نفع",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مسس",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔الم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔انس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عشر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عرض",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بغي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عوج",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔يتم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شري",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔لحم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔دمو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ثمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔وسع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔كلف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جهد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔قسم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صدد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔برر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔قسو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ستت",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔هبط",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔نقض",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حيق",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ضيع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔رجس",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔قهر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔طبع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔وقد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ايد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سفه",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عون",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عصو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔طين",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جحد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔خطب",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بغت",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔طمن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔خزن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فدي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔قرض",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عصم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فوه",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جلد",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ياس",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فقر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔رجم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صوم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ثوي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔وصف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شكك",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بدا",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صمم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حرج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔كيل",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔لبب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سطر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عتد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔جهر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شرق",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عوذ",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مدن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ربص",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بوا",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔دبب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔نوب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ملل",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حنف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔صور",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔نفخ",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فطر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مري",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فقه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سوي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حزب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔بقي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سنن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔كتم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔هود",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔شهر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔مني",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔حذر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ربع",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔عرب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔ترب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔تمم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔فرح",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ثمر↔سرع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "6:99",
+   "degree": 8,
+   "roots_present": [
+    "نخل",
+    "موه",
+    "خرج",
+    "جنن",
+    "كلل",
+    "نزل",
+    "ايي",
+    "قوم"
+   ]
+  },
+  {
+   "ayah": "2:266",
+   "degree": 5,
+   "roots_present": [
+    "نخل",
+    "نهر",
+    "جنن",
+    "كلل",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "14:32",
+   "degree": 5,
+   "roots_present": [
+    "موه",
+    "رزق",
+    "نهر",
+    "خرج",
+    "نزل"
+   ]
+  },
+  {
+   "ayah": "2:22",
+   "degree": 4,
+   "roots_present": [
+    "موه",
+    "رزق",
+    "خرج",
+    "نزل"
+   ]
+  },
+  {
+   "ayah": "2:25",
+   "degree": 4,
+   "roots_present": [
+    "رزق",
+    "نهر",
+    "جنن",
+    "كلل"
+   ]
+  },
+  {
+   "ayah": "7:57",
+   "degree": 4,
+   "roots_present": [
+    "موه",
+    "خرج",
+    "كلل",
+    "نزل"
+   ]
+  },
+  {
+   "ayah": "13:3",
+   "degree": 4,
+   "roots_present": [
+    "نهر",
+    "كلل",
+    "ايي",
+    "قوم"
+   ]
+  },
+  {
+   "ayah": "16:11",
+   "degree": 4,
+   "roots_present": [
+    "نخل",
+    "كلل",
+    "ايي",
+    "قوم"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "ثمر+نخل": [
+   "2:266",
+   "6:99",
+   "6:141",
+   "16:11",
+   "16:67"
+  ],
+  "ثمر+موه": [
+   "2:22",
+   "6:99",
+   "7:57",
+   "14:32",
+   "35:27",
+   "47:15"
+  ],
+  "ثمر+رزق": [
+   "2:22",
+   "2:25",
+   "2:126",
+   "14:32",
+   "14:37",
+   "16:67",
+   "28:57"
+  ],
+  "ثمر+نهر": [
+   "2:25",
+   "2:266",
+   "13:3",
+   "14:32",
+   "47:15"
+  ],
+  "ثمر+خرج": [
+   "2:22",
+   "6:99",
+   "7:57",
+   "14:32",
+   "16:69",
+   "35:27",
+   "41:47"
+  ],
+  "ثمر+جنن": [
+   "2:25",
+   "2:266",
+   "6:99",
+   "6:141",
+   "47:15"
+  ],
+  "ثمر+كلل": [
+   "2:25",
+   "2:266",
+   "6:99",
+   "7:57",
+   "13:3",
+   "16:11",
+   "16:69",
+   "28:57",
+   "47:15"
+  ],
+  "ثمر+نزل": [
+   "2:22",
+   "6:99",
+   "7:57",
+   "14:32",
+   "35:27"
+  ],
+  "ثمر+ايي": [
+   "2:266",
+   "6:99",
+   "13:3",
+   "16:11",
+   "16:67",
+   "16:69"
+  ],
+  "ثمر+قوم": [
+   "6:99",
+   "13:3",
+   "14:37",
+   "16:11",
+   "16:67",
+   "16:69"
+  ],
+  "ثمر+لون": [
+   "16:69",
+   "35:27"
+  ],
+  "ثمر+حرق": [
+   "2:266"
+  ],
+  "ثمر+جدد": [
+   "35:27"
+  ],
+  "ثمر+عنب": [
+   "2:266",
+   "6:99",
+   "16:11",
+   "16:67"
+  ],
+  "ثمر+شبه": [
+   "2:25",
+   "6:99",
+   "6:141"
+  ],
+  "ثمر+حور": [
+   "18:34"
+  ],
+  "ثمر+فاد": [
+   "14:37"
+  ],
+  "ثمر+فكر": [
+   "2:266",
+   "13:3",
+   "16:11",
+   "16:69"
+  ],
+  "ثمر+مكن": [
+   "28:57"
+  ],
+  "ثمر+زرع": [
+   "6:141",
+   "14:37",
+   "16:11"
+  ]
+ }
+}
