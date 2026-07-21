@@ -148,6 +148,7 @@
   "شطن",
   "شعر",
   "شفع",
+  "شقق",
   "شكر",
   "شكك",
   "شمس",
@@ -478,7 +479,8 @@
   "منن",
   "ابد",
   "خلو",
-  "عدل"
+  "عدل",
+  "شقق"
  ],
  "open_queue": [
   "اتي",
@@ -4258,6 +4260,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بعد",
+   "b": "شقق",
+   "directions": {
+    "شقق→بعد": {
+     "breath": 162,
+     "lift": 9.071,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -8646,6 +8664,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "سمو",
+   "b": "شقق",
+   "directions": {
+    "شقق→سمو": {
+     "breath": 162,
+     "lift": 3.543,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "سمو",
