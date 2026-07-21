@@ -35,6 +35,41 @@ def _bridge_records():
 
 BRIDGE = _bridge_records()
 
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+_corpus = None
+
+
+def _init_worker():
+    global _corpus
+    _corpus = bc.load_corpus(os.path.join(ROOT, "database", "corpus", "monad.db"))
+
+
+def _generate(path):
+    rec = json.load(open(path, encoding="utf-8"))
+    queue = [d["root"] for d in rec["deliberation"]]
+    lived = [p["pair"].split("↔")[1] for p in rec["projection_on_map"]]
+    got = bc.breathe_record(
+        _corpus,
+        pursued=rec["pursued"],
+        queue=queue,
+        lived=lived,
+        breath_no=rec["breath_number"],
+        chosen_by=rec["chosen_by"],
+    )
+    return path, json.dumps(got, ensure_ascii=False, indent=1) + "\n"
+
+
+@pytest.fixture(scope="module")
+def generated():
+    """بازتولیدِ همهٔ رکوردها، هر یک با همان محاسبهٔ سابق (پارامترها از خودِ
+    رکورد، همان bc.breathe_record) — فقط توزیع‌شده بر هسته‌ها به‌جای پشتِ‌سرِهم؛
+    مقایسهٔ بایت‌به‌بایتِ هر رکورد جداگانه در آزمونِ پارامتری می‌ماند."""
+    from concurrent.futures import ProcessPoolExecutor
+    with ProcessPoolExecutor(max_workers=os.cpu_count(),
+                             initializer=_init_worker) as ex:
+        return dict(ex.map(_generate, [b[1] for b in BRIDGE]))
+
 
 def test_found_bridge_records():
     """پوشش واقعی است — نه اینکه صفر رکورد بی‌صدا آزمون شود."""
@@ -42,18 +77,6 @@ def test_found_bridge_records():
 
 
 @pytest.mark.parametrize("name,path,rec", BRIDGE, ids=[b[0] for b in BRIDGE])
-def test_breathe_record_reproduces_history(name, path, rec):
-    corpus = bc.load_corpus()
-    queue = [d["root"] for d in rec["deliberation"]]
-    lived = [p["pair"].split("↔")[1] for p in rec["projection_on_map"]]
-    got = bc.breathe_record(
-        corpus,
-        pursued=rec["pursued"],
-        queue=queue,
-        lived=lived,
-        breath_no=rec["breath_number"],
-        chosen_by=rec["chosen_by"],
-    )
-    generated = json.dumps(got, ensure_ascii=False, indent=1) + "\n"
+def test_breathe_record_reproduces_history(name, path, rec, generated):
     canonical = open(path, encoding="utf-8").read()
-    assert generated == canonical, f"واگراییِ بایت در {name}"
+    assert generated[path] == canonical, f"واگراییِ بایت در {name}"

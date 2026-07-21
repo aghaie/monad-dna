@@ -394,16 +394,32 @@ def cmd_injection_report(date=None):
     print(json.dumps(report, ensure_ascii=False, indent=1))
 
 
-def cmd_verify():
-    db = sqlite3.connect("database/life.db")
-    checks = verify_checks(db)
-    ok = True
-    for cmd, record in checks:
+def run_verify(checks, jobs=None):
+    """اجرای فرمان‌های بازتولید و مقایسهٔ بایت‌به‌بایت با رکوردِ متعارف.
+
+    فرمان‌ها و محکِ مقایسه عیناً همان روشِ تاریخی‌اند؛ فقط اجرا هم‌زمان است —
+    هر فرمان زیرپروسسِ مستقل و فقط‌خواندنی است، پس هم‌زمانی بر خروجیِ قطعی
+    بی‌اثر است. tests/test_records_reproducible.py هم از همین موتور می‌خواند
+    (یک منبعِ حقیقتِ واحد، نه دو حلقهٔ موازی‌نگه‌داشتنی).
+    خروجی: [(cmd, record, match)] به همان ترتیبِ checks."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    def one(pair):
+        cmd, record = pair
         # shlex نه cmd.split(): برخی نفس‌های L3 آرگومانِ چندکلمه‌ای دارند
         # (مثلِ chosen_by نقل‌قول‌شده) — split سادهٔ فاصله آن را می‌شکست.
         out = subprocess.run([sys.executable, *shlex.split(cmd)],
                              capture_output=True, text=True).stdout
-        match = out == open(record).read()
+        return cmd, record, out == open(record).read()
+
+    with ThreadPoolExecutor(max_workers=jobs or os.cpu_count() or 4) as ex:
+        return list(ex.map(one, checks))
+
+
+def cmd_verify():
+    db = sqlite3.connect("database/life.db")
+    ok = True
+    for cmd, record, match in run_verify(verify_checks(db)):
         ok &= match
         print(("✓" if match else "✗"), cmd)
     print("REPRODUCIBLE" if ok else "MISMATCH — تحقیق لازم است")

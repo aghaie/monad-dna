@@ -1170,9 +1170,12 @@ AUDITS = [
 
 # ---------- ساخت ----------
 os.makedirs("database", exist_ok=True)
-if os.path.exists("database/life.db"):
-    os.remove("database/life.db")
-db = sqlite3.connect("database/life.db")
+# بازساختِ اتمی: نخست در فایلِ موقت، در پایان جایگزینیِ یک‌جا (os.replace) —
+# هیچ خواننده‌ای (pytest/verify/جلسهٔ هم‌زمان) هرگز پایگاهِ خالی یا نیمه‌ساخته نمی‌بیند.
+_TMP_DB = "database/life.db.tmp"
+if os.path.exists(_TMP_DB):
+    os.remove(_TMP_DB)
+db = sqlite3.connect(_TMP_DB)
 db.executescript(open("database/schema/life.sql").read())
 
 for i, t in enumerate(AXIOMS, 1):
@@ -1530,3 +1533,6 @@ print(json.dumps(dict(
     methods=db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0],
     graph_nodes=len(graph["nodes"]), graph_edges=len(graph["edges"]),
 ), ensure_ascii=False))
+
+db.close()
+os.replace(_TMP_DB, "database/life.db")
