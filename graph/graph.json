@@ -32,6 +32,7 @@
   "بغي",
   "بكم",
   "بني",
+  "بوا",
   "بين",
   "تحت",
   "توب",
@@ -325,7 +326,8 @@
   "شرق",
   "عوذ",
   "مدن",
-  "ربص"
+  "ربص",
+  "بوا"
  ],
  "open_queue": [
   "اتي",
@@ -848,6 +850,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "بوا",
+   "directions": {
+    "بوا→اله": {
+     "breath": 98,
+     "lift": 1.867,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -3080,6 +3098,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "بوا",
+   "b": "كون",
+   "directions": {
+    "بوا→كون": {
+     "breath": 98,
+     "lift": 2.32,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "بين",
