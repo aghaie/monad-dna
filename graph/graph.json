@@ -222,6 +222,7 @@
   "مكن",
   "ملك",
   "ملل",
+  "مني",
   "مهد",
   "موت",
   "مول",
@@ -382,7 +383,8 @@
   "سنن",
   "كتم",
   "هود",
-  "شهر"
+  "شهر",
+  "مني"
  ],
  "open_queue": [
   "اتي",
@@ -1654,6 +1656,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "مني",
+   "directions": {
+    "مني→اله": {
+     "breath": 122,
+     "lift": 1.844,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
     }
    },
    "mutual_strong": false,
@@ -7701,6 +7719,22 @@
   },
   {
    "a": "علم",
+   "b": "مني",
+   "directions": {
+    "مني→علم": {
+     "breath": 122,
+     "lift": 2.379,
+     "p": 0.0465,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "علم",
    "b": "وسع",
    "directions": {
     "وسع→علم": {
@@ -8526,6 +8560,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "كون",
+   "b": "مني",
+   "directions": {
+    "مني→كون": {
+     "breath": 122,
+     "lift": 2.357,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
    "mutual_strong": false,
