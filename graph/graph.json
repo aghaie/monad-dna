@@ -26,6 +26,7 @@
   "بدا",
   "بدو",
   "برر",
+  "بسط",
   "بشر",
   "بصر",
   "بعد",
@@ -206,6 +207,7 @@
   "فيا",
   "قبل",
   "قتل",
+  "قدر",
   "قرا",
   "قرب",
   "قرض",
@@ -423,7 +425,8 @@
   "جهل",
   "غضب",
   "عمر",
-  "سقي"
+  "سقي",
+  "بسط"
  ],
  "open_queue": [
   "اتي",
@@ -1172,6 +1175,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "بسط",
+   "directions": {
+    "بسط→اله": {
+     "breath": 139,
+     "lift": 2.164,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -3532,6 +3551,134 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "بسط",
+   "b": "ربب",
+   "directions": {
+    "بسط→ربب": {
+     "breath": 139,
+     "lift": 1.868,
+     "p": 0.0399,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بسط",
+   "b": "رزق",
+   "directions": {
+    "بسط→رزق": {
+     "breath": 139,
+     "lift": 24.874,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بسط",
+   "b": "شيا",
+   "directions": {
+    "بسط→شيا": {
+     "breath": 139,
+     "lift": 9.058,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بسط",
+   "b": "عبد",
+   "directions": {
+    "بسط→عبد": {
+     "breath": 139,
+     "lift": 6.481,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بسط",
+   "b": "علم",
+   "directions": {
+    "بسط→علم": {
+     "breath": 139,
+     "lift": 2.235,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بسط",
+   "b": "قدر",
+   "directions": {
+    "بسط→قدر": {
+     "breath": 139,
+     "lift": 22.407,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بسط",
+   "b": "قوم",
+   "directions": {
+    "بسط→قوم": {
+     "breath": 139,
+     "lift": 2.271,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بسط",
+   "b": "يدي",
+   "directions": {
+    "بسط→يدي": {
+     "breath": 139,
+     "lift": 14.789,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "بصر",
