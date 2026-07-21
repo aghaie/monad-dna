@@ -30,6 +30,7 @@
   "بعض",
   "بغت",
   "بغي",
+  "بقي",
   "بكم",
   "بني",
   "بوا",
@@ -72,6 +73,7 @@
   "خلف",
   "خلق",
   "خنزر",
+  "خير",
   "دبب",
   "دعو",
   "دمو",
@@ -370,7 +372,8 @@
   "مري",
   "فقه",
   "سوي",
-  "حزب"
+  "حزب",
+  "بقي"
  ],
  "open_queue": [
   "اتي",
@@ -1782,6 +1785,22 @@
      "breath": 14,
      "lift": 2.082,
      "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "بقي",
+   "directions": {
+    "بقي→امن": {
+     "breath": 117,
+     "lift": 2.875,
+     "p": 0.0166,
      "stable": false,
      "tier": "محتمل",
      "shared": 7
@@ -3309,6 +3328,54 @@
     "لحم→بغي": {
      "breath": 31,
      "lift": 28.87,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بقي",
+   "b": "خير",
+   "directions": {
+    "بقي→خير": {
+     "breath": 117,
+     "lift": 13.346,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بقي",
+   "b": "ربب",
+   "directions": {
+    "بقي→ربب": {
+     "breath": 117,
+     "lift": 2.727,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بقي",
+   "b": "عند",
+   "directions": {
+    "بقي→عند": {
+     "breath": 117,
+     "lift": 7.856,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
