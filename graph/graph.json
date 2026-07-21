@@ -9,6 +9,7 @@
   "اذن",
   "اذي",
   "ارض",
+  "اكل",
   "الم",
   "اله",
   "امر",
@@ -117,6 +118,7 @@
   "سرف",
   "سطر",
   "سفه",
+  "سقي",
   "سكن",
   "سمع",
   "سمو",
@@ -126,6 +128,7 @@
   "سوي",
   "شبه",
   "شدد",
+  "شرب",
   "شرق",
   "شرك",
   "شري",
@@ -419,7 +422,8 @@
   "اذي",
   "جهل",
   "غضب",
-  "عمر"
+  "عمر",
+  "سقي"
  ],
  "open_queue": [
   "اتي",
@@ -948,6 +952,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اكل",
+   "b": "سقي",
+   "directions": {
+    "سقي→اكل": {
+     "breath": 138,
+     "lift": 12.863,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -7260,6 +7280,54 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سقي",
+   "b": "شرب",
+   "directions": {
+    "سقي→شرب": {
+     "breath": 138,
+     "lift": 38.211,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سقي",
+   "b": "قوم",
+   "directions": {
+    "سقي→قوم": {
+     "breath": 138,
+     "lift": 2.611,
+     "p": 0.0332,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سقي",
+   "b": "موه",
+   "directions": {
+    "سقي→موه": {
+     "breath": 138,
+     "lift": 30.314,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
    "mutual_strong": false,
