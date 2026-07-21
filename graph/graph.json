@@ -43,6 +43,7 @@
   "جلد",
   "جنن",
   "جهد",
+  "جهر",
   "حبب",
   "حبط",
   "حرج",
@@ -313,7 +314,8 @@
   "سطر",
   "فاد",
   "حبط",
-  "عتد"
+  "عتد",
+  "جهر"
  ],
  "open_queue": [
   "اتي",
@@ -3516,6 +3518,54 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "جهر",
+   "b": "سرر",
+   "directions": {
+    "جهر→سرر": {
+     "breath": 93,
+     "lift": 48.341,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جهر",
+   "b": "علم",
+   "directions": {
+    "جهر→علم": {
+     "breath": 93,
+     "lift": 3.997,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جهر",
+   "b": "قول",
+   "directions": {
+    "جهر→قول": {
+     "breath": 93,
+     "lift": 3.307,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "حبب",
