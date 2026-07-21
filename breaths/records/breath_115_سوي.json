@@ -1,0 +1,1748 @@
+{
+ "breath_number": 115,
+ "deliberation": [
+  {
+   "root": "حزب",
+   "attestation": 20
+  },
+  {
+   "root": "بقي",
+   "attestation": 21
+  },
+  {
+   "root": "سنن",
+   "attestation": 21
+  },
+  {
+   "root": "كتم",
+   "attestation": 21
+  },
+  {
+   "root": "هود",
+   "attestation": 21
+  },
+  {
+   "root": "شهر",
+   "attestation": 21
+  },
+  {
+   "root": "مني",
+   "attestation": 21
+  },
+  {
+   "root": "حذر",
+   "attestation": 21
+  },
+  {
+   "root": "عرب",
+   "attestation": 22
+  },
+  {
+   "root": "سوي",
+   "attestation": 83
+  }
+ ],
+ "chosen_by": "رفیق (مواجههٔ رفیق‌آورده — نشان‌دار؛ قاعدهٔ صف حزب را مقدم می‌داشت)",
+ "pursued": "سوي",
+ "attestation": 83,
+ "ayat": 80,
+ "top": [
+  {
+   "root": "ستت",
+   "shared": 5,
+   "expected": 0.1,
+   "lift": 48.719,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عرش",
+   "shared": 7,
+   "expected": 0.41,
+   "lift": 17.052,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عمي",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 12.992,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "صرط",
+   "shared": 5,
+   "expected": 0.58,
+   "lift": 8.661,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سجد",
+   "shared": 7,
+   "expected": 1.04,
+   "lift": 6.736,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سبل",
+   "shared": 11,
+   "expected": 2.1,
+   "lift": 5.228,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ليل",
+   "shared": 5,
+   "expected": 1.04,
+   "lift": 4.812,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "مثل",
+   "shared": 8,
+   "expected": 1.9,
+   "lift": 4.214,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خلق",
+   "shared": 11,
+   "expected": 2.8,
+   "lift": 3.933,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بصر",
+   "shared": 7,
+   "expected": 1.78,
+   "lift": 3.926,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "ستت",
+  "عرش",
+  "عمي",
+  "صرط",
+  "سجد",
+  "مثل",
+  "بصر"
+ ],
+ "one_way": [
+  "سبل",
+  "ليل",
+  "خلق"
+ ],
+ "neighbor_view": {
+  "ستت": {
+   "root": "سوي",
+   "shared": 5,
+   "expected": 0.1,
+   "lift": 48.719,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عرش": {
+   "root": "سوي",
+   "shared": 7,
+   "expected": 0.41,
+   "lift": 17.052,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عمي": {
+   "root": "سوي",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 12.992,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "صرط": {
+   "root": "سوي",
+   "shared": 5,
+   "expected": 0.58,
+   "lift": 8.661,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سجد": {
+   "root": "سوي",
+   "shared": 7,
+   "expected": 1.04,
+   "lift": 6.736,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سبل": null,
+  "ليل": null,
+  "مثل": {
+   "root": "سوي",
+   "shared": 8,
+   "expected": 1.9,
+   "lift": 4.214,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خلق": null,
+  "بصر": {
+   "root": "سوي",
+   "shared": 7,
+   "expected": 1.78,
+   "lift": 3.926,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "سوي↔اله",
+   "shared": 29,
+   "expected": 24.11,
+   "lift": 1.2,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "سوي↔رحم",
+   "shared": 4,
+   "expected": 4.02,
+   "lift": 1.0,
+   "p_perm": 0.5814
+  },
+  {
+   "pair": "سوي↔راف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔هجر",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "سوي↔نصر",
+   "shared": 1,
+   "expected": 1.76,
+   "lift": 0.57,
+   "p_perm": 0.8206
+  },
+  {
+   "pair": "سوي↔اوي",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صير",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔باس",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔غفر",
+   "shared": 2,
+   "expected": 2.59,
+   "lift": 0.77,
+   "p_perm": 0.7076
+  },
+  {
+   "pair": "سوي↔حلم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عفو",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ذنب",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.11,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "سوي↔سوا",
+   "shared": 4,
+   "expected": 1.94,
+   "lift": 2.06,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "سوي↔بدو",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.69,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "سوي↔خفي",
+   "shared": 2,
+   "expected": 0.4,
+   "lift": 5.03,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "سوي↔دون",
+   "shared": 4,
+   "expected": 1.82,
+   "lift": 2.2,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "سوي↔نفع",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.59,
+   "p_perm": 0.4784
+  },
+  {
+   "pair": "سوي↔ضرر",
+   "shared": 2,
+   "expected": 0.9,
+   "lift": 2.23,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "سوي↔كشف",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔مسس",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ذوق",
+   "shared": 1,
+   "expected": 0.78,
+   "lift": 1.28,
+   "p_perm": 0.5116
+  },
+  {
+   "pair": "سوي↔الم",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.07,
+   "p_perm": 0.588
+  },
+  {
+   "pair": "سوي↔انس",
+   "shared": 0,
+   "expected": 1.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عشر",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.0,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "سوي↔عرض",
+   "shared": 0,
+   "expected": 0.92,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔بغي",
+   "shared": 4,
+   "expected": 1.15,
+   "lift": 3.46,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "سوي↔عوج",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔سبل",
+   "shared": 11,
+   "expected": 2.1,
+   "lift": 5.23,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سوي↔يتم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔شري",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔لحم",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.5,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "سوي↔دمو",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ثمن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فلك",
+   "shared": 2,
+   "expected": 0.32,
+   "lift": 6.24,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "سوي↔وسع",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔كلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔جهد",
+   "shared": 3,
+   "expected": 0.46,
+   "lift": 6.5,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "سوي↔قسم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صدد",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.9,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "سوي↔بحر",
+   "shared": 1,
+   "expected": 0.51,
+   "lift": 1.95,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "سوي↔برر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔قسو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ستت",
+   "shared": 5,
+   "expected": 0.1,
+   "lift": 48.72,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سوي↔هبط",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔لون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔نقض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حرق",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حيق",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ضيع",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔جدد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔رجس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔قهر",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.79,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "سوي↔عنب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔طبع",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔وقد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ايد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔سفه",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عون",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عصو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔طين",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔جحد",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.5,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "سوي↔خطب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔شبه",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.66,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "سوي↔بغت",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔طمن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔خزن",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 6.0,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "سوي↔فدي",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔قرض",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.14,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "سوي↔حلف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عصم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حور",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.5,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "سوي↔فوه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔جلد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ياس",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فقر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔رجم",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صوم",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ثوي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔وصف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔شكك",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔بدا",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صمم",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.57,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "سوي↔كفف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حرج",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔علن",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.87,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "سوي↔خبث",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.79,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "سوي↔كيل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔لبب",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.74,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "سوي↔سطر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فاد",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.2,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "سوي↔حبط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عتد",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔جهر",
+   "shared": 2,
+   "expected": 0.19,
+   "lift": 10.39,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "سوي↔شرق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عوذ",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔مدن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ربص",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.5,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "سوي↔بوا",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صفو",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فكر",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.33,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "سوي↔دبب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔مكن",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔نوب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ملل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حنف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فرض",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔غرب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صور",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔نخل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔زرع",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.5,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "سوي↔نفخ",
+   "shared": 4,
+   "expected": 0.23,
+   "lift": 17.32,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سوي↔فطر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔مري",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فقه",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "سوي↔راف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔اوي",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صير",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔باس",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حلم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عفو",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔كشف",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔مسس",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔انس",
+   "shared": 0,
+   "expected": 1.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عرض",
+   "shared": 0,
+   "expected": 0.92,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عوج",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔يتم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔شري",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔دمو",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ثمن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔وسع",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔كلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔قسم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔برر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔قسو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔هبط",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔لون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔نقض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حرق",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حيق",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ضيع",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔جدد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔رجس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عنب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔طبع",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔وقد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ايد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔سفه",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عون",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عصو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔طين",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔خطب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔بغت",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔طمن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فدي",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حلف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عصم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فوه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔جلد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ياس",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فقر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔رجم",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صوم",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ثوي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔وصف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔شكك",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔بدا",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔كفف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حرج",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔كيل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔سطر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حبط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عتد",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔شرق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔عوذ",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔مدن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔بوا",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صفو",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔دبب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔مكن",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔نوب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔ملل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔حنف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فرض",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔غرب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔صور",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔نخل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فطر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔مري",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سوي↔فقه",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "7:54",
+   "degree": 4,
+   "roots_present": [
+    "ستت",
+    "عرش",
+    "ليل",
+    "خلق"
+   ]
+  },
+  {
+   "ayah": "57:4",
+   "degree": 4,
+   "roots_present": [
+    "ستت",
+    "عرش",
+    "خلق",
+    "بصر"
+   ]
+  },
+  {
+   "ayah": "10:3",
+   "degree": 3,
+   "roots_present": [
+    "ستت",
+    "عرش",
+    "خلق"
+   ]
+  },
+  {
+   "ayah": "11:24",
+   "degree": 3,
+   "roots_present": [
+    "عمي",
+    "مثل",
+    "بصر"
+   ]
+  },
+  {
+   "ayah": "13:16",
+   "degree": 3,
+   "roots_present": [
+    "عمي",
+    "خلق",
+    "بصر"
+   ]
+  },
+  {
+   "ayah": "25:59",
+   "degree": 3,
+   "roots_present": [
+    "ستت",
+    "عرش",
+    "خلق"
+   ]
+  },
+  {
+   "ayah": "32:4",
+   "degree": 3,
+   "roots_present": [
+    "ستت",
+    "عرش",
+    "خلق"
+   ]
+  },
+  {
+   "ayah": "3:113",
+   "degree": 2,
+   "roots_present": [
+    "سجد",
+    "ليل"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "سوي+ستت": [
+   "7:54",
+   "10:3",
+   "25:59",
+   "32:4",
+   "57:4"
+  ],
+  "سوي+عرش": [
+   "7:54",
+   "10:3",
+   "13:2",
+   "20:5",
+   "25:59",
+   "32:4",
+   "57:4"
+  ],
+  "سوي+عمي": [
+   "6:50",
+   "11:24",
+   "13:16",
+   "35:19",
+   "40:58"
+  ],
+  "سوي+صرط": [
+   "16:76",
+   "19:43",
+   "20:135",
+   "38:22",
+   "67:22"
+  ],
+  "سوي+سجد": [
+   "3:113",
+   "9:19",
+   "15:29",
+   "22:25",
+   "38:72",
+   "39:9",
+   "48:29"
+  ],
+  "سوي+سبل": [
+   "2:108",
+   "4:89",
+   "4:95",
+   "5:12",
+   "5:60",
+   "5:77",
+   "9:19",
+   "22:25",
+   "28:22",
+   "57:10",
+   "60:1"
+  ],
+  "سوي+ليل": [
+   "3:113",
+   "7:54",
+   "13:10",
+   "19:10",
+   "39:9"
+  ],
+  "سوي+مثل": [
+   "11:24",
+   "16:75",
+   "16:76",
+   "19:17",
+   "20:58",
+   "30:28",
+   "39:29",
+   "48:29"
+  ],
+  "سوي+خلق": [
+   "2:29",
+   "7:54",
+   "10:3",
+   "13:16",
+   "18:37",
+   "25:59",
+   "32:4",
+   "57:4",
+   "75:38",
+   "82:7",
+   "87:2"
+  ],
+  "سوي+بصر": [
+   "6:50",
+   "11:24",
+   "13:16",
+   "32:9",
+   "35:19",
+   "40:58",
+   "57:4"
+  ],
+  "سوي+بغي": [
+   "35:12",
+   "38:22",
+   "48:29",
+   "60:1"
+  ],
+  "سوي+فلك": [
+   "23:28",
+   "35:12"
+  ],
+  "سوي+جهد": [
+   "4:95",
+   "9:19",
+   "60:1"
+  ],
+  "سوي+لبب": [
+   "5:100",
+   "39:9"
+  ],
+  "سوي+جهر": [
+   "13:10",
+   "16:75"
+  ],
+  "سوي+نفخ": [
+   "15:29",
+   "18:96",
+   "32:9",
+   "38:72"
+  ]
+ }
+}
