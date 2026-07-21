@@ -50,6 +50,7 @@
   "ثلث",
   "ثمر",
   "ثمن",
+  "ثني",
   "ثوب",
   "ثوي",
   "جبل",
@@ -497,7 +498,8 @@
   "يقن",
   "رجو",
   "فوز",
-  "رفع"
+  "رفع",
+  "ثني"
  ],
  "open_queue": [
   "اتي",
@@ -1228,6 +1230,22 @@
   },
   {
    "a": "ارض",
+   "b": "ثني",
+   "directions": {
+    "ثني→ارض": {
+     "breath": 170,
+     "lift": 2.953,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
    "b": "خفي",
    "directions": {
     "خفي→ارض": {
@@ -1745,6 +1763,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "ثني",
+   "directions": {
+    "ثني→اله": {
+     "breath": 170,
+     "lift": 1.798,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اله",
@@ -5420,6 +5454,22 @@
   },
   {
    "a": "ثلث",
+   "b": "ثني",
+   "directions": {
+    "ثني→ثلث": {
+     "breath": 170,
+     "lift": 46.399,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
    "b": "ربع",
    "directions": {
     "ربع→ثلث": {
@@ -5673,6 +5723,102 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ثني",
+   "b": "ذكر",
+   "directions": {
+    "ثني→ذكر": {
+     "breath": 170,
+     "lift": 4.921,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثني",
+   "b": "ضلل",
+   "directions": {
+    "ثني→ضلل": {
+     "breath": 170,
+     "lift": 7.642,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثني",
+   "b": "علم",
+   "directions": {
+    "ثني→علم": {
+     "breath": 170,
+     "lift": 2.855,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ثني",
+   "b": "قول",
+   "directions": {
+    "ثني→قول": {
+     "breath": 170,
+     "lift": 2.255,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثني",
+   "b": "قوم",
+   "directions": {
+    "ثني→قوم": {
+     "breath": 170,
+     "lift": 3.482,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ثني",
+   "b": "كلل",
+   "directions": {
+    "ثني→كلل": {
+     "breath": 170,
+     "lift": 5.872,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ثوب",
