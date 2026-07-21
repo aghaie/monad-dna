@@ -78,6 +78,7 @@
   "حور",
   "حول",
   "حيق",
+  "حيي",
   "خبث",
   "خرج",
   "خزن",
@@ -202,6 +203,7 @@
   "عوذ",
   "عون",
   "غرب",
+  "غرر",
   "غضب",
   "غفر",
   "غني",
@@ -300,6 +302,7 @@
   "وزن",
   "وسع",
   "وصف",
+  "وعد",
   "وعظ",
   "وفي",
   "وقد",
@@ -467,7 +470,8 @@
   "قمر",
   "بوب",
   "سير",
-  "عجب"
+  "عجب",
+  "غرر"
  ],
  "open_queue": [
   "اتي",
@@ -6012,6 +6016,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "حيي",
+   "b": "غرر",
+   "directions": {
+    "غرر→حيي": {
+     "breath": 156,
+     "lift": 14.755,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "خبث",
    "b": "طيب",
    "directions": {
@@ -6622,6 +6642,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دنو",
+   "b": "غرر",
+   "directions": {
+    "غرر→دنو": {
+     "breath": 156,
+     "lift": 18.56,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -10110,6 +10146,70 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "غرر",
+   "b": "قول",
+   "directions": {
+    "غرر→قول": {
+     "breath": 156,
+     "lift": 1.718,
+     "p": 0.0332,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "غرر",
+   "b": "كفر",
+   "directions": {
+    "غرر→كفر": {
+     "breath": 156,
+     "lift": 3.832,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "غرر",
+   "b": "وعد",
+   "directions": {
+    "غرر→وعد": {
+     "breath": 156,
+     "lift": 13.705,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "غرر",
+   "b": "يوم",
+   "directions": {
+    "غرر→يوم": {
+     "breath": 156,
+     "lift": 4.726,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
