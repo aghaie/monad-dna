@@ -173,6 +173,7 @@
   "فضل",
   "فطر",
   "فقر",
+  "فقه",
   "فكر",
   "فلك",
   "فوه",
@@ -362,7 +363,8 @@
   "زرع",
   "نفخ",
   "فطر",
-  "مري"
+  "مري",
+  "فقه"
  ],
  "open_queue": [
   "اتي",
@@ -7517,6 +7519,70 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "فقه",
+   "b": "قلب",
+   "directions": {
+    "فقه→قلب": {
+     "breath": 114,
+     "lift": 14.081,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فقه",
+   "b": "قول",
+   "directions": {
+    "فقه→قول": {
+     "breath": 114,
+     "lift": 2.029,
+     "p": 0.0365,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "فقه",
+   "b": "قوم",
+   "directions": {
+    "فقه→قوم": {
+     "breath": 114,
+     "lift": 3.656,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "فقه",
+   "b": "كون",
+   "directions": {
+    "فقه→كون": {
+     "breath": 114,
+     "lift": 1.856,
+     "p": 0.0233,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "فكر",
