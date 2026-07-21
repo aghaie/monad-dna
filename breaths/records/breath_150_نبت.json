@@ -1,0 +1,2420 @@
+{
+ "breath_number": 150,
+ "deliberation": [
+  {
+   "root": "نبت",
+   "attestation": 26
+  },
+  {
+   "root": "عجز",
+   "attestation": 26
+  },
+  {
+   "root": "قمر",
+   "attestation": 27
+  },
+  {
+   "root": "بوب",
+   "attestation": 27
+  },
+  {
+   "root": "سير",
+   "attestation": 27
+  },
+  {
+   "root": "عجب",
+   "attestation": 27
+  },
+  {
+   "root": "غرر",
+   "attestation": 27
+  },
+  {
+   "root": "مسك",
+   "attestation": 27
+  },
+  {
+   "root": "منن",
+   "attestation": 27
+  },
+  {
+   "root": "ابد",
+   "attestation": 28
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "نبت",
+ "attestation": 26,
+ "ayat": 23,
+ "top": [
+  {
+   "root": "موه",
+   "shared": 8,
+   "expected": 0.22,
+   "lift": 36.151,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "زوج",
+   "shared": 6,
+   "expected": 0.27,
+   "lift": 22.594,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حبب",
+   "shared": 5,
+   "expected": 0.31,
+   "lift": 15.949,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خرج",
+   "shared": 7,
+   "expected": 0.58,
+   "lift": 12.089,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دنو",
+   "shared": 5,
+   "expected": 0.47,
+   "lift": 10.591,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غير",
+   "shared": 5,
+   "expected": 0.54,
+   "lift": 9.285,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نزل",
+   "shared": 8,
+   "expected": 0.95,
+   "lift": 8.44,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 11,
+   "expected": 1.31,
+   "lift": 8.425,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ارض",
+   "shared": 12,
+   "expected": 1.62,
+   "lift": 7.394,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سمو",
+   "shared": 8,
+   "expected": 1.3,
+   "lift": 6.162,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "موه",
+  "زوج",
+  "حبب",
+  "خرج",
+  "دنو",
+  "غير",
+  "نزل",
+  "كلل",
+  "ارض"
+ ],
+ "one_way": [
+  "سمو"
+ ],
+ "neighbor_view": {
+  "موه": {
+   "root": "نبت",
+   "shared": 8,
+   "expected": 0.22,
+   "lift": 36.151,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "زوج": {
+   "root": "نبت",
+   "shared": 6,
+   "expected": 0.27,
+   "lift": 22.594,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "حبب": {
+   "root": "نبت",
+   "shared": 5,
+   "expected": 0.31,
+   "lift": 15.949,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خرج": {
+   "root": "نبت",
+   "shared": 7,
+   "expected": 0.58,
+   "lift": 12.089,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دنو": {
+   "root": "نبت",
+   "shared": 5,
+   "expected": 0.47,
+   "lift": 10.591,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غير": {
+   "root": "نبت",
+   "shared": 5,
+   "expected": 0.54,
+   "lift": 9.285,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نزل": {
+   "root": "نبت",
+   "shared": 8,
+   "expected": 0.95,
+   "lift": 8.44,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كلل": {
+   "root": "نبت",
+   "shared": 11,
+   "expected": 1.31,
+   "lift": 8.425,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ارض": {
+   "root": "نبت",
+   "shared": 12,
+   "expected": 1.62,
+   "lift": 7.394,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سمو": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "نبت↔اله",
+   "shared": 7,
+   "expected": 6.93,
+   "lift": 1.01,
+   "p_perm": 0.5681
+  },
+  {
+   "pair": "نبت↔رحم",
+   "shared": 1,
+   "expected": 1.15,
+   "lift": 0.87,
+   "p_perm": 0.7243
+  },
+  {
+   "pair": "نبت↔راف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نصر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔اوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صير",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔باس",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔غفر",
+   "shared": 1,
+   "expected": 0.75,
+   "lift": 1.34,
+   "p_perm": 0.505
+  },
+  {
+   "pair": "نبت↔حلم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ذنب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سوا",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بدو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خفي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔دون",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نفع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ضرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مسس",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔الم",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔انس",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عشر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عرض",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بغي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عوج",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سبل",
+   "shared": 2,
+   "expected": 0.6,
+   "lift": 3.31,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "نبت↔يتم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شري",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔لحم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔دمو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ثمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فلك",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وسع",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.35,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "نبت↔كلف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جهد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قسم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صدد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بحر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔برر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قسو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ستت",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔هبط",
+   "shared": 1,
+   "expected": 0.03,
+   "lift": 33.89,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "نبت↔لون",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نقض",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حرق",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حيق",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ضيع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جدد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔رجس",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قهر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عنب",
+   "shared": 2,
+   "expected": 0.04,
+   "lift": 49.3,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "نبت↔طبع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وقد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ايد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سفه",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عون",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عصو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔طين",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جحد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خطب",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شبه",
+   "shared": 1,
+   "expected": 0.03,
+   "lift": 30.13,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "نبت↔بغت",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔طمن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خزن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فدي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قرض",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عصم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حور",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فوه",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جلد",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ياس",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فقر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔رجم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صوم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ثوي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وصف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شكك",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بدا",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صمم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔كفف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حرج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خبث",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 27.11,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "نبت↔كيل",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔لبب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سطر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فاد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عتد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جهر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شرق",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عوذ",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مدن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ربص",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بوا",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 16.95,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "نبت↔صفو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فكر",
+   "shared": 2,
+   "expected": 0.07,
+   "lift": 30.13,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "نبت↔دبب",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 15.06,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "نبت↔مكن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نوب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ملل",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حنف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔غرب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صور",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نخل",
+   "shared": 2,
+   "expected": 0.07,
+   "lift": 27.11,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "نبت↔زرع",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 22.59,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "نبت↔نفخ",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فطر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مري",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فقه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سوي",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حزب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سنن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔كتم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔هود",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شهر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مني",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حذر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ربع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عرب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ترب",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.32,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "نبت↔تمم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فرح",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سرع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سرف",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ثمر",
+   "shared": 2,
+   "expected": 0.08,
+   "lift": 24.65,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "نبت↔مرض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فحش",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔اذي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جهل",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔غضب",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.91,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "نبت↔عمر",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 14.27,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "نبت↔سقي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بسط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صلي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وعظ",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قسط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وزن",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.91,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "نبت↔حضر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وهب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حول",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خزي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔هون",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "نبت↔راف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نصر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔اوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صير",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔باس",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حلم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ذنب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سوا",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بدو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خفي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔دون",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نفع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ضرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مسس",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔الم",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔انس",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عشر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عرض",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بغي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عوج",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔يتم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شري",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔لحم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔دمو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ثمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فلك",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔كلف",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جهد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قسم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صدد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بحر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔برر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قسو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ستت",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔لون",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نقض",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حرق",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حيق",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ضيع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جدد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔رجس",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قهر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔طبع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وقد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ايد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سفه",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عون",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عصو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔طين",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جحد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خطب",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بغت",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔طمن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خزن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فدي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قرض",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عصم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حور",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فوه",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جلد",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ياس",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فقر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔رجم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صوم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ثوي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وصف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شكك",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بدا",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صمم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔كفف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حرج",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔كيل",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔لبب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سطر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فاد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عتد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جهر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شرق",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عوذ",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مدن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ربص",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صفو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مكن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نوب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ملل",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حنف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔غرب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صور",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔نفخ",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فطر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مري",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فقه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سوي",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حزب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سنن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔كتم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔هود",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔شهر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مني",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حذر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔ربع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔عرب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔تمم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فرح",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سرع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سرف",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔مرض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔فحش",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔اذي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔جهل",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔سقي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔بسط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔صلي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وعظ",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔قسط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حضر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔وهب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔حول",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔خزي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نبت↔هون",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "6:99",
+   "degree": 8,
+   "roots_present": [
+    "موه",
+    "حبب",
+    "خرج",
+    "دنو",
+    "غير",
+    "نزل",
+    "كلل",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "22:5",
+   "degree": 8,
+   "roots_present": [
+    "موه",
+    "زوج",
+    "خرج",
+    "غير",
+    "نزل",
+    "كلل",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "31:10",
+   "degree": 7,
+   "roots_present": [
+    "موه",
+    "زوج",
+    "غير",
+    "نزل",
+    "كلل",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "18:45",
+   "degree": 6,
+   "roots_present": [
+    "موه",
+    "دنو",
+    "نزل",
+    "كلل",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "20:53",
+   "degree": 6,
+   "roots_present": [
+    "موه",
+    "زوج",
+    "خرج",
+    "نزل",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "10:24",
+   "degree": 5,
+   "roots_present": [
+    "موه",
+    "دنو",
+    "نزل",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "2:61",
+   "degree": 4,
+   "roots_present": [
+    "خرج",
+    "دنو",
+    "غير",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "27:60",
+   "degree": 4,
+   "roots_present": [
+    "موه",
+    "نزل",
+    "ارض",
+    "سمو"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "نبت+موه": [
+   "6:99",
+   "10:24",
+   "18:45",
+   "20:53",
+   "22:5",
+   "27:60",
+   "31:10",
+   "50:9"
+  ],
+  "نبت+زوج": [
+   "20:53",
+   "22:5",
+   "26:7",
+   "31:10",
+   "36:36",
+   "50:7"
+  ],
+  "نبت+حبب": [
+   "2:261",
+   "6:99",
+   "50:9",
+   "78:15",
+   "80:27"
+  ],
+  "نبت+خرج": [
+   "2:61",
+   "6:99",
+   "7:58",
+   "20:53",
+   "22:5",
+   "23:20",
+   "78:15"
+  ],
+  "نبت+دنو": [
+   "2:61",
+   "6:99",
+   "10:24",
+   "18:45",
+   "57:20"
+  ],
+  "نبت+غير": [
+   "2:61",
+   "3:37",
+   "6:99",
+   "22:5",
+   "31:10"
+  ],
+  "نبت+نزل": [
+   "6:99",
+   "10:24",
+   "18:45",
+   "20:53",
+   "22:5",
+   "27:60",
+   "31:10",
+   "50:9"
+  ],
+  "نبت+كلل": [
+   "2:261",
+   "3:37",
+   "6:99",
+   "15:19",
+   "16:11",
+   "18:45",
+   "22:5",
+   "26:7",
+   "31:10",
+   "36:36",
+   "50:7"
+  ],
+  "نبت+ارض": [
+   "2:61",
+   "10:24",
+   "15:19",
+   "18:45",
+   "20:53",
+   "22:5",
+   "26:7",
+   "27:60",
+   "31:10",
+   "36:36",
+   "50:7",
+   "71:17"
+  ],
+  "نبت+سمو": [
+   "6:99",
+   "10:24",
+   "18:45",
+   "20:53",
+   "22:5",
+   "27:60",
+   "31:10",
+   "50:9"
+  ],
+  "نبت+هبط": [
+   "2:61"
+  ],
+  "نبت+عنب": [
+   "6:99",
+   "16:11"
+  ],
+  "نبت+شبه": [
+   "6:99"
+  ],
+  "نبت+خبث": [
+   "7:58"
+  ],
+  "نبت+بوا": [
+   "2:61"
+  ],
+  "نبت+فكر": [
+   "10:24",
+   "16:11"
+  ],
+  "نبت+نخل": [
+   "6:99",
+   "16:11"
+  ],
+  "نبت+ثمر": [
+   "6:99",
+   "16:11"
+  ]
+ }
+}
