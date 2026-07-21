@@ -160,6 +160,7 @@
   "فري",
   "فضل",
   "فقر",
+  "فكر",
   "فلك",
   "فوه",
   "فيا",
@@ -329,7 +330,8 @@
   "مدن",
   "ربص",
   "بوا",
-  "صفو"
+  "صفو",
+  "فكر"
  ],
  "open_queue": [
   "اتي",
@@ -345,6 +347,7 @@
   "بصر",
   "بعد",
   "بني",
+  "بين",
   "جري",
   "جعل",
   "جنن",
@@ -648,6 +651,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "فكر",
+   "directions": {
+    "فكر→ارض": {
+     "breath": 100,
+     "lift": 4.724,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -2207,6 +2226,22 @@
   },
   {
    "a": "ايي",
+   "b": "فكر",
+   "directions": {
+    "فكر→ايي": {
+     "breath": 100,
+     "lift": 9.814,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ايي",
    "b": "فلك",
    "directions": {
     "فلك→ايي": {
@@ -3172,6 +3207,22 @@
     "عفو→بين": {
      "breath": 11,
      "lift": 3.102,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
+   "b": "فكر",
+   "directions": {
+    "فكر→بين": {
+     "breath": 100,
+     "lift": 5.342,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -5566,6 +5617,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "سمو",
+   "b": "فكر",
+   "directions": {
+    "فكر→سمو": {
+     "breath": 100,
+     "lift": 4.921,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "سوا",
    "b": "صوب",
    "directions": {
@@ -6800,6 +6867,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فكر",
+   "b": "قوم",
+   "directions": {
+    "فكر→قوم": {
+     "breath": 100,
+     "lift": 5.803,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "فكر",
+   "b": "نوس",
+   "directions": {
+    "فكر→نوس": {
+     "breath": 100,
+     "lift": 9.239,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
