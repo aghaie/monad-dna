@@ -87,6 +87,7 @@
   "حرق",
   "حرم",
   "حزب",
+  "حزن",
   "حسب",
   "حسن",
   "حضر",
@@ -113,6 +114,7 @@
   "خلق",
   "خلو",
   "خنزر",
+  "خوف",
   "خير",
   "دبب",
   "دبر",
@@ -617,7 +619,8 @@
   "طوف",
   "لعن",
   "سخر",
-  "قوي"
+  "قوي",
+  "حزن"
  ],
  "open_queue": [
   "اتي",
@@ -942,6 +945,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اتي",
+   "b": "حزن",
+   "directions": {
+    "حزن→اتي": {
+     "breath": 226,
+     "lift": 2.139,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اتي",
@@ -1281,6 +1300,22 @@
   },
   {
    "a": "اجر",
+   "b": "حزن",
+   "directions": {
+    "حزن→اجر": {
+     "breath": 226,
+     "lift": 7.499,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجر",
    "b": "ضيع",
    "directions": {
     "ضيع→اجر": {
@@ -1498,6 +1533,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "حزن",
+   "directions": {
+    "حزن→اخر": {
+     "breath": 226,
+     "lift": 3.068,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -2702,6 +2753,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "حزن",
+   "directions": {
+    "حزن→اله": {
+     "breath": 226,
+     "lift": 1.817,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 23
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اله",
@@ -9471,6 +9538,102 @@
      "breath": 116,
      "lift": 1.872,
      "p": 0.0432,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حزن",
+   "b": "خوف",
+   "directions": {
+    "حزن→خوف": {
+     "breath": 226,
+     "lift": 23.862,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حزن",
+   "b": "رسل",
+   "directions": {
+    "حزن→رسل": {
+     "breath": 226,
+     "lift": 2.077,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حزن",
+   "b": "صلح",
+   "directions": {
+    "حزن→صلح": {
+     "breath": 226,
+     "lift": 4.367,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حزن",
+   "b": "عمل",
+   "directions": {
+    "حزن→عمل": {
+     "breath": 226,
+     "lift": 2.372,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حزن",
+   "b": "عند",
+   "directions": {
+    "حزن→عند": {
+     "breath": 226,
+     "lift": 3.928,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حزن",
+   "b": "عين",
+   "directions": {
+    "حزن→عين": {
+     "breath": 226,
+     "lift": 14.141,
+     "p": 0.0033,
      "stable": true,
      "tier": "قوی",
      "shared": 6
