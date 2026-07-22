@@ -11,6 +11,7 @@
   "اذن",
   "اذي",
   "ارض",
+  "افك",
   "اكل",
   "الم",
   "اله",
@@ -18,6 +19,7 @@
   "امم",
   "امن",
   "انس",
+  "اني",
   "اهل",
   "اول",
   "اوي",
@@ -64,6 +66,7 @@
   "جهد",
   "جهر",
   "جهل",
+  "جيا",
   "حبب",
   "حبط",
   "حدد",
@@ -505,7 +508,8 @@
   "ثني",
   "طير",
   "ودد",
-  "جدل"
+  "جدل",
+  "افك"
  ],
  "open_queue": [
   "اتي",
@@ -1501,6 +1505,86 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "افك",
+   "b": "اله",
+   "directions": {
+    "افك→اله": {
+     "breath": 174,
+     "lift": 1.602,
+     "p": 0.0399,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "افك",
+   "b": "اني",
+   "directions": {
+    "افك→اني": {
+     "breath": 174,
+     "lift": 53.759,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "افك",
+   "b": "جيا",
+   "directions": {
+    "افك→جيا": {
+     "breath": 174,
+     "lift": 4.104,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "افك",
+   "b": "خلق",
+   "directions": {
+    "افك→خلق": {
+     "breath": 174,
+     "lift": 5.918,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "افك",
+   "b": "كلل",
+   "directions": {
+    "افك→كلل": {
+     "breath": 174,
+     "lift": 3.037,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
