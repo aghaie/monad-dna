@@ -91,6 +91,7 @@
   "حزن",
   "حسب",
   "حسن",
+  "حشر",
   "حضر",
   "حقق",
   "حلف",
@@ -626,7 +627,8 @@
   "حزن",
   "فوق",
   "جوب",
-  "فصل"
+  "فصل",
+  "حشر"
  ],
  "open_queue": [
   "اتي",
@@ -8891,6 +8893,22 @@
   },
   {
    "a": "جمع",
+   "b": "حشر",
+   "directions": {
+    "حشر→جمع": {
+     "breath": 230,
+     "lift": 5.895,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جمع",
    "b": "ريب",
    "directions": {
     "ريب→جمع": {
@@ -9936,6 +9954,54 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "حشر",
+   "b": "عبد",
+   "directions": {
+    "حشر→عبد": {
+     "breath": 230,
+     "lift": 3.467,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حشر",
+   "b": "وقي",
+   "directions": {
+    "حشر→وقي": {
+     "breath": 230,
+     "lift": 3.671,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حشر",
+   "b": "يوم",
+   "directions": {
+    "حشر→يوم": {
+     "breath": 230,
+     "lift": 6.155,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "حضر",
