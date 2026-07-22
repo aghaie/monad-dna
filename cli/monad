@@ -516,7 +516,9 @@ def cmd_observe(root=None):
         if mine:
             out["بازسنجی_روش_v2"] = [
                 {"همسایه": r["neighbor"], "p_v2": r["p_v2"],
-                 "ماند زیرِ داورِ سخت‌گیرتر": r["survives"]} for r in mine]
+                 "ماند زیرِ داورِ سخت‌گیرتر": r["survives"],
+                 "بازیابی در شکاف‌های تصادفی": r.get("split_recovery"),
+                 "وابسته به ترجیع": r.get("refrain_dependent")} for r in mine]
     print(json.dumps(out, ensure_ascii=False, indent=1))
 
 

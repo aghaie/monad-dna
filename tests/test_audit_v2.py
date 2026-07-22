@@ -45,3 +45,25 @@ def test_audit_structure_determinism_and_survives_flag(tmp_path):
     assert s["strong_pairs"] == len(rows)
     assert s["survived"] == sum(1 for r in rows if r["survives"])
     assert data1["meta"]["params"]["n_perm"] == 50
+
+
+def test_audit_hardening_fields(tmp_path):
+    """بستهٔ سخت‌گیری در ممیز: ترجیع (A2)، شکاف‌های تصادفی (B3)، seed مستقل (B8)."""
+    out = str(tmp_path / "audit.json")
+    audit_v2.audit(roots=["عنب"], n_perm=50, k_splits=3, out_path=out)
+    import json as _json
+    data = _json.load(open(out))
+    assert data["meta"]["params"]["k_splits"] == 3
+    assert data["meta"]["params"]["seed_v2"] != data["meta"]["params"]["seed"]
+    for r in data["rows"]:
+        assert 0.0 <= r["split_recovery"] <= 1.0
+        assert r["shared_collapsed"] <= r["shared"]
+        if not r["refrain_affected"]:
+            # دست‌نخورده از فروکاست ⇒ وابسته به ترجیع نیست و p دوباره حساب نشده
+            assert r["p_v2_collapsed"] is None and r["refrain_dependent"] is False
+        else:
+            assert r["p_v2_collapsed"] is not None
+            assert r["refrain_dependent"] == (
+                not (r["shared_collapsed"] >= 5 and r["p_v2_collapsed"] < 0.05))
+    s = data["meta"]["summary"]
+    assert s["refrain_dependent"] == sum(1 for r in data["rows"] if r["refrain_dependent"])
