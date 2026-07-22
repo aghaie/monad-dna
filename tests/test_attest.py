@@ -53,8 +53,19 @@ def test_records_root_changes_on_new_record(tmp_path):
     assert attest.records_root(str(d)) != r1
 
 
+def _last_breath():
+    """آخرین نفس از حالتِ زنده — نه عددِ ثابت (درسِ test_counts/test_open_queue:
+    snapshot با هر نفسِ تازه می‌شکند و خطِ ثبت را می‌بندد)."""
+    import sqlite3
+    db = sqlite3.connect("file:database/life.db?mode=ro", uri=True)
+    return db.execute(
+        "SELECT breath_no, record_file FROM breaths "
+        "ORDER BY breath_no DESC LIMIT 1").fetchone()
+
+
 def test_verify_new_record_passes_on_frozen_record():
-    ok, why = attest.verify_new_record("breaths/records/breath_207_بطل.json")
+    _, rec_file = _last_breath()
+    ok, why = attest.verify_new_record(rec_file)
     assert ok, why
 
 
@@ -71,7 +82,8 @@ def test_verify_new_record_fails_on_tampered_record(tmp_path):
 
 
 def test_delta_invariants_pass_for_last_breath():
-    ok, why = attest.delta_invariants(207)
+    no, _ = _last_breath()
+    ok, why = attest.delta_invariants(no)
     assert ok, why
 
 
