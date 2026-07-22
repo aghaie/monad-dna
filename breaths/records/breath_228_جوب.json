@@ -1,0 +1,3260 @@
+{
+ "breath_number": 228,
+ "deliberation": [
+  {
+   "root": "جوب",
+   "attestation": 43
+  },
+  {
+   "root": "فصل",
+   "attestation": 43
+  },
+  {
+   "root": "حشر",
+   "attestation": 43
+  },
+  {
+   "root": "مكر",
+   "attestation": 43
+  },
+  {
+   "root": "سرر",
+   "attestation": 44
+  },
+  {
+   "root": "دبر",
+   "attestation": 44
+  },
+  {
+   "root": "بدل",
+   "attestation": 44
+  },
+  {
+   "root": "حفظ",
+   "attestation": 44
+  },
+  {
+   "root": "صرط",
+   "attestation": 45
+  },
+  {
+   "root": "نسي",
+   "attestation": 45
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "جوب",
+ "attestation": 43,
+ "ayat": 41,
+ "top": [
+  {
+   "root": "ندو",
+   "shared": 5,
+   "expected": 0.33,
+   "lift": 15.21,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دعو",
+   "shared": 17,
+   "expected": 1.2,
+   "lift": 14.207,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "يوم",
+   "shared": 8,
+   "expected": 2.48,
+   "lift": 3.228,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عذب",
+   "shared": 7,
+   "expected": 2.21,
+   "lift": 3.169,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عبد",
+   "shared": 5,
+   "expected": 1.65,
+   "lift": 3.03,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قوم",
+   "shared": 11,
+   "expected": 3.93,
+   "lift": 2.802,
+   "p_perm": 0.0066,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رسل",
+   "shared": 5,
+   "expected": 2.82,
+   "lift": 1.773,
+   "p_perm": 0.0631,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "ربب",
+   "shared": 10,
+   "expected": 5.73,
+   "lift": 1.746,
+   "p_perm": 0.0731,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "كفر",
+   "shared": 5,
+   "expected": 3.06,
+   "lift": 1.635,
+   "p_perm": 0.2159,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "اله",
+   "shared": 18,
+   "expected": 12.35,
+   "lift": 1.457,
+   "p_perm": 0.0631,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "ندو",
+  "دعو"
+ ],
+ "one_way": [
+  "يوم",
+  "عذب",
+  "عبد",
+  "قوم",
+  "رسل",
+  "ربب",
+  "كفر",
+  "اله"
+ ],
+ "neighbor_view": {
+  "ندو": {
+   "root": "جوب",
+   "shared": 5,
+   "expected": 0.33,
+   "lift": 15.21,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دعو": {
+   "root": "جوب",
+   "shared": 17,
+   "expected": 1.2,
+   "lift": 14.207,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "يوم": null,
+  "عذب": null,
+  "عبد": null,
+  "قوم": null,
+  "رسل": null,
+  "ربب": null,
+  "كفر": null,
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "جوب↔اله",
+   "shared": 18,
+   "expected": 12.35,
+   "lift": 1.46,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "جوب↔رحم",
+   "shared": 1,
+   "expected": 2.06,
+   "lift": 0.49,
+   "p_perm": 0.8904
+  },
+  {
+   "pair": "جوب↔راف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هجر",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.63,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "جوب↔نصر",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔اوي",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.22,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "جوب↔صير",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔باس",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.27,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "جوب↔غفر",
+   "shared": 2,
+   "expected": 1.33,
+   "lift": 1.51,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "جوب↔حلم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عفو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ذنب",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.11,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "جوب↔سوا",
+   "shared": 3,
+   "expected": 0.99,
+   "lift": 3.02,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "جوب↔بدو",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خفي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔دون",
+   "shared": 4,
+   "expected": 0.93,
+   "lift": 4.28,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "جوب↔نفع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ضرر",
+   "shared": 2,
+   "expected": 0.46,
+   "lift": 4.35,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "جوب↔كشف",
+   "shared": 2,
+   "expected": 0.13,
+   "lift": 15.21,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "جوب↔مسس",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ذوق",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔الم",
+   "shared": 2,
+   "expected": 0.48,
+   "lift": 4.17,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "جوب↔انس",
+   "shared": 2,
+   "expected": 0.61,
+   "lift": 3.27,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "جوب↔عشر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عرض",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بغي",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عوج",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سبل",
+   "shared": 3,
+   "expected": 1.08,
+   "lift": 2.78,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "جوب↔يتم",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شري",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لحم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔دمو",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثمن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فلك",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وسع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كلف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جهد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قسم",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 4.91,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "جوب↔صدد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بحر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔برر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قسو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ستت",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هبط",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لون",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نقض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حرق",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 16.9,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "جوب↔حيق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ضيع",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 15.21,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "جوب↔جدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔رجس",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قهر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عنب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طبع",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وقد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ايد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سفه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عون",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عصو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طين",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جحد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خطب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شبه",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بغت",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خزن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فدي",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.7,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "جوب↔قرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حلف",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عصم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حور",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فوه",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.7,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "جوب↔جلد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ياس",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فقر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔رجم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صوم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثوي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وصف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شكك",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بدا",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صمم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كفف",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.86,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "جوب↔حرج",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔علن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خبث",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كيل",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لبب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سطر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فاد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حبط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عتد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جهر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شرق",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عوذ",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مدن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ربص",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بوا",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فكر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔دبب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مكن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ملل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حنف",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فرض",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔غرب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صور",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نخل",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔زرع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نفخ",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فطر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مري",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فقه",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سوي",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حزب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بقي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سنن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كتم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هود",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شهر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مني",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حذر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ربع",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عرب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ترب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔تمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فرح",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سرع",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.61,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "جوب↔سرف",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثمر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مرض",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فحش",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔اذي",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.91,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "جوب↔جهل",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔غضب",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.24,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "جوب↔عمر",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.01,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "جوب↔سقي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بسط",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.61,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "جوب↔صلي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وعظ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حدد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قسط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وزن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حضر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وهب",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.91,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "جوب↔حول",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.08,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "جوب↔خزي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هون",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نبت",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عجز",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.08,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "جوب↔قمر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سير",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عجب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔غرر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مسك",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔منن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ابد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خلو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عدل",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شقق",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثوب",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.61,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "جوب↔حوط",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثقل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔يقن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔رجو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فوز",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔رفع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طير",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ودد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جدل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔افك",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔انث",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.85,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "جوب↔صرف",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.24,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "جوب↔قصص",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عسي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خلص",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔برا",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شرر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لبث",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.63,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "جوب↔قعد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔غلب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طهر",
+   "shared": 2,
+   "expected": 0.17,
+   "lift": 11.7,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "جوب↔ثلث",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عصي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔برك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نصب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شمس",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كفي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عرش",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عمي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حجج",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.85,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "جوب↔جنب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هزا",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وثق",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حين",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مرر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ورث",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔غفل",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.35,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "جوب↔ريب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔اني",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قرن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قطع",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.22,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "جوب↔بطل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حدث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نكر",
+   "shared": 2,
+   "expected": 0.24,
+   "lift": 8.22,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "جوب↔سبق",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فتح",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هوي",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.11,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "جوب↔قرر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ذرر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شرب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سلط",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.9,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "جوب↔ملا",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شعر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فلح",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كره",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جبل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طوف",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لعن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سخر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قوي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حزن",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فوق",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "جوب↔راف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نصر",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صير",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حلم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عفو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بدو",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خفي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نفع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مسس",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ذوق",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عشر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عرض",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بغي",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عوج",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔يتم",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شري",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لحم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔دمو",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثمن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فلك",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وسع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كلف",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جهد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صدد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بحر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔برر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قسو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ستت",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هبط",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لون",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نقض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حيق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔رجس",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قهر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عنب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طبع",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وقد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ايد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سفه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عون",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عصو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طين",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جحد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خطب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شبه",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بغت",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خزن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حلف",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عصم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حور",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جلد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ياس",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فقر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔رجم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صوم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثوي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وصف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شكك",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بدا",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صمم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حرج",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔علن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خبث",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كيل",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لبب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سطر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فاد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حبط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عتد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جهر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شرق",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عوذ",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مدن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ربص",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بوا",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صفو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فكر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔دبب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مكن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ملل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حنف",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فرض",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔غرب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صور",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نخل",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔زرع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نفخ",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فطر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مري",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فقه",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سوي",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حزب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بقي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سنن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كتم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هود",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شهر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مني",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حذر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ربع",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عرب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ترب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔تمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فرح",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سرف",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثمر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مرض",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فحش",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جهل",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سقي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔صلي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وعظ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حدد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قسط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وزن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حضر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خزي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هون",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نبت",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قمر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سير",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عجب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔غرر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مسك",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔منن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ابد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خلو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عدل",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شقق",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حوط",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثقل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔يقن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔رجو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فوز",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔رفع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طير",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ودد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جدل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔افك",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قصص",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عسي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔خلص",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔برا",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شرر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قعد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔غلب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ثلث",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عصي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔برك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔نصب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شمس",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كفي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عرش",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔عمي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جنب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔هزا",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔وثق",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حين",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔مرر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ورث",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ريب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔اني",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قرن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔بطل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حدث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سبق",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فتح",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قرر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ذرر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شرب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔ملا",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔شعر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فلح",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔كره",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔جبل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔طوف",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔لعن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔سخر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔قوي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔حزن",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جوب↔فوق",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "14:44",
+   "degree": 5,
+   "roots_present": [
+    "دعو",
+    "يوم",
+    "عذب",
+    "رسل",
+    "ربب"
+   ]
+  },
+  {
+   "ayah": "11:61",
+   "degree": 4,
+   "roots_present": [
+    "عبد",
+    "قوم",
+    "ربب",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "14:22",
+   "degree": 4,
+   "roots_present": [
+    "دعو",
+    "عذب",
+    "كفر",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "29:29",
+   "degree": 4,
+   "roots_present": [
+    "ندو",
+    "عذب",
+    "قوم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "35:14",
+   "degree": 4,
+   "roots_present": [
+    "دعو",
+    "يوم",
+    "قوم",
+    "كفر"
+   ]
+  },
+  {
+   "ayah": "46:5",
+   "degree": 4,
+   "roots_present": [
+    "دعو",
+    "يوم",
+    "قوم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "46:31",
+   "degree": 4,
+   "roots_present": [
+    "دعو",
+    "عذب",
+    "قوم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "3:195",
+   "degree": 3,
+   "roots_present": [
+    "ربب",
+    "كفر",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "جوب+ندو": [
+   "18:52",
+   "21:76",
+   "28:65",
+   "29:29",
+   "37:75"
+  ],
+  "جوب+دعو": [
+   "2:186",
+   "7:194",
+   "8:24",
+   "10:89",
+   "13:14",
+   "14:22",
+   "14:44",
+   "17:52",
+   "18:52",
+   "21:90",
+   "27:62",
+   "28:64",
+   "35:14",
+   "40:60",
+   "46:5",
+   "46:31",
+   "46:32"
+  ],
+  "جوب+يوم": [
+   "5:109",
+   "14:44",
+   "17:52",
+   "18:52",
+   "28:65",
+   "35:14",
+   "42:47",
+   "46:5"
+  ],
+  "جوب+عذب": [
+   "14:22",
+   "14:44",
+   "28:64",
+   "29:29",
+   "42:16",
+   "42:26",
+   "46:31"
+  ],
+  "جوب+عبد": [
+   "2:186",
+   "7:194",
+   "11:61",
+   "21:84",
+   "40:60"
+  ],
+  "جوب+قوم": [
+   "7:82",
+   "10:89",
+   "11:61",
+   "27:56",
+   "28:50",
+   "29:24",
+   "29:29",
+   "35:14",
+   "42:38",
+   "46:5",
+   "46:31"
+  ],
+  "جوب+دون": [
+   "7:194",
+   "13:14",
+   "46:5",
+   "46:32"
+  ],
+  "جوب+كشف": [
+   "21:84",
+   "27:62"
+  ],
+  "جوب+طهر": [
+   "7:82",
+   "27:56"
+  ],
+  "جوب+نكر": [
+   "29:29",
+   "42:47"
+  ]
+ }
+}
