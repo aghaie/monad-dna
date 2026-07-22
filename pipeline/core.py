@@ -253,7 +253,7 @@ def gate_next(root_dir=DEFAULT_DIR):
 
 # ---------- S2: درجِ مکانیکیِ seed (چهار لنگر، سپس ast.parse) ----------
 
-def insert_seed_entry(src, no, root, note):
+def insert_seed_entry(src, no, root, note, queued=()):
     prev = no - 1
     m = re.search(rf'b{prev} = rec\("breath_{prev}_(.+?)\.json"\)', src)
     if not m:
@@ -284,9 +284,13 @@ def insert_seed_entry(src, no, root, note):
     qe = src.find("\n]", qi)
     if qi < 0 or qe < 0:
         raise ValueError("لنگرِ QUEUE_EVENTS یافت نشد")
-    src = (src[:qe] + f'\n    ({no}, "pursued", "{root}", "{EVENT_SOURCE}"),'
-           + src[qe:])
-    return src
+    # رشدِ صفِ مصوب با همان ثبتِ کاشف (DEFECT-QUEUE-GROWTH-2026-07-22):
+    # queued پس از pursued همین نفس ⇒ انتساب درست، گزینشِ کاشف دست‌نخورده،
+    # اثر از نفسِ بعد.
+    rows = f'\n    ({no}, "pursued", "{root}", "{EVENT_SOURCE}"),'
+    for q in queued:
+        rows += f'\n    ({no}, "queued", "{q}", "چرخه"),'
+    return src[:qe] + rows + src[qe:]
 
 
 # ---------- S2: ثبتِ نفسِ بعدی ----------
@@ -296,15 +300,29 @@ def merge_next(root_dir=DEFAULT_DIR, dry_run=False):
     ok, payload = gate_next(root_dir)
     if not ok:
         return {"ok": False, "stage": "gate", "reason": payload}
-    cand = new_candidates(payload)
-    if cand:
-        return {"ok": False, "stage": "queue-decision",
-                "reason": (f"ریشه‌های نامزدِ صفِ تازه: {cand} — رشدِ صف تصمیمِ "
-                           "لایهٔ زنده/باغبان است، نه فرمولِ خط؛ ثبت نشد")}
     lived, breath_no = lived_and_next()
     job = next(j for j in load_jobs(root_dir) if j["breath_no"] == breath_no)
     root = job["root"]
     wd = os.path.join(_paths(root_dir)[2], f"{breath_no}_{root}")
+    # نگهبانِ رشدِ صف + سازوکارِ تصمیم (DEFECT-QUEUE-GROWTH-2026-07-22):
+    # هر نامزدِ تازه باید تصمیمِ ثبت‌شدهٔ لایهٔ زنده داشته باشد —
+    # queue_decision.json در پوشهٔ کاری: {"queue":[{root,basis}],"skip":[{root,reason}]}.
+    # مصوب‌ها با همان ثبتِ کاشف درج می‌شوند؛ بی‌تصمیم ⇒ توقف.
+    cand = new_candidates(payload)
+    queued_roots = []
+    if cand:
+        dec_path = os.path.join(wd, "queue_decision.json")
+        dec = (json.load(open(dec_path, encoding="utf-8"))
+               if os.path.exists(dec_path) else {"queue": [], "skip": []})
+        decided = ({d["root"] for d in dec.get("queue", [])}
+                   | {d["root"] for d in dec.get("skip", [])})
+        undecided = [c for c in cand if c not in decided]
+        if undecided:
+            return {"ok": False, "stage": "queue-decision",
+                    "reason": (f"نامزدِ بی‌تصمیم: {undecided} — تصمیمِ لایهٔ "
+                               f"زنده در {dec_path} لازم است (queue/skip)")}
+        queued_roots = [d["root"] for d in dec.get("queue", [])
+                        if d["root"] in cand]
     if dry_run:
         return {"ok": True, "stage": "gate", "breath_no": breath_no,
                 "root": root, "dry_run": True}

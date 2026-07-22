@@ -103,3 +103,13 @@ def test_pair_comparisons_cover_every_l3_breath():
         "SELECT DISTINCT breath_no FROM pair_comparisons")}
     missing = sorted(breaths - covered)
     assert not missing, f"نفس‌های بی‌فرافکنی در pair_comparisons: {missing}"
+
+
+def test_every_queued_event_attributed_to_lived_breath():
+    """هر رویدادِ queued باید به نفسِ زیستهٔ موجود منسوب باشد — ناوردایی که
+    ثبتِ نارسِ ۲۰۲۶-۰۷-۲۲ (فرج/شرح/ثبت @ نفس‌های نزیسته) را در لحظه می‌گرفت."""
+    db = sqlite3.connect("database/life.db")
+    orphans = db.execute(
+        "SELECT root, breath_no FROM queue_events WHERE event='queued' "
+        "AND breath_no NOT IN (SELECT breath_no FROM breaths)").fetchall()
+    assert not orphans, f"queuedِ منسوب به نفسِ نزیسته: {orphans}"

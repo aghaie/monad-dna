@@ -123,6 +123,11 @@ def delta_invariants(breath_no, db_path="database/life.db"):
         (breath_no,)).fetchone()
     if pc == 0:
         return False, f"فرافکنیِ نفس {breath_no} در pair_comparisons نیست (لغزشِ نوعِ نفس ۱۹۳)"
+    orphan = db.execute(
+        "SELECT root, breath_no FROM queue_events WHERE event='queued' "
+        "AND breath_no NOT IN (SELECT breath_no FROM breaths)").fetchall()
+    if orphan:
+        return False, f"queuedِ منسوب به نفسِ نزیسته: {orphan}"
     q = {r for (r,) in db.execute(
         "SELECT root FROM queue_events WHERE event='queued'")}
     p_ = {r for (r,) in db.execute(

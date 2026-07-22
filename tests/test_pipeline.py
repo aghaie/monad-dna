@@ -138,3 +138,37 @@ def test_merge_refuses_when_new_candidates(tmp_path, monkeypatch):
     monkeypatch.setattr(core, "new_candidates", lambda text: ["تازه"])
     r = core.merge_next(root_dir=str(tmp_path))
     assert r["ok"] is False and r["stage"] == "queue-decision"
+
+
+def test_insert_seed_entry_with_queued_rows():
+    """رشدِ صفِ مصوب با همان ثبتِ کاشف درج می‌شود (رفعِ نقصِ DEFECT-QUEUE-GROWTH)."""
+    src = open("database/seed/seed_life.py", encoding="utf-8").read()
+    import re
+    last = int(re.findall(r'b(\d+) = rec\(', src)[-1])
+    no, root = last + 1, "ازر"
+    out = core.insert_seed_entry(src, no, root, "ن", queued=["فرج", "ثبت"])
+    ast.parse(out)
+    p = out.index(f'({no}, "pursued", "{root}", "قاعدهٔ صف"),')
+    q1 = out.index(f'({no}, "queued", "فرج", "چرخه"),')
+    q2 = out.index(f'({no}, "queued", "ثبت", "چرخه"),')
+    assert p < q1 < q2  # queued پس از pursued، هم‌ثبت و هم‌کامیت
+
+
+def test_merge_gate_respects_queue_decision(tmp_path, monkeypatch):
+    """نامزدِ بی‌تصمیم ⇒ توقف؛ تصمیمِ ثبت‌شده (صف‌شود/نشود) ⇒ عبور."""
+    core.plan(1, root_dir=str(tmp_path))
+    j = core.load_jobs(str(tmp_path))[0]
+    wd = os.path.join(tmp_path, "work", f"{j['breath_no']}_{j['root']}")
+    monkeypatch.setattr(core, "new_candidates", lambda text: ["زٮٮٮ"])
+    r = core.merge_next(root_dir=str(tmp_path), dry_run=True)
+    assert r["ok"] is False and r["stage"] == "queue-decision"
+    with open(os.path.join(wd, "queue_decision.json"), "w", encoding="utf-8") as f:
+        json.dump({"queue": [{"root": "زٮٮٮ", "basis": "محتمل دوسویهٔ تازه"}],
+                   "skip": []}, f, ensure_ascii=False)
+    r = core.merge_next(root_dir=str(tmp_path), dry_run=True)
+    assert r["ok"] is True
+    with open(os.path.join(wd, "queue_decision.json"), "w", encoding="utf-8") as f:
+        json.dump({"queue": [], "skip": [{"root": "زٮٮٮ", "reason": "دلیل"}]},
+                  f, ensure_ascii=False)
+    r = core.merge_next(root_dir=str(tmp_path), dry_run=True)
+    assert r["ok"] is True
