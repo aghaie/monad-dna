@@ -310,6 +310,7 @@
   "كتم",
   "كثر",
   "كذب",
+  "كرم",
   "كره",
   "كسو",
   "كشف",
@@ -651,7 +652,8 @@
   "عهد",
   "زين",
   "صدر",
-  "عجل"
+  "عجل",
+  "كرم"
  ],
  "open_queue": [
   "اتي",
@@ -1360,6 +1362,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اجر",
+   "b": "كرم",
+   "directions": {
+    "كرم→اجر": {
+     "breath": 243,
+     "lift": 6.847,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اجر",
@@ -12523,6 +12541,22 @@
   },
   {
    "a": "راي",
+   "b": "كرم",
+   "directions": {
+    "كرم→راي": {
+     "breath": 243,
+     "lift": 2.739,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "راي",
    "b": "ملا",
    "directions": {
     "ملا→راي": {
@@ -13180,6 +13214,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رزق",
+   "b": "كرم",
+   "directions": {
+    "كرم→رزق": {
+     "breath": 243,
+     "lift": 8.706,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -17980,6 +18030,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "غفر",
+   "b": "كرم",
+   "directions": {
+    "كرم→غفر": {
+     "breath": 243,
+     "lift": 4.698,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
