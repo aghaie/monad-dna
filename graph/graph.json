@@ -727,7 +727,8 @@
   "بطن",
   "ردد",
   "فري",
-  "غيب"
+  "غيب",
+  "خشي"
  ],
  "open_queue": [
   "اتي",
@@ -753,7 +754,6 @@
   "حبب",
   "حرم",
   "حسن",
-  "خشي",
   "خلف",
   "خلق",
   "دعو",
@@ -3729,6 +3729,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 34
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "خشي",
+   "directions": {
+    "خشي→اله": {
+     "breath": 284,
+     "lift": 1.742,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 21
     }
    },
    "mutual_strong": false,
@@ -13344,12 +13360,148 @@
   },
   {
    "a": "خشي",
+   "b": "ذكر",
+   "directions": {
+    "خشي→ذكر": {
+     "breath": 284,
+     "lift": 2.953,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خشي",
+   "b": "ربب",
+   "directions": {
+    "خشي→ربب": {
+     "breath": 284,
+     "lift": 2.148,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خشي",
+   "b": "رحم",
+   "directions": {
+    "خشي→رحم": {
+     "breath": 284,
+     "lift": 2.49,
+     "p": 0.0432,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خشي",
+   "b": "غفر",
+   "directions": {
+    "خشي→غفر": {
+     "breath": 284,
+     "lift": 3.859,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خشي",
    "b": "غيب",
    "directions": {
     "غيب→خشي": {
      "breath": 283,
      "lift": 13.212,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "خشي→غيب": {
+     "breath": 284,
+     "lift": 13.212,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خشي",
+   "b": "نعم",
+   "directions": {
+    "خشي→نعم": {
+     "breath": 284,
+     "lift": 6.138,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خشي",
+   "b": "نوس",
+   "directions": {
+    "خشي→نوس": {
+     "breath": 284,
+     "lift": 5.543,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خشي",
+   "b": "هدي",
+   "directions": {
+    "خشي→هدي": {
+     "breath": 284,
+     "lift": 3.49,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خشي",
+   "b": "وقي",
+   "directions": {
+    "خشي→وقي": {
+     "breath": 284,
+     "lift": 3.289,
+     "p": 0.0199,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
