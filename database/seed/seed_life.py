@@ -43,6 +43,7 @@ b7 = rec("breath_7_علن.json")
 b8 = rec("breath_8_رزق.json")
 b9 = rec("breath_9_بسط.json")
 b10 = rec("breath_10_طيب.json")
+b11 = rec("breath_11_خبث.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -98,6 +99,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_10_طيب.json",
      "breaths/records/breath_10_طيب.json", LOG1,
      "چهار قوی پایدار (خبث دوسویه ۱۰۸٫۵، حلل دوسویه ۳۱٫۵، اكل دوسویه ۱۸٫۸، رزق دوسویه ۱۸٫۷)؛ شكر دوسویهٔ محتملِ ناپایدار lift=۱۳٫۸؛ ۵:۸۸ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: طيب↔زكو، طيب↔سرر، طيب↔علن، طيب↔بسط", b10["top"]),
+    (11, "تولدِ دوباره", "خبث", "قاعدهٔ صف (خودران)",
+     b11["ayat"], b11["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_11_خبث.json",
+     "breaths/records/breath_11_خبث.json", LOG1,
+     "یک قوی پایدار (طيب دوسویه ۱۰۸٫۵)؛ بدون محتمل؛ ۲:۲۶۷ گرهِ یک‌ریشه‌ای؛ شاهدِ غیاب: خبث↔صلو، خبث↔زكو، خبث↔سرر، خبث↔علن، خبث↔بسط", b11["top"]),
     # ⚓BREATHS
 ]
 
@@ -219,6 +225,7 @@ QUEUE_EVENTS = [
     (10, "pursued", "طيب", "قاعدهٔ صف"),
     (10, "queued", "خبث", "چرخه"),
     (10, "queued", "حلل", "چرخه"),
+    (11, "pursued", "خبث", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -234,6 +241,7 @@ PROJ = [
     (8, b8),
     (9, b9),
     (10, b10),
+    (11, b11),
     # ⚓PROJ
 ]
 
