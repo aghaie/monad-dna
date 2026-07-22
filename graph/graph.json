@@ -264,6 +264,7 @@
   "فرح",
   "فرض",
   "فري",
+  "فصل",
   "فضل",
   "فطر",
   "فقر",
@@ -624,7 +625,8 @@
   "قوي",
   "حزن",
   "فوق",
-  "جوب"
+  "جوب",
+  "فصل"
  ],
  "open_queue": [
   "اتي",
@@ -5425,6 +5427,22 @@
   },
   {
    "a": "ايي",
+   "b": "فصل",
+   "directions": {
+    "فصل→ايي": {
+     "breath": 229,
+     "lift": 6.73,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ايي",
    "b": "فكر",
    "directions": {
     "فكر→ايي": {
@@ -7401,6 +7419,22 @@
   },
   {
    "a": "بين",
+   "b": "فصل",
+   "directions": {
+    "فصل→بين": {
+     "breath": 229,
+     "lift": 2.616,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
    "b": "فكر",
    "directions": {
     "فكر→بين": {
@@ -8751,6 +8785,22 @@
      "breath": 90,
      "lift": 6.684,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جعل",
+   "b": "فصل",
+   "directions": {
+    "فصل→جعل": {
+     "breath": 229,
+     "lift": 2.387,
+     "p": 0.0365,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -16377,6 +16427,22 @@
   },
   {
    "a": "علم",
+   "b": "فصل",
+   "directions": {
+    "فصل→علم": {
+     "breath": 229,
+     "lift": 2.243,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "علم",
    "b": "فقر",
    "directions": {
     "فقر→علم": {
@@ -17142,6 +17208,86 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "فصل",
+   "b": "قوم",
+   "directions": {
+    "فصل→قوم": {
+     "breath": 229,
+     "lift": 3.979,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "فصل",
+   "b": "كتب",
+   "directions": {
+    "فصل→كتب": {
+     "breath": 229,
+     "lift": 3.725,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فصل",
+   "b": "كلل",
+   "directions": {
+    "فصل→كلل": {
+     "breath": 229,
+     "lift": 2.517,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فصل",
+   "b": "هدي",
+   "directions": {
+    "فصل→هدي": {
+     "breath": 229,
+     "lift": 2.77,
+     "p": 0.0432,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فصل",
+   "b": "يوم",
+   "directions": {
+    "فصل→يوم": {
+     "breath": 229,
+     "lift": 4.332,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "فضل",
