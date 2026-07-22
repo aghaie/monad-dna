@@ -165,6 +165,7 @@
   "ورث",
   "وقر",
   "وقي",
+  "وكل",
   "ولي",
   "يدي"
  ],
@@ -195,11 +196,13 @@
   "اله",
   "حبط",
   "بقي",
-  "عدل"
+  "عدل",
+  "كفي"
  ],
  "open_queue": [
   "اتي",
   "امن",
+  "بين",
   "جرم",
   "خبر",
   "دبر",
@@ -217,9 +220,9 @@
   "قلب",
   "قول",
   "قوم",
-  "كفي",
   "متع",
-  "موت"
+  "موت",
+  "وكل"
  ],
  "edges": [
   {
@@ -896,6 +899,22 @@
   },
   {
    "a": "اله",
+   "b": "كفي",
+   "directions": {
+    "كفي→اله": {
+     "breath": 28,
+     "lift": 2.178,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 21
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "لوي",
    "directions": {
     "اله→لوي": {
@@ -1021,6 +1040,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "امن",
+   "b": "كفي",
+   "directions": {
+    "كفي→امن": {
+     "breath": 28,
+     "lift": 1.887,
+     "p": 0.0332,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اهل",
@@ -1421,6 +1456,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
+   "b": "كفي",
+   "directions": {
+    "كفي→بين": {
+     "breath": 28,
+     "lift": 3.005,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "تحت",
@@ -3153,9 +3204,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "كفي→شهد": {
+     "breath": 28,
+     "lift": 15.843,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -3463,6 +3522,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "عبد",
+   "b": "كفي",
+   "directions": {
+    "كفي→عبد": {
+     "breath": 28,
+     "lift": 4.658,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "عجز",
    "b": "ولي",
    "directions": {
@@ -3573,6 +3648,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "علم",
+   "b": "كفي",
+   "directions": {
+    "كفي→علم": {
+     "breath": 28,
+     "lift": 1.874,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "علو",
@@ -3701,6 +3792,38 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "كتب",
+   "b": "كفي",
+   "directions": {
+    "كفي→كتب": {
+     "breath": 28,
+     "lift": 3.492,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كفي",
+   "b": "وكل",
+   "directions": {
+    "كفي→وكل": {
+     "breath": 28,
+     "lift": 22.363,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "مول",
