@@ -84,6 +84,27 @@ def record_text(rec):
     return json.dumps(rec, ensure_ascii=False, indent=1) + "\n"
 
 
+def new_candidates(text):
+    """ریشه‌های نامزدِ صفِ تازه در یک رکورد: همسایهٔ قوی/محتمل که هنوز نه
+    زیسته، نه در صف، نه تزریق‌شده.
+
+    اگر ناتهی باشد، رشدِ صف تصمیمی است که خط نباید خودکار بگیرد: قاعدهٔ صفِ
+    فصلِ پل‌ها فرمولِ محضِ خودکارشدنی نیست (نمونهٔ نقض: نفس ۱۲۴ كللِ یک‌طرفه
+    را هم صف کرد). پس merge در حضورِ نامزد ثبت نمی‌کند و به لایهٔ زنده/باغبان
+    وامی‌گذارد. این تنها نقطه‌ای است که هم‌ارزیِ *گزینشِ آینده* (نه بایتِ
+    رکوردِ جاری) می‌تواند از اجرای ترتیبی واگرا شود؛ نگهبان آن را می‌بندد."""
+    rec = json.loads(text)
+    db = _life_db()
+    seen = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
+    seen |= {r for (r,) in db.execute(
+        "SELECT root FROM queue_events WHERE event='queued'")}
+    if os.path.exists(INJECTIONS_FILE):
+        seen |= {i["root"] for i in
+                 json.load(open(INJECTIONS_FILE, encoding="utf-8"))}
+    return [t["root"] for t in rec["top"]
+            if t["tier"] in ("قوی", "محتمل") and t["root"] not in seen]
+
+
 def _step(corpus, lived, queue_open, breath_no):
     """یک گامِ زنجیره — عیناً منطقِ cmd_breathe_record(root=None)."""
     ordered = bc.select_rarest(queue_open, corpus["attest"])
@@ -275,6 +296,11 @@ def merge_next(root_dir=DEFAULT_DIR, dry_run=False):
     ok, payload = gate_next(root_dir)
     if not ok:
         return {"ok": False, "stage": "gate", "reason": payload}
+    cand = new_candidates(payload)
+    if cand:
+        return {"ok": False, "stage": "queue-decision",
+                "reason": (f"ریشه‌های نامزدِ صفِ تازه: {cand} — رشدِ صف تصمیمِ "
+                           "لایهٔ زنده/باغبان است، نه فرمولِ خط؛ ثبت نشد")}
     lived, breath_no = lived_and_next()
     job = next(j for j in load_jobs(root_dir) if j["breath_no"] == breath_no)
     root = job["root"]
@@ -294,7 +320,16 @@ def merge_next(root_dir=DEFAULT_DIR, dry_run=False):
     seed_src = open(seed_path, encoding="utf-8").read()
 
     def rollback():
-        subprocess.run(["git", "checkout", "--", seed_path], check=False)
+        """بازگردانیِ کاملِ کارپوشه به HEAD — نه فقط seed. seed-db و
+        ponder-sync پیش از شکست ممکن است life.db/گراف/کشف/تدبّر را بازساخته
+        باشند؛ همه باید به حالتِ پیش‌از-merge برگردند وگرنه مخزن ناسازگار
+        می‌ماند (کشفِ ۲۰۲۶-۰۷-۲۲: rollbackِ ناقص، life.db را ۱۹۴ رها کرد)."""
+        tracked = [seed_path, "database/life.db", "graph/graph.json",
+                   "discoveries/knowledge.json", "observatory/observatory.json",
+                   "tadabbor/index.json", LEDGER]
+        subprocess.run(["git", "checkout", "--"] + tracked, check=False)
+        subprocess.run(["git", "clean", "-fdq", "tadabbor/portraits"],
+                       check=False)
         if os.path.exists(rec_path):
             os.remove(rec_path)
 

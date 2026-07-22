@@ -110,3 +110,29 @@ def test_seed_insertion_valid_python(tmp_path):
     assert f'({no}, "پل‌ها", "{root}", "قاعدهٔ صف (خودران)"' in out
     assert f'({last_no}, b{last_no}), ({no}, b{no})):' in out
     assert f'({no}, "pursued", "{root}", "قاعدهٔ صف"),' in out
+
+
+def test_new_candidates_empty_for_current_batch(tmp_path):
+    """نفس‌های بی‌ریشهٔ نامزدِ تازه: رشدِ صف تهی ⇒ خط مجاز به ثبت."""
+    _, no = core.lived_and_next()
+    core.plan(1, root_dir=str(tmp_path))
+    job = core.load_jobs(str(tmp_path))[0]
+    text = open(os.path.join(tmp_path, "work",
+                f"{job['breath_no']}_{job['root']}", "record.json"),
+                encoding="utf-8").read()
+    assert core.new_candidates(text) == []
+
+
+def test_new_candidates_flags_unseen_strong():
+    """اگر همسایهٔ قوی/محتملِ تازه باشد، نگهبان آن را برمی‌گرداند."""
+    fake = json.dumps({"top": [
+        {"root": "زٮٮٮ", "tier": "قوی"},        # ریشهٔ ناموجود ⇒ قطعاً تازه
+        {"root": "اله", "tier": "محتمل"}]})       # از پیش زیسته
+    assert core.new_candidates(fake) == ["زٮٮٮ"]
+
+
+def test_merge_refuses_when_new_candidates(tmp_path, monkeypatch):
+    core.plan(1, root_dir=str(tmp_path))
+    monkeypatch.setattr(core, "new_candidates", lambda text: ["تازه"])
+    r = core.merge_next(root_dir=str(tmp_path))
+    assert r["ok"] is False and r["stage"] == "queue-decision"

@@ -25,8 +25,16 @@ def test_axioms_exact():
 
 
 def test_counts():
-    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 193
-    assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 373
+    # نفس‌ها: ناوردای پیوستگی (۱..N بی‌شکاف) — بی‌نیاز از ویرایشِ دستی در هر
+    # نفسِ تازه؛ پیش‌تر عددِ ثابتِ ۱۹۳ بود که هر نفس آن را می‌شکست و خطِ لوله
+    # را می‌بست (کشفِ ۲۰۲۶-۰۷-۲۲).
+    n, mn, mx = db.execute(
+        "SELECT COUNT(*), MIN(breath_no), MAX(breath_no) FROM breaths").fetchone()
+    assert (mn, mx) == (1, n), f"شکاف در شماره‌گذاریِ نفس‌ها: {mn}..{mx}, n={n}"
+    assert n >= 193
+    # قوی‌ها append-only ⇒ فقط رشد می‌کنند؛ کفِ یکنواخت، نه عددِ لحظه‌ای.
+    assert db.execute(
+        "SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] >= 373
     assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 8
     assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 7
 
