@@ -2,11 +2,15 @@
  "generated_from": "breaths/records/*.json (deterministic)",
  "nodes": [
   "اتي",
+  "اخر",
   "اله",
+  "امر",
   "امن",
+  "بعث",
   "بيت",
   "خير",
   "رزق",
+  "رسل",
   "زكو",
   "صبر",
   "صلو",
@@ -14,6 +18,7 @@
   "فلح",
   "قرب",
   "قوم",
+  "كتب",
   "نفق",
   "نهي",
   "وجد",
@@ -21,15 +26,32 @@
  ],
  "visited_roots": [
   "فلح",
-  "صلو"
+  "صلو",
+  "زكو"
  ],
  "open_queue": [
+  "اتي",
   "امن",
-  "زكو",
   "قوم",
   "نفق"
  ],
  "edges": [
+  {
+   "a": "اتي",
+   "b": "زكو",
+   "directions": {
+    "زكو→اتي": {
+     "breath": 3,
+     "lift": 6.645,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 29
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
   {
    "a": "اتي",
    "b": "صلو",
@@ -41,6 +63,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 27
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "زكو",
+   "directions": {
+    "زكو→اخر": {
+     "breath": 3,
+     "lift": 5.522,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
     }
    },
    "mutual_strong": false,
@@ -63,6 +101,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "امر",
+   "b": "زكو",
+   "directions": {
+    "زكو→امر": {
+     "breath": 3,
+     "lift": 2.956,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "امن",
    "b": "فلح",
    "directions": {
@@ -79,6 +133,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "بعث",
+   "b": "زكو",
+   "directions": {
+    "زكو→بعث": {
+     "breath": 3,
+     "lift": 8.7,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بيت",
    "b": "صلو",
    "directions": {
@@ -86,6 +156,22 @@
      "breath": 2,
      "lift": 6.416,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خير",
+   "b": "زكو",
+   "directions": {
+    "زكو→خير": {
+     "breath": 3,
+     "lift": 3.128,
+     "p": 0.0266,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -127,6 +213,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "رسل",
+   "b": "زكو",
+   "directions": {
+    "زكو→رسل": {
+     "breath": 3,
+     "lift": 3.115,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "زكو",
    "b": "صلو",
    "directions": {
@@ -137,10 +239,66 @@
      "stable": true,
      "tier": "قوی",
      "shared": 28
+    },
+    "زكو→صلو": {
+     "breath": 3,
+     "lift": 34.644,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 28
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "زكو",
+   "b": "قرب",
+   "directions": {
+    "زكو→قرب": {
+     "breath": 3,
+     "lift": 6.119,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "زكو",
+   "b": "قوم",
+   "directions": {
+    "زكو→قوم": {
+     "breath": 3,
+     "lift": 5.036,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 27
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "زكو",
+   "b": "كتب",
+   "directions": {
+    "زكو→كتب": {
+     "breath": 3,
+     "lift": 3.193,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "صبر",
