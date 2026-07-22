@@ -200,6 +200,7 @@
   "شهد",
   "شهر",
   "شيا",
+  "صحب",
   "صدد",
   "صدر",
   "صرط",
@@ -683,7 +684,8 @@
   "حلل",
   "جنح",
   "خبر",
-  "لطف"
+  "لطف",
+  "ندو"
  ],
  "open_queue": [
   "اتي",
@@ -10225,6 +10227,22 @@
   },
   {
    "a": "جنن",
+   "b": "ندو",
+   "directions": {
+    "ندو→جنن": {
+     "breath": 260,
+     "lift": 3.182,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جنن",
    "b": "ورث",
    "directions": {
     "ورث→جنن": {
@@ -10613,6 +10631,14 @@
    "directions": {
     "جوب→ندو": {
      "breath": 228,
+     "lift": 15.21,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "ندو→جوب": {
+     "breath": 260,
      "lift": 15.21,
      "p": 0.0033,
      "stable": false,
@@ -13977,6 +14003,22 @@
   },
   {
    "a": "ربب",
+   "b": "ندو",
+   "directions": {
+    "ندو→ربب": {
+     "breath": 260,
+     "lift": 2.434,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ربب",
    "b": "نوب",
    "directions": {
     "نوب→ربب": {
@@ -17226,6 +17268,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صحب",
+   "b": "ندو",
+   "directions": {
+    "ندو→صحب": {
+     "breath": 260,
+     "lift": 8.408,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -21903,6 +21961,22 @@
      "breath": 150,
      "lift": 8.44,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ندو",
+   "b": "يوم",
+   "directions": {
+    "ندو→يوم": {
+     "breath": 260,
+     "lift": 2.647,
+     "p": 0.0066,
      "stable": false,
      "tier": "محتمل",
      "shared": 8
