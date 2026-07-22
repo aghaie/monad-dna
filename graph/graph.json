@@ -292,7 +292,9 @@
   "قوم",
   "كتب",
   "كتم",
+  "كثر",
   "كذب",
+  "كره",
   "كسو",
   "كشف",
   "كفر",
@@ -604,7 +606,8 @@
   "سلط",
   "ملا",
   "شعر",
-  "فلح"
+  "فلح",
+  "كره"
  ],
  "open_queue": [
   "اتي",
@@ -3381,6 +3384,22 @@
   },
   {
    "a": "اله",
+   "b": "كره",
+   "directions": {
+    "كره→اله": {
+     "breath": 220,
+     "lift": 2.086,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 22
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "كسو",
    "directions": {
     "اله→كسو": {
@@ -4258,6 +4277,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "امن",
+   "b": "كره",
+   "directions": {
+    "كره→امن": {
+     "breath": 220,
+     "lift": 2.218,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "امن",
@@ -9325,6 +9360,22 @@
   },
   {
    "a": "حقق",
+   "b": "كره",
+   "directions": {
+    "كره→حقق": {
+     "breath": 220,
+     "lift": 5.42,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حقق",
    "b": "مري",
    "directions": {
     "مري→حقق": {
@@ -10788,6 +10839,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "دين",
+   "b": "كره",
+   "directions": {
+    "كره→دين": {
+     "breath": 220,
+     "lift": 10.24,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "ذرر",
    "b": "ربب",
    "directions": {
@@ -11962,6 +12029,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "رسل",
+   "b": "كره",
+   "directions": {
+    "كره→رسل": {
+     "breath": 220,
+     "lift": 2.077,
+     "p": 0.0332,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "رسل",
@@ -14660,6 +14743,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "طوع",
+   "b": "كره",
+   "directions": {
+    "كره→طوع": {
+     "breath": 220,
+     "lift": 9.06,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "طير",
    "b": "علم",
    "directions": {
@@ -17180,6 +17279,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "كثر",
+   "b": "كره",
+   "directions": {
+    "كره→كثر": {
+     "breath": 220,
+     "lift": 5.499,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "كذب",
    "b": "هوي",
    "directions": {
@@ -17190,6 +17305,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كره",
+   "b": "كفر",
+   "directions": {
+    "كره→كفر": {
+     "breath": 220,
+     "lift": 2.682,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
