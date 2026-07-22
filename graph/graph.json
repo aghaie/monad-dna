@@ -253,6 +253,7 @@
   "قسط",
   "قسم",
   "قسو",
+  "قصص",
   "قلب",
   "قلل",
   "قمر",
@@ -291,6 +292,7 @@
   "موت",
   "مول",
   "موه",
+  "نبا",
   "نبت",
   "نجو",
   "نخل",
@@ -513,7 +515,8 @@
   "جدل",
   "افك",
   "انث",
-  "صرف"
+  "صرف",
+  "قصص"
  ],
  "open_queue": [
   "اتي",
@@ -7076,6 +7079,22 @@
   },
   {
    "a": "حقق",
+   "b": "قصص",
+   "directions": {
+    "قصص→حقق": {
+     "breath": 177,
+     "lift": 4.742,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حقق",
    "b": "مري",
    "directions": {
     "مري→حقق": {
@@ -9193,6 +9212,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "رسل",
+   "b": "قصص",
+   "directions": {
+    "قصص→رسل": {
+     "breath": 177,
+     "lift": 3.489,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "رسل",
@@ -12563,6 +12598,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "قبل",
+   "b": "قصص",
+   "directions": {
+    "قصص→قبل": {
+     "breath": 177,
+     "lift": 4.423,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "قتل",
    "b": "نصر",
    "directions": {
@@ -12681,6 +12732,38 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "قصص",
+   "b": "كون",
+   "directions": {
+    "قصص→كون": {
+     "breath": 177,
+     "lift": 1.697,
+     "p": 0.0365,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قصص",
+   "b": "نبا",
+   "directions": {
+    "قصص→نبا": {
+     "breath": 177,
+     "lift": 8.26,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "قلب",
