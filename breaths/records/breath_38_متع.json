@@ -1,0 +1,794 @@
+{
+ "breath_number": 38,
+ "deliberation": [
+  {
+   "root": "متع",
+   "attestation": 70
+  },
+  {
+   "root": "وكل",
+   "attestation": 70
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "سبح",
+   "attestation": 92
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "متع",
+ "attestation": 70,
+ "ayat": 65,
+ "top": [
+  {
+   "root": "حين",
+   "shared": 8,
+   "expected": 0.34,
+   "lift": 23.258,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "جنح",
+   "shared": 6,
+   "expected": 0.33,
+   "lift": 17.988,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دنو",
+   "shared": 18,
+   "expected": 1.33,
+   "lift": 13.491,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قلل",
+   "shared": 9,
+   "expected": 0.77,
+   "lift": 11.668,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حيي",
+   "shared": 16,
+   "expected": 1.68,
+   "lift": 9.534,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "زوج",
+   "shared": 5,
+   "expected": 0.75,
+   "lift": 6.662,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بغي",
+   "shared": 5,
+   "expected": 0.94,
+   "lift": 5.33,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شدد",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.845,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ابو",
+   "shared": 5,
+   "expected": 1.08,
+   "lift": 4.612,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غير",
+   "shared": 7,
+   "expected": 1.52,
+   "lift": 4.6,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "حين",
+  "جنح",
+  "دنو",
+  "قلل",
+  "حيي",
+  "زوج",
+  "شدد",
+  "ابو"
+ ],
+ "one_way": [
+  "بغي",
+  "غير"
+ ],
+ "neighbor_view": {
+  "حين": {
+   "root": "متع",
+   "shared": 8,
+   "expected": 0.34,
+   "lift": 23.258,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "جنح": {
+   "root": "متع",
+   "shared": 6,
+   "expected": 0.33,
+   "lift": 17.988,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دنو": {
+   "root": "متع",
+   "shared": 18,
+   "expected": 1.33,
+   "lift": 13.491,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "قلل": {
+   "root": "متع",
+   "shared": 9,
+   "expected": 0.77,
+   "lift": 11.668,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حيي": {
+   "root": "متع",
+   "shared": 16,
+   "expected": 1.68,
+   "lift": 9.534,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "زوج": {
+   "root": "متع",
+   "shared": 5,
+   "expected": 0.75,
+   "lift": 6.662,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بغي": null,
+  "شدد": {
+   "root": "متع",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.845,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ابو": {
+   "root": "متع",
+   "shared": 5,
+   "expected": 1.08,
+   "lift": 4.612,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غير": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "متع↔فلح",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔صلو",
+   "shared": 2,
+   "expected": 0.94,
+   "lift": 2.13,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "متع↔زكو",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.71,
+   "p_perm": 0.4186
+  },
+  {
+   "pair": "متع↔اذن",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.07,
+   "p_perm": 0.6146
+  },
+  {
+   "pair": "متع↔نفق",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔سرر",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔علن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔رزق",
+   "shared": 3,
+   "expected": 1.14,
+   "lift": 2.64,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "متع↔بسط",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.17,
+   "p_perm": 0.1993
+  },
+  {
+   "pair": "متع↔طيب",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.09,
+   "p_perm": 0.4186
+  },
+  {
+   "pair": "متع↔خبث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔حلل",
+   "shared": 3,
+   "expected": 0.45,
+   "lift": 6.69,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "متع↔حرم",
+   "shared": 2,
+   "expected": 0.74,
+   "lift": 2.7,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "متع↔سجد",
+   "shared": 2,
+   "expected": 0.84,
+   "lift": 2.37,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "متع↔اكل",
+   "shared": 4,
+   "expected": 1.05,
+   "lift": 3.8,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "متع↔طوع",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔شهد",
+   "shared": 0,
+   "expected": 1.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔كبر",
+   "shared": 2,
+   "expected": 1.59,
+   "lift": 1.25,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "متع↔حيي",
+   "shared": 16,
+   "expected": 1.68,
+   "lift": 9.53,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "متع↔خير",
+   "shared": 4,
+   "expected": 1.86,
+   "lift": 2.16,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "متع↔ولي",
+   "shared": 3,
+   "expected": 2.11,
+   "lift": 1.42,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "متع↔عمل",
+   "shared": 3,
+   "expected": 3.26,
+   "lift": 0.92,
+   "p_perm": 0.6645
+  },
+  {
+   "pair": "متع↔رسل",
+   "shared": 2,
+   "expected": 4.47,
+   "lift": 0.45,
+   "p_perm": 0.9402
+  },
+  {
+   "pair": "متع↔اله",
+   "shared": 22,
+   "expected": 19.59,
+   "lift": 1.12,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "متع↔حبط",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 6.0,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "متع↔بقي",
+   "shared": 3,
+   "expected": 0.22,
+   "lift": 13.71,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "متع↔عدل",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔كفي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔دبر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔زين",
+   "shared": 4,
+   "expected": 0.45,
+   "lift": 8.92,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "متع↔عقل",
+   "shared": 1,
+   "expected": 0.51,
+   "lift": 1.96,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "متع↔خبر",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔غيب",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔جرم",
+   "shared": 1,
+   "expected": 0.68,
+   "lift": 1.48,
+   "p_perm": 0.4884
+  },
+  {
+   "pair": "متع↔عرف",
+   "shared": 3,
+   "expected": 0.65,
+   "lift": 4.64,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "متع↔نكر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔علو",
+   "shared": 1,
+   "expected": 0.71,
+   "lift": 1.41,
+   "p_perm": 0.515
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "متع↔فلح",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔نفق",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔سرر",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔علن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔خبث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔طوع",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔شهد",
+   "shared": 0,
+   "expected": 1.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔عدل",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔كفي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔دبر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔خبر",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔غيب",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "متع↔نكر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "10:23",
+   "degree": 4,
+   "roots_present": [
+    "دنو",
+    "حيي",
+    "بغي",
+    "غير"
+   ]
+  },
+  {
+   "ayah": "2:240",
+   "degree": 3,
+   "roots_present": [
+    "جنح",
+    "زوج",
+    "غير"
+   ]
+  },
+  {
+   "ayah": "4:24",
+   "degree": 3,
+   "roots_present": [
+    "جنح",
+    "بغي",
+    "غير"
+   ]
+  },
+  {
+   "ayah": "4:77",
+   "degree": 3,
+   "roots_present": [
+    "دنو",
+    "قلل",
+    "شدد"
+   ]
+  },
+  {
+   "ayah": "9:38",
+   "degree": 3,
+   "roots_present": [
+    "دنو",
+    "قلل",
+    "حيي"
+   ]
+  },
+  {
+   "ayah": "10:98",
+   "degree": 3,
+   "roots_present": [
+    "حين",
+    "دنو",
+    "حيي"
+   ]
+  },
+  {
+   "ayah": "20:131",
+   "degree": 3,
+   "roots_present": [
+    "دنو",
+    "حيي",
+    "زوج"
+   ]
+  },
+  {
+   "ayah": "33:28",
+   "degree": 3,
+   "roots_present": [
+    "دنو",
+    "حيي",
+    "زوج"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "متع+حين": [
+   "2:36",
+   "7:24",
+   "10:98",
+   "16:80",
+   "21:111",
+   "36:44",
+   "37:148",
+   "51:43"
+  ],
+  "متع+جنح": [
+   "2:236",
+   "2:240",
+   "4:24",
+   "4:102",
+   "15:88",
+   "24:29"
+  ],
+  "متع+دنو": [
+   "3:14",
+   "3:185",
+   "4:77",
+   "9:38",
+   "9:69",
+   "10:23",
+   "10:70",
+   "10:98",
+   "13:26",
+   "20:131",
+   "28:60",
+   "28:61",
+   "33:28",
+   "40:39",
+   "42:36",
+   "43:35",
+   "46:20",
+   "57:20"
+  ],
+  "متع+قلل": [
+   "2:126",
+   "3:197",
+   "4:77",
+   "9:38",
+   "16:117",
+   "31:24",
+   "33:16",
+   "39:8",
+   "77:46"
+  ],
+  "متع+حيي": [
+   "3:14",
+   "3:185",
+   "9:38",
+   "10:23",
+   "10:98",
+   "13:26",
+   "20:131",
+   "28:60",
+   "28:61",
+   "33:28",
+   "33:53",
+   "40:39",
+   "42:36",
+   "43:35",
+   "46:20",
+   "57:20"
+  ],
+  "متع+زوج": [
+   "2:240",
+   "15:88",
+   "20:131",
+   "33:28",
+   "33:53"
+  ],
+  "متع+بغي": [
+   "4:24",
+   "10:23",
+   "12:65",
+   "13:17",
+   "25:18"
+  ],
+  "متع+شدد": [
+   "2:196",
+   "4:77",
+   "9:69",
+   "10:70",
+   "57:20"
+  ],
+  "متع+ابو": [
+   "12:17",
+   "12:65",
+   "21:44",
+   "25:18",
+   "43:29"
+  ],
+  "متع+غير": [
+   "2:240",
+   "4:24",
+   "10:23",
+   "11:65",
+   "24:29",
+   "33:53",
+   "46:20"
+  ],
+  "متع+حلل": [
+   "2:196",
+   "4:24",
+   "5:96"
+  ],
+  "متع+اكل": [
+   "12:17",
+   "15:3",
+   "47:12",
+   "77:46"
+  ],
+  "متع+بقي": [
+   "20:131",
+   "28:60",
+   "42:36"
+  ],
+  "متع+زين": [
+   "3:14",
+   "28:60",
+   "33:28",
+   "57:20"
+  ],
+  "متع+عرف": [
+   "2:236",
+   "2:240",
+   "2:241"
+  ]
+ }
+}

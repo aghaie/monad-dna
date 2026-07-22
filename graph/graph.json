@@ -1,6 +1,7 @@
 {
  "generated_from": "breaths/records/*.json (deterministic)",
  "nodes": [
+  "ابو",
   "اتي",
   "اثر",
   "اثم",
@@ -52,6 +53,7 @@
   "حكم",
   "حلل",
   "حيث",
+  "حين",
   "حيي",
   "خبث",
   "خبر",
@@ -93,6 +95,7 @@
   "سوق",
   "سوم",
   "سوي",
+  "شدد",
   "شرب",
   "شرر",
   "شرك",
@@ -147,6 +150,7 @@
   "قسط",
   "قطع",
   "قلب",
+  "قلل",
   "قول",
   "قوم",
   "كبر",
@@ -232,7 +236,8 @@
   "جرم",
   "عرف",
   "نكر",
-  "علو"
+  "علو",
+  "متع"
  ],
  "open_queue": [
   "اتي",
@@ -242,6 +247,7 @@
   "ايي",
   "بصر",
   "بين",
+  "حين",
   "دنو",
   "دون",
   "سبح",
@@ -253,14 +259,30 @@
   "عند",
   "قدر",
   "قلب",
+  "قلل",
   "قول",
   "قوم",
-  "متع",
   "موت",
   "نبا",
   "وكل"
  ],
  "edges": [
+  {
+   "a": "ابو",
+   "b": "متع",
+   "directions": {
+    "متع→ابو": {
+     "breath": 38,
+     "lift": 4.612,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
   {
    "a": "اتي",
    "b": "حلل",
@@ -1567,6 +1589,22 @@
   },
   {
    "a": "بغي",
+   "b": "متع",
+   "directions": {
+    "متع→بغي": {
+     "breath": 38,
+     "lift": 5.33,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بغي",
    "b": "نفق",
    "directions": {
     "نفق→بغي": {
@@ -2004,6 +2042,22 @@
     "عرف→جنح": {
      "breath": 35,
      "lift": 18.859,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جنح",
+   "b": "متع",
+   "directions": {
+    "متع→جنح": {
+     "breath": 38,
+     "lift": 17.988,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -2510,6 +2564,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "حين",
+   "b": "متع",
+   "directions": {
+    "متع→حين": {
+     "breath": 38,
+     "lift": 23.258,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "حيي",
    "b": "دنو",
    "directions": {
@@ -2632,9 +2702,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 16
+    },
+    "متع→حيي": {
+     "breath": 38,
+     "lift": 9.534,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -3110,6 +3188,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "دنو",
+   "b": "متع",
+   "directions": {
+    "متع→دنو": {
+     "breath": 38,
+     "lift": 13.491,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "دون",
    "b": "ولي",
    "directions": {
@@ -3558,6 +3652,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "زوج",
+   "b": "متع",
+   "directions": {
+    "متع→زوج": {
+     "breath": 38,
+     "lift": 6.662,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "زين",
    "b": "سبل",
    "directions": {
@@ -3940,6 +4050,22 @@
     "عرف→سوم": {
      "breath": 35,
      "lift": 33.527,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شدد",
+   "b": "متع",
+   "directions": {
+    "متع→شدد": {
+     "breath": 38,
+     "lift": 4.845,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -4806,6 +4932,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "غير",
+   "b": "متع",
+   "directions": {
+    "متع→غير": {
+     "breath": 38,
+     "lift": 4.6,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "فضل",
    "b": "كبر",
    "directions": {
@@ -4852,6 +4994,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "قلل",
+   "b": "متع",
+   "directions": {
+    "متع→قلل": {
+     "breath": 38,
+     "lift": 11.668,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "قوم",
