@@ -1,0 +1,752 @@
+{
+ "breath_number": 32,
+ "deliberation": [
+  {
+   "root": "خبر",
+   "attestation": 52
+  },
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "جرم",
+   "attestation": 66
+  },
+  {
+   "root": "عرف",
+   "attestation": 70
+  },
+  {
+   "root": "علو",
+   "attestation": 70
+  },
+  {
+   "root": "متع",
+   "attestation": 70
+  },
+  {
+   "root": "وكل",
+   "attestation": 70
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "خبر",
+ "attestation": 52,
+ "ayat": 52,
+ "top": [
+  {
+   "root": "لطف",
+   "shared": 5,
+   "expected": 0.07,
+   "lift": 74.952,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عمل",
+   "shared": 22,
+   "expected": 2.61,
+   "lift": 8.429,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بصر",
+   "shared": 7,
+   "expected": 1.16,
+   "lift": 6.039,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "شهد",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.875,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حكم",
+   "shared": 6,
+   "expected": 1.58,
+   "lift": 3.807,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عبد",
+   "shared": 7,
+   "expected": 2.09,
+   "lift": 3.344,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سمو",
+   "shared": 8,
+   "expected": 2.94,
+   "lift": 2.726,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نفس",
+   "shared": 6,
+   "expected": 2.25,
+   "lift": 2.665,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ارض",
+   "shared": 9,
+   "expected": 3.67,
+   "lift": 2.453,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 34,
+   "expected": 15.67,
+   "lift": 2.17,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "لطف",
+  "عمل",
+  "بصر",
+  "شهد",
+  "حكم",
+  "عبد"
+ ],
+ "one_way": [
+  "سمو",
+  "نفس",
+  "ارض",
+  "اله"
+ ],
+ "neighbor_view": {
+  "لطف": {
+   "root": "خبر",
+   "shared": 5,
+   "expected": 0.07,
+   "lift": 74.952,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عمل": {
+   "root": "خبر",
+   "shared": 22,
+   "expected": 2.61,
+   "lift": 8.429,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "بصر": {
+   "root": "خبر",
+   "shared": 7,
+   "expected": 1.16,
+   "lift": 6.039,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "شهد": {
+   "root": "خبر",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.875,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "حكم": {
+   "root": "خبر",
+   "shared": 6,
+   "expected": 1.58,
+   "lift": 3.807,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عبد": {
+   "root": "خبر",
+   "shared": 7,
+   "expected": 2.09,
+   "lift": 3.344,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سمو": null,
+  "نفس": null,
+  "ارض": null,
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "خبر↔فلح",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔صلو",
+   "shared": 1,
+   "expected": 0.75,
+   "lift": 1.33,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "خبر↔زكو",
+   "shared": 2,
+   "expected": 0.47,
+   "lift": 4.28,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "خبر↔اذن",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔نفق",
+   "shared": 1,
+   "expected": 0.72,
+   "lift": 1.39,
+   "p_perm": 0.5714
+  },
+  {
+   "pair": "خبر↔سرر",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.79,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "خبر↔علن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔رزق",
+   "shared": 2,
+   "expected": 0.91,
+   "lift": 2.2,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "خبر↔بسط",
+   "shared": 2,
+   "expected": 0.19,
+   "lift": 10.43,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "خبر↔طيب",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔خبث",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔حلل",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔حرم",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔سجد",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔اكل",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔طوع",
+   "shared": 2,
+   "expected": 0.98,
+   "lift": 2.03,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "خبر↔شهد",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.87,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "خبر↔كبر",
+   "shared": 0,
+   "expected": 1.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔حيي",
+   "shared": 2,
+   "expected": 1.34,
+   "lift": 1.49,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "خبر↔خير",
+   "shared": 3,
+   "expected": 1.48,
+   "lift": 2.02,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "خبر↔ولي",
+   "shared": 1,
+   "expected": 1.68,
+   "lift": 0.59,
+   "p_perm": 0.7973
+  },
+  {
+   "pair": "خبر↔عمل",
+   "shared": 22,
+   "expected": 2.61,
+   "lift": 8.43,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "خبر↔رسل",
+   "shared": 5,
+   "expected": 3.58,
+   "lift": 1.4,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "خبر↔اله",
+   "shared": 34,
+   "expected": 15.67,
+   "lift": 2.17,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "خبر↔حبط",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔عدل",
+   "shared": 2,
+   "expected": 0.2,
+   "lift": 9.99,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "خبر↔كفي",
+   "shared": 3,
+   "expected": 0.27,
+   "lift": 11.24,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "خبر↔دبر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔زين",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔عقل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "خبر↔فلح",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔اذن",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔علن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔طيب",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔خبث",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔حلل",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔حرم",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔سجد",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔اكل",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔كبر",
+   "shared": 0,
+   "expected": 1.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔حبط",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔دبر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔زين",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خبر↔عقل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "3:180",
+   "degree": 4,
+   "roots_present": [
+    "عمل",
+    "سمو",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "4:135",
+   "degree": 4,
+   "roots_present": [
+    "عمل",
+    "شهد",
+    "نفس",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "6:73",
+   "degree": 4,
+   "roots_present": [
+    "شهد",
+    "حكم",
+    "سمو",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "17:96",
+   "degree": 4,
+   "roots_present": [
+    "بصر",
+    "شهد",
+    "عبد",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "22:63",
+   "degree": 4,
+   "roots_present": [
+    "لطف",
+    "سمو",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "31:16",
+   "degree": 4,
+   "roots_present": [
+    "لطف",
+    "سمو",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "34:1",
+   "degree": 4,
+   "roots_present": [
+    "حكم",
+    "سمو",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "42:27",
+   "degree": 4,
+   "roots_present": [
+    "بصر",
+    "عبد",
+    "ارض",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "خبر+لطف": [
+   "6:103",
+   "22:63",
+   "31:16",
+   "33:34",
+   "67:14"
+  ],
+  "خبر+عمل": [
+   "2:234",
+   "2:271",
+   "3:153",
+   "3:180",
+   "4:94",
+   "4:128",
+   "4:135",
+   "5:8",
+   "9:16",
+   "9:94",
+   "11:111",
+   "24:53",
+   "31:29",
+   "33:2",
+   "48:11",
+   "57:10",
+   "58:3",
+   "58:11",
+   "58:13",
+   "59:18"
+  ],
+  "خبر+بصر": [
+   "6:103",
+   "17:17",
+   "17:30",
+   "17:96",
+   "24:30",
+   "35:31",
+   "42:27"
+  ],
+  "خبر+شهد": [
+   "4:135",
+   "5:8",
+   "6:73",
+   "9:94",
+   "17:96"
+  ],
+  "خبر+حكم": [
+   "4:35",
+   "6:18",
+   "6:73",
+   "11:1",
+   "33:34",
+   "34:1"
+  ],
+  "خبر+عبد": [
+   "6:18",
+   "17:17",
+   "17:30",
+   "17:96",
+   "25:58",
+   "35:31",
+   "42:27"
+  ],
+  "خبر+سمو": [
+   "3:180",
+   "6:73",
+   "22:63",
+   "25:59",
+   "31:16",
+   "31:29",
+   "34:1",
+   "57:10"
+  ],
+  "خبر+نفس": [
+   "2:234",
+   "4:128",
+   "4:135",
+   "31:34",
+   "59:18",
+   "63:11"
+  ],
+  "خبر+ارض": [
+   "3:180",
+   "6:73",
+   "22:63",
+   "25:59",
+   "31:16",
+   "31:34",
+   "34:1",
+   "42:27",
+   "57:10"
+  ],
+  "خبر+اله": [
+   "2:234",
+   "2:271",
+   "3:153",
+   "3:180",
+   "4:35",
+   "4:94",
+   "4:128",
+   "4:135",
+   "5:8",
+   "9:16",
+   "9:94",
+   "17:96",
+   "22:63",
+   "24:30",
+   "24:53",
+   "27:88",
+   "31:16",
+   "31:29",
+   "31:34",
+   "33:2"
+  ],
+  "خبر+بسط": [
+   "17:30",
+   "42:27"
+  ],
+  "خبر+عدل": [
+   "4:135",
+   "5:8"
+  ],
+  "خبر+كفي": [
+   "17:17",
+   "17:96",
+   "25:58"
+  ]
+ }
+}
