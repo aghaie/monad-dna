@@ -1,0 +1,3572 @@
+{
+ "breath_number": 261,
+ "deliberation": [
+  {
+   "root": "دور",
+   "attestation": 55
+  },
+  {
+   "root": "اجل",
+   "attestation": 56
+  },
+  {
+   "root": "نهي",
+   "attestation": 56
+  },
+  {
+   "root": "ذهب",
+   "attestation": 56
+  },
+  {
+   "root": "روح",
+   "attestation": 57
+  },
+  {
+   "root": "قري",
+   "attestation": 57
+  },
+  {
+   "root": "عدد",
+   "attestation": 57
+  },
+  {
+   "root": "ضرب",
+   "attestation": 58
+  },
+  {
+   "root": "زكو",
+   "attestation": 59
+  },
+  {
+   "root": "نسو",
+   "attestation": 59
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "دور",
+ "attestation": 55,
+ "ayat": 53,
+ "top": [
+  {
+   "root": "جثم",
+   "shared": 5,
+   "expected": 0.04,
+   "lift": 117.66,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "صبح",
+   "shared": 6,
+   "expected": 0.37,
+   "lift": 16.418,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عقب",
+   "shared": 7,
+   "expected": 0.63,
+   "lift": 11.13,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خرج",
+   "shared": 12,
+   "expected": 1.33,
+   "lift": 8.993,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دنو",
+   "shared": 8,
+   "expected": 1.09,
+   "lift": 7.354,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قتل",
+   "shared": 6,
+   "expected": 1.04,
+   "lift": 5.787,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخر",
+   "shared": 11,
+   "expected": 2.06,
+   "lift": 5.348,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سوا",
+   "shared": 6,
+   "expected": 1.28,
+   "lift": 4.675,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخذ",
+   "shared": 9,
+   "expected": 2.07,
+   "lift": 4.34,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حسن",
+   "shared": 6,
+   "expected": 1.5,
+   "lift": 3.988,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "جثم",
+  "صبح",
+  "عقب",
+  "خرج",
+  "دنو",
+  "قتل"
+ ],
+ "one_way": [
+  "اخر",
+  "سوا",
+  "اخذ",
+  "حسن"
+ ],
+ "neighbor_view": {
+  "جثم": {
+   "root": "دور",
+   "shared": 5,
+   "expected": 0.04,
+   "lift": 117.66,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "صبح": {
+   "root": "دور",
+   "shared": 6,
+   "expected": 0.37,
+   "lift": 16.418,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عقب": {
+   "root": "دور",
+   "shared": 7,
+   "expected": 0.63,
+   "lift": 11.13,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "خرج": {
+   "root": "دور",
+   "shared": 12,
+   "expected": 1.33,
+   "lift": 8.993,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "دنو": {
+   "root": "دور",
+   "shared": 8,
+   "expected": 1.09,
+   "lift": 7.354,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قتل": {
+   "root": "دور",
+   "shared": 6,
+   "expected": 1.04,
+   "lift": 5.787,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخر": null,
+  "سوا": null,
+  "اخذ": null,
+  "حسن": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "دور↔اله",
+   "shared": 27,
+   "expected": 15.97,
+   "lift": 1.69,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دور↔رحم",
+   "shared": 1,
+   "expected": 2.66,
+   "lift": 0.38,
+   "p_perm": 0.9535
+  },
+  {
+   "pair": "دور↔راف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هجر",
+   "shared": 3,
+   "expected": 0.23,
+   "lift": 13.07,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دور↔نصر",
+   "shared": 3,
+   "expected": 1.16,
+   "lift": 2.58,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "دور↔اوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صير",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.06,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "دور↔باس",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.76,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "دور↔غفر",
+   "shared": 1,
+   "expected": 1.72,
+   "lift": 0.58,
+   "p_perm": 0.8472
+  },
+  {
+   "pair": "دور↔حلم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عفو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ذنب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سوا",
+   "shared": 6,
+   "expected": 1.28,
+   "lift": 4.68,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "دور↔بدو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خفي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔دون",
+   "shared": 2,
+   "expected": 1.21,
+   "lift": 1.66,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "دور↔نفع",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.4,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "دور↔ضرر",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.68,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "دور↔كشف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مسس",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.06,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "دور↔ذوق",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔الم",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔انس",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عشر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عرض",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.63,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "دور↔بغي",
+   "shared": 3,
+   "expected": 0.76,
+   "lift": 3.92,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "دور↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سبل",
+   "shared": 3,
+   "expected": 1.39,
+   "lift": 2.15,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "دور↔يتم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لحم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔دمو",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 11.77,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "دور↔ثمن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فلك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وسع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قسم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صدد",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.87,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "دور↔بحر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔برر",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.92,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "دور↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نقض",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 13.07,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "دور↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حيق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ضيع",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 11.77,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "دور↔جدد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قهر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عنب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طبع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وقد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ايد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سفه",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 11.77,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "دور↔عون",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عصو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جحد",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.81,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "دور↔خطب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بغت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طمن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فدي",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.05,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "دور↔قرض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عصم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حور",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فوه",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ياس",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.7,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "دور↔فقر",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.4,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "دور↔رجم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صوم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثوي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وصف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بدا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صمم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كفف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حرج",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔علن",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.35,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "دور↔خبث",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كيل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لبب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حبط",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.35,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "دور↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شرق",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عوذ",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مدن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ربص",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.81,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "دور↔بوا",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.35,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "دور↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فكر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔دبب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مكن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نوب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ملل",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.35,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "دور↔حنف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔غرب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صور",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نخل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔زرع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نفخ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فطر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فقه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سوي",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حزب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كتم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هود",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شهر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مني",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.54,
+   "p_perm": 0.1661
+  },
+  {
+   "pair": "دور↔حذر",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.19,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "دور↔ربع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عرب",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.35,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "دور↔ترب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔تمم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فرح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سرع",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.12,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "دور↔سرف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مرض",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.12,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "دور↔فحش",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔اذي",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.35,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "دور↔جهل",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔غضب",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.6,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "دور↔عمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سقي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صلي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وعظ",
+   "shared": 2,
+   "expected": 0.2,
+   "lift": 9.81,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "دور↔حدد",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.88,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "دور↔قسط",
+   "shared": 2,
+   "expected": 0.19,
+   "lift": 10.7,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "دور↔وزن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حضر",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.71,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "دور↔وهب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حول",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خزي",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 4.9,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "دور↔هون",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نبت",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عجز",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قمر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سير",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.41,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "دور↔عجب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔غرر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مسك",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔منن",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ابد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خلو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عدل",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 4.9,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "دور↔شقق",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثوب",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.12,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "دور↔حوط",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.36,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "دور↔ثقل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔يقن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔رجو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فوز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔رفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثني",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طير",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ودد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔افك",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔انث",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.53,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "دور↔صرف",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قصص",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عسي",
+   "shared": 2,
+   "expected": 0.24,
+   "lift": 8.4,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "دور↔خلص",
+   "shared": 2,
+   "expected": 0.25,
+   "lift": 7.84,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "دور↔برا",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شرر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قعد",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔غلب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طهر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثلث",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.2,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "دور↔وري",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عصي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔برك",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نصب",
+   "shared": 2,
+   "expected": 0.25,
+   "lift": 8.11,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "دور↔شمس",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كفي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عرش",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عمي",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حجج",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جنب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هزا",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وثق",
+   "shared": 3,
+   "expected": 0.25,
+   "lift": 12.17,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دور↔حين",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مرر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ورث",
+   "shared": 2,
+   "expected": 0.29,
+   "lift": 6.92,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "دور↔غفل",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.36,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "دور↔ريب",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.36,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "دور↔اني",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قرن",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قطع",
+   "shared": 2,
+   "expected": 0.31,
+   "lift": 6.54,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "دور↔بطل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حدث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نكر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سبق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فتح",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.57,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "دور↔هوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قرر",
+   "shared": 2,
+   "expected": 0.31,
+   "lift": 6.36,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "دور↔ذرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شرب",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سلط",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ملا",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.94,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "دور↔شعر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فلح",
+   "shared": 3,
+   "expected": 0.34,
+   "lift": 8.82,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "دور↔كره",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جبل",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.02,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "دور↔طوف",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لعن",
+   "shared": 3,
+   "expected": 0.31,
+   "lift": 9.81,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "دور↔سخر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قوي",
+   "shared": 2,
+   "expected": 0.33,
+   "lift": 6.03,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "دور↔حزن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فوق",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جوب",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.87,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "دور↔فصل",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.8,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "دور↔حشر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "دور↔مكر",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.12,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "دور↔سرر",
+   "shared": 2,
+   "expected": 0.37,
+   "lift": 5.47,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "دور↔دبر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بدل",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.94,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "دور↔حفظ",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صرط",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.61,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "دور↔نسي",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.18,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "دور↔وذر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "دور↔عهد",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.27,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "دور↔زين",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صدر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "دور↔عجل",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كرم",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طعم",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔اثم",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.8,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "دور↔قدم",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سوع",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عقل",
+   "shared": 3,
+   "expected": 0.42,
+   "lift": 7.2,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دور↔طيب",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فرج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثبت",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.92,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "دور↔فسد",
+   "shared": 3,
+   "expected": 0.4,
+   "lift": 7.51,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دور↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔تحت",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.35,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "دور↔حلل",
+   "shared": 3,
+   "expected": 0.37,
+   "lift": 8.21,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "دور↔جنح",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.68,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "دور↔خبر",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ندو",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "دور↔راف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔اوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حلم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عفو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ذنب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بدو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خفي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كشف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ذوق",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔الم",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔انس",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عشر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔يتم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لحم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثمن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فلك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وسع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قسم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بحر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حيق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جدد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قهر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عنب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طبع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وقد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ايد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عون",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عصو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خطب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بغت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طمن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قرض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عصم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حور",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فوه",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔رجم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صوم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثوي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وصف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بدا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صمم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كفف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حرج",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خبث",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كيل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لبب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شرق",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عوذ",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مدن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فكر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔دبب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مكن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نوب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حنف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔غرب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صور",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نخل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔زرع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نفخ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فطر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فقه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سوي",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حزب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كتم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هود",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شهر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ربع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ترب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔تمم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فرح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سرف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فحش",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جهل",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سقي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صلي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وزن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وهب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حول",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هون",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نبت",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عجز",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قمر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عجب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔غرر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مسك",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔منن",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ابد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خلو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شقق",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثقل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔يقن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔رجو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فوز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔رفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ثني",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طير",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ودد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔افك",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔صرف",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قصص",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔برا",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شرر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قعد",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔غلب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طهر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔وري",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عصي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔برك",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شمس",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كفي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عرش",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عمي",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حجج",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔جنب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هزا",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حين",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔مرر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔اني",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قرن",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔بطل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حدث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔نكر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سبق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔هوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ذرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شرب",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سلط",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شعر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كره",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طوف",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سخر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حزن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فوق",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔دبر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔حفظ",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔زين",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عجل",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔كرم",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طعم",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔قدم",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔سوع",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔طيب",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔فرج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔خبر",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دور↔ندو",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "3:195",
+   "degree": 4,
+   "roots_present": [
+    "خرج",
+    "قتل",
+    "سوا",
+    "حسن"
+   ]
+  },
+  {
+   "ayah": "2:85",
+   "degree": 3,
+   "roots_present": [
+    "خرج",
+    "دنو",
+    "قتل"
+   ]
+  },
+  {
+   "ayah": "7:78",
+   "degree": 3,
+   "roots_present": [
+    "جثم",
+    "صبح",
+    "اخذ"
+   ]
+  },
+  {
+   "ayah": "7:91",
+   "degree": 3,
+   "roots_present": [
+    "جثم",
+    "صبح",
+    "اخذ"
+   ]
+  },
+  {
+   "ayah": "7:169",
+   "degree": 3,
+   "roots_present": [
+    "دنو",
+    "اخر",
+    "اخذ"
+   ]
+  },
+  {
+   "ayah": "11:67",
+   "degree": 3,
+   "roots_present": [
+    "جثم",
+    "صبح",
+    "اخذ"
+   ]
+  },
+  {
+   "ayah": "11:94",
+   "degree": 3,
+   "roots_present": [
+    "جثم",
+    "صبح",
+    "اخذ"
+   ]
+  },
+  {
+   "ayah": "13:22",
+   "degree": 3,
+   "roots_present": [
+    "عقب",
+    "سوا",
+    "حسن"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "دور+جثم": [
+   "7:78",
+   "7:91",
+   "11:67",
+   "11:94",
+   "29:37"
+  ],
+  "دور+صبح": [
+   "5:52",
+   "7:78",
+   "7:91",
+   "11:67",
+   "11:94",
+   "29:37"
+  ],
+  "دور+عقب": [
+   "6:135",
+   "12:109",
+   "13:22",
+   "13:24",
+   "13:42",
+   "28:37",
+   "28:83"
+  ],
+  "دور+خرج": [
+   "2:84",
+   "2:85",
+   "2:243",
+   "2:246",
+   "3:195",
+   "4:66",
+   "8:47",
+   "22:40",
+   "59:2",
+   "59:8",
+   "60:8",
+   "60:9"
+  ],
+  "دور+دنو": [
+   "2:85",
+   "2:282",
+   "6:32",
+   "7:169",
+   "16:30",
+   "28:77",
+   "29:64",
+   "40:39"
+  ],
+  "دور+قتل": [
+   "2:85",
+   "2:246",
+   "3:195",
+   "4:66",
+   "60:8",
+   "60:9"
+  ],
+  "دور+اخر": [
+   "2:94",
+   "2:282",
+   "6:32",
+   "7:169",
+   "12:109",
+   "16:30",
+   "28:77",
+   "28:83",
+   "29:64",
+   "33:29",
+   "40:39"
+  ],
+  "دور+سوا": [
+   "3:195",
+   "9:98",
+   "13:22",
+   "13:25",
+   "40:52",
+   "48:6"
+  ],
+  "دور+اخذ": [
+   "2:84",
+   "7:78",
+   "7:91",
+   "7:145",
+   "7:169",
+   "9:98",
+   "11:67",
+   "11:94",
+   "29:37"
+  ],
+  "دور+حسن": [
+   "3:195",
+   "7:145",
+   "13:22",
+   "16:30",
+   "28:77",
+   "33:29"
+  ],
+  "دور+اله": [
+   "2:85",
+   "2:94",
+   "2:243",
+   "2:246",
+   "2:282",
+   "3:195",
+   "5:52",
+   "7:169",
+   "8:47",
+   "9:98",
+   "10:25",
+   "13:25",
+   "13:31",
+   "13:42",
+   "14:28",
+   "22:40",
+   "28:77",
+   "28:81",
+   "33:19",
+   "33:27"
+  ],
+  "دور+هجر": [
+   "3:195",
+   "59:8",
+   "59:9"
+  ],
+  "دور+بغي": [
+   "13:22",
+   "28:77",
+   "59:8"
+  ],
+  "دور+وعظ": [
+   "4:66",
+   "7:145"
+  ],
+  "دور+قسط": [
+   "2:282",
+   "60:8"
+  ],
+  "دور+سير": [
+   "12:109",
+   "13:31"
+  ],
+  "دور+عسي": [
+   "2:246",
+   "5:52"
+  ],
+  "دور+خلص": [
+   "2:94",
+   "38:46"
+  ],
+  "دور+نصب": [
+   "28:77",
+   "35:35"
+  ],
+  "دور+وثق": [
+   "2:84",
+   "7:169",
+   "13:25"
+  ],
+  "دور+ورث": [
+   "7:169",
+   "33:27"
+  ],
+  "دور+قطع": [
+   "13:25",
+   "13:31"
+  ],
+  "دور+قرر": [
+   "2:84",
+   "40:39"
+  ],
+  "دور+فلح": [
+   "6:135",
+   "28:37",
+   "59:9"
+  ],
+  "دور+لعن": [
+   "13:25",
+   "40:52",
+   "48:6"
+  ],
+  "دور+قوي": [
+   "7:145",
+   "22:40"
+  ],
+  "دور+سرر": [
+   "5:52",
+   "13:22"
+  ],
+  "دور+عقل": [
+   "6:32",
+   "7:169",
+   "12:109"
+  ],
+  "دور+فسد": [
+   "13:25",
+   "28:77",
+   "28:83"
+  ],
+  "دور+حلل": [
+   "13:31",
+   "14:28",
+   "35:35"
+  ]
+ }
+}
