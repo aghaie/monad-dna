@@ -72,6 +72,7 @@ b36 = rec("breath_36_نكر.json")
 b37 = rec("breath_37_علو.json")
 b38 = rec("breath_38_متع.json")
 b39 = rec("breath_39_حين.json")
+b40 = rec("breath_40_وكل.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -272,6 +273,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_39_حين.json",
      "breaths/records/breath_39_حين.json", LOG1,
      "یک قوی پایدار (متع دوسویه ۲۳٫۳)؛ بدون محتمل؛ ۱۰:۹۸ گرهِ چهار‌ریشه‌ای؛ شاهدِ غیاب: بیست‌وچهار صفر", b39["top"]),
+    (40, "تولدِ دوباره", "وكل", "قاعدهٔ صف (خودران)",
+     b40["ayat"], b40["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_40_وكل.json",
+     "breaths/records/breath_40_وكل.json", LOG1,
+     "دو قوی پایدار (كفي دوسویه ۲۲٫۴، شيا یک‌طرفه ۳٫۲)؛ جفتِ متقابل: وكل↔كفي؛ ليس دوسویهٔ محتملِ ناپایدار lift=۶٫۰؛ ۴:۱۷۱ و ۶۰:۴ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: بیست‌ودو صفر", b40["top"]),
     # ⚓BREATHS
 ]
 
@@ -480,6 +486,7 @@ QUEUE_EVENTS = [
     (38, "queued", "حين", "چرخه"),
     (38, "queued", "قلل", "چرخه"),
     (39, "pursued", "حين", "قاعدهٔ صف"),
+    (40, "pursued", "وكل", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -524,6 +531,7 @@ PROJ = [
     (37, b37),
     (38, b38),
     (39, b39),
+    (40, b40),
     # ⚓PROJ
 ]
 
