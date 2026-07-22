@@ -341,12 +341,20 @@ def merge_next(root_dir=DEFAULT_DIR, dry_run=False):
         ast.parse(new_src)
         with open(seed_path, "w", encoding="utf-8") as f:
             f.write(new_src)
+        # --- اعتبارسنجی: مدلِ اعتمادِ گواهیِ افزایشی (attest.py) ---
+        # مسیرِ سرد (کلِ pytest + verify) فقط وقتی اثرِ انگشتِ موتور خورده
+        # باشد یا گواهیِ پیشین نباشد؛ وگرنه مسیرِ داغ: verify فقط رکوردِ
+        # تازه + ناوردای دلتا. صدقِ سنجش حفظ است — تفصیل در خودِ ماژول.
+        from pipeline import attest
+        state = attest.load_state()
+        changed = attest.fingerprint_changed(state)
         checks = [
             [sys.executable, "database/seed/seed_life.py"],
             [sys.executable, "tadabbor/build.py", "--sync"],
-            [sys.executable, "-m", "pytest", "tests/", "-q"],
-            ["./cli/monad", "verify"],
         ]
+        if changed:
+            checks += [[sys.executable, "-m", "pytest", "tests/", "-q"],
+                       ["./cli/monad", "verify"]]
         for cmd in checks:
             r = subprocess.run(cmd, capture_output=True, text=True)
             if r.returncode != 0:
@@ -354,6 +362,19 @@ def merge_next(root_dir=DEFAULT_DIR, dry_run=False):
                 _mark(root_dir, breath_no, "failed")
                 return {"ok": False, "stage": " ".join(cmd),
                         "reason": (r.stdout + r.stderr)[-2000:]}
+        if not changed:
+            for name, (okc, why) in (
+                    ("verify-new-record", attest.verify_new_record(rec_path)),
+                    ("delta-invariants", attest.delta_invariants(breath_no))):
+                if not okc:
+                    rollback()
+                    _mark(root_dir, breath_no, "failed")
+                    return {"ok": False, "stage": name, "reason": why}
+        attest.save_state({"fingerprint": attest.fingerprint(),
+                           "records_root": attest.records_root(),
+                           "records_count": len(lived) + 1,
+                           "cold_path": ("این کامیت (اثرِ انگشت خورده بود)"
+                                         if changed else state.get("cold_path"))})
         ledger_p = os.path.join(wd, "ledger.md")
         if os.path.exists(ledger_p):
             with open(LEDGER, "a", encoding="utf-8") as f:
@@ -365,7 +386,7 @@ def merge_next(root_dir=DEFAULT_DIR, dry_run=False):
                else f"نفس {breath_no} — {root} (خطِ لوله)")
         subprocess.run(["git", "add", rec_path, seed_path, "database/life.db",
                         "graph/graph.json", "discoveries/knowledge.json",
-                        "tadabbor", LEDGER], check=True)
+                        "tadabbor", LEDGER, attest.STATE_PATH], check=True)
         subprocess.run(["git", "commit", "-q", "-m",
                         msg + "\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>"],
                        check=True)
