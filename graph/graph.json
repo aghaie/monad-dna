@@ -48,6 +48,7 @@
   "بني",
   "بوا",
   "بوب",
+  "بيت",
   "بين",
   "تبع",
   "تحت",
@@ -205,6 +206,7 @@
   "طمن",
   "طهر",
   "طوع",
+  "طوف",
   "طيب",
   "طير",
   "طين",
@@ -608,7 +610,8 @@
   "شعر",
   "فلح",
   "كره",
-  "جبل"
+  "جبل",
+  "طوف"
  ],
  "open_queue": [
   "اتي",
@@ -1519,6 +1522,22 @@
      "breath": 30,
      "lift": 5.602,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "طوف",
+   "directions": {
+    "طوف→اخر": {
+     "breath": 222,
+     "lift": 3.681,
+     "p": 0.0133,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -4166,6 +4185,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "طوف",
+   "directions": {
+    "طوف→امن": {
+     "breath": 222,
+     "lift": 2.711,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امن",
@@ -6942,6 +6977,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "بيت",
+   "b": "طوف",
+   "directions": {
+    "طوف→بيت": {
+     "breath": 222,
+     "lift": 23.096,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "بين",
@@ -14826,6 +14877,70 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طوف",
+   "b": "قوم",
+   "directions": {
+    "طوف→قوم": {
+     "breath": 222,
+     "lift": 2.388,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "طوف",
+   "b": "كتب",
+   "directions": {
+    "طوف→كتب": {
+     "breath": 222,
+     "lift": 3.832,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "طوف",
+   "b": "كون",
+   "directions": {
+    "طوف→كون": {
+     "breath": 222,
+     "lift": 2.273,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طوف",
+   "b": "نفس",
+   "directions": {
+    "طوف→نفس": {
+     "breath": 222,
+     "lift": 3.299,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
