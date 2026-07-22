@@ -41,6 +41,7 @@
   "بشر",
   "بصر",
   "بطل",
+  "بطن",
   "بعث",
   "بعد",
   "بعض",
@@ -717,7 +718,8 @@
   "زكو",
   "نسو",
   "نكح",
-  "ضعف"
+  "ضعف",
+  "ظهر"
  ],
  "open_queue": [
   "اتي",
@@ -732,6 +734,7 @@
   "ايي",
   "بشر",
   "بصر",
+  "بطن",
   "بعد",
   "بعض",
   "بلغ",
@@ -7828,6 +7831,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "بطن",
+   "b": "ظهر",
+   "directions": {
+    "ظهر→بطن": {
+     "breath": 279,
+     "lift": 26.257,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بعث",
    "b": "زكو",
    "directions": {
@@ -8066,6 +8085,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "بعض",
+   "b": "ظهر",
+   "directions": {
+    "ظهر→بعض": {
+     "breath": 279,
+     "lift": 6.288,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "بعض",
@@ -11373,6 +11408,22 @@
   },
   {
    "a": "جيا",
+   "b": "ظهر",
+   "directions": {
+    "ظهر→جيا": {
+     "breath": 279,
+     "lift": 2.923,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جيا",
    "b": "عجل",
    "directions": {
     "عجل→جيا": {
@@ -11772,6 +11823,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "حرم",
+   "b": "ظهر",
+   "directions": {
+    "ظهر→حرم": {
+     "breath": 279,
+     "lift": 7.704,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "حزب",
    "b": "كون",
    "directions": {
@@ -12150,6 +12217,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حقق",
+   "b": "ظهر",
+   "directions": {
+    "ظهر→حقق": {
+     "breath": 279,
+     "lift": 3.328,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -14218,6 +14301,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "دين",
+   "b": "ظهر",
+   "directions": {
+    "ظهر→دين": {
+     "breath": 279,
+     "lift": 6.288,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "دين",
@@ -18029,6 +18128,22 @@
   },
   {
    "a": "شرك",
+   "b": "ظهر",
+   "directions": {
+    "ظهر→شرك": {
+     "breath": 279,
+     "lift": 6.12,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شرك",
    "b": "ملل",
    "directions": {
     "ملل→شرك": {
@@ -19805,6 +19920,38 @@
   },
   {
    "a": "ظهر",
+   "b": "قتل",
+   "directions": {
+    "ظهر→قتل": {
+     "breath": 279,
+     "lift": 4.484,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ظهر",
+   "b": "قلب",
+   "directions": {
+    "ظهر→قلب": {
+     "breath": 279,
+     "lift": 3.529,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ظهر",
    "b": "وري",
    "directions": {
     "وري→ظهر": {
@@ -19814,9 +19961,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "ظهر→وري": {
+     "breath": 279,
+     "lift": 21.175,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {

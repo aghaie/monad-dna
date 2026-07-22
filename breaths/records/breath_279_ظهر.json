@@ -1,0 +1,3698 @@
+{
+ "breath_number": 279,
+ "deliberation": [
+  {
+   "root": "ظهر",
+   "attestation": 59
+  },
+  {
+   "root": "ردد",
+   "attestation": 59
+  },
+  {
+   "root": "فري",
+   "attestation": 60
+  },
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "فتن",
+   "attestation": 60
+  },
+  {
+   "root": "زيد",
+   "attestation": 61
+  },
+  {
+   "root": "عود",
+   "attestation": 63
+  },
+  {
+   "root": "موه",
+   "attestation": 63
+  },
+  {
+   "root": "حمد",
+   "attestation": 63
+  },
+  {
+   "root": "قضي",
+   "attestation": 63
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "ظهر",
+ "attestation": 59,
+ "ayat": 57,
+ "top": [
+  {
+   "root": "بطن",
+   "shared": 6,
+   "expected": 0.23,
+   "lift": 26.257,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وري",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.175,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حرم",
+   "shared": 5,
+   "expected": 0.65,
+   "lift": 7.704,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دين",
+   "shared": 5,
+   "expected": 0.8,
+   "lift": 6.288,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعض",
+   "shared": 5,
+   "expected": 0.8,
+   "lift": 6.288,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شرك",
+   "shared": 8,
+   "expected": 1.31,
+   "lift": 6.12,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قتل",
+   "shared": 5,
+   "expected": 1.12,
+   "lift": 4.484,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قلب",
+   "shared": 5,
+   "expected": 1.42,
+   "lift": 3.529,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حقق",
+   "shared": 8,
+   "expected": 2.4,
+   "lift": 3.328,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جيا",
+   "shared": 7,
+   "expected": 2.39,
+   "lift": 2.923,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "بطن",
+  "وري",
+  "دين",
+  "بعض",
+  "شرك"
+ ],
+ "one_way": [
+  "حرم",
+  "قتل",
+  "قلب",
+  "حقق",
+  "جيا"
+ ],
+ "neighbor_view": {
+  "بطن": {
+   "root": "ظهر",
+   "shared": 6,
+   "expected": 0.23,
+   "lift": 26.257,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "وري": {
+   "root": "ظهر",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.175,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حرم": null,
+  "دين": {
+   "root": "ظهر",
+   "shared": 5,
+   "expected": 0.8,
+   "lift": 6.288,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعض": {
+   "root": "ظهر",
+   "shared": 5,
+   "expected": 0.8,
+   "lift": 6.288,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شرك": {
+   "root": "ظهر",
+   "shared": 8,
+   "expected": 1.31,
+   "lift": 6.12,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قتل": null,
+  "قلب": null,
+  "حقق": null,
+  "جيا": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "ظهر↔اله",
+   "shared": 27,
+   "expected": 17.17,
+   "lift": 1.57,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ظهر↔رحم",
+   "shared": 3,
+   "expected": 2.86,
+   "lift": 1.05,
+   "p_perm": 0.5349
+  },
+  {
+   "pair": "ظهر↔راف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔هجر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نصر",
+   "shared": 3,
+   "expected": 1.25,
+   "lift": 2.4,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "ظهر↔اوي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صير",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔باس",
+   "shared": 2,
+   "expected": 0.61,
+   "lift": 3.27,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "ظهر↔غفر",
+   "shared": 1,
+   "expected": 1.85,
+   "lift": 0.54,
+   "p_perm": 0.8206
+  },
+  {
+   "pair": "ظهر↔حلم",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.47,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "ظهر↔عفو",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.53,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "ظهر↔ذنب",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سوا",
+   "shared": 1,
+   "expected": 1.38,
+   "lift": 0.72,
+   "p_perm": 0.7375
+  },
+  {
+   "pair": "ظهر↔بدو",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.77,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "ظهر↔خفي",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.53,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "ظهر↔دون",
+   "shared": 2,
+   "expected": 1.3,
+   "lift": 1.54,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "ظهر↔نفع",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.23,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "ظهر↔ضرر",
+   "shared": 1,
+   "expected": 0.64,
+   "lift": 1.56,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "ظهر↔كشف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مسس",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.92,
+   "p_perm": 0.4186
+  },
+  {
+   "pair": "ظهر↔ذوق",
+   "shared": 2,
+   "expected": 0.56,
+   "lift": 3.59,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "ظهر↔الم",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔انس",
+   "shared": 1,
+   "expected": 0.85,
+   "lift": 1.18,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "ظهر↔عشر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عرض",
+   "shared": 1,
+   "expected": 0.66,
+   "lift": 1.52,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "ظهر↔بغي",
+   "shared": 3,
+   "expected": 0.82,
+   "lift": 3.65,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "ظهر↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سبل",
+   "shared": 3,
+   "expected": 1.5,
+   "lift": 2.0,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "ظهر↔يتم",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شري",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.76,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "ظهر↔لحم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثمن",
+   "shared": 2,
+   "expected": 0.17,
+   "lift": 11.52,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "ظهر↔فلك",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وسع",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جهد",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قسم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صدد",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.67,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "ظهر↔بحر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "ظهر↔برر",
+   "shared": 2,
+   "expected": 0.27,
+   "lift": 7.29,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "ظهر↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نقض",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.16,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "ظهر↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ايد",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.95,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "ظهر↔سفه",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عصو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طين",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جحد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خطب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بغت",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.42,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "ظهر↔طمن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خزن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فدي",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.42,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "ظهر↔قرض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حلف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عصم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حور",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.12,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "ظهر↔فوه",
+   "shared": 2,
+   "expected": 0.12,
+   "lift": 16.83,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "ظهر↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔رجم",
+   "shared": 2,
+   "expected": 0.13,
+   "lift": 15.63,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ظهر↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وصف",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شكك",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بدا",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كفف",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.81,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "ظهر↔حرج",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كيل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لبب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سطر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فاد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عتد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جهر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شرق",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عوذ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مدن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ربص",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بوا",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صفو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔دبب",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.08,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "ظهر↔مكن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ملل",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.84,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "ظهر↔حنف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غرب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صور",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نخل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔زرع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فطر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مري",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.76,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "ظهر↔فقه",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سوي",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "ظهر↔حزب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بقي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سنن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كتم",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.47,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "ظهر↔هود",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.21,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "ظهر↔شهر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حذر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ربع",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.21,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "ظهر↔عرب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ترب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔تمم",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.47,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "ظهر↔فرح",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سرع",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سرف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثمر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مرض",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فحش",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.51,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "ظهر↔اذي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جهل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غضب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عمر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سقي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بسط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صلي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وعظ",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.56,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "ظهر↔حدد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وزن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حضر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وهب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حول",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خزي",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.56,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "ظهر↔هون",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نبت",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عجز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قمر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بوب",
+   "shared": 2,
+   "expected": 0.22,
+   "lift": 9.12,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ظهر↔سير",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.38,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "ظهر↔عجب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غرر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مسك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔منن",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ابد",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.91,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "ظهر↔خلو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عدل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شقق",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثوب",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.76,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "ظهر↔حوط",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.05,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "ظهر↔ثقل",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.21,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "ظهر↔يقن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔رجو",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.05,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "ظهر↔فوز",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔رفع",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثني",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ودد",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جدل",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.05,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "ظهر↔افك",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔انث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صرف",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قصص",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عسي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خلص",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔برا",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شرر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لبث",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قعد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غلب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طهر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثلث",
+   "shared": 2,
+   "expected": 0.26,
+   "lift": 7.81,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "ظهر↔وري",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.17,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ظهر↔عصي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔برك",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.42,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "ظهر↔نصب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شمس",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كفي",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.42,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "ظهر↔عرش",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عمي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حجج",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.21,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "ظهر↔جنب",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.53,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "ظهر↔هزا",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وثق",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.77,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "ظهر↔حين",
+   "shared": 3,
+   "expected": 0.3,
+   "lift": 9.95,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ظهر↔مرر",
+   "shared": 2,
+   "expected": 0.29,
+   "lift": 6.84,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "ظهر↔ورث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غفل",
+   "shared": 3,
+   "expected": 0.32,
+   "lift": 9.38,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ظهر↔ريب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔اني",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قرن",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.22,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "ظهر↔قطع",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.04,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "ظهر↔بطل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حدث",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.04,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "ظهر↔نكر",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.96,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "ظهر↔سبق",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فتح",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔هوي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قرر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ذرر",
+   "shared": 2,
+   "expected": 0.33,
+   "lift": 6.08,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "ظهر↔شرب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سلط",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.81,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "ظهر↔ملا",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شعر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فلح",
+   "shared": 3,
+   "expected": 0.37,
+   "lift": 8.21,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "ظهر↔كره",
+   "shared": 3,
+   "expected": 0.32,
+   "lift": 9.38,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "ظهر↔جبل",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طوف",
+   "shared": 2,
+   "expected": 0.32,
+   "lift": 6.25,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "ظهر↔لعن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سخر",
+   "shared": 2,
+   "expected": 0.32,
+   "lift": 6.25,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "ظهر↔قوي",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حزن",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فوق",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جوب",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فصل",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حشر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مكر",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.76,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "ظهر↔سرر",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.54,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "ظهر↔دبر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بدل",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "ظهر↔حفظ",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.6,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "ظهر↔صرط",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نسي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وذر",
+   "shared": 2,
+   "expected": 0.39,
+   "lift": 5.09,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "ظهر↔عهد",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.04,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "ظهر↔زين",
+   "shared": 2,
+   "expected": 0.39,
+   "lift": 5.09,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "ظهر↔صدر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عجل",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كرم",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طعم",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.67,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "ظهر↔اثم",
+   "shared": 3,
+   "expected": 0.38,
+   "lift": 7.81,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ظهر↔قدم",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سوع",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.49,
+   "p_perm": 0.3688
+  },
+  {
+   "pair": "ظهر↔عقل",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.23,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "ظهر↔طيب",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شرح",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فرج",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.16,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "ظهر↔ثبت",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فسد",
+   "shared": 2,
+   "expected": 0.43,
+   "lift": 4.66,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "ظهر↔عثو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔تحت",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حلل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جنح",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.42,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "ظهر↔خبر",
+   "shared": 2,
+   "expected": 0.48,
+   "lift": 4.21,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "ظهر↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ندو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔دور",
+   "shared": 2,
+   "expected": 0.48,
+   "lift": 4.13,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "ظهر↔جثم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صبح",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.54,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "ظهر↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔اجل",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.28,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "ظهر↔نهي",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.03,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "ظهر↔ذهب",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔روح",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.1,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "ظهر↔قري",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.03,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "ظهر↔عدد",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.19,
+   "p_perm": 0.3688
+  },
+  {
+   "pair": "ظهر↔حصي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سنو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔الف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ضرب",
+   "shared": 2,
+   "expected": 0.49,
+   "lift": 4.05,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "ظهر↔زكو",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نسو",
+   "shared": 3,
+   "expected": 0.48,
+   "lift": 6.19,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ظهر↔نكح",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ضعف",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "ظهر↔راف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔هجر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔اوي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صير",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ذنب",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كشف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔الم",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عشر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔يتم",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لحم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فلك",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وسع",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جهد",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قسم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سفه",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عصو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طين",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جحد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خطب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طمن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خزن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قرض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حلف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عصم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وصف",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شكك",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بدا",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حرج",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كيل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لبب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سطر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فاد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عتد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جهر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شرق",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عوذ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مدن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ربص",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بوا",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صفو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مكن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حنف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غرب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صور",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نخل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔زرع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فطر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فقه",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حزب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بقي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سنن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شهر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حذر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عرب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ترب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فرح",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سرع",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سرف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثمر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مرض",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔اذي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جهل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غضب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عمر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سقي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بسط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صلي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حدد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وزن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حضر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔وهب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حول",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔هون",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نبت",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عجز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قمر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عجب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غرر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔مسك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔منن",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خلو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عدل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شقق",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔يقن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فوز",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔رفع",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثني",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ودد",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔افك",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔انث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صرف",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قصص",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عسي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔خلص",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔برا",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شرر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لبث",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قعد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔غلب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طهر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عصي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نصب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شمس",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عرش",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عمي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔هزا",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ورث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ريب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔اني",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔بطل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سبق",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فتح",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔هوي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قرر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شرب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ملا",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شعر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جبل",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لعن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قوي",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حزن",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فوق",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جوب",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔فصل",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حشر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔دبر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صرط",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نسي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔صدر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عجل",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔كرم",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔قدم",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔طيب",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔شرح",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ثبت",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔عثو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔تحت",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حلل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ندو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔جثم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ذهب",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔حصي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔سنو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔الف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔زكو",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔نكح",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ظهر↔ضعف",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "6:151",
+   "degree": 5,
+   "roots_present": [
+    "بطن",
+    "حرم",
+    "شرك",
+    "قتل",
+    "حقق"
+   ]
+  },
+  {
+   "ayah": "7:33",
+   "degree": 4,
+   "roots_present": [
+    "بطن",
+    "حرم",
+    "شرك",
+    "حقق"
+   ]
+  },
+  {
+   "ayah": "2:85",
+   "degree": 3,
+   "roots_present": [
+    "حرم",
+    "بعض",
+    "قتل"
+   ]
+  },
+  {
+   "ayah": "6:94",
+   "degree": 3,
+   "roots_present": [
+    "وري",
+    "شرك",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "9:33",
+   "degree": 3,
+   "roots_present": [
+    "دين",
+    "شرك",
+    "حقق"
+   ]
+  },
+  {
+   "ayah": "9:48",
+   "degree": 3,
+   "roots_present": [
+    "قلب",
+    "حقق",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "61:9",
+   "degree": 3,
+   "roots_present": [
+    "دين",
+    "شرك",
+    "حقق"
+   ]
+  },
+  {
+   "ayah": "2:101",
+   "degree": 2,
+   "roots_present": [
+    "وري",
+    "جيا"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "ظهر+بطن": [
+   "6:120",
+   "6:151",
+   "7:33",
+   "31:20",
+   "57:3",
+   "57:13"
+  ],
+  "ظهر+وري": [
+   "2:101",
+   "3:187",
+   "6:94",
+   "11:92",
+   "57:13",
+   "84:10"
+  ],
+  "ظهر+حرم": [
+   "2:85",
+   "6:138",
+   "6:146",
+   "6:151",
+   "7:33"
+  ],
+  "ظهر+دين": [
+   "9:33",
+   "40:26",
+   "48:28",
+   "60:9",
+   "61:9"
+  ],
+  "ظهر+بعض": [
+   "2:85",
+   "17:88",
+   "24:58",
+   "30:41",
+   "66:3"
+  ],
+  "ظهر+شرك": [
+   "6:94",
+   "6:151",
+   "7:33",
+   "9:4",
+   "9:33",
+   "13:33",
+   "34:22",
+   "61:9"
+  ],
+  "ظهر+قتل": [
+   "2:85",
+   "6:151",
+   "33:26",
+   "40:26",
+   "60:9"
+  ],
+  "ظهر+قلب": [
+   "9:8",
+   "9:48",
+   "33:4",
+   "33:26",
+   "66:4"
+  ],
+  "ظهر+حقق": [
+   "6:151",
+   "7:33",
+   "9:33",
+   "9:48",
+   "28:48",
+   "33:4",
+   "48:28",
+   "61:9"
+  ],
+  "ظهر+جيا": [
+   "2:101",
+   "6:31",
+   "6:94",
+   "9:48",
+   "28:48",
+   "35:45",
+   "40:29"
+  ],
+  "ظهر+اله": [
+   "2:85",
+   "2:101",
+   "2:189",
+   "3:187",
+   "6:31",
+   "6:138",
+   "6:151",
+   "7:33",
+   "9:4",
+   "9:48",
+   "11:92",
+   "13:33",
+   "24:31",
+   "24:58",
+   "25:55",
+   "31:20",
+   "33:4",
+   "34:22",
+   "35:45",
+   "40:29"
+  ],
+  "ظهر+بغي": [
+   "6:146",
+   "7:33",
+   "9:48"
+  ],
+  "ظهر+ثمن": [
+   "3:187",
+   "18:22"
+  ],
+  "ظهر+برر": [
+   "2:189",
+   "30:41"
+  ],
+  "ظهر+فوه": [
+   "9:8",
+   "33:4"
+  ],
+  "ظهر+رجم": [
+   "18:20",
+   "18:22"
+  ],
+  "ظهر+فحش": [
+   "6:151",
+   "7:33"
+  ],
+  "ظهر+بوب": [
+   "2:189",
+   "57:13"
+  ],
+  "ظهر+ثلث": [
+   "18:22",
+   "24:58"
+  ],
+  "ظهر+حين": [
+   "21:39",
+   "24:58",
+   "30:18"
+  ],
+  "ظهر+مرر": [
+   "6:94",
+   "24:58"
+  ],
+  "ظهر+غفل": [
+   "2:85",
+   "7:172",
+   "30:7"
+  ],
+  "ظهر+فلح": [
+   "2:189",
+   "18:20",
+   "24:31"
+  ],
+  "ظهر+كره": [
+   "9:33",
+   "9:48",
+   "61:9"
+  ],
+  "ظهر+طوف": [
+   "24:58",
+   "61:14"
+  ],
+  "ظهر+سخر": [
+   "31:20",
+   "43:13"
+  ],
+  "ظهر+وذر": [
+   "6:120",
+   "40:26"
+  ],
+  "ظهر+اثم": [
+   "2:85",
+   "6:120",
+   "7:33"
+  ],
+  "ظهر+نسو": [
+   "24:31",
+   "58:2",
+   "58:3"
+  ]
+ }
+}
