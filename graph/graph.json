@@ -122,6 +122,7 @@
   "خرج",
   "خزن",
   "خزي",
+  "خسر",
   "خشي",
   "خطا",
   "خطب",
@@ -743,7 +744,8 @@
   "تلو",
   "سحر",
   "جري",
-  "عين"
+  "عين",
+  "خسر"
  ],
  "open_queue": [
   "اتي",
@@ -2262,6 +2264,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "خسر",
+   "directions": {
+    "خسر→اخر": {
+     "breath": 295,
+     "lift": 3.006,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -13013,6 +13031,22 @@
   },
   {
    "a": "حقق",
+   "b": "خسر",
+   "directions": {
+    "خسر→حقق": {
+     "breath": 295,
+     "lift": 1.976,
+     "p": 0.0498,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حقق",
    "b": "سحر",
    "directions": {
     "سحر→حقق": {
@@ -14139,6 +14173,102 @@
      "breath": 148,
      "lift": 4.824,
      "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خسر",
+   "b": "رحم",
+   "directions": {
+    "خسر→رحم": {
+     "breath": 295,
+     "lift": 2.324,
+     "p": 0.0365,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خسر",
+   "b": "ضلل",
+   "directions": {
+    "خسر→ضلل": {
+     "breath": 295,
+     "lift": 3.668,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خسر",
+   "b": "غير",
+   "directions": {
+    "خسر→غير": {
+     "breath": 295,
+     "lift": 4.271,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خسر",
+   "b": "قبل",
+   "directions": {
+    "خسر→قبل": {
+     "breath": 295,
+     "lift": 2.948,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خسر",
+   "b": "نفس",
+   "directions": {
+    "خسر→نفس": {
+     "breath": 295,
+     "lift": 3.849,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خسر",
+   "b": "يوم",
+   "directions": {
+    "خسر→يوم": {
+     "breath": 295,
+     "lift": 1.93,
+     "p": 0.0266,
      "stable": false,
      "tier": "محتمل",
      "shared": 7
