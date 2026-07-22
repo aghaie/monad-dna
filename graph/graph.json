@@ -14,10 +14,12 @@
   "امر",
   "امن",
   "اهل",
+  "ايي",
   "بدل",
   "بسط",
   "بطن",
   "بعث",
+  "بعد",
   "بعض",
   "بغي",
   "بقي",
@@ -77,6 +79,7 @@
   "سجد",
   "سرر",
   "سقي",
+  "سمع",
   "سمو",
   "سوا",
   "سوق",
@@ -137,6 +140,7 @@
   "قوم",
   "كبر",
   "كتب",
+  "كثر",
   "كرم",
   "كره",
   "كسو",
@@ -155,6 +159,7 @@
   "موت",
   "مول",
   "موه",
+  "نزل",
   "نسو",
   "نصح",
   "نصر",
@@ -204,12 +209,14 @@
   "عدل",
   "كفي",
   "دبر",
-  "زين"
+  "زين",
+  "عقل"
  ],
  "open_queue": [
   "اتي",
   "امر",
   "امن",
+  "ايي",
   "بين",
   "جرم",
   "خبر",
@@ -219,7 +226,6 @@
   "شيا",
   "صلح",
   "عرف",
-  "عقل",
   "علم",
   "علو",
   "غيب",
@@ -339,6 +345,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "عقل",
+   "directions": {
+    "عقل→اخذ": {
+     "breath": 31,
+     "lift": 2.608,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1097,6 +1119,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ايي",
+   "b": "عقل",
+   "directions": {
+    "عقل→ايي": {
+     "breath": 31,
+     "lift": 4.687,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "بدل",
    "b": "خير",
    "directions": {
@@ -1259,6 +1297,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
+   "b": "عقل",
+   "directions": {
+    "عقل→بعد": {
+     "breath": 31,
+     "lift": 4.628,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -2155,9 +2209,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "عقل→حيي": {
+     "breath": 31,
+     "lift": 7.905,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -3297,6 +3359,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "سمع",
+   "b": "عقل",
+   "directions": {
+    "عقل→سمع": {
+     "breath": 31,
+     "lift": 4.685,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "سوا",
    "b": "عمل",
    "directions": {
@@ -3835,6 +3913,86 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عقل",
+   "b": "كثر",
+   "directions": {
+    "عقل→كثر": {
+     "breath": 31,
+     "lift": 3.928,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عقل",
+   "b": "ليل",
+   "directions": {
+    "عقل→ليل": {
+     "breath": 31,
+     "lift": 7.856,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عقل",
+   "b": "موت",
+   "directions": {
+    "عقل→موت": {
+     "breath": 31,
+     "lift": 6.23,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "عقل",
+   "b": "نزل",
+   "directions": {
+    "عقل→نزل": {
+     "breath": 31,
+     "lift": 3.962,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عقل",
+   "b": "نفس",
+   "directions": {
+    "عقل→نفس": {
+     "breath": 31,
+     "lift": 2.357,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,

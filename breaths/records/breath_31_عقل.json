@@ -1,0 +1,734 @@
+{
+ "breath_number": 31,
+ "deliberation": [
+  {
+   "root": "عقل",
+   "attestation": 49
+  },
+  {
+   "root": "خبر",
+   "attestation": 52
+  },
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "جرم",
+   "attestation": 66
+  },
+  {
+   "root": "عرف",
+   "attestation": 70
+  },
+  {
+   "root": "علو",
+   "attestation": 70
+  },
+  {
+   "root": "متع",
+   "attestation": 70
+  },
+  {
+   "root": "وكل",
+   "attestation": 70
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "عقل",
+ "attestation": 49,
+ "ayat": 49,
+ "top": [
+  {
+   "root": "حيي",
+   "shared": 10,
+   "expected": 1.27,
+   "lift": 7.905,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ليل",
+   "shared": 5,
+   "expected": 0.64,
+   "lift": 7.856,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "موت",
+   "shared": 7,
+   "expected": 1.12,
+   "lift": 6.23,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ايي",
+   "shared": 13,
+   "expected": 2.77,
+   "lift": 4.687,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سمع",
+   "shared": 6,
+   "expected": 1.28,
+   "lift": 4.685,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعد",
+   "shared": 8,
+   "expected": 1.73,
+   "lift": 4.628,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نزل",
+   "shared": 8,
+   "expected": 2.02,
+   "lift": 3.962,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كثر",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.928,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخذ",
+   "shared": 5,
+   "expected": 1.92,
+   "lift": 2.608,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نفس",
+   "shared": 5,
+   "expected": 2.12,
+   "lift": 2.357,
+   "p_perm": 0.0266,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "حيي",
+  "ليل",
+  "موت",
+  "ايي",
+  "سمع",
+  "كثر"
+ ],
+ "one_way": [
+  "بعد",
+  "نزل",
+  "اخذ",
+  "نفس"
+ ],
+ "neighbor_view": {
+  "حيي": {
+   "root": "عقل",
+   "shared": 10,
+   "expected": 1.27,
+   "lift": 7.905,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ليل": {
+   "root": "عقل",
+   "shared": 5,
+   "expected": 0.64,
+   "lift": 7.856,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "موت": {
+   "root": "عقل",
+   "shared": 7,
+   "expected": 1.12,
+   "lift": 6.23,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ايي": {
+   "root": "عقل",
+   "shared": 13,
+   "expected": 2.77,
+   "lift": 4.687,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سمع": {
+   "root": "عقل",
+   "shared": 6,
+   "expected": 1.28,
+   "lift": 4.685,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعد": null,
+  "نزل": null,
+  "كثر": {
+   "root": "عقل",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.928,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخذ": null,
+  "نفس": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "عقل↔فلح",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔صلو",
+   "shared": 1,
+   "expected": 0.71,
+   "lift": 1.41,
+   "p_perm": 0.5116
+  },
+  {
+   "pair": "عقل↔زكو",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔اذن",
+   "shared": 2,
+   "expected": 0.71,
+   "lift": 2.83,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "عقل↔نفق",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔سرر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔علن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔رزق",
+   "shared": 4,
+   "expected": 0.86,
+   "lift": 4.67,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "عقل↔بسط",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔طيب",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.77,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "عقل↔خبث",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔حلل",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔حرم",
+   "shared": 1,
+   "expected": 0.56,
+   "lift": 1.79,
+   "p_perm": 0.4452
+  },
+  {
+   "pair": "عقل↔سجد",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔اكل",
+   "shared": 2,
+   "expected": 0.79,
+   "lift": 2.52,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "عقل↔طوع",
+   "shared": 0,
+   "expected": 0.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔شهد",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔كبر",
+   "shared": 1,
+   "expected": 1.2,
+   "lift": 0.83,
+   "p_perm": 0.6977
+  },
+  {
+   "pair": "عقل↔حيي",
+   "shared": 10,
+   "expected": 1.27,
+   "lift": 7.9,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عقل↔خير",
+   "shared": 4,
+   "expected": 1.4,
+   "lift": 2.86,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "عقل↔ولي",
+   "shared": 0,
+   "expected": 1.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔عمل",
+   "shared": 0,
+   "expected": 2.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔رسل",
+   "shared": 1,
+   "expected": 3.37,
+   "lift": 0.3,
+   "p_perm": 0.9601
+  },
+  {
+   "pair": "عقل↔اله",
+   "shared": 19,
+   "expected": 14.76,
+   "lift": 1.29,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "عقل↔حبط",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔بقي",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 6.06,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "عقل↔عدل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔كفي",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔دبر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔زين",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.96,
+   "p_perm": 0.309
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "عقل↔فلح",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔زكو",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔نفق",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔سرر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔علن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔بسط",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔خبث",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔حلل",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔سجد",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔طوع",
+   "shared": 0,
+   "expected": 0.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔شهد",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔ولي",
+   "shared": 0,
+   "expected": 1.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔عمل",
+   "shared": 0,
+   "expected": 2.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔حبط",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔عدل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔كفي",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عقل↔دبر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:164",
+   "degree": 6,
+   "roots_present": [
+    "حيي",
+    "ليل",
+    "موت",
+    "ايي",
+    "بعد",
+    "نزل"
+   ]
+  },
+  {
+   "ayah": "45:5",
+   "degree": 6,
+   "roots_present": [
+    "حيي",
+    "ليل",
+    "موت",
+    "ايي",
+    "بعد",
+    "نزل"
+   ]
+  },
+  {
+   "ayah": "29:63",
+   "degree": 5,
+   "roots_present": [
+    "حيي",
+    "موت",
+    "بعد",
+    "نزل",
+    "كثر"
+   ]
+  },
+  {
+   "ayah": "30:24",
+   "degree": 5,
+   "roots_present": [
+    "حيي",
+    "موت",
+    "ايي",
+    "بعد",
+    "نزل"
+   ]
+  },
+  {
+   "ayah": "57:17",
+   "degree": 4,
+   "roots_present": [
+    "حيي",
+    "موت",
+    "ايي",
+    "بعد"
+   ]
+  },
+  {
+   "ayah": "2:73",
+   "degree": 3,
+   "roots_present": [
+    "حيي",
+    "موت",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "23:80",
+   "degree": 3,
+   "roots_present": [
+    "حيي",
+    "ليل",
+    "موت"
+   ]
+  },
+  {
+   "ayah": "24:61",
+   "degree": 3,
+   "roots_present": [
+    "حيي",
+    "ايي",
+    "نفس"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "عقل+حيي": [
+   "2:73",
+   "2:164",
+   "6:32",
+   "23:80",
+   "24:61",
+   "28:60",
+   "29:63",
+   "30:24",
+   "45:5",
+   "57:17"
+  ],
+  "عقل+ليل": [
+   "2:164",
+   "16:12",
+   "23:80",
+   "37:138",
+   "45:5"
+  ],
+  "عقل+موت": [
+   "2:73",
+   "2:164",
+   "23:80",
+   "29:63",
+   "30:24",
+   "45:5",
+   "57:17"
+  ],
+  "عقل+ايي": [
+   "2:73",
+   "2:164",
+   "2:242",
+   "3:118",
+   "13:4",
+   "16:12",
+   "16:67",
+   "24:61",
+   "29:35",
+   "30:24",
+   "30:28",
+   "45:5",
+   "57:17"
+  ],
+  "عقل+سمع": [
+   "2:75",
+   "2:171",
+   "10:42",
+   "22:46",
+   "25:44",
+   "67:10"
+  ],
+  "عقل+بعد": [
+   "2:75",
+   "2:164",
+   "3:65",
+   "7:169",
+   "29:63",
+   "30:24",
+   "45:5",
+   "57:17"
+  ],
+  "عقل+نزل": [
+   "2:164",
+   "2:170",
+   "3:65",
+   "12:2",
+   "21:10",
+   "29:63",
+   "30:24",
+   "45:5"
+  ],
+  "عقل+كثر": [
+   "5:103",
+   "25:44",
+   "29:63",
+   "36:62",
+   "49:4"
+  ],
+  "عقل+اخذ": [
+   "3:118",
+   "5:58",
+   "7:169",
+   "16:67",
+   "39:43"
+  ],
+  "عقل+نفس": [
+   "2:44",
+   "6:151",
+   "10:100",
+   "24:61",
+   "30:28"
+  ],
+  "عقل+رزق": [
+   "6:151",
+   "16:67",
+   "30:28",
+   "45:5"
+  ]
+ }
+}
