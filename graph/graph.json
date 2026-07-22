@@ -171,6 +171,7 @@
   "صدد",
   "صدر",
   "صرط",
+  "صرف",
   "صفو",
   "صلح",
   "صلي",
@@ -511,7 +512,8 @@
   "ودد",
   "جدل",
   "افك",
-  "انث"
+  "انث",
+  "صرف"
  ],
  "open_queue": [
   "اتي",
@@ -3994,6 +3996,22 @@
   },
   {
    "a": "ايي",
+   "b": "صرف",
+   "directions": {
+    "صرف→ايي": {
+     "breath": 176,
+     "lift": 5.482,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ايي",
    "b": "عرض",
    "directions": {
     "عرض→ايي": {
@@ -4858,6 +4876,22 @@
   },
   {
    "a": "بعد",
+   "b": "صرف",
+   "directions": {
+    "صرف→بعد": {
+     "breath": 176,
+     "lift": 4.887,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
    "b": "عفو",
    "directions": {
     "عفو→بعد": {
@@ -5331,6 +5365,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
+   "b": "صرف",
+   "directions": {
+    "صرف→بين": {
+     "breath": 176,
+     "lift": 2.368,
+     "p": 0.0432,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -8498,6 +8548,22 @@
   },
   {
    "a": "راي",
+   "b": "صرف",
+   "directions": {
+    "صرف→راي": {
+     "breath": 176,
+     "lift": 5.792,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "راي",
    "b": "طير",
    "directions": {
     "طير→راي": {
@@ -10767,6 +10833,54 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "صرف",
+   "b": "قرا",
+   "directions": {
+    "صرف→قرا": {
+     "breath": 176,
+     "lift": 13.61,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صرف",
+   "b": "قوم",
+   "directions": {
+    "صرف→قوم": {
+     "breath": 176,
+     "lift": 2.521,
+     "p": 0.0266,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "صرف",
+   "b": "نزل",
+   "directions": {
+    "صرف→نزل": {
+     "breath": 176,
+     "lift": 5.02,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "صلح",
