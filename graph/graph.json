@@ -3,35 +3,48 @@
  "nodes": [
   "اتي",
   "اخر",
+  "اذن",
+  "الم",
   "اله",
   "امر",
   "امن",
   "بعث",
   "بيت",
+  "خلف",
   "خير",
   "رزق",
   "رسل",
+  "رضو",
   "زكو",
+  "شفع",
   "صبر",
   "صلو",
+  "صوب",
   "ظلم",
   "فلح",
   "قرب",
+  "قلب",
   "قوم",
+  "كبر",
   "كتب",
+  "كلم",
   "نفق",
   "نهي",
   "وجد",
-  "وقي"
+  "وقر",
+  "وقي",
+  "يدي"
  ],
  "visited_roots": [
   "فلح",
   "صلو",
-  "زكو"
+  "زكو",
+  "اذن"
  ],
  "open_queue": [
   "اتي",
   "امن",
+  "قلب",
   "قوم",
   "نفق"
  ],
@@ -79,6 +92,166 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "الم",
+   "directions": {
+    "اذن→الم": {
+     "breath": 4,
+     "lift": 4.746,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "خلف",
+   "directions": {
+    "اذن→خلف": {
+     "breath": 4,
+     "lift": 3.584,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "رضو",
+   "directions": {
+    "اذن→رضو": {
+     "breath": 4,
+     "lift": 5.413,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "شفع",
+   "directions": {
+    "اذن→شفع": {
+     "breath": 4,
+     "lift": 13.325,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "صوب",
+   "directions": {
+    "اذن→صوب": {
+     "breath": 4,
+     "lift": 6.187,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "قلب",
+   "directions": {
+    "اذن→قلب": {
+     "breath": 4,
+     "lift": 5.364,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اذن",
+   "b": "كبر",
+   "directions": {
+    "اذن→كبر": {
+     "breath": 4,
+     "lift": 3.623,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "كلم",
+   "directions": {
+    "اذن→كلم": {
+     "breath": 4,
+     "lift": 4.879,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "وقر",
+   "directions": {
+    "اذن→وقر": {
+     "breath": 4,
+     "lift": 46.193,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اذن",
+   "b": "يدي",
+   "directions": {
+    "اذن→يدي": {
+     "breath": 4,
+     "lift": 5.039,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,

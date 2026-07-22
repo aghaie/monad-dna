@@ -1,0 +1,416 @@
+{
+ "breath_number": 4,
+ "deliberation": [
+  {
+   "root": "اذن",
+   "attestation": 102
+  },
+  {
+   "root": "نفق",
+   "attestation": 111
+  },
+  {
+   "root": "شهد",
+   "attestation": 160
+  },
+  {
+   "root": "كبر",
+   "attestation": 161
+  },
+  {
+   "root": "حيي",
+   "attestation": 184
+  },
+  {
+   "root": "خير",
+   "attestation": 196
+  },
+  {
+   "root": "ولي",
+   "attestation": 232
+  },
+  {
+   "root": "عمل",
+   "attestation": 360
+  },
+  {
+   "root": "رسل",
+   "attestation": 513
+  },
+  {
+   "root": "اتي",
+   "attestation": 549
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "اذن",
+ "attestation": 102,
+ "ayat": 90,
+ "top": [
+  {
+   "root": "وقر",
+   "shared": 6,
+   "expected": 0.13,
+   "lift": 46.193,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شفع",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.325,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "صوب",
+   "shared": 5,
+   "expected": 0.81,
+   "lift": 6.187,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رضو",
+   "shared": 5,
+   "expected": 0.92,
+   "lift": 5.413,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قلب",
+   "shared": 12,
+   "expected": 2.24,
+   "lift": 5.364,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "يدي",
+   "shared": 8,
+   "expected": 1.59,
+   "lift": 5.039,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلم",
+   "shared": 5,
+   "expected": 1.02,
+   "lift": 4.879,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "الم",
+   "shared": 5,
+   "expected": 1.05,
+   "lift": 4.746,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كبر",
+   "shared": 8,
+   "expected": 2.21,
+   "lift": 3.623,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خلف",
+   "shared": 6,
+   "expected": 1.67,
+   "lift": 3.584,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "وقر",
+  "شفع",
+  "صوب",
+  "رضو",
+  "كلم",
+  "الم",
+  "كبر"
+ ],
+ "one_way": [
+  "قلب",
+  "يدي",
+  "خلف"
+ ],
+ "neighbor_view": {
+  "وقر": {
+   "root": "اذن",
+   "shared": 6,
+   "expected": 0.13,
+   "lift": 46.193,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شفع": {
+   "root": "اذن",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.325,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "صوب": {
+   "root": "اذن",
+   "shared": 5,
+   "expected": 0.81,
+   "lift": 6.187,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رضو": {
+   "root": "اذن",
+   "shared": 5,
+   "expected": 0.92,
+   "lift": 5.413,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قلب": null,
+  "يدي": null,
+  "كلم": {
+   "root": "اذن",
+   "shared": 5,
+   "expected": 1.02,
+   "lift": 4.879,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "الم": {
+   "root": "اذن",
+   "shared": 5,
+   "expected": 1.05,
+   "lift": 4.746,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كبر": {
+   "root": "اذن",
+   "shared": 8,
+   "expected": 2.21,
+   "lift": 3.623,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خلف": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "اذن↔فلح",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اذن↔صلو",
+   "shared": 1,
+   "expected": 1.3,
+   "lift": 0.77,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "اذن↔زكو",
+   "shared": 1,
+   "expected": 0.81,
+   "lift": 1.24,
+   "p_perm": 0.5449
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "اذن↔فلح",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:255",
+   "degree": 3,
+   "roots_present": [
+    "شفع",
+    "يدي",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "9:93",
+   "degree": 3,
+   "roots_present": [
+    "رضو",
+    "قلب",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "18:57",
+   "degree": 3,
+   "roots_present": [
+    "وقر",
+    "قلب",
+    "يدي"
+   ]
+  },
+  {
+   "ayah": "20:71",
+   "degree": 3,
+   "roots_present": [
+    "يدي",
+    "كبر",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "26:49",
+   "degree": 3,
+   "roots_present": [
+    "يدي",
+    "كبر",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "31:7",
+   "degree": 3,
+   "roots_present": [
+    "وقر",
+    "الم",
+    "كبر"
+   ]
+  },
+  {
+   "ayah": "34:23",
+   "degree": 3,
+   "roots_present": [
+    "شفع",
+    "قلب",
+    "كبر"
+   ]
+  },
+  {
+   "ayah": "2:97",
+   "degree": 2,
+   "roots_present": [
+    "قلب",
+    "يدي"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "اذن+وقر": [
+   "6:25",
+   "17:46",
+   "18:57",
+   "31:7",
+   "41:5",
+   "41:44"
+  ],
+  "اذن+شفع": [
+   "2:255",
+   "10:3",
+   "20:109",
+   "34:23",
+   "53:26"
+  ],
+  "اذن+صوب": [
+   "2:19",
+   "3:166",
+   "9:90",
+   "64:11",
+   "78:38"
+  ],
+  "اذن+رضو": [
+   "5:16",
+   "9:83",
+   "9:93",
+   "20:109",
+   "53:26"
+  ],
+  "اذن+قلب": [
+   "2:97",
+   "6:25",
+   "7:179",
+   "9:45",
+   "9:93",
+   "17:46",
+   "18:57",
+   "22:46",
+   "33:53",
+   "34:23",
+   "41:5",
+   "64:11"
+  ],
+  "اذن+يدي": [
+   "2:97",
+   "2:249",
+   "2:255",
+   "7:195",
+   "18:57",
+   "20:71",
+   "26:49",
+   "34:12"
+  ],
+  "اذن+كلم": [
+   "5:110",
+   "11:105",
+   "42:21",
+   "42:51",
+   "78:38"
+  ],
+  "اذن+الم": [
+   "9:3",
+   "9:61",
+   "9:90",
+   "31:7",
+   "42:21"
+  ],
+  "اذن+كبر": [
+   "9:3",
+   "12:80",
+   "20:71",
+   "26:49",
+   "31:7",
+   "34:23",
+   "35:32",
+   "71:7"
+  ],
+  "اذن+خلف": [
+   "2:213",
+   "2:255",
+   "9:83",
+   "9:93",
+   "20:71",
+   "26:49"
+  ]
+ }
+}
