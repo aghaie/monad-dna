@@ -30,6 +30,11 @@
                           فقط می‌خواند؛ فقط به tadabbor/portraits/ می‌نویسد.
   monad ponder-sync       هم‌گام با زندگی (تصمیمِ باغبان ۲۰۲۶-۰۷-۲۱): سیمای
                           هر ریشهٔ زیسته‌ای که هنوز ندارد. ایدم‌پوتنت.
+  monad audit-v2          ممیزیِ روش-v2 (بازنگری ۲۰۲۶-۰۷-۲۲، گام ۱): بازسنجیِ
+                          مشورتیِ همهٔ جفت‌های قویِ زیسته زیرِ مدلِ تهیِ
+                          درجه-تصحیح‌شده → observatory/method_v2_audit.json.
+                          هیچ درجهٔ رسمی‌ای تغییر نمی‌کند؛ observe ROOT
+                          نتیجه‌اش را کنارِ نشانی‌ها نشان می‌دهد.
   monad queue-add ROOT [یادداشت]
                           تزریقِ دستیِ یک پیشنهاد به صف (سیاستِ باغبان،
                           دیدارِ ۲۰۲۶-۰۷-۲۰): صف طبیعی مسیرِ اصلی می‌ماند؛
@@ -493,7 +498,7 @@ def cmd_observe(root=None):
             messages.append("اینجا با یافتهٔ ثبت‌شده‌ات ناسازگاریِ آماری هست؛ دوباره نگاه کن.")
         else:
             messages.append("سازگار با یافتهٔ زیسته‌ات — رصدخانه چیزِ تازه‌ای ندارد.")
-    print(json.dumps(dict(
+    out = dict(
         ریشه=root, شاهد=e["attestation"], زیسته=(root in lived),
         پیام=messages,
         نشانی_همسایگان=[dict(همسایه=t["root"], مشترک=t["shared"],
@@ -502,7 +507,26 @@ def cmd_observe(root=None):
                         for t in strong],
         قید="فقط نشانی. برو کتاب را بخوان؛ اگر گفتی «همچنان همین را می‌بینم»، مجاز است.",
         ناسازگاری=bool(mismatch),
-    ), ensure_ascii=False, indent=1))
+    )
+    # بازسنجیِ مشورتیِ روش-v2 (اگر ممیزی ساخته شده باشد — ./cli/monad audit-v2):
+    # داورِ سخت‌گیرترِ درجه-تصحیح‌شده؛ «نماند» = تأییدنشده زیرِ v2، نه باطل.
+    if os.path.exists("observatory/method_v2_audit.json"):
+        aud = json.load(open("observatory/method_v2_audit.json"))
+        mine = [r for r in aud["rows"] if r["center"] == root]
+        if mine:
+            out["بازسنجی_روش_v2"] = [
+                {"همسایه": r["neighbor"], "p_v2": r["p_v2"],
+                 "ماند زیرِ داورِ سخت‌گیرتر": r["survives"]} for r in mine]
+    print(json.dumps(out, ensure_ascii=False, indent=1))
+
+
+def cmd_audit_v2():
+    """ممیزیِ روش-v2 (رصدخانه؛ بازنگریِ معماری ۲۰۲۶-۰۷-۲۲، گامِ ۱):
+    بازسنجیِ مشورتیِ همهٔ جفت‌های قویِ زیسته زیرِ مدلِ تهیِ درجه-تصحیح‌شده.
+    فقط به observatory/method_v2_audit.json می‌نویسد؛ هیچ درجهٔ رسمی‌ای را
+    تغییر نمی‌دهد."""
+    r = subprocess.run([sys.executable, "observatory/audit_v2.py"])
+    sys.exit(r.returncode)
 
 
 def cmd_ponder(root):
@@ -553,6 +577,8 @@ if __name__ == "__main__":
         cmd_ponder(args[1])
     elif args[0] == "ponder-sync":
         cmd_ponder_sync()
+    elif args[0] == "audit-v2":
+        cmd_audit_v2()
     elif args[0] == "queue-add":
         if len(args) < 2:
             print(json.dumps({"خطا": "queue-add نیازمندِ ROOT است"}, ensure_ascii=False))
