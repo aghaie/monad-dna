@@ -588,7 +588,8 @@
   "بطل",
   "حدث",
   "نكر",
-  "سبق"
+  "سبق",
+  "فتح"
  ],
  "open_queue": [
   "اتي",
@@ -4068,6 +4069,22 @@
   },
   {
    "a": "امن",
+   "b": "فتح",
+   "directions": {
+    "فتح→امن": {
+     "breath": 211,
+     "lift": 2.352,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
    "b": "فوز",
    "directions": {
     "فوز→امن": {
@@ -6661,9 +6678,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "فتح→بوب": {
+     "breath": 211,
+     "lift": 70.864,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -6849,6 +6874,22 @@
     "عفو→بين": {
      "breath": 11,
      "lift": 3.102,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
+   "b": "فتح",
+   "directions": {
+    "فتح→بين": {
+     "breath": 211,
+     "lift": 2.914,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -8525,6 +8566,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جيا",
+   "b": "فتح",
+   "directions": {
+    "فتح→جيا": {
+     "breath": 211,
+     "lift": 3.606,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -12484,6 +12541,22 @@
   },
   {
    "a": "سمو",
+   "b": "فتح",
+   "directions": {
+    "فتح→سمو": {
+     "breath": 211,
+     "lift": 3.221,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سمو",
    "b": "فطر",
    "directions": {
     "فطر→سمو": {
@@ -14969,6 +15042,22 @@
    },
    "mutual_strong": true,
    "best_tier": "قوی"
+  },
+  {
+   "a": "عند",
+   "b": "فتح",
+   "directions": {
+    "فتح→عند": {
+     "breath": 211,
+     "lift": 5.999,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "عهد",
