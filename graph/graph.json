@@ -633,7 +633,8 @@
   "فصل",
   "حشر",
   "مكر",
-  "سرر"
+  "سرر",
+  "دبر"
  ],
  "open_queue": [
   "اتي",
@@ -3918,6 +3919,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امر",
+   "b": "دبر",
+   "directions": {
+    "دبر→امر": {
+     "breath": 233,
+     "lift": 5.017,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امر",
@@ -11161,6 +11178,22 @@
   },
   {
    "a": "دبر",
+   "b": "راي",
+   "directions": {
+    "دبر→راي": {
+     "breath": 233,
+     "lift": 2.386,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دبر",
    "b": "قطع",
    "directions": {
     "قطع→دبر": {
@@ -11170,10 +11203,34 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "دبر→قطع": {
+     "breath": 233,
+     "lift": 19.684,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "دبر",
+   "b": "ولي",
+   "directions": {
+    "دبر→ولي": {
+     "breath": 233,
+     "lift": 11.928,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "دخل",
