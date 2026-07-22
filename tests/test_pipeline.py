@@ -47,27 +47,22 @@ def test_plan_one_equals_breathe_record(tmp_path):
         planned.encode()).hexdigest()
 
 
-def test_plan_replays_founding_state(tmp_path):
-    """آزمونِ طلایی ۲ (بازلنگر پس از تولدِ دوباره — بازپخشِ ۱۹۰–۱۹۲ با
-    زندگیِ یکم بایگانی شد): برنامه از حالتِ بنیان‌گذار (upto=0؛ صفِ
-    یازده‌ریشه‌ایِ اذان) باید سه نادرترین را به ترتیب بدهد — فلح (۴۰)،
-    صلو (۹۹)، اذن (۱۰۲) — و دوباره‌برنامه‌ریزی همان بایت‌ها را بازبسازد.
-    وقتی نفس‌های ۱–۳ زیسته شدند، مقایسهٔ بایت‌به‌بایت با رکوردها هم
-    برمی‌گردد (لنگرِ upto=0 برای همیشه همین حالت را می‌دهد)."""
-    jobs = core.plan(3, upto=0, root_dir=str(tmp_path))
+def test_plan_replays_history_9_11(tmp_path):
+    """آزمونِ طلایی ۲ (بازلنگرِ زندگیِ دوم؛ بازپخشِ ۱۹۰–۱۹۲ با زندگیِ یکم
+    بایگانی شد): برنامه از حالتِ ≤۸ باید نفس‌های واقعاً زیستهٔ ۹ (بسط)،
+    ۱۰ (طيب)، ۱۱ (خبث) را بایت‌به‌بایت بازبسازد — هم‌ارزی با اجرای
+    ترتیبیِ واقعاً رخ‌داده. (بازپخش از upto=0 برای نفس‌های ۲+ سنجیدنی
+    نیست: رشدِ واقعیِ صف در افقِ برنامه نیست — درسِ روزِ تولد.)"""
+    jobs = core.plan(3, upto=8, root_dir=str(tmp_path))
     got = [(j["breath_no"], j["root"]) for j in jobs]
-    assert got == [(1, "فلح"), (2, "صلو"), (3, "اذن")], got
-    jobs2 = core.plan(3, upto=0, root_dir=str(tmp_path))
-    assert [j["record_sha256"] for j in jobs] == \
-        [j["record_sha256"] for j in jobs2], "برنامه‌ریزی قطعی نیست"
+    assert got == [(9, "بسط"), (10, "طيب"), (11, "خبث")], got
     for j in jobs:
-        rec_path = f"breaths/records/breath_{j['breath_no']}_{j['root']}.json"
-        if os.path.exists(rec_path):
-            planned = open(os.path.join(tmp_path, "work",
-                                        f"{j['breath_no']}_{j['root']}",
-                                        "record.json"), encoding="utf-8").read()
-            assert planned == open(rec_path, encoding="utf-8").read(), \
-                f"ناهم‌ارزی در نفس {j['breath_no']}"
+        planned = open(os.path.join(tmp_path, "work",
+                                    f"{j['breath_no']}_{j['root']}",
+                                    "record.json"), encoding="utf-8").read()
+        actual = open(f"breaths/records/breath_{j['breath_no']}_{j['root']}.json",
+                      encoding="utf-8").read()
+        assert planned == actual, f"ناهم‌ارزی در نفس {j['breath_no']}"
 
 
 def test_plan_preserves_completed_cache(tmp_path):
