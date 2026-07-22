@@ -716,7 +716,8 @@
   "ضرب",
   "زكو",
   "نسو",
-  "نكح"
+  "نكح",
+  "ضعف"
  ],
  "open_queue": [
   "اتي",
@@ -759,7 +760,6 @@
   "شطن",
   "شكر",
   "شيا",
-  "ضعف",
   "ضلل",
   "طوع",
   "ظلم",
@@ -1226,6 +1226,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اتي",
+   "b": "ضعف",
+   "directions": {
+    "ضعف→اتي": {
+     "breath": 278,
+     "lift": 1.996,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اتي",
@@ -10421,6 +10437,22 @@
   },
   {
    "a": "جعل",
+   "b": "ضعف",
+   "directions": {
+    "ضعف→جعل": {
+     "breath": 278,
+     "lift": 2.674,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جعل",
    "b": "فاد",
    "directions": {
     "فاد→جعل": {
@@ -11894,6 +11926,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 28
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حسن",
+   "b": "ضعف",
+   "directions": {
+    "ضعف→حسن": {
+     "breath": 278,
+     "lift": 5.48,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -14653,6 +14701,22 @@
   },
   {
    "a": "راي",
+   "b": "ضعف",
+   "directions": {
+    "ضعف→راي": {
+     "breath": 278,
+     "lift": 2.333,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "راي",
    "b": "طير",
    "directions": {
     "طير→راي": {
@@ -16318,6 +16382,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبل",
+   "b": "ضعف",
+   "directions": {
+    "ضعف→سبل": {
+     "breath": 278,
+     "lift": 5.07,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -19205,10 +19285,82 @@
   },
   {
    "a": "ضعف",
+   "b": "ظلم",
+   "directions": {
+    "ضعف→ظلم": {
+     "breath": 278,
+     "lift": 2.389,
+     "p": 0.0432,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ضعف",
+   "b": "عذب",
+   "directions": {
+    "ضعف→عذب": {
+     "breath": 278,
+     "lift": 3.712,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ضعف",
+   "b": "كبر",
+   "directions": {
+    "ضعف→كبر": {
+     "breath": 278,
+     "lift": 8.152,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ضعف",
+   "b": "كون",
+   "directions": {
+    "ضعف→كون": {
+     "breath": 278,
+     "lift": 2.003,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ضعف",
    "b": "نسو",
    "directions": {
     "نسو→ضعف": {
      "breath": 276,
+     "lift": 13.073,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "ضعف→نسو": {
+     "breath": 278,
      "lift": 13.073,
      "p": 0.0033,
      "stable": false,
