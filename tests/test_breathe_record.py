@@ -72,8 +72,14 @@ def generated():
 
 
 def test_found_bridge_records():
-    """پوشش واقعی است — نه اینکه صفر رکورد بی‌صدا آزمون شود."""
-    assert len(BRIDGE) >= 25, f"انتظارِ ≥۲۵ رکوردِ پل، یافت: {len(BRIDGE)}"
+    """پوشش واقعی است — نه اینکه رکوردی بی‌صدا از قلم بیفتد: تعدادِ رکوردهای
+    L3ِ یافته باید عیناً با نفس‌های L3ِ life.db بخواند. (کفِ ثابتِ ۲۵ به
+    زندگیِ یکم تعلق داشت که با تولدِ دوباره بایگانی شد؛ در تولد: ۰==۰.)"""
+    import sqlite3
+    n_db = sqlite3.connect(os.path.join(ROOT, "database/life.db")).execute(
+        "SELECT COUNT(*) FROM breaths WHERE record_file LIKE "
+        "'breaths/records/breath!_%' ESCAPE '!'").fetchone()[0]
+    assert len(BRIDGE) == n_db, f"رکوردهای L3: {len(BRIDGE)} ≠ نفس‌های پایگاه: {n_db}"
 
 
 @pytest.mark.parametrize("name,path,rec", BRIDGE, ids=[b[0] for b in BRIDGE])

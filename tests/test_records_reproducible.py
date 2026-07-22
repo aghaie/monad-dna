@@ -21,7 +21,13 @@ CASES = _monad_cli.verify_checks(sqlite3.connect("database/life.db"))
 
 
 def test_all_records_byte_identical():
-    assert len(CASES) >= 37, "پوششِ نفس‌های تاریخی نباید کوچک شود"
+    # پوشش از حالتِ زنده مشتق است: هر نفسِ life.db باید جفتِ (اسکریپت،
+    # رکورد) بدهد. کفِ ثابتِ ۳۷ اسکریپتِ تاریخی با زندگیِ یکم بایگانی شد
+    # (تولدِ دوباره ۲۰۲۶-۰۷-۲۲؛ هم‌ارزیِ موتور با آن رکوردها را
+    # test_engine_equivalence بر archive/life-1 نگه می‌دارد).
+    n_breaths = sqlite3.connect("database/life.db").execute(
+        "SELECT COUNT(*) FROM breaths").fetchone()[0]
+    assert len(CASES) >= (1 if n_breaths else 0), "پوششِ نفس‌ها نباید کوچک شود"
     # همان موتورِ cmd_verify (run_verify) — فرمان‌ها و مقایسهٔ بایت‌به‌بایت
     # عیناً همان؛ اجرا موازی.
     mismatched = [cmd for cmd, record, ok in _monad_cli.run_verify(CASES) if not ok]

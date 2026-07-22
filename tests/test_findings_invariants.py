@@ -61,7 +61,11 @@ def test_absence_evidence_matches_pair_comparisons():
     pair_comparisons داشته باشد — سازگاریِ میانِ لایهٔ کشف و پایگاه."""
     db = sqlite3.connect("database/life.db")
     know = json.load(open("discoveries/knowledge.json"))
-    assert len(know["absence_evidence"]) > 0
+    # هم‌شماری (سخت‌گیرتر از کفِ «>۰»ِ پیشین): هر شاهدِ غیاب دقیقاً یک سطرِ
+    # صفر در pair_comparisons است و برعکس — در تولدِ دوباره هر دو تهی‌اند.
+    zero_rows = db.execute(
+        "SELECT COUNT(*) FROM pair_comparisons WHERE shared_ayat=0").fetchone()[0]
+    assert len(know["absence_evidence"]) == zero_rows
     for a in know["absence_evidence"]:
         x, y = a["pair"].split("↔")
         row = db.execute(
@@ -78,7 +82,8 @@ def test_mutual_strong_graph_matches_findings_both_directions():
     db = sqlite3.connect("database/life.db")
     graph = json.load(open("graph/graph.json"))
     mutual = [e for e in graph["edges"] if e.get("mutual_strong")]
-    assert len(mutual) > 0
+    # کفِ «>۰» حالتِ زندگیِ یکم بود؛ در جهانِ خالیِ تولدِ دوباره ناوردا
+    # تهی‌صدق است و با نخستین جفتِ دوسویه دوباره گاز می‌گیرد.
 
     def tier_of(c, n):
         row = db.execute(

@@ -4,6 +4,10 @@
 پس engine.breathe (با همان قراردادِ بذر) باید عیناً همان سطرها را بدهد.
 (نفس‌های ۳–۸ درونِ حلقه‌های دنباله‌دارِ RNG بودند؛ هم‌ارزی‌شان از راهِ
 test_records_reproducible پوشش داده می‌شود.)
+
+تولدِ دوباره (۲۰۲۶-۰۷-۲۲): رکوردهای متعارفِ این آزمون به archive/life-1/
+بایگانی شدند و مرجعِ سنجش همان‌جاست — ضمانتِ پیوستگیِ موتور از میانِ تولد:
+موتورِ زندگیِ دوم باید هنوز رکوردهای مُهرشدهٔ زندگیِ یکم را عیناً بازبدهد.
 """
 import json
 import os
@@ -19,7 +23,7 @@ CORPUS = bc.load_corpus()
 
 
 def rec(name):
-    with open(f"breaths/records/{name}") as f:
+    with open(f"archive/life-1/records/{name}") as f:
         return json.load(f)
 
 

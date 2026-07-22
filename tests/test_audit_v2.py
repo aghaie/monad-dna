@@ -19,8 +19,12 @@ from observatory import audit_v2
 def test_lived_roots_sorted_unique():
     roots = audit_v2.lived_roots()
     assert roots == sorted(set(roots))
-    assert "رحم" in roots      # نفس ۱
-    assert "طهر" in roots      # نفس ۱۸۵
+    # هم‌ارزی با حالتِ زنده — نه ثابت‌های زندگیِ یکم (رحم/طهر که با تولدِ
+    # دوباره بایگانی شدند): مجموعهٔ زیستهٔ ممیزی == مجموعهٔ زیستهٔ پایگاه.
+    import sqlite3
+    db_lived = {r for (r,) in sqlite3.connect("database/life.db").execute(
+        "SELECT pursued_root FROM breaths")}
+    assert set(roots) == db_lived
 
 
 def test_audit_structure_determinism_and_survives_flag(tmp_path):

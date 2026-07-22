@@ -28,7 +28,9 @@ def test_fingerprint_covers_record_determinants_and_is_stable():
     assert "engine/breath_cycle.py" in keys
     assert "cli/monad" in keys
     assert "database/corpus/monad.db" in keys
-    assert any(k.startswith("breaths/scripts/") for k in keys)
+    # اسکریپت‌های تاریخیِ per-breath متعلق به زندگیِ یکم بودند (بایگانی در
+    # تولدِ دوباره)؛ glob هنوز فعال است و اگر اسکریپتی بازگردد می‌گیردش.
+    assert keys == set(attest.determinant_files())
     # هیچ مشتقی در اثرِ انگشت نیست (مشتق‌ها معلول‌اند، نه علت)
     assert not any("life.db" in k or "records/" in k for k in keys)
 
@@ -63,27 +65,46 @@ def _last_breath():
         "ORDER BY breath_no DESC LIMIT 1").fetchone()
 
 
-def test_verify_new_record_passes_on_frozen_record():
-    _, rec_file = _last_breath()
-    ok, why = attest.verify_new_record(rec_file)
+def _frozen_or_preview_record(tmp_path):
+    """رکوردِ سنجش: آخرین رکوردِ منجمد؛ در جهانِ خالیِ تولدِ دوباره، رکوردِ
+    پیش‌نمایشِ نفسِ ۱ (بی‌ثبت) — همان ضمانتِ بازتولیدِ بایت‌به‌بایت."""
+    import subprocess
+    last = _last_breath()
+    if last:
+        return last[1]
+    out = subprocess.run(["./cli/monad", "breathe-record"],
+                         capture_output=True, text=True).stdout
+    p = tmp_path / "breath_1_preview.json"
+    p.write_text(out, encoding="utf-8")
+    return str(p)
+
+
+def test_verify_new_record_passes_on_frozen_record(tmp_path):
+    ok, why = attest.verify_new_record(_frozen_or_preview_record(tmp_path))
     assert ok, why
 
 
 def test_verify_new_record_fails_on_tampered_record(tmp_path):
-    src = open("breaths/records/breath_207_بطل.json", encoding="utf-8").read()
+    import re
+    src = open(_frozen_or_preview_record(tmp_path), encoding="utf-8").read()
     # دستکاریِ یک مقدارِ مشتق (پایداریِ دونیمه) — نه پارامترِ ورودی؛ verify
     # فقط مشتق‌ها را می‌گیرد چون ورودی‌ها عیناً بازخورانده می‌شوند.
-    assert '"halves_overlap": 3' in src
-    bad = tmp_path / "breath_207_بطل.json"
-    bad.write_text(src.replace('"halves_overlap": 3',
-                               '"halves_overlap": 4', 1), encoding="utf-8")
+    m = re.search(r'"halves_overlap": (\d+)', src)
+    assert m, "رکورد باید halves_overlap داشته باشد"
+    bad = tmp_path / "breath_tampered.json"
+    bad.write_text(src.replace(m.group(0),
+                               f'"halves_overlap": {int(m.group(1)) + 1}', 1),
+                   encoding="utf-8")
     ok, _ = attest.verify_new_record(str(bad))
     assert not ok
 
 
 def test_delta_invariants_pass_for_last_breath():
-    no, _ = _last_breath()
-    ok, why = attest.delta_invariants(no)
+    import pytest
+    last = _last_breath()
+    if last is None:
+        pytest.skip("جهانِ خالیِ تولدِ دوباره — با نخستین نفسِ زندگیِ دوم فعال می‌شود")
+    ok, why = attest.delta_invariants(last[0])
     assert ok, why
 
 

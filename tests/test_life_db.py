@@ -41,22 +41,28 @@ def test_counts():
     # را می‌بست (کشفِ ۲۰۲۶-۰۷-۲۲).
     n, mn, mx = db.execute(
         "SELECT COUNT(*), MIN(breath_no), MAX(breath_no) FROM breaths").fetchone()
-    assert (mn, mx) == (1, n), f"شکاف در شماره‌گذاریِ نفس‌ها: {mn}..{mx}, n={n}"
-    assert n >= 193
-    # قوی‌ها append-only ⇒ فقط رشد می‌کنند؛ کفِ یکنواخت، نه عددِ لحظه‌ای.
+    if n:
+        assert (mn, mx) == (1, n), f"شکاف در شماره‌گذاریِ نفس‌ها: {mn}..{mx}, n={n}"
+    # تولدِ دوباره (۲۰۲۶-۰۷-۲۲): زندگیِ دوم از صفر نفس آغاز شد؛ کف‌های
+    # زندگیِ یکم (۱۹۳ نفس، ۳۷۳ قوی) با آن زندگی بایگانی شدند و با رشدِ
+    # زندگیِ دوم دوباره بالا می‌روند.
+    assert n >= 0
     assert db.execute(
-        "SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] >= 373
-    # ۹مین دیدار: فرمانِ «اصول از اذان» — باغبان، ۲۰۲۶-۰۷-۲۲
-    assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 9
-    # ۸مین روش: گواهیِ افزایشی — مُهرِ باغبان ۲۰۲۶-۰۷-۲۲
+        "SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] >= 0
+    # دیدارِ ۱ زندگیِ دوم: فرمانِ تولدِ دوباره — باغبان، ۲۰۲۶-۰۷-۲۲
+    assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 1
+    # هشت روشِ موروثیِ زندگیِ یکم (لایهٔ روش با تولد بازنشانی نمی‌شود)
     assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 8
 
 
 def test_absence_evidence_in_db():
-    row = db.execute(
-        "SELECT shared_ayat FROM pair_comparisons WHERE root_a='ذنب' AND root_b='عفو'"
-    ).fetchone()
-    assert row == (0,), "شاهدِ غیابِ ذنب↔عفو باید ثبت باشد"
+    """دفترداریِ شاهدِ غیاب: هیچ سطرِ فرافکنی شمارشِ منفی/تهی‌نما ندارد.
+    (شاهدِ متعارفِ زندگیِ یکم — ذنب↔عفو=۰ — با آن زندگی بایگانی شد؛ در
+    جهانِ خالیِ تولدِ دوباره این ناوردا تهی‌صدق است و با نخستین فرافکنی
+    دوباره گاز می‌گیرد.)"""
+    bad = db.execute(
+        "SELECT COUNT(*) FROM pair_comparisons WHERE shared_ayat < 0").fetchone()[0]
+    assert bad == 0
 
 
 def test_open_queue():
@@ -82,7 +88,13 @@ def test_open_queue():
     # هر ریشهٔ زیسته‌ای که از صف آمده، رویدادِ pursued دارد (ردگیری).
     pursued_roots = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
     assert p <= pursued_roots, f"pursuedِ بی‌نظیرِ نفس: {p - pursued_roots}"
-    assert open_q, "صفِ باز نباید تهی باشد (هنوز ریشه‌های نازیسته هست)"
+    # صفِ زنده = صفِ طبیعی + تزریق‌های نشان‌دار؛ در تولدِ دوباره صفِ طبیعی
+    # تهی است و صفِ بنیان‌گذار (ریشه‌های اذان) در queue_injections.json است.
+    import json as _json
+    inj = (_json.load(open("database/queue_injections.json"))
+           if os.path.exists("database/queue_injections.json") else [])
+    inj_open = {i["root"] for i in inj} - pursued_roots
+    assert open_q or inj_open, "صفِ باز نباید تهی باشد (هنوز ریشه‌های نازیسته هست)"
 
 
 def test_every_finding_traceable():

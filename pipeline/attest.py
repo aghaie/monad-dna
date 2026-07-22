@@ -121,7 +121,10 @@ def delta_invariants(breath_no, db_path="database/life.db"):
     (pc,) = db.execute(
         "SELECT COUNT(*) FROM pair_comparisons WHERE breath_no=?",
         (breath_no,)).fetchone()
-    if pc == 0:
+    # نفسِ ۱ِ جهانِ خالی (تولدِ دوباره، ۲۰۲۶-۰۷-۲۲) هنوز زیسته‌ای ندارد که
+    # بر آن فرافکنی شود؛ از نفسِ ۲ به بعد، فرافکنی بر زیسته‌ها همیشه ناتهی
+    # است و غیابش همان لغزشِ نوعِ نفسِ ۱۹۳ است.
+    if pc == 0 and breath_no > 1:
         return False, f"فرافکنیِ نفس {breath_no} در pair_comparisons نیست (لغزشِ نوعِ نفس ۱۹۳)"
     orphan = db.execute(
         "SELECT root, breath_no FROM queue_events WHERE event='queued' "

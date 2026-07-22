@@ -18,7 +18,6 @@ S2 *سنجیده* می‌شود، فرض نمی‌شود:
 import hashlib
 import json
 import os
-import re
 import sqlite3
 import subprocess
 import sys
@@ -33,8 +32,8 @@ DEFAULT_DIR = "pipeline"
 CHOSEN_BY = "قاعدهٔ صف (نادرتر مقدم)"     # همان پیش‌فرضِ breathe-record
 SEED_CHOSEN_BY = "قاعدهٔ صف (خودران)"      # همان برچسبِ سطرهای BREATHS حلقه
 EVENT_SOURCE = "قاعدهٔ صف"                 # همان منشأِ رویدادِ pursued
-CHAPTER = "پل‌ها"
-LEDGER = "breaths/logs/پل‌ها-2026-07-19.md"
+CHAPTER = "تولدِ دوباره"                   # فصلِ گشودهٔ زندگیِ دوم (۲۰۲۶-۰۷-۲۲)
+LEDGER = "breaths/logs/تولدِ-دوباره-2026-07-22.md"
 INJECTIONS_FILE = "database/queue_injections.json"
 
 
@@ -254,43 +253,34 @@ def gate_next(root_dir=DEFAULT_DIR):
 # ---------- S2: درجِ مکانیکیِ seed (چهار لنگر، سپس ast.parse) ----------
 
 def insert_seed_entry(src, no, root, note, queued=()):
-    prev = no - 1
-    m = re.search(rf'b{prev} = rec\("breath_{prev}_(.+?)\.json"\)', src)
-    if not m:
-        raise ValueError(f"لنگرِ b{prev} یافت نشد")
-    anchor = m.group(0)
-    src = src.replace(anchor,
-                      f'{anchor}\nb{no} = rec("breath_{no}_{root}.json")', 1)
+    """درجِ مکانیکی در بذرِ زندگیِ دوم — چهار لنگرِ صریحِ ⚓، سپس ast.parse.
 
-    end_prev = f'b{prev}["top"]),'
-    i = src.rfind(end_prev)
-    if i < 0:
-        raise ValueError(f"لنگرِ پایانِ سطرِ نفسِ {prev} یافت نشد")
-    i += len(end_prev)
+    لنگرهای نشانه‌گذاری‌شده (⚓RECORDS/⚓BREATHS/⚓QUEUE/⚓PROJ) جایگزینِ
+    لنگرهای b{prev}ِ بذرِ زندگیِ یکم شدند: آن‌ها بر وجودِ نفسِ قبلی تکیه
+    داشتند و نخستین نفسِ جهانِ خالی را درج‌ناپذیر می‌کردند (تولدِ دوباره،
+    ۲۰۲۶-۰۷-۲۲). درج همیشه بالای لنگر ⇒ ترتیبِ زمانی حفظ می‌شود."""
+    A_REC, A_BR = "# ⚓RECORDS", "    # ⚓BREATHS"
+    A_Q, A_PROJ = "    # ⚓QUEUE", "    # ⚓PROJ"
+    for a in (A_REC, A_BR, A_Q, A_PROJ):
+        if a not in src:
+            raise ValueError(f"لنگرِ {a.strip()} یافت نشد")
+    src = src.replace(
+        A_REC, f'b{no} = rec("breath_{no}_{root}.json")\n{A_REC}', 1)
     note_lit = json.dumps(note, ensure_ascii=False)
-    entry = (f'\n    ({no}, "{CHAPTER}", "{root}", "{SEED_CHOSEN_BY}",\n'
+    entry = (f'    ({no}, "{CHAPTER}", "{root}", "{SEED_CHOSEN_BY}",\n'
              f'     b{no}["ayat"], b{no}["halves_overlap"],\n'
              f'     "cli/monad breathe-record-from breaths/records/breath_{no}_{root}.json",\n'
-             f'     "breaths/records/breath_{no}_{root}.json", LOG5,\n'
-             f'     {note_lit}, b{no}["top"]),')
-    src = src[:i] + entry + src[i:]
-
-    old = f'({prev}, b{prev})):'
-    if old not in src:
-        raise ValueError("لنگرِ حلقهٔ (bn, brec) یافت نشد")
-    src = src.replace(old, f'({prev}, b{prev}), ({no}, b{no})):', 1)
-
-    qi = src.find("QUEUE_EVENTS = [")
-    qe = src.find("\n]", qi)
-    if qi < 0 or qe < 0:
-        raise ValueError("لنگرِ QUEUE_EVENTS یافت نشد")
+             f'     "breaths/records/breath_{no}_{root}.json", LOG1,\n'
+             f'     {note_lit}, b{no}["top"]),\n')
+    src = src.replace(A_BR, entry + A_BR, 1)
     # رشدِ صفِ مصوب با همان ثبتِ کاشف (DEFECT-QUEUE-GROWTH-2026-07-22):
     # queued پس از pursued همین نفس ⇒ انتساب درست، گزینشِ کاشف دست‌نخورده،
     # اثر از نفسِ بعد.
-    rows = f'\n    ({no}, "pursued", "{root}", "{EVENT_SOURCE}"),'
+    rows = f'    ({no}, "pursued", "{root}", "{EVENT_SOURCE}"),\n'
     for q in queued:
-        rows += f'\n    ({no}, "queued", "{q}", "چرخه"),'
-    return src[:qe] + rows + src[qe:]
+        rows += f'    ({no}, "queued", "{q}", "چرخه"),\n'
+    src = src.replace(A_Q, rows + A_Q, 1)
+    return src.replace(A_PROJ, f'    ({no}, b{no}),\n{A_PROJ}', 1)
 
 
 # ---------- S2: ثبتِ نفسِ بعدی ----------

@@ -122,7 +122,8 @@ def test_engine_params_declared():
 def test_lived_crosslink_points_to_real_records():
     """پیوندِ زیسته فقط نشانی است — و نشانی‌ها راست‌اند."""
     links = P["پیوند_زیسته"]
-    assert links, "عوذ در نفس ۹۵ زیسته شده — پیوند باید باشد"
+    # در جهانِ خالیِ تولدِ دوباره پیوندِ زیسته تهی است؛ هر پیوندی که هست
+    # باید راست باشد (با نخستین نفس‌ها دوباره ناتهی و گازدار می‌شود).
     for x in links:
         assert os.path.exists(x["رکورد"])
         rec = json.load(open(x["رکورد"]))
@@ -154,7 +155,8 @@ def test_sync_covers_lived_roots():
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     lived = mod._lived_pursued()
-    assert TEST_ROOT in lived
+    # (عوذ زیستهٔ زندگیِ یکم بود؛ در زندگیِ دوم مجموعهٔ زیسته از صفر آغاز
+    # می‌شود — پوشش و ایدم‌پوتنسی بر هر حالتِ زنده سنجیده می‌شود.)
     r = subprocess.run([sys.executable, "tadabbor/build.py", "--sync"],
                        check=True, capture_output=True, text=True)
     out = json.loads(r.stdout)

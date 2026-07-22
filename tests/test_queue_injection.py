@@ -102,10 +102,16 @@ def test_queue_add_tags_source_by_observatory_structure():
 
 def test_queue_add_rejects_lived_root():
     """ریشهٔ زیسته را نمی‌شود تزریق کرد — فایل دست‌نخورده می‌ماند."""
+    import pytest
+    db = sqlite3.connect("database/life.db")
+    row = db.execute("SELECT pursued_root FROM breaths LIMIT 1").fetchone()
+    if row is None:
+        pytest.skip("جهانِ خالیِ تولدِ دوباره — با نخستین نفسِ زندگیِ دوم فعال می‌شود")
+    lived_root = row[0]
     saved = _backup_injections()
     before_test = _read_injections()  # حالتِ خالی‌شدهٔ ابتدای آزمون
     try:
-        out = _run("queue-add", "رحم")
+        out = _run("queue-add", lived_root)
         assert out.returncode != 0
         after = _read_injections()
         assert after == before_test, "فایلِ تزریق نباید برای ریشهٔ زیسته تغییر کند"

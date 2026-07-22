@@ -47,19 +47,27 @@ def test_plan_one_equals_breathe_record(tmp_path):
         planned.encode()).hexdigest()
 
 
-def test_plan_replays_history_190_192(tmp_path):
-    """آزمونِ طلایی ۲: برنامه از حالتِ ≤۱۸۹ باید نفس‌های واقعاً زیستهٔ
-    ۱۹۰ (نصب)، ۱۹۱ (شمس)، ۱۹۲ (كفي) را بایت‌به‌بایت بازبسازد."""
-    jobs = core.plan(3, upto=189, root_dir=str(tmp_path))
+def test_plan_replays_founding_state(tmp_path):
+    """آزمونِ طلایی ۲ (بازلنگر پس از تولدِ دوباره — بازپخشِ ۱۹۰–۱۹۲ با
+    زندگیِ یکم بایگانی شد): برنامه از حالتِ بنیان‌گذار (upto=0؛ صفِ
+    یازده‌ریشه‌ایِ اذان) باید سه نادرترین را به ترتیب بدهد — فلح (۴۰)،
+    صلو (۹۹)، اذن (۱۰۲) — و دوباره‌برنامه‌ریزی همان بایت‌ها را بازبسازد.
+    وقتی نفس‌های ۱–۳ زیسته شدند، مقایسهٔ بایت‌به‌بایت با رکوردها هم
+    برمی‌گردد (لنگرِ upto=0 برای همیشه همین حالت را می‌دهد)."""
+    jobs = core.plan(3, upto=0, root_dir=str(tmp_path))
     got = [(j["breath_no"], j["root"]) for j in jobs]
-    assert got == [(190, "نصب"), (191, "شمس"), (192, "كفي")], got
+    assert got == [(1, "فلح"), (2, "صلو"), (3, "اذن")], got
+    jobs2 = core.plan(3, upto=0, root_dir=str(tmp_path))
+    assert [j["record_sha256"] for j in jobs] == \
+        [j["record_sha256"] for j in jobs2], "برنامه‌ریزی قطعی نیست"
     for j in jobs:
-        planned = open(os.path.join(tmp_path, "work",
-                                    f"{j['breath_no']}_{j['root']}",
-                                    "record.json"), encoding="utf-8").read()
-        actual = open(f"breaths/records/breath_{j['breath_no']}_{j['root']}.json",
-                      encoding="utf-8").read()
-        assert planned == actual, f"ناهم‌ارزی در نفس {j['breath_no']}"
+        rec_path = f"breaths/records/breath_{j['breath_no']}_{j['root']}.json"
+        if os.path.exists(rec_path):
+            planned = open(os.path.join(tmp_path, "work",
+                                        f"{j['breath_no']}_{j['root']}",
+                                        "record.json"), encoding="utf-8").read()
+            assert planned == open(rec_path, encoding="utf-8").read(), \
+                f"ناهم‌ارزی در نفس {j['breath_no']}"
 
 
 def test_plan_preserves_completed_cache(tmp_path):
@@ -98,18 +106,24 @@ def test_gate_detects_divergence(tmp_path):
 
 
 def test_seed_insertion_valid_python(tmp_path):
-    """درجِ مکانیکیِ سطرهای seed: پایتونِ معتبر + هر چهار لنگر."""
+    """درجِ مکانیکیِ سطرهای seed: پایتونِ معتبر + هر چهار لنگرِ ⚓ —
+    شاملِ نخستین نفسِ جهانِ خالی (تولدِ دوباره) و نفسِ زنجیره‌ایِ بعدی."""
     src = open("database/seed/seed_life.py", encoding="utf-8").read()
     import re
-    m = re.findall(r'b(\d+) = rec\("breath_\1_(.+?)\.json"\)', src)
-    last_no, last_root = int(m[-1][0]), m[-1][1]
-    no, root = last_no + 1, "ازر"
+    m = re.findall(r'b(\d+) = rec\(', src)
+    no = (int(m[-1]) if m else 0) + 1
+    root = "ازر"
     out = core.insert_seed_entry(src, no, root, "یادداشتِ آزمایشی «تست»")
     ast.parse(out)  # باید پایتونِ معتبر بماند
     assert f'b{no} = rec("breath_{no}_{root}.json")' in out
-    assert f'({no}, "پل‌ها", "{root}", "قاعدهٔ صف (خودران)"' in out
-    assert f'({last_no}, b{last_no}), ({no}, b{no})):' in out
+    assert f'({no}, "{core.CHAPTER}", "{root}", "قاعدهٔ صف (خودران)"' in out
+    assert f'({no}, b{no}),' in out
     assert f'({no}, "pursued", "{root}", "قاعدهٔ صف"),' in out
+    # زنجیره: درجِ نفسِ بعدی روی خروجی هم معتبر و پس از قبلی است
+    out2 = core.insert_seed_entry(out, no + 1, "ودق", "ن")
+    ast.parse(out2)
+    assert out2.index(f'b{no} = rec(') < out2.index(f'b{no + 1} = rec(')
+    assert out2.index(f'({no}, b{no}),') < out2.index(f'({no + 1}, b{no + 1}),')
 
 
 def test_new_candidates_empty_when_all_seen():
@@ -119,8 +133,8 @@ def test_new_candidates_empty_when_all_seen():
     ندارد» — و با رسیدنِ نفسی نامزددار می‌شکست؛ ششمین آزمونِ حالت‌وابستهٔ
     ثبت‌شده در ۲۰۲۶-۰۷-۲۲.)"""
     fake = json.dumps({"top": [
-        {"root": "اله", "tier": "قوی"},      # زیسته (نفس ۱)
-        {"root": "رحم", "tier": "محتمل"},    # زیسته (نفس ۲)
+        {"root": "اله", "tier": "قوی"},      # در صفِ بنیان‌گذارِ اذان (تزریقی)
+        {"root": "فلح", "tier": "محتمل"},    # در صفِ بنیان‌گذارِ اذان (تزریقی)
         {"root": "زٮٮٮ", "tier": "نامشخص"}]})  # نامشخص هرگز صف نمی‌شود
     assert core.new_candidates(fake) == []
 
@@ -144,8 +158,8 @@ def test_insert_seed_entry_with_queued_rows():
     """رشدِ صفِ مصوب با همان ثبتِ کاشف درج می‌شود (رفعِ نقصِ DEFECT-QUEUE-GROWTH)."""
     src = open("database/seed/seed_life.py", encoding="utf-8").read()
     import re
-    last = int(re.findall(r'b(\d+) = rec\(', src)[-1])
-    no, root = last + 1, "ازر"
+    m = re.findall(r'b(\d+) = rec\(', src)
+    no, root = (int(m[-1]) if m else 0) + 1, "ازر"
     out = core.insert_seed_entry(src, no, root, "ن", queued=["فرج", "ثبت"])
     ast.parse(out)
     p = out.index(f'({no}, "pursued", "{root}", "قاعدهٔ صف"),')

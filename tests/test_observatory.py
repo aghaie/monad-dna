@@ -18,14 +18,19 @@ OBS = {e["root"]: e for e in json.load(open("observatory/observatory.json"))["ro
 
 
 def _lived_single_records():
-    for f in glob.glob("breaths/records/breath_[0-9][0-9]_*.json"):
+    # تولدِ دوباره: الگوی پیشین فقط نفس‌های دورقمی را می‌گرفت؛ اکنون همهٔ
+    # رکوردهای تک‌نفسی (breath_N_ریشه.json، بی‌صفرِ پیشوندی از خطِ لوله).
+    for f in glob.glob("breaths/records/breath_*.json"):
         rec = json.load(open(f))
         if isinstance(rec, dict) and rec.get("pursued"):
             yield rec
 
 
 def test_equivalence_with_lived_records():
-    """هر ریشهٔ زیسته: top رصدخانه بایت‌به‌بایت == top رکورد."""
+    """هر ریشهٔ زیسته: top رصدخانه بایت‌به‌بایت == top رکورد.
+    پوشش سخت‌گیرتر از کفِ ثابتِ «>=۲۰»ِ پیشین: باید عیناً به تعدادِ
+    نفس‌های life.db رکوردِ تک‌نفسی سنجیده شود (در تولد: ۰==۰)."""
+    import sqlite3
     checked = 0
     for b in _lived_single_records():
         root = b["pursued"]
@@ -34,7 +39,9 @@ def test_equivalence_with_lived_records():
         obs_top = [(t["root"], t["shared"], t["lift"], t["tier"]) for t in OBS[root]["top"]]
         assert rec_top == obs_top, f"ناسازگاریِ درجه در {root}"
         checked += 1
-    assert checked >= 20, "باید دستِ‌کم ۲۰ ریشهٔ زیسته سنجیده شود"
+    n_db = sqlite3.connect("database/life.db").execute(
+        "SELECT COUNT(*) FROM breaths").fetchone()[0]
+    assert checked == n_db, f"پوششِ ناقص: {checked} رکورد در برابرِ {n_db} نفسِ پایگاه"
 
 
 def test_deterministic():
@@ -96,7 +103,7 @@ def test_edges_superset_of_lived_graph():
     lived = json.load(open("graph/graph.json"))
     lived_pairs = {tuple(sorted((e["a"], e["b"])))
                    for e in lived["edges"] if e.get("mutual_strong")}
-    assert lived_pairs, "گرافِ زیسته باید جفتِ دوسویه داشته باشد"
+    # در جهانِ خالیِ تولدِ دوباره تهی‌صدق؛ با نخستین جفتِ دوسویه گاز می‌گیرد.
     missing = lived_pairs - obs_pairs
     assert not missing, f"جفت‌های زیسته که رصدخانه نمی‌بیند: {missing}"
 
