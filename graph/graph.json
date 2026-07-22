@@ -644,7 +644,8 @@
   "حفظ",
   "صرط",
   "نسي",
-  "وذر"
+  "وذر",
+  "عهد"
  ],
  "open_queue": [
   "اتي",
@@ -3284,6 +3285,22 @@
   },
   {
    "a": "اله",
+   "b": "عهد",
+   "directions": {
+    "عهد→اله": {
+     "breath": 239,
+     "lift": 1.752,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 19
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
    "b": "عوج",
    "directions": {
     "عوج→اله": {
@@ -4505,6 +4522,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "عهد",
+   "directions": {
+    "عهد→امن": {
+     "breath": 239,
+     "lift": 2.156,
+     "p": 0.0233,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امن",
@@ -17236,6 +17269,22 @@
   },
   {
    "a": "عند",
+   "b": "عهد",
+   "directions": {
+    "عهد→عند": {
+     "breath": 239,
+     "lift": 6.416,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عند",
    "b": "فتح",
    "directions": {
     "فتح→عند": {
@@ -17258,6 +17307,46 @@
      "breath": 46,
      "lift": 96.235,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "عهد→نقض": {
+     "breath": 239,
+     "lift": 96.235,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عهد",
+   "b": "وفي",
+   "directions": {
+    "عهد→وفي": {
+     "breath": 239,
+     "lift": 24.359,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "عهد",
+   "b": "وقي",
+   "directions": {
+    "عهد→وقي": {
+     "breath": 239,
+     "lift": 3.654,
+     "p": 0.01,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
