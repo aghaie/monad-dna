@@ -260,6 +260,7 @@
   "قسم",
   "قسو",
   "قصص",
+  "قعد",
   "قلب",
   "قلل",
   "قمر",
@@ -528,7 +529,8 @@
   "خلص",
   "برا",
   "شرر",
-  "لبث"
+  "لبث",
+  "قعد"
  ],
  "open_queue": [
   "اتي",
@@ -2780,6 +2782,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "قعد",
+   "directions": {
+    "قعد→اله": {
+     "breath": 183,
+     "lift": 1.915,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
     }
    },
    "mutual_strong": false,
@@ -10250,6 +10268,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "سمع",
+   "b": "قعد",
+   "directions": {
+    "قعد→سمع": {
+     "breath": 183,
+     "lift": 7.357,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "سمو",
    "b": "شقق",
    "directions": {
@@ -12995,6 +13029,22 @@
   },
   {
    "a": "قتل",
+   "b": "قعد",
+   "directions": {
+    "قعد→قتل": {
+     "breath": 183,
+     "lift": 9.83,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قتل",
    "b": "نصر",
    "directions": {
     "نصر→قتل": {
@@ -13144,6 +13194,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "قعد",
+   "b": "قوم",
+   "directions": {
+    "قعد→قوم": {
+     "breath": 183,
+     "lift": 2.411,
+     "p": 0.0199,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "قلب",
