@@ -291,6 +291,7 @@
   "فاد",
   "فاي",
   "فتح",
+  "فتن",
   "فحش",
   "فدي",
   "فرج",
@@ -728,7 +729,8 @@
   "ردد",
   "فري",
   "غيب",
-  "خشي"
+  "خشي",
+  "فتن"
  ],
  "open_queue": [
   "اتي",
@@ -2345,6 +2347,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "فتن",
+   "directions": {
+    "فتن→اخر": {
+     "breath": 285,
+     "lift": 2.666,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -8264,6 +8282,22 @@
   },
   {
    "a": "بعض",
+   "b": "فتن",
+   "directions": {
+    "فتن→بعض": {
+     "breath": 285,
+     "lift": 7.415,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعض",
    "b": "فوق",
    "directions": {
     "فوق→بعض": {
@@ -10661,6 +10695,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "جعل",
+   "b": "فتن",
+   "directions": {
+    "فتن→جعل": {
+     "breath": 285,
+     "lift": 3.803,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "جعل",
@@ -20416,6 +20466,22 @@
   },
   {
    "a": "ظلم",
+   "b": "فتن",
+   "directions": {
+    "فتن→ظلم": {
+     "breath": 285,
+     "lift": 2.595,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ظلم",
    "b": "فري",
    "directions": {
     "فري→ظلم": {
@@ -21943,6 +22009,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "عند",
+   "b": "فتن",
+   "directions": {
+    "فتن→عند": {
+     "breath": 285,
+     "lift": 3.413,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "عهد",
    "b": "نقض",
    "directions": {
@@ -22470,6 +22552,86 @@
      "breath": 212,
      "lift": 6.926,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فتن",
+   "b": "قبل",
+   "directions": {
+    "فتن→قبل": {
+     "breath": 285,
+     "lift": 2.669,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فتن",
+   "b": "قتل",
+   "directions": {
+    "فتن→قتل": {
+     "breath": 285,
+     "lift": 5.288,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فتن",
+   "b": "قلب",
+   "directions": {
+    "فتن→قلب": {
+     "breath": 285,
+     "lift": 4.162,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "فتن",
+   "b": "كفر",
+   "directions": {
+    "فتن→كفر": {
+     "breath": 285,
+     "lift": 2.081,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فتن",
+   "b": "نوس",
+   "directions": {
+    "فتن→نوس": {
+     "breath": 285,
+     "lift": 2.867,
+     "p": 0.0166,
      "stable": false,
      "tier": "محتمل",
      "shared": 6
