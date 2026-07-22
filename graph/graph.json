@@ -77,11 +77,13 @@
   "سجد",
   "سرر",
   "سقي",
+  "سمو",
   "سوا",
   "سوق",
   "سوي",
   "شرب",
   "شرر",
+  "شطن",
   "شفع",
   "شكر",
   "شهد",
@@ -160,6 +162,7 @@
   "نفق",
   "نكح",
   "نهي",
+  "نوس",
   "هزا",
   "هلل",
   "وجد",
@@ -200,7 +203,8 @@
   "بقي",
   "عدل",
   "كفي",
-  "دبر"
+  "دبر",
+  "زين"
  ],
  "open_queue": [
   "اتي",
@@ -211,7 +215,7 @@
   "خبر",
   "دنو",
   "دون",
-  "زين",
+  "شطن",
   "شيا",
   "صلح",
   "عرف",
@@ -1430,6 +1434,22 @@
   },
   {
    "a": "بني",
+   "b": "زين",
+   "directions": {
+    "زين→بني": {
+     "breath": 30,
+     "lift": 4.834,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بني",
    "b": "طيب",
    "directions": {
     "طيب→بني": {
@@ -2111,9 +2131,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 13
+    },
+    "زين→حيي": {
+     "breath": 30,
+     "lift": 11.71,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2541,6 +2569,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "دنو",
+   "b": "زين",
+   "directions": {
+    "زين→دنو": {
+     "breath": 30,
+     "lift": 16.995,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "دون",
    "b": "ولي",
    "directions": {
@@ -2942,6 +2986,70 @@
   },
   {
    "a": "زين",
+   "b": "سبل",
+   "directions": {
+    "زين→سبل": {
+     "breath": 30,
+     "lift": 4.421,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "زين",
+   "b": "سمو",
+   "directions": {
+    "زين→سمو": {
+     "breath": 30,
+     "lift": 3.296,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "زين",
+   "b": "سوا",
+   "directions": {
+    "زين→سوا": {
+     "breath": 30,
+     "lift": 4.802,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "زين",
+   "b": "شطن",
+   "directions": {
+    "زين→شطن": {
+     "breath": 30,
+     "lift": 11.156,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "زين",
    "b": "عمل",
    "directions": {
     "عمل→زين": {
@@ -2951,10 +3059,50 @@
      "stable": true,
      "tier": "قوی",
      "shared": 15
+    },
+    "زين→عمل": {
+     "breath": 30,
+     "lift": 6.95,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "زين",
+   "b": "قلب",
+   "directions": {
+    "زين→قلب": {
+     "breath": 30,
+     "lift": 4.678,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "زين",
+   "b": "نوس",
+   "directions": {
+    "زين→نوس": {
+     "breath": 30,
+     "lift": 3.223,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "سبح",
