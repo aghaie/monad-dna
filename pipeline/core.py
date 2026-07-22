@@ -354,9 +354,14 @@ def merge_next(root_dir=DEFAULT_DIR, dry_run=False):
     try:
         with open(rec_path, "w", encoding="utf-8") as f:
             f.write(payload)
-        new_src = insert_seed_entry(seed_src, breath_no, root, note)
+        new_src = insert_seed_entry(seed_src, breath_no, root, note,
+                                    queued=queued_roots)
         import ast
         ast.parse(new_src)
+        # خودسنجی: تصمیمِ صف نباید خاموش گم شود (لغزشِ call-site، ۲۰۲۶-۰۷-۲۲)
+        for q in queued_roots:
+            assert f'({breath_no}, "queued", "{q}", "چرخه"),' in new_src, \
+                f"درجِ مصوبِ صف گم شد: {q}"
         with open(seed_path, "w", encoding="utf-8") as f:
             f.write(new_src)
         # --- اعتبارسنجی: مدلِ اعتمادِ گواهیِ افزایشی (attest.py) ---
