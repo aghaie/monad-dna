@@ -112,15 +112,17 @@ def test_seed_insertion_valid_python(tmp_path):
     assert f'({no}, "pursued", "{root}", "قاعدهٔ صف"),' in out
 
 
-def test_new_candidates_empty_for_current_batch(tmp_path):
-    """نفس‌های بی‌ریشهٔ نامزدِ تازه: رشدِ صف تهی ⇒ خط مجاز به ثبت."""
-    _, no = core.lived_and_next()
-    core.plan(1, root_dir=str(tmp_path))
-    job = core.load_jobs(str(tmp_path))[0]
-    text = open(os.path.join(tmp_path, "work",
-                f"{job['breath_no']}_{job['root']}", "record.json"),
-                encoding="utf-8").read()
-    assert core.new_candidates(text) == []
+def test_new_candidates_empty_when_all_seen():
+    """همه‌ی همسایه‌های قوی/محتمل از پیش دیده ⇒ رشدِ صف تهی ⇒ ثبت مجاز.
+
+    (نسخهٔ قبلی به حالتِ زندهٔ لحظهٔ نوشتن وابسته بود — «نفسِ بعدی نامزد
+    ندارد» — و با رسیدنِ نفسی نامزددار می‌شکست؛ ششمین آزمونِ حالت‌وابستهٔ
+    ثبت‌شده در ۲۰۲۶-۰۷-۲۲.)"""
+    fake = json.dumps({"top": [
+        {"root": "اله", "tier": "قوی"},      # زیسته (نفس ۱)
+        {"root": "رحم", "tier": "محتمل"},    # زیسته (نفس ۲)
+        {"root": "زٮٮٮ", "tier": "نامشخص"}]})  # نامشخص هرگز صف نمی‌شود
+    assert core.new_candidates(fake) == []
 
 
 def test_new_candidates_flags_unseen_strong():
