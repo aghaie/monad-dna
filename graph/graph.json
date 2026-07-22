@@ -211,6 +211,7 @@
   "صرف",
   "صفو",
   "صلح",
+  "صلو",
   "صلي",
   "صمم",
   "صوب",
@@ -696,7 +697,8 @@
   "جثم",
   "صبح",
   "ندم",
-  "اجل"
+  "اجل",
+  "نهي"
  ],
  "open_queue": [
   "اتي",
@@ -4808,6 +4810,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "امر",
+   "b": "نهي",
+   "directions": {
+    "نهي→امر": {
+     "breath": 266,
+     "lift": 6.132,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
     }
    },
    "mutual_strong": false,
@@ -13087,6 +13105,22 @@
   },
   {
    "a": "خير",
+   "b": "نهي",
+   "directions": {
+    "نهي→خير": {
+     "breath": 266,
+     "lift": 3.244,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خير",
    "b": "ورث",
    "directions": {
     "ورث→خير": {
@@ -13688,6 +13722,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دين",
+   "b": "نهي",
+   "directions": {
+    "نهي→دين": {
+     "breath": 266,
+     "lift": 7.964,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -18006,6 +18056,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "صلو",
+   "b": "نهي",
+   "directions": {
+    "نهي→صلو": {
+     "breath": 266,
+     "lift": 6.416,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "صلي",
    "b": "نور",
    "directions": {
@@ -19246,6 +19312,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "عرف",
+   "b": "نهي",
+   "directions": {
+    "نهي→عرف": {
+     "breath": 266,
+     "lift": 16.763,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "عزز",
    "b": "قوي",
    "directions": {
@@ -19981,6 +20063,22 @@
      "breath": 239,
      "lift": 3.654,
      "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عود",
+   "b": "نهي",
+   "directions": {
+    "نهي→عود": {
+     "breath": 266,
+     "lift": 9.955,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -20968,6 +21066,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قتل",
+   "b": "نهي",
+   "directions": {
+    "نهي→قتل": {
+     "breath": 266,
+     "lift": 4.733,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -22095,6 +22209,22 @@
   },
   {
    "a": "كون",
+   "b": "نهي",
+   "directions": {
+    "نهي→كون": {
+     "breath": 266,
+     "lift": 1.768,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كون",
    "b": "هزا",
    "directions": {
     "هزا→كون": {
@@ -22707,6 +22837,14 @@
    "directions": {
     "نكر→نهي": {
      "breath": 209,
+     "lift": 37.453,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
+    },
+    "نهي→نكر": {
+     "breath": 266,
      "lift": 37.453,
      "p": 0.0033,
      "stable": false,
