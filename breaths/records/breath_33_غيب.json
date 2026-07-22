@@ -1,0 +1,735 @@
+{
+ "breath_number": 33,
+ "deliberation": [
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "جرم",
+   "attestation": 66
+  },
+  {
+   "root": "عرف",
+   "attestation": 70
+  },
+  {
+   "root": "علو",
+   "attestation": 70
+  },
+  {
+   "root": "متع",
+   "attestation": 70
+  },
+  {
+   "root": "وكل",
+   "attestation": 70
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "غيب",
+ "attestation": 60,
+ "ayat": 59,
+ "top": [
+  {
+   "root": "خشي",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.212,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شهد",
+   "shared": 11,
+   "expected": 1.16,
+   "lift": 9.452,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "وحي",
+   "shared": 5,
+   "expected": 0.66,
+   "lift": 7.55,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نبا",
+   "shared": 8,
+   "expected": 1.43,
+   "lift": 5.6,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "علم",
+   "shared": 34,
+   "expected": 6.89,
+   "lift": 4.936,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عند",
+   "shared": 7,
+   "expected": 1.79,
+   "lift": 3.915,
+   "p_perm": 0.0066,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سمو",
+   "shared": 11,
+   "expected": 3.33,
+   "lift": 3.303,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ارض",
+   "shared": 13,
+   "expected": 4.16,
+   "lift": 3.123,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رحم",
+   "shared": 7,
+   "expected": 2.96,
+   "lift": 2.364,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كتب",
+   "shared": 6,
+   "expected": 2.64,
+   "lift": 2.273,
+   "p_perm": 0.0532,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 5,
+ "reciprocal": [
+  "خشي",
+  "شهد",
+  "وحي",
+  "نبا",
+  "علم",
+  "عند"
+ ],
+ "one_way": [
+  "سمو",
+  "ارض",
+  "رحم",
+  "كتب"
+ ],
+ "neighbor_view": {
+  "خشي": {
+   "root": "غيب",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.212,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شهد": {
+   "root": "غيب",
+   "shared": 11,
+   "expected": 1.16,
+   "lift": 9.452,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "وحي": {
+   "root": "غيب",
+   "shared": 5,
+   "expected": 0.66,
+   "lift": 7.55,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نبا": {
+   "root": "غيب",
+   "shared": 8,
+   "expected": 1.43,
+   "lift": 5.6,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "علم": {
+   "root": "غيب",
+   "shared": 34,
+   "expected": 6.89,
+   "lift": 4.936,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عند": {
+   "root": "غيب",
+   "shared": 7,
+   "expected": 1.79,
+   "lift": 3.915,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سمو": null,
+  "ارض": null,
+  "رحم": null,
+  "كتب": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "غيب↔فلح",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔صلو",
+   "shared": 2,
+   "expected": 0.85,
+   "lift": 2.35,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "غيب↔زكو",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.89,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "غيب↔اذن",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔نفق",
+   "shared": 2,
+   "expected": 0.81,
+   "lift": 2.46,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "غيب↔سرر",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.46,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "غيب↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔رزق",
+   "shared": 1,
+   "expected": 1.03,
+   "lift": 0.97,
+   "p_perm": 0.6312
+  },
+  {
+   "pair": "غيب↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔طيب",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.3,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "غيب↔خبث",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.57,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "غيب↔حلل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔حرم",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔سجد",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔اكل",
+   "shared": 2,
+   "expected": 0.96,
+   "lift": 2.09,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "غيب↔طوع",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.9,
+   "p_perm": 0.6744
+  },
+  {
+   "pair": "غيب↔شهد",
+   "shared": 11,
+   "expected": 1.16,
+   "lift": 9.45,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "غيب↔كبر",
+   "shared": 4,
+   "expected": 1.45,
+   "lift": 2.76,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "غيب↔حيي",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔خير",
+   "shared": 2,
+   "expected": 1.68,
+   "lift": 1.19,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "غيب↔ولي",
+   "shared": 1,
+   "expected": 1.91,
+   "lift": 0.52,
+   "p_perm": 0.8505
+  },
+  {
+   "pair": "غيب↔عمل",
+   "shared": 5,
+   "expected": 2.96,
+   "lift": 1.69,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "غيب↔رسل",
+   "shared": 5,
+   "expected": 4.06,
+   "lift": 1.23,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "غيب↔اله",
+   "shared": 24,
+   "expected": 17.78,
+   "lift": 1.35,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "غيب↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔بقي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔عدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔كفي",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔دبر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔زين",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔عقل",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔خبر",
+   "shared": 2,
+   "expected": 0.49,
+   "lift": 4.07,
+   "p_perm": 0.0864
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "غيب↔فلح",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔اذن",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔حلل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔حرم",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔سجد",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔حيي",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔بقي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔عدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔كفي",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔دبر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔زين",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غيب↔عقل",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:33",
+   "degree": 4,
+   "roots_present": [
+    "نبا",
+    "علم",
+    "سمو",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "6:59",
+   "degree": 4,
+   "roots_present": [
+    "علم",
+    "عند",
+    "ارض",
+    "كتب"
+   ]
+  },
+  {
+   "ayah": "6:73",
+   "degree": 4,
+   "roots_present": [
+    "شهد",
+    "علم",
+    "سمو",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "34:3",
+   "degree": 4,
+   "roots_present": [
+    "علم",
+    "سمو",
+    "ارض",
+    "كتب"
+   ]
+  },
+  {
+   "ayah": "39:46",
+   "degree": 4,
+   "roots_present": [
+    "شهد",
+    "علم",
+    "سمو",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "6:50",
+   "degree": 3,
+   "roots_present": [
+    "وحي",
+    "علم",
+    "عند"
+   ]
+  },
+  {
+   "ayah": "9:94",
+   "degree": 3,
+   "roots_present": [
+    "شهد",
+    "نبا",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "9:105",
+   "degree": 3,
+   "roots_present": [
+    "شهد",
+    "نبا",
+    "علم"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "غيب+خشي": [
+   "21:49",
+   "35:18",
+   "36:11",
+   "50:33",
+   "67:12"
+  ],
+  "غيب+شهد": [
+   "6:73",
+   "9:94",
+   "9:105",
+   "12:81",
+   "13:9",
+   "23:92",
+   "32:6",
+   "39:46",
+   "59:22",
+   "62:8",
+   "64:18"
+  ],
+  "غيب+وحي": [
+   "3:44",
+   "6:50",
+   "11:49",
+   "12:15",
+   "12:102"
+  ],
+  "غيب+نبا": [
+   "2:33",
+   "3:44",
+   "9:94",
+   "9:105",
+   "11:49",
+   "12:15",
+   "12:102",
+   "62:8"
+  ],
+  "غيب+علم": [
+   "2:33",
+   "5:94",
+   "5:109",
+   "5:116",
+   "6:50",
+   "6:59",
+   "6:73",
+   "7:7",
+   "7:188",
+   "9:78",
+   "9:94",
+   "9:105",
+   "11:31",
+   "11:49",
+   "12:52",
+   "12:81",
+   "13:9",
+   "18:22",
+   "18:26",
+   "23:92"
+  ],
+  "غيب+عند": [
+   "6:50",
+   "6:59",
+   "11:31",
+   "19:78",
+   "52:41",
+   "53:35",
+   "68:47"
+  ],
+  "غيب+سمو": [
+   "2:33",
+   "6:73",
+   "11:123",
+   "16:77",
+   "18:26",
+   "27:65",
+   "27:75",
+   "34:3",
+   "35:38",
+   "39:46",
+   "49:18"
+  ],
+  "غيب+ارض": [
+   "2:33",
+   "6:59",
+   "6:73",
+   "11:123",
+   "16:77",
+   "18:26",
+   "27:65",
+   "27:75",
+   "34:3",
+   "34:14",
+   "35:38",
+   "39:46",
+   "49:18"
+  ],
+  "غيب+رحم": [
+   "19:61",
+   "19:78",
+   "32:6",
+   "36:11",
+   "49:12",
+   "50:33",
+   "59:22"
+  ]
+ }
+}
