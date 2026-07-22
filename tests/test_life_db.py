@@ -50,8 +50,8 @@ def test_counts():
     assert db.execute(
         "SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] >= 0
     # دیدارهای زندگیِ دوم: ۱) تولدِ دوباره؛ ۲) «بخوان قرآن را» + کمانِ
-    # یازده‌نفسیِ آغاز — باغبان، ۲۰۲۶-۰۷-۲۲
-    assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 2
+    # یازده‌نفسی؛ ۳) «از ریشه‌های اذان» + بسته‌شدنِ کمانِ اذان (۱۷–۲۴)
+    assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 3
     # هشت روشِ موروثیِ زندگیِ یکم (لایهٔ روش با تولد بازنشانی نمی‌شود)
     assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 8
 
