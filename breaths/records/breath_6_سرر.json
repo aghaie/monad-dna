@@ -1,0 +1,369 @@
+{
+ "breath_number": 6,
+ "deliberation": [
+  {
+   "root": "سرر",
+   "attestation": 44
+  },
+  {
+   "root": "رزق",
+   "attestation": 123
+  },
+  {
+   "root": "طوع",
+   "attestation": 129
+  },
+  {
+   "root": "شهد",
+   "attestation": 160
+  },
+  {
+   "root": "كبر",
+   "attestation": 161
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "حيي",
+   "attestation": 184
+  },
+  {
+   "root": "خير",
+   "attestation": 196
+  },
+  {
+   "root": "ولي",
+   "attestation": 232
+  },
+  {
+   "root": "عمل",
+   "attestation": 360
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "سرر",
+ "attestation": 44,
+ "ayat": 43,
+ "top": [
+  {
+   "root": "علن",
+   "shared": 12,
+   "expected": 0.11,
+   "lift": 108.767,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "جهر",
+   "shared": 5,
+   "expected": 0.1,
+   "lift": 48.341,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نفق",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.118,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "علم",
+   "shared": 18,
+   "expected": 5.02,
+   "lift": 3.586,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قول",
+   "shared": 15,
+   "expected": 9.54,
+   "lift": 1.573,
+   "p_perm": 0.0266,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اله",
+   "shared": 18,
+   "expected": 12.96,
+   "lift": 1.389,
+   "p_perm": 0.0831,
+   "stable": true,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "كون",
+   "shared": 6,
+   "expected": 8.11,
+   "lift": 0.74,
+   "p_perm": 0.7409,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 5,
+ "reciprocal": [
+  "علن",
+  "جهر",
+  "نفق"
+ ],
+ "one_way": [
+  "علم",
+  "قول",
+  "اله",
+  "كون"
+ ],
+ "neighbor_view": {
+  "علن": {
+   "root": "سرر",
+   "shared": 12,
+   "expected": 0.11,
+   "lift": 108.767,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "جهر": {
+   "root": "سرر",
+   "shared": 5,
+   "expected": 0.1,
+   "lift": 48.341,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نفق": {
+   "root": "سرر",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.118,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "علم": null,
+  "قول": null,
+  "اله": null,
+  "كون": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "سرر↔فلح",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سرر↔صلو",
+   "shared": 3,
+   "expected": 0.62,
+   "lift": 4.83,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "سرر↔زكو",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سرر↔اذن",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سرر↔نفق",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.12,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "سرر↔فلح",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سرر↔زكو",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سرر↔اذن",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "12:77",
+   "degree": 4,
+   "roots_present": [
+    "علم",
+    "قول",
+    "اله",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "16:75",
+   "degree": 4,
+   "roots_present": [
+    "جهر",
+    "نفق",
+    "علم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "60:1",
+   "degree": 4,
+   "roots_present": [
+    "علن",
+    "علم",
+    "اله",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "2:77",
+   "degree": 3,
+   "roots_present": [
+    "علن",
+    "علم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:235",
+   "degree": 3,
+   "roots_present": [
+    "علم",
+    "قول",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "6:3",
+   "degree": 3,
+   "roots_present": [
+    "جهر",
+    "علم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "12:19",
+   "degree": 3,
+   "roots_present": [
+    "علم",
+    "قول",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "14:31",
+   "degree": 3,
+   "roots_present": [
+    "علن",
+    "نفق",
+    "قول"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "سرر+علن": [
+   "2:77",
+   "2:274",
+   "11:5",
+   "13:22",
+   "14:31",
+   "16:19",
+   "16:23",
+   "35:29",
+   "36:76",
+   "60:1",
+   "64:4",
+   "71:9"
+  ],
+  "سرر+جهر": [
+   "6:3",
+   "13:10",
+   "16:75",
+   "20:7",
+   "67:13"
+  ],
+  "سرر+نفق": [
+   "2:274",
+   "3:134",
+   "13:22",
+   "14:31",
+   "16:75",
+   "35:29"
+  ],
+  "سرر+علم": [
+   "2:77",
+   "2:235",
+   "6:3",
+   "9:78",
+   "11:5",
+   "12:19",
+   "12:77",
+   "16:19",
+   "16:23",
+   "16:75",
+   "20:7",
+   "25:6",
+   "36:76",
+   "47:26",
+   "60:1",
+   "64:4",
+   "66:3",
+   "67:13"
+  ],
+  "سرر+قول": [
+   "2:69",
+   "2:235",
+   "5:52",
+   "7:95",
+   "12:19",
+   "12:77",
+   "13:10",
+   "14:31",
+   "20:7",
+   "25:6",
+   "34:33",
+   "36:76",
+   "47:26",
+   "66:3",
+   "67:13"
+  ],
+  "سرر+صلو": [
+   "13:22",
+   "14:31",
+   "35:29"
+  ]
+ }
+}

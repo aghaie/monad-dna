@@ -12,6 +12,7 @@
   "بعث",
   "بغي",
   "بيت",
+  "جهر",
   "حبب",
   "خلف",
   "خير",
@@ -27,9 +28,12 @@
   "صوب",
   "طوع",
   "ظلم",
+  "علم",
+  "علن",
   "فلح",
   "قرب",
   "قلب",
+  "قول",
   "قوم",
   "كبر",
   "كتب",
@@ -47,15 +51,18 @@
   "صلو",
   "زكو",
   "اذن",
-  "نفق"
+  "نفق",
+  "سرر"
  ],
  "open_queue": [
   "اتي",
   "امن",
   "رزق",
-  "سرر",
   "طوع",
+  "علم",
+  "علن",
   "قلب",
+  "قول",
   "قوم"
  ],
  "edges": [
@@ -380,6 +387,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "جهر",
+   "b": "سرر",
+   "directions": {
+    "سرر→جهر": {
+     "breath": 6,
+     "lift": 48.341,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "حبب",
    "b": "نفق",
    "directions": {
@@ -565,6 +588,54 @@
   },
   {
    "a": "سرر",
+   "b": "علم",
+   "directions": {
+    "سرر→علم": {
+     "breath": 6,
+     "lift": 3.586,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سرر",
+   "b": "علن",
+   "directions": {
+    "سرر→علن": {
+     "breath": 6,
+     "lift": 108.767,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سرر",
+   "b": "قول",
+   "directions": {
+    "سرر→قول": {
+     "breath": 6,
+     "lift": 1.573,
+     "p": 0.0266,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سرر",
    "b": "نفق",
    "directions": {
     "نفق→سرر": {
@@ -574,9 +645,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "سرر→نفق": {
+     "breath": 6,
+     "lift": 10.118,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
