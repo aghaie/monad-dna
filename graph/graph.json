@@ -14,12 +14,14 @@
   "بسط",
   "بطن",
   "بعث",
+  "بعض",
   "بغي",
   "بني",
   "بيت",
   "ثمر",
   "جنح",
   "جنن",
+  "جهد",
   "جهر",
   "حبب",
   "حرم",
@@ -33,6 +35,7 @@
   "دخل",
   "ربب",
   "رحم",
+  "ردد",
   "رزق",
   "رسل",
   "رضو",
@@ -59,11 +62,13 @@
   "طيب",
   "ظلم",
   "عبد",
+  "عرف",
   "علم",
   "علن",
   "غفر",
   "غير",
   "فري",
+  "فسق",
   "فلح",
   "قتل",
   "قدر",
@@ -74,6 +79,7 @@
   "كبر",
   "كتب",
   "كرم",
+  "كره",
   "كلم",
   "ليل",
   "مول",
@@ -101,13 +107,14 @@
   "حلل",
   "حرم",
   "سجد",
-  "اكل"
+  "اكل",
+  "طوع"
  ],
  "open_queue": [
   "اتي",
   "امن",
   "شيا",
-  "طوع",
+  "عرف",
   "علم",
   "قدر",
   "قلب",
@@ -788,6 +795,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بعض",
+   "b": "طوع",
+   "directions": {
+    "طوع→بعض": {
+     "breath": 16,
+     "lift": 3.645,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بغي",
    "b": "حرم",
    "directions": {
@@ -891,6 +914,22 @@
      "breath": 10,
      "lift": 3.458,
      "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جهد",
+   "b": "طوع",
+   "directions": {
+    "طوع→جهد": {
+     "breath": 16,
+     "lift": 7.34,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -1316,6 +1355,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ردد",
+   "b": "طوع",
+   "directions": {
+    "طوع→ردد": {
+     "breath": 16,
+     "lift": 4.636,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "رزق",
    "b": "صلو",
    "directions": {
@@ -1557,6 +1612,22 @@
   },
   {
    "a": "سبل",
+   "b": "طوع",
+   "directions": {
+    "طوع→سبل": {
+     "breath": 16,
+     "lift": 3.545,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبل",
    "b": "نفق",
    "directions": {
     "نفق→سبل": {
@@ -1748,6 +1819,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "صبر",
+   "b": "طوع",
+   "directions": {
+    "طوع→صبر": {
+     "breath": 16,
+     "lift": 5.114,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "صلو",
    "b": "قرب",
    "directions": {
@@ -1837,6 +1924,54 @@
   },
   {
    "a": "طوع",
+   "b": "عرف",
+   "directions": {
+    "طوع→عرف": {
+     "breath": 16,
+     "lift": 5.114,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "طوع",
+   "b": "فسق",
+   "directions": {
+    "طوع→فسق": {
+     "breath": 16,
+     "lift": 4.893,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طوع",
+   "b": "كره",
+   "directions": {
+    "طوع→كره": {
+     "breath": 16,
+     "lift": 9.06,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طوع",
    "b": "نفق",
    "directions": {
     "نفق→طوع": {
@@ -1846,10 +1981,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "طوع→نفق": {
+     "breath": 16,
+     "lift": 5.531,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "طوع",
+   "b": "وقي",
+   "directions": {
+    "طوع→وقي": {
+     "breath": 16,
+     "lift": 4.237,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 19
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "طيب",
