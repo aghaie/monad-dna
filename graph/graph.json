@@ -47,6 +47,7 @@
   "بغي",
   "بقي",
   "بكم",
+  "بلغ",
   "بني",
   "بوا",
   "بوب",
@@ -311,6 +312,7 @@
   "قسم",
   "قسو",
   "قصص",
+  "قضي",
   "قطع",
   "قعد",
   "قلب",
@@ -693,7 +695,8 @@
   "دور",
   "جثم",
   "صبح",
-  "ندم"
+  "ندم",
+  "اجل"
  ],
  "open_queue": [
   "اتي",
@@ -710,6 +713,7 @@
   "بصر",
   "بعد",
   "بعض",
+  "بلغ",
   "بني",
   "بين",
   "جري",
@@ -1619,11 +1623,163 @@
   },
   {
    "a": "اجل",
+   "b": "اخر",
+   "directions": {
+    "اجل→اخر": {
+     "breath": 265,
+     "lift": 9.663,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "بلغ",
+   "directions": {
+    "اجل→بلغ": {
+     "breath": 265,
+     "lift": 16.017,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "جيا",
+   "directions": {
+    "اجل→جيا": {
+     "breath": 265,
+     "lift": 4.463,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "خلق",
+   "directions": {
+    "اجل→خلق": {
+     "breath": 265,
+     "lift": 4.768,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
    "b": "ريب",
    "directions": {
     "ريب→اجل": {
      "breath": 203,
      "lift": 18.56,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "اجل→ريب": {
+     "breath": 265,
+     "lift": 18.56,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "سمو",
+   "directions": {
+    "اجل→سمو": {
+     "breath": 265,
+     "lift": 8.489,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 23
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اجل",
+   "b": "عرف",
+   "directions": {
+    "اجل→عرف": {
+     "breath": 265,
+     "lift": 10.477,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "قضي",
+   "directions": {
+    "اجل→قضي": {
+     "breath": 265,
+     "lift": 15.414,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "نوس",
+   "directions": {
+    "اجل→نوس": {
+     "breath": 265,
+     "lift": 4.619,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "وفي",
+   "directions": {
+    "اجل→وفي": {
+     "breath": 265,
+     "lift": 10.15,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",

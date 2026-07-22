@@ -1,0 +1,3693 @@
+{
+ "breath_number": 265,
+ "deliberation": [
+  {
+   "root": "اجل",
+   "attestation": 56
+  },
+  {
+   "root": "نهي",
+   "attestation": 56
+  },
+  {
+   "root": "ذهب",
+   "attestation": 56
+  },
+  {
+   "root": "روح",
+   "attestation": 57
+  },
+  {
+   "root": "قري",
+   "attestation": 57
+  },
+  {
+   "root": "عدد",
+   "attestation": 57
+  },
+  {
+   "root": "ضرب",
+   "attestation": 58
+  },
+  {
+   "root": "زكو",
+   "attestation": 59
+  },
+  {
+   "root": "نسو",
+   "attestation": 59
+  },
+  {
+   "root": "ظهر",
+   "attestation": 59
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "اجل",
+ "attestation": 56,
+ "ayat": 48,
+ "top": [
+  {
+   "root": "ريب",
+   "shared": 5,
+   "expected": 0.27,
+   "lift": 18.56,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بلغ",
+   "shared": 9,
+   "expected": 0.56,
+   "lift": 16.017,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قضي",
+   "shared": 7,
+   "expected": 0.45,
+   "lift": 15.414,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عرف",
+   "shared": 5,
+   "expected": 0.48,
+   "lift": 10.477,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وفي",
+   "shared": 5,
+   "expected": 0.49,
+   "lift": 10.15,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخر",
+   "shared": 18,
+   "expected": 1.86,
+   "lift": 9.663,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سمو",
+   "shared": 23,
+   "expected": 2.71,
+   "lift": 8.489,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خلق",
+   "shared": 8,
+   "expected": 1.68,
+   "lift": 4.768,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نوس",
+   "shared": 8,
+   "expected": 1.73,
+   "lift": 4.619,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جيا",
+   "shared": 9,
+   "expected": 2.02,
+   "lift": 4.463,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "ريب",
+  "بلغ",
+  "قضي",
+  "عرف",
+  "وفي",
+  "اخر",
+  "سمو",
+  "نوس",
+  "جيا"
+ ],
+ "one_way": [
+  "خلق"
+ ],
+ "neighbor_view": {
+  "ريب": {
+   "root": "اجل",
+   "shared": 5,
+   "expected": 0.27,
+   "lift": 18.56,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بلغ": {
+   "root": "اجل",
+   "shared": 9,
+   "expected": 0.56,
+   "lift": 16.017,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قضي": {
+   "root": "اجل",
+   "shared": 7,
+   "expected": 0.45,
+   "lift": 15.414,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عرف": {
+   "root": "اجل",
+   "shared": 5,
+   "expected": 0.48,
+   "lift": 10.477,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "وفي": {
+   "root": "اجل",
+   "shared": 5,
+   "expected": 0.49,
+   "lift": 10.15,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخر": {
+   "root": "اجل",
+   "shared": 18,
+   "expected": 1.86,
+   "lift": 9.663,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سمو": {
+   "root": "اجل",
+   "shared": 23,
+   "expected": 2.71,
+   "lift": 8.489,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خلق": null,
+  "نوس": {
+   "root": "اجل",
+   "shared": 8,
+   "expected": 1.73,
+   "lift": 4.619,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "جيا": {
+   "root": "اجل",
+   "shared": 9,
+   "expected": 2.02,
+   "lift": 4.463,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "اجل↔اله",
+   "shared": 27,
+   "expected": 14.46,
+   "lift": 1.87,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔رحم",
+   "shared": 1,
+   "expected": 2.41,
+   "lift": 0.42,
+   "p_perm": 0.9336
+  },
+  {
+   "pair": "اجل↔راف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هجر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نصر",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔اوي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔باس",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غفر",
+   "shared": 5,
+   "expected": 1.55,
+   "lift": 3.22,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "اجل↔حلم",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.5,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "اجل↔عفو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ذنب",
+   "shared": 2,
+   "expected": 0.28,
+   "lift": 7.02,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "اجل↔سوا",
+   "shared": 0,
+   "expected": 1.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بدو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خفي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔دون",
+   "shared": 1,
+   "expected": 1.09,
+   "lift": 0.91,
+   "p_perm": 0.691
+  },
+  {
+   "pair": "اجل↔نفع",
+   "shared": 2,
+   "expected": 0.38,
+   "lift": 5.3,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "اجل↔ضرر",
+   "shared": 3,
+   "expected": 0.54,
+   "lift": 5.57,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "اجل↔كشف",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.5,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "اجل↔مسس",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ذوق",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔الم",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔انس",
+   "shared": 2,
+   "expected": 0.72,
+   "lift": 2.79,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "اجل↔عشر",
+   "shared": 2,
+   "expected": 0.2,
+   "lift": 9.99,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "اجل↔عرض",
+   "shared": 2,
+   "expected": 0.55,
+   "lift": 3.61,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "اجل↔بغي",
+   "shared": 1,
+   "expected": 0.69,
+   "lift": 1.44,
+   "p_perm": 0.4684
+  },
+  {
+   "pair": "اجل↔عوج",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سبل",
+   "shared": 0,
+   "expected": 1.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔يتم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شري",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لحم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔دمو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثمن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فلك",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وسع",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كلف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جهد",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قسم",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.19,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "اجل↔صدد",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.17,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "اجل↔بحر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔برر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ستت",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لون",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نقض",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حرق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حيق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ضيع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جدد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔رجس",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قهر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عنب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طبع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وقد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ايد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سفه",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.99,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "اجل↔عون",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عصو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طين",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.83,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "اجل↔جحد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خطب",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.83,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "اجل↔شبه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بغت",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.99,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "اجل↔طمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خزن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فدي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حلف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عصم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حور",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فوه",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جلد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ياس",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 11.81,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "اجل↔فقر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔رجم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صوم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثوي",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.28,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "اجل↔وصف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شكك",
+   "shared": 2,
+   "expected": 0.12,
+   "lift": 17.32,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "اجل↔بدا",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صمم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كفف",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.28,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "اجل↔حرج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔علن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خبث",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كيل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لبب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سطر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فاد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حبط",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عتد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جهر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شرق",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عوذ",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مدن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ربص",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.83,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "اجل↔بوا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صفو",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فكر",
+   "shared": 2,
+   "expected": 0.14,
+   "lift": 14.44,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "اجل↔دبب",
+   "shared": 2,
+   "expected": 0.14,
+   "lift": 14.44,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "اجل↔مكن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نوب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ملل",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.12,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "اجل↔حنف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فرض",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غرب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صور",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نخل",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔زرع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نفخ",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فطر",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.84,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "اجل↔مري",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.84,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "اجل↔فقه",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سوي",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.62,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "اجل↔حزب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بقي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سنن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كتم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هود",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شهر",
+   "shared": 2,
+   "expected": 0.13,
+   "lift": 15.28,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "اجل↔مني",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حذر",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.84,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "اجل↔ربع",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.19,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "اجل↔عرب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ترب",
+   "shared": 2,
+   "expected": 0.17,
+   "lift": 11.81,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "اجل↔تمم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فرح",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سرع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سرف",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.19,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "اجل↔ثمر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مرض",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فحش",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔اذي",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جهل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غضب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عمر",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.84,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "اجل↔سقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بسط",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صلي",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.2,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "اجل↔وعظ",
+   "shared": 3,
+   "expected": 0.18,
+   "lift": 16.24,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔حدد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قسط",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.91,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "اجل↔وزن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حضر",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.2,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "اجل↔وهب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حول",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خزي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هون",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نبت",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.65,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "اجل↔عجز",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قمر",
+   "shared": 4,
+   "expected": 0.2,
+   "lift": 19.99,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔بوب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سير",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.2,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "اجل↔عجب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غرر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مسك",
+   "shared": 3,
+   "expected": 0.18,
+   "lift": 16.24,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔منن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ابد",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خلو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عدل",
+   "shared": 2,
+   "expected": 0.18,
+   "lift": 10.83,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "اجل↔شقق",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثوب",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.65,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "اجل↔حوط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثقل",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔يقن",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.64,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "اجل↔رجو",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.62,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "اجل↔فوز",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔رفع",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.48,
+   "p_perm": 0.1661
+  },
+  {
+   "pair": "اجل↔ثني",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طير",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ودد",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جدل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔افك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔انث",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صرف",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قصص",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عسي",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.64,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "اجل↔خلص",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔برا",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شرر",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.33,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "اجل↔لبث",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قعد",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غلب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طهر",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.0,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "اجل↔ثلث",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.64,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "اجل↔وري",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عصي",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔برك",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نصب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شمس",
+   "shared": 4,
+   "expected": 0.25,
+   "lift": 16.24,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔كفي",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عرش",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.06,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "اجل↔عمي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حجج",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جنب",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.19,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "اجل↔هزا",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.06,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "اجل↔وثق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حين",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.94,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "اجل↔مرر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ورث",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.82,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "اجل↔غفل",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ريب",
+   "shared": 5,
+   "expected": 0.27,
+   "lift": 18.56,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔اني",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قرن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قطع",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بطل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حدث",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.61,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "اجل↔نكر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سبق",
+   "shared": 4,
+   "expected": 0.27,
+   "lift": 14.85,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔فتح",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هوي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قرر",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.51,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "اجل↔ذرر",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.61,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "اجل↔شرب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سلط",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.33,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "اجل↔ملا",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شعر",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.25,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "اجل↔فلح",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كره",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جبل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طوف",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لعن",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سخر",
+   "shared": 4,
+   "expected": 0.27,
+   "lift": 14.85,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔قوي",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حزن",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فوق",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جوب",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.17,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "اجل↔فصل",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.09,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "اجل↔حشر",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.02,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "اجل↔مكر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سرر",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.02,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "اجل↔دبر",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.95,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "اجل↔بدل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حفظ",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صرط",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نسي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وذر",
+   "shared": 2,
+   "expected": 0.33,
+   "lift": 6.04,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "اجل↔عهد",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔زين",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صدر",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عجل",
+   "shared": 2,
+   "expected": 0.34,
+   "lift": 5.91,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "اجل↔كرم",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طعم",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔اثم",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قدم",
+   "shared": 3,
+   "expected": 0.37,
+   "lift": 8.12,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "اجل↔سوع",
+   "shared": 3,
+   "expected": 0.34,
+   "lift": 8.86,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔عقل",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.65,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "اجل↔طيب",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فرج",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثبت",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فسد",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.76,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "اجل↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔تحت",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حلل",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.02,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "اجل↔جنح",
+   "shared": 3,
+   "expected": 0.25,
+   "lift": 12.18,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔خبر",
+   "shared": 4,
+   "expected": 0.4,
+   "lift": 9.99,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اجل↔لطف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ندو",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔دور",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.45,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "اجل↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صبح",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ندم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "اجل↔راف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هجر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نصر",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔اوي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔باس",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عفو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سوا",
+   "shared": 0,
+   "expected": 1.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بدو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خفي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مسس",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ذوق",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔الم",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عوج",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سبل",
+   "shared": 0,
+   "expected": 1.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔يتم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شري",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لحم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔دمو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثمن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فلك",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وسع",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كلف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جهد",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بحر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔برر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ستت",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لون",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نقض",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حرق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حيق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ضيع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جدد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔رجس",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قهر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عنب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طبع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وقد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ايد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عون",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عصو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جحد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شبه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خزن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فدي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حلف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عصم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حور",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فوه",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جلد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فقر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔رجم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صوم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وصف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بدا",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صمم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حرج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔علن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خبث",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كيل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لبب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سطر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فاد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حبط",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عتد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جهر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شرق",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عوذ",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مدن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بوا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صفو",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مكن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نوب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حنف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فرض",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غرب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صور",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نخل",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔زرع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نفخ",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فقه",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حزب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بقي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سنن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كتم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هود",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مني",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عرب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔تمم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فرح",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سرع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثمر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مرض",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فحش",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔اذي",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جهل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غضب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔سقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بسط",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حدد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وزن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وهب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حول",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خزي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هون",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عجز",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بوب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عجب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غرر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔منن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ابد",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خلو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شقق",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حوط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثقل",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فوز",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثني",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طير",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ودد",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جدل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔افك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔انث",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صرف",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قصص",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔خلص",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔برا",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لبث",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قعد",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غلب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وري",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عصي",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔برك",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نصب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كفي",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عمي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حجج",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔وثق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مرر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔غفل",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔اني",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قرن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قطع",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بطل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نكر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فتح",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔هوي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شرب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ملا",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فلح",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كره",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جبل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طوف",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لعن",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔قوي",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حزن",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فوق",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔مكر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔بدل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔حفظ",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صرط",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔نسي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عهد",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔زين",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صدر",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔كرم",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طعم",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔اثم",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔طيب",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔فرج",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ثبت",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔تحت",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔لطف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ندو",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔صبح",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اجل↔ندم",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "22:5",
+   "degree": 6,
+   "roots_present": [
+    "ريب",
+    "بلغ",
+    "وفي",
+    "سمو",
+    "خلق",
+    "نوس"
+   ]
+  },
+  {
+   "ayah": "16:61",
+   "degree": 4,
+   "roots_present": [
+    "اخر",
+    "سمو",
+    "نوس",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "35:45",
+   "degree": 4,
+   "roots_present": [
+    "اخر",
+    "سمو",
+    "نوس",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "39:42",
+   "degree": 4,
+   "roots_present": [
+    "قضي",
+    "وفي",
+    "اخر",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "40:67",
+   "degree": 4,
+   "roots_present": [
+    "بلغ",
+    "وفي",
+    "سمو",
+    "خلق"
+   ]
+  },
+  {
+   "ayah": "42:14",
+   "degree": 4,
+   "roots_present": [
+    "ريب",
+    "قضي",
+    "سمو",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "2:232",
+   "degree": 3,
+   "roots_present": [
+    "بلغ",
+    "عرف",
+    "اخر"
+   ]
+  },
+  {
+   "ayah": "2:234",
+   "degree": 3,
+   "roots_present": [
+    "بلغ",
+    "عرف",
+    "وفي"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "اجل+ريب": [
+   "2:282",
+   "17:99",
+   "22:5",
+   "42:14",
+   "65:4"
+  ],
+  "اجل+بلغ": [
+   "2:231",
+   "2:232",
+   "2:234",
+   "2:235",
+   "6:128",
+   "7:135",
+   "22:5",
+   "40:67",
+   "65:2"
+  ],
+  "اجل+قضي": [
+   "6:2",
+   "6:60",
+   "10:11",
+   "28:28",
+   "28:29",
+   "39:42",
+   "42:14"
+  ],
+  "اجل+عرف": [
+   "2:231",
+   "2:232",
+   "2:234",
+   "2:235",
+   "65:2"
+  ],
+  "اجل+وفي": [
+   "2:234",
+   "6:60",
+   "22:5",
+   "39:42",
+   "40:67"
+  ],
+  "اجل+اخر": [
+   "2:232",
+   "2:282",
+   "3:145",
+   "4:77",
+   "7:34",
+   "10:49",
+   "11:104",
+   "14:10",
+   "14:44",
+   "15:5",
+   "16:61",
+   "23:43",
+   "35:45",
+   "39:42",
+   "63:10",
+   "63:11",
+   "65:2",
+   "71:4"
+  ],
+  "اجل+سمو": [
+   "2:282",
+   "6:2",
+   "6:60",
+   "7:185",
+   "11:3",
+   "13:2",
+   "14:10",
+   "16:61",
+   "17:99",
+   "20:129",
+   "22:5",
+   "22:33",
+   "29:53",
+   "30:8",
+   "31:29",
+   "35:13",
+   "35:45",
+   "39:5",
+   "39:42",
+   "40:67"
+  ],
+  "اجل+خلق": [
+   "6:2",
+   "7:185",
+   "17:99",
+   "22:5",
+   "30:8",
+   "39:5",
+   "40:67",
+   "46:3"
+  ],
+  "اجل+نوس": [
+   "4:77",
+   "5:32",
+   "10:11",
+   "14:44",
+   "16:61",
+   "22:5",
+   "30:8",
+   "35:45"
+  ],
+  "اجل+جيا": [
+   "5:32",
+   "7:34",
+   "10:49",
+   "16:61",
+   "29:53",
+   "35:45",
+   "42:14",
+   "63:11",
+   "71:4"
+  ],
+  "اجل+اله": [
+   "2:231",
+   "2:232",
+   "2:234",
+   "2:235",
+   "2:282",
+   "3:145",
+   "4:77",
+   "6:128",
+   "7:185",
+   "10:11",
+   "10:49",
+   "13:2",
+   "13:38",
+   "14:10",
+   "16:61",
+   "17:99",
+   "28:28",
+   "29:5",
+   "30:8",
+   "31:29"
+  ],
+  "اجل+غفر": [
+   "2:235",
+   "11:3",
+   "14:10",
+   "39:5",
+   "71:4"
+  ],
+  "اجل+ذنب": [
+   "14:10",
+   "71:4"
+  ],
+  "اجل+ضرر": [
+   "2:231",
+   "2:282",
+   "10:49"
+  ],
+  "اجل+عشر": [
+   "2:234",
+   "6:128"
+  ],
+  "اجل+شكك": [
+   "14:10",
+   "42:14"
+  ],
+  "اجل+فكر": [
+   "30:8",
+   "39:42"
+  ],
+  "اجل+دبب": [
+   "16:61",
+   "35:45"
+  ],
+  "اجل+شهر": [
+   "2:234",
+   "65:4"
+  ],
+  "اجل+ترب": [
+   "22:5",
+   "40:67"
+  ],
+  "اجل+وعظ": [
+   "2:231",
+   "2:232",
+   "65:2"
+  ],
+  "اجل+قمر": [
+   "13:2",
+   "31:29",
+   "35:13",
+   "39:5"
+  ],
+  "اجل+مسك": [
+   "2:231",
+   "39:42",
+   "65:2"
+  ],
+  "اجل+عدل": [
+   "2:282",
+   "65:2"
+  ],
+  "اجل+رجو": [
+   "10:11",
+   "29:5"
+  ],
+  "اجل+شمس": [
+   "13:2",
+   "31:29",
+   "35:13",
+   "39:5"
+  ],
+  "اجل+سبق": [
+   "15:5",
+   "20:129",
+   "23:43",
+   "42:14"
+  ],
+  "اجل+سخر": [
+   "13:2",
+   "31:29",
+   "35:13",
+   "39:5"
+  ],
+  "اجل+وذر": [
+   "2:234",
+   "10:11"
+  ],
+  "اجل+قدم": [
+   "7:34",
+   "10:49",
+   "16:61"
+  ],
+  "اجل+سوع": [
+   "7:34",
+   "10:49",
+   "16:61"
+  ],
+  "اجل+جنح": [
+   "2:234",
+   "2:235",
+   "2:282"
+  ],
+  "اجل+خبر": [
+   "2:234",
+   "28:29",
+   "31:29",
+   "63:11"
+  ]
+ }
+}
