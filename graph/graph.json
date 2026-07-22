@@ -109,6 +109,7 @@
   "علن",
   "علو",
   "عمل",
+  "عند",
   "غرر",
   "غفر",
   "غفل",
@@ -189,12 +190,12 @@
   "عمل",
   "رسل",
   "اله",
-  "حبط"
+  "حبط",
+  "بقي"
  ],
  "open_queue": [
   "اتي",
   "امن",
-  "بقي",
   "جرم",
   "خبر",
   "دبر",
@@ -924,6 +925,22 @@
   },
   {
    "a": "امن",
+   "b": "بقي",
+   "directions": {
+    "بقي→امن": {
+     "breath": 26,
+     "lift": 2.875,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
    "b": "طيب",
    "directions": {
     "طيب→امن": {
@@ -1213,10 +1230,50 @@
      "stable": true,
      "tier": "قوی",
      "shared": 8
+    },
+    "بقي→خير": {
+     "breath": 26,
+     "lift": 13.346,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بقي",
+   "b": "ربب",
+   "directions": {
+    "بقي→ربب": {
+     "breath": 26,
+     "lift": 2.727,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بقي",
+   "b": "عند",
+   "directions": {
+    "بقي→عند": {
+     "breath": 26,
+     "lift": 7.856,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "بلغ",
