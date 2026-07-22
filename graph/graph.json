@@ -78,6 +78,7 @@
   "حبب",
   "حبط",
   "حجج",
+  "حدث",
   "حدد",
   "حذر",
   "حرج",
@@ -579,7 +580,8 @@
   "اني",
   "قرن",
   "قطع",
-  "بطل"
+  "بطل",
+  "حدث"
  ],
  "open_queue": [
   "اتي",
@@ -884,6 +886,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اتي",
+   "b": "حدث",
+   "directions": {
+    "حدث→اتي": {
+     "breath": 208,
+     "lift": 3.564,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
    "mutual_strong": false,
@@ -3739,6 +3757,22 @@
   },
   {
    "a": "امن",
+   "b": "حدث",
+   "directions": {
+    "حدث→امن": {
+     "breath": 208,
+     "lift": 1.917,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
    "b": "حذر",
    "directions": {
     "حذر→امن": {
@@ -6028,6 +6062,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
+   "b": "حدث",
+   "directions": {
+    "حدث→بعد": {
+     "breath": 208,
+     "lift": 6.299,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -8584,6 +8634,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "حدث",
+   "b": "ذكر",
+   "directions": {
+    "حدث→ذكر": {
+     "breath": 208,
+     "lift": 3.937,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "حدد",
