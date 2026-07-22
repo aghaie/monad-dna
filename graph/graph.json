@@ -16,15 +16,18 @@
   "بني",
   "بيت",
   "ثمر",
+  "جنح",
   "جنن",
   "جهر",
   "حبب",
   "حرم",
+  "حكم",
   "حلل",
   "خبث",
   "خلف",
   "خير",
   "ربب",
+  "رحم",
   "رزق",
   "رسل",
   "رضو",
@@ -45,6 +48,7 @@
   "علم",
   "علن",
   "غفر",
+  "غير",
   "فلح",
   "قدر",
   "قرب",
@@ -56,6 +60,7 @@
   "كرم",
   "كلم",
   "مول",
+  "نسو",
   "نفق",
   "نهي",
   "وجد",
@@ -74,13 +79,14 @@
   "رزق",
   "بسط",
   "طيب",
-  "خبث"
+  "خبث",
+  "حلل"
  ],
  "open_queue": [
   "اتي",
   "اكل",
   "امن",
-  "حلل",
+  "حرم",
   "شيا",
   "طوع",
   "علم",
@@ -90,6 +96,22 @@
   "قوم"
  ],
  "edges": [
+  {
+   "a": "اتي",
+   "b": "حلل",
+   "directions": {
+    "حلل→اتي": {
+     "breath": 12,
+     "lift": 2.984,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
   {
    "a": "اتي",
    "b": "زكو",
@@ -305,6 +327,22 @@
     "اذن→يدي": {
      "breath": 4,
      "lift": 5.039,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اكل",
+   "b": "حلل",
+   "directions": {
+    "حلل→اكل": {
+     "breath": 12,
+     "lift": 11.487,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -643,6 +681,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "جنح",
+   "b": "حلل",
+   "directions": {
+    "حلل→جنح": {
+     "breath": 12,
+     "lift": 22.66,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "جنن",
    "b": "طيب",
    "directions": {
@@ -692,6 +746,22 @@
   },
   {
    "a": "حرم",
+   "b": "حلل",
+   "directions": {
+    "حلل→حرم": {
+     "breath": 12,
+     "lift": 34.724,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حرم",
    "b": "رزق",
    "directions": {
     "رزق→حرم": {
@@ -701,6 +771,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حكم",
+   "b": "حلل",
+   "directions": {
+    "حلل→حكم": {
+     "breath": 12,
+     "lift": 3.837,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حلل",
+   "b": "رحم",
+   "directions": {
+    "حلل→رحم": {
+     "breath": 12,
+     "lift": 2.78,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -717,10 +819,66 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "حلل→طيب": {
+     "breath": 12,
+     "lift": 31.527,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حلل",
+   "b": "غير",
+   "directions": {
+    "حلل→غير": {
+     "breath": 12,
+     "lift": 4.967,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حلل",
+   "b": "نسو",
+   "directions": {
+    "حلل→نسو": {
+     "breath": 12,
+     "lift": 16.418,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حلل",
+   "b": "وقي",
+   "directions": {
+    "حلل→وقي": {
+     "breath": 12,
+     "lift": 4.895,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "خبث",
