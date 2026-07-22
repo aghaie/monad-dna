@@ -1,0 +1,716 @@
+{
+ "breath_number": 27,
+ "deliberation": [
+  {
+   "root": "عدل",
+   "attestation": 28
+  },
+  {
+   "root": "كفي",
+   "attestation": 33
+  },
+  {
+   "root": "دبر",
+   "attestation": 44
+  },
+  {
+   "root": "زين",
+   "attestation": 46
+  },
+  {
+   "root": "عقل",
+   "attestation": 49
+  },
+  {
+   "root": "خبر",
+   "attestation": 52
+  },
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "جرم",
+   "attestation": 66
+  },
+  {
+   "root": "عرف",
+   "attestation": 70
+  },
+  {
+   "root": "علو",
+   "attestation": 70
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "عدل",
+ "attestation": 28,
+ "ayat": 24,
+ "top": [
+  {
+   "root": "قسط",
+   "shared": 6,
+   "expected": 0.08,
+   "lift": 70.864,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قرب",
+   "shared": 5,
+   "expected": 0.35,
+   "lift": 14.277,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شهد",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.675,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "امر",
+   "shared": 6,
+   "expected": 0.87,
+   "lift": 6.898,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وقي",
+   "shared": 6,
+   "expected": 0.91,
+   "lift": 6.578,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخر",
+   "shared": 5,
+   "expected": 0.93,
+   "lift": 5.368,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نفس",
+   "shared": 5,
+   "expected": 1.04,
+   "lift": 4.812,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امن",
+   "shared": 10,
+   "expected": 2.78,
+   "lift": 3.594,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قوم",
+   "shared": 8,
+   "expected": 2.3,
+   "lift": 3.482,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بين",
+   "shared": 6,
+   "expected": 1.75,
+   "lift": 3.434,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "قسط",
+  "قرب",
+  "شهد",
+  "امر",
+  "وقي",
+  "اخر",
+  "نفس"
+ ],
+ "one_way": [
+  "امن",
+  "قوم",
+  "بين"
+ ],
+ "neighbor_view": {
+  "قسط": {
+   "root": "عدل",
+   "shared": 6,
+   "expected": 0.08,
+   "lift": 70.864,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قرب": {
+   "root": "عدل",
+   "shared": 5,
+   "expected": 0.35,
+   "lift": 14.277,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شهد": {
+   "root": "عدل",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.675,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "امر": {
+   "root": "عدل",
+   "shared": 6,
+   "expected": 0.87,
+   "lift": 6.898,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "وقي": {
+   "root": "عدل",
+   "shared": 6,
+   "expected": 0.91,
+   "lift": 6.578,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخر": {
+   "root": "عدل",
+   "shared": 5,
+   "expected": 0.93,
+   "lift": 5.368,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نفس": {
+   "root": "عدل",
+   "shared": 5,
+   "expected": 1.04,
+   "lift": 4.812,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "امن": null,
+  "قوم": null,
+  "بين": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "عدل↔فلح",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔صلو",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "عدل↔زكو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔اذن",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔نفق",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔سرر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔رزق",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔بسط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔طيب",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.65,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "عدل↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔حلل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔حرم",
+   "shared": 2,
+   "expected": 0.27,
+   "lift": 7.32,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "عدل↔سجد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔اكل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔طوع",
+   "shared": 2,
+   "expected": 0.45,
+   "lift": 4.4,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "عدل↔شهد",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.67,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عدل↔كبر",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.7,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "عدل↔حيي",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.61,
+   "p_perm": 0.5017
+  },
+  {
+   "pair": "عدل↔خير",
+   "shared": 1,
+   "expected": 0.69,
+   "lift": 1.46,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "عدل↔ولي",
+   "shared": 4,
+   "expected": 0.78,
+   "lift": 5.15,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عدل↔عمل",
+   "shared": 3,
+   "expected": 1.2,
+   "lift": 2.49,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "عدل↔رسل",
+   "shared": 0,
+   "expected": 1.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔اله",
+   "shared": 17,
+   "expected": 7.23,
+   "lift": 2.35,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عدل↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "عدل↔فلح",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔زكو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔اذن",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔نفق",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔سرر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔رزق",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔بسط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔حلل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔سجد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔اكل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔رسل",
+   "shared": 0,
+   "expected": 1.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عدل↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:282",
+   "degree": 7,
+   "roots_present": [
+    "قسط",
+    "شهد",
+    "وقي",
+    "اخر",
+    "امن",
+    "قوم",
+    "بين"
+   ]
+  },
+  {
+   "ayah": "4:135",
+   "degree": 6,
+   "roots_present": [
+    "قسط",
+    "قرب",
+    "شهد",
+    "نفس",
+    "امن",
+    "قوم"
+   ]
+  },
+  {
+   "ayah": "5:8",
+   "degree": 6,
+   "roots_present": [
+    "قسط",
+    "قرب",
+    "شهد",
+    "وقي",
+    "امن",
+    "قوم"
+   ]
+  },
+  {
+   "ayah": "5:106",
+   "degree": 5,
+   "roots_present": [
+    "قرب",
+    "شهد",
+    "اخر",
+    "امن",
+    "بين"
+   ]
+  },
+  {
+   "ayah": "49:9",
+   "degree": 5,
+   "roots_present": [
+    "قسط",
+    "امر",
+    "اخر",
+    "امن",
+    "بين"
+   ]
+  },
+  {
+   "ayah": "65:2",
+   "degree": 5,
+   "roots_present": [
+    "شهد",
+    "وقي",
+    "اخر",
+    "امن",
+    "قوم"
+   ]
+  },
+  {
+   "ayah": "42:15",
+   "degree": 4,
+   "roots_present": [
+    "امر",
+    "امن",
+    "قوم",
+    "بين"
+   ]
+  },
+  {
+   "ayah": "4:58",
+   "degree": 3,
+   "roots_present": [
+    "امر",
+    "امن",
+    "بين"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "عدل+قسط": [
+   "2:282",
+   "4:3",
+   "4:135",
+   "5:8",
+   "6:152",
+   "49:9"
+  ],
+  "عدل+قرب": [
+   "4:135",
+   "5:8",
+   "5:106",
+   "6:152",
+   "16:90"
+  ],
+  "عدل+شهد": [
+   "2:282",
+   "4:135",
+   "5:8",
+   "5:106",
+   "6:150",
+   "65:2"
+  ],
+  "عدل+امر": [
+   "4:58",
+   "5:95",
+   "16:76",
+   "16:90",
+   "42:15",
+   "49:9"
+  ],
+  "عدل+وقي": [
+   "2:48",
+   "2:123",
+   "2:282",
+   "4:129",
+   "5:8",
+   "65:2"
+  ],
+  "عدل+اخر": [
+   "2:282",
+   "5:106",
+   "6:150",
+   "49:9",
+   "65:2"
+  ],
+  "عدل+نفس": [
+   "2:48",
+   "2:123",
+   "4:135",
+   "6:70",
+   "6:152"
+  ],
+  "عدل+امن": [
+   "2:282",
+   "4:58",
+   "4:135",
+   "5:8",
+   "5:95",
+   "5:106",
+   "6:150",
+   "42:15",
+   "49:9",
+   "65:2"
+  ],
+  "عدل+قوم": [
+   "2:282",
+   "4:135",
+   "5:8",
+   "7:159",
+   "16:76",
+   "27:60",
+   "42:15",
+   "65:2"
+  ],
+  "عدل+بين": [
+   "2:282",
+   "4:58",
+   "4:129",
+   "5:106",
+   "42:15",
+   "49:9"
+  ],
+  "عدل+ولي": [
+   "2:282",
+   "4:135",
+   "6:70",
+   "16:76"
+  ],
+  "عدل+اله": [
+   "2:282",
+   "4:58",
+   "4:129",
+   "4:135",
+   "5:8",
+   "5:95",
+   "5:106",
+   "6:1",
+   "6:70",
+   "6:150",
+   "6:152",
+   "16:76",
+   "16:90",
+   "27:60",
+   "42:15",
+   "49:9",
+   "65:2"
+  ]
+ }
+}
