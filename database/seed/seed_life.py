@@ -52,6 +52,7 @@ b16 = rec("breath_16_طوع.json")
 b17 = rec("breath_17_شهد.json")
 b18 = rec("breath_18_كبر.json")
 b19 = rec("breath_19_حيي.json")
+b20 = rec("breath_20_خير.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -152,6 +153,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_19_حيي.json",
      "breaths/records/breath_19_حيي.json", LOG1,
      "پنج قوی پایدار (دنو دوسویه ۲۰٫۰، موت دوسویه ۱۷٫۶، زين دوسویه ۱۱٫۷، متع دوسویه ۹٫۵، عقل دوسویه ۷٫۹)؛ لهو دوسویهٔ محتملِ ناپایدار lift=۱۵٫۵؛ ۵۷:۲۰ گرهِ شش‌ریشه‌ای؛ شاهدِ غیاب: شش صفر", b19["top"]),
+    (20, "تولدِ دوباره", "خير", "رفیق (نشان‌دار؛ فرمانِ باغبان: از ریشه‌های اذان — نادرترِ زیرمجموعه)",
+     b20["ayat"], b20["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_20_خير.json",
+     "breaths/records/breath_20_خير.json", LOG1,
+     "یک قوی پایدار (بقي دوسویه ۱۳٫۳)؛ نكح دوسویهٔ محتملِ ناپایدار lift=۹٫۲؛ ۴:۱۹ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: پنج صفر", b20["top"]),
     # ⚓BREATHS
 ]
 
@@ -307,6 +313,8 @@ QUEUE_EVENTS = [
     (19, "queued", "زين", "چرخه"),
     (19, "queued", "متع", "چرخه"),
     (19, "queued", "عقل", "چرخه"),
+    (20, "pursued", "خير", "رفیق (نشان‌دار؛ فرمانِ «از ریشه‌های اذان»؛ قاعدهٔ صف عدل را مقدم می‌داشت)"),
+    (20, "queued", "بقي", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -331,6 +339,7 @@ PROJ = [
     (17, b17),
     (18, b18),
     (19, b19),
+    (20, b20),
     # ⚓PROJ
 ]
 
