@@ -556,7 +556,8 @@
   "عمي",
   "حجج",
   "جنب",
-  "هزا"
+  "هزا",
+  "وثق"
  ],
  "open_queue": [
   "اتي",
@@ -1029,6 +1030,22 @@
   },
   {
    "a": "اتي",
+   "b": "وثق",
+   "directions": {
+    "وثق→اتي": {
+     "breath": 198,
+     "lift": 3.54,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
    "b": "وري",
    "directions": {
     "وري→اتي": {
@@ -1186,6 +1203,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "وثق",
+   "directions": {
+    "وثق→اخذ": {
+     "breath": 198,
+     "lift": 13.219,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اخذ",
@@ -3229,6 +3262,22 @@
   },
   {
    "a": "اله",
+   "b": "وثق",
+   "directions": {
+    "وثق→اله": {
+     "breath": 198,
+     "lift": 2.403,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 21
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "ودد",
    "directions": {
     "ودد→اله": {
@@ -3850,6 +3899,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "امن",
+   "b": "وثق",
+   "directions": {
+    "وثق→امن": {
+     "breath": 198,
+     "lift": 2.379,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "امن",
@@ -5540,6 +5605,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بعد",
+   "b": "وثق",
+   "directions": {
+    "وثق→بعد": {
+     "breath": 198,
+     "lift": 4.887,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بعض",
    "b": "هجر",
    "directions": {
@@ -6142,6 +6223,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
+   "b": "وثق",
+   "directions": {
+    "وثق→بين": {
+     "breath": 198,
+     "lift": 2.842,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -10492,6 +10589,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "رسل",
+   "b": "وثق",
+   "directions": {
+    "وثق→رسل": {
+     "breath": 198,
+     "lift": 2.506,
+     "p": 0.0498,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "رفع",
    "b": "شيا",
    "directions": {
@@ -14420,6 +14533,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "قتل",
+   "b": "وثق",
+   "directions": {
+    "وثق→قتل": {
+     "breath": 198,
+     "lift": 8.813,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "قرب",
    "b": "يتم",
    "directions": {
@@ -15649,6 +15778,14 @@
    "directions": {
     "نقض→وثق": {
      "breath": 46,
+     "lift": 119.464,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "وثق→نقض": {
+     "breath": 198,
      "lift": 119.464,
      "p": 0.0033,
      "stable": false,
