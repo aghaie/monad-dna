@@ -311,6 +311,7 @@
   "لبب",
   "لبث",
   "لحم",
+  "لعن",
   "لقي",
   "لون",
   "لوي",
@@ -611,7 +612,8 @@
   "فلح",
   "كره",
   "جبل",
-  "طوف"
+  "طوف",
+  "لعن"
  ],
  "open_queue": [
   "اتي",
@@ -3477,6 +3479,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "لعن",
+   "directions": {
+    "لعن→اله": {
+     "breath": 223,
+     "lift": 2.213,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 24
     }
    },
    "mutual_strong": false,
@@ -10780,6 +10798,22 @@
   },
   {
    "a": "دنو",
+   "b": "لعن",
+   "directions": {
+    "لعن→دنو": {
+     "breath": 223,
+     "lift": 6.766,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دنو",
    "b": "نبت",
    "directions": {
     "نبت→دنو": {
@@ -15324,6 +15358,22 @@
   },
   {
    "a": "عذب",
+   "b": "لعن",
+   "directions": {
+    "لعن→عذب": {
+     "breath": 223,
+     "lift": 3.609,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "عذب",
    "b": "مسس",
    "directions": {
     "مسس→عذب": {
@@ -17516,6 +17566,22 @@
   },
   {
    "a": "كفر",
+   "b": "لعن",
+   "directions": {
+    "لعن→كفر": {
+     "breath": 223,
+     "lift": 3.725,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "كفر",
    "b": "ملا",
    "directions": {
     "ملا→كفر": {
@@ -17977,6 +18043,38 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "لعن",
+   "b": "نور",
+   "directions": {
+    "لعن→نور": {
+     "breath": 223,
+     "lift": 4.978,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "لعن",
+   "b": "يوم",
+   "directions": {
+    "لعن→يوم": {
+     "breath": 223,
+     "lift": 3.676,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "مرض",
