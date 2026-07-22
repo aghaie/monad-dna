@@ -741,7 +741,8 @@
   "حمد",
   "قضي",
   "تلو",
-  "سحر"
+  "سحر",
+  "جري"
  ],
  "open_queue": [
   "اتي",
@@ -761,7 +762,6 @@
   "بلغ",
   "بني",
   "بين",
-  "جري",
   "جعل",
   "جنن",
   "حبب",
@@ -877,9 +877,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    },
+    "جري→ابد": {
+     "breath": 293,
+     "lift": 24.359,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -7149,6 +7157,14 @@
      "stable": true,
      "tier": "قوی",
      "shared": 8
+    },
+    "جري→بحر": {
+     "breath": 293,
+     "lift": 19.488,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -9493,9 +9509,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 40
+    },
+    "جري→تحت": {
+     "breath": 293,
+     "lift": 77.95,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 40
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -10876,6 +10900,38 @@
   },
   {
    "a": "جري",
+   "b": "جنن",
+   "directions": {
+    "جري→جنن": {
+     "breath": 293,
+     "lift": 18.394,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 37
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جري",
+   "b": "خلد",
+   "directions": {
+    "جري→خلد": {
+     "breath": 293,
+     "lift": 23.793,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 21
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جري",
    "b": "روح",
    "directions": {
     "روح→جري": {
@@ -10901,9 +10957,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "جري→سخر": {
+     "breath": 293,
+     "lift": 25.055,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -10912,6 +10976,14 @@
    "directions": {
     "شمس→جري": {
      "breath": 191,
+     "lift": 15.225,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "جري→شمس": {
+     "breath": 293,
      "lift": 15.225,
      "p": 0.0033,
      "stable": false,
@@ -10933,6 +11005,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    },
+    "جري→فلك": {
+     "breath": 293,
+     "lift": 27.282,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -10949,6 +11029,30 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "جري→فوز": {
+     "breath": 293,
+     "lift": 36.088,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جري",
+   "b": "نهر",
+   "directions": {
+    "جري→نهر": {
+     "breath": 293,
+     "lift": 42.987,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 45
     }
    },
    "mutual_strong": false,
