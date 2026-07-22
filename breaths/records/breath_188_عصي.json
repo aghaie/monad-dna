@@ -1,0 +1,2850 @@
+{
+ "breath_number": 188,
+ "deliberation": [
+  {
+   "root": "عصي",
+   "attestation": 32
+  },
+  {
+   "root": "برك",
+   "attestation": 32
+  },
+  {
+   "root": "نصب",
+   "attestation": 32
+  },
+  {
+   "root": "شمس",
+   "attestation": 33
+  },
+  {
+   "root": "كفي",
+   "attestation": 33
+  },
+  {
+   "root": "عرش",
+   "attestation": 33
+  },
+  {
+   "root": "عمي",
+   "attestation": 33
+  },
+  {
+   "root": "حجج",
+   "attestation": 33
+  },
+  {
+   "root": "جنب",
+   "attestation": 33
+  },
+  {
+   "root": "هزا",
+   "attestation": 34
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "عصي",
+ "attestation": 32,
+ "ayat": 32,
+ "top": [
+  {
+   "root": "عدو",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.709,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امر",
+   "shared": 8,
+   "expected": 1.16,
+   "lift": 6.898,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "غير",
+   "shared": 5,
+   "expected": 0.75,
+   "lift": 6.674,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "تبع",
+   "shared": 5,
+   "expected": 0.8,
+   "lift": 6.246,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رسل",
+   "shared": 10,
+   "expected": 2.2,
+   "lift": 4.543,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كفر",
+   "shared": 7,
+   "expected": 2.39,
+   "lift": 2.934,
+   "p_perm": 0.0066,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عذب",
+   "shared": 5,
+   "expected": 1.72,
+   "lift": 2.9,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ربب",
+   "shared": 10,
+   "expected": 4.47,
+   "lift": 2.237,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امن",
+   "shared": 8,
+   "expected": 3.71,
+   "lift": 2.156,
+   "p_perm": 0.0332,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كون",
+   "shared": 11,
+   "expected": 6.03,
+   "lift": 1.823,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "عدو",
+  "امر",
+  "غير",
+  "تبع",
+  "رسل"
+ ],
+ "one_way": [
+  "كفر",
+  "عذب",
+  "ربب",
+  "امن",
+  "كون"
+ ],
+ "neighbor_view": {
+  "عدو": {
+   "root": "عصي",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.709,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "امر": {
+   "root": "عصي",
+   "shared": 8,
+   "expected": 1.16,
+   "lift": 6.898,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غير": {
+   "root": "عصي",
+   "shared": 5,
+   "expected": 0.75,
+   "lift": 6.674,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "تبع": {
+   "root": "عصي",
+   "shared": 5,
+   "expected": 0.8,
+   "lift": 6.246,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رسل": {
+   "root": "عصي",
+   "shared": 10,
+   "expected": 2.2,
+   "lift": 4.543,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كفر": null,
+  "عذب": null,
+  "ربب": null,
+  "امن": null,
+  "كون": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "عصي↔اله",
+   "shared": 15,
+   "expected": 9.64,
+   "lift": 1.56,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "عصي↔رحم",
+   "shared": 4,
+   "expected": 1.61,
+   "lift": 2.49,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "عصي↔راف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔هجر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نصر",
+   "shared": 1,
+   "expected": 0.7,
+   "lift": 1.42,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "عصي↔اوي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صير",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.72,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "عصي↔باس",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.91,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "عصي↔غفر",
+   "shared": 2,
+   "expected": 1.04,
+   "lift": 1.93,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "عصي↔حلم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عفو",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.29,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "عصي↔ذنب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سوا",
+   "shared": 1,
+   "expected": 0.77,
+   "lift": 1.29,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "عصي↔بدو",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.72,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "عصي↔خفي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔دون",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ضرر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مسس",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ذوق",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔الم",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔انس",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عشر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عرض",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بغي",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عوج",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سبل",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔يتم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شري",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔لحم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔دمو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثمن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فلك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وسع",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جهد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قسم",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صدد",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بحر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔برر",
+   "shared": 2,
+   "expected": 0.15,
+   "lift": 12.99,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "عصي↔قسو",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ستت",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔هبط",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 24.36,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "عصي↔لون",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نقض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حرق",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حيق",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ضيع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جدد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔رجس",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قهر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عنب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طبع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وقد",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 17.72,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "عصي↔ايد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سفه",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عون",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عصو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طين",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جحد",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 16.24,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "عصي↔خطب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شبه",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بغت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طمن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خزن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فدي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قرض",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حلف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عصم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حور",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فوه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جلد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ياس",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فقر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔رجم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صوم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثوي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وصف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شكك",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بدا",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صمم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كفف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حرج",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔علن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خبث",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كيل",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔لبب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سطر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فاد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حبط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عتد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جهر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شرق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عوذ",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مدن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ربص",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بوا",
+   "shared": 2,
+   "expected": 0.08,
+   "lift": 24.36,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "عصي↔صفو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فكر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔دبب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مكن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نوب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ملل",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حنف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فرض",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔غرب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صور",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نخل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔زرع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نفخ",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فطر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مري",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فقه",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سوي",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.44,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "عصي↔حزب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بقي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سنن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كتم",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.74,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "عصي↔هود",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.28,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "عصي↔شهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مني",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حذر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ربع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عرب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ترب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔تمم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فرح",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سرع",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سرف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثمر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فحش",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔اذي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جهل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔غضب",
+   "shared": 2,
+   "expected": 0.11,
+   "lift": 18.56,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "عصي↔عمر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سقي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بسط",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صلي",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.79,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "عصي↔وعظ",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حدد",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.74,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "عصي↔قسط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حضر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وهب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حول",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خزي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔هون",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.5,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "عصي↔نبت",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.47,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "عصي↔عجز",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قمر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سير",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عجب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔غرر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مسك",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔منن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ابد",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.96,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "عصي↔خلو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عدل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شقق",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حوط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثقل",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔يقن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔رجو",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.22,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "عصي↔فوز",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔رفع",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.72,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "عصي↔ثني",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طير",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ودد",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.96,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "عصي↔جدل",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔افك",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔انث",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صرف",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.72,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "عصي↔قصص",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عسي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خلص",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔برا",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.96,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "عصي↔شرر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔لبث",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قعد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔غلب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثلث",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "عصي↔راف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔هجر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔اوي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حلم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ذنب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خفي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔دون",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ضرر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مسس",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ذوق",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔الم",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔انس",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عشر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عرض",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بغي",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عوج",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سبل",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔يتم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شري",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔لحم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔دمو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثمن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فلك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وسع",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كلف",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جهد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قسم",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صدد",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بحر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قسو",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ستت",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔لون",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نقض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حرق",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حيق",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ضيع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جدد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔رجس",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قهر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عنب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طبع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ايد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سفه",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عون",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عصو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طين",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خطب",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شبه",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بغت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طمن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خزن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فدي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قرض",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حلف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عصم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حور",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فوه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جلد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ياس",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فقر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔رجم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صوم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثوي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وصف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شكك",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بدا",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صمم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كفف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حرج",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔علن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خبث",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔كيل",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔لبب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سطر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فاد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حبط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عتد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جهر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شرق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عوذ",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مدن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ربص",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صفو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فكر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔دبب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مكن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نوب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ملل",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حنف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فرض",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔غرب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔صور",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نخل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔زرع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔نفخ",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فطر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مري",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فقه",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حزب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بقي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سنن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مني",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حذر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ربع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عرب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ترب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔تمم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فرح",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سرع",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سرف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثمر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فحش",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔اذي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جهل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عمر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سقي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بسط",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وعظ",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قسط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حضر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وهب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حول",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خزي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عجز",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قمر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔بوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔سير",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عجب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔غرر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔مسك",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔منن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خلو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عدل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شقق",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔حوط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثقل",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔يقن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔فوز",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثني",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طير",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔جدل",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔افك",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔انث",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قصص",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔عسي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔خلص",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔شرر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔لبث",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔قعد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔غلب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔طهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔ثلث",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عصي↔وري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:61",
+   "degree": 5,
+   "roots_present": [
+    "عدو",
+    "غير",
+    "كفر",
+    "ربب",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "10:15",
+   "degree": 5,
+   "roots_present": [
+    "غير",
+    "تبع",
+    "عذب",
+    "ربب",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "2:93",
+   "degree": 4,
+   "roots_present": [
+    "امر",
+    "كفر",
+    "امن",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "3:112",
+   "degree": 4,
+   "roots_present": [
+    "عدو",
+    "غير",
+    "كفر",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "4:46",
+   "degree": 4,
+   "roots_present": [
+    "غير",
+    "كفر",
+    "امن",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "11:59",
+   "degree": 4,
+   "roots_present": [
+    "امر",
+    "تبع",
+    "رسل",
+    "ربب"
+   ]
+  },
+  {
+   "ayah": "33:36",
+   "degree": 4,
+   "roots_present": [
+    "امر",
+    "رسل",
+    "امن",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "49:7",
+   "degree": 4,
+   "roots_present": [
+    "امر",
+    "رسل",
+    "كفر",
+    "امن"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "عصي+عدو": [
+   "2:61",
+   "3:112",
+   "4:14",
+   "5:78",
+   "58:8",
+   "58:9"
+  ],
+  "عصي+امر": [
+   "2:93",
+   "3:152",
+   "11:59",
+   "18:69",
+   "20:93",
+   "33:36",
+   "49:7",
+   "66:6"
+  ],
+  "عصي+غير": [
+   "2:61",
+   "3:112",
+   "4:46",
+   "10:15",
+   "11:63"
+  ],
+  "عصي+تبع": [
+   "10:15",
+   "11:59",
+   "14:36",
+   "20:93",
+   "71:21"
+  ],
+  "عصي+رسل": [
+   "4:14",
+   "4:42",
+   "11:59",
+   "33:36",
+   "49:7",
+   "58:8",
+   "58:9",
+   "69:10",
+   "72:23",
+   "73:16"
+  ],
+  "عصي+كفر": [
+   "2:61",
+   "2:93",
+   "3:112",
+   "4:42",
+   "4:46",
+   "5:78",
+   "49:7"
+  ],
+  "عصي+عذب": [
+   "4:14",
+   "6:15",
+   "10:15",
+   "39:13",
+   "58:8"
+  ],
+  "عصي+ربب": [
+   "2:61",
+   "6:15",
+   "10:15",
+   "11:59",
+   "11:63",
+   "14:36",
+   "20:121",
+   "39:13",
+   "69:10",
+   "71:21"
+  ],
+  "عصي+امن": [
+   "2:93",
+   "3:152",
+   "4:46",
+   "33:36",
+   "49:7",
+   "58:9",
+   "60:12",
+   "66:6"
+  ],
+  "عصي+كون": [
+   "2:61",
+   "2:93",
+   "3:112",
+   "4:46",
+   "5:78",
+   "10:15",
+   "10:91",
+   "11:63",
+   "19:14",
+   "19:44",
+   "33:36"
+  ],
+  "عصي+اله": [
+   "2:61",
+   "3:112",
+   "3:152",
+   "4:14",
+   "4:42",
+   "4:46",
+   "11:63",
+   "18:69",
+   "33:36",
+   "49:7",
+   "58:8",
+   "58:9",
+   "60:12",
+   "66:6",
+   "72:23"
+  ],
+  "عصي+برر": [
+   "19:14",
+   "58:9"
+  ],
+  "عصي+هبط": [
+   "2:61"
+  ],
+  "عصي+وقد": [
+   "66:6"
+  ],
+  "عصي+بوا": [
+   "2:61",
+   "3:112"
+  ],
+  "عصي+غضب": [
+   "2:61",
+   "3:112"
+  ]
+ }
+}
