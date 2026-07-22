@@ -147,6 +147,7 @@
   "زرع",
   "زوج",
   "سبح",
+  "سبق",
   "سبل",
   "ستت",
   "سجد",
@@ -294,6 +295,7 @@
   "كفي",
   "كلف",
   "كلل",
+  "كلم",
   "كون",
   "كيف",
   "كيل",
@@ -585,7 +587,8 @@
   "قطع",
   "بطل",
   "حدث",
-  "نكر"
+  "نكر",
+  "سبق"
  ],
  "open_queue": [
   "اتي",
@@ -954,6 +957,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
+   "b": "سبق",
+   "directions": {
+    "سبق→اتي": {
+     "breath": 210,
+     "lift": 2.933,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -6729,6 +6748,22 @@
   },
   {
    "a": "بين",
+   "b": "سبق",
+   "directions": {
+    "سبق→بين": {
+     "breath": 210,
+     "lift": 2.747,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بين",
    "b": "شكك",
    "directions": {
     "شكك→بين": {
@@ -8480,6 +8515,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "جيا",
+   "b": "سبق",
+   "directions": {
+    "سبق→جيا": {
+     "breath": 210,
+     "lift": 4.08,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "حبب",
    "b": "عفو",
    "directions": {
@@ -9858,6 +9909,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خير",
+   "b": "سبق",
+   "directions": {
+    "سبق→خير": {
+     "breath": 210,
+     "lift": 6.006,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -11678,6 +11745,54 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "سبق",
+   "b": "كتب",
+   "directions": {
+    "سبق→كتب": {
+     "breath": 210,
+     "lift": 3.832,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبق",
+   "b": "كلل",
+   "directions": {
+    "سبق→كلل": {
+     "breath": 210,
+     "lift": 2.517,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبق",
+   "b": "كلم",
+   "directions": {
+    "سبق→كلم": {
+     "breath": 210,
+     "lift": 15.057,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "سبل",
