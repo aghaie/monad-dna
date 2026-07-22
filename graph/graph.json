@@ -4,6 +4,7 @@
   "ابد",
   "اتي",
   "اجر",
+  "اجل",
   "احد",
   "اخذ",
   "اخر",
@@ -66,6 +67,7 @@
   "جري",
   "جعل",
   "جلد",
+  "جمع",
   "جنب",
   "جنن",
   "جهد",
@@ -566,7 +568,8 @@
   "حين",
   "مرر",
   "ورث",
-  "غفل"
+  "غفل",
+  "ريب"
  ],
  "open_queue": [
   "اتي",
@@ -600,7 +603,6 @@
   "رجع",
   "رسل",
   "رضو",
-  "ريب",
   "سجد",
   "سخر",
   "سرر",
@@ -911,6 +913,22 @@
   },
   {
    "a": "اتي",
+   "b": "ريب",
+   "directions": {
+    "ريب→اتي": {
+     "breath": 203,
+     "lift": 2.566,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
    "b": "سرع",
    "directions": {
     "سرع→اتي": {
@@ -1144,6 +1162,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "ريب",
+   "directions": {
+    "ريب→اجل": {
+     "breath": 203,
+     "lift": 18.56,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -5631,6 +5665,22 @@
   },
   {
    "a": "بعد",
+   "b": "ريب",
+   "directions": {
+    "ريب→بعد": {
+     "breath": 203,
+     "lift": 4.049,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
    "b": "شقق",
    "directions": {
     "شقق→بعد": {
@@ -6172,6 +6222,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
+   "b": "ريب",
+   "directions": {
+    "ريب→بين": {
+     "breath": 203,
+     "lift": 4.317,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "بين",
@@ -7500,6 +7566,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "جمع",
+   "b": "ريب",
+   "directions": {
+    "ريب→جمع": {
+     "breath": 203,
+     "lift": 8.691,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "جنب",
@@ -10839,6 +10921,22 @@
   },
   {
    "a": "ريب",
+   "b": "سمو",
+   "directions": {
+    "ريب→سمو": {
+     "breath": 203,
+     "lift": 2.531,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ريب",
    "b": "شكك",
    "directions": {
     "شكك→ريب": {
@@ -10848,10 +10946,66 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    },
+    "ريب→شكك": {
+     "breath": 203,
+     "lift": 83.147,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ريب",
+   "b": "قبل",
+   "directions": {
+    "ريب→قبل": {
+     "breath": 203,
+     "lift": 3.159,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ريب",
+   "b": "كتب",
+   "directions": {
+    "ريب→كتب": {
+     "breath": 203,
+     "lift": 6.386,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "ريب",
+   "b": "يوم",
+   "directions": {
+    "ريب→يوم": {
+     "breath": 203,
+     "lift": 3.308,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "زرع",
