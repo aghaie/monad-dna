@@ -94,6 +94,7 @@
   "حسن",
   "حشر",
   "حضر",
+  "حفظ",
   "حقق",
   "حلف",
   "حلم",
@@ -263,6 +264,7 @@
   "فتح",
   "فحش",
   "فدي",
+  "فرج",
   "فرح",
   "فرض",
   "فري",
@@ -636,7 +638,8 @@
   "مكر",
   "سرر",
   "دبر",
-  "بدل"
+  "بدل",
+  "حفظ"
  ],
  "open_queue": [
   "اتي",
@@ -10157,6 +10160,54 @@
      "stable": true,
      "tier": "قوی",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حفظ",
+   "b": "رسل",
+   "directions": {
+    "حفظ→رسل": {
+     "breath": 235,
+     "lift": 2.423,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حفظ",
+   "b": "فرج",
+   "directions": {
+    "حفظ→فرج": {
+     "breath": 235,
+     "lift": 82.487,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حفظ",
+   "b": "كلل",
+   "directions": {
+    "حفظ→كلل": {
+     "breath": 235,
+     "lift": 2.936,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
    "mutual_strong": false,
