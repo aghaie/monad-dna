@@ -55,6 +55,7 @@ b19 = rec("breath_19_حيي.json")
 b20 = rec("breath_20_خير.json")
 b21 = rec("breath_21_ولي.json")
 b22 = rec("breath_22_عمل.json")
+b23 = rec("breath_23_رسل.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -170,6 +171,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_22_عمل.json",
      "breaths/records/breath_22_عمل.json", LOG1,
      "چهار قوی پایدار (حبط دوسویه ۱۹٫۹، صلح دوسویه ۱۰٫۹، خبر دوسویه ۸٫۴، زين دوسویه ۷٫۰)؛ تحت یک‌طرفهٔ محتملِ ناپایدار lift=۶٫۸؛ ۶۴:۹ گرهِ چهار‌ریشه‌ای؛ شاهدِ غیاب: عمل↔علن، عمل↔بسط", b22["top"]),
+    (23, "تولدِ دوباره", "رسل", "رفیق (نشان‌دار؛ فرمانِ باغبان: از ریشه‌های اذان — نادرترِ زیرمجموعه)",
+     b23["ayat"], b23["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_23_رسل.json",
+     "breaths/records/breath_23_رسل.json", LOG1,
+     "بدون قوی؛ نصح دوسویهٔ محتملِ ناپایدار lift=۶٫۶؛ ۴:۱۴ گرهِ دوریشه‌ای؛ فرافکنیِ معنادار به پنج زیسته (طوع ۳٫۵، زكو ۳٫۱، شهد ۲٫۶، اذن، ولي)", b23["top"]),
     # ⚓BREATHS
 ]
 
@@ -334,6 +340,7 @@ QUEUE_EVENTS = [
     (22, "queued", "حبط", "چرخه"),
     (22, "queued", "صلح", "چرخه"),
     (22, "queued", "خبر", "چرخه"),
+    (23, "pursued", "رسل", "رفیق (نشان‌دار؛ فرمانِ «از ریشه‌های اذان»؛ قاعدهٔ صف حبط را مقدم می‌داشت)"),
     # ⚓QUEUE
 ]
 
@@ -361,6 +368,7 @@ PROJ = [
     (20, b20),
     (21, b21),
     (22, b22),
+    (23, b23),
     # ⚓PROJ
 ]
 
