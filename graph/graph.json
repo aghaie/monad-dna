@@ -37,6 +37,7 @@
   "جرم",
   "جري",
   "جزي",
+  "جعل",
   "جلد",
   "جنح",
   "جنن",
@@ -47,6 +48,7 @@
   "حدد",
   "حرف",
   "حرم",
+  "حقق",
   "حكم",
   "حلل",
   "حيث",
@@ -57,6 +59,7 @@
   "خزي",
   "خشي",
   "خلف",
+  "خلق",
   "خنزر",
   "خير",
   "دبر",
@@ -92,6 +95,7 @@
   "سوي",
   "شرب",
   "شرر",
+  "شرك",
   "شطن",
   "شفع",
   "شكر",
@@ -227,7 +231,8 @@
   "غيب",
   "جرم",
   "عرف",
-  "نكر"
+  "نكر",
+  "علو"
  ],
  "open_queue": [
   "اتي",
@@ -239,11 +244,12 @@
   "بين",
   "دنو",
   "دون",
+  "سبح",
+  "شرك",
   "شطن",
   "شيا",
   "صلح",
   "علم",
-  "علو",
   "عند",
   "قدر",
   "قلب",
@@ -658,6 +664,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "علو",
+   "directions": {
+    "علو→ارض": {
+     "breath": 37,
+     "lift": 2.293,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
@@ -1928,6 +1950,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "جعل",
+   "b": "علو",
+   "directions": {
+    "علو→جعل": {
+     "breath": 37,
+     "lift": 2.654,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "جلد",
    "b": "شهد",
    "directions": {
@@ -2288,6 +2326,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "حقق",
+   "b": "علو",
+   "directions": {
+    "علو→حقق": {
+     "breath": 37,
+     "lift": 2.79,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "حكم",
    "b": "حلل",
    "directions": {
@@ -2311,6 +2365,22 @@
      "breath": 32,
      "lift": 3.807,
      "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حكم",
+   "b": "علو",
+   "directions": {
+    "علو→حكم": {
+     "breath": 37,
+     "lift": 2.911,
+     "p": 0.0166,
      "stable": false,
      "tier": "محتمل",
      "shared": 6
@@ -2778,6 +2848,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلق",
+   "b": "علو",
+   "directions": {
+    "علو→خلق": {
+     "breath": 37,
+     "lift": 3.365,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -3608,6 +3694,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "سبح",
+   "b": "علو",
+   "directions": {
+    "علو→سبح": {
+     "breath": 37,
+     "lift": 9.487,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "سبل",
    "b": "طوع",
    "directions": {
@@ -3846,6 +3948,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "شرك",
+   "b": "علو",
+   "directions": {
+    "علو→شرك": {
+     "breath": 37,
+     "lift": 8.337,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "شكر",
@@ -4594,9 +4712,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 11
+    },
+    "علو→كبر": {
+     "breath": 37,
+     "lift": 6.593,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {

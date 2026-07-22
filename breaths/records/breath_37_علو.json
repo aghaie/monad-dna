@@ -1,0 +1,776 @@
+{
+ "breath_number": 37,
+ "deliberation": [
+  {
+   "root": "علو",
+   "attestation": 70
+  },
+  {
+   "root": "متع",
+   "attestation": 70
+  },
+  {
+   "root": "وكل",
+   "attestation": 70
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "علو",
+ "attestation": 70,
+ "ayat": 68,
+ "top": [
+  {
+   "root": "سبح",
+   "shared": 9,
+   "expected": 0.95,
+   "lift": 9.487,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "شرك",
+   "shared": 13,
+   "expected": 1.56,
+   "lift": 8.337,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كبر",
+   "shared": 11,
+   "expected": 1.67,
+   "lift": 6.593,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خلق",
+   "shared": 8,
+   "expected": 2.38,
+   "lift": 3.365,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حكم",
+   "shared": 6,
+   "expected": 2.06,
+   "lift": 2.911,
+   "p_perm": 0.0166,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حقق",
+   "shared": 8,
+   "expected": 2.87,
+   "lift": 2.79,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جعل",
+   "shared": 9,
+   "expected": 3.39,
+   "lift": 2.654,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دعو",
+   "shared": 5,
+   "expected": 1.98,
+   "lift": 2.519,
+   "p_perm": 0.0598,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "ارض",
+   "shared": 11,
+   "expected": 4.8,
+   "lift": 2.293,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سمو",
+   "shared": 8,
+   "expected": 3.84,
+   "lift": 2.084,
+   "p_perm": 0.0532,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "سبح",
+  "شرك",
+  "كبر"
+ ],
+ "one_way": [
+  "خلق",
+  "حكم",
+  "حقق",
+  "جعل",
+  "دعو",
+  "ارض",
+  "سمو"
+ ],
+ "neighbor_view": {
+  "سبح": {
+   "root": "علو",
+   "shared": 9,
+   "expected": 0.95,
+   "lift": 9.487,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "شرك": {
+   "root": "علو",
+   "shared": 13,
+   "expected": 1.56,
+   "lift": 8.337,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "كبر": {
+   "root": "علو",
+   "shared": 11,
+   "expected": 1.67,
+   "lift": 6.593,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "خلق": null,
+  "حكم": null,
+  "حقق": null,
+  "جعل": null,
+  "دعو": null,
+  "ارض": null,
+  "سمو": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "علو↔فلح",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.29,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "علو↔صلو",
+   "shared": 0,
+   "expected": 0.98,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔زكو",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔اذن",
+   "shared": 3,
+   "expected": 0.98,
+   "lift": 3.06,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "علو↔نفق",
+   "shared": 3,
+   "expected": 0.94,
+   "lift": 3.2,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "علو↔سرر",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔علن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔رزق",
+   "shared": 2,
+   "expected": 1.19,
+   "lift": 1.68,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "علو↔بسط",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔طيب",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔خبث",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔حلل",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔حرم",
+   "shared": 1,
+   "expected": 0.77,
+   "lift": 1.29,
+   "p_perm": 0.5681
+  },
+  {
+   "pair": "علو↔سجد",
+   "shared": 2,
+   "expected": 0.88,
+   "lift": 2.26,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "علو↔اكل",
+   "shared": 0,
+   "expected": 1.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔طوع",
+   "shared": 1,
+   "expected": 1.29,
+   "lift": 0.78,
+   "p_perm": 0.7375
+  },
+  {
+   "pair": "علو↔شهد",
+   "shared": 3,
+   "expected": 1.34,
+   "lift": 2.24,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "علو↔كبر",
+   "shared": 11,
+   "expected": 1.67,
+   "lift": 6.59,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "علو↔حيي",
+   "shared": 4,
+   "expected": 1.76,
+   "lift": 2.28,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "علو↔خير",
+   "shared": 1,
+   "expected": 1.94,
+   "lift": 0.52,
+   "p_perm": 0.8771
+  },
+  {
+   "pair": "علو↔ولي",
+   "shared": 1,
+   "expected": 2.2,
+   "lift": 0.45,
+   "p_perm": 0.8804
+  },
+  {
+   "pair": "علو↔عمل",
+   "shared": 2,
+   "expected": 3.41,
+   "lift": 0.59,
+   "p_perm": 0.8571
+  },
+  {
+   "pair": "علو↔رسل",
+   "shared": 5,
+   "expected": 4.68,
+   "lift": 1.07,
+   "p_perm": 0.4585
+  },
+  {
+   "pair": "علو↔اله",
+   "shared": 28,
+   "expected": 20.49,
+   "lift": 1.37,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "علو↔حبط",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔بقي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔عدل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔كفي",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔دبر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔زين",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.13,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "علو↔عقل",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.87,
+   "p_perm": 0.4252
+  },
+  {
+   "pair": "علو↔خبر",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔غيب",
+   "shared": 3,
+   "expected": 0.64,
+   "lift": 4.66,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "علو↔جرم",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔عرف",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔نكر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "علو↔صلو",
+   "shared": 0,
+   "expected": 0.98,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔زكو",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔سرر",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔علن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔بسط",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔طيب",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔خبث",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔حلل",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔اكل",
+   "shared": 0,
+   "expected": 1.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔حبط",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔بقي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔عدل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔كفي",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔دبر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔خبر",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔جرم",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔عرف",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "علو↔نكر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "16:3",
+   "degree": 5,
+   "roots_present": [
+    "شرك",
+    "خلق",
+    "حقق",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "39:67",
+   "degree": 5,
+   "roots_present": [
+    "سبح",
+    "شرك",
+    "حقق",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "6:100",
+   "degree": 4,
+   "roots_present": [
+    "سبح",
+    "شرك",
+    "خلق",
+    "جعل"
+   ]
+  },
+  {
+   "ayah": "10:18",
+   "degree": 4,
+   "roots_present": [
+    "سبح",
+    "شرك",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "30:27",
+   "degree": 4,
+   "roots_present": [
+    "خلق",
+    "حكم",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "40:12",
+   "degree": 4,
+   "roots_present": [
+    "شرك",
+    "كبر",
+    "حكم",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "20:4",
+   "degree": 3,
+   "roots_present": [
+    "خلق",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "22:62",
+   "degree": 3,
+   "roots_present": [
+    "كبر",
+    "حقق",
+    "دعو"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "علو+سبح": [
+   "6:100",
+   "10:18",
+   "16:1",
+   "17:43",
+   "23:91",
+   "28:68",
+   "30:40",
+   "39:67",
+   "87:1"
+  ],
+  "علو+شرك": [
+   "3:64",
+   "6:100",
+   "6:151",
+   "7:190",
+   "10:18",
+   "16:1",
+   "16:3",
+   "23:92",
+   "27:63",
+   "28:68",
+   "30:40",
+   "39:67",
+   "40:12"
+  ],
+  "علو+كبر": [
+   "4:34",
+   "13:9",
+   "17:4",
+   "17:43",
+   "22:62",
+   "23:46",
+   "31:30",
+   "34:23",
+   "38:75",
+   "40:12",
+   "63:5"
+  ],
+  "علو+خلق": [
+   "6:100",
+   "16:3",
+   "20:4",
+   "23:91",
+   "28:68",
+   "30:27",
+   "30:40",
+   "38:75"
+  ],
+  "علو+حكم": [
+   "9:40",
+   "16:60",
+   "30:27",
+   "40:12",
+   "42:51",
+   "43:4"
+  ],
+  "علو+حقق": [
+   "6:151",
+   "16:3",
+   "20:114",
+   "22:62",
+   "23:116",
+   "31:30",
+   "34:23",
+   "39:67"
+  ],
+  "علو+جعل": [
+   "3:61",
+   "6:100",
+   "7:190",
+   "9:40",
+   "11:82",
+   "15:74",
+   "19:50",
+   "28:4",
+   "28:83"
+  ],
+  "علو+ارض": [
+   "2:255",
+   "10:18",
+   "10:83",
+   "16:3",
+   "17:4",
+   "20:4",
+   "28:4",
+   "28:83",
+   "30:27",
+   "39:67",
+   "42:4"
+  ],
+  "علو+اله": [
+   "2:255",
+   "3:61",
+   "3:64",
+   "3:167",
+   "4:34",
+   "4:61",
+   "5:104",
+   "6:100",
+   "6:151",
+   "7:190",
+   "9:40",
+   "10:18",
+   "16:1",
+   "16:60",
+   "20:114",
+   "22:62",
+   "23:91",
+   "23:116",
+   "27:63",
+   "28:68"
+  ],
+  "علو+غيب": [
+   "4:34",
+   "13:9",
+   "23:92"
+  ]
+ }
+}
