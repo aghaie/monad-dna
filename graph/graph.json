@@ -26,17 +26,22 @@
   "حلل",
   "حيث",
   "خبث",
+  "خرج",
   "خلف",
   "خير",
+  "دخل",
   "ربب",
   "رحم",
   "رزق",
   "رسل",
   "رضو",
+  "ركع",
   "زكو",
+  "سبح",
   "سبل",
   "سجد",
   "سرر",
+  "سوي",
   "شفع",
   "شكر",
   "شهر",
@@ -66,11 +71,13 @@
   "كتب",
   "كرم",
   "كلم",
+  "ليل",
   "مول",
   "نسو",
   "نفق",
   "نهي",
   "وجد",
+  "وجه",
   "وقر",
   "وقي",
   "يدي"
@@ -88,13 +95,13 @@
   "طيب",
   "خبث",
   "حلل",
-  "حرم"
+  "حرم",
+  "سجد"
  ],
  "open_queue": [
   "اتي",
   "اكل",
   "امن",
-  "سجد",
   "شيا",
   "طوع",
   "علم",
@@ -851,9 +858,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 15
+    },
+    "سجد→حرم": {
+     "breath": 14,
+     "lift": 16.265,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -1041,6 +1056,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "حيث",
+   "b": "سجد",
+   "directions": {
+    "سجد→حيث": {
+     "breath": 14,
+     "lift": 15.928,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "خبث",
    "b": "طيب",
    "directions": {
@@ -1063,6 +1094,22 @@
    },
    "mutual_strong": true,
    "best_tier": "قوی"
+  },
+  {
+   "a": "خرج",
+   "b": "سجد",
+   "directions": {
+    "سجد→خرج": {
+     "breath": 14,
+     "lift": 3.923,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "خير",
@@ -1091,6 +1138,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دخل",
+   "b": "سجد",
+   "directions": {
+    "سجد→دخل": {
+     "breath": 14,
+     "lift": 4.855,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -1249,6 +1312,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ركع",
+   "b": "سجد",
+   "directions": {
+    "سجد→ركع": {
+     "breath": 14,
+     "lift": 46.193,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "زكو",
    "b": "صلو",
    "directions": {
@@ -1321,6 +1400,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "سبح",
+   "b": "سجد",
+   "directions": {
+    "سجد→سبح": {
+     "breath": 14,
+     "lift": 5.309,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "سبل",
    "b": "نفق",
    "directions": {
@@ -1331,6 +1426,70 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سجد",
+   "b": "سوي",
+   "directions": {
+    "سجد→سوي": {
+     "breath": 14,
+     "lift": 6.736,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سجد",
+   "b": "صدد",
+   "directions": {
+    "سجد→صدد": {
+     "breath": 14,
+     "lift": 11.266,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سجد",
+   "b": "ليل",
+   "directions": {
+    "سجد→ليل": {
+     "breath": 14,
+     "lift": 6.653,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سجد",
+   "b": "وجه",
+   "directions": {
+    "سجد→وجه": {
+     "breath": 14,
+     "lift": 6.506,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,

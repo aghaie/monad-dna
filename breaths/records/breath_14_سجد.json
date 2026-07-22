@@ -1,0 +1,553 @@
+{
+ "breath_number": 14,
+ "deliberation": [
+  {
+   "root": "سجد",
+   "attestation": 92
+  },
+  {
+   "root": "اكل",
+   "attestation": 109
+  },
+  {
+   "root": "طوع",
+   "attestation": 129
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "شهد",
+   "attestation": 160
+  },
+  {
+   "root": "كبر",
+   "attestation": 161
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "حيي",
+   "attestation": 184
+  },
+  {
+   "root": "خير",
+   "attestation": 196
+  },
+  {
+   "root": "ولي",
+   "attestation": 232
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "سجد",
+ "attestation": 92,
+ "ayat": 81,
+ "top": [
+  {
+   "root": "ركع",
+   "shared": 6,
+   "expected": 0.13,
+   "lift": 46.193,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حرم",
+   "shared": 15,
+   "expected": 0.92,
+   "lift": 16.265,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حيث",
+   "shared": 6,
+   "expected": 0.38,
+   "lift": 15.928,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "صدد",
+   "shared": 6,
+   "expected": 0.53,
+   "lift": 11.266,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سوي",
+   "shared": 7,
+   "expected": 1.04,
+   "lift": 6.736,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ليل",
+   "shared": 7,
+   "expected": 1.05,
+   "lift": 6.653,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وجه",
+   "shared": 6,
+   "expected": 0.92,
+   "lift": 6.506,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سبح",
+   "shared": 6,
+   "expected": 1.13,
+   "lift": 5.309,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دخل",
+   "shared": 7,
+   "expected": 1.44,
+   "lift": 4.855,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خرج",
+   "shared": 8,
+   "expected": 2.04,
+   "lift": 3.923,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "ركع",
+  "حرم",
+  "حيث",
+  "صدد",
+  "سوي",
+  "وجه",
+  "سبح"
+ ],
+ "one_way": [
+  "ليل",
+  "دخل",
+  "خرج"
+ ],
+ "neighbor_view": {
+  "ركع": {
+   "root": "سجد",
+   "shared": 6,
+   "expected": 0.13,
+   "lift": 46.193,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "حرم": {
+   "root": "سجد",
+   "shared": 15,
+   "expected": 0.92,
+   "lift": 16.265,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حيث": {
+   "root": "سجد",
+   "shared": 6,
+   "expected": 0.38,
+   "lift": 15.928,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "صدد": {
+   "root": "سجد",
+   "shared": 6,
+   "expected": 0.53,
+   "lift": 11.266,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سوي": {
+   "root": "سجد",
+   "shared": 7,
+   "expected": 1.04,
+   "lift": 6.736,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ليل": null,
+  "وجه": {
+   "root": "سجد",
+   "shared": 6,
+   "expected": 0.92,
+   "lift": 6.506,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سبح": {
+   "root": "سجد",
+   "shared": 6,
+   "expected": 1.13,
+   "lift": 5.309,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دخل": null,
+  "خرج": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "سجد↔فلح",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.92,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "سجد↔صلو",
+   "shared": 4,
+   "expected": 1.17,
+   "lift": 3.42,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "سجد↔زكو",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "سجد↔اذن",
+   "shared": 0,
+   "expected": 1.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔نفق",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔سرر",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔علن",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.81,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "سجد↔رزق",
+   "shared": 0,
+   "expected": 1.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔بسط",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔طيب",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔خبث",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔حلل",
+   "shared": 4,
+   "expected": 0.56,
+   "lift": 7.16,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سجد↔حرم",
+   "shared": 15,
+   "expected": 0.92,
+   "lift": 16.26,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "سجد↔اذن",
+   "shared": 0,
+   "expected": 1.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔نفق",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔سرر",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔رزق",
+   "shared": 0,
+   "expected": 1.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔بسط",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔طيب",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سجد↔خبث",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:149",
+   "degree": 4,
+   "roots_present": [
+    "حرم",
+    "حيث",
+    "وجه",
+    "خرج"
+   ]
+  },
+  {
+   "ayah": "2:150",
+   "degree": 4,
+   "roots_present": [
+    "حرم",
+    "حيث",
+    "وجه",
+    "خرج"
+   ]
+  },
+  {
+   "ayah": "48:29",
+   "degree": 4,
+   "roots_present": [
+    "ركع",
+    "سوي",
+    "وجه",
+    "خرج"
+   ]
+  },
+  {
+   "ayah": "2:144",
+   "degree": 3,
+   "roots_present": [
+    "حرم",
+    "حيث",
+    "وجه"
+   ]
+  },
+  {
+   "ayah": "2:191",
+   "degree": 3,
+   "roots_present": [
+    "حرم",
+    "حيث",
+    "خرج"
+   ]
+  },
+  {
+   "ayah": "2:217",
+   "degree": 3,
+   "roots_present": [
+    "حرم",
+    "صدد",
+    "خرج"
+   ]
+  },
+  {
+   "ayah": "17:1",
+   "degree": 3,
+   "roots_present": [
+    "حرم",
+    "ليل",
+    "سبح"
+   ]
+  },
+  {
+   "ayah": "22:25",
+   "degree": 3,
+   "roots_present": [
+    "حرم",
+    "صدد",
+    "سوي"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "سجد+ركع": [
+   "2:125",
+   "3:43",
+   "9:112",
+   "22:26",
+   "22:77",
+   "48:29"
+  ],
+  "سجد+حرم": [
+   "2:144",
+   "2:149",
+   "2:150",
+   "2:191",
+   "2:196",
+   "2:217",
+   "5:2",
+   "8:34",
+   "9:7",
+   "9:19",
+   "9:28",
+   "17:1",
+   "22:25",
+   "48:25",
+   "48:27"
+  ],
+  "سجد+حيث": [
+   "2:58",
+   "2:144",
+   "2:149",
+   "2:150",
+   "2:191",
+   "7:161"
+  ],
+  "سجد+صدد": [
+   "2:217",
+   "5:2",
+   "8:34",
+   "22:25",
+   "27:24",
+   "48:25"
+  ],
+  "سجد+سوي": [
+   "3:113",
+   "9:19",
+   "15:29",
+   "22:25",
+   "38:72",
+   "39:9",
+   "48:29"
+  ],
+  "سجد+ليل": [
+   "2:187",
+   "3:113",
+   "17:1",
+   "39:9",
+   "41:37",
+   "50:40",
+   "76:26"
+  ],
+  "سجد+وجه": [
+   "2:144",
+   "2:149",
+   "2:150",
+   "7:29",
+   "17:7",
+   "48:29"
+  ],
+  "سجد+سبح": [
+   "7:206",
+   "15:98",
+   "17:1",
+   "32:15",
+   "50:40",
+   "76:26"
+  ],
+  "سجد+دخل": [
+   "2:58",
+   "2:114",
+   "4:154",
+   "7:161",
+   "17:7",
+   "48:25",
+   "48:27"
+  ],
+  "سجد+خرج": [
+   "2:149",
+   "2:150",
+   "2:191",
+   "2:217",
+   "12:100",
+   "22:40",
+   "27:25",
+   "48:29"
+  ],
+  "سجد+صلو": [
+   "2:125",
+   "4:102",
+   "9:18",
+   "22:40"
+  ],
+  "سجد+حلل": [
+   "2:187",
+   "2:196",
+   "5:2",
+   "48:25"
+  ]
+ }
+}

@@ -46,6 +46,7 @@ b10 = rec("breath_10_طيب.json")
 b11 = rec("breath_11_خبث.json")
 b12 = rec("breath_12_حلل.json")
 b13 = rec("breath_13_حرم.json")
+b14 = rec("breath_14_سجد.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -116,6 +117,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_13_حرم.json",
      "breaths/records/breath_13_حرم.json", LOG1,
      "دو قوی پایدار (حلل دوسویه ۳۴٫۷، سجد دوسویه ۱۶٫۳)؛ شهر دوسویهٔ محتملِ ناپایدار lift=۳۱٫۰؛ ۵:۲ گرهِ شش‌ریشه‌ای؛ شاهدِ غیاب: حرم↔نفق، حرم↔سرر، حرم↔علن، حرم↔بسط", b13["top"]),
+    (14, "تولدِ دوباره", "سجد", "قاعدهٔ صف (خودران)",
+     b14["ayat"], b14["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_14_سجد.json",
+     "breaths/records/breath_14_سجد.json", LOG1,
+     "یک قوی پایدار (حرم دوسویه ۱۶٫۳)؛ ركع دوسویهٔ محتملِ ناپایدار lift=۴۶٫۲؛ ۲:۱۴۹ گرهِ چهار‌ریشه‌ای؛ شاهدِ غیاب: هفت صفر — سجد↔اذن، نفق، سرر، رزق، بسط، طيب، خبث", b14["top"]),
     # ⚓BREATHS
 ]
 
@@ -254,6 +260,7 @@ QUEUE_EVENTS = [
     (12, "queued", "حرم", "چرخه"),
     (13, "pursued", "حرم", "قاعدهٔ صف"),
     (13, "queued", "سجد", "چرخه"),
+    (14, "pursued", "سجد", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -272,6 +279,7 @@ PROJ = [
     (11, b11),
     (12, b12),
     (13, b13),
+    (14, b14),
     # ⚓PROJ
 ]
 
