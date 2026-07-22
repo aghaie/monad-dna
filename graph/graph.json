@@ -288,6 +288,7 @@
   "قوم",
   "كتب",
   "كتم",
+  "كذب",
   "كسو",
   "كشف",
   "كفر",
@@ -353,6 +354,7 @@
   "هلل",
   "هود",
   "هون",
+  "هوي",
   "وثق",
   "وجد",
   "وحد",
@@ -589,7 +591,8 @@
   "حدث",
   "نكر",
   "سبق",
-  "فتح"
+  "فتح",
+  "هوي"
  ],
  "open_queue": [
   "اتي",
@@ -3700,6 +3703,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "امر",
+   "b": "هوي",
+   "directions": {
+    "هوي→امر": {
+     "breath": 212,
+     "lift": 3.729,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "امم",
    "b": "انس",
    "directions": {
@@ -6269,6 +6288,22 @@
   },
   {
    "a": "بعد",
+   "b": "هوي",
+   "directions": {
+    "هوي→بعد": {
+     "breath": 212,
+     "lift": 3.83,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
    "b": "وثق",
    "directions": {
     "وثق→بعد": {
@@ -7058,6 +7093,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "تبع",
+   "b": "هوي",
+   "directions": {
+    "هوي→تبع": {
+     "breath": 212,
+     "lift": 23.769,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 22
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "تحت",
@@ -8582,6 +8633,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جيا",
+   "b": "هوي",
+   "directions": {
+    "هوي→جيا": {
+     "breath": 212,
+     "lift": 4.503,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -13964,6 +14031,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ضلل",
+   "b": "هوي",
+   "directions": {
+    "هوي→ضلل": {
+     "breath": 212,
+     "lift": 6.94,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "طبع",
    "b": "قلب",
    "directions": {
@@ -15436,6 +15519,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "غير",
+   "b": "هوي",
+   "directions": {
+    "هوي→غير": {
+     "breath": 212,
+     "lift": 6.926,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "فحش",
    "b": "نسو",
    "directions": {
@@ -16404,6 +16503,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "كذب",
+   "b": "هوي",
+   "directions": {
+    "هوي→كذب": {
+     "breath": 212,
+     "lift": 3.279,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "كفر",
    "b": "هزا",
    "directions": {
@@ -16964,6 +17079,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "نزل",
+   "b": "هوي",
+   "directions": {
+    "هوي→نزل": {
+     "breath": 212,
+     "lift": 3.279,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "نصر",
    "b": "نور",
    "directions": {
@@ -17109,6 +17240,22 @@
   },
   {
    "a": "نفس",
+   "b": "هوي",
+   "directions": {
+    "هوي→نفس": {
+     "breath": 212,
+     "lift": 3.745,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "نفس",
    "b": "وسع",
    "directions": {
     "وسع→نفس": {
@@ -17210,6 +17357,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "هدي",
+   "b": "هوي",
+   "directions": {
+    "هوي→هدي": {
+     "breath": 212,
+     "lift": 4.402,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "وجد",
