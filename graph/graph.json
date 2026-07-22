@@ -601,7 +601,8 @@
   "ذرر",
   "شرب",
   "سلط",
-  "ملا"
+  "ملا",
+  "شعر"
  ],
  "open_queue": [
   "اتي",
@@ -1022,6 +1023,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
+   "b": "شعر",
+   "directions": {
+    "شعر→اتي": {
+     "breath": 218,
+     "lift": 3.529,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اتي",
@@ -6461,6 +6478,14 @@
    "directions": {
     "بغت→شعر": {
      "breath": 64,
+     "lift": 71.954,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    },
+    "شعر→بغت": {
+     "breath": 218,
      "lift": 71.954,
      "p": 0.0033,
      "stable": false,
@@ -13654,6 +13679,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "شعر",
+   "b": "عذب",
+   "directions": {
+    "شعر→عذب": {
+     "breath": 218,
+     "lift": 2.784,
+     "p": 0.0133,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "شفع",
