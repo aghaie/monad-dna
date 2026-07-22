@@ -30,6 +30,7 @@
   "باس",
   "بحر",
   "بدا",
+  "بدل",
   "بدو",
   "برا",
   "برر",
@@ -634,7 +635,8 @@
   "حشر",
   "مكر",
   "سرر",
-  "دبر"
+  "دبر",
+  "بدل"
  ],
  "open_queue": [
   "اتي",
@@ -5979,6 +5981,102 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بدل",
+   "b": "خير",
+   "directions": {
+    "بدل→خير": {
+     "breath": 234,
+     "lift": 4.379,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بدل",
+   "b": "ظلم",
+   "directions": {
+    "بدل→ظلم": {
+     "breath": 234,
+     "lift": 2.688,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بدل",
+   "b": "غير",
+   "directions": {
+    "بدل→غير": {
+     "breath": 234,
+     "lift": 8.542,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بدل",
+   "b": "قبل",
+   "directions": {
+    "بدل→قبل": {
+     "breath": 234,
+     "lift": 3.317,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بدل",
+   "b": "كلم",
+   "directions": {
+    "بدل→كلم": {
+     "breath": 234,
+     "lift": 10.979,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بدل",
+   "b": "كون",
+   "directions": {
+    "بدل→كون": {
+     "breath": 234,
+     "lift": 1.856,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
     }
    },
    "mutual_strong": false,
