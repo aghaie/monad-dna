@@ -340,6 +340,7 @@
   "وفي",
   "وقد",
   "وقي",
+  "ولد",
   "ولي",
   "وهب",
   "ياس",
@@ -534,7 +535,8 @@
   "لبث",
   "قعد",
   "غلب",
-  "طهر"
+  "طهر",
+  "ثلث"
  ],
  "open_queue": [
   "اتي",
@@ -552,7 +554,6 @@
   "بعد",
   "بني",
   "بين",
-  "ثلث",
   "جري",
   "جعل",
   "جنن",
@@ -1294,6 +1295,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "ارض",
+   "b": "ثلث",
+   "directions": {
+    "ثلث→ارض": {
+     "breath": 186,
+     "lift": 2.531,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "ارض",
@@ -6106,6 +6123,30 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ثلث→ثني": {
+     "breath": 186,
+     "lift": 46.399,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
+   "b": "جعل",
+   "directions": {
+    "ثلث→جعل": {
+     "breath": 186,
+     "lift": 3.581,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -6122,6 +6163,110 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    },
+    "ثلث→ربع": {
+     "breath": 186,
+     "lift": 74.238,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
+   "b": "علم",
+   "directions": {
+    "ثلث→علم": {
+     "breath": 186,
+     "lift": 2.447,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
+   "b": "كلل",
+   "directions": {
+    "ثلث→كلل": {
+     "breath": 186,
+     "lift": 3.146,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
+   "b": "ملك",
+   "directions": {
+    "ثلث→ملك": {
+     "breath": 186,
+     "lift": 5.83,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
+   "b": "وحد",
+   "directions": {
+    "ثلث→وحد": {
+     "breath": 186,
+     "lift": 19.945,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
+   "b": "ولد",
+   "directions": {
+    "ثلث→ولد": {
+     "breath": 186,
+     "lift": 13.92,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
+   "b": "يوم",
+   "directions": {
+    "ثلث→يوم": {
+     "breath": 186,
+     "lift": 3.545,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,

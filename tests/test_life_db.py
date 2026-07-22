@@ -25,7 +25,7 @@ def test_axioms_exact():
 
 
 def test_counts():
-    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 185
+    assert db.execute("SELECT COUNT(*) FROM breaths").fetchone()[0] == 186
     assert db.execute("SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] == 352
     assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 8
     assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 7
@@ -46,7 +46,7 @@ def test_open_queue():
                        "بصر", "بعد", "بني", "بين", "جري", "جعل", "جنن", "حبب", "حرم", "حسن", "خلف", "خلق",
                        "دعو", "دنو", "ذكر", "راي", "ربب", "رجع", "رسل", "رضو", "ريب", "سجد",
                        "سخر", "سرر", "سكن", "سمع", "سمو", "سوع", "شطن", "شكر", "شيا", "ضلل", "ظلم",
-                       "طوع", "طيب", "ثلث", "عدو", "عذب", "علم", "عمل", "عند", "عود", "غني", "غير",
+                       "طوع", "طيب", "عدو", "عذب", "علم", "عمل", "عند", "عود", "غني", "غير",
                        "فضل", "قبل", "قتل", "قرب", "قلب", "قلل", "كلل", "قول", "قوم", "كتب", "كفر",
                        "كون", "لقي", "ملك", "موت", "مول", "نجو", "نزل", "نعم", "نفس",
                        "نور", "نوس", "هدي", "هزا", "وفي", "وقي", "ولي", "يمن", "يوم"}
