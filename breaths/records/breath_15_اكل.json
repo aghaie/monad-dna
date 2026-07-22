@@ -1,0 +1,557 @@
+{
+ "breath_number": 15,
+ "deliberation": [
+  {
+   "root": "اكل",
+   "attestation": 109
+  },
+  {
+   "root": "طوع",
+   "attestation": 129
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "شهد",
+   "attestation": 160
+  },
+  {
+   "root": "كبر",
+   "attestation": 161
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "حيي",
+   "attestation": 184
+  },
+  {
+   "root": "خير",
+   "attestation": 196
+  },
+  {
+   "root": "ولي",
+   "attestation": 232
+  },
+  {
+   "root": "عمل",
+   "attestation": 360
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "اكل",
+ "attestation": 109,
+ "ayat": 101,
+ "top": [
+  {
+   "root": "شرب",
+   "shared": 11,
+   "expected": 0.55,
+   "lift": 19.976,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "طيب",
+   "shared": 14,
+   "expected": 0.75,
+   "lift": 18.791,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سبع",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.863,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سقي",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.863,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بطن",
+   "shared": 5,
+   "expected": 0.4,
+   "lift": 12.349,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حلل",
+   "shared": 8,
+   "expected": 0.7,
+   "lift": 11.487,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "طعم",
+   "shared": 6,
+   "expected": 0.66,
+   "lift": 9.035,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اثم",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.35,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شكر",
+   "shared": 7,
+   "expected": 1.12,
+   "lift": 6.264,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رزق",
+   "shared": 11,
+   "expected": 1.77,
+   "lift": 6.231,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "شرب",
+  "طيب",
+  "سبع",
+  "سقي",
+  "بطن",
+  "حلل",
+  "طعم",
+  "اثم",
+  "شكر",
+  "رزق"
+ ],
+ "one_way": [],
+ "neighbor_view": {
+  "شرب": {
+   "root": "اكل",
+   "shared": 11,
+   "expected": 0.55,
+   "lift": 19.976,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "طيب": {
+   "root": "اكل",
+   "shared": 14,
+   "expected": 0.75,
+   "lift": 18.791,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سبع": {
+   "root": "اكل",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.863,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سقي": {
+   "root": "اكل",
+   "shared": 5,
+   "expected": 0.39,
+   "lift": 12.863,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بطن": {
+   "root": "اكل",
+   "shared": 5,
+   "expected": 0.4,
+   "lift": 12.349,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "حلل": {
+   "root": "اكل",
+   "shared": 8,
+   "expected": 0.7,
+   "lift": 11.487,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "طعم": {
+   "root": "اكل",
+   "shared": 6,
+   "expected": 0.66,
+   "lift": 9.035,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اثم": {
+   "root": "اكل",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.35,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شكر": {
+   "root": "اكل",
+   "shared": 7,
+   "expected": 1.12,
+   "lift": 6.264,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رزق": {
+   "root": "اكل",
+   "shared": 11,
+   "expected": 1.77,
+   "lift": 6.231,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "اكل↔فلح",
+   "shared": 1,
+   "expected": 0.65,
+   "lift": 1.54,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "اكل↔صلو",
+   "shared": 0,
+   "expected": 1.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اكل↔زكو",
+   "shared": 1,
+   "expected": 0.91,
+   "lift": 1.1,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "اكل↔اذن",
+   "shared": 2,
+   "expected": 1.46,
+   "lift": 1.37,
+   "p_perm": 0.4352
+  },
+  {
+   "pair": "اكل↔نفق",
+   "shared": 2,
+   "expected": 1.39,
+   "lift": 1.44,
+   "p_perm": 0.4452
+  },
+  {
+   "pair": "اكل↔سرر",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اكل↔علن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اكل↔رزق",
+   "shared": 11,
+   "expected": 1.77,
+   "lift": 6.23,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اكل↔بسط",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اكل↔طيب",
+   "shared": 14,
+   "expected": 0.75,
+   "lift": 18.79,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اكل↔خبث",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.17,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "اكل↔حلل",
+   "shared": 8,
+   "expected": 0.7,
+   "lift": 11.49,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اكل↔حرم",
+   "shared": 3,
+   "expected": 1.15,
+   "lift": 2.61,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "اكل↔سجد",
+   "shared": 4,
+   "expected": 1.31,
+   "lift": 3.05,
+   "p_perm": 0.0465
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "اكل↔صلو",
+   "shared": 0,
+   "expected": 1.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اكل↔سرر",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اكل↔علن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اكل↔بسط",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "7:160",
+   "degree": 4,
+   "roots_present": [
+    "شرب",
+    "طيب",
+    "سقي",
+    "رزق"
+   ]
+  },
+  {
+   "ayah": "16:114",
+   "degree": 4,
+   "roots_present": [
+    "طيب",
+    "حلل",
+    "شكر",
+    "رزق"
+   ]
+  },
+  {
+   "ayah": "2:60",
+   "degree": 3,
+   "roots_present": [
+    "شرب",
+    "سقي",
+    "رزق"
+   ]
+  },
+  {
+   "ayah": "2:172",
+   "degree": 3,
+   "roots_present": [
+    "طيب",
+    "شكر",
+    "رزق"
+   ]
+  },
+  {
+   "ayah": "5:88",
+   "degree": 3,
+   "roots_present": [
+    "طيب",
+    "حلل",
+    "رزق"
+   ]
+  },
+  {
+   "ayah": "20:81",
+   "degree": 3,
+   "roots_present": [
+    "طيب",
+    "حلل",
+    "رزق"
+   ]
+  },
+  {
+   "ayah": "34:15",
+   "degree": 3,
+   "roots_present": [
+    "طيب",
+    "شكر",
+    "رزق"
+   ]
+  },
+  {
+   "ayah": "2:57",
+   "degree": 2,
+   "roots_present": [
+    "طيب",
+    "رزق"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "اكل+شرب": [
+   "2:60",
+   "2:187",
+   "7:31",
+   "7:160",
+   "16:69",
+   "19:26",
+   "23:33",
+   "35:12",
+   "52:19",
+   "69:24",
+   "77:43"
+  ],
+  "اكل+طيب": [
+   "2:57",
+   "2:168",
+   "2:172",
+   "4:2",
+   "4:4",
+   "5:4",
+   "5:88",
+   "7:160",
+   "8:69",
+   "16:114",
+   "20:81",
+   "23:51",
+   "24:61",
+   "34:15"
+  ],
+  "اكل+سبع": [
+   "5:3",
+   "12:43",
+   "12:46",
+   "12:47",
+   "12:48"
+  ],
+  "اكل+سقي": [
+   "2:60",
+   "7:160",
+   "12:41",
+   "13:4",
+   "23:21"
+  ],
+  "اكل+بطن": [
+   "2:174",
+   "4:10",
+   "16:69",
+   "23:21",
+   "37:66"
+  ],
+  "اكل+حلل": [
+   "2:168",
+   "2:187",
+   "2:275",
+   "5:4",
+   "5:88",
+   "8:69",
+   "16:114",
+   "20:81"
+  ],
+  "اكل+طعم": [
+   "5:75",
+   "21:8",
+   "22:28",
+   "22:36",
+   "25:7",
+   "25:20"
+  ],
+  "اكل+اثم": [
+   "2:188",
+   "5:3",
+   "5:62",
+   "5:63",
+   "49:12"
+  ],
+  "اكل+شكر": [
+   "2:172",
+   "16:14",
+   "16:114",
+   "22:36",
+   "34:15",
+   "35:12",
+   "36:35"
+  ],
+  "اكل+رزق": [
+   "2:57",
+   "2:60",
+   "2:172",
+   "5:88",
+   "6:142",
+   "7:160",
+   "16:114",
+   "20:81",
+   "22:28",
+   "34:15",
+   "67:15"
+  ],
+  "اكل+سجد": [
+   "2:58",
+   "2:187",
+   "7:31",
+   "7:161"
+  ]
+ }
+}
