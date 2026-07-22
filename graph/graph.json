@@ -159,6 +159,7 @@
   "سفه",
   "سقي",
   "سكن",
+  "سلط",
   "سمع",
   "سمو",
   "سنن",
@@ -597,7 +598,8 @@
   "هوي",
   "قرر",
   "ذرر",
-  "شرب"
+  "شرب",
+  "سلط"
  ],
  "open_queue": [
   "اتي",
@@ -1005,6 +1007,22 @@
   },
   {
    "a": "اتي",
+   "b": "سلط",
+   "directions": {
+    "سلط→اتي": {
+     "breath": 216,
+     "lift": 2.961,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
    "b": "عرض",
    "directions": {
     "عرض→اتي": {
@@ -1298,6 +1316,22 @@
     "رفع→اخذ": {
      "breath": 169,
      "lift": 4.406,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "سلط",
+   "directions": {
+    "سلط→اخذ": {
+     "breath": 216,
+     "lift": 3.277,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -4997,6 +5031,22 @@
   },
   {
    "a": "ايي",
+   "b": "سلط",
+   "directions": {
+    "سلط→ايي": {
+     "breath": 216,
+     "lift": 2.718,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايي",
    "b": "صرف",
    "directions": {
     "صرف→ايي": {
@@ -6861,6 +6911,22 @@
   },
   {
    "a": "بين",
+   "b": "سلط",
+   "directions": {
+    "سلط→بين": {
+     "breath": 216,
+     "lift": 4.931,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بين",
    "b": "شكك",
    "directions": {
     "شكك→بين": {
@@ -8194,6 +8260,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "جعل",
+   "b": "سلط",
+   "directions": {
+    "سلط→جعل": {
+     "breath": 216,
+     "lift": 3.085,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "جعل",
@@ -12626,6 +12708,86 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "سلط",
+   "b": "سمو",
+   "directions": {
+    "سلط→سمو": {
+     "breath": 216,
+     "lift": 3.18,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سلط",
+   "b": "شرك",
+   "directions": {
+    "سلط→شرك": {
+     "breath": 216,
+     "lift": 6.709,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سلط",
+   "b": "ظلم",
+   "directions": {
+    "سلط→ظلم": {
+     "breath": 216,
+     "lift": 3.308,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سلط",
+   "b": "عبد",
+   "directions": {
+    "سلط→عبد": {
+     "breath": 216,
+     "lift": 3.822,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سلط",
+   "b": "نزل",
+   "directions": {
+    "سلط→نزل": {
+     "breath": 216,
+     "lift": 5.6,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "سمع",
