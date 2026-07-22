@@ -596,7 +596,8 @@
   "فتح",
   "هوي",
   "قرر",
-  "ذرر"
+  "ذرر",
+  "شرب"
  ],
  "open_queue": [
   "اتي",
@@ -2049,6 +2050,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اكل",
+   "b": "شرب",
+   "directions": {
+    "شرب→اكل": {
+     "breath": 215,
+     "lift": 19.976,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "الم",
@@ -12549,6 +12566,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "شرب→سقي": {
+     "breath": 215,
+     "lift": 38.211,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -13181,6 +13206,86 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شرب",
+   "b": "عين",
+   "directions": {
+    "شرب→عين": {
+     "breath": 215,
+     "lift": 14.556,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شرب",
+   "b": "كفر",
+   "directions": {
+    "شرب→كفر": {
+     "breath": 215,
+     "lift": 2.367,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شرب",
+   "b": "كلل",
+   "directions": {
+    "شرب→كلل": {
+     "breath": 215,
+     "lift": 4.663,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "شرب",
+   "b": "موه",
+   "directions": {
+    "شرب→موه": {
+     "breath": 215,
+     "lift": 15.284,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شرب",
+   "b": "يوم",
+   "directions": {
+    "شرب→يوم": {
+     "breath": 215,
+     "lift": 2.433,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
