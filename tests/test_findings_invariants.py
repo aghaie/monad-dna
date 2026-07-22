@@ -90,3 +90,16 @@ def test_mutual_strong_graph_matches_findings_both_directions():
         a, b = e["a"], e["b"]
         assert tier_of(a, b) == "قوی", f"{a}->{b} در findings قوی نیست"
         assert tier_of(b, a) == "قوی", f"{b}->{a} در findings قوی نیست"
+
+
+def test_pair_comparisons_cover_every_l3_breath():
+    """هر نفسِ L3 (۱۲ به بعد) باید فرافکنی‌اش در pair_comparisons باشد —
+    ناوردایی که غیبتش در نفس ۱۹۳ (جاافتادنِ حلقهٔ (bn, brec) در seed) را
+    هیچ آزمونی نمی‌گرفت؛ کشفِ ۲۰۲۶-۰۷-۲۲ هنگامِ ساختِ خطِ لوله."""
+    db = sqlite3.connect("database/life.db")
+    breaths = {b for (b,) in db.execute(
+        "SELECT breath_no FROM breaths WHERE breath_no >= 12")}
+    covered = {b for (b,) in db.execute(
+        "SELECT DISTINCT breath_no FROM pair_comparisons")}
+    missing = sorted(breaths - covered)
+    assert not missing, f"نفس‌های بی‌فرافکنی در pair_comparisons: {missing}"
