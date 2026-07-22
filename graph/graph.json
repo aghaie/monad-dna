@@ -37,6 +37,7 @@
   "بسط",
   "بشر",
   "بصر",
+  "بطل",
   "بعث",
   "بعد",
   "بعض",
@@ -577,7 +578,8 @@
   "ريب",
   "اني",
   "قرن",
-  "قطع"
+  "قطع",
+  "بطل"
  ],
  "open_queue": [
   "اتي",
@@ -3657,6 +3659,22 @@
   },
   {
    "a": "امن",
+   "b": "بطل",
+   "directions": {
+    "بطل→امن": {
+     "breath": 207,
+     "lift": 2.029,
+     "p": 0.0432,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
    "b": "بقي",
    "directions": {
     "بقي→امن": {
@@ -5866,6 +5884,134 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بطل",
+   "b": "بين",
+   "directions": {
+    "بطل→بين": {
+     "breath": 207,
+     "lift": 2.02,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بطل",
+   "b": "جيا",
+   "directions": {
+    "بطل→جيا": {
+     "breath": 207,
+     "lift": 3.5,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بطل",
+   "b": "حقق",
+   "directions": {
+    "بطل→حقق": {
+     "breath": 207,
+     "lift": 10.461,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بطل",
+   "b": "سمو",
+   "directions": {
+    "بطل→سمو": {
+     "breath": 207,
+     "lift": 2.605,
+     "p": 0.0365,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بطل",
+   "b": "عمل",
+   "directions": {
+    "بطل→عمل": {
+     "breath": 207,
+     "lift": 2.93,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بطل",
+   "b": "كفر",
+   "directions": {
+    "بطل→كفر": {
+     "breath": 207,
+     "lift": 3.55,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بطل",
+   "b": "مول",
+   "directions": {
+    "بطل→مول": {
+     "breath": 207,
+     "lift": 11.463,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بطل",
+   "b": "نوس",
+   "directions": {
+    "بطل→نوس": {
+     "breath": 207,
+     "lift": 6.521,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
    "mutual_strong": false,
