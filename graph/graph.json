@@ -16,6 +16,7 @@
   "حبب",
   "خلف",
   "خير",
+  "ربب",
   "رزق",
   "رسل",
   "رضو",
@@ -52,7 +53,8 @@
   "زكو",
   "اذن",
   "نفق",
-  "سرر"
+  "سرر",
+  "علن"
  ],
  "open_queue": [
   "اتي",
@@ -60,7 +62,6 @@
   "رزق",
   "طوع",
   "علم",
-  "علن",
   "قلب",
   "قول",
   "قوم"
@@ -451,6 +452,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ربب",
+   "b": "علن",
+   "directions": {
+    "علن→ربب": {
+     "breath": 7,
+     "lift": 2.685,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "رزق",
    "b": "صلو",
    "directions": {
@@ -613,9 +630,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 12
+    },
+    "علن→سرر": {
+     "breath": 7,
+     "lift": 108.767,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -793,6 +818,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "علم",
+   "b": "علن",
+   "directions": {
+    "علن→علم": {
+     "breath": 7,
+     "lift": 5.889,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "فلح",

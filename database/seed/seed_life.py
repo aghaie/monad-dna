@@ -39,6 +39,7 @@ b3 = rec("breath_3_زكو.json")
 b4 = rec("breath_4_اذن.json")
 b5 = rec("breath_5_نفق.json")
 b6 = rec("breath_6_سرر.json")
+b7 = rec("breath_7_علن.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -74,6 +75,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_6_سرر.json",
      "breaths/records/breath_6_سرر.json", LOG1,
      "چهار قوی پایدار (علن دوسویه ۱۰۸٫۸، نفق دوسویه ۱۰٫۱، علم ۳٫۶، قول ۱٫۶)؛ جهر دوسویهٔ محتملِ ناپایدار lift=۴۸٫۳؛ ۱۲:۷۷ گرهِ چهار‌ریشه‌ای؛ شاهدِ غیاب: سرر↔فلح، سرر↔زكو، سرر↔اذن", b6["top"]),
+    (7, "تولدِ دوباره", "علن", "قاعدهٔ صف (خودران)",
+     b7["ayat"], b7["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_7_علن.json",
+     "breaths/records/breath_7_علن.json", LOG1,
+     "دو قوی پایدار (سرر دوسویه ۱۰۸٫۸، علم دوسویه ۵٫۹)؛ ربب یک‌طرفهٔ محتملِ ناپایدار lift=۲٫۷؛ ۶۰:۱ گرهِ چهار‌ریشه‌ای؛ شاهدِ غیاب: علن↔فلح، علن↔زكو، علن↔اذن", b7["top"]),
     # ⚓BREATHS
 ]
 
@@ -184,6 +190,7 @@ QUEUE_EVENTS = [
     (6, "queued", "علن", "چرخه"),
     (6, "queued", "علم", "چرخه"),
     (6, "queued", "قول", "چرخه"),
+    (7, "pursued", "علن", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -195,6 +202,7 @@ PROJ = [
     (4, b4),
     (5, b5),
     (6, b6),
+    (7, b7),
     # ⚓PROJ
 ]
 
