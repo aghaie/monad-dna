@@ -661,7 +661,8 @@
   "كرم",
   "طعم",
   "اثم",
-  "قدم"
+  "قدم",
+  "سوع"
  ],
  "open_queue": [
   "اتي",
@@ -700,7 +701,6 @@
   "سكن",
   "سمع",
   "سمو",
-  "سوع",
   "شطن",
   "شكر",
   "شيا",
@@ -1098,6 +1098,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
+   "b": "سوع",
+   "directions": {
+    "سوع→اتي": {
+     "breath": 247,
+     "lift": 3.208,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اتي",
@@ -7286,9 +7302,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "سوع→بغت": {
+     "breath": 247,
+     "lift": 65.413,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -9981,6 +10005,22 @@
   },
   {
    "a": "جيا",
+   "b": "سوع",
+   "directions": {
+    "سوع→جيا": {
+     "breath": 247,
+     "lift": 2.705,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جيا",
    "b": "صدر",
    "directions": {
     "صدر→جيا": {
@@ -10666,6 +10706,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "حقق",
+   "b": "سوع",
+   "directions": {
+    "سوع→حقق": {
+     "breath": 247,
+     "lift": 2.694,
+     "p": 0.0432,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "حقق",
@@ -14893,6 +14949,22 @@
   },
   {
    "a": "سمو",
+   "b": "سوع",
+   "directions": {
+    "سوع→سمو": {
+     "breath": 247,
+     "lift": 2.818,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سمو",
    "b": "شقق",
    "directions": {
     "شقق→سمو": {
@@ -15198,6 +15270,86 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سوع",
+   "b": "عذب",
+   "directions": {
+    "سوع→عذب": {
+     "breath": 247,
+     "lift": 2.531,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سوع",
+   "b": "عند",
+   "directions": {
+    "سوع→عند": {
+     "breath": 247,
+     "lift": 3.749,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سوع",
+   "b": "نوس",
+   "directions": {
+    "سوع→نوس": {
+     "breath": 247,
+     "lift": 3.149,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سوع",
+   "b": "وعد",
+   "directions": {
+    "سوع→وعد": {
+     "breath": 247,
+     "lift": 6.541,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سوع",
+   "b": "يوم",
+   "directions": {
+    "سوع→يوم": {
+     "breath": 247,
+     "lift": 3.759,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
     }
    },
    "mutual_strong": false,
