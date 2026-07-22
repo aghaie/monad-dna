@@ -56,6 +56,7 @@
   "جبل",
   "جحد",
   "جدد",
+  "جدل",
   "جري",
   "جعل",
   "جلد",
@@ -503,7 +504,8 @@
   "رفع",
   "ثني",
   "طير",
-  "ودد"
+  "ودد",
+  "جدل"
  ],
  "open_queue": [
   "اتي",
@@ -1843,6 +1845,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "جدل",
+   "directions": {
+    "جدل→اله": {
+     "breath": 173,
+     "lift": 2.09,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
     }
    },
    "mutual_strong": false,
@@ -3743,6 +3761,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "ايي",
+   "b": "جدل",
+   "directions": {
+    "جدل→ايي": {
+     "breath": 173,
+     "lift": 4.58,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "ايي",
@@ -5995,6 +6029,54 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جدل",
+   "b": "علم",
+   "directions": {
+    "جدل→علم": {
+     "breath": 173,
+     "lift": 2.221,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جدل",
+   "b": "غير",
+   "directions": {
+    "جدل→غير": {
+     "breath": 173,
+     "lift": 7.91,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جدل",
+   "b": "كلل",
+   "directions": {
+    "جدل→كلل": {
+     "breath": 173,
+     "lift": 3.915,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
