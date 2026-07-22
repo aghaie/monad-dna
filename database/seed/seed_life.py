@@ -34,6 +34,7 @@ def rec(name):
 # ---------- فرادادهٔ نفس‌های زندگیِ دوم (رونویسی از دفترها) ----------
 # خطِ لوله (pipeline/core.py) سطرِ recِ هر نفسِ رسمی‌شده را بالای لنگر می‌افزاید.
 b1 = rec("breath_1_فلح.json")
+b2 = rec("breath_2_صلو.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -44,6 +45,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_1_فلح.json",
      "breaths/records/breath_1_فلح.json", LOG1,
      "دو قوی پایدار (امن ۳٫۰، اله ۱٫۷)؛ وقي دوسویهٔ محتملِ ناپایدار lift=۴٫۶؛ ۲:۱۸۹ گرهِ چهار‌ریشه‌ای", b1["top"]),
+    (2, "تولدِ دوباره", "صلو", "قاعدهٔ صف (خودران)",
+     b2["ayat"], b2["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_2_صلو.json",
+     "breaths/records/breath_2_صلو.json", LOG1,
+     "سه قوی پایدار (زكو دوسویه ۳۴٫۶، نفق دوسویه ۸٫۱، قوم دوسویه ۶٫۰)؛ بيت دوسویهٔ محتملِ ناپایدار lift=۶٫۴؛ ۲:۱۷۷ گرهِ پنج‌ریشه‌ای", b2["top"]),
     # ⚓BREATHS
 ]
 
@@ -138,12 +144,17 @@ QUEUE_EVENTS = [
     # رویدادهای هر نفسِ رسمی‌شده بالای لنگر می‌نشینند.
     (1, "pursued", "فلح", "قاعدهٔ صف"),
     (1, "queued", "امن", "چرخه"),
+    (2, "pursued", "صلو", "قاعدهٔ صف"),
+    (2, "queued", "زكو", "چرخه"),
+    (2, "queued", "نفق", "چرخه"),
+    (2, "queued", "قوم", "چرخه"),
     # ⚓QUEUE
 ]
 
 PROJ = [
     # (no, b_no) — فرافکنی و شاهدِ غیابِ هر نفس بر نقشهٔ زیسته؛ خطِ لوله می‌افزاید.
     (1, b1),
+    (2, b2),
     # ⚓PROJ
 ]
 
