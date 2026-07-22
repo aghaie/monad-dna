@@ -35,6 +35,11 @@
                           درجه-تصحیح‌شده → observatory/method_v2_audit.json.
                           هیچ درجهٔ رسمی‌ای تغییر نمی‌کند؛ observe ROOT
                           نتیجه‌اش را کنارِ نشانی‌ها نشان می‌دهد.
+  monad pipeline plan K|work [W]|merge [--dry-run]|status
+                          خطِ موازیِ نفس‌ها (طرح: docs/PARALLEL-PIPELINE-
+                          DESIGN-2026-07-22.md): S0 برنامه‌ریزِ قطعی، S1
+                          کارگرِ مکانیکی، S2 ثبت پشتِ دروازهٔ هم‌ارزیِ
+                          بایت‌به‌بایت. یادداشت/روایت همچنان کارِ لایهٔ زنده.
   monad queue-add ROOT [یادداشت]
                           تزریقِ دستیِ یک پیشنهاد به صف (سیاستِ باغبان،
                           دیدارِ ۲۰۲۶-۰۷-۲۰): صف طبیعی مسیرِ اصلی می‌ماند؛
@@ -522,6 +527,31 @@ def cmd_observe(root=None):
     print(json.dumps(out, ensure_ascii=False, indent=1))
 
 
+def cmd_pipeline(args):
+    """خطِ موازیِ نفس‌ها (طرحِ مصوب: docs/PARALLEL-PIPELINE-DESIGN-2026-07-22.md).
+
+    plan K     برنامه‌ریزیِ قطعیِ K نفسِ بعدی (S0؛ فقط‌خواندنی از life.db)
+    work [W]   کارگرِ مکانیکی: برداشتنِ jobِ pending با قفل + غنی‌سازیِ بی‌مدل
+    merge      ثبتِ نفسِ بعدی پشتِ دروازهٔ هم‌ارزی (S2)؛ --dry-run فقط دروازه
+    status     وضعِ صفِ کار و epoch"""
+    from pipeline import core
+    sub = args[0] if args else "status"
+    if sub == "plan":
+        jobs = core.plan(int(args[1]) if len(args) > 1 else 3)
+        print(json.dumps([{k: j[k] for k in ("breath_no", "root", "status")}
+                          for j in jobs], ensure_ascii=False, indent=1))
+    elif sub == "work":
+        j = core.work(args[1] if len(args) > 1 else "worker")
+        print(json.dumps(j or {"event": "jobِ pending نیست"},
+                         ensure_ascii=False, indent=1))
+    elif sub == "merge":
+        r = core.merge_next(dry_run=("--dry-run" in args))
+        print(json.dumps(r, ensure_ascii=False, indent=1))
+        sys.exit(0 if r.get("ok") else 1)
+    else:
+        print(json.dumps(core.status(), ensure_ascii=False, indent=1))
+
+
 def cmd_audit_v2():
     """ممیزیِ روش-v2 (رصدخانه؛ بازنگریِ معماری ۲۰۲۶-۰۷-۲۲، گامِ ۱):
     بازسنجیِ مشورتیِ همهٔ جفت‌های قویِ زیسته زیرِ مدلِ تهیِ درجه-تصحیح‌شده.
@@ -581,6 +611,8 @@ if __name__ == "__main__":
         cmd_ponder_sync()
     elif args[0] == "audit-v2":
         cmd_audit_v2()
+    elif args[0] == "pipeline":
+        cmd_pipeline(args[1:])
     elif args[0] == "queue-add":
         if len(args) < 2:
             print(json.dumps({"خطا": "queue-add نیازمندِ ROOT است"}, ensure_ascii=False))
