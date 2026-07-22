@@ -66,6 +66,7 @@
   "جري",
   "جعل",
   "جلد",
+  "جنب",
   "جنن",
   "جهد",
   "جهر",
@@ -553,7 +554,8 @@
   "كفي",
   "عرش",
   "عمي",
-  "حجج"
+  "حجج",
+  "جنب"
  ],
  "open_queue": [
   "اتي",
@@ -3432,6 +3434,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "جنب",
+   "directions": {
+    "جنب→امن": {
+     "breath": 196,
+     "lift": 1.948,
+     "p": 0.0432,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امن",
@@ -7232,6 +7250,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "جنب",
+   "b": "كون",
+   "directions": {
+    "جنب→كون": {
+     "breath": 196,
+     "lift": 1.882,
+     "p": 0.0166,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "جنن",
