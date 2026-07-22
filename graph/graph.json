@@ -240,6 +240,7 @@
   "عود",
   "عوذ",
   "عون",
+  "عين",
   "غرب",
   "غرر",
   "غضب",
@@ -271,6 +272,7 @@
   "قدر",
   "قرا",
   "قرب",
+  "قرر",
   "قرض",
   "قرن",
   "قري",
@@ -592,7 +594,8 @@
   "نكر",
   "سبق",
   "فتح",
-  "هوي"
+  "هوي",
+  "قرر"
  ],
  "open_queue": [
   "اتي",
@@ -1829,6 +1832,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "قرر",
+   "directions": {
+    "قرر→ارض": {
+     "breath": 213,
+     "lift": 2.681,
+     "p": 0.0399,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ارض",
@@ -8152,6 +8171,22 @@
   },
   {
    "a": "جعل",
+   "b": "قرر",
+   "directions": {
+    "قرر→جعل": {
+     "breath": 213,
+     "lift": 3.794,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جعل",
    "b": "مكن",
    "directions": {
     "مكن→جعل": {
@@ -10849,6 +10884,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "راي",
+   "b": "قرر",
+   "directions": {
+    "قرر→راي": {
+     "breath": 213,
+     "lift": 2.837,
+     "p": 0.0365,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -14880,6 +14931,22 @@
   },
   {
    "a": "علم",
+   "b": "قرر",
+   "directions": {
+    "قرر→علم": {
+     "breath": 213,
+     "lift": 2.547,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "علم",
    "b": "قسط",
    "directions": {
     "قسط→علم": {
@@ -15185,6 +15252,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "عين",
+   "b": "قرر",
+   "directions": {
+    "قرر→عين": {
+     "breath": 213,
+     "lift": 21.402,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -15929,6 +16012,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قرر",
+   "b": "كلل",
+   "directions": {
+    "قرر→كلل": {
+     "breath": 213,
+     "lift": 2.381,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قرر",
+   "b": "نفس",
+   "directions": {
+    "قرر→نفس": {
+     "breath": 213,
+     "lift": 3.745,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
