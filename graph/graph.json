@@ -179,6 +179,7 @@
   "شبه",
   "شدد",
   "شرب",
+  "شرح",
   "شرر",
   "شرق",
   "شرك",
@@ -647,7 +648,8 @@
   "نسي",
   "وذر",
   "عهد",
-  "زين"
+  "زين",
+  "صدر"
  ],
  "open_queue": [
   "اتي",
@@ -3087,6 +3089,22 @@
   },
   {
    "a": "اله",
+   "b": "صدر",
+   "directions": {
+    "صدر→اله": {
+     "breath": 241,
+     "lift": 1.544,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 20
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "صفو",
    "directions": {
     "صفو→اله": {
@@ -4376,6 +4394,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "صدر",
+   "directions": {
+    "صدر→امن": {
+     "breath": 241,
+     "lift": 2.006,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
     }
    },
    "mutual_strong": false,
@@ -9679,6 +9713,22 @@
   },
   {
    "a": "جيا",
+   "b": "صدر",
+   "directions": {
+    "صدر→جيا": {
+     "breath": 241,
+     "lift": 2.768,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جيا",
    "b": "فتح",
    "directions": {
     "فتح→جيا": {
@@ -10963,6 +11013,14 @@
    "directions": {
     "خفي→صدر": {
      "breath": 15,
+     "lift": 23.391,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "صدر→خفي": {
+     "breath": 241,
      "lift": 23.391,
      "p": 0.0033,
      "stable": false,
@@ -15062,6 +15120,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "شرح",
+   "b": "صدر",
+   "directions": {
+    "صدر→شرح": {
+     "breath": 241,
+     "lift": 145.023,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "شرق",
    "b": "غرب",
    "directions": {
@@ -15728,6 +15802,54 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صدر",
+   "b": "علم",
+   "directions": {
+    "صدر→علم": {
+     "breath": 241,
+     "lift": 3.785,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 19
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "صدر",
+   "b": "قلب",
+   "directions": {
+    "صدر→قلب": {
+     "breath": 241,
+     "lift": 4.678,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صدر",
+   "b": "نوس",
+   "directions": {
+    "صدر→نوس": {
+     "breath": 241,
+     "lift": 3.223,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
