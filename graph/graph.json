@@ -5,6 +5,7 @@
   "اثر",
   "اثم",
   "اجر",
+  "اخذ",
   "اخر",
   "اذن",
   "اكل",
@@ -43,8 +44,10 @@
   "خرج",
   "خلف",
   "خير",
+  "دبر",
   "دخل",
   "دنو",
+  "دون",
   "ربب",
   "ربع",
   "رحم",
@@ -81,6 +84,7 @@
   "طيب",
   "ظلم",
   "عبد",
+  "عجز",
   "عدل",
   "عرف",
   "عسي",
@@ -90,6 +94,7 @@
   "علو",
   "غرر",
   "غفر",
+  "غني",
   "غيب",
   "غير",
   "فري",
@@ -118,6 +123,7 @@
   "مول",
   "موه",
   "نسو",
+  "نصر",
   "نفق",
   "نكح",
   "نهي",
@@ -126,6 +132,7 @@
   "ورث",
   "وقر",
   "وقي",
+  "ولي",
   "يدي"
  ],
  "visited_roots": [
@@ -148,14 +155,17 @@
   "شهد",
   "كبر",
   "حيي",
-  "خير"
+  "خير",
+  "ولي"
  ],
  "open_queue": [
   "اتي",
   "امن",
   "بقي",
   "جرم",
+  "دبر",
   "دنو",
+  "دون",
   "زين",
   "شيا",
   "عدل",
@@ -280,6 +290,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "ولي",
+   "directions": {
+    "ولي→اخذ": {
+     "breath": 21,
+     "lift": 3.669,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 29
     }
    },
    "mutual_strong": false,
@@ -918,6 +944,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بعض",
+   "b": "ولي",
+   "directions": {
+    "ولي→بعض": {
+     "breath": 21,
+     "lift": 4.258,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بغي",
    "b": "حرم",
    "directions": {
@@ -976,6 +1018,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بلغ",
+   "b": "ولي",
+   "directions": {
+    "ولي→بلغ": {
+     "breath": 21,
+     "lift": 3.806,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
     }
    },
    "mutual_strong": false,
@@ -1454,6 +1512,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "حيث",
+   "b": "ولي",
+   "directions": {
+    "ولي→حيث": {
+     "breath": 21,
+     "lift": 5.323,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "حيي",
    "b": "دنو",
    "directions": {
@@ -1790,6 +1864,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "دبر",
+   "b": "ولي",
+   "directions": {
+    "ولي→دبر": {
+     "breath": 21,
+     "lift": 11.928,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "دخل",
    "b": "سجد",
    "directions": {
@@ -1804,6 +1894,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "دون",
+   "b": "ولي",
+   "directions": {
+    "ولي→دون": {
+     "breath": 21,
+     "lift": 7.609,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 35
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ربب",
@@ -2670,6 +2776,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "عجز",
+   "b": "ولي",
+   "directions": {
+    "ولي→عجز": {
+     "breath": 21,
+     "lift": 6.174,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "علم",
    "b": "علن",
    "directions": {
@@ -2700,6 +2822,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "غني",
+   "b": "ولي",
+   "directions": {
+    "ولي→غني": {
+     "breath": 21,
+     "lift": 4.288,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "فضل",
@@ -2788,6 +2926,38 @@
     "نفق→مول": {
      "breath": 5,
      "lift": 8.158,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "نصر",
+   "b": "ولي",
+   "directions": {
+    "ولي→نصر": {
+     "breath": 21,
+     "lift": 6.309,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 28
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "وجه",
+   "b": "ولي",
+   "directions": {
+    "ولي→وجه": {
+     "breath": 21,
+     "lift": 3.913,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
