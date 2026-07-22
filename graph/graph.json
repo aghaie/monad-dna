@@ -719,7 +719,8 @@
   "نسو",
   "نكح",
   "ضعف",
-  "ظهر"
+  "ظهر",
+  "بطن"
  ],
  "open_queue": [
   "اتي",
@@ -734,7 +735,6 @@
   "ايي",
   "بشر",
   "بصر",
-  "بطن",
   "بعد",
   "بعض",
   "بلغ",
@@ -2966,6 +2966,22 @@
      "breath": 174,
      "lift": 3.037,
      "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اكل",
+   "b": "بطن",
+   "directions": {
+    "بطن→اكل": {
+     "breath": 280,
+     "lift": 12.349,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -7841,6 +7857,46 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    },
+    "بطن→ظهر": {
+     "breath": 280,
+     "lift": 26.257,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بطن",
+   "b": "علم",
+   "directions": {
+    "بطن→علم": {
+     "breath": 280,
+     "lift": 2.398,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بطن",
+   "b": "نعم",
+   "directions": {
+    "بطن→نعم": {
+     "breath": 280,
+     "lift": 9.82,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
