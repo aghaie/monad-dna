@@ -201,6 +201,7 @@
   "عرب",
   "عرش",
   "عرض",
+  "عسي",
   "عشر",
   "عصم",
   "عصو",
@@ -516,7 +517,8 @@
   "افك",
   "انث",
   "صرف",
-  "قصص"
+  "قصص",
+  "عسي"
  ],
  "open_queue": [
   "اتي",
@@ -876,6 +878,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
+   "b": "عسي",
+   "directions": {
+    "عسي→اتي": {
+     "breath": 178,
+     "lift": 2.75,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اتي",
@@ -2423,6 +2441,22 @@
   },
   {
    "a": "اله",
+   "b": "عسي",
+   "directions": {
+    "عسي→اله": {
+     "breath": 178,
+     "lift": 1.778,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "عصم",
    "directions": {
     "اله→عصم": {
@@ -3316,6 +3350,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "عسي",
+   "directions": {
+    "عسي→امن": {
+     "breath": 178,
+     "lift": 2.464,
+     "p": 0.0166,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امن",
@@ -5743,6 +5793,22 @@
   },
   {
    "a": "توب",
+   "b": "عسي",
+   "directions": {
+    "عسي→توب": {
+     "breath": 178,
+     "lift": 16.139,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "توب",
    "b": "غفر",
    "directions": {
     "غفر→توب": {
@@ -7910,6 +7976,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "خير",
+   "b": "عسي",
+   "directions": {
+    "عسي→خير": {
+     "breath": 178,
+     "lift": 7.507,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "دبب",
    "b": "سمو",
    "directions": {
@@ -8660,6 +8742,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ربب",
+   "b": "عسي",
+   "directions": {
+    "عسي→ربب": {
+     "breath": 178,
+     "lift": 2.557,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ربب",
@@ -10719,6 +10817,22 @@
   },
   {
    "a": "شيا",
+   "b": "عسي",
+   "directions": {
+    "عسي→شيا": {
+     "breath": 178,
+     "lift": 2.48,
+     "p": 0.0465,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شيا",
    "b": "مكن",
    "directions": {
     "مكن→شيا": {
@@ -11624,6 +11738,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عسي",
+   "b": "قول",
+   "directions": {
+    "عسي→قول": {
+     "breath": 178,
+     "lift": 1.771,
+     "p": 0.0332,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
