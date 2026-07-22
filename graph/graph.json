@@ -30,6 +30,7 @@
   "بحر",
   "بدا",
   "بدو",
+  "برا",
   "برر",
   "بسط",
   "بشر",
@@ -520,7 +521,8 @@
   "صرف",
   "قصص",
   "عسي",
-  "خلص"
+  "خلص",
+  "برا"
  ],
  "open_queue": [
   "اتي",
@@ -1828,6 +1830,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "برا",
+   "directions": {
+    "برا→اله": {
+     "breath": 180,
+     "lift": 1.659,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
     }
    },
    "mutual_strong": false,
@@ -4704,6 +4722,86 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "برا",
+   "b": "بين",
+   "directions": {
+    "برا→بين": {
+     "breath": 180,
+     "lift": 2.453,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "برا",
+   "b": "شرك",
+   "directions": {
+    "برا→شرك": {
+     "breath": 180,
+     "lift": 9.345,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برا",
+   "b": "عمل",
+   "directions": {
+    "برا→عمل": {
+     "breath": 180,
+     "lift": 3.558,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "برا",
+   "b": "قول",
+   "directions": {
+    "برا→قول": {
+     "breath": 180,
+     "lift": 2.577,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برا",
+   "b": "كفر",
+   "directions": {
+    "برا→كفر": {
+     "breath": 180,
+     "lift": 2.874,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "برر",
