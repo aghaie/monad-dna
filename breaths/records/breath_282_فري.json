@@ -1,0 +1,4032 @@
+{
+ "breath_number": 282,
+ "deliberation": [
+  {
+   "root": "فري",
+   "attestation": 60
+  },
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "فتن",
+   "attestation": 60
+  },
+  {
+   "root": "زيد",
+   "attestation": 61
+  },
+  {
+   "root": "عود",
+   "attestation": 63
+  },
+  {
+   "root": "موه",
+   "attestation": 63
+  },
+  {
+   "root": "حمد",
+   "attestation": 63
+  },
+  {
+   "root": "قضي",
+   "attestation": 63
+  },
+  {
+   "root": "تلو",
+   "attestation": 63
+  },
+  {
+   "root": "سحر",
+   "attestation": 63
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "فري",
+ "attestation": 60,
+ "ayat": 54,
+ "top": [
+  {
+   "root": "كذب",
+   "shared": 22,
+   "expected": 2.23,
+   "lift": 9.886,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حرم",
+   "shared": 5,
+   "expected": 0.61,
+   "lift": 8.132,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ضلل",
+   "shared": 11,
+   "expected": 1.47,
+   "lift": 7.472,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "دون",
+   "shared": 7,
+   "expected": 1.23,
+   "lift": 5.693,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غير",
+   "shared": 6,
+   "expected": 1.26,
+   "lift": 4.746,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شهد",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.694,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ظلم",
+   "shared": 11,
+   "expected": 2.51,
+   "lift": 4.38,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حقق",
+   "shared": 9,
+   "expected": 2.28,
+   "lift": 3.952,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جيا",
+   "shared": 8,
+   "expected": 2.27,
+   "lift": 3.526,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ايي",
+   "shared": 9,
+   "expected": 3.06,
+   "lift": 2.944,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "كذب",
+  "حرم",
+  "ضلل",
+  "دون",
+  "شهد",
+  "ظلم",
+  "حقق",
+  "جيا"
+ ],
+ "one_way": [
+  "غير",
+  "ايي"
+ ],
+ "neighbor_view": {
+  "كذب": {
+   "root": "فري",
+   "shared": 22,
+   "expected": 2.23,
+   "lift": 9.886,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حرم": {
+   "root": "فري",
+   "shared": 5,
+   "expected": 0.61,
+   "lift": 8.132,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ضلل": {
+   "root": "فري",
+   "shared": 11,
+   "expected": 1.47,
+   "lift": 7.472,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دون": {
+   "root": "فري",
+   "shared": 7,
+   "expected": 1.23,
+   "lift": 5.693,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غير": null,
+  "شهد": {
+   "root": "فري",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.694,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ظلم": {
+   "root": "فري",
+   "shared": 11,
+   "expected": 2.51,
+   "lift": 4.38,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "حقق": {
+   "root": "فري",
+   "shared": 9,
+   "expected": 2.28,
+   "lift": 3.952,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "جيا": {
+   "root": "فري",
+   "shared": 8,
+   "expected": 2.27,
+   "lift": 3.526,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ايي": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "فري↔اله",
+   "shared": 38,
+   "expected": 16.27,
+   "lift": 2.34,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "فري↔رحم",
+   "shared": 4,
+   "expected": 2.71,
+   "lift": 1.48,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "فري↔راف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هجر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نصر",
+   "shared": 1,
+   "expected": 1.19,
+   "lift": 0.84,
+   "p_perm": 0.7076
+  },
+  {
+   "pair": "فري↔اوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صير",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔باس",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غفر",
+   "shared": 3,
+   "expected": 1.75,
+   "lift": 1.72,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "فري↔حلم",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.77,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "فري↔عفو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ذنب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سوا",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بدو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خفي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دون",
+   "shared": 7,
+   "expected": 1.23,
+   "lift": 5.69,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "فري↔نفع",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ضرر",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كشف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مسس",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.03,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "فري↔ذوق",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔الم",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔انس",
+   "shared": 1,
+   "expected": 0.81,
+   "lift": 1.24,
+   "p_perm": 0.5748
+  },
+  {
+   "pair": "فري↔عشر",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.44,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "فري↔عرض",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.6,
+   "p_perm": 0.5017
+  },
+  {
+   "pair": "فري↔بغي",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سبل",
+   "shared": 0,
+   "expected": 1.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔يتم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لحم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثمن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فلك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وسع",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "فري↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قسم",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صدد",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.82,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "فري↔بحر",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "فري↔برر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نقض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ايد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سفه",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.55,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "فري↔عون",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.55,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "فري↔عصو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جحد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خطب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بغت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طمن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فدي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قرض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عصم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حور",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فوه",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فقر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔رجم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثوي",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.25,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "فري↔وصف",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.25,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "فري↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بدا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صمم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كفف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حرج",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔علن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كيل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لبب",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.22,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "فري↔سطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حبط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شرق",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عوذ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مدن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ربص",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بوا",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دبب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مكن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ملل",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.22,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "فري↔حنف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غرب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صور",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نخل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔زرع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فطر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فقه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سوي",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حزب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كتم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هود",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.5,
+   "p_perm": 0.1661
+  },
+  {
+   "pair": "فري↔شهر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حذر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ربع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عرب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ترب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔تمم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فرح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سرع",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سرف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مرض",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فحش",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔اذي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جهل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غضب",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.5,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "فري↔عمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سقي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بسط",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.02,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "فري↔صلي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وعظ",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حدد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قسط",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وزن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حضر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وهب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حول",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خزي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هون",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.44,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "فري↔نبت",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عجز",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قمر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بوب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عجب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غرر",
+   "shared": 2,
+   "expected": 0.18,
+   "lift": 11.0,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "فري↔مسك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔منن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ابد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خلو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عدل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شقق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حوط",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثقل",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.44,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "فري↔يقن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔رجو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فوز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔رفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثني",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.81,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "فري↔طير",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ودد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔افك",
+   "shared": 3,
+   "expected": 0.25,
+   "lift": 11.95,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "فري↔انث",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.44,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "فري↔صرف",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قصص",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.62,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "فري↔عسي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خلص",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔برا",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.12,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "فري↔شرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قعد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غلب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طهر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثلث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وري",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عصي",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.61,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "فري↔برك",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نصب",
+   "shared": 2,
+   "expected": 0.25,
+   "lift": 7.96,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "فري↔شمس",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كفي",
+   "shared": 2,
+   "expected": 0.28,
+   "lift": 7.22,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "فري↔عرش",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عمي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حجج",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جنب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هزا",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وثق",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حين",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مرر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ورث",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غفل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ريب",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "فري↔اني",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قرن",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قطع",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بطل",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.4,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "فري↔حدث",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.21,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "فري↔نكر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سبق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فتح",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.5,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "فري↔هوي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ذرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شرب",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سلط",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.96,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "فري↔ملا",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شعر",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "فري↔فلح",
+   "shared": 4,
+   "expected": 0.35,
+   "lift": 11.55,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "فري↔كره",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جبل",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طوف",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لعن",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.21,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "فري↔سخر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قوي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حزن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فوق",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جوب",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فصل",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.5,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "فري↔حشر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مكر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سرر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دبر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بدل",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "فري↔حفظ",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صرط",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نسي",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.12,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "فري↔وذر",
+   "shared": 2,
+   "expected": 0.37,
+   "lift": 5.37,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "فري↔عهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔زين",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.69,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "فري↔صدر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.69,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "فري↔عجل",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.62,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "فري↔كرم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طعم",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.82,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "فري↔اثم",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.5,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "فري↔قدم",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سوع",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عقل",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.36,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "فري↔طيب",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فرج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثبت",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فسد",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔تحت",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حلل",
+   "shared": 2,
+   "expected": 0.37,
+   "lift": 5.37,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "فري↔جنح",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خبر",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ندو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دور",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صبح",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔اجل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نهي",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ذهب",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔روح",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قري",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عدد",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.31,
+   "p_perm": 0.3422
+  },
+  {
+   "pair": "فري↔حصي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سنو",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔الف",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ضرب",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔زكو",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نسو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نكح",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ضعف",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ظهر",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.03,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "فري↔بطن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ردد",
+   "shared": 2,
+   "expected": 0.49,
+   "lift": 4.05,
+   "p_perm": 0.0864
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "فري↔راف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هجر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔اوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صير",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔باس",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عفو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ذنب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سوا",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بدو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خفي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نفع",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ضرر",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كشف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ذوق",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔الم",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بغي",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سبل",
+   "shared": 0,
+   "expected": 1.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔يتم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لحم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثمن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فلك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قسم",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔برر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نقض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ايد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عصو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جحد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خطب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بغت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طمن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فدي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قرض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عصم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حور",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فوه",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فقر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔رجم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بدا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صمم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كفف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حرج",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔علن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كيل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حبط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شرق",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عوذ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مدن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ربص",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بوا",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دبب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مكن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حنف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غرب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صور",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نخل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔زرع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فطر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فقه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سوي",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حزب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كتم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شهر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حذر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ربع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عرب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ترب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔تمم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فرح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سرع",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سرف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مرض",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فحش",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔اذي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جهل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سقي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صلي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وعظ",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حدد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قسط",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وزن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حضر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وهب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حول",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خزي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نبت",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عجز",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قمر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بوب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عجب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مسك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔منن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ابد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خلو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عدل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شقق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حوط",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔يقن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔رجو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فوز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔رفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طير",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ودد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صرف",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عسي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خلص",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قعد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غلب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طهر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثلث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وري",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔برك",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شمس",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عرش",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عمي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حجج",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جنب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هزا",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔وثق",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حين",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مرر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ورث",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔غفل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔اني",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قرن",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قطع",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نكر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سبق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔هوي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ذرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شرب",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ملا",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كره",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جبل",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طوف",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سخر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قوي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حزن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فوق",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جوب",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حشر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔مكر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سرر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دبر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حفظ",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صرط",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔كرم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قدم",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سوع",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔طيب",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فرج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ثبت",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔فسد",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔تحت",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جنح",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔خبر",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ندو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔دور",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔صبح",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔اجل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نهي",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ذهب",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔روح",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔قري",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔حصي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔سنو",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔الف",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ضرب",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔زكو",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نسو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔نكح",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔ضعف",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فري↔بطن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "7:37",
+   "degree": 7,
+   "roots_present": [
+    "كذب",
+    "ضلل",
+    "دون",
+    "شهد",
+    "ظلم",
+    "جيا",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "6:144",
+   "degree": 6,
+   "roots_present": [
+    "كذب",
+    "حرم",
+    "ضلل",
+    "غير",
+    "شهد",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "6:93",
+   "degree": 5,
+   "roots_present": [
+    "كذب",
+    "غير",
+    "ظلم",
+    "حقق",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "7:53",
+   "degree": 4,
+   "roots_present": [
+    "ضلل",
+    "غير",
+    "حقق",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "29:68",
+   "degree": 4,
+   "roots_present": [
+    "كذب",
+    "ظلم",
+    "حقق",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "6:21",
+   "degree": 3,
+   "roots_present": [
+    "كذب",
+    "ظلم",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "6:140",
+   "degree": 3,
+   "roots_present": [
+    "حرم",
+    "ضلل",
+    "غير"
+   ]
+  },
+  {
+   "ayah": "10:17",
+   "degree": 3,
+   "roots_present": [
+    "كذب",
+    "ظلم",
+    "ايي"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "فري+كذب": [
+   "3:94",
+   "4:50",
+   "5:103",
+   "6:21",
+   "6:24",
+   "6:93",
+   "6:144",
+   "7:37",
+   "7:89",
+   "10:17",
+   "10:60",
+   "10:69",
+   "11:18",
+   "16:105",
+   "16:116",
+   "18:15",
+   "20:61",
+   "23:38",
+   "29:68",
+   "34:8"
+  ],
+  "فري+حرم": [
+   "6:138",
+   "6:140",
+   "6:144",
+   "10:59",
+   "16:116"
+  ],
+  "فري+ضلل": [
+   "6:24",
+   "6:140",
+   "6:144",
+   "7:37",
+   "7:53",
+   "10:30",
+   "11:21",
+   "16:87",
+   "28:75",
+   "34:8",
+   "46:28"
+  ],
+  "فري+دون": [
+   "4:48",
+   "7:37",
+   "10:37",
+   "10:38",
+   "11:13",
+   "18:15",
+   "46:28"
+  ],
+  "فري+غير": [
+   "6:93",
+   "6:140",
+   "6:144",
+   "7:53",
+   "11:50",
+   "17:73"
+  ],
+  "فري+شهد": [
+   "6:144",
+   "7:37",
+   "11:18",
+   "28:75",
+   "46:8"
+  ],
+  "فري+ظلم": [
+   "3:94",
+   "6:21",
+   "6:93",
+   "6:144",
+   "7:37",
+   "10:17",
+   "11:18",
+   "18:15",
+   "25:4",
+   "29:68",
+   "61:7"
+  ],
+  "فري+حقق": [
+   "6:93",
+   "7:53",
+   "7:89",
+   "10:30",
+   "28:75",
+   "29:68",
+   "32:3",
+   "34:43",
+   "42:24"
+  ],
+  "فري+جيا": [
+   "7:37",
+   "7:53",
+   "19:27",
+   "25:4",
+   "28:36",
+   "29:68",
+   "34:43",
+   "60:12"
+  ],
+  "فري+ايي": [
+   "6:21",
+   "6:93",
+   "7:37",
+   "10:17",
+   "16:101",
+   "16:105",
+   "21:5",
+   "28:36",
+   "34:43"
+  ],
+  "فري+اله": [
+   "3:94",
+   "4:48",
+   "4:50",
+   "5:103",
+   "6:21",
+   "6:93",
+   "6:137",
+   "6:138",
+   "6:140",
+   "6:144",
+   "7:37",
+   "7:89",
+   "10:17",
+   "10:30",
+   "10:37",
+   "10:38",
+   "10:59",
+   "10:60",
+   "10:69",
+   "11:13"
+  ],
+  "فري+غرر": [
+   "3:24",
+   "6:112"
+  ],
+  "فري+افك": [
+   "25:4",
+   "34:43",
+   "46:28"
+  ],
+  "فري+نصب": [
+   "7:37",
+   "16:56"
+  ],
+  "فري+كفي": [
+   "4:50",
+   "46:8"
+  ],
+  "فري+فلح": [
+   "6:21",
+   "10:17",
+   "10:69",
+   "16:116"
+  ],
+  "فري+حلل": [
+   "10:59",
+   "16:116"
+  ]
+ }
+}
