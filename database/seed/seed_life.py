@@ -50,6 +50,7 @@ b14 = rec("breath_14_سجد.json")
 b15 = rec("breath_15_اكل.json")
 b16 = rec("breath_16_طوع.json")
 b17 = rec("breath_17_شهد.json")
+b18 = rec("breath_18_كبر.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -140,6 +141,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_17_شهد.json",
      "breaths/records/breath_17_شهد.json", LOG1,
      "سه قوی پایدار (كفي دوسویه ۱۵٫۸، عدل دوسویه ۱۲٫۷، غيب دوسویه ۹٫۵)؛ جلد دوسویهٔ محتملِ ناپایدار lift=۲۸٫۲؛ ۹:۹۴ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: هفت صفر با خوشهٔ نخست", b17["top"]),
+    (18, "تولدِ دوباره", "كبر", "رفیق (نشان‌دار؛ فرمانِ باغبان: از ریشه‌های اذان — نادرترِ زیرمجموعه)",
+     b18["ayat"], b18["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_18_كبر.json",
+     "breaths/records/breath_18_كبر.json", LOG1,
+     "دو قوی پایدار (علو دوسویه ۶٫۶، جرم دوسویه ۵٫۰)؛ صغر دوسویهٔ محتملِ ناپایدار lift=۲۱٫۹؛ ۲:۲۸۲ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: كبر↔فلح، كبر↔حلل", b18["top"]),
     # ⚓BREATHS
 ]
 
@@ -286,6 +292,9 @@ QUEUE_EVENTS = [
     (17, "queued", "كفي", "چرخه"),
     (17, "queued", "عدل", "چرخه"),
     (17, "queued", "غيب", "چرخه"),
+    (18, "pursued", "كبر", "رفیق (نشان‌دار؛ فرمانِ «از ریشه‌های اذان»؛ قاعدهٔ صف عدل را مقدم می‌داشت)"),
+    (18, "queued", "علو", "چرخه"),
+    (18, "queued", "جرم", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -308,6 +317,7 @@ PROJ = [
     (15, b15),
     (16, b16),
     (17, b17),
+    (18, b18),
     # ⚓PROJ
 ]
 

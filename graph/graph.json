@@ -17,9 +17,12 @@
   "بعث",
   "بعض",
   "بغي",
+  "بلغ",
   "بني",
   "بيت",
+  "تلو",
   "ثمر",
+  "جرم",
   "جلد",
   "جنح",
   "جنن",
@@ -60,8 +63,10 @@
   "شيا",
   "صبر",
   "صدد",
+  "صغر",
   "صلو",
   "صوب",
+  "ضعف",
   "طعم",
   "طوع",
   "طيب",
@@ -71,11 +76,13 @@
   "عرف",
   "علم",
   "علن",
+  "علو",
   "غفر",
   "غيب",
   "غير",
   "فري",
   "فسق",
+  "فضل",
   "فلح",
   "قتل",
   "قدر",
@@ -90,6 +97,8 @@
   "كفي",
   "كلم",
   "ليل",
+  "مرا",
+  "مكر",
   "مول",
   "نسو",
   "نفق",
@@ -117,15 +126,18 @@
   "سجد",
   "اكل",
   "طوع",
-  "شهد"
+  "شهد",
+  "كبر"
  ],
  "open_queue": [
   "اتي",
   "امن",
+  "جرم",
   "شيا",
   "عدل",
   "عرف",
   "علم",
+  "علو",
   "غيب",
   "قدر",
   "قلب",
@@ -348,6 +360,14 @@
    "directions": {
     "اذن→كبر": {
      "breath": 4,
+     "lift": 3.623,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    },
+    "كبر→اذن": {
+     "breath": 18,
      "lift": 3.623,
      "p": 0.0033,
      "stable": false,
@@ -871,6 +891,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بلغ",
+   "b": "كبر",
+   "directions": {
+    "كبر→بلغ": {
+     "breath": 18,
+     "lift": 3.35,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بني",
    "b": "طيب",
    "directions": {
@@ -903,6 +939,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "تلو",
+   "b": "كبر",
+   "directions": {
+    "كبر→تلو": {
+     "breath": 18,
+     "lift": 4.009,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "ثمر",
    "b": "رزق",
    "directions": {
@@ -917,6 +969,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "جرم",
+   "b": "كبر",
+   "directions": {
+    "كبر→جرم": {
+     "breath": 18,
+     "lift": 5.016,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "جلد",
@@ -2007,6 +2075,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "صغر",
+   "b": "كبر",
+   "directions": {
+    "كبر→صغر": {
+     "breath": 18,
+     "lift": 21.947,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "صلو",
    "b": "قرب",
    "directions": {
@@ -2089,6 +2173,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ضعف",
+   "b": "كبر",
+   "directions": {
+    "كبر→ضعف": {
+     "breath": 18,
+     "lift": 8.152,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
     }
    },
    "mutual_strong": false,
@@ -2247,6 +2347,38 @@
    "best_tier": "قوی"
   },
   {
+   "a": "علو",
+   "b": "كبر",
+   "directions": {
+    "كبر→علو": {
+     "breath": 18,
+     "lift": 6.593,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "فضل",
+   "b": "كبر",
+   "directions": {
+    "كبر→فضل": {
+     "breath": 18,
+     "lift": 3.544,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "فلح",
    "b": "وقي",
    "directions": {
@@ -2273,6 +2405,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كبر",
+   "b": "مرا",
+   "directions": {
+    "كبر→مرا": {
+     "breath": 18,
+     "lift": 5.508,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كبر",
+   "b": "مكر",
+   "directions": {
+    "كبر→مكر": {
+     "breath": 18,
+     "lift": 8.86,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
