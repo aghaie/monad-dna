@@ -32,6 +32,7 @@
   "بدو",
   "برا",
   "برر",
+  "برك",
   "بسط",
   "بشر",
   "بصر",
@@ -541,7 +542,8 @@
   "طهر",
   "ثلث",
   "وري",
-  "عصي"
+  "عصي",
+  "برك"
  ],
  "open_queue": [
   "اتي",
@@ -1312,6 +1314,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "برك",
+   "directions": {
+    "برك→ارض": {
+     "breath": 189,
+     "lift": 3.543,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -4992,6 +5010,70 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برك",
+   "b": "جعل",
+   "directions": {
+    "برك→جعل": {
+     "breath": 189,
+     "lift": 3.76,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "برك",
+   "b": "سمو",
+   "directions": {
+    "برك→سمو": {
+     "breath": 189,
+     "lift": 4.429,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برك",
+   "b": "علم",
+   "directions": {
+    "برك→علم": {
+     "breath": 189,
+     "lift": 2.677,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برك",
+   "b": "نزل",
+   "directions": {
+    "برك→نزل": {
+     "breath": 189,
+     "lift": 6.066,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
    "mutual_strong": false,
