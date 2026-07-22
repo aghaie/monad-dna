@@ -5,15 +5,19 @@
   "اجر",
   "اخر",
   "اذن",
+  "اكل",
   "الم",
   "اله",
   "امر",
   "امن",
+  "بسط",
   "بعث",
   "بغي",
   "بيت",
+  "ثمر",
   "جهر",
   "حبب",
+  "حرم",
   "خلف",
   "خير",
   "ربب",
@@ -27,17 +31,21 @@
   "صبر",
   "صلو",
   "صوب",
+  "طعم",
   "طوع",
+  "طيب",
   "ظلم",
   "علم",
   "علن",
   "فلح",
+  "قدر",
   "قرب",
   "قلب",
   "قول",
   "قوم",
   "كبر",
   "كتب",
+  "كرم",
   "كلم",
   "مول",
   "نفق",
@@ -54,13 +62,16 @@
   "اذن",
   "نفق",
   "سرر",
-  "علن"
+  "علن",
+  "رزق"
  ],
  "open_queue": [
   "اتي",
+  "اكل",
   "امن",
-  "رزق",
+  "بسط",
   "طوع",
+  "طيب",
   "علم",
   "قلب",
   "قول",
@@ -292,6 +303,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "اكل",
+   "b": "رزق",
+   "directions": {
+    "رزق→اكل": {
+     "breath": 8,
+     "lift": 6.231,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "اله",
    "b": "فلح",
    "directions": {
@@ -334,6 +361,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بسط",
+   "b": "رزق",
+   "directions": {
+    "رزق→بسط": {
+     "breath": 8,
+     "lift": 24.874,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
    "mutual_strong": false,
@@ -388,6 +431,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ثمر",
+   "b": "رزق",
+   "directions": {
+    "رزق→ثمر": {
+     "breath": 8,
+     "lift": 18.204,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "جهر",
    "b": "سرر",
    "directions": {
@@ -414,6 +473,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
+   "b": "رزق",
+   "directions": {
+    "رزق→حرم": {
+     "breath": 8,
+     "lift": 5.641,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -478,6 +553,78 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    },
+    "رزق→صلو": {
+     "breath": 8,
+     "lift": 5.721,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رزق",
+   "b": "طعم",
+   "directions": {
+    "رزق→طعم": {
+     "breath": 8,
+     "lift": 6.977,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رزق",
+   "b": "طيب",
+   "directions": {
+    "رزق→طيب": {
+     "breath": 8,
+     "lift": 18.656,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "رزق",
+   "b": "قدر",
+   "directions": {
+    "رزق→قدر": {
+     "breath": 8,
+     "lift": 6.619,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رزق",
+   "b": "كرم",
+   "directions": {
+    "رزق→كرم": {
+     "breath": 8,
+     "lift": 8.706,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -494,9 +641,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 16
+    },
+    "رزق→نفق": {
+     "breath": 8,
+     "lift": 10.644,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
