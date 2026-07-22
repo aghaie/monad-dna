@@ -736,7 +736,8 @@
   "زيد",
   "عود",
   "موه",
-  "حمد"
+  "حمد",
+  "قضي"
  ],
  "open_queue": [
   "اتي",
@@ -1851,6 +1852,14 @@
    "directions": {
     "اجل→قضي": {
      "breath": 265,
+     "lift": 15.414,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    },
+    "قضي→اجل": {
+     "breath": 290,
      "lift": 15.414,
      "p": 0.0033,
      "stable": false,
@@ -5100,6 +5109,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امر",
+   "b": "قضي",
+   "directions": {
+    "قضي→امر": {
+     "breath": 290,
+     "lift": 11.224,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 24
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امر",
@@ -9183,6 +9208,22 @@
   },
   {
    "a": "بين",
+   "b": "قضي",
+   "directions": {
+    "قضي→بين": {
+     "breath": 290,
+     "lift": 4.656,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 20
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بين",
    "b": "كفي",
    "directions": {
     "كفي→بين": {
@@ -11783,6 +11824,22 @@
   },
   {
    "a": "جيا",
+   "b": "قضي",
+   "directions": {
+    "قضي→جيا": {
+     "breath": 290,
+     "lift": 2.824,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جيا",
    "b": "هوي",
    "directions": {
     "هوي→جيا": {
@@ -12624,6 +12681,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حقق",
+   "b": "قضي",
+   "directions": {
+    "قضي→حقق": {
+     "breath": 290,
+     "lift": 2.813,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -14032,6 +14105,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خلف",
+   "b": "قضي",
+   "directions": {
+    "قضي→خلف": {
+     "breath": 290,
+     "lift": 6.378,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -21007,6 +21096,22 @@
   },
   {
    "a": "ظلم",
+   "b": "قضي",
+   "directions": {
+    "قضي→ظلم": {
+     "breath": 290,
+     "lift": 2.551,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ظلم",
    "b": "نفع",
    "directions": {
     "نفع→ظلم": {
@@ -24080,6 +24185,54 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قضي",
+   "b": "كلم",
+   "directions": {
+    "قضي→كلم": {
+     "breath": 290,
+     "lift": 7.443,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قضي",
+   "b": "ملك",
+   "directions": {
+    "قضي→ملك": {
+     "breath": 290,
+     "lift": 2.767,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قضي",
+   "b": "نوس",
+   "directions": {
+    "قضي→نوس": {
+     "breath": 290,
+     "lift": 2.819,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
