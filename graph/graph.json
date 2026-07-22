@@ -191,6 +191,7 @@
   "ضيع",
   "طبع",
   "طمن",
+  "طهر",
   "طوع",
   "طيب",
   "طير",
@@ -532,7 +533,8 @@
   "شرر",
   "لبث",
   "قعد",
-  "غلب"
+  "غلب",
+  "طهر"
  ],
  "open_queue": [
   "اتي",
@@ -2471,6 +2473,22 @@
   },
   {
    "a": "اله",
+   "b": "طهر",
+   "directions": {
+    "طهر→اله": {
+     "breath": 185,
+     "lift": 1.787,
+     "p": 0.0133,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
    "b": "عجب",
    "directions": {
     "عجب→اله": {
@@ -3392,6 +3410,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "طهر",
+   "directions": {
+    "طهر→امن": {
+     "breath": 185,
+     "lift": 2.986,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
     }
    },
    "mutual_strong": false,
@@ -9519,6 +9553,22 @@
   },
   {
    "a": "رسل",
+   "b": "طهر",
+   "directions": {
+    "طهر→رسل": {
+     "breath": 185,
+     "lift": 3.354,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رسل",
    "b": "عرب",
    "directions": {
     "عرب→رسل": {
@@ -9660,6 +9710,22 @@
     "زرع→نخل": {
      "breath": 110,
      "lift": 129.917,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "زوج",
+   "b": "طهر",
+   "directions": {
+    "طهر→زوج": {
+     "breath": 185,
+     "lift": 16.656,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -11620,6 +11686,38 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "طهر",
+   "b": "قوم",
+   "directions": {
+    "طهر→قوم": {
+     "breath": 185,
+     "lift": 4.018,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طهر",
+   "b": "كون",
+   "directions": {
+    "طهر→كون": {
+     "breath": 185,
+     "lift": 1.632,
+     "p": 0.0399,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "طير",
