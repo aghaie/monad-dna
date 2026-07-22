@@ -569,7 +569,8 @@
   "مرر",
   "ورث",
   "غفل",
-  "ريب"
+  "ريب",
+  "اني"
  ],
  "open_queue": [
   "اتي",
@@ -1850,9 +1851,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "اني→افك": {
+     "breath": 204,
+     "lift": 53.759,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2066,6 +2075,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "اني",
+   "directions": {
+    "اني→اله": {
+     "breath": 204,
+     "lift": 2.028,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 22
     }
    },
    "mutual_strong": false,
@@ -4298,6 +4323,134 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اني",
+   "b": "بعد",
+   "directions": {
+    "اني→بعد": {
+     "breath": 204,
+     "lift": 3.937,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اني",
+   "b": "خلق",
+   "directions": {
+    "اني→خلق": {
+     "breath": 204,
+     "lift": 6.357,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اني",
+   "b": "ذكر",
+   "directions": {
+    "اني→ذكر": {
+     "breath": 204,
+     "lift": 3.937,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اني",
+   "b": "ربب",
+   "directions": {
+    "اني→ربب": {
+     "breath": 204,
+     "lift": 1.79,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اني",
+   "b": "شيا",
+   "directions": {
+    "اني→شيا": {
+     "breath": 204,
+     "lift": 3.858,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اني",
+   "b": "قبل",
+   "directions": {
+    "اني→قبل": {
+     "breath": 204,
+     "lift": 3.071,
+     "p": 0.0332,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اني",
+   "b": "قول",
+   "directions": {
+    "اني→قول": {
+     "breath": 204,
+     "lift": 2.129,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اني",
+   "b": "كلل",
+   "directions": {
+    "اني→كلل": {
+     "breath": 204,
+     "lift": 2.936,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
