@@ -57,6 +57,7 @@
   "ترب",
   "تمم",
   "توب",
+  "ثبت",
   "ثقل",
   "ثلث",
   "ثمر",
@@ -288,6 +289,7 @@
   "قبل",
   "قتل",
   "قدر",
+  "قدم",
   "قرا",
   "قرب",
   "قرر",
@@ -658,7 +660,8 @@
   "عجل",
   "كرم",
   "طعم",
-  "اثم"
+  "اثم",
+  "قدم"
  ],
  "open_queue": [
   "اتي",
@@ -1895,6 +1898,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "قدم",
+   "directions": {
+    "قدم→اخر": {
+     "breath": 246,
+     "lift": 5.368,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اخر",
@@ -7946,6 +7965,22 @@
   },
   {
    "a": "بين",
+   "b": "قدم",
+   "directions": {
+    "قدم→بين": {
+     "breath": 246,
+     "lift": 1.717,
+     "p": 0.0498,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
    "b": "قرن",
    "directions": {
     "قرن→بين": {
@@ -8387,6 +8422,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 25
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثبت",
+   "b": "قدم",
+   "directions": {
+    "قدم→ثبت": {
+     "breath": 246,
+     "lift": 38.211,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -16930,6 +16981,22 @@
   },
   {
    "a": "ظلم",
+   "b": "قدم",
+   "directions": {
+    "قدم→ظلم": {
+     "breath": 246,
+     "lift": 3.136,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ظلم",
    "b": "نفع",
    "directions": {
     "نفع→ظلم": {
@@ -19075,6 +19142,54 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قدم",
+   "b": "كفر",
+   "directions": {
+    "قدم→كفر": {
+     "breath": 246,
+     "lift": 2.235,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قدم",
+   "b": "نفس",
+   "directions": {
+    "قدم→نفس": {
+     "breath": 246,
+     "lift": 3.368,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قدم",
+   "b": "يدي",
+   "directions": {
+    "قدم→يدي": {
+     "breath": 246,
+     "lift": 16.535,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
     }
    },
    "mutual_strong": false,
