@@ -1,7 +1,99 @@
 {
  "generated_from": "breaths/records/*.json (deterministic)",
- "nodes": [],
- "visited_roots": [],
- "open_queue": [],
- "edges": []
+ "nodes": [
+  "اله",
+  "امن",
+  "خير",
+  "ظلم",
+  "فلح",
+  "وقي"
+ ],
+ "visited_roots": [
+  "فلح"
+ ],
+ "open_queue": [
+  "امن"
+ ],
+ "edges": [
+  {
+   "a": "اله",
+   "b": "فلح",
+   "directions": {
+    "فلح→اله": {
+     "breath": 1,
+     "lift": 1.659,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 20
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "امن",
+   "b": "فلح",
+   "directions": {
+    "فلح→امن": {
+     "breath": 1,
+     "lift": 3.019,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خير",
+   "b": "فلح",
+   "directions": {
+    "فلح→خير": {
+     "breath": 1,
+     "lift": 4.379,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ظلم",
+   "b": "فلح",
+   "directions": {
+    "فلح→ظلم": {
+     "breath": 1,
+     "lift": 2.688,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فلح",
+   "b": "وقي",
+   "directions": {
+    "فلح→وقي": {
+     "breath": 1,
+     "lift": 4.605,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  }
+ ]
 }

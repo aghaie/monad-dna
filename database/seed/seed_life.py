@@ -33,11 +33,17 @@ def rec(name):
 
 # ---------- فرادادهٔ نفس‌های زندگیِ دوم (رونویسی از دفترها) ----------
 # خطِ لوله (pipeline/core.py) سطرِ recِ هر نفسِ رسمی‌شده را بالای لنگر می‌افزاید.
+b1 = rec("breath_1_فلح.json")
 # ⚓RECORDS
 
 BREATHS = [
     # (no, chapter, root, chosen_by, ayat, halves_overlap, script, record_file,
     #  log, note, top) — با هر نفسِ رسمی‌شده یک سطر، بالای لنگر
+    (1, "تولدِ دوباره", "فلح", "قاعدهٔ صف (خودران)",
+     b1["ayat"], b1["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_1_فلح.json",
+     "breaths/records/breath_1_فلح.json", LOG1,
+     "دو قوی پایدار (امن ۳٫۰، اله ۱٫۷)؛ وقي دوسویهٔ محتملِ ناپایدار lift=۴٫۶؛ ۲:۱۸۹ گرهِ چهار‌ریشه‌ای", b1["top"]),
     # ⚓BREATHS
 ]
 
@@ -130,11 +136,14 @@ AUDITS = [
 QUEUE_EVENTS = [
     # (breath_no, event, root, source) — دفترداریِ صفِ طبیعیِ زندگیِ دوم؛
     # رویدادهای هر نفسِ رسمی‌شده بالای لنگر می‌نشینند.
+    (1, "pursued", "فلح", "قاعدهٔ صف"),
+    (1, "queued", "امن", "چرخه"),
     # ⚓QUEUE
 ]
 
 PROJ = [
     # (no, b_no) — فرافکنی و شاهدِ غیابِ هر نفس بر نقشهٔ زیسته؛ خطِ لوله می‌افزاید.
+    (1, b1),
     # ⚓PROJ
 ]
 
