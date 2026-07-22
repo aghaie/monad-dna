@@ -98,6 +98,7 @@
   "حسب",
   "حسن",
   "حشر",
+  "حصي",
   "حضر",
   "حفظ",
   "حقق",
@@ -240,6 +241,7 @@
   "عجب",
   "عجز",
   "عجل",
+  "عدد",
   "عدل",
   "عدو",
   "عذب",
@@ -702,7 +704,8 @@
   "نهي",
   "ذهب",
   "روح",
-  "قري"
+  "قري",
+  "عدد"
  ],
  "open_queue": [
   "اتي",
@@ -728,6 +731,7 @@
   "حبب",
   "حرم",
   "حسن",
+  "حصي",
   "خلف",
   "خلق",
   "دعو",
@@ -742,6 +746,7 @@
   "سكن",
   "سمع",
   "سمو",
+  "سنو",
   "شطن",
   "شكر",
   "شيا",
@@ -2210,6 +2215,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "عدد",
+   "directions": {
+    "عدد→اخر": {
+     "breath": 270,
+     "lift": 4.638,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اخر",
@@ -11772,6 +11793,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "حصي",
+   "b": "عدد",
+   "directions": {
+    "عدد→حصي": {
+     "breath": 270,
+     "lift": 56.691,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "حضر",
    "b": "كون",
    "directions": {
@@ -16893,6 +16930,22 @@
   },
   {
    "a": "سنو",
+   "b": "عدد",
+   "directions": {
+    "عدد→سنو": {
+     "breath": 270,
+     "lift": 37.416,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سنو",
    "b": "لبث",
    "directions": {
     "لبث→سنو": {
@@ -19274,6 +19327,102 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "عدد",
+   "b": "عذب",
+   "directions": {
+    "عدد→عذب": {
+     "breath": 270,
+     "lift": 3.712,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "عدد",
+   "b": "عظم",
+   "directions": {
+    "عدد→عظم": {
+     "breath": 270,
+     "lift": 5.892,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عدد",
+   "b": "كفر",
+   "directions": {
+    "عدد→كفر": {
+     "breath": 270,
+     "lift": 2.146,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عدد",
+   "b": "نور",
+   "directions": {
+    "عدد→نور": {
+     "breath": 270,
+     "lift": 4.301,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عدد",
+   "b": "وقي",
+   "directions": {
+    "عدد→وقي": {
+     "breath": 270,
+     "lift": 4.21,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عدد",
+   "b": "يوم",
+   "directions": {
+    "عدد→يوم": {
+     "breath": 270,
+     "lift": 3.639,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "عدل",
