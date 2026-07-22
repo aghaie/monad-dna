@@ -1,0 +1,3427 @@
+{
+ "breath_number": 249,
+ "deliberation": [
+  {
+   "root": "طيب",
+   "attestation": 50
+  },
+  {
+   "root": "فسد",
+   "attestation": 50
+  },
+  {
+   "root": "تحت",
+   "attestation": 51
+  },
+  {
+   "root": "حلل",
+   "attestation": 51
+  },
+  {
+   "root": "خبر",
+   "attestation": 52
+  },
+  {
+   "root": "ندو",
+   "attestation": 53
+  },
+  {
+   "root": "دور",
+   "attestation": 55
+  },
+  {
+   "root": "اجل",
+   "attestation": 56
+  },
+  {
+   "root": "نهي",
+   "attestation": 56
+  },
+  {
+   "root": "ذهب",
+   "attestation": 56
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "طيب",
+ "attestation": 50,
+ "ayat": 46,
+ "top": [
+  {
+   "root": "خبث",
+   "shared": 8,
+   "expected": 0.07,
+   "lift": 108.452,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حلل",
+   "shared": 10,
+   "expected": 0.32,
+   "lift": 31.527,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اكل",
+   "shared": 14,
+   "expected": 0.75,
+   "lift": 18.791,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رزق",
+   "shared": 15,
+   "expected": 0.8,
+   "lift": 18.656,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "شكر",
+   "shared": 7,
+   "expected": 0.51,
+   "lift": 13.753,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بني",
+   "shared": 5,
+   "expected": 1.11,
+   "lift": 4.519,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جنن",
+   "shared": 5,
+   "expected": 1.45,
+   "lift": 3.458,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وقي",
+   "shared": 6,
+   "expected": 1.75,
+   "lift": 3.432,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غفر",
+   "shared": 5,
+   "expected": 1.49,
+   "lift": 3.356,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امن",
+   "shared": 14,
+   "expected": 5.33,
+   "lift": 2.625,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "خبث",
+  "حلل",
+  "اكل",
+  "رزق",
+  "شكر",
+  "بني"
+ ],
+ "one_way": [
+  "جنن",
+  "وقي",
+  "غفر",
+  "امن"
+ ],
+ "neighbor_view": {
+  "خبث": {
+   "root": "طيب",
+   "shared": 8,
+   "expected": 0.07,
+   "lift": 108.452,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حلل": {
+   "root": "طيب",
+   "shared": 10,
+   "expected": 0.32,
+   "lift": 31.527,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "اكل": {
+   "root": "طيب",
+   "shared": 14,
+   "expected": 0.75,
+   "lift": 18.791,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "رزق": {
+   "root": "طيب",
+   "shared": 15,
+   "expected": 0.8,
+   "lift": 18.656,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "شكر": {
+   "root": "طيب",
+   "shared": 7,
+   "expected": 0.51,
+   "lift": 13.753,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بني": {
+   "root": "طيب",
+   "shared": 5,
+   "expected": 1.11,
+   "lift": 4.519,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "جنن": null,
+  "وقي": null,
+  "غفر": null,
+  "امن": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "طيب↔اله",
+   "shared": 21,
+   "expected": 13.86,
+   "lift": 1.52,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "طيب↔رحم",
+   "shared": 1,
+   "expected": 2.31,
+   "lift": 0.43,
+   "p_perm": 0.9169
+  },
+  {
+   "pair": "طيب↔راف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔هجر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نصر",
+   "shared": 2,
+   "expected": 1.01,
+   "lift": 1.98,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "طيب↔اوي",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.77,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "طيب↔صير",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔باس",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غفر",
+   "shared": 5,
+   "expected": 1.49,
+   "lift": 3.36,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "طيب↔حلم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عفو",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.37,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "طيب↔ذنب",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.66,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "طيب↔سوا",
+   "shared": 1,
+   "expected": 1.11,
+   "lift": 0.9,
+   "p_perm": 0.6512
+  },
+  {
+   "pair": "طيب↔بدو",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خفي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔دون",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نفع",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ضرر",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كشف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مسس",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ذوق",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔الم",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔انس",
+   "shared": 1,
+   "expected": 0.69,
+   "lift": 1.46,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "طيب↔عشر",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.21,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "طيب↔عرض",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.88,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "طيب↔بغي",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عوج",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سبل",
+   "shared": 2,
+   "expected": 1.21,
+   "lift": 1.65,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "طيب↔يتم",
+   "shared": 2,
+   "expected": 0.16,
+   "lift": 12.32,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "طيب↔شري",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لحم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔دمو",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثمن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فلك",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.42,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "طيب↔وسع",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كلف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جهد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قسم",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صدد",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.31,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "طيب↔بحر",
+   "shared": 2,
+   "expected": 0.3,
+   "lift": 6.78,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "طيب↔برر",
+   "shared": 2,
+   "expected": 0.22,
+   "lift": 9.04,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "طيب↔قسو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ستت",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔هبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لون",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نقض",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حرق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حيق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ضيع",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔رجس",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قهر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عنب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طبع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وقد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ايد",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.32,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "طيب↔سفه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عون",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عصو",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.3,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "طيب↔طين",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جحد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خطب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شبه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بغت",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خزن",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.43,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "طيب↔فدي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حلف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عصم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حور",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فوه",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جلد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ياس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فقر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔رجم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صوم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثوي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وصف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شكك",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بدا",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صمم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كفف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حرج",
+   "shared": 2,
+   "expected": 0.08,
+   "lift": 24.65,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "طيب↔علن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خبث",
+   "shared": 8,
+   "expected": 0.07,
+   "lift": 108.45,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "طيب↔كيل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لبب",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.47,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "طيب↔سطر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فاد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حبط",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.47,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "طيب↔عتد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جهر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شرق",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عوذ",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مدن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ربص",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بوا",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.47,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "طيب↔صفو",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فكر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔دبب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مكن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نوب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ملل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حنف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فرض",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غرب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صور",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.97,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "طيب↔نخل",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔زرع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نفخ",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مري",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فقه",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سوي",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.69,
+   "p_perm": 0.4385
+  },
+  {
+   "pair": "طيب↔حزب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بقي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سنن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كتم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔هود",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.46,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "طيب↔شهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مني",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حذر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ربع",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.46,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "طيب↔عرب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ترب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔تمم",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.78,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "طيب↔فرح",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.46,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "طيب↔سرع",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.89,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "طيب↔سرف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مرض",
+   "shared": 3,
+   "expected": 0.17,
+   "lift": 17.68,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "طيب↔فحش",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔اذي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جهل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غضب",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.46,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "طيب↔عمر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سقي",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.65,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "طيب↔بسط",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صلي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وعظ",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حدد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قسط",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.16,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "طيب↔وزن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حضر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وهب",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.16,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "طيب↔حول",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خزي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔هون",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.21,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "طيب↔نبت",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.89,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "طيب↔عجز",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بوب",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.65,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "طيب↔سير",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.42,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "طيب↔عجب",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.65,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "طيب↔غرر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مسك",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.65,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "طيب↔منن",
+   "shared": 2,
+   "expected": 0.18,
+   "lift": 10.85,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "طيب↔ابد",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خلو",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عدل",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.65,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "طيب↔شقق",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثوب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حوط",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.02,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "طيب↔ثقل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔يقن",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔رجو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فوز",
+   "shared": 2,
+   "expected": 0.2,
+   "lift": 10.04,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "طيب↔رفع",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.67,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "طيب↔ثني",
+   "shared": 2,
+   "expected": 0.18,
+   "lift": 11.3,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "طيب↔طير",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ودد",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جدل",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔افك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔انث",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.21,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "طيب↔صرف",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.67,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "طيب↔قصص",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عسي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خلص",
+   "shared": 2,
+   "expected": 0.22,
+   "lift": 9.04,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "طيب↔برا",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.84,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "طيب↔شرر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لبث",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قعد",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غلب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طهر",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.21,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "طيب↔ثلث",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.84,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "طيب↔وري",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عصي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔برك",
+   "shared": 2,
+   "expected": 0.24,
+   "lift": 8.47,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "طيب↔نصب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شمس",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كفي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عرش",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عمي",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.52,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "طيب↔حجج",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جنب",
+   "shared": 2,
+   "expected": 0.23,
+   "lift": 8.75,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "طيب↔هزا",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وثق",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حين",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مرر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ورث",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غفل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ريب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔اني",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قرن",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قطع",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.77,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "طيب↔بطل",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.99,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "طيب↔حدث",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نكر",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.66,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "طيب↔سبق",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فتح",
+   "shared": 2,
+   "expected": 0.24,
+   "lift": 8.22,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "طيب↔هوي",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.66,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "طيب↔قرر",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.66,
+   "p_perm": 0.1993
+  },
+  {
+   "pair": "طيب↔ذرر",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.77,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "طيب↔شرب",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.99,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "طيب↔سلط",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ملا",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شعر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فلح",
+   "shared": 2,
+   "expected": 0.3,
+   "lift": 6.78,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "طيب↔كره",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جبل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طوف",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لعن",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سخر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قوي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حزن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فوق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جوب",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فصل",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.23,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "طيب↔حشر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مكر",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.89,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "طيب↔سرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔دبر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بدل",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.39,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "طيب↔حفظ",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صرط",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.01,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "طيب↔نسي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وذر",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.15,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "طيب↔عهد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔زين",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.15,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "طيب↔صدر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عجل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كرم",
+   "shared": 2,
+   "expected": 0.34,
+   "lift": 5.89,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "طيب↔طعم",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.31,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "طيب↔اثم",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قدم",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سوع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عقل",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.77,
+   "p_perm": 0.3189
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "طيب↔راف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔هجر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صير",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔باس",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حلم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بدو",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خفي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔دون",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نفع",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ضرر",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كشف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مسس",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ذوق",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔الم",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بغي",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عوج",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شري",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لحم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔دمو",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثمن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وسع",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كلف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جهد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قسم",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قسو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ستت",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔هبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لون",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نقض",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حرق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حيق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ضيع",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جدد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔رجس",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قهر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عنب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طبع",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وقد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سفه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عون",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طين",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جحد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خطب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شبه",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بغت",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فدي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قرض",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حلف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عصم",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حور",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فوه",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جلد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ياس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فقر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔رجم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صوم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثوي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وصف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شكك",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بدا",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صمم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كفف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔علن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كيل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سطر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فاد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عتد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جهر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شرق",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عوذ",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مدن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ربص",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صفو",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فكر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔دبب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مكن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نوب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ملل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حنف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فرض",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غرب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نخل",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔زرع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نفخ",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مري",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فقه",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حزب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بقي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سنن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كتم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مني",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حذر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عرب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ترب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سرف",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فحش",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔اذي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جهل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عمر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔بسط",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صلي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وعظ",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حدد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وزن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حضر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حول",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خزي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عجز",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غرر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ابد",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔خلو",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شقق",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثوب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ثقل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔يقن",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔رجو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طير",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ودد",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جدل",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔افك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قصص",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عسي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شرر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لبث",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قعد",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غلب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وري",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عصي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نصب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شمس",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كفي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عرش",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حجج",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔هزا",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔وثق",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حين",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔مرر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ورث",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔غفل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ريب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔اني",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قرن",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حدث",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سبق",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سلط",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔ملا",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔شعر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔كره",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جبل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔طوف",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔لعن",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سخر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قوي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حزن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔فوق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔جوب",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حشر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔دبر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔حفظ",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔نسي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عهد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔صدر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔عجل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔اثم",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔قدم",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "طيب↔سوع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "5:88",
+   "degree": 5,
+   "roots_present": [
+    "حلل",
+    "اكل",
+    "رزق",
+    "وقي",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "34:15",
+   "degree": 5,
+   "roots_present": [
+    "اكل",
+    "رزق",
+    "شكر",
+    "جنن",
+    "غفر"
+   ]
+  },
+  {
+   "ayah": "2:172",
+   "degree": 4,
+   "roots_present": [
+    "اكل",
+    "رزق",
+    "شكر",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "8:69",
+   "degree": 4,
+   "roots_present": [
+    "حلل",
+    "اكل",
+    "وقي",
+    "غفر"
+   ]
+  },
+  {
+   "ayah": "16:114",
+   "degree": 4,
+   "roots_present": [
+    "حلل",
+    "اكل",
+    "رزق",
+    "شكر"
+   ]
+  },
+  {
+   "ayah": "3:179",
+   "degree": 3,
+   "roots_present": [
+    "خبث",
+    "وقي",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "5:4",
+   "degree": 3,
+   "roots_present": [
+    "حلل",
+    "اكل",
+    "وقي"
+   ]
+  },
+  {
+   "ayah": "7:157",
+   "degree": 3,
+   "roots_present": [
+    "خبث",
+    "حلل",
+    "امن"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "طيب+خبث": [
+   "2:267",
+   "3:179",
+   "4:2",
+   "5:100",
+   "7:58",
+   "7:157",
+   "8:37",
+   "24:26"
+  ],
+  "طيب+حلل": [
+   "2:168",
+   "4:160",
+   "5:4",
+   "5:5",
+   "5:87",
+   "5:88",
+   "7:157",
+   "8:69",
+   "16:114",
+   "20:81"
+  ],
+  "طيب+اكل": [
+   "2:57",
+   "2:168",
+   "2:172",
+   "4:2",
+   "4:4",
+   "5:4",
+   "5:88",
+   "7:160",
+   "8:69",
+   "16:114",
+   "20:81",
+   "23:51",
+   "24:61",
+   "34:15"
+  ],
+  "طيب+رزق": [
+   "2:57",
+   "2:172",
+   "5:88",
+   "7:32",
+   "7:160",
+   "8:26",
+   "10:93",
+   "16:72",
+   "16:114",
+   "17:70",
+   "20:81",
+   "24:26",
+   "34:15",
+   "40:64",
+   "45:16"
+  ],
+  "طيب+شكر": [
+   "2:172",
+   "5:6",
+   "7:58",
+   "8:26",
+   "10:22",
+   "16:114",
+   "34:15"
+  ],
+  "طيب+بني": [
+   "10:93",
+   "16:72",
+   "17:70",
+   "40:64",
+   "45:16"
+  ],
+  "طيب+جنن": [
+   "9:72",
+   "16:32",
+   "34:15",
+   "39:73",
+   "61:12"
+  ],
+  "طيب+وقي": [
+   "3:179",
+   "5:4",
+   "5:88",
+   "5:100",
+   "8:69",
+   "39:73"
+  ],
+  "طيب+غفر": [
+   "4:43",
+   "8:69",
+   "24:26",
+   "34:15",
+   "61:12"
+  ],
+  "طيب+امن": [
+   "2:172",
+   "2:267",
+   "3:179",
+   "4:43",
+   "5:5",
+   "5:6",
+   "5:87",
+   "5:88",
+   "7:32",
+   "7:157",
+   "9:72",
+   "13:29",
+   "16:72",
+   "16:97"
+  ],
+  "طيب+اله": [
+   "2:172",
+   "2:267",
+   "3:179",
+   "4:43",
+   "4:160",
+   "5:4",
+   "5:6",
+   "5:87",
+   "5:88",
+   "5:100",
+   "7:32",
+   "8:37",
+   "8:69",
+   "9:72",
+   "10:22",
+   "14:24",
+   "16:72",
+   "16:114",
+   "24:61",
+   "35:10"
+  ],
+  "طيب+يتم": [
+   "4:2",
+   "4:3"
+  ],
+  "طيب+بحر": [
+   "10:22",
+   "17:70"
+  ],
+  "طيب+برر": [
+   "10:22",
+   "17:70"
+  ],
+  "طيب+حرج": [
+   "5:6",
+   "24:61"
+  ],
+  "طيب+مرض": [
+   "4:43",
+   "5:6",
+   "24:61"
+  ],
+  "طيب+منن": [
+   "2:57",
+   "7:160"
+  ],
+  "طيب+فوز": [
+   "9:72",
+   "61:12"
+  ],
+  "طيب+ثني": [
+   "4:3",
+   "7:160"
+  ],
+  "طيب+خلص": [
+   "7:32",
+   "10:22"
+  ],
+  "طيب+برك": [
+   "24:61",
+   "40:64"
+  ],
+  "طيب+جنب": [
+   "4:43",
+   "5:6"
+  ],
+  "طيب+فتح": [
+   "24:61",
+   "39:73"
+  ],
+  "طيب+كرم": [
+   "17:70",
+   "24:26"
+  ]
+ }
+}
