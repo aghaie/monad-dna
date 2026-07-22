@@ -715,7 +715,8 @@
   "الف",
   "ضرب",
   "زكو",
-  "نسو"
+  "نسو",
+  "نكح"
  ],
  "open_queue": [
   "اتي",
@@ -791,7 +792,6 @@
   "نزل",
   "نعم",
   "نفس",
-  "نكح",
   "نور",
   "نوس",
   "هدي",
@@ -1334,6 +1334,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
+   "b": "نكح",
+   "directions": {
+    "نكح→اتي": {
+     "breath": 277,
+     "lift": 3.377,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -4573,6 +4589,22 @@
   },
   {
    "a": "اله",
+   "b": "نكح",
+   "directions": {
+    "نكح→اله": {
+     "breath": 277,
+     "lift": 2.62,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "نكر",
    "directions": {
     "نكر→اله": {
@@ -5562,6 +5594,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "امن",
+   "b": "نكح",
+   "directions": {
+    "نكح→امن": {
+     "breath": 277,
+     "lift": 3.632,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "امن",
@@ -8851,6 +8899,22 @@
      "breath": 182,
      "lift": 2.544,
      "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
+   "b": "نكح",
+   "directions": {
+    "نكح→بين": {
+     "breath": 277,
+     "lift": 3.615,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -13475,6 +13539,22 @@
      "breath": 219,
      "lift": 4.379,
      "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خير",
+   "b": "نكح",
+   "directions": {
+    "نكح→خير": {
+     "breath": 277,
+     "lift": 9.219,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -20749,6 +20829,22 @@
   },
   {
    "a": "علم",
+   "b": "نكح",
+   "directions": {
+    "نكح→علم": {
+     "breath": 277,
+     "lift": 4.508,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "علم",
    "b": "وسع",
    "directions": {
     "وسع→علم": {
@@ -21227,6 +21323,14 @@
      "breath": 9,
      "lift": 8.124,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "نكح→غفر": {
+     "breath": 277,
+     "lift": 8.124,
+     "p": 0.0066,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -23181,6 +23285,22 @@
   },
   {
    "a": "كون",
+   "b": "نكح",
+   "directions": {
+    "نكح→كون": {
+     "breath": 277,
+     "lift": 1.954,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كون",
    "b": "نهي",
    "directions": {
     "نهي→كون": {
@@ -23561,6 +23681,14 @@
    "directions": {
     "نسو→نكح": {
      "breath": 276,
+     "lift": 37.156,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    },
+    "نكح→نسو": {
+     "breath": 277,
      "lift": 37.156,
      "p": 0.0033,
      "stable": false,
