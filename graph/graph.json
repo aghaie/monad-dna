@@ -2,6 +2,7 @@
  "generated_from": "breaths/records/*.json (deterministic)",
  "nodes": [
   "اتي",
+  "اثم",
   "اجر",
   "اخر",
   "اذن",
@@ -23,6 +24,7 @@
   "حرم",
   "حكم",
   "حلل",
+  "حيث",
   "خبث",
   "خلف",
   "خير",
@@ -33,11 +35,14 @@
   "رضو",
   "زكو",
   "سبل",
+  "سجد",
   "سرر",
   "شفع",
   "شكر",
+  "شهر",
   "شيا",
   "صبر",
+  "صدد",
   "صلو",
   "صوب",
   "طعم",
@@ -49,7 +54,9 @@
   "علن",
   "غفر",
   "غير",
+  "فري",
   "فلح",
+  "قتل",
   "قدر",
   "قرب",
   "قلب",
@@ -80,13 +87,14 @@
   "بسط",
   "طيب",
   "خبث",
-  "حلل"
+  "حلل",
+  "حرم"
  ],
  "open_queue": [
   "اتي",
   "اكل",
   "امن",
-  "حرم",
+  "سجد",
   "شيا",
   "طوع",
   "علم",
@@ -139,6 +147,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 27
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اثم",
+   "b": "حرم",
+   "directions": {
+    "حرم→اثم": {
+     "breath": 13,
+     "lift": 12.547,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -618,6 +642,22 @@
   },
   {
    "a": "بغي",
+   "b": "حرم",
+   "directions": {
+    "حرم→بغي": {
+     "breath": 13,
+     "lift": 7.807,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بغي",
    "b": "نفق",
    "directions": {
     "نفق→بغي": {
@@ -755,10 +795,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 17
+    },
+    "حرم→حلل": {
+     "breath": 13,
+     "lift": 34.724,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حرم",
+   "b": "حيث",
+   "directions": {
+    "حرم→حيث": {
+     "breath": 13,
+     "lift": 15.143,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "حرم",
@@ -771,6 +835,102 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
+   "b": "سجد",
+   "directions": {
+    "حرم→سجد": {
+     "breath": 13,
+     "lift": 16.265,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حرم",
+   "b": "شهر",
+   "directions": {
+    "حرم→شهر": {
+     "breath": 13,
+     "lift": 30.999,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
+   "b": "صدد",
+   "directions": {
+    "حرم→صدد": {
+     "breath": 13,
+     "lift": 12.853,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
+   "b": "طعم",
+   "directions": {
+    "حرم→طعم": {
+     "breath": 13,
+     "lift": 10.711,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
+   "b": "فري",
+   "directions": {
+    "حرم→فري": {
+     "breath": 13,
+     "lift": 8.132,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
+   "b": "قتل",
+   "directions": {
+    "حرم→قتل": {
+     "breath": 13,
+     "lift": 7.919,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
