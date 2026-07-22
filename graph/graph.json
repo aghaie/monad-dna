@@ -11,6 +11,7 @@
   "اله",
   "امر",
   "امن",
+  "اهل",
   "بسط",
   "بطن",
   "بعث",
@@ -19,6 +20,7 @@
   "بني",
   "بيت",
   "ثمر",
+  "جلد",
   "جنح",
   "جنن",
   "جهد",
@@ -29,11 +31,13 @@
   "حلل",
   "حيث",
   "خبث",
+  "خبر",
   "خرج",
   "خلف",
   "خير",
   "دخل",
   "ربب",
+  "ربع",
   "رحم",
   "ردد",
   "رزق",
@@ -51,6 +55,7 @@
   "شرب",
   "شفع",
   "شكر",
+  "شهد",
   "شهر",
   "شيا",
   "صبر",
@@ -62,10 +67,12 @@
   "طيب",
   "ظلم",
   "عبد",
+  "عدل",
   "عرف",
   "علم",
   "علن",
   "غفر",
+  "غيب",
   "غير",
   "فري",
   "فسق",
@@ -80,6 +87,7 @@
   "كتب",
   "كرم",
   "كره",
+  "كفي",
   "كلم",
   "ليل",
   "مول",
@@ -108,18 +116,22 @@
   "حرم",
   "سجد",
   "اكل",
-  "طوع"
+  "طوع",
+  "شهد"
  ],
  "open_queue": [
   "اتي",
   "امن",
   "شيا",
+  "عدل",
   "عرف",
   "علم",
+  "غيب",
   "قدر",
   "قلب",
   "قول",
-  "قوم"
+  "قوم",
+  "كفي"
  ],
  "edges": [
   {
@@ -643,6 +655,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "اهل",
+   "b": "شهد",
+   "directions": {
+    "شهد→اهل": {
+     "breath": 17,
+     "lift": 3.38,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بسط",
    "b": "ربب",
    "directions": {
@@ -885,6 +913,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جلد",
+   "b": "شهد",
+   "directions": {
+    "شهد→جلد": {
+     "breath": 17,
+     "lift": 28.166,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1275,6 +1319,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "خبر",
+   "b": "شهد",
+   "directions": {
+    "شهد→خبر": {
+     "breath": 17,
+     "lift": 4.875,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "خرج",
    "b": "سجد",
    "directions": {
@@ -1349,6 +1409,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ربع",
+   "b": "شهد",
+   "directions": {
+    "شهد→ربع": {
+     "breath": 17,
+     "lift": 12.071,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ردد",
+   "b": "شهد",
+   "directions": {
+    "شهد→ردد": {
+     "breath": 17,
+     "lift": 4.447,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1801,6 +1893,86 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "شهد",
+   "b": "عدل",
+   "directions": {
+    "شهد→عدل": {
+     "breath": 17,
+     "lift": 12.675,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "شهد",
+   "b": "غيب",
+   "directions": {
+    "شهد→غيب": {
+     "breath": 17,
+     "lift": 9.452,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "شهد",
+   "b": "فري",
+   "directions": {
+    "شهد→فري": {
+     "breath": 17,
+     "lift": 4.694,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شهد",
+   "b": "كتب",
+   "directions": {
+    "شهد→كتب": {
+     "breath": 17,
+     "lift": 3.453,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 19
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شهد",
+   "b": "كفي",
+   "directions": {
+    "شهد→كفي": {
+     "breath": 17,
+     "lift": 15.843,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "صبر",

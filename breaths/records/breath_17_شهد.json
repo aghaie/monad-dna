@@ -1,0 +1,565 @@
+{
+ "breath_number": 17,
+ "deliberation": [
+  {
+   "root": "عرف",
+   "attestation": 70
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "شهد",
+   "attestation": 160
+  },
+  {
+   "root": "كبر",
+   "attestation": 161
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "حيي",
+   "attestation": 184
+  },
+  {
+   "root": "خير",
+   "attestation": 196
+  },
+  {
+   "root": "ولي",
+   "attestation": 232
+  },
+  {
+   "root": "عمل",
+   "attestation": 360
+  },
+  {
+   "root": "رسل",
+   "attestation": 513
+  }
+ ],
+ "chosen_by": "رفیق (نشان‌دار؛ فرمانِ باغبان: از ریشه‌های اذان — نادرترِ زیرمجموعه)",
+ "pursued": "شهد",
+ "attestation": 160,
+ "ayat": 123,
+ "top": [
+  {
+   "root": "جلد",
+   "shared": 5,
+   "expected": 0.18,
+   "lift": 28.166,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كفي",
+   "shared": 10,
+   "expected": 0.63,
+   "lift": 15.843,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عدل",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.675,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ربع",
+   "shared": 5,
+   "expected": 0.41,
+   "lift": 12.071,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غيب",
+   "shared": 11,
+   "expected": 1.16,
+   "lift": 9.452,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خبر",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.875,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "فري",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.694,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ردد",
+   "shared": 5,
+   "expected": 1.12,
+   "lift": 4.447,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كتب",
+   "shared": 19,
+   "expected": 5.5,
+   "lift": 3.453,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اهل",
+   "shared": 8,
+   "expected": 2.37,
+   "lift": 3.38,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "جلد",
+  "كفي",
+  "عدل",
+  "ربع",
+  "غيب",
+  "خبر",
+  "فري",
+  "ردد"
+ ],
+ "one_way": [
+  "كتب",
+  "اهل"
+ ],
+ "neighbor_view": {
+  "جلد": {
+   "root": "شهد",
+   "shared": 5,
+   "expected": 0.18,
+   "lift": 28.166,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كفي": {
+   "root": "شهد",
+   "shared": 10,
+   "expected": 0.63,
+   "lift": 15.843,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عدل": {
+   "root": "شهد",
+   "shared": 6,
+   "expected": 0.47,
+   "lift": 12.675,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ربع": {
+   "root": "شهد",
+   "shared": 5,
+   "expected": 0.41,
+   "lift": 12.071,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غيب": {
+   "root": "شهد",
+   "shared": 11,
+   "expected": 1.16,
+   "lift": 9.452,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "خبر": {
+   "root": "شهد",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.875,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "فري": {
+   "root": "شهد",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.694,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ردد": {
+   "root": "شهد",
+   "shared": 5,
+   "expected": 1.12,
+   "lift": 4.447,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كتب": null,
+  "اهل": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "شهد↔فلح",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔صلو",
+   "shared": 3,
+   "expected": 1.78,
+   "lift": 1.69,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "شهد↔زكو",
+   "shared": 1,
+   "expected": 1.1,
+   "lift": 0.91,
+   "p_perm": 0.6744
+  },
+  {
+   "pair": "شهد↔اذن",
+   "shared": 2,
+   "expected": 1.78,
+   "lift": 1.13,
+   "p_perm": 0.5382
+  },
+  {
+   "pair": "شهد↔نفق",
+   "shared": 2,
+   "expected": 1.7,
+   "lift": 1.18,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "شهد↔سرر",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔علن",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔رزق",
+   "shared": 1,
+   "expected": 2.15,
+   "lift": 0.47,
+   "p_perm": 0.897
+  },
+  {
+   "pair": "شهد↔بسط",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔طيب",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔خبث",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔حلل",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔حرم",
+   "shared": 2,
+   "expected": 1.4,
+   "lift": 1.43,
+   "p_perm": 0.4485
+  },
+  {
+   "pair": "شهد↔سجد",
+   "shared": 2,
+   "expected": 1.6,
+   "lift": 1.25,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "شهد↔اكل",
+   "shared": 3,
+   "expected": 1.99,
+   "lift": 1.51,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "شهد↔طوع",
+   "shared": 3,
+   "expected": 2.33,
+   "lift": 1.29,
+   "p_perm": 0.4286
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "شهد↔فلح",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔سرر",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔علن",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔بسط",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔طيب",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔خبث",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شهد↔حلل",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "9:94",
+   "degree": 3,
+   "roots_present": [
+    "غيب",
+    "خبر",
+    "ردد"
+   ]
+  },
+  {
+   "ayah": "2:282",
+   "degree": 2,
+   "roots_present": [
+    "عدل",
+    "كتب"
+   ]
+  },
+  {
+   "ayah": "3:64",
+   "degree": 2,
+   "roots_present": [
+    "كتب",
+    "اهل"
+   ]
+  },
+  {
+   "ayah": "3:70",
+   "degree": 2,
+   "roots_present": [
+    "كتب",
+    "اهل"
+   ]
+  },
+  {
+   "ayah": "3:98",
+   "degree": 2,
+   "roots_present": [
+    "كتب",
+    "اهل"
+   ]
+  },
+  {
+   "ayah": "3:99",
+   "degree": 2,
+   "roots_present": [
+    "كتب",
+    "اهل"
+   ]
+  },
+  {
+   "ayah": "4:135",
+   "degree": 2,
+   "roots_present": [
+    "عدل",
+    "خبر"
+   ]
+  },
+  {
+   "ayah": "4:159",
+   "degree": 2,
+   "roots_present": [
+    "كتب",
+    "اهل"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "شهد+جلد": [
+   "24:2",
+   "24:4",
+   "41:20",
+   "41:21",
+   "41:22"
+  ],
+  "شهد+كفي": [
+   "4:6",
+   "4:79",
+   "4:166",
+   "10:29",
+   "13:43",
+   "17:96",
+   "29:52",
+   "41:53",
+   "46:8",
+   "48:28"
+  ],
+  "شهد+عدل": [
+   "2:282",
+   "4:135",
+   "5:8",
+   "5:106",
+   "6:150",
+   "65:2"
+  ],
+  "شهد+ربع": [
+   "4:15",
+   "24:4",
+   "24:6",
+   "24:8",
+   "24:13"
+  ],
+  "شهد+غيب": [
+   "6:73",
+   "9:94",
+   "9:105",
+   "12:81",
+   "13:9",
+   "23:92",
+   "32:6",
+   "39:46",
+   "59:22",
+   "62:8",
+   "64:18"
+  ],
+  "شهد+خبر": [
+   "4:135",
+   "5:8",
+   "6:73",
+   "9:94",
+   "17:96"
+  ],
+  "شهد+فري": [
+   "6:144",
+   "7:37",
+   "11:18",
+   "28:75",
+   "46:8"
+  ],
+  "شهد+ردد": [
+   "5:108",
+   "9:94",
+   "9:105",
+   "41:47",
+   "62:8"
+  ],
+  "شهد+كتب": [
+   "2:282",
+   "2:283",
+   "3:53",
+   "3:64",
+   "3:70",
+   "3:81",
+   "3:98",
+   "3:99",
+   "4:159",
+   "5:44",
+   "5:83",
+   "7:37",
+   "10:61",
+   "11:17",
+   "13:43",
+   "16:89",
+   "39:69",
+   "43:19",
+   "59:11"
+  ],
+  "شهد+اهل": [
+   "3:64",
+   "3:70",
+   "3:98",
+   "3:99",
+   "4:159",
+   "12:26",
+   "27:49",
+   "59:11"
+  ]
+ }
+}
