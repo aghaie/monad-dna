@@ -211,6 +211,7 @@
   "ضلل",
   "ضيع",
   "طبع",
+  "طعم",
   "طمن",
   "طهر",
   "طوع",
@@ -653,7 +654,8 @@
   "زين",
   "صدر",
   "عجل",
-  "كرم"
+  "كرم",
+  "طعم"
  ],
  "open_queue": [
   "اتي",
@@ -2346,6 +2348,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اكل",
+   "b": "طعم",
+   "directions": {
+    "طعم→اكل": {
+     "breath": 244,
+     "lift": 9.035,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "الم",
@@ -10148,6 +10166,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "حرم",
+   "b": "طعم",
+   "directions": {
+    "طعم→حرم": {
+     "breath": 244,
+     "lift": 10.711,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "حزب",
    "b": "كون",
    "directions": {
@@ -13221,6 +13255,22 @@
   },
   {
    "a": "رزق",
+   "b": "طعم",
+   "directions": {
+    "طعم→رزق": {
+     "breath": 244,
+     "lift": 6.977,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رزق",
    "b": "كرم",
    "directions": {
     "كرم→رزق": {
@@ -14446,6 +14496,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سكن",
+   "b": "طعم",
+   "directions": {
+    "طعم→سكن": {
+     "breath": 244,
+     "lift": 23.045,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
    "mutual_strong": false,
@@ -16410,6 +16476,86 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "طعم",
+   "b": "غير",
+   "directions": {
+    "طعم→غير": {
+     "breath": 244,
+     "lift": 6.251,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "طعم",
+   "b": "قبل",
+   "directions": {
+    "طعم→قبل": {
+     "breath": 244,
+     "lift": 3.236,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طعم",
+   "b": "كفر",
+   "directions": {
+    "طعم→كفر": {
+     "breath": 244,
+     "lift": 2.29,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طعم",
+   "b": "نظر",
+   "directions": {
+    "طعم→نظر": {
+     "breath": 244,
+     "lift": 6.613,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طعم",
+   "b": "يوم",
+   "directions": {
+    "طعم→يوم": {
+     "breath": 244,
+     "lift": 3.228,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "طمن",
