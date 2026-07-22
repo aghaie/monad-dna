@@ -2,6 +2,7 @@
  "generated_from": "breaths/records/*.json (deterministic)",
  "nodes": [
   "اتي",
+  "اجر",
   "اخر",
   "اذن",
   "الم",
@@ -9,17 +10,22 @@
   "امر",
   "امن",
   "بعث",
+  "بغي",
   "بيت",
+  "حبب",
   "خلف",
   "خير",
   "رزق",
   "رسل",
   "رضو",
   "زكو",
+  "سبل",
+  "سرر",
   "شفع",
   "صبر",
   "صلو",
   "صوب",
+  "طوع",
   "ظلم",
   "فلح",
   "قرب",
@@ -28,6 +34,7 @@
   "كبر",
   "كتب",
   "كلم",
+  "مول",
   "نفق",
   "نهي",
   "وجد",
@@ -39,14 +46,17 @@
   "فلح",
   "صلو",
   "زكو",
-  "اذن"
+  "اذن",
+  "نفق"
  ],
  "open_queue": [
   "اتي",
   "امن",
+  "رزق",
+  "سرر",
+  "طوع",
   "قلب",
-  "قوم",
-  "نفق"
+  "قوم"
  ],
  "edges": [
   {
@@ -76,6 +86,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 27
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجر",
+   "b": "نفق",
+   "directions": {
+    "نفق→اجر": {
+     "breath": 5,
+     "lift": 4.395,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -322,6 +348,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بغي",
+   "b": "نفق",
+   "directions": {
+    "نفق→بغي": {
+     "breath": 5,
+     "lift": 4.028,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بيت",
    "b": "صلو",
    "directions": {
@@ -329,6 +371,22 @@
      "breath": 2,
      "lift": 6.416,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حبب",
+   "b": "نفق",
+   "directions": {
+    "نفق→حبب": {
+     "breath": 5,
+     "lift": 4.265,
+     "p": 0.01,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -384,6 +442,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "رزق",
+   "b": "نفق",
+   "directions": {
+    "نفق→رزق": {
+     "breath": 5,
+     "lift": 10.644,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "رسل",
@@ -474,6 +548,38 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "سبل",
+   "b": "نفق",
+   "directions": {
+    "نفق→سبل": {
+     "breath": 5,
+     "lift": 6.19,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سرر",
+   "b": "نفق",
+   "directions": {
+    "نفق→سرر": {
+     "breath": 5,
+     "lift": 10.118,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "صبر",
    "b": "صلو",
    "directions": {
@@ -532,9 +638,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "نفق→صلو": {
+     "breath": 5,
+     "lift": 8.057,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -570,6 +684,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "طوع",
+   "b": "نفق",
+   "directions": {
+    "نفق→طوع": {
+     "breath": 5,
+     "lift": 5.531,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "ظلم",
    "b": "فلح",
    "directions": {
@@ -596,6 +726,38 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قلب",
+   "b": "نفق",
+   "directions": {
+    "نفق→قلب": {
+     "breath": 5,
+     "lift": 4.21,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "مول",
+   "b": "نفق",
+   "directions": {
+    "نفق→مول": {
+     "breath": 5,
+     "lift": 8.158,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
     }
    },
    "mutual_strong": false,
