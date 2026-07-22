@@ -1,0 +1,3815 @@
+{
+ "breath_number": 275,
+ "deliberation": [
+  {
+   "root": "زكو",
+   "attestation": 59
+  },
+  {
+   "root": "نسو",
+   "attestation": 59
+  },
+  {
+   "root": "ظهر",
+   "attestation": 59
+  },
+  {
+   "root": "ردد",
+   "attestation": 59
+  },
+  {
+   "root": "فري",
+   "attestation": 60
+  },
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "فتن",
+   "attestation": 60
+  },
+  {
+   "root": "زيد",
+   "attestation": 61
+  },
+  {
+   "root": "عود",
+   "attestation": 63
+  },
+  {
+   "root": "موه",
+   "attestation": 63
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "زكو",
+ "attestation": 59,
+ "ayat": 56,
+ "top": [
+  {
+   "root": "صلو",
+   "shared": 28,
+   "expected": 0.81,
+   "lift": 34.644,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بعث",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.7,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اتي",
+   "shared": 29,
+   "expected": 4.36,
+   "lift": 6.645,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قرب",
+   "shared": 5,
+   "expected": 0.82,
+   "lift": 6.119,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخر",
+   "shared": 12,
+   "expected": 2.17,
+   "lift": 5.522,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قوم",
+   "shared": 27,
+   "expected": 5.36,
+   "lift": 5.036,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كتب",
+   "shared": 8,
+   "expected": 2.51,
+   "lift": 3.193,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خير",
+   "shared": 5,
+   "expected": 1.6,
+   "lift": 3.128,
+   "p_perm": 0.0266,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رسل",
+   "shared": 12,
+   "expected": 3.85,
+   "lift": 3.115,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امر",
+   "shared": 6,
+   "expected": 2.03,
+   "lift": 2.956,
+   "p_perm": 0.0166,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "صلو",
+  "بعث",
+  "اتي",
+  "قرب",
+  "اخر",
+  "قوم"
+ ],
+ "one_way": [
+  "كتب",
+  "خير",
+  "رسل",
+  "امر"
+ ],
+ "neighbor_view": {
+  "صلو": {
+   "root": "زكو",
+   "shared": 28,
+   "expected": 0.81,
+   "lift": 34.644,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "بعث": {
+   "root": "زكو",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.7,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اتي": {
+   "root": "زكو",
+   "shared": 29,
+   "expected": 4.36,
+   "lift": 6.645,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "قرب": {
+   "root": "زكو",
+   "shared": 5,
+   "expected": 0.82,
+   "lift": 6.119,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخر": {
+   "root": "زكو",
+   "shared": 12,
+   "expected": 2.17,
+   "lift": 5.522,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قوم": {
+   "root": "زكو",
+   "shared": 27,
+   "expected": 5.36,
+   "lift": 5.036,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كتب": null,
+  "خير": null,
+  "رسل": null,
+  "امر": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "زكو↔اله",
+   "shared": 28,
+   "expected": 16.87,
+   "lift": 1.66,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "زكو↔رحم",
+   "shared": 7,
+   "expected": 2.81,
+   "lift": 2.49,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "زكو↔راف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هجر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نصر",
+   "shared": 1,
+   "expected": 1.23,
+   "lift": 0.81,
+   "p_perm": 0.7043
+  },
+  {
+   "pair": "زكو↔اوي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صير",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.84,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "زكو↔باس",
+   "shared": 1,
+   "expected": 0.6,
+   "lift": 1.66,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "زكو↔غفر",
+   "shared": 3,
+   "expected": 1.81,
+   "lift": 1.65,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "زكو↔حلم",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عفو",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ذنب",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سوا",
+   "shared": 1,
+   "expected": 1.36,
+   "lift": 0.74,
+   "p_perm": 0.7342
+  },
+  {
+   "pair": "زكو↔بدو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خفي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دون",
+   "shared": 0,
+   "expected": 1.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نفع",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ضرر",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.59,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "زكو↔كشف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مسس",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ذوق",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔الم",
+   "shared": 2,
+   "expected": 0.66,
+   "lift": 3.05,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "زكو↔انس",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عشر",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.28,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "زكو↔عرض",
+   "shared": 1,
+   "expected": 0.65,
+   "lift": 1.55,
+   "p_perm": 0.505
+  },
+  {
+   "pair": "زكو↔بغي",
+   "shared": 1,
+   "expected": 0.81,
+   "lift": 1.24,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "زكو↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سبل",
+   "shared": 4,
+   "expected": 1.47,
+   "lift": 2.72,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "زكو↔يتم",
+   "shared": 2,
+   "expected": 0.2,
+   "lift": 10.12,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "زكو↔شري",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.68,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "زكو↔لحم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثمن",
+   "shared": 2,
+   "expected": 0.17,
+   "lift": 11.72,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "زكو↔فلك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وسع",
+   "shared": 2,
+   "expected": 0.26,
+   "lift": 7.68,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "زكو↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جهد",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.09,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "زكو↔قسم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صدد",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بحر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔برر",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.71,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "زكو↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نقض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔رجس",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.37,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "زكو↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ايد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سفه",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عصو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طين",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جحد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خطب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بغت",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طمن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خزن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فدي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قرض",
+   "shared": 2,
+   "expected": 0.06,
+   "lift": 31.82,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "زكو↔حلف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عصم",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.28,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "زكو↔حور",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فوه",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔رجم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وصف",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بدا",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كفف",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.95,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "زكو↔حرج",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.12,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "زكو↔علن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كيل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔لبب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حبط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شرق",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.55,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "زكو↔عوذ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مدن",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.55,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "زكو↔ربص",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بوا",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دبب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مكن",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.96,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "زكو↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ملل",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.96,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "زكو↔حنف",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 9.28,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "زكو↔فرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔غرب",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.55,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "زكو↔صور",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نخل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔زرع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فطر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مري",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فقه",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سوي",
+   "shared": 1,
+   "expected": 0.72,
+   "lift": 1.39,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "زكو↔حزب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بقي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كتم",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.57,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "زكو↔هود",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.3,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "زكو↔شهر",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.55,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "زكو↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حذر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ربع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عرب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ترب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔تمم",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فرح",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سرع",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سرف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثمر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مرض",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.84,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "زكو↔فحش",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.68,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "زكو↔اذي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جهل",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.64,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "زكو↔غضب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عمر",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.86,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "زكو↔سقي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بسط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صلي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وعظ",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.64,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "زكو↔حدد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وزن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حضر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وهب",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.06,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "زكو↔حول",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خزي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هون",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نبت",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عجز",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قمر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بوب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عجب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔غرر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مسك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔منن",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.45,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "زكو↔ابد",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "زكو↔خلو",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "زكو↔عدل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شقق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثوب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حوط",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثقل",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.28,
+   "p_perm": 0.1993
+  },
+  {
+   "pair": "زكو↔يقن",
+   "shared": 2,
+   "expected": 0.25,
+   "lift": 7.95,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "زكو↔رجو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فوز",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔رفع",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثني",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.64,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "زكو↔طير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ودد",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جدل",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔افك",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔انث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صرف",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قصص",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عسي",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "زكو↔خلص",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.71,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "زكو↔برا",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شرر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔لبث",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.12,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "زكو↔قعد",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.28,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "زكو↔غلب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طهر",
+   "shared": 3,
+   "expected": 0.23,
+   "lift": 12.85,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "زكو↔ثلث",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "زكو↔وري",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عصي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔برك",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.48,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "زكو↔نصب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شمس",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كفي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عرش",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عمي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حجج",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جنب",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.59,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "زكو↔هزا",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وثق",
+   "shared": 2,
+   "expected": 0.26,
+   "lift": 7.68,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "زكو↔حين",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.37,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "زكو↔مرر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ورث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔غفل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ريب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔اني",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قرن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قطع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بطل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حدث",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نكر",
+   "shared": 4,
+   "expected": 0.33,
+   "lift": 12.04,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "زكو↔سبق",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فتح",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هوي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قرر",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.01,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "زكو↔ذرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شرب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سلط",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ملا",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شعر",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.78,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "زكو↔فلح",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.57,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "زكو↔كره",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جبل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طوف",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.18,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "زكو↔لعن",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سخر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قوي",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حزن",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.65,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "زكو↔فوق",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جوب",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فصل",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.65,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "زكو↔حشر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مكر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سرر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دبر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بدل",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.78,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "زكو↔حفظ",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.65,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "زكو↔صرط",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نسي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وذر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عهد",
+   "shared": 2,
+   "expected": 0.32,
+   "lift": 6.19,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "زكو↔زين",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صدر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عجل",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كرم",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طعم",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.72,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "زكو↔اثم",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.65,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "زكو↔قدم",
+   "shared": 3,
+   "expected": 0.43,
+   "lift": 6.96,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "زكو↔سوع",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عقل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طيب",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فرج",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.37,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "زكو↔ثبت",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فسد",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔تحت",
+   "shared": 2,
+   "expected": 0.45,
+   "lift": 4.45,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "زكو↔حلل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جنح",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خبر",
+   "shared": 2,
+   "expected": 0.47,
+   "lift": 4.28,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "زكو↔لطف",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 13.92,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "زكو↔ندو",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دور",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صبح",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔اجل",
+   "shared": 2,
+   "expected": 0.43,
+   "lift": 4.64,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "زكو↔نهي",
+   "shared": 2,
+   "expected": 0.48,
+   "lift": 4.12,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "زكو↔ذهب",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 1.99,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "زكو↔روح",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قري",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عدد",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حصي",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.12,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "زكو↔سنو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔الف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ضرب",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.06,
+   "p_perm": 0.3588
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "زكو↔راف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هجر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔اوي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حلم",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عفو",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ذنب",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بدو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خفي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دون",
+   "shared": 0,
+   "expected": 1.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نفع",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كشف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مسس",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ذوق",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔انس",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔لحم",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فلك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قسم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صدد",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بحر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نقض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ايد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سفه",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عصو",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طين",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جحد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خطب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بغت",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طمن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خزن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فدي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حلف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حور",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فوه",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔رجم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وصف",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بدا",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔علن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كيل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔لبب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حبط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عوذ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ربص",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بوا",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دبب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صور",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نخل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔زرع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فطر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مري",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فقه",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حزب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بقي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حذر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ربع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عرب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ترب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔تمم",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فرح",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سرع",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سرف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثمر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔اذي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔غضب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سقي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بسط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صلي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حدد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وزن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حضر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حول",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔خزي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هون",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نبت",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عجز",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قمر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بوب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عجب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔غرر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مسك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عدل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شقق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثوب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حوط",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔رجو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فوز",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔رفع",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ودد",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جدل",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔افك",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔انث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صرف",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قصص",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔برا",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شرر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔غلب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وري",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عصي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نصب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شمس",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كفي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عرش",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عمي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حجج",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هزا",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مرر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ورث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔غفل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ريب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔اني",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قرن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قطع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔بطل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حدث",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سبق",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فتح",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔هوي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ذرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شرب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سلط",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ملا",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كره",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جبل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔لعن",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سخر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قوي",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فوق",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جوب",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حشر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔مكر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سرر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دبر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صرط",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔نسي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔وذر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔زين",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صدر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عجل",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔كرم",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سوع",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عقل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔طيب",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ثبت",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔فسد",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔حلل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جنح",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ندو",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔دور",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔صبح",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔روح",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔قري",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔عدد",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔سنو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "زكو↔الف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "4:77",
+   "degree": 7,
+   "roots_present": [
+    "صلو",
+    "اتي",
+    "قرب",
+    "اخر",
+    "قوم",
+    "كتب",
+    "خير"
+   ]
+  },
+  {
+   "ayah": "2:177",
+   "degree": 6,
+   "roots_present": [
+    "صلو",
+    "اتي",
+    "قرب",
+    "اخر",
+    "قوم",
+    "كتب"
+   ]
+  },
+  {
+   "ayah": "5:12",
+   "degree": 5,
+   "roots_present": [
+    "صلو",
+    "بعث",
+    "اتي",
+    "قوم",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "9:71",
+   "degree": 5,
+   "roots_present": [
+    "صلو",
+    "اتي",
+    "قوم",
+    "رسل",
+    "امر"
+   ]
+  },
+  {
+   "ayah": "21:73",
+   "degree": 5,
+   "roots_present": [
+    "صلو",
+    "اتي",
+    "قوم",
+    "خير",
+    "امر"
+   ]
+  },
+  {
+   "ayah": "73:20",
+   "degree": 5,
+   "roots_present": [
+    "صلو",
+    "اتي",
+    "اخر",
+    "قوم",
+    "خير"
+   ]
+  },
+  {
+   "ayah": "2:83",
+   "degree": 4,
+   "roots_present": [
+    "صلو",
+    "اتي",
+    "قرب",
+    "قوم"
+   ]
+  },
+  {
+   "ayah": "2:110",
+   "degree": 4,
+   "roots_present": [
+    "صلو",
+    "اتي",
+    "قوم",
+    "خير"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "زكو+صلو": [
+   "2:43",
+   "2:83",
+   "2:110",
+   "2:177",
+   "2:277",
+   "4:77",
+   "4:162",
+   "5:12",
+   "5:55",
+   "9:5",
+   "9:11",
+   "9:18",
+   "9:71",
+   "9:103",
+   "19:31",
+   "19:55",
+   "21:73",
+   "22:41",
+   "22:78",
+   "24:37"
+  ],
+  "زكو+بعث": [
+   "2:129",
+   "3:164",
+   "5:12",
+   "18:19",
+   "62:2"
+  ],
+  "زكو+اتي": [
+   "2:43",
+   "2:83",
+   "2:110",
+   "2:177",
+   "2:277",
+   "4:77",
+   "4:162",
+   "5:12",
+   "5:55",
+   "7:156",
+   "9:5",
+   "9:11",
+   "9:18",
+   "9:71",
+   "18:19",
+   "21:73",
+   "22:41",
+   "22:78",
+   "24:37",
+   "24:56"
+  ],
+  "زكو+قرب": [
+   "2:83",
+   "2:177",
+   "4:77",
+   "18:81",
+   "35:18"
+  ],
+  "زكو+اخر": [
+   "2:177",
+   "2:232",
+   "3:77",
+   "4:77",
+   "4:162",
+   "7:156",
+   "9:18",
+   "27:3",
+   "31:4",
+   "35:18",
+   "41:7",
+   "73:20"
+  ],
+  "زكو+قوم": [
+   "2:43",
+   "2:83",
+   "2:110",
+   "2:174",
+   "2:177",
+   "2:277",
+   "3:77",
+   "4:77",
+   "4:162",
+   "5:12",
+   "5:55",
+   "9:5",
+   "9:11",
+   "9:18",
+   "9:71",
+   "21:73",
+   "22:41",
+   "22:78",
+   "24:37",
+   "24:56"
+  ],
+  "زكو+كتب": [
+   "2:129",
+   "2:151",
+   "2:174",
+   "2:177",
+   "3:164",
+   "4:77",
+   "7:156",
+   "62:2"
+  ],
+  "زكو+خير": [
+   "2:110",
+   "4:77",
+   "18:81",
+   "21:73",
+   "73:20"
+  ],
+  "زكو+رسل": [
+   "2:129",
+   "2:151",
+   "3:164",
+   "5:12",
+   "5:55",
+   "9:71",
+   "19:19",
+   "22:78",
+   "24:56",
+   "33:33",
+   "58:13",
+   "62:2"
+  ],
+  "زكو+امر": [
+   "9:71",
+   "19:55",
+   "21:73",
+   "22:41",
+   "24:21",
+   "98:5"
+  ],
+  "زكو+اله": [
+   "2:83",
+   "2:110",
+   "2:174",
+   "2:177",
+   "2:232",
+   "3:77",
+   "3:164",
+   "4:49",
+   "4:77",
+   "4:162",
+   "5:12",
+   "5:55",
+   "9:5",
+   "9:18",
+   "9:71",
+   "9:103",
+   "22:41",
+   "22:78",
+   "24:21",
+   "24:28"
+  ],
+  "زكو+رحم": [
+   "7:156",
+   "9:5",
+   "9:71",
+   "18:81",
+   "24:21",
+   "24:56",
+   "73:20"
+  ],
+  "زكو+يتم": [
+   "2:83",
+   "2:177"
+  ],
+  "زكو+شري": [
+   "2:174",
+   "3:77"
+  ],
+  "زكو+ثمن": [
+   "2:174",
+   "3:77"
+  ],
+  "زكو+وسع": [
+   "7:156",
+   "53:32"
+  ],
+  "زكو+قرض": [
+   "5:12",
+   "73:20"
+  ],
+  "زكو+فحش": [
+   "24:21",
+   "53:32"
+  ],
+  "زكو+يقن": [
+   "27:3",
+   "31:4"
+  ],
+  "زكو+طهر": [
+   "2:232",
+   "9:103",
+   "33:33"
+  ],
+  "زكو+وثق": [
+   "2:83",
+   "5:12"
+  ],
+  "زكو+نكر": [
+   "9:71",
+   "18:74",
+   "22:41",
+   "24:21"
+  ],
+  "زكو+قدم": [
+   "2:110",
+   "58:13",
+   "73:20"
+  ]
+ }
+}
