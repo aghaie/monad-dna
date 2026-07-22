@@ -224,6 +224,7 @@
   "عتد",
   "عجب",
   "عجز",
+  "عجل",
   "عدل",
   "عدو",
   "عذب",
@@ -649,7 +650,8 @@
   "وذر",
   "عهد",
   "زين",
-  "صدر"
+  "صدر",
+  "عجل"
  ],
  "open_queue": [
   "اتي",
@@ -1454,6 +1456,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "عجل",
+   "directions": {
+    "عجل→اخذ": {
+     "breath": 242,
+     "lift": 5.808,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اخذ",
@@ -6929,6 +6947,22 @@
   },
   {
    "a": "بعد",
+   "b": "عجل",
+   "directions": {
+    "عجل→بعد": {
+     "breath": 242,
+     "lift": 3.865,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
    "b": "عفو",
    "directions": {
     "عفو→بعد": {
@@ -9729,6 +9763,22 @@
   },
   {
    "a": "جيا",
+   "b": "عجل",
+   "directions": {
+    "عجل→جيا": {
+     "breath": 242,
+     "lift": 2.705,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جيا",
    "b": "فتح",
    "directions": {
     "فتح→جيا": {
@@ -12399,6 +12449,22 @@
      "breath": 171,
      "lift": 5.249,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "راي",
+   "b": "عجل",
+   "directions": {
+    "عجل→راي": {
+     "breath": 242,
+     "lift": 2.863,
+     "p": 0.0233,
      "stable": false,
      "tier": "محتمل",
      "shared": 6
@@ -16489,6 +16555,22 @@
   },
   {
    "a": "ظلم",
+   "b": "عجل",
+   "directions": {
+    "عجل→ظلم": {
+     "breath": 242,
+     "lift": 4.398,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ظلم",
    "b": "فلح",
    "directions": {
     "فلح→ظلم": {
@@ -16639,6 +16721,70 @@
      "breath": 151,
      "lift": 6.174,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عجل",
+   "b": "عذب",
+   "directions": {
+    "عجل→عذب": {
+     "breath": 242,
+     "lift": 3.374,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "عجل",
+   "b": "قبل",
+   "directions": {
+    "عجل→قبل": {
+     "breath": 242,
+     "lift": 2.513,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عجل",
+   "b": "وعد",
+   "directions": {
+    "عجل→وعد": {
+     "breath": 242,
+     "lift": 5.451,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عجل",
+   "b": "يوم",
+   "directions": {
+    "عجل→يوم": {
+     "breath": 242,
+     "lift": 1.88,
+     "p": 0.0465,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
