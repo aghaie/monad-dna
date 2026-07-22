@@ -178,6 +178,7 @@
   "سبل",
   "ستت",
   "سجد",
+  "سحر",
   "سخر",
   "سرر",
   "سرع",
@@ -739,7 +740,8 @@
   "موه",
   "حمد",
   "قضي",
-  "تلو"
+  "تلو",
+  "سحر"
  ],
  "open_queue": [
   "اتي",
@@ -1195,6 +1197,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
+   "b": "سحر",
+   "directions": {
+    "سحر→اتي": {
+     "breath": 292,
+     "lift": 2.392,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
@@ -6626,6 +6644,22 @@
   },
   {
    "a": "ايي",
+   "b": "سحر",
+   "directions": {
+    "سحر→ايي": {
+     "breath": 292,
+     "lift": 2.096,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايي",
    "b": "سلط",
    "directions": {
     "سلط→ايي": {
@@ -9047,6 +9081,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "بين",
+   "b": "سحر",
+   "directions": {
+    "سحر→بين": {
+     "breath": 292,
+     "lift": 3.259,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "بين",
@@ -11874,6 +11924,22 @@
   },
   {
    "a": "جيا",
+   "b": "سحر",
+   "directions": {
+    "سحر→جيا": {
+     "breath": 292,
+     "lift": 7.261,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جيا",
    "b": "سوع",
    "directions": {
     "سوع→جيا": {
@@ -12783,6 +12849,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "حقق",
+   "b": "سحر",
+   "directions": {
+    "سحر→حقق": {
+     "breath": 292,
+     "lift": 2.411,
+     "p": 0.0465,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "حقق",
@@ -16250,6 +16332,22 @@
   },
   {
    "a": "رجل",
+   "b": "سحر",
+   "directions": {
+    "سحر→رجل": {
+     "breath": 292,
+     "lift": 9.609,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجل",
    "b": "ضرب",
    "directions": {
     "ضرب→رجل": {
@@ -17983,6 +18081,54 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "سحر",
+   "b": "قول",
+   "directions": {
+    "سحر→قول": {
+     "breath": 292,
+     "lift": 3.363,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 44
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سحر",
+   "b": "كفر",
+   "directions": {
+    "سحر→كفر": {
+     "breath": 292,
+     "lift": 2.273,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سحر",
+   "b": "لقي",
+   "directions": {
+    "سحر→لقي": {
+     "breath": 292,
+     "lift": 7.046,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "سخر",
