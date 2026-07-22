@@ -668,7 +668,8 @@
   "عقل",
   "طيب",
   "شرح",
-  "فرج"
+  "فرج",
+  "ثبت"
  ],
  "open_queue": [
   "اتي",
@@ -687,7 +688,6 @@
   "بعض",
   "بني",
   "بين",
-  "ثبت",
   "جري",
   "جعل",
   "جنن",
@@ -2867,6 +2867,22 @@
   },
   {
    "a": "اله",
+   "b": "ثبت",
+   "directions": {
+    "ثبت→اله": {
+     "breath": 252,
+     "lift": 1.562,
+     "p": 0.0498,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "ثمن",
    "directions": {
     "ثمن→اله": {
@@ -4505,6 +4521,22 @@
      "breath": 117,
      "lift": 2.875,
      "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "ثبت",
+   "directions": {
+    "ثبت→امن": {
+     "breath": 252,
+     "lift": 3.552,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 7
@@ -8561,6 +8593,30 @@
      "breath": 246,
      "lift": 38.211,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "ثبت→قدم": {
+     "breath": 252,
+     "lift": 38.211,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثبت",
+   "b": "كفر",
+   "directions": {
+    "ثبت→كفر": {
+     "breath": 252,
+     "lift": 3.944,
+     "p": 0.0066,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
