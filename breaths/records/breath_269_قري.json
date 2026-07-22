@@ -1,0 +1,3798 @@
+{
+ "breath_number": 269,
+ "deliberation": [
+  {
+   "root": "قري",
+   "attestation": 57
+  },
+  {
+   "root": "عدد",
+   "attestation": 57
+  },
+  {
+   "root": "ضرب",
+   "attestation": 58
+  },
+  {
+   "root": "زكو",
+   "attestation": 59
+  },
+  {
+   "root": "نسو",
+   "attestation": 59
+  },
+  {
+   "root": "ظهر",
+   "attestation": 59
+  },
+  {
+   "root": "ردد",
+   "attestation": 59
+  },
+  {
+   "root": "فري",
+   "attestation": 60
+  },
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "فتن",
+   "attestation": 60
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "قري",
+ "attestation": 57,
+ "ayat": 54,
+ "top": [
+  {
+   "root": "هلك",
+   "shared": 16,
+   "expected": 0.55,
+   "lift": 29.329,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اهل",
+   "shared": 14,
+   "expected": 1.04,
+   "lift": 13.473,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "باس",
+   "shared": 5,
+   "expected": 0.58,
+   "lift": 8.618,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شدد",
+   "shared": 6,
+   "expected": 0.86,
+   "lift": 6.999,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نذر",
+   "shared": 6,
+   "expected": 1.0,
+   "lift": 6.025,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ظلم",
+   "shared": 10,
+   "expected": 2.51,
+   "lift": 3.982,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خرج",
+   "shared": 5,
+   "expected": 1.36,
+   "lift": 3.678,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخذ",
+   "shared": 6,
+   "expected": 2.11,
+   "lift": 2.84,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رسل",
+   "shared": 10,
+   "expected": 3.71,
+   "lift": 2.692,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قبل",
+   "shared": 6,
+   "expected": 2.44,
+   "lift": 2.457,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "هلك",
+  "اهل",
+  "باس",
+  "شدد",
+  "نذر",
+  "ظلم"
+ ],
+ "one_way": [
+  "خرج",
+  "اخذ",
+  "رسل",
+  "قبل"
+ ],
+ "neighbor_view": {
+  "هلك": {
+   "root": "قري",
+   "shared": 16,
+   "expected": 0.55,
+   "lift": 29.329,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "اهل": {
+   "root": "قري",
+   "shared": 14,
+   "expected": 1.04,
+   "lift": 13.473,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "باس": {
+   "root": "قري",
+   "shared": 5,
+   "expected": 0.58,
+   "lift": 8.618,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شدد": {
+   "root": "قري",
+   "shared": 6,
+   "expected": 0.86,
+   "lift": 6.999,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نذر": {
+   "root": "قري",
+   "shared": 6,
+   "expected": 1.0,
+   "lift": 6.025,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ظلم": {
+   "root": "قري",
+   "shared": 10,
+   "expected": 2.51,
+   "lift": 3.982,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خرج": null,
+  "اخذ": null,
+  "رسل": null,
+  "قبل": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "قري↔اله",
+   "shared": 5,
+   "expected": 16.27,
+   "lift": 0.31,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔رحم",
+   "shared": 0,
+   "expected": 2.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔راف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هجر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نصر",
+   "shared": 2,
+   "expected": 1.19,
+   "lift": 1.69,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "قري↔اوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صير",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "قري↔باس",
+   "shared": 5,
+   "expected": 0.58,
+   "lift": 8.62,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قري↔غفر",
+   "shared": 2,
+   "expected": 1.75,
+   "lift": 1.14,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "قري↔حلم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عفو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ذنب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سوا",
+   "shared": 2,
+   "expected": 1.31,
+   "lift": 1.53,
+   "p_perm": 0.3455
+  },
+  {
+   "pair": "قري↔بدو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خفي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔دون",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نفع",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.36,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "قري↔ضرر",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.65,
+   "p_perm": 0.485
+  },
+  {
+   "pair": "قري↔كشف",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.77,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "قري↔مسس",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ذوق",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.89,
+   "p_perm": 0.3953
+  },
+  {
+   "pair": "قري↔الم",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.58,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "قري↔انس",
+   "shared": 2,
+   "expected": 0.81,
+   "lift": 2.48,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "قري↔عشر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عرض",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بغي",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سبل",
+   "shared": 2,
+   "expected": 1.42,
+   "lift": 1.41,
+   "p_perm": 0.3953
+  },
+  {
+   "pair": "قري↔يتم",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.25,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "قري↔شري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لحم",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.62,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "قري↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثمن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فلك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وسع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قسم",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صدد",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بحر",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "قري↔برر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نقض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طبع",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.5,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "قري↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ايد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سفه",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عصو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جحد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خطب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بغت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طمن",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.62,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "قري↔خزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فدي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قرض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عصم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حور",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فوه",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فقر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔رجم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثوي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وصف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بدا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صمم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كفف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حرج",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔علن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خبث",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 11.55,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "قري↔كيل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لبب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سطر",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.22,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "قري↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حبط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شرق",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عوذ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مدن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ربص",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بوا",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔دبب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مكن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ملل",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.22,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "قري↔حنف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔غرب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صور",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نخل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔زرع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فطر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فقه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سوي",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حزب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كتم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هود",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شهر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حذر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ربع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عرب",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.25,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "قري↔ترب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔تمم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فرح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سرع",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سرف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مرض",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فحش",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔اذي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جهل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔غضب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سقي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صلي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وعظ",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حدد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قسط",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وزن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حضر",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.62,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "قري↔وهب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حول",
+   "shared": 3,
+   "expected": 0.22,
+   "lift": 13.86,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قري↔خزي",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.81,
+   "p_perm": 0.1993
+  },
+  {
+   "pair": "قري↔هون",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نبت",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عجز",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قمر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بوب",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.62,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "قري↔سير",
+   "shared": 2,
+   "expected": 0.22,
+   "lift": 9.24,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "قري↔عجب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔غرر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مسك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔منن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ابد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خلو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عدل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شقق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حوط",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثقل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔يقن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔رجو",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.28,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "قري↔فوز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔رفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثني",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طير",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ودد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔افك",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔انث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صرف",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "قري↔قصص",
+   "shared": 2,
+   "expected": 0.22,
+   "lift": 9.24,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "قري↔عسي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خلص",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔برا",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لبث",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.28,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "قري↔قعد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔غلب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طهر",
+   "shared": 2,
+   "expected": 0.23,
+   "lift": 8.88,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "قري↔ثلث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وري",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.73,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "قري↔عصي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔برك",
+   "shared": 3,
+   "expected": 0.28,
+   "lift": 10.83,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "قري↔نصب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شمس",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كفي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عرش",
+   "shared": 2,
+   "expected": 0.28,
+   "lift": 7.22,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "قري↔عمي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حجج",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جنب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هزا",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وثق",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حين",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.5,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "قري↔مرر",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.61,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "قري↔ورث",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.4,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "قري↔غفل",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "قري↔ريب",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "قري↔اني",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.21,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "قري↔قرن",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قطع",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بطل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حدث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نكر",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.12,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "قري↔سبق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فتح",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.5,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "قري↔هوي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ذرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شرب",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.4,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "قري↔سلط",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ملا",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "قري↔شعر",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "قري↔فلح",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كره",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "قري↔جبل",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طوف",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لعن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سخر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قوي",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.96,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "قري↔حزن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فوق",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جوب",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.63,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "قري↔فصل",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حشر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مكر",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.02,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "قري↔سرر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔دبر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بدل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حفظ",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.75,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "قري↔صرط",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نسي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وذر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔زين",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صدر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عجل",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كرم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طعم",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.63,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "قري↔اثم",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قدم",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سوع",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عقل",
+   "shared": 2,
+   "expected": 0.42,
+   "lift": 4.71,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "قري↔طيب",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فرج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثبت",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فسد",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.46,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "قري↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔تحت",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حلل",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جنح",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خبر",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ندو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔دور",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.18,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "قري↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صبح",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔اجل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نهي",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.14,
+   "p_perm": 0.4153
+  },
+  {
+   "pair": "قري↔ذهب",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔روح",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "قري↔رحم",
+   "shared": 0,
+   "expected": 2.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔راف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هجر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔اوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حلم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عفو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ذنب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بدو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خفي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔دون",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مسس",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عشر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عرض",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بغي",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثمن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فلك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وسع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قسم",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صدد",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔برر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نقض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حرق",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ايد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سفه",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عصو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جحد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خطب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بغت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فدي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قرض",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عصم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حور",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فوه",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فقر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔رجم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثوي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وصف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بدا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صمم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كفف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حرج",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔علن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كيل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لبب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حبط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جهر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شرق",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عوذ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مدن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ربص",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بوا",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔دبب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مكن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حنف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔غرب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صور",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نخل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔زرع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فطر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فقه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سوي",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حزب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كتم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هود",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شهر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حذر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ربع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ترب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔تمم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فرح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سرع",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سرف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مرض",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فحش",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔اذي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جهل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔غضب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سقي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صلي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وعظ",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حدد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قسط",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وزن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وهب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هون",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نبت",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عجز",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قمر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عجب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔غرر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔مسك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔منن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ابد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خلو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عدل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شقق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حوط",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثقل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔يقن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فوز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔رفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثني",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طير",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ودد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔افك",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔انث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عسي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خلص",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔برا",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قعد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔غلب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثلث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عصي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نصب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شمس",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كفي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عمي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حجج",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جنب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هزا",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وثق",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قرن",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قطع",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بطل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حدث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سبق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔هوي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ذرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سلط",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فلح",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جبل",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طوف",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لعن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سخر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حزن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فوق",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فصل",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حشر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سرر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔دبر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔بدل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صرط",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔نسي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔وذر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔زين",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صدر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عجل",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔كرم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔اثم",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔قدم",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔سوع",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔طيب",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔فرج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ثبت",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔عثو",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔تحت",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔حلل",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جنح",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔خبر",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ندو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔صبح",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔اجل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔ذهب",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قري↔روح",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "7:94",
+   "degree": 4,
+   "roots_present": [
+    "اهل",
+    "باس",
+    "اخذ",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "28:59",
+   "degree": 4,
+   "roots_present": [
+    "هلك",
+    "اهل",
+    "ظلم",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "29:31",
+   "degree": 4,
+   "roots_present": [
+    "هلك",
+    "اهل",
+    "ظلم",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "59:7",
+   "degree": 4,
+   "roots_present": [
+    "اهل",
+    "شدد",
+    "اخذ",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "4:75",
+   "degree": 3,
+   "roots_present": [
+    "اهل",
+    "ظلم",
+    "خرج"
+   ]
+  },
+  {
+   "ayah": "6:131",
+   "degree": 3,
+   "roots_present": [
+    "هلك",
+    "اهل",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "11:102",
+   "degree": 3,
+   "roots_present": [
+    "شدد",
+    "ظلم",
+    "اخذ"
+   ]
+  },
+  {
+   "ayah": "11:117",
+   "degree": 3,
+   "roots_present": [
+    "هلك",
+    "اهل",
+    "ظلم"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "قري+هلك": [
+   "6:131",
+   "7:4",
+   "11:117",
+   "15:4",
+   "17:16",
+   "17:58",
+   "18:59",
+   "21:6",
+   "21:95",
+   "22:45",
+   "26:208",
+   "28:58",
+   "28:59",
+   "29:31",
+   "46:27",
+   "47:13"
+  ],
+  "قري+اهل": [
+   "4:75",
+   "6:131",
+   "7:94",
+   "7:96",
+   "7:97",
+   "7:98",
+   "11:117",
+   "12:109",
+   "18:77",
+   "27:34",
+   "28:59",
+   "29:31",
+   "29:34",
+   "59:7"
+  ],
+  "قري+باس": [
+   "7:4",
+   "7:94",
+   "7:97",
+   "7:98",
+   "59:14"
+  ],
+  "قري+شدد": [
+   "11:102",
+   "17:58",
+   "47:13",
+   "59:7",
+   "59:14",
+   "65:8"
+  ],
+  "قري+نذر": [
+   "6:92",
+   "25:51",
+   "26:208",
+   "34:34",
+   "42:7",
+   "43:23"
+  ],
+  "قري+ظلم": [
+   "4:75",
+   "6:131",
+   "11:102",
+   "11:117",
+   "18:59",
+   "21:11",
+   "22:45",
+   "22:48",
+   "28:59",
+   "29:31"
+  ],
+  "قري+خرج": [
+   "4:75",
+   "7:82",
+   "7:88",
+   "27:56",
+   "47:13"
+  ],
+  "قري+اخذ": [
+   "7:94",
+   "7:96",
+   "11:102",
+   "18:77",
+   "22:48",
+   "59:7"
+  ],
+  "قري+رسل": [
+   "7:94",
+   "7:101",
+   "12:109",
+   "28:59",
+   "29:31",
+   "34:34",
+   "36:13",
+   "43:23",
+   "59:7",
+   "65:8"
+  ],
+  "قري+قبل": [
+   "7:101",
+   "12:82",
+   "12:109",
+   "17:58",
+   "21:6",
+   "43:23"
+  ],
+  "قري+حول": [
+   "6:92",
+   "42:7",
+   "46:27"
+  ],
+  "قري+بوب": [
+   "2:58",
+   "7:161"
+  ],
+  "قري+سير": [
+   "12:109",
+   "34:18"
+  ],
+  "قري+قصص": [
+   "7:101",
+   "11:100"
+  ],
+  "قري+طهر": [
+   "7:82",
+   "27:56"
+  ],
+  "قري+برك": [
+   "6:92",
+   "7:96",
+   "34:18"
+  ],
+  "قري+عرش": [
+   "2:259",
+   "22:45"
+  ],
+  "قري+طعم": [
+   "2:259",
+   "18:77"
+  ]
+ }
+}
