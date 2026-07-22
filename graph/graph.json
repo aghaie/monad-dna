@@ -2,6 +2,7 @@
  "generated_from": "breaths/records/*.json (deterministic)",
  "nodes": [
   "اتي",
+  "اثر",
   "اثم",
   "اجر",
   "اخر",
@@ -33,12 +34,14 @@
   "حكم",
   "حلل",
   "حيث",
+  "حيي",
   "خبث",
   "خبر",
   "خرج",
   "خلف",
   "خير",
   "دخل",
+  "دنو",
   "ربب",
   "ربع",
   "رحم",
@@ -48,6 +51,7 @@
   "رضو",
   "ركع",
   "زكو",
+  "زين",
   "سبح",
   "سبع",
   "سبل",
@@ -74,9 +78,11 @@
   "عبد",
   "عدل",
   "عرف",
+  "عقل",
   "علم",
   "علن",
   "علو",
+  "غرر",
   "غفر",
   "غيب",
   "غير",
@@ -96,10 +102,15 @@
   "كره",
   "كفي",
   "كلم",
+  "لعب",
+  "لهو",
   "ليل",
+  "متع",
   "مرا",
   "مكر",
+  "موت",
   "مول",
+  "موه",
   "نسو",
   "نفق",
   "نهي",
@@ -127,15 +138,19 @@
   "اكل",
   "طوع",
   "شهد",
-  "كبر"
+  "كبر",
+  "حيي"
  ],
  "open_queue": [
   "اتي",
   "امن",
   "جرم",
+  "دنو",
+  "زين",
   "شيا",
   "عدل",
   "عرف",
+  "عقل",
   "علم",
   "علو",
   "غيب",
@@ -143,7 +158,9 @@
   "قلب",
   "قول",
   "قوم",
-  "كفي"
+  "كفي",
+  "متع",
+  "موت"
  ],
  "edges": [
   {
@@ -189,6 +206,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 27
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اثر",
+   "b": "حيي",
+   "directions": {
+    "حيي→اثر": {
+     "breath": 19,
+     "lift": 9.222,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1357,6 +1390,150 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حيي",
+   "b": "دنو",
+   "directions": {
+    "حيي→دنو": {
+     "breath": 19,
+     "lift": 19.972,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 66
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حيي",
+   "b": "زين",
+   "directions": {
+    "حيي→زين": {
+     "breath": 19,
+     "lift": 11.71,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حيي",
+   "b": "عقل",
+   "directions": {
+    "حيي→عقل": {
+     "breath": 19,
+     "lift": 7.905,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حيي",
+   "b": "غرر",
+   "directions": {
+    "حيي→غرر": {
+     "breath": 19,
+     "lift": 14.755,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حيي",
+   "b": "لعب",
+   "directions": {
+    "حيي→لعب": {
+     "breath": 19,
+     "lift": 11.62,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حيي",
+   "b": "لهو",
+   "directions": {
+    "حيي→لهو": {
+     "breath": 19,
+     "lift": 15.493,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حيي",
+   "b": "متع",
+   "directions": {
+    "حيي→متع": {
+     "breath": 19,
+     "lift": 9.534,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حيي",
+   "b": "موت",
+   "directions": {
+    "حيي→موت": {
+     "breath": 19,
+     "lift": 17.606,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 65
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حيي",
+   "b": "موه",
+   "directions": {
+    "حيي→موه": {
+     "breath": 19,
+     "lift": 5.164,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
