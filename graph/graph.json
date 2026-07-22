@@ -112,6 +112,7 @@
   "خنزر",
   "خير",
   "دبب",
+  "دبر",
   "دخل",
   "درج",
   "دعو",
@@ -130,6 +131,7 @@
   "ربع",
   "رجس",
   "رجع",
+  "رجل",
   "رجم",
   "رجو",
   "رحم",
@@ -272,6 +274,7 @@
   "قسم",
   "قسو",
   "قصص",
+  "قطع",
   "قعد",
   "قلب",
   "قلل",
@@ -573,7 +576,8 @@
   "غفل",
   "ريب",
   "اني",
-  "قرن"
+  "قرن",
+  "قطع"
  ],
  "open_queue": [
   "اتي",
@@ -1758,6 +1762,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "قطع",
+   "directions": {
+    "قطع→ارض": {
+     "breath": 206,
+     "lift": 2.756,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -3566,6 +3586,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امر",
+   "b": "قطع",
+   "directions": {
+    "قطع→امر": {
+     "breath": 206,
+     "lift": 6.132,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -9333,6 +9369,22 @@
   },
   {
    "a": "خلف",
+   "b": "قطع",
+   "directions": {
+    "قطع→خلف": {
+     "breath": 206,
+     "lift": 7.466,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلف",
    "b": "لون",
    "directions": {
     "لون→خلف": {
@@ -9626,6 +9678,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "دبر",
+   "b": "قطع",
+   "directions": {
+    "قطع→دبر": {
+     "breath": 206,
+     "lift": 19.684,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "دخل",
@@ -10651,6 +10719,22 @@
      "breath": 124,
      "lift": 4.194,
      "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجل",
+   "b": "قطع",
+   "directions": {
+    "قطع→رجل": {
+     "breath": 206,
+     "lift": 13.123,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -15386,6 +15470,38 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "قطع",
+   "b": "كلل",
+   "directions": {
+    "قطع→كلل": {
+     "breath": 206,
+     "lift": 2.447,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قطع",
+   "b": "يدي",
+   "directions": {
+    "قطع→يدي": {
+     "breath": 206,
+     "lift": 11.023,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "قعد",
