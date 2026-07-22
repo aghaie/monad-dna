@@ -1925,6 +1925,7 @@ QUEUE_EVENTS = [
     (224, "pursued", "سخر", "قاعدهٔ صف"),
     (225, "pursued", "قوي", "قاعدهٔ صف"),
     (226, "pursued", "حزن", "قاعدهٔ صف"),
+    (227, "queued", "بعض", "چرخه"),
 ]
 for ev in QUEUE_EVENTS:
     db.execute("INSERT INTO queue_events(breath_no, event, root, source) VALUES (?,?,?,?)", ev)
