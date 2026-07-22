@@ -319,6 +319,7 @@
   "مسس",
   "مسك",
   "مكن",
+  "ملا",
   "ملك",
   "ملل",
   "منن",
@@ -599,7 +600,8 @@
   "قرر",
   "ذرر",
   "شرب",
-  "سلط"
+  "سلط",
+  "ملا"
  ],
  "open_queue": [
   "اتي",
@@ -7183,6 +7185,22 @@
   },
   {
    "a": "تبع",
+   "b": "ملا",
+   "directions": {
+    "ملا→تبع": {
+     "breath": 217,
+     "lift": 4.997,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "تبع",
    "b": "ملل",
    "directions": {
     "ملل→تبع": {
@@ -9583,6 +9601,22 @@
   },
   {
    "a": "خرج",
+   "b": "ملا",
+   "directions": {
+    "ملا→خرج": {
+     "breath": 217,
+     "lift": 4.965,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خرج",
    "b": "نبت",
    "directions": {
     "نبت→خرج": {
@@ -11124,6 +11158,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "راي",
+   "b": "ملا",
+   "directions": {
+    "ملا→راي": {
+     "breath": 217,
+     "lift": 3.149,
+     "p": 0.0166,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ربب",
@@ -16719,6 +16769,22 @@
   },
   {
    "a": "قول",
+   "b": "ملا",
+   "directions": {
+    "ملا→قول": {
+     "breath": 217,
+     "lift": 2.705,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 24
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "قول",
    "b": "ملل",
    "directions": {
     "ملل→قول": {
@@ -16792,6 +16858,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "قوم",
+   "b": "ملا",
+   "directions": {
+    "ملا→قوم": {
+     "breath": 217,
+     "lift": 3.917,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
     }
    },
    "mutual_strong": false,
@@ -16984,6 +17066,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كفر",
+   "b": "ملا",
+   "directions": {
+    "ملا→كفر": {
+     "breath": 217,
+     "lift": 2.012,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
