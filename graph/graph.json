@@ -226,6 +226,7 @@
   "ظهر",
   "عبد",
   "عتد",
+  "عثو",
   "عجب",
   "عجز",
   "عجل",
@@ -276,6 +277,7 @@
   "فرح",
   "فرض",
   "فري",
+  "فسد",
   "فصل",
   "فضل",
   "فطر",
@@ -669,7 +671,8 @@
   "طيب",
   "شرح",
   "فرج",
-  "ثبت"
+  "ثبت",
+  "فسد"
  ],
  "open_queue": [
   "اتي",
@@ -714,6 +717,7 @@
   "ضلل",
   "طوع",
   "ظلم",
+  "عثو",
   "عدو",
   "عذب",
   "علم",
@@ -1939,6 +1943,22 @@
   },
   {
    "a": "اخر",
+   "b": "فسد",
+   "directions": {
+    "فسد→اخر": {
+     "breath": 253,
+     "lift": 2.741,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
    "b": "قدم",
    "directions": {
     "قدم→اخر": {
@@ -2288,6 +2308,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "فسد",
+   "directions": {
+    "فسد→ارض": {
+     "breath": 253,
+     "lift": 9.348,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 31
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ارض",
@@ -7315,6 +7351,22 @@
   },
   {
    "a": "بعد",
+   "b": "فسد",
+   "directions": {
+    "فسد→بعد": {
+     "breath": 253,
+     "lift": 4.222,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
    "b": "قرن",
    "directions": {
     "قرن→بعد": {
@@ -9516,6 +9568,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جعل",
+   "b": "فسد",
+   "directions": {
+    "فسد→جعل": {
+     "breath": 253,
+     "lift": 2.986,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -16763,6 +16831,22 @@
   },
   {
    "a": "صلح",
+   "b": "فسد",
+   "directions": {
+    "فسد→صلح": {
+     "breath": 253,
+     "lift": 7.024,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صلح",
    "b": "وهب",
    "directions": {
     "وهب→صلح": {
@@ -17532,6 +17616,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عثو",
+   "b": "فسد",
+   "directions": {
+    "فسد→عثو": {
+     "breath": 253,
+     "lift": 132.681,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -19204,6 +19304,54 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فسد",
+   "b": "قتل",
+   "directions": {
+    "فسد→قتل": {
+     "breath": 253,
+     "lift": 5.438,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فسد",
+   "b": "قوم",
+   "directions": {
+    "فسد→قوم": {
+     "breath": 253,
+     "lift": 1.778,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "فسد",
+   "b": "نوس",
+   "directions": {
+    "فسد→نوس": {
+     "breath": 253,
+     "lift": 3.538,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
