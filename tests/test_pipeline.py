@@ -47,22 +47,19 @@ def test_plan_one_equals_breathe_record(tmp_path):
         planned.encode()).hexdigest()
 
 
-def test_plan_replays_history_9_11(tmp_path):
+def test_plan_replays_history_breath_11(tmp_path):
     """آزمونِ طلایی ۲ (بازلنگرِ زندگیِ دوم؛ بازپخشِ ۱۹۰–۱۹۲ با زندگیِ یکم
-    بایگانی شد): برنامه از حالتِ ≤۸ باید نفس‌های واقعاً زیستهٔ ۹ (بسط)،
-    ۱۰ (طيب)، ۱۱ (خبث) را بایت‌به‌بایت بازبسازد — هم‌ارزی با اجرای
-    ترتیبیِ واقعاً رخ‌داده. (بازپخش از upto=0 برای نفس‌های ۲+ سنجیدنی
-    نیست: رشدِ واقعیِ صف در افقِ برنامه نیست — درسِ روزِ تولد.)"""
-    jobs = core.plan(3, upto=8, root_dir=str(tmp_path))
+    بایگانی شد): بازپخشِ تاریخی فقط بر پنجره‌ای بی‌رشدِ صف معنا دارد (فرضِ
+    افقِ S0) — در یازده نفسِ آغاز، تنها نفسِ ۱۱ چنین است (نفس‌های ۹–۱۰
+    قدر/شيا/خبث/حلل را صف کردند). برنامه از حالتِ ≤۱۰ باید نفسِ واقعاً
+    زیستهٔ ۱۱ (خبث) را بایت‌به‌بایت بازبسازد."""
+    jobs = core.plan(1, upto=10, root_dir=str(tmp_path))
     got = [(j["breath_no"], j["root"]) for j in jobs]
-    assert got == [(9, "بسط"), (10, "طيب"), (11, "خبث")], got
-    for j in jobs:
-        planned = open(os.path.join(tmp_path, "work",
-                                    f"{j['breath_no']}_{j['root']}",
-                                    "record.json"), encoding="utf-8").read()
-        actual = open(f"breaths/records/breath_{j['breath_no']}_{j['root']}.json",
-                      encoding="utf-8").read()
-        assert planned == actual, f"ناهم‌ارزی در نفس {j['breath_no']}"
+    assert got == [(11, "خبث")], got
+    planned = open(os.path.join(tmp_path, "work", "11_خبث", "record.json"),
+                   encoding="utf-8").read()
+    actual = open("breaths/records/breath_11_خبث.json", encoding="utf-8").read()
+    assert planned == actual, "ناهم‌ارزی در بازپخشِ نفس ۱۱"
 
 
 def test_plan_preserves_completed_cache(tmp_path):
