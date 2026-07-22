@@ -1,0 +1,3682 @@
+{
+ "breath_number": 274,
+ "deliberation": [
+  {
+   "root": "ضرب",
+   "attestation": 58
+  },
+  {
+   "root": "زكو",
+   "attestation": 59
+  },
+  {
+   "root": "نسو",
+   "attestation": 59
+  },
+  {
+   "root": "ظهر",
+   "attestation": 59
+  },
+  {
+   "root": "ردد",
+   "attestation": 59
+  },
+  {
+   "root": "فري",
+   "attestation": 60
+  },
+  {
+   "root": "غيب",
+   "attestation": 60
+  },
+  {
+   "root": "فتن",
+   "attestation": 60
+  },
+  {
+   "root": "زيد",
+   "attestation": 61
+  },
+  {
+   "root": "عود",
+   "attestation": 63
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "ضرب",
+ "attestation": 58,
+ "ayat": 54,
+ "top": [
+  {
+   "root": "مثل",
+   "shared": 29,
+   "expected": 1.28,
+   "lift": 22.628,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رجل",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.749,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كيف",
+   "shared": 5,
+   "expected": 0.72,
+   "lift": 6.957,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نوس",
+   "shared": 11,
+   "expected": 1.95,
+   "lift": 5.646,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رزق",
+   "shared": 5,
+   "expected": 0.94,
+   "lift": 5.297,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خوف",
+   "shared": 5,
+   "expected": 0.97,
+   "lift": 5.155,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سبل",
+   "shared": 7,
+   "expected": 1.42,
+   "lift": 4.929,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قدر",
+   "shared": 5,
+   "expected": 1.05,
+   "lift": 4.772,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قتل",
+   "shared": 5,
+   "expected": 1.06,
+   "lift": 4.733,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حيي",
+   "shared": 6,
+   "expected": 1.39,
+   "lift": 4.304,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "مثل",
+  "رجل",
+  "كيف",
+  "نوس",
+  "خوف",
+  "قدر"
+ ],
+ "one_way": [
+  "رزق",
+  "سبل",
+  "قتل",
+  "حيي"
+ ],
+ "neighbor_view": {
+  "مثل": {
+   "root": "ضرب",
+   "shared": 29,
+   "expected": 1.28,
+   "lift": 22.628,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "رجل": {
+   "root": "ضرب",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.749,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كيف": {
+   "root": "ضرب",
+   "shared": 5,
+   "expected": 0.72,
+   "lift": 6.957,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نوس": {
+   "root": "ضرب",
+   "shared": 11,
+   "expected": 1.95,
+   "lift": 5.646,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رزق": null,
+  "خوف": {
+   "root": "ضرب",
+   "shared": 5,
+   "expected": 0.97,
+   "lift": 5.155,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سبل": null,
+  "قدر": {
+   "root": "ضرب",
+   "shared": 5,
+   "expected": 1.05,
+   "lift": 4.772,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قتل": null,
+  "حيي": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "ضرب↔اله",
+   "shared": 29,
+   "expected": 16.27,
+   "lift": 1.78,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرب↔رحم",
+   "shared": 3,
+   "expected": 2.71,
+   "lift": 1.11,
+   "p_perm": 0.515
+  },
+  {
+   "pair": "ضرب↔راف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هجر",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.28,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "ضرب↔نصر",
+   "shared": 1,
+   "expected": 1.19,
+   "lift": 0.84,
+   "p_perm": 0.7076
+  },
+  {
+   "pair": "ضرب↔اوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صير",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔باس",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔غفر",
+   "shared": 1,
+   "expected": 1.75,
+   "lift": 0.57,
+   "p_perm": 0.804
+  },
+  {
+   "pair": "ضرب↔حلم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عفو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ذنب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سوا",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بدو",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "ضرب↔خفي",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.73,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "ضرب↔دون",
+   "shared": 1,
+   "expected": 1.23,
+   "lift": 0.81,
+   "p_perm": 0.7508
+  },
+  {
+   "pair": "ضرب↔نفع",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.36,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "ضرب↔ضرر",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كشف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مسس",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.03,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "ضرب↔ذوق",
+   "shared": 2,
+   "expected": 0.53,
+   "lift": 3.79,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "ضرب↔الم",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔انس",
+   "shared": 2,
+   "expected": 0.81,
+   "lift": 2.48,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "ضرب↔عشر",
+   "shared": 2,
+   "expected": 0.23,
+   "lift": 8.88,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "ضرب↔عرض",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.6,
+   "p_perm": 0.5017
+  },
+  {
+   "pair": "ضرب↔بغي",
+   "shared": 4,
+   "expected": 0.78,
+   "lift": 5.13,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "ضرب↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سبل",
+   "shared": 7,
+   "expected": 1.42,
+   "lift": 4.93,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرب↔يتم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شري",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.02,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "ضرب↔لحم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثمن",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.08,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "ضرب↔فلك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وسع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قسم",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.73,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "ضرب↔صدد",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.82,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "ضرب↔بحر",
+   "shared": 2,
+   "expected": 0.35,
+   "lift": 5.77,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "ضرب↔برر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هبط",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 14.44,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "ضرب↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نقض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حرق",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.83,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "ضرب↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عنب",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.5,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "ضرب↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وقد",
+   "shared": 2,
+   "expected": 0.1,
+   "lift": 21.0,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرب↔ايد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سفه",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عصو",
+   "shared": 3,
+   "expected": 0.1,
+   "lift": 28.87,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرب↔طين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جحد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خطب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بغت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔طمن",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.62,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "ضرب↔خزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فدي",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 8.88,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "ضرب↔قرض",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 16.5,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "ضرب↔حلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عصم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حور",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فوه",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فقر",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.25,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "ضرب↔رجم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثوي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وصف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بدا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صمم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كفف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حرج",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔علن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كيل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔لبب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حبط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جهر",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.7,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "ضرب↔شرق",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.79,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "ضرب↔عوذ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مدن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ربص",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بوا",
+   "shared": 2,
+   "expected": 0.14,
+   "lift": 14.44,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "ضرب↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فكر",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.42,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "ضرب↔دبب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مكن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ملل",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حنف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔غرب",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.79,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "ضرب↔صور",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نخل",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.77,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "ضرب↔زرع",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.62,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "ضرب↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فطر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فقه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سوي",
+   "shared": 4,
+   "expected": 0.69,
+   "lift": 5.77,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ضرب↔حزب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كتم",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.77,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "ضرب↔هود",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شهر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حذر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ربع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عرب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ترب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔تمم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فرح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سرع",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سرف",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.5,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "ضرب↔ثمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مرض",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.02,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "ضرب↔فحش",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔اذي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جهل",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.81,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "ضرب↔غضب",
+   "shared": 2,
+   "expected": 0.18,
+   "lift": 11.0,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ضرب↔عمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سقي",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.62,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "ضرب↔بسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صلي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وعظ",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.81,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "ضرب↔حدد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قسط",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وزن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حضر",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.62,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "ضرب↔وهب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حول",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خزي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هون",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نبت",
+   "shared": 2,
+   "expected": 0.2,
+   "lift": 10.04,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ضرب↔عجز",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قمر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بوب",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.81,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "ضرب↔سير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عجب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔غرر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مسك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔منن",
+   "shared": 3,
+   "expected": 0.22,
+   "lift": 13.86,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرب↔ابد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خلو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عدل",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.62,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "ضرب↔شقق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حوط",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثقل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔يقن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔رجو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فوز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔رفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثني",
+   "shared": 3,
+   "expected": 0.21,
+   "lift": 14.44,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرب↔طير",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ودد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جدل",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.28,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "ضرب↔افك",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔انث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صرف",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قصص",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عسي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خلص",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔برا",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔لبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قعد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔غلب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔طهر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثلث",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.12,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "ضرب↔وري",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.73,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "ضرب↔عصي",
+   "shared": 2,
+   "expected": 0.28,
+   "lift": 7.22,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "ضرب↔برك",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.61,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "ضرب↔نصب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شمس",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كفي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عرش",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عمي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حجج",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جنب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هزا",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وثق",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.98,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "ضرب↔حين",
+   "shared": 2,
+   "expected": 0.29,
+   "lift": 7.0,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "ضرب↔مرر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ورث",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔غفل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ريب",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "ضرب↔اني",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قرن",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قطع",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.21,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "ضرب↔بطل",
+   "shared": 3,
+   "expected": 0.29,
+   "lift": 10.19,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "ضرب↔حدث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نكر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سبق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فتح",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هوي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ذرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شرب",
+   "shared": 2,
+   "expected": 0.29,
+   "lift": 6.79,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "ضرب↔سلط",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ملا",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شعر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فلح",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "ضرب↔كره",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جبل",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.96,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "ضرب↔طوف",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "ضرب↔لعن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سخر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قوي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حزن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فوق",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.63,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "ضرب↔جوب",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فصل",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.75,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "ضرب↔حشر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مكر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سرر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.69,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "ضرب↔دبر",
+   "shared": 2,
+   "expected": 0.38,
+   "lift": 5.25,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "ضرب↔بدل",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "ضرب↔حفظ",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.5,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "ضرب↔صرط",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.57,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "ضرب↔نسي",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.12,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "ضرب↔وذر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔زين",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.69,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "ضرب↔صدر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عجل",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كرم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔طعم",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.82,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "ضرب↔اثم",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.75,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "ضرب↔قدم",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.41,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "ضرب↔سوع",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عقل",
+   "shared": 3,
+   "expected": 0.42,
+   "lift": 7.07,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرب↔طيب",
+   "shared": 2,
+   "expected": 0.4,
+   "lift": 5.02,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "ضرب↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فرج",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 12.83,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "ضرب↔ثبت",
+   "shared": 2,
+   "expected": 0.15,
+   "lift": 13.59,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "ضرب↔فسد",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.46,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "ضرب↔عثو",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 23.1,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "ضرب↔تحت",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.31,
+   "p_perm": 0.3688
+  },
+  {
+   "pair": "ضرب↔حلل",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جنح",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.61,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "ضرب↔خبر",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.22,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "ضرب↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ندو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔دور",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صبح",
+   "shared": 2,
+   "expected": 0.37,
+   "lift": 5.37,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "ضرب↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔اجل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نهي",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ذهب",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.06,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "ضرب↔روح",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.22,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "ضرب↔قري",
+   "shared": 2,
+   "expected": 0.47,
+   "lift": 4.28,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "ضرب↔عدد",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.31,
+   "p_perm": 0.3422
+  },
+  {
+   "pair": "ضرب↔حصي",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.5,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "ضرب↔سنو",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.77,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "ضرب↔الف",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "ضرب↔راف",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔اوي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صير",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔باس",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حلم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عفو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ذنب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سوا",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ضرر",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كشف",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔الم",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عوج",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔يتم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔لحم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔دمو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فلك",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وسع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كلف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔برر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قسو",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ستت",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔لون",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نقض",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حيق",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جدد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔رجس",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قهر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ايد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سفه",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عون",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔طين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جحد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خطب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شبه",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بغت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خزن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حلف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عصم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حور",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فوه",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جلد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ياس",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔رجم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صوم",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثوي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وصف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شكك",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بدا",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صمم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كفف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حرج",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔علن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كيل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔لبب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سطر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فاد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حبط",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عتد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عوذ",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مدن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ربص",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صفو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔دبب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مكن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ملل",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حنف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فرض",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صور",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نفخ",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فطر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فقه",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حزب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بقي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سنن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هود",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شهر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مني",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حذر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ربع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عرب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ترب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔تمم",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فرح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سرع",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثمر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فحش",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔اذي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عمر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔بسط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صلي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حدد",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قسط",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وزن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وهب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حول",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خزي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هون",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عجز",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قمر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سير",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عجب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔غرر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مسك",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ابد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خلو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شقق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حوط",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ثقل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔يقن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔رجو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فوز",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔رفع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔طير",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ودد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔افك",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔انث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صرف",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قصص",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عسي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔خلص",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔برا",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔لبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قعد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔غلب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔طهر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نصب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شمس",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كفي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عرش",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عمي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حجج",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جنب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هزا",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مرر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ورث",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔غفل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔اني",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قرن",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حدث",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نكر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سبق",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔فتح",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔هوي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قرر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ذرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سلط",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ملا",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شعر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كره",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔لعن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سخر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔قوي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حزن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جوب",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حشر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔مكر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔وذر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عهد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔صدر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔عجل",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔كرم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔سوع",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔شرح",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔حلل",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔لطف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ندو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔دور",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔جثم",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔ندم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔اجل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔نهي",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرب↔الف",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "4:34",
+   "degree": 3,
+   "roots_present": [
+    "رجل",
+    "خوف",
+    "سبل"
+   ]
+  },
+  {
+   "ayah": "13:17",
+   "degree": 3,
+   "roots_present": [
+    "مثل",
+    "نوس",
+    "قدر"
+   ]
+  },
+  {
+   "ayah": "16:75",
+   "degree": 3,
+   "roots_present": [
+    "مثل",
+    "رزق",
+    "قدر"
+   ]
+  },
+  {
+   "ayah": "16:76",
+   "degree": 3,
+   "roots_present": [
+    "مثل",
+    "رجل",
+    "قدر"
+   ]
+  },
+  {
+   "ayah": "16:112",
+   "degree": 3,
+   "roots_present": [
+    "مثل",
+    "رزق",
+    "خوف"
+   ]
+  },
+  {
+   "ayah": "17:48",
+   "degree": 3,
+   "roots_present": [
+    "مثل",
+    "كيف",
+    "سبل"
+   ]
+  },
+  {
+   "ayah": "18:45",
+   "degree": 3,
+   "roots_present": [
+    "مثل",
+    "قدر",
+    "حيي"
+   ]
+  },
+  {
+   "ayah": "25:9",
+   "degree": 3,
+   "roots_present": [
+    "مثل",
+    "كيف",
+    "سبل"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "ضرب+مثل": [
+   "2:26",
+   "13:17",
+   "14:24",
+   "14:25",
+   "14:45",
+   "16:74",
+   "16:75",
+   "16:76",
+   "16:112",
+   "17:48",
+   "18:32",
+   "18:45",
+   "22:73",
+   "24:35",
+   "25:9",
+   "25:39",
+   "29:43",
+   "30:28",
+   "30:58",
+   "36:13"
+  ],
+  "ضرب+رجل": [
+   "4:34",
+   "16:76",
+   "18:32",
+   "24:31",
+   "39:29"
+  ],
+  "ضرب+كيف": [
+   "14:24",
+   "14:45",
+   "17:48",
+   "25:9",
+   "47:27"
+  ],
+  "ضرب+نوس": [
+   "2:273",
+   "3:112",
+   "13:17",
+   "14:25",
+   "22:73",
+   "24:35",
+   "29:43",
+   "30:58",
+   "39:27",
+   "47:3",
+   "59:21"
+  ],
+  "ضرب+رزق": [
+   "2:60",
+   "7:160",
+   "16:75",
+   "16:112",
+   "30:28"
+  ],
+  "ضرب+خوف": [
+   "4:34",
+   "4:101",
+   "16:112",
+   "20:77",
+   "30:28"
+  ],
+  "ضرب+سبل": [
+   "2:273",
+   "4:34",
+   "4:94",
+   "17:48",
+   "25:9",
+   "47:4",
+   "73:20"
+  ],
+  "ضرب+قدر": [
+   "13:17",
+   "16:75",
+   "16:76",
+   "18:45",
+   "73:20"
+  ],
+  "ضرب+قتل": [
+   "2:61",
+   "3:112",
+   "3:156",
+   "47:4",
+   "73:20"
+  ],
+  "ضرب+حيي": [
+   "2:26",
+   "2:73",
+   "3:156",
+   "4:94",
+   "18:45",
+   "36:78"
+  ],
+  "ضرب+اله": [
+   "2:26",
+   "2:60",
+   "2:61",
+   "2:73",
+   "2:273",
+   "3:112",
+   "3:156",
+   "4:34",
+   "4:94",
+   "5:106",
+   "13:17",
+   "14:24",
+   "14:25",
+   "16:74",
+   "16:75",
+   "16:76",
+   "16:112",
+   "18:45",
+   "22:73",
+   "24:31"
+  ],
+  "ضرب+عشر": [
+   "2:60",
+   "7:160"
+  ],
+  "ضرب+بغي": [
+   "4:34",
+   "4:94",
+   "13:17",
+   "73:20"
+  ],
+  "ضرب+بحر": [
+   "20:77",
+   "26:63"
+  ],
+  "ضرب+هبط": [
+   "2:61"
+  ],
+  "ضرب+وقد": [
+   "13:17",
+   "24:35"
+  ],
+  "ضرب+عصو": [
+   "2:60",
+   "7:160",
+   "26:63"
+  ],
+  "ضرب+بوا": [
+   "2:61",
+   "3:112"
+  ],
+  "ضرب+سوي": [
+   "16:75",
+   "16:76",
+   "30:28",
+   "39:29"
+  ],
+  "ضرب+غضب": [
+   "2:61",
+   "3:112"
+  ],
+  "ضرب+سقي": [
+   "2:60",
+   "7:160"
+  ],
+  "ضرب+نبت": [
+   "2:61",
+   "18:45"
+  ],
+  "ضرب+منن": [
+   "4:94",
+   "7:160",
+   "47:4"
+  ],
+  "ضرب+عدل": [
+   "5:106",
+   "16:76"
+  ],
+  "ضرب+ثني": [
+   "2:60",
+   "5:106",
+   "7:160"
+  ],
+  "ضرب+عصي": [
+   "2:61",
+   "3:112"
+  ],
+  "ضرب+حين": [
+   "5:106",
+   "14:25"
+  ],
+  "ضرب+بطل": [
+   "13:17",
+   "30:58",
+   "47:3"
+  ],
+  "ضرب+شرب": [
+   "2:60",
+   "7:160"
+  ],
+  "ضرب+فوق": [
+   "2:26",
+   "8:12"
+  ],
+  "ضرب+عقل": [
+   "2:73",
+   "29:43",
+   "30:28"
+  ],
+  "ضرب+طيب": [
+   "7:160",
+   "14:24"
+  ],
+  "ضرب+ثبت": [
+   "8:12",
+   "14:24"
+  ],
+  "ضرب+عثو": [
+   "2:60"
+  ]
+ }
+}
