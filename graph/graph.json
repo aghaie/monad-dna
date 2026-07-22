@@ -607,7 +607,8 @@
   "ملا",
   "شعر",
   "فلح",
-  "كره"
+  "كره",
+  "جبل"
  ],
  "open_queue": [
   "اتي",
@@ -1697,6 +1698,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "جبل",
+   "directions": {
+    "جبل→ارض": {
+     "breath": 221,
+     "lift": 3.271,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
     }
    },
    "mutual_strong": false,
@@ -8200,6 +8217,38 @@
   },
   {
    "a": "جبل",
+   "b": "جعل",
+   "directions": {
+    "جبل→جعل": {
+     "breath": 221,
+     "lift": 2.571,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جبل",
+   "b": "راي",
+   "directions": {
+    "جبل→راي": {
+     "breath": 221,
+     "lift": 4.307,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جبل",
    "b": "سير",
    "directions": {
     "سير→جبل": {
@@ -8209,10 +8258,34 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "جبل→سير": {
+     "breath": 221,
+     "lift": 31.979,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "جبل",
+   "b": "كون",
+   "directions": {
+    "جبل→كون": {
+     "breath": 221,
+     "lift": 1.632,
+     "p": 0.0432,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "جحد",
