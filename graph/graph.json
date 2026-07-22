@@ -35,6 +35,7 @@
   "بسط",
   "بشر",
   "بصر",
+  "بعث",
   "بعد",
   "بعض",
   "بغت",
@@ -150,6 +151,7 @@
   "سمع",
   "سمو",
   "سنن",
+  "سنو",
   "سوا",
   "سوع",
   "سوي",
@@ -276,6 +278,7 @@
   "كيف",
   "كيل",
   "لبب",
+  "لبث",
   "لحم",
   "لقي",
   "لون",
@@ -524,7 +527,8 @@
   "عسي",
   "خلص",
   "برا",
-  "شرر"
+  "شرر",
+  "لبث"
  ],
  "open_queue": [
   "اتي",
@@ -5014,6 +5018,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "بعث",
+   "b": "لبث",
+   "directions": {
+    "لبث→بعث": {
+     "breath": 182,
+     "lift": 18.044,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بعد",
    "b": "شقق",
    "directions": {
@@ -5636,6 +5656,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "بين",
+   "b": "لبث",
+   "directions": {
+    "لبث→بين": {
+     "breath": 182,
+     "lift": 2.544,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "بين",
@@ -10358,6 +10394,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "سنو",
+   "b": "لبث",
+   "directions": {
+    "لبث→سنو": {
+     "breath": 182,
+     "lift": 69.289,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "سوا",
    "b": "صوب",
    "directions": {
@@ -12191,6 +12243,22 @@
   },
   {
    "a": "علم",
+   "b": "لبث",
+   "directions": {
+    "لبث→علم": {
+     "breath": 182,
+     "lift": 2.538,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "علم",
    "b": "مني",
    "directions": {
     "مني→علم": {
@@ -13175,6 +13243,22 @@
   },
   {
    "a": "قول",
+   "b": "لبث",
+   "directions": {
+    "لبث→قول": {
+     "breath": 182,
+     "lift": 2.171,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "قول",
    "b": "مدن",
    "directions": {
     "مدن→قول": {
@@ -13684,6 +13768,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "لبث",
+   "b": "يوم",
+   "directions": {
+    "لبث→يوم": {
+     "breath": 182,
+     "lift": 6.739,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "لحم",
