@@ -226,7 +226,8 @@
   "خبر",
   "غيب",
   "جرم",
-  "عرف"
+  "عرف",
+  "نكر"
  ],
  "open_queue": [
   "اتي",
@@ -251,7 +252,6 @@
   "متع",
   "موت",
   "نبا",
-  "نكر",
   "وكل"
  ],
  "edges": [
@@ -298,6 +298,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 27
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اتي",
+   "b": "نكر",
+   "directions": {
+    "نكر→اتي": {
+     "breath": 36,
+     "lift": 2.428,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -1041,6 +1057,22 @@
   },
   {
    "a": "اله",
+   "b": "نكر",
+   "directions": {
+    "نكر→اله": {
+     "breath": 36,
+     "lift": 1.525,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "هلل",
    "directions": {
     "اله→هلل": {
@@ -1102,6 +1134,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "امر",
+   "b": "نكر",
+   "directions": {
+    "نكر→امر": {
+     "breath": 36,
+     "lift": 9.695,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "امن",
@@ -3289,6 +3337,22 @@
   },
   {
    "a": "رسل",
+   "b": "نكر",
+   "directions": {
+    "نكر→رسل": {
+     "breath": 36,
+     "lift": 2.357,
+     "p": 0.0332,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رسل",
    "b": "هزا",
    "directions": {
     "رسل→هزا": {
@@ -4362,9 +4426,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 13
+    },
+    "نكر→عرف": {
+     "breath": 36,
+     "lift": 35.339,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -4656,6 +4728,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "قوم",
+   "b": "نكر",
+   "directions": {
+    "نكر→قوم": {
+     "breath": 36,
+     "lift": 2.258,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "كبر",
    "b": "مرا",
    "directions": {
@@ -4746,6 +4834,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 28
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "نكر",
+   "b": "نهي",
+   "directions": {
+    "نكر→نهي": {
+     "breath": 36,
+     "lift": 37.453,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
     }
    },
    "mutual_strong": false,
