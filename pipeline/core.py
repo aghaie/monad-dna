@@ -409,9 +409,15 @@ def _mark(root_dir, breath_no, status):
 
 def work(worker="worker", root_dir=DEFAULT_DIR):
     """S1 مکانیکی: نخستین jobِ pending را با قفل بردار و غنی‌سازیِ
-    بی‌مدل را انجام بده (مشورتِ رصدخانه + سیمای تدبّر). یادداشتِ seed و
-    روایتِ دفتر کارِ لایهٔ زنده است (note.md / ledger.md / commit.txt در
-    همان پوشهٔ کاری). status=completed یعنی «مصنوعاتِ مکانیکی آماده»."""
+    بی‌مدل را انجام بده (مشورتِ رصدخانه). یادداشتِ seed و روایتِ دفتر کارِ
+    لایهٔ زنده است (note.md / ledger.md / commit.txt در همان پوشهٔ کاری).
+    status=completed یعنی «مصنوعاتِ مکانیکی آماده».
+
+    سیمای تدبّر عمداً این‌جا ساخته *نمی‌شود*: سیما بخشِ «پیوندِ زیسته»
+    دارد (وابسته به life.db)، و ساختنش پیش از ثبتِ نفس، سیمای کهنهٔ
+    «هنوز نزیسته» را جا می‌گذارد که ponder-sync (فقط-غایب‌ساز) هرگز
+    تازه‌اش نمی‌کند — کشفِ اثباتِ اتاقِ تمیزِ ۲۰۲۶-۰۷-۲۲ (چهار سیمای
+    کهنهٔ وثق/حين/غفل/ريب). سیما فقط در S2، پس از ثبت، ساخته می‌شود."""
     for j in load_jobs(root_dir):
         if j["status"] == "pending" and claim(j["breath_no"], worker, root_dir):
             wd = os.path.join(_paths(root_dir)[2],
@@ -421,8 +427,6 @@ def work(worker="worker", root_dir=DEFAULT_DIR):
             with open(os.path.join(wd, "observe.json"), "w",
                       encoding="utf-8") as f:
                 f.write(obs.stdout)
-            subprocess.run([sys.executable, "tadabbor/build.py", j["root"]],
-                           capture_output=True, text=True)
             _mark(root_dir, j["breath_no"], "completed")
             return j
     return None

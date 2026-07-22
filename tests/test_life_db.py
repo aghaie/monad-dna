@@ -36,7 +36,8 @@ def test_counts():
     assert db.execute(
         "SELECT COUNT(*) FROM findings WHERE tier='قوی'").fetchone()[0] >= 373
     assert db.execute("SELECT COUNT(*) FROM encounters").fetchone()[0] == 8
-    assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 7
+    # ۸مین روش: گواهیِ افزایشی — مُهرِ باغبان ۲۰۲۶-۰۷-۲۲
+    assert db.execute("SELECT COUNT(*) FROM method_records").fetchone()[0] == 8
 
 
 def test_absence_evidence_in_db():
