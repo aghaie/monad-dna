@@ -144,6 +144,7 @@
   "كبر",
   "كتب",
   "كثر",
+  "كذب",
   "كرم",
   "كره",
   "كسو",
@@ -218,7 +219,8 @@
   "زين",
   "عقل",
   "خبر",
-  "غيب"
+  "غيب",
+  "جرم"
  ],
  "open_queue": [
   "اتي",
@@ -228,7 +230,6 @@
   "ايي",
   "بصر",
   "بين",
-  "جرم",
   "دنو",
   "دون",
   "شطن",
@@ -1178,6 +1179,22 @@
   },
   {
    "a": "ايي",
+   "b": "جرم",
+   "directions": {
+    "جرم→ايي": {
+     "breath": 34,
+     "lift": 2.174,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايي",
    "b": "عقل",
    "directions": {
     "عقل→ايي": {
@@ -1706,6 +1723,38 @@
   },
   {
    "a": "جرم",
+   "b": "راي",
+   "directions": {
+    "جرم→راي": {
+     "breath": 34,
+     "lift": 2.261,
+     "p": 0.0332,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جرم",
+   "b": "قوم",
+   "directions": {
+    "جرم→قوم": {
+     "breath": 34,
+     "lift": 2.893,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جرم",
    "b": "كبر",
    "directions": {
     "كبر→جرم": {
@@ -1715,10 +1764,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 8
+    },
+    "جرم→كبر": {
+     "breath": 34,
+     "lift": 5.016,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جرم",
+   "b": "كذب",
+   "directions": {
+    "جرم→كذب": {
+     "breath": 34,
+     "lift": 2.24,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "جري",

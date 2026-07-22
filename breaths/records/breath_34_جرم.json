@@ -1,0 +1,648 @@
+{
+ "breath_number": 34,
+ "deliberation": [
+  {
+   "root": "جرم",
+   "attestation": 66
+  },
+  {
+   "root": "عرف",
+   "attestation": 70
+  },
+  {
+   "root": "علو",
+   "attestation": 70
+  },
+  {
+   "root": "متع",
+   "attestation": 70
+  },
+  {
+   "root": "وكل",
+   "attestation": 70
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "جرم",
+ "attestation": 66,
+ "ayat": 65,
+ "top": [
+  {
+   "root": "كبر",
+   "shared": 8,
+   "expected": 1.59,
+   "lift": 5.016,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قوم",
+   "shared": 18,
+   "expected": 6.22,
+   "lift": 2.893,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "راي",
+   "shared": 7,
+   "expected": 3.1,
+   "lift": 2.261,
+   "p_perm": 0.0332,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كذب",
+   "shared": 6,
+   "expected": 2.68,
+   "lift": 2.24,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ايي",
+   "shared": 8,
+   "expected": 3.68,
+   "lift": 2.174,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جيا",
+   "shared": 5,
+   "expected": 2.73,
+   "lift": 1.831,
+   "p_perm": 0.0664,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "رسل",
+   "shared": 8,
+   "expected": 4.47,
+   "lift": 1.789,
+   "p_perm": 0.0698,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "قبل",
+   "shared": 5,
+   "expected": 2.94,
+   "lift": 1.701,
+   "p_perm": 0.1661,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "ظلم",
+   "shared": 5,
+   "expected": 3.02,
+   "lift": 1.654,
+   "p_perm": 0.1561,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "جعل",
+   "shared": 5,
+   "expected": 3.24,
+   "lift": 1.542,
+   "p_perm": 0.206,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "كبر"
+ ],
+ "one_way": [
+  "قوم",
+  "راي",
+  "كذب",
+  "ايي",
+  "جيا",
+  "رسل",
+  "قبل",
+  "ظلم",
+  "جعل"
+ ],
+ "neighbor_view": {
+  "كبر": {
+   "root": "جرم",
+   "shared": 8,
+   "expected": 1.59,
+   "lift": 5.016,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "قوم": null,
+  "راي": null,
+  "كذب": null,
+  "ايي": null,
+  "جيا": null,
+  "رسل": null,
+  "قبل": null,
+  "ظلم": null,
+  "جعل": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "جرم↔فلح",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.4,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "جرم↔صلو",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔زكو",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔اذن",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔نفق",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔سرر",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.23,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "جرم↔علن",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 6.0,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "جرم↔رزق",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔بسط",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔طيب",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔خبث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔حلل",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.23,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "جرم↔حرم",
+   "shared": 1,
+   "expected": 0.74,
+   "lift": 1.35,
+   "p_perm": 0.5581
+  },
+  {
+   "pair": "جرم↔سجد",
+   "shared": 1,
+   "expected": 0.84,
+   "lift": 1.18,
+   "p_perm": 0.5748
+  },
+  {
+   "pair": "جرم↔اكل",
+   "shared": 1,
+   "expected": 1.05,
+   "lift": 0.95,
+   "p_perm": 0.6744
+  },
+  {
+   "pair": "جرم↔طوع",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔شهد",
+   "shared": 1,
+   "expected": 1.28,
+   "lift": 0.78,
+   "p_perm": 0.7176
+  },
+  {
+   "pair": "جرم↔كبر",
+   "shared": 8,
+   "expected": 1.59,
+   "lift": 5.02,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "جرم↔حيي",
+   "shared": 1,
+   "expected": 1.68,
+   "lift": 0.6,
+   "p_perm": 0.8306
+  },
+  {
+   "pair": "جرم↔خير",
+   "shared": 1,
+   "expected": 1.86,
+   "lift": 0.54,
+   "p_perm": 0.8372
+  },
+  {
+   "pair": "جرم↔ولي",
+   "shared": 1,
+   "expected": 2.11,
+   "lift": 0.47,
+   "p_perm": 0.8904
+  },
+  {
+   "pair": "جرم↔عمل",
+   "shared": 4,
+   "expected": 3.26,
+   "lift": 1.23,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "جرم↔رسل",
+   "shared": 8,
+   "expected": 4.47,
+   "lift": 1.79,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "جرم↔اله",
+   "shared": 9,
+   "expected": 19.59,
+   "lift": 0.46,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔حبط",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔بقي",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.57,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "جرم↔عدل",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.0,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "جرم↔كفي",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.0,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "جرم↔دبر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔زين",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔عقل",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔خبر",
+   "shared": 1,
+   "expected": 0.54,
+   "lift": 1.84,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "جرم↔غيب",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "جرم↔صلو",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔زكو",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔اذن",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔نفق",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔رزق",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔بسط",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔طيب",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔خبث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔طوع",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔حبط",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔دبر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔زين",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔عقل",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "جرم↔غيب",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "10:13",
+   "degree": 5,
+   "roots_present": [
+    "قوم",
+    "جيا",
+    "رسل",
+    "قبل",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "6:124",
+   "degree": 4,
+   "roots_present": [
+    "ايي",
+    "جيا",
+    "رسل",
+    "جعل"
+   ]
+  },
+  {
+   "ayah": "7:133",
+   "degree": 4,
+   "roots_present": [
+    "كبر",
+    "قوم",
+    "ايي",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "12:110",
+   "degree": 4,
+   "roots_present": [
+    "قوم",
+    "كذب",
+    "جيا",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "30:47",
+   "degree": 4,
+   "roots_present": [
+    "قوم",
+    "جيا",
+    "رسل",
+    "قبل"
+   ]
+  },
+  {
+   "ayah": "7:40",
+   "degree": 3,
+   "roots_present": [
+    "كبر",
+    "كذب",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "10:17",
+   "degree": 3,
+   "roots_present": [
+    "كذب",
+    "ايي",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "10:75",
+   "degree": 3,
+   "roots_present": [
+    "كبر",
+    "قوم",
+    "ايي"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "جرم+كبر": [
+   "6:123",
+   "7:40",
+   "7:133",
+   "10:75",
+   "16:23",
+   "18:49",
+   "34:32",
+   "45:31"
+  ],
+  "جرم+قوم": [
+   "5:2",
+   "5:8",
+   "6:147",
+   "7:133",
+   "10:13",
+   "10:75",
+   "11:52",
+   "11:89",
+   "12:110",
+   "15:58",
+   "30:12",
+   "30:47",
+   "30:55",
+   "44:22",
+   "44:37",
+   "45:31",
+   "46:25",
+   "51:32"
+  ],
+  "جرم+راي": [
+   "10:50",
+   "14:49",
+   "18:49",
+   "18:53",
+   "25:22",
+   "32:12",
+   "46:25"
+  ],
+  "جرم+كذب": [
+   "6:147",
+   "7:40",
+   "10:17",
+   "12:110",
+   "16:62",
+   "55:43"
+  ],
+  "جرم+ايي": [
+   "6:55",
+   "6:124",
+   "7:40",
+   "7:133",
+   "10:17",
+   "10:75",
+   "32:22",
+   "45:31"
+  ]
+ }
+}
