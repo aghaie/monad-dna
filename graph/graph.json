@@ -13,11 +13,15 @@
   "بسط",
   "بعث",
   "بغي",
+  "بني",
   "بيت",
   "ثمر",
+  "جنن",
   "جهر",
   "حبب",
   "حرم",
+  "حلل",
+  "خبث",
   "خلف",
   "خير",
   "ربب",
@@ -28,6 +32,7 @@
   "سبل",
   "سرر",
   "شفع",
+  "شكر",
   "شيا",
   "صبر",
   "صلو",
@@ -39,6 +44,7 @@
   "عبد",
   "علم",
   "علن",
+  "غفر",
   "فلح",
   "قدر",
   "قرب",
@@ -66,15 +72,17 @@
   "سرر",
   "علن",
   "رزق",
-  "بسط"
+  "بسط",
+  "طيب"
  ],
  "open_queue": [
   "اتي",
   "اكل",
   "امن",
+  "حلل",
+  "خبث",
   "شيا",
   "طوع",
-  "طيب",
   "علم",
   "قدر",
   "قلب",
@@ -323,6 +331,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "اكل",
+   "b": "طيب",
+   "directions": {
+    "طيب→اكل": {
+     "breath": 10,
+     "lift": 18.791,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "اله",
    "b": "بسط",
    "directions": {
@@ -365,6 +389,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "طيب",
+   "directions": {
+    "طيب→امن": {
+     "breath": 10,
+     "lift": 2.625,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
     }
    },
    "mutual_strong": false,
@@ -555,6 +595,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بني",
+   "b": "طيب",
+   "directions": {
+    "طيب→بني": {
+     "breath": 10,
+     "lift": 4.519,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بيت",
    "b": "صلو",
    "directions": {
@@ -581,6 +637,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جنن",
+   "b": "طيب",
+   "directions": {
+    "طيب→جنن": {
+     "breath": 10,
+     "lift": 3.458,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -633,6 +705,38 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "حلل",
+   "b": "طيب",
+   "directions": {
+    "طيب→حلل": {
+     "breath": 10,
+     "lift": 31.527,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خبث",
+   "b": "طيب",
+   "directions": {
+    "طيب→خبث": {
+     "breath": 10,
+     "lift": 108.452,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "خير",
@@ -733,9 +837,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 15
+    },
+    "طيب→رزق": {
+     "breath": 10,
+     "lift": 18.656,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -979,6 +1091,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "شكر",
+   "b": "طيب",
+   "directions": {
+    "طيب→شكر": {
+     "breath": 10,
+     "lift": 13.753,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "صبر",
    "b": "صلو",
    "directions": {
@@ -1097,6 +1225,38 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "طيب",
+   "b": "غفر",
+   "directions": {
+    "طيب→غفر": {
+     "breath": 10,
+     "lift": 3.356,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "طيب",
+   "b": "وقي",
+   "directions": {
+    "طيب→وقي": {
+     "breath": 10,
+     "lift": 3.432,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "ظلم",

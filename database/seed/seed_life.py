@@ -42,6 +42,7 @@ b6 = rec("breath_6_سرر.json")
 b7 = rec("breath_7_علن.json")
 b8 = rec("breath_8_رزق.json")
 b9 = rec("breath_9_بسط.json")
+b10 = rec("breath_10_طيب.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -92,6 +93,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_9_بسط.json",
      "breaths/records/breath_9_بسط.json", LOG1,
      "پنج قوی پایدار (رزق دوسویه ۲۴٫۹، قدر دوسویه ۲۲٫۴، شيا دوسویه ۹٫۱، علم ۲٫۲، اله ۲٫۲)؛ يدي دوسویهٔ محتملِ ناپایدار lift=۱۴٫۸؛ ۵:۶۴ گرهِ شش‌ریشه‌ای؛ شاهدِ غیاب: بسط↔صلو، بسط↔زكو، بسط↔اذن، بسط↔سرر، بسط↔علن", b9["top"]),
+    (10, "تولدِ دوباره", "طيب", "قاعدهٔ صف (خودران)",
+     b10["ayat"], b10["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_10_طيب.json",
+     "breaths/records/breath_10_طيب.json", LOG1,
+     "چهار قوی پایدار (خبث دوسویه ۱۰۸٫۵، حلل دوسویه ۳۱٫۵، اكل دوسویه ۱۸٫۸، رزق دوسویه ۱۸٫۷)؛ شكر دوسویهٔ محتملِ ناپایدار lift=۱۳٫۸؛ ۵:۸۸ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: طيب↔زكو، طيب↔سرر، طيب↔علن، طيب↔بسط", b10["top"]),
     # ⚓BREATHS
 ]
 
@@ -210,6 +216,9 @@ QUEUE_EVENTS = [
     (9, "pursued", "بسط", "قاعدهٔ صف"),
     (9, "queued", "قدر", "چرخه"),
     (9, "queued", "شيا", "چرخه"),
+    (10, "pursued", "طيب", "قاعدهٔ صف"),
+    (10, "queued", "خبث", "چرخه"),
+    (10, "queued", "حلل", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -224,6 +233,7 @@ PROJ = [
     (7, b7),
     (8, b8),
     (9, b9),
+    (10, b10),
     # ⚓PROJ
 ]
 
