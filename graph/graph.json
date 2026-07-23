@@ -119,6 +119,7 @@
   "شهر",
   "شيا",
   "صبر",
+  "صحب",
   "صدد",
   "صغر",
   "صلح",
@@ -211,6 +212,7 @@
   "نكر",
   "نهر",
   "نهي",
+  "نور",
   "نوس",
   "هزا",
   "هلل",
@@ -279,7 +281,8 @@
   "سخر",
   "تحت",
   "رضو",
-  "نجو"
+  "نجو",
+  "خلد"
  ],
  "open_queue": [
   "اتي",
@@ -292,7 +295,6 @@
   "بغي",
   "بين",
   "جنن",
-  "خلد",
   "دخل",
   "دعو",
   "دنو",
@@ -303,6 +305,7 @@
   "شرك",
   "شطن",
   "شيا",
+  "صحب",
   "صلح",
   "عذب",
   "عظم",
@@ -414,9 +417,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 11
+    },
+    "خلد→ابد": {
+     "breath": 55,
+     "lift": 28.487,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2678,9 +2689,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 21
+    },
+    "خلد→تحت": {
+     "breath": 55,
+     "lift": 30.455,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 21
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -3054,9 +3073,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 21
+    },
+    "خلد→جري": {
+     "breath": 55,
+     "lift": 23.793,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 21
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -3197,6 +3224,22 @@
   },
   {
    "a": "جزي",
+   "b": "خلد",
+   "directions": {
+    "خلد→جزي": {
+     "breath": 55,
+     "lift": 7.318,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جزي",
    "b": "عمل",
    "directions": {
     "عمل→جزي": {
@@ -3306,6 +3349,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "جنن",
+   "b": "خلد",
+   "directions": {
+    "خلد→جنن": {
+     "breath": 55,
+     "lift": 11.469,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 31
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "جنن",
@@ -4213,6 +4272,22 @@
   },
   {
    "a": "خلد",
+   "b": "دخل",
+   "directions": {
+    "خلد→دخل": {
+     "breath": 55,
+     "lift": 9.146,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلد",
    "b": "رضو",
    "directions": {
     "رضو→خلد": {
@@ -4229,6 +4304,22 @@
   },
   {
    "a": "خلد",
+   "b": "صحب",
+   "directions": {
+    "خلد→صحب": {
+     "breath": 55,
+     "lift": 13.036,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خلد",
    "b": "فوز",
    "directions": {
     "فوز→خلد": {
@@ -4238,10 +4329,50 @@
      "stable": true,
      "tier": "قوی",
      "shared": 8
+    },
+    "خلد→فوز": {
+     "breath": 55,
+     "lift": 21.485,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خلد",
+   "b": "نهر",
+   "directions": {
+    "خلد→نهر": {
+     "breath": 55,
+     "lift": 15.64,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 22
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "خلد",
+   "b": "نور",
+   "directions": {
+    "خلد→نور": {
+     "breath": 55,
+     "lift": 9.585,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 23
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "خلق",
