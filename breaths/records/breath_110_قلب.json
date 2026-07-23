@@ -1,0 +1,1491 @@
+{
+ "breath_number": 110,
+ "deliberation": [
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  },
+  {
+   "root": "ملك",
+   "attestation": 206
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "قلب",
+ "attestation": 168,
+ "ayat": 155,
+ "top": [
+  {
+   "root": "قسو",
+   "shared": 6,
+   "expected": 0.15,
+   "lift": 40.232,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رعب",
+   "shared": 5,
+   "expected": 0.12,
+   "lift": 40.232,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "طبع",
+   "shared": 11,
+   "expected": 0.27,
+   "lift": 40.232,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "زيغ",
+   "shared": 5,
+   "expected": 0.2,
+   "lift": 25.145,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "طمن",
+   "shared": 7,
+   "expected": 0.3,
+   "lift": 23.469,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "مرض",
+   "shared": 12,
+   "expected": 0.57,
+   "lift": 20.991,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "فقه",
+   "shared": 7,
+   "expected": 0.5,
+   "lift": 14.081,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غشو",
+   "shared": 5,
+   "expected": 0.65,
+   "lift": 7.737,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غفل",
+   "shared": 5,
+   "expected": 0.87,
+   "lift": 5.747,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رضو",
+   "shared": 9,
+   "expected": 1.59,
+   "lift": 5.658,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "قسو",
+  "رعب",
+  "طبع",
+  "زيغ",
+  "طمن",
+  "مرض",
+  "فقه",
+  "غشو",
+  "غفل",
+  "رضو"
+ ],
+ "one_way": [],
+ "neighbor_view": {
+  "قسو": {
+   "root": "قلب",
+   "shared": 6,
+   "expected": 0.15,
+   "lift": 40.232,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "رعب": {
+   "root": "قلب",
+   "shared": 5,
+   "expected": 0.12,
+   "lift": 40.232,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "طبع": {
+   "root": "قلب",
+   "shared": 11,
+   "expected": 0.27,
+   "lift": 40.232,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "زيغ": {
+   "root": "قلب",
+   "shared": 5,
+   "expected": 0.2,
+   "lift": 25.145,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "طمن": {
+   "root": "قلب",
+   "shared": 7,
+   "expected": 0.3,
+   "lift": 23.469,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "مرض": {
+   "root": "قلب",
+   "shared": 12,
+   "expected": 0.57,
+   "lift": 20.991,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "فقه": {
+   "root": "قلب",
+   "shared": 7,
+   "expected": 0.5,
+   "lift": 14.081,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غشو": {
+   "root": "قلب",
+   "shared": 5,
+   "expected": 0.65,
+   "lift": 7.737,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غفل": {
+   "root": "قلب",
+   "shared": 5,
+   "expected": 0.87,
+   "lift": 5.747,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رضو": {
+   "root": "قلب",
+   "shared": 9,
+   "expected": 1.59,
+   "lift": 5.658,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "قلب↔فلح",
+   "shared": 1,
+   "expected": 0.99,
+   "lift": 1.01,
+   "p_perm": 0.6578
+  },
+  {
+   "pair": "قلب↔صلو",
+   "shared": 2,
+   "expected": 2.24,
+   "lift": 0.89,
+   "p_perm": 0.6146
+  },
+  {
+   "pair": "قلب↔زكو",
+   "shared": 1,
+   "expected": 1.39,
+   "lift": 0.72,
+   "p_perm": 0.7542
+  },
+  {
+   "pair": "قلب↔اذن",
+   "shared": 12,
+   "expected": 2.24,
+   "lift": 5.36,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قلب↔نفق",
+   "shared": 9,
+   "expected": 2.14,
+   "lift": 4.21,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قلب↔سرر",
+   "shared": 3,
+   "expected": 1.07,
+   "lift": 2.81,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "قلب↔علن",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔رزق",
+   "shared": 1,
+   "expected": 2.71,
+   "lift": 0.37,
+   "p_perm": 0.9402
+  },
+  {
+   "pair": "قلب↔بسط",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.75,
+   "p_perm": 0.4518
+  },
+  {
+   "pair": "قلب↔طيب",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔خبث",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔حلل",
+   "shared": 0,
+   "expected": 1.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔حرم",
+   "shared": 1,
+   "expected": 1.76,
+   "lift": 0.57,
+   "p_perm": 0.8239
+  },
+  {
+   "pair": "قلب↔سجد",
+   "shared": 2,
+   "expected": 2.01,
+   "lift": 0.99,
+   "p_perm": 0.588
+  },
+  {
+   "pair": "قلب↔اكل",
+   "shared": 1,
+   "expected": 2.51,
+   "lift": 0.4,
+   "p_perm": 0.9169
+  },
+  {
+   "pair": "قلب↔طوع",
+   "shared": 6,
+   "expected": 2.93,
+   "lift": 2.05,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "قلب↔شهد",
+   "shared": 5,
+   "expected": 3.06,
+   "lift": 1.64,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "قلب↔كبر",
+   "shared": 4,
+   "expected": 3.8,
+   "lift": 1.05,
+   "p_perm": 0.5515
+  },
+  {
+   "pair": "قلب↔حيي",
+   "shared": 7,
+   "expected": 4.0,
+   "lift": 1.75,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "قلب↔خير",
+   "shared": 3,
+   "expected": 4.42,
+   "lift": 0.68,
+   "p_perm": 0.8372
+  },
+  {
+   "pair": "قلب↔ولي",
+   "shared": 6,
+   "expected": 5.02,
+   "lift": 1.2,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "قلب↔عمل",
+   "shared": 11,
+   "expected": 7.78,
+   "lift": 1.41,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "قلب↔رسل",
+   "shared": 18,
+   "expected": 10.66,
+   "lift": 1.69,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "قلب↔اله",
+   "shared": 94,
+   "expected": 46.7,
+   "lift": 2.01,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قلب↔حبط",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔بقي",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔عدل",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔كفي",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔دبر",
+   "shared": 3,
+   "expected": 1.09,
+   "lift": 2.74,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "قلب↔زين",
+   "shared": 5,
+   "expected": 1.07,
+   "lift": 4.68,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "قلب↔عقل",
+   "shared": 2,
+   "expected": 1.22,
+   "lift": 1.64,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "قلب↔خبر",
+   "shared": 1,
+   "expected": 1.29,
+   "lift": 0.77,
+   "p_perm": 0.7276
+  },
+  {
+   "pair": "قلب↔غيب",
+   "shared": 1,
+   "expected": 1.47,
+   "lift": 0.68,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "قلب↔جرم",
+   "shared": 2,
+   "expected": 1.62,
+   "lift": 1.24,
+   "p_perm": 0.4751
+  },
+  {
+   "pair": "قلب↔عرف",
+   "shared": 2,
+   "expected": 1.54,
+   "lift": 1.3,
+   "p_perm": 0.5116
+  },
+  {
+   "pair": "قلب↔نكر",
+   "shared": 1,
+   "expected": 0.92,
+   "lift": 1.09,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "قلب↔علو",
+   "shared": 2,
+   "expected": 1.69,
+   "lift": 1.18,
+   "p_perm": 0.515
+  },
+  {
+   "pair": "قلب↔متع",
+   "shared": 1,
+   "expected": 1.62,
+   "lift": 0.62,
+   "p_perm": 0.794
+  },
+  {
+   "pair": "قلب↔حين",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔وكل",
+   "shared": 3,
+   "expected": 1.52,
+   "lift": 1.98,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "قلب↔قلل",
+   "shared": 4,
+   "expected": 1.84,
+   "lift": 2.17,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "قلب↔ثمن",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔شري",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔شكر",
+   "shared": 1,
+   "expected": 1.72,
+   "lift": 0.58,
+   "p_perm": 0.8339
+  },
+  {
+   "pair": "قلب↔فلك",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔بحر",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔برر",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔جري",
+   "shared": 1,
+   "expected": 1.59,
+   "lift": 0.63,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "قلب↔ابد",
+   "shared": 3,
+   "expected": 0.7,
+   "lift": 4.31,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "قلب↔فوز",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔سخر",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔تحت",
+   "shared": 2,
+   "expected": 1.24,
+   "lift": 1.61,
+   "p_perm": 0.3455
+  },
+  {
+   "pair": "قلب↔رضو",
+   "shared": 9,
+   "expected": 1.59,
+   "lift": 5.66,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قلب↔نجو",
+   "shared": 1,
+   "expected": 1.86,
+   "lift": 0.54,
+   "p_perm": 0.8538
+  },
+  {
+   "pair": "قلب↔خلد",
+   "shared": 1,
+   "expected": 2.14,
+   "lift": 0.47,
+   "p_perm": 0.887
+  },
+  {
+   "pair": "قلب↔شطن",
+   "shared": 3,
+   "expected": 1.94,
+   "lift": 1.55,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "قلب↔سبح",
+   "shared": 0,
+   "expected": 2.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔حمد",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔غني",
+   "shared": 1,
+   "expected": 1.79,
+   "lift": 0.56,
+   "p_perm": 0.8538
+  },
+  {
+   "pair": "قلب↔فقر",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.87,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "قلب↔مول",
+   "shared": 2,
+   "expected": 1.99,
+   "lift": 1.01,
+   "p_perm": 0.5548
+  },
+  {
+   "pair": "قلب↔ليل",
+   "shared": 1,
+   "expected": 2.01,
+   "lift": 0.5,
+   "p_perm": 0.8738
+  },
+  {
+   "pair": "قلب↔قمر",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔شمس",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔بغي",
+   "shared": 4,
+   "expected": 2.24,
+   "lift": 1.79,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "قلب↔صحب",
+   "shared": 1,
+   "expected": 2.21,
+   "lift": 0.45,
+   "p_perm": 0.8904
+  },
+  {
+   "pair": "قلب↔ولد",
+   "shared": 0,
+   "expected": 1.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔فضل",
+   "shared": 1,
+   "expected": 2.29,
+   "lift": 0.44,
+   "p_perm": 0.8904
+  },
+  {
+   "pair": "قلب↔عدو",
+   "shared": 4,
+   "expected": 2.29,
+   "lift": 1.75,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "قلب↔اثم",
+   "shared": 1,
+   "expected": 1.04,
+   "lift": 0.96,
+   "p_perm": 0.6578
+  },
+  {
+   "pair": "قلب↔نهر",
+   "shared": 3,
+   "expected": 2.54,
+   "lift": 1.18,
+   "p_perm": 0.4618
+  },
+  {
+   "pair": "قلب↔دخل",
+   "shared": 4,
+   "expected": 2.76,
+   "lift": 1.45,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "قلب↔بوب",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔فتح",
+   "shared": 2,
+   "expected": 0.82,
+   "lift": 2.44,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "قلب↔اهل",
+   "shared": 9,
+   "expected": 2.98,
+   "lift": 3.02,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قلب↔قري",
+   "shared": 2,
+   "expected": 1.34,
+   "lift": 1.49,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "قلب↔هلك",
+   "shared": 0,
+   "expected": 1.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔قرن",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔عظم",
+   "shared": 7,
+   "expected": 3.16,
+   "lift": 2.22,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "قلب↔اجر",
+   "shared": 2,
+   "expected": 2.46,
+   "lift": 0.81,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "قلب↔ضيع",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.02,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "قلب↔قدر",
+   "shared": 0,
+   "expected": 3.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔دنو",
+   "shared": 6,
+   "expected": 3.18,
+   "lift": 1.89,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "قلب↔خزي",
+   "shared": 1,
+   "expected": 0.6,
+   "lift": 1.68,
+   "p_perm": 0.4684
+  },
+  {
+   "pair": "قلب↔دون",
+   "shared": 3,
+   "expected": 3.53,
+   "lift": 0.85,
+   "p_perm": 0.7043
+  },
+  {
+   "pair": "قلب↔نفع",
+   "shared": 2,
+   "expected": 1.22,
+   "lift": 1.64,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "قلب↔ضرر",
+   "shared": 2,
+   "expected": 1.74,
+   "lift": 1.15,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "قلب↔كشف",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔مسس",
+   "shared": 1,
+   "expected": 1.42,
+   "lift": 0.71,
+   "p_perm": 0.7674
+  },
+  {
+   "pair": "قلب↔بصر",
+   "shared": 14,
+   "expected": 3.45,
+   "lift": 4.05,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قلب↔فاد",
+   "shared": 2,
+   "expected": 0.37,
+   "lift": 5.36,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "قلب↔عمي",
+   "shared": 1,
+   "expected": 0.75,
+   "lift": 1.34,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "قلب↔نصر",
+   "shared": 4,
+   "expected": 3.41,
+   "lift": 1.17,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "قلب↔هجر",
+   "shared": 1,
+   "expected": 0.67,
+   "lift": 1.49,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "قلب↔اوي",
+   "shared": 3,
+   "expected": 0.89,
+   "lift": 3.35,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "قلب↔صير",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔باس",
+   "shared": 3,
+   "expected": 1.67,
+   "lift": 1.8,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "قلب↔نبا",
+   "shared": 7,
+   "expected": 3.75,
+   "lift": 1.87,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "قلب↔رجع",
+   "shared": 3,
+   "expected": 2.56,
+   "lift": 1.17,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "قلب↔ذوق",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔موت",
+   "shared": 5,
+   "expected": 3.55,
+   "lift": 1.41,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "قلب↔بعث",
+   "shared": 1,
+   "expected": 1.59,
+   "lift": 0.63,
+   "p_perm": 0.8306
+  },
+  {
+   "pair": "قلب↔نظر",
+   "shared": 4,
+   "expected": 2.86,
+   "lift": 1.4,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "قلب↔سير",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.61,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "قلب↔عقب",
+   "shared": 4,
+   "expected": 1.84,
+   "lift": 2.17,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "قلب↔كيف",
+   "shared": 3,
+   "expected": 2.06,
+   "lift": 1.45,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "قلب↔شدد",
+   "shared": 3,
+   "expected": 2.46,
+   "lift": 1.22,
+   "p_perm": 0.4419
+  },
+  {
+   "pair": "قلب↔قوي",
+   "shared": 1,
+   "expected": 0.97,
+   "lift": 1.03,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "قلب↔عزز",
+   "shared": 5,
+   "expected": 2.88,
+   "lift": 1.73,
+   "p_perm": 0.1894
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "قلب↔علن",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔طيب",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔خبث",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔حلل",
+   "shared": 0,
+   "expected": 1.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔حبط",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔بقي",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔عدل",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔كفي",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔حين",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔ثمن",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔شري",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔فلك",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔بحر",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔برر",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔فوز",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔سخر",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔سبح",
+   "shared": 0,
+   "expected": 2.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔حمد",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔قمر",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔شمس",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔ولد",
+   "shared": 0,
+   "expected": 1.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔بوب",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔هلك",
+   "shared": 0,
+   "expected": 1.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔قرن",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔قدر",
+   "shared": 0,
+   "expected": 3.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔كشف",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔صير",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قلب↔ذوق",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "9:87",
+   "degree": 3,
+   "roots_present": [
+    "طبع",
+    "فقه",
+    "رضو"
+   ]
+  },
+  {
+   "ayah": "2:74",
+   "degree": 2,
+   "roots_present": [
+    "قسو",
+    "غفل"
+   ]
+  },
+  {
+   "ayah": "2:144",
+   "degree": 2,
+   "roots_present": [
+    "غفل",
+    "رضو"
+   ]
+  },
+  {
+   "ayah": "7:179",
+   "degree": 2,
+   "roots_present": [
+    "فقه",
+    "غفل"
+   ]
+  },
+  {
+   "ayah": "9:93",
+   "degree": 2,
+   "roots_present": [
+    "طبع",
+    "رضو"
+   ]
+  },
+  {
+   "ayah": "16:108",
+   "degree": 2,
+   "roots_present": [
+    "طبع",
+    "غفل"
+   ]
+  },
+  {
+   "ayah": "22:53",
+   "degree": 2,
+   "roots_present": [
+    "قسو",
+    "مرض"
+   ]
+  },
+  {
+   "ayah": "47:20",
+   "degree": 2,
+   "roots_present": [
+    "مرض",
+    "غشو"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "قلب+قسو": [
+   "2:74",
+   "5:13",
+   "6:43",
+   "22:53",
+   "39:22",
+   "57:16"
+  ],
+  "قلب+رعب": [
+   "3:151",
+   "8:12",
+   "18:18",
+   "33:26",
+   "59:2"
+  ],
+  "قلب+طبع": [
+   "4:155",
+   "7:100",
+   "7:101",
+   "9:87",
+   "9:93",
+   "10:74",
+   "16:108",
+   "30:59",
+   "40:35",
+   "47:16",
+   "63:3"
+  ],
+  "قلب+زيغ": [
+   "3:7",
+   "3:8",
+   "9:117",
+   "33:10",
+   "61:5"
+  ],
+  "قلب+طمن": [
+   "2:260",
+   "3:126",
+   "5:113",
+   "8:10",
+   "13:28",
+   "16:106",
+   "22:11"
+  ],
+  "قلب+مرض": [
+   "2:10",
+   "5:52",
+   "8:49",
+   "9:125",
+   "22:53",
+   "24:50",
+   "33:12",
+   "33:32",
+   "33:60",
+   "47:20",
+   "47:29",
+   "74:31"
+  ],
+  "قلب+فقه": [
+   "6:25",
+   "7:179",
+   "9:87",
+   "9:127",
+   "17:46",
+   "18:57",
+   "63:3"
+  ],
+  "قلب+غشو": [
+   "2:7",
+   "3:154",
+   "8:11",
+   "45:23",
+   "47:20"
+  ],
+  "قلب+غفل": [
+   "2:74",
+   "2:144",
+   "7:179",
+   "16:108",
+   "18:28"
+  ],
+  "قلب+رضو": [
+   "2:144",
+   "3:174",
+   "9:8",
+   "9:87",
+   "9:93",
+   "33:51",
+   "48:18",
+   "57:27",
+   "58:22"
+  ],
+  "قلب+اذن": [
+   "2:97",
+   "6:25",
+   "7:179",
+   "9:45",
+   "9:93",
+   "17:46",
+   "18:57",
+   "22:46",
+   "33:53",
+   "34:23",
+   "41:5",
+   "64:11"
+  ],
+  "قلب+نفق": [
+   "3:167",
+   "8:49",
+   "8:63",
+   "9:64",
+   "9:77",
+   "18:42",
+   "22:35",
+   "33:12",
+   "33:60"
+  ],
+  "قلب+رسل": [
+   "2:143",
+   "3:144",
+   "5:41",
+   "7:101",
+   "8:24",
+   "10:74",
+   "24:50",
+   "33:12",
+   "33:53",
+   "33:66",
+   "48:12",
+   "48:26",
+   "49:3",
+   "49:7",
+   "49:14",
+   "57:27",
+   "58:22",
+   "61:5"
+  ],
+  "قلب+اله": [
+   "2:7",
+   "2:10",
+   "2:74",
+   "2:88",
+   "2:97",
+   "2:118",
+   "2:143",
+   "2:144",
+   "2:204",
+   "2:225",
+   "2:260",
+   "2:283",
+   "3:7",
+   "3:103",
+   "3:126",
+   "3:144",
+   "3:151",
+   "3:154",
+   "3:156",
+   "3:159"
+  ],
+  "قلب+زين": [
+   "6:43",
+   "10:88",
+   "18:28",
+   "48:12",
+   "49:7"
+  ],
+  "قلب+ابد": [
+   "18:57",
+   "33:53",
+   "48:12"
+  ],
+  "قلب+اهل": [
+   "7:100",
+   "12:62",
+   "33:26",
+   "48:11",
+   "48:12",
+   "48:26",
+   "59:2",
+   "83:31",
+   "84:9"
+  ],
+  "قلب+عظم": [
+   "2:7",
+   "3:174",
+   "5:41",
+   "16:106",
+   "22:32",
+   "33:53",
+   "49:3"
+  ],
+  "قلب+بصر": [
+   "2:7",
+   "3:156",
+   "6:46",
+   "6:110",
+   "7:179",
+   "16:108",
+   "21:3",
+   "22:46",
+   "24:37",
+   "24:44",
+   "33:10",
+   "45:23",
+   "59:2",
+   "67:4"
+  ],
+  "قلب+اوي": [
+   "3:151",
+   "9:95",
+   "33:51"
+  ]
+ }
+}
