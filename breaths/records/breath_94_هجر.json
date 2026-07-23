@@ -1,0 +1,1547 @@
+{
+ "breath_number": 94,
+ "deliberation": [
+  {
+   "root": "هجر",
+   "attestation": 31
+  },
+  {
+   "root": "اوي",
+   "attestation": 36
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "هجر",
+ "attestation": 31,
+ "ayat": 27,
+ "top": [
+  {
+   "root": "جهد",
+   "shared": 6,
+   "expected": 0.16,
+   "lift": 38.494,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سبل",
+   "shared": 10,
+   "expected": 0.71,
+   "lift": 14.083,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعض",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.274,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نصر",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.115,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "غفر",
+   "shared": 6,
+   "expected": 0.87,
+   "lift": 6.86,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رحم",
+   "shared": 8,
+   "expected": 1.36,
+   "lift": 5.903,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نفس",
+   "shared": 6,
+   "expected": 1.17,
+   "lift": 5.133,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امن",
+   "shared": 10,
+   "expected": 3.13,
+   "lift": 3.195,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 20,
+   "expected": 8.14,
+   "lift": 2.458,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كون",
+   "shared": 8,
+   "expected": 5.09,
+   "lift": 1.571,
+   "p_perm": 0.1362,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "جهد",
+  "سبل",
+  "بعض",
+  "نصر",
+  "غفر",
+  "رحم",
+  "نفس"
+ ],
+ "one_way": [
+  "امن",
+  "اله",
+  "كون"
+ ],
+ "neighbor_view": {
+  "جهد": {
+   "root": "هجر",
+   "shared": 6,
+   "expected": 0.16,
+   "lift": 38.494,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سبل": {
+   "root": "هجر",
+   "shared": 10,
+   "expected": 0.71,
+   "lift": 14.083,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعض": {
+   "root": "هجر",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.274,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نصر": {
+   "root": "هجر",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.115,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "غفر": {
+   "root": "هجر",
+   "shared": 6,
+   "expected": 0.87,
+   "lift": 6.86,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رحم": {
+   "root": "هجر",
+   "shared": 8,
+   "expected": 1.36,
+   "lift": 5.903,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "نفس": {
+   "root": "هجر",
+   "shared": 6,
+   "expected": 1.17,
+   "lift": 5.133,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "امن": null,
+  "اله": null,
+  "كون": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "هجر↔فلح",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.77,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "هجر↔صلو",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔زكو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔اذن",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔نفق",
+   "shared": 2,
+   "expected": 0.37,
+   "lift": 5.37,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "هجر↔سرر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔علن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔رزق",
+   "shared": 2,
+   "expected": 0.47,
+   "lift": 4.24,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "هجر↔بسط",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔طيب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔حلل",
+   "shared": 2,
+   "expected": 0.19,
+   "lift": 10.74,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "هجر↔حرم",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔سجد",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔اكل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔طوع",
+   "shared": 1,
+   "expected": 0.51,
+   "lift": 1.96,
+   "p_perm": 0.4153
+  },
+  {
+   "pair": "هجر↔شهد",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔كبر",
+   "shared": 3,
+   "expected": 0.66,
+   "lift": 4.53,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "هجر↔حيي",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔خير",
+   "shared": 1,
+   "expected": 0.77,
+   "lift": 1.3,
+   "p_perm": 0.5648
+  },
+  {
+   "pair": "هجر↔ولي",
+   "shared": 4,
+   "expected": 0.87,
+   "lift": 4.57,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "هجر↔عمل",
+   "shared": 2,
+   "expected": 1.36,
+   "lift": 1.48,
+   "p_perm": 0.3688
+  },
+  {
+   "pair": "هجر↔رسل",
+   "shared": 3,
+   "expected": 1.86,
+   "lift": 1.62,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "هجر↔اله",
+   "shared": 20,
+   "expected": 8.14,
+   "lift": 2.46,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "هجر↔حبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔بقي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عدل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔كفي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔دبر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔زين",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عقل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔خبر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔غيب",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.91,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "هجر↔جرم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عرف",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.73,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "هجر↔نكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔علو",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.4,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "هجر↔متع",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔حين",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔وكل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قلل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔ثمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔شري",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔شكر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔فلك",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔بحر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔برر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔جري",
+   "shared": 2,
+   "expected": 0.28,
+   "lift": 7.22,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "هجر↔ابد",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.25,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "هجر↔فوز",
+   "shared": 2,
+   "expected": 0.12,
+   "lift": 17.11,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "هجر↔سخر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔تحت",
+   "shared": 2,
+   "expected": 0.22,
+   "lift": 9.24,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "هجر↔رضو",
+   "shared": 2,
+   "expected": 0.28,
+   "lift": 7.22,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "هجر↔نجو",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔خلد",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.69,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "هجر↔شطن",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔سبح",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔حمد",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔غني",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔فقر",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 16.5,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "هجر↔مول",
+   "shared": 4,
+   "expected": 0.35,
+   "lift": 11.55,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "هجر↔ليل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قمر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔شمس",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔بغي",
+   "shared": 2,
+   "expected": 0.39,
+   "lift": 5.13,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "هجر↔صحب",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔ولد",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔فضل",
+   "shared": 3,
+   "expected": 0.4,
+   "lift": 7.53,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "هجر↔عدو",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔اثم",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔نهر",
+   "shared": 2,
+   "expected": 0.44,
+   "lift": 4.53,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "هجر↔دخل",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.08,
+   "p_perm": 0.3422
+  },
+  {
+   "pair": "هجر↔بوب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔فتح",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔اهل",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قري",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔هلك",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قرن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عظم",
+   "shared": 2,
+   "expected": 0.55,
+   "lift": 3.64,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "هجر↔اجر",
+   "shared": 4,
+   "expected": 0.43,
+   "lift": 9.33,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "هجر↔ضيع",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 23.1,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "هجر↔قدر",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔دنو",
+   "shared": 1,
+   "expected": 0.55,
+   "lift": 1.8,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "هجر↔خزي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔دون",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.63,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "هجر↔نفع",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔ضرر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔كشف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔مسس",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔بصر",
+   "shared": 1,
+   "expected": 0.6,
+   "lift": 1.66,
+   "p_perm": 0.4485
+  },
+  {
+   "pair": "هجر↔فاد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عمي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔نصر",
+   "shared": 6,
+   "expected": 0.59,
+   "lift": 10.12,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "هجر↔صلو",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔زكو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔اذن",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔سرر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔علن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔بسط",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔طيب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔حرم",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔سجد",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔اكل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔شهد",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔حيي",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔حبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔بقي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عدل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔كفي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔دبر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔زين",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عقل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔خبر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔جرم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔نكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔متع",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔حين",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔وكل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قلل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔ثمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔شري",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔شكر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔فلك",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔بحر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔برر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔سخر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔نجو",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔شطن",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔سبح",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔حمد",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔غني",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔ليل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قمر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔شمس",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔صحب",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔ولد",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عدو",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔اثم",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔بوب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔فتح",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔اهل",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قري",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔هلك",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قرن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔قدر",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔خزي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔نفع",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔ضرر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔كشف",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔مسس",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔فاد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "هجر↔عمي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "8:72",
+   "degree": 7,
+   "roots_present": [
+    "جهد",
+    "سبل",
+    "بعض",
+    "نصر",
+    "نفس",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:218",
+   "degree": 6,
+   "roots_present": [
+    "جهد",
+    "سبل",
+    "غفر",
+    "رحم",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "8:74",
+   "degree": 6,
+   "roots_present": [
+    "جهد",
+    "سبل",
+    "نصر",
+    "غفر",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "33:6",
+   "degree": 6,
+   "roots_present": [
+    "بعض",
+    "رحم",
+    "نفس",
+    "امن",
+    "اله",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "33:50",
+   "degree": 6,
+   "roots_present": [
+    "غفر",
+    "رحم",
+    "نفس",
+    "امن",
+    "اله",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "4:100",
+   "degree": 5,
+   "roots_present": [
+    "سبل",
+    "غفر",
+    "رحم",
+    "اله",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "8:75",
+   "degree": 5,
+   "roots_present": [
+    "جهد",
+    "بعض",
+    "رحم",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "9:20",
+   "degree": 5,
+   "roots_present": [
+    "جهد",
+    "سبل",
+    "نفس",
+    "امن",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "هجر+جهد": [
+   "2:218",
+   "8:72",
+   "8:74",
+   "8:75",
+   "9:20",
+   "16:110"
+  ],
+  "هجر+سبل": [
+   "2:218",
+   "3:195",
+   "4:34",
+   "4:89",
+   "4:100",
+   "8:72",
+   "8:74",
+   "9:20",
+   "22:58",
+   "24:22"
+  ],
+  "هجر+بعض": [
+   "3:195",
+   "4:34",
+   "8:72",
+   "8:75",
+   "33:6"
+  ],
+  "هجر+نصر": [
+   "4:89",
+   "8:72",
+   "8:74",
+   "9:100",
+   "9:117",
+   "59:8"
+  ],
+  "هجر+غفر": [
+   "2:218",
+   "4:100",
+   "8:74",
+   "16:110",
+   "24:22",
+   "33:50"
+  ],
+  "هجر+رحم": [
+   "2:218",
+   "4:100",
+   "8:75",
+   "9:117",
+   "16:110",
+   "24:22",
+   "33:6",
+   "33:50"
+  ],
+  "هجر+نفس": [
+   "4:97",
+   "8:72",
+   "9:20",
+   "33:6",
+   "33:50",
+   "59:9"
+  ],
+  "هجر+امن": [
+   "2:218",
+   "8:72",
+   "8:74",
+   "8:75",
+   "9:20",
+   "29:26",
+   "33:6",
+   "33:50",
+   "59:9",
+   "60:10"
+  ],
+  "هجر+اله": [
+   "2:218",
+   "3:195",
+   "4:34",
+   "4:89",
+   "4:97",
+   "4:100",
+   "8:72",
+   "8:74",
+   "8:75",
+   "9:20",
+   "9:100",
+   "9:117",
+   "16:41",
+   "19:46",
+   "22:58",
+   "24:22",
+   "33:6",
+   "33:50",
+   "59:8",
+   "60:10"
+  ],
+  "هجر+حلل": [
+   "33:50",
+   "60:10"
+  ],
+  "هجر+كبر": [
+   "4:34",
+   "16:41",
+   "23:67"
+  ],
+  "هجر+ولي": [
+   "4:89",
+   "8:72",
+   "8:75",
+   "33:6"
+  ],
+  "هجر+جري": [
+   "3:195",
+   "9:100"
+  ],
+  "هجر+فوز": [
+   "9:20",
+   "9:100"
+  ],
+  "هجر+تحت": [
+   "3:195",
+   "9:100"
+  ],
+  "هجر+رضو": [
+   "9:100",
+   "59:8"
+  ],
+  "هجر+مول": [
+   "4:34",
+   "8:72",
+   "9:20",
+   "59:8"
+  ],
+  "هجر+بغي": [
+   "4:34",
+   "59:8"
+  ],
+  "هجر+فضل": [
+   "4:34",
+   "24:22",
+   "59:8"
+  ],
+  "هجر+اجر": [
+   "4:100",
+   "16:41",
+   "33:50",
+   "60:10"
+  ],
+  "هجر+ضيع": [
+   "3:195"
+  ]
+ }
+}

@@ -389,7 +389,8 @@
   "بصر",
   "فاد",
   "عمي",
-  "نصر"
+  "نصر",
+  "هجر"
  ],
  "open_queue": [
   "اتي",
@@ -406,6 +407,7 @@
   "حسن",
   "دعو",
   "راي",
+  "رحم",
   "سمع",
   "سمو",
   "شرك",
@@ -428,7 +430,6 @@
   "نفس",
   "نور",
   "نوس",
-  "هجر",
   "وقي"
  ],
  "edges": [
@@ -2082,6 +2083,22 @@
   },
   {
    "a": "اله",
+   "b": "هجر",
+   "directions": {
+    "هجر→اله": {
+     "breath": 94,
+     "lift": 2.458,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 20
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "هلل",
    "directions": {
     "اله→هلل": {
@@ -2315,6 +2332,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "هجر",
+   "directions": {
+    "هجر→امن": {
+     "breath": 94,
+     "lift": 3.195,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
     }
    },
    "mutual_strong": false,
@@ -3563,6 +3596,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعض",
+   "b": "هجر",
+   "directions": {
+    "هجر→بعض": {
+     "breath": 94,
+     "lift": 13.274,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -5179,6 +5228,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جهد",
+   "b": "هجر",
+   "directions": {
+    "هجر→جهد": {
+     "breath": 94,
+     "lift": 38.494,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -7529,6 +7594,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "رحم",
+   "b": "هجر",
+   "directions": {
+    "هجر→رحم": {
+     "breath": 94,
+     "lift": 5.903,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "ردد",
    "b": "شهد",
    "directions": {
@@ -8411,6 +8492,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبل",
+   "b": "هجر",
+   "directions": {
+    "هجر→سبل": {
+     "breath": 94,
+     "lift": 14.083,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
     }
    },
    "mutual_strong": false,
@@ -10833,6 +10930,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "غفر",
+   "b": "هجر",
+   "directions": {
+    "هجر→غفر": {
+     "breath": 94,
+     "lift": 6.86,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "غني",
    "b": "فضل",
    "directions": {
@@ -11907,9 +12020,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "هجر→نصر": {
+     "breath": 94,
+     "lift": 10.115,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -11979,6 +12100,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "نفس",
+   "b": "هجر",
+   "directions": {
+    "هجر→نفس": {
+     "breath": 94,
+     "lift": 5.133,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
