@@ -17,6 +17,7 @@
   "اله",
   "امر",
   "امن",
+  "انس",
   "اهل",
   "اول",
   "ايي",
@@ -35,6 +36,7 @@
   "بني",
   "بيت",
   "بين",
+  "تبع",
   "تحت",
   "تلو",
   "ثمر",
@@ -70,6 +72,7 @@
   "خلف",
   "خلق",
   "خنزر",
+  "خوف",
   "خير",
   "دبر",
   "دخل",
@@ -81,6 +84,7 @@
   "راي",
   "ربب",
   "ربع",
+  "رجم",
   "رحم",
   "ردد",
   "رزق",
@@ -135,6 +139,7 @@
   "عبد",
   "عجز",
   "عدل",
+  "عدو",
   "عذب",
   "عرف",
   "عسي",
@@ -147,6 +152,7 @@
   "علو",
   "عمل",
   "عند",
+  "عوذ",
   "غرر",
   "غفر",
   "غفل",
@@ -282,7 +288,8 @@
   "تحت",
   "رضو",
   "نجو",
-  "خلد"
+  "خلد",
+  "شطن"
  ],
  "open_queue": [
   "اتي",
@@ -303,10 +310,10 @@
   "سبح",
   "سمو",
   "شرك",
-  "شطن",
   "شيا",
   "صحب",
   "صلح",
+  "عدو",
   "عذب",
   "عظم",
   "علم",
@@ -509,6 +516,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "ابو",
+   "b": "شطن",
+   "directions": {
+    "شطن→ابو": {
+     "breath": 56,
+     "lift": 3.844,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "ابو",
@@ -1711,6 +1734,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "انس",
+   "b": "شطن",
+   "directions": {
+    "شطن→انس": {
+     "breath": 56,
+     "lift": 4.298,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "اهل",
    "b": "شهد",
    "directions": {
@@ -2637,6 +2676,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "تبع",
+   "b": "شطن",
+   "directions": {
+    "شطن→تبع": {
+     "breath": 56,
+     "lift": 4.612,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "تحت",
@@ -4391,6 +4446,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "خوف",
+   "b": "شطن",
+   "directions": {
+    "شطن→خوف": {
+     "breath": 56,
+     "lift": 3.569,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "خير",
    "b": "زكو",
    "directions": {
@@ -4680,6 +4751,22 @@
   },
   {
    "a": "دون",
+   "b": "شطن",
+   "directions": {
+    "شطن→دون": {
+     "breath": 56,
+     "lift": 3.378,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دون",
    "b": "ولي",
    "directions": {
     "ولي→دون": {
@@ -4765,6 +4852,22 @@
     "شهد→ربع": {
      "breath": 17,
      "lift": 12.071,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجم",
+   "b": "شطن",
+   "directions": {
+    "شطن→رجم": {
+     "breath": 56,
+     "lift": 28.553,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -5329,9 +5432,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "شطن→زين": {
+     "breath": 56,
+     "lift": 11.156,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -5949,6 +6060,54 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "شطن",
+   "b": "عدو",
+   "directions": {
+    "شطن→عدو": {
+     "breath": 56,
+     "lift": 11.297,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "شطن",
+   "b": "عوذ",
+   "directions": {
+    "شطن→عوذ": {
+     "breath": 56,
+     "lift": 23.514,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شطن",
+   "b": "ولي",
+   "directions": {
+    "شطن→ولي": {
+     "breath": 56,
+     "lift": 3.562,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "شكر",

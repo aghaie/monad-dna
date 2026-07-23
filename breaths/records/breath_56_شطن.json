@@ -1,0 +1,983 @@
+{
+ "breath_number": 56,
+ "deliberation": [
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "سبح",
+   "attestation": 92
+  },
+  {
+   "root": "ليل",
+   "attestation": 92
+  },
+  {
+   "root": "بغي",
+   "attestation": 96
+  },
+  {
+   "root": "صحب",
+   "attestation": 97
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "نهر",
+   "attestation": 113
+  },
+  {
+   "root": "دخل",
+   "attestation": 126
+  },
+  {
+   "root": "اهل",
+   "attestation": 127
+  },
+  {
+   "root": "عظم",
+   "attestation": 128
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "شطن",
+ "attestation": 88,
+ "ayat": 78,
+ "top": [
+  {
+   "root": "رجم",
+   "shared": 5,
+   "expected": 0.18,
+   "lift": 28.553,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عوذ",
+   "shared": 5,
+   "expected": 0.21,
+   "lift": 23.514,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عدو",
+   "shared": 13,
+   "expected": 1.15,
+   "lift": 11.297,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "زين",
+   "shared": 6,
+   "expected": 0.54,
+   "lift": 11.156,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "تبع",
+   "shared": 9,
+   "expected": 1.95,
+   "lift": 4.612,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "انس",
+   "shared": 5,
+   "expected": 1.16,
+   "lift": 4.298,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ابو",
+   "shared": 5,
+   "expected": 1.3,
+   "lift": 3.844,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خوف",
+   "shared": 5,
+   "expected": 1.4,
+   "lift": 3.569,
+   "p_perm": 0.0233,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ولي",
+   "shared": 9,
+   "expected": 2.53,
+   "lift": 3.562,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دون",
+   "shared": 6,
+   "expected": 1.78,
+   "lift": 3.378,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "رجم",
+  "عوذ",
+  "عدو",
+  "زين",
+  "تبع",
+  "انس",
+  "ابو",
+  "خوف"
+ ],
+ "one_way": [
+  "ولي",
+  "دون"
+ ],
+ "neighbor_view": {
+  "رجم": {
+   "root": "شطن",
+   "shared": 5,
+   "expected": 0.18,
+   "lift": 28.553,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عوذ": {
+   "root": "شطن",
+   "shared": 5,
+   "expected": 0.21,
+   "lift": 23.514,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عدو": {
+   "root": "شطن",
+   "shared": 13,
+   "expected": 1.15,
+   "lift": 11.297,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "زين": {
+   "root": "شطن",
+   "shared": 6,
+   "expected": 0.54,
+   "lift": 11.156,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "تبع": {
+   "root": "شطن",
+   "shared": 9,
+   "expected": 1.95,
+   "lift": 4.612,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "انس": {
+   "root": "شطن",
+   "shared": 5,
+   "expected": 1.16,
+   "lift": 4.298,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ابو": {
+   "root": "شطن",
+   "shared": 5,
+   "expected": 1.3,
+   "lift": 3.844,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خوف": {
+   "root": "شطن",
+   "shared": 5,
+   "expected": 1.4,
+   "lift": 3.569,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ولي": null,
+  "دون": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "شطن↔فلح",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 2.0,
+   "p_perm": 0.4186
+  },
+  {
+   "pair": "شطن↔صلو",
+   "shared": 1,
+   "expected": 1.13,
+   "lift": 0.89,
+   "p_perm": 0.6944
+  },
+  {
+   "pair": "شطن↔زكو",
+   "shared": 1,
+   "expected": 0.7,
+   "lift": 1.43,
+   "p_perm": 0.5017
+  },
+  {
+   "pair": "شطن↔اذن",
+   "shared": 3,
+   "expected": 1.13,
+   "lift": 2.66,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "شطن↔نفق",
+   "shared": 1,
+   "expected": 1.08,
+   "lift": 0.93,
+   "p_perm": 0.6944
+  },
+  {
+   "pair": "شطن↔سرر",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔علن",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔رزق",
+   "shared": 1,
+   "expected": 1.36,
+   "lift": 0.73,
+   "p_perm": 0.7209
+  },
+  {
+   "pair": "شطن↔بسط",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔طيب",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.74,
+   "p_perm": 0.4452
+  },
+  {
+   "pair": "شطن↔خبث",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔حلل",
+   "shared": 2,
+   "expected": 0.54,
+   "lift": 3.72,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "شطن↔حرم",
+   "shared": 1,
+   "expected": 0.89,
+   "lift": 1.13,
+   "p_perm": 0.6346
+  },
+  {
+   "pair": "شطن↔سجد",
+   "shared": 2,
+   "expected": 1.01,
+   "lift": 1.97,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "شطن↔اكل",
+   "shared": 4,
+   "expected": 1.26,
+   "lift": 3.17,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "شطن↔طوع",
+   "shared": 2,
+   "expected": 1.48,
+   "lift": 1.36,
+   "p_perm": 0.4485
+  },
+  {
+   "pair": "شطن↔شهد",
+   "shared": 0,
+   "expected": 1.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔كبر",
+   "shared": 0,
+   "expected": 1.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔حيي",
+   "shared": 0,
+   "expected": 2.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔خير",
+   "shared": 0,
+   "expected": 2.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔ولي",
+   "shared": 9,
+   "expected": 2.53,
+   "lift": 3.56,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شطن↔عمل",
+   "shared": 8,
+   "expected": 3.92,
+   "lift": 2.04,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "شطن↔رسل",
+   "shared": 4,
+   "expected": 5.37,
+   "lift": 0.75,
+   "p_perm": 0.804
+  },
+  {
+   "pair": "شطن↔اله",
+   "shared": 28,
+   "expected": 23.5,
+   "lift": 1.19,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "شطن↔حبط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔بقي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔عدل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔كفي",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔دبر",
+   "shared": 1,
+   "expected": 0.55,
+   "lift": 1.82,
+   "p_perm": 0.4186
+  },
+  {
+   "pair": "شطن↔زين",
+   "shared": 6,
+   "expected": 0.54,
+   "lift": 11.16,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شطن↔عقل",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔خبر",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔غيب",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔جرم",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔عرف",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔نكر",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.16,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "شطن↔علو",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔متع",
+   "shared": 1,
+   "expected": 0.81,
+   "lift": 1.23,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "شطن↔حين",
+   "shared": 2,
+   "expected": 0.41,
+   "lift": 4.85,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "شطن↔وكل",
+   "shared": 1,
+   "expected": 0.76,
+   "lift": 1.31,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "شطن↔قلل",
+   "shared": 1,
+   "expected": 0.93,
+   "lift": 1.08,
+   "p_perm": 0.6113
+  },
+  {
+   "pair": "شطن↔ثمن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔شري",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.48,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "شطن↔شكر",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔فلك",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔بحر",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 2.0,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "شطن↔برر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔جري",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔ابد",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.86,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "شطن↔فوز",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔سخر",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔تحت",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔رضو",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔نجو",
+   "shared": 2,
+   "expected": 0.94,
+   "lift": 2.13,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "شطن↔خلد",
+   "shared": 3,
+   "expected": 1.08,
+   "lift": 2.79,
+   "p_perm": 0.1096
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "شطن↔سرر",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔علن",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔بسط",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔خبث",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔شهد",
+   "shared": 0,
+   "expected": 1.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔كبر",
+   "shared": 0,
+   "expected": 1.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔حيي",
+   "shared": 0,
+   "expected": 2.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔خير",
+   "shared": 0,
+   "expected": 2.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔حبط",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔بقي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔عدل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔كفي",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔عقل",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔خبر",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔غيب",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔جرم",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔عرف",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔علو",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔ثمن",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔شكر",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔فلك",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔برر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔جري",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔فوز",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔سخر",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔تحت",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شطن↔رضو",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "19:45",
+   "degree": 3,
+   "roots_present": [
+    "ابو",
+    "خوف",
+    "ولي"
+   ]
+  },
+  {
+   "ayah": "2:168",
+   "degree": 2,
+   "roots_present": [
+    "عدو",
+    "تبع"
+   ]
+  },
+  {
+   "ayah": "2:208",
+   "degree": 2,
+   "roots_present": [
+    "عدو",
+    "تبع"
+   ]
+  },
+  {
+   "ayah": "3:36",
+   "degree": 2,
+   "roots_present": [
+    "رجم",
+    "عوذ"
+   ]
+  },
+  {
+   "ayah": "3:175",
+   "degree": 2,
+   "roots_present": [
+    "خوف",
+    "ولي"
+   ]
+  },
+  {
+   "ayah": "4:83",
+   "degree": 2,
+   "roots_present": [
+    "تبع",
+    "خوف"
+   ]
+  },
+  {
+   "ayah": "4:119",
+   "degree": 2,
+   "roots_present": [
+    "ولي",
+    "دون"
+   ]
+  },
+  {
+   "ayah": "6:112",
+   "degree": 2,
+   "roots_present": [
+    "عدو",
+    "انس"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "شطن+رجم": [
+   "3:36",
+   "15:17",
+   "16:98",
+   "67:5",
+   "81:25"
+  ],
+  "شطن+عوذ": [
+   "3:36",
+   "7:200",
+   "16:98",
+   "23:97",
+   "41:36"
+  ],
+  "شطن+عدو": [
+   "2:36",
+   "2:168",
+   "2:208",
+   "5:91",
+   "6:112",
+   "6:142",
+   "7:22",
+   "12:5",
+   "17:53",
+   "28:15",
+   "35:6",
+   "36:60",
+   "43:62"
+  ],
+  "شطن+زين": [
+   "6:43",
+   "8:48",
+   "16:63",
+   "27:24",
+   "29:38",
+   "67:5"
+  ],
+  "شطن+تبع": [
+   "2:102",
+   "2:168",
+   "2:208",
+   "4:83",
+   "6:142",
+   "7:175",
+   "22:3",
+   "24:21",
+   "31:21"
+  ],
+  "شطن+انس": [
+   "6:112",
+   "12:5",
+   "17:53",
+   "25:29",
+   "59:16"
+  ],
+  "شطن+ابو": [
+   "7:27",
+   "12:100",
+   "19:44",
+   "19:45",
+   "31:21"
+  ],
+  "شطن+خوف": [
+   "3:175",
+   "4:83",
+   "8:48",
+   "19:45",
+   "59:16"
+  ],
+  "شطن+ولي": [
+   "3:155",
+   "3:175",
+   "4:76",
+   "4:119",
+   "6:121",
+   "7:27",
+   "7:30",
+   "16:63",
+   "19:45"
+  ],
+  "شطن+دون": [
+   "4:117",
+   "4:119",
+   "6:71",
+   "7:30",
+   "21:82",
+   "27:24"
+  ],
+  "شطن+اكل": [
+   "2:168",
+   "2:275",
+   "6:121",
+   "6:142"
+  ],
+  "شطن+عمل": [
+   "5:90",
+   "6:43",
+   "8:48",
+   "16:63",
+   "21:82",
+   "27:24",
+   "28:15",
+   "29:38"
+  ]
+ }
+}
