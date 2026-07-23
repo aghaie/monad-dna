@@ -1,0 +1,1049 @@
+{
+ "breath_number": 59,
+ "deliberation": [
+  {
+   "root": "غني",
+   "attestation": 73
+  },
+  {
+   "root": "ليل",
+   "attestation": 92
+  },
+  {
+   "root": "بغي",
+   "attestation": 96
+  },
+  {
+   "root": "صحب",
+   "attestation": 97
+  },
+  {
+   "root": "ولد",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "عدو",
+   "attestation": 106
+  },
+  {
+   "root": "نهر",
+   "attestation": 113
+  },
+  {
+   "root": "دخل",
+   "attestation": 126
+  },
+  {
+   "root": "اهل",
+   "attestation": 127
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "غني",
+ "attestation": 73,
+ "ayat": 72,
+ "top": [
+  {
+   "root": "فقر",
+   "shared": 7,
+   "expected": 0.16,
+   "lift": 43.306,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حمد",
+   "shared": 10,
+   "expected": 0.7,
+   "lift": 14.199,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كسب",
+   "shared": 6,
+   "expected": 0.69,
+   "lift": 8.661,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "مول",
+   "shared": 8,
+   "expected": 0.92,
+   "lift": 8.661,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ولد",
+   "shared": 5,
+   "expected": 0.92,
+   "lift": 5.413,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "فضل",
+   "shared": 5,
+   "expected": 1.06,
+   "lift": 4.707,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ولي",
+   "shared": 10,
+   "expected": 2.33,
+   "lift": 4.288,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شيا",
+   "shared": 22,
+   "expected": 5.18,
+   "lift": 4.244,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "تبع",
+   "shared": 6,
+   "expected": 1.8,
+   "lift": 3.331,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعد",
+   "shared": 7,
+   "expected": 2.54,
+   "lift": 2.756,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "فقر",
+  "حمد",
+  "كسب",
+  "مول",
+  "ولد",
+  "ولي",
+  "شيا"
+ ],
+ "one_way": [
+  "فضل",
+  "تبع",
+  "بعد"
+ ],
+ "neighbor_view": {
+  "فقر": {
+   "root": "غني",
+   "shared": 7,
+   "expected": 0.16,
+   "lift": 43.306,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حمد": {
+   "root": "غني",
+   "shared": 10,
+   "expected": 0.7,
+   "lift": 14.199,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "كسب": {
+   "root": "غني",
+   "shared": 6,
+   "expected": 0.69,
+   "lift": 8.661,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "مول": {
+   "root": "غني",
+   "shared": 8,
+   "expected": 0.92,
+   "lift": 8.661,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ولد": {
+   "root": "غني",
+   "shared": 5,
+   "expected": 0.92,
+   "lift": 5.413,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "فضل": null,
+  "ولي": {
+   "root": "غني",
+   "shared": 10,
+   "expected": 2.33,
+   "lift": 4.288,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شيا": {
+   "root": "غني",
+   "shared": 22,
+   "expected": 5.18,
+   "lift": 4.244,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "تبع": null,
+  "بعد": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "غني↔فلح",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔صلو",
+   "shared": 0,
+   "expected": 1.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔زكو",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔اذن",
+   "shared": 2,
+   "expected": 1.04,
+   "lift": 1.92,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "غني↔نفق",
+   "shared": 3,
+   "expected": 0.99,
+   "lift": 3.02,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "غني↔سرر",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔علن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔رزق",
+   "shared": 0,
+   "expected": 1.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔بسط",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔طيب",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.88,
+   "p_perm": 0.4153
+  },
+  {
+   "pair": "غني↔خبث",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.66,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "غني↔حلل",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔حرم",
+   "shared": 1,
+   "expected": 0.82,
+   "lift": 1.22,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "غني↔سجد",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.07,
+   "p_perm": 0.588
+  },
+  {
+   "pair": "غني↔اكل",
+   "shared": 2,
+   "expected": 1.17,
+   "lift": 1.72,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "غني↔طوع",
+   "shared": 2,
+   "expected": 1.36,
+   "lift": 1.47,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "غني↔شهد",
+   "shared": 2,
+   "expected": 1.42,
+   "lift": 1.41,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "غني↔كبر",
+   "shared": 4,
+   "expected": 1.77,
+   "lift": 2.26,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "غني↔حيي",
+   "shared": 2,
+   "expected": 1.86,
+   "lift": 1.08,
+   "p_perm": 0.5349
+  },
+  {
+   "pair": "غني↔خير",
+   "shared": 5,
+   "expected": 2.06,
+   "lift": 2.43,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "غني↔ولي",
+   "shared": 10,
+   "expected": 2.33,
+   "lift": 4.29,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "غني↔عمل",
+   "shared": 2,
+   "expected": 3.61,
+   "lift": 0.55,
+   "p_perm": 0.8904
+  },
+  {
+   "pair": "غني↔رسل",
+   "shared": 3,
+   "expected": 4.95,
+   "lift": 0.61,
+   "p_perm": 0.8904
+  },
+  {
+   "pair": "غني↔اله",
+   "shared": 43,
+   "expected": 21.69,
+   "lift": 1.98,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "غني↔حبط",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔بقي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔عدل",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.61,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "غني↔كفي",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.71,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "غني↔دبر",
+   "shared": 1,
+   "expected": 0.51,
+   "lift": 1.97,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "غني↔زين",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 2.01,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "غني↔عقل",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔خبر",
+   "shared": 1,
+   "expected": 0.6,
+   "lift": 1.67,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "غني↔غيب",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔جرم",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔عرف",
+   "shared": 4,
+   "expected": 0.72,
+   "lift": 5.59,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "غني↔نكر",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔علو",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔متع",
+   "shared": 1,
+   "expected": 0.75,
+   "lift": 1.33,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "غني↔حين",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔وكل",
+   "shared": 1,
+   "expected": 0.7,
+   "lift": 1.42,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "غني↔قلل",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔ثمن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔شري",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔شكر",
+   "shared": 3,
+   "expected": 0.8,
+   "lift": 3.77,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "غني↔فلك",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔بحر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔برر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔جري",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔ابد",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔فوز",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔سخر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔تحت",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.73,
+   "p_perm": 0.4684
+  },
+  {
+   "pair": "غني↔رضو",
+   "shared": 3,
+   "expected": 0.74,
+   "lift": 4.06,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "غني↔نجو",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔خلد",
+   "shared": 2,
+   "expected": 0.99,
+   "lift": 2.01,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "غني↔شطن",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔سبح",
+   "shared": 1,
+   "expected": 1.0,
+   "lift": 1.0,
+   "p_perm": 0.608
+  },
+  {
+   "pair": "غني↔حمد",
+   "shared": 10,
+   "expected": 0.7,
+   "lift": 14.2,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "غني↔فلح",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔صلو",
+   "shared": 0,
+   "expected": 1.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔زكو",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔سرر",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔علن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔رزق",
+   "shared": 0,
+   "expected": 1.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔بسط",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔حلل",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔حبط",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔بقي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔عقل",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔غيب",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔جرم",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔نكر",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔علو",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔حين",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔قلل",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔ثمن",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔شري",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔فلك",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔بحر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔برر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔جري",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔ابد",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔فوز",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔سخر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔نجو",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "غني↔شطن",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "4:135",
+   "degree": 4,
+   "roots_present": [
+    "فقر",
+    "ولد",
+    "ولي",
+    "تبع"
+   ]
+  },
+  {
+   "ayah": "3:10",
+   "degree": 3,
+   "roots_present": [
+    "مول",
+    "ولد",
+    "شيا"
+   ]
+  },
+  {
+   "ayah": "3:116",
+   "degree": 3,
+   "roots_present": [
+    "مول",
+    "ولد",
+    "شيا"
+   ]
+  },
+  {
+   "ayah": "9:28",
+   "degree": 3,
+   "roots_present": [
+    "فضل",
+    "شيا",
+    "بعد"
+   ]
+  },
+  {
+   "ayah": "9:74",
+   "degree": 3,
+   "roots_present": [
+    "فضل",
+    "ولي",
+    "بعد"
+   ]
+  },
+  {
+   "ayah": "24:33",
+   "degree": 3,
+   "roots_present": [
+    "مول",
+    "فضل",
+    "بعد"
+   ]
+  },
+  {
+   "ayah": "45:10",
+   "degree": 3,
+   "roots_present": [
+    "كسب",
+    "ولي",
+    "شيا"
+   ]
+  },
+  {
+   "ayah": "58:17",
+   "degree": 3,
+   "roots_present": [
+    "مول",
+    "ولد",
+    "شيا"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "غني+فقر": [
+   "2:273",
+   "3:181",
+   "4:6",
+   "4:135",
+   "24:32",
+   "35:15",
+   "47:38"
+  ],
+  "غني+حمد": [
+   "2:267",
+   "4:131",
+   "14:8",
+   "22:64",
+   "31:12",
+   "31:26",
+   "35:15",
+   "57:24",
+   "60:6",
+   "64:6"
+  ],
+  "غني+كسب": [
+   "2:267",
+   "15:84",
+   "39:50",
+   "40:82",
+   "45:10",
+   "111:2"
+  ],
+  "غني+مول": [
+   "3:10",
+   "3:116",
+   "4:6",
+   "24:33",
+   "58:17",
+   "69:28",
+   "92:11",
+   "111:2"
+  ],
+  "غني+ولد": [
+   "3:10",
+   "3:116",
+   "4:135",
+   "10:68",
+   "58:17"
+  ],
+  "غني+فضل": [
+   "9:28",
+   "9:74",
+   "24:32",
+   "24:33",
+   "27:40"
+  ],
+  "غني+ولي": [
+   "4:135",
+   "9:25",
+   "9:74",
+   "44:41",
+   "45:10",
+   "45:19",
+   "47:38",
+   "57:24",
+   "60:6",
+   "64:6"
+  ],
+  "غني+شيا": [
+   "3:10",
+   "3:116",
+   "6:133",
+   "8:19",
+   "9:25",
+   "9:28",
+   "10:36",
+   "11:101",
+   "12:67",
+   "12:68",
+   "14:21",
+   "19:42",
+   "36:23",
+   "44:41",
+   "45:10",
+   "45:19",
+   "46:26",
+   "52:46",
+   "53:26",
+   "53:28"
+  ],
+  "غني+تبع": [
+   "2:263",
+   "4:135",
+   "10:36",
+   "14:21",
+   "40:47",
+   "53:28"
+  ],
+  "غني+بعد": [
+   "6:133",
+   "9:28",
+   "9:74",
+   "11:68",
+   "11:95",
+   "24:33",
+   "53:26"
+  ],
+  "غني+اله": [
+   "2:263",
+   "2:267",
+   "2:273",
+   "3:10",
+   "3:97",
+   "3:116",
+   "3:181",
+   "4:6",
+   "4:130",
+   "4:131",
+   "4:135",
+   "8:19",
+   "9:25",
+   "9:28",
+   "9:74",
+   "9:93",
+   "10:36",
+   "10:68",
+   "11:101",
+   "12:67"
+  ],
+  "غني+عرف": [
+   "2:263",
+   "2:273",
+   "4:6",
+   "7:48"
+  ],
+  "غني+شكر": [
+   "27:40",
+   "31:12",
+   "39:7"
+  ],
+  "غني+رضو": [
+   "9:93",
+   "39:7",
+   "53:26"
+  ]
+ }
+}
