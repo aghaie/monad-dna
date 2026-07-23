@@ -44,6 +44,7 @@
   "ثمر",
   "ثمن",
   "ثوب",
+  "جحم",
   "جرم",
   "جري",
   "جزي",
@@ -220,6 +221,7 @@
   "موه",
   "نبا",
   "نجو",
+  "ندو",
   "نزل",
   "نسو",
   "نصح",
@@ -248,6 +250,7 @@
   "ولي",
   "يتم",
   "يدي",
+  "يمن",
   "يوم"
  ],
  "visited_roots": [
@@ -315,7 +318,8 @@
   "ليل",
   "قمر",
   "شمس",
-  "بغي"
+  "بغي",
+  "صحب"
  ],
  "open_queue": [
   "اتي",
@@ -335,7 +339,6 @@
   "سمو",
   "شرك",
   "شيا",
-  "صحب",
   "صلح",
   "عدو",
   "عذب",
@@ -348,11 +351,13 @@
   "قول",
   "قوم",
   "كتب",
+  "كذب",
   "كون",
   "ملك",
   "موت",
   "نبا",
   "نهر",
+  "نور",
   "نوس",
   "وقي",
   "ولد"
@@ -3287,6 +3292,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "جحم",
+   "b": "صحب",
+   "directions": {
+    "صحب→جحم": {
+     "breath": 66,
+     "lift": 16.169,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "جرم",
    "b": "راي",
    "directions": {
@@ -3681,6 +3702,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 31
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جنن",
+   "b": "صحب",
+   "directions": {
+    "صحب→جنن": {
+     "breath": 66,
+     "lift": 5.72,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
     }
    },
    "mutual_strong": false,
@@ -4793,9 +4830,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 16
+    },
+    "صحب→خلد": {
+     "breath": 66,
+     "lift": 13.036,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -7209,6 +7254,102 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صحب",
+   "b": "كذب",
+   "directions": {
+    "صحب→كذب": {
+     "breath": 66,
+     "lift": 2.999,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "صحب",
+   "b": "كفر",
+   "directions": {
+    "صحب→كفر": {
+     "breath": 66,
+     "lift": 2.712,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صحب",
+   "b": "ندو",
+   "directions": {
+    "صحب→ندو": {
+     "breath": 66,
+     "lift": 8.408,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صحب",
+   "b": "نور",
+   "directions": {
+    "صحب→نور": {
+     "breath": 66,
+     "lift": 8.456,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 21
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "صحب",
+   "b": "ولد",
+   "directions": {
+    "صحب→ولد": {
+     "breath": 66,
+     "lift": 4.379,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "صحب",
+   "b": "يمن",
+   "directions": {
+    "صحب→يمن": {
+     "breath": 66,
+     "lift": 8.897,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
