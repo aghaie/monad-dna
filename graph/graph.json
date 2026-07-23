@@ -54,6 +54,7 @@
   "ثمر",
   "ثمن",
   "ثوب",
+  "جبل",
   "جحم",
   "جرم",
   "جري",
@@ -413,7 +414,8 @@
   "ذوق",
   "موت",
   "بعث",
-  "نظر"
+  "نظر",
+  "سير"
  ],
  "open_queue": [
   "اتي",
@@ -432,7 +434,6 @@
   "رحم",
   "سمع",
   "سمو",
-  "سير",
   "شرك",
   "شيا",
   "صلح",
@@ -1592,6 +1593,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "سير",
+   "directions": {
+    "سير→ارض": {
+     "breath": 104,
+     "lift": 8.504,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ارض",
@@ -5236,6 +5253,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جبل",
+   "b": "سير",
+   "directions": {
+    "سير→جبل": {
+     "breath": 104,
+     "lift": 31.979,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -9955,6 +9988,70 @@
   },
   {
    "a": "سير",
+   "b": "عقب",
+   "directions": {
+    "سير→عقب": {
+     "breath": 104,
+     "lift": 37.079,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سير",
+   "b": "قبل",
+   "directions": {
+    "سير→قبل": {
+     "breath": 104,
+     "lift": 7.076,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سير",
+   "b": "كون",
+   "directions": {
+    "سير→كون": {
+     "breath": 104,
+     "lift": 3.182,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سير",
+   "b": "كيف",
+   "directions": {
+    "سير→كيف": {
+     "breath": 104,
+     "lift": 36.064,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سير",
    "b": "نظر",
    "directions": {
     "نظر→سير": {
@@ -9964,9 +10061,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 12
+    },
+    "سير→نظر": {
+     "breath": 104,
+     "lift": 26.029,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
