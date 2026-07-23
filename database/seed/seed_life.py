@@ -127,6 +127,7 @@ b91 = rec("breath_91_فاد.json")
 b92 = rec("breath_92_عمي.json")
 b93 = rec("breath_93_نصر.json")
 b94 = rec("breath_94_هجر.json")
+b95 = rec("breath_95_اوي.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -602,6 +603,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_94_هجر.json",
      "breaths/records/breath_94_هجر.json", LOG1,
      "دو قوی پایدار (نصر دوسویه ۱۰٫۱، رحم دوسویه ۵٫۹)؛ جفتِ متقابل: هجر↔نصر؛ جهد دوسویهٔ محتملِ ناپایدار lift=۳۸٫۵؛ ۸:۷۲ گرهِ هفت‌ریشه‌ای؛ شاهدِ غیاب: شصت صفر", b94["top"]),
+    (95, "تولدِ دوباره", "اوي", "قاعدهٔ صف (خودران)",
+     b95["ayat"], b95["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_95_اوي.json",
+     "breaths/records/breath_95_اوي.json", LOG1,
+     "چهار قوی پایدار (صير دوسویه ۴۱٫۸، باس دوسویه ۲۵٫۹، نور دوسویه ۸٫۰، نصر دوسویه ۷٫۶)؛ جفتِ متقابل: اوي↔نصر؛ محتمل‌ها کم‌جان (كفر ۲٫۶)؛ ۲۹:۲۵ گرهِ شش‌ریشه‌ای؛ شاهدِ غیاب: هفتاد صفر", b95["top"]),
     # ⚓BREATHS
 ]
 
@@ -934,6 +940,9 @@ QUEUE_EVENTS = [
     (93, "queued", "اوي", "چرخه"),
     (94, "pursued", "هجر", "قاعدهٔ صف"),
     (94, "queued", "رحم", "چرخه"),
+    (95, "pursued", "اوي", "قاعدهٔ صف"),
+    (95, "queued", "صير", "چرخه"),
+    (95, "queued", "باس", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -1033,6 +1042,7 @@ PROJ = [
     (92, b92),
     (93, b93),
     (94, b94),
+    (95, b95),
     # ⚓PROJ
 ]
 
