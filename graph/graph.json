@@ -138,6 +138,7 @@
   "صلو",
   "صوب",
   "صيد",
+  "ضرر",
   "ضعف",
   "طعم",
   "طلق",
@@ -176,6 +177,7 @@
   "فري",
   "فسق",
   "فضل",
+  "فعل",
   "فقر",
   "فلح",
   "فلك",
@@ -327,10 +329,12 @@
   "بغي",
   "صحب",
   "ولد",
-  "فضل"
+  "فضل",
+  "عدو"
  ],
  "open_queue": [
   "اتي",
+  "اثم",
   "ارض",
   "امر",
   "امن",
@@ -348,7 +352,6 @@
   "شرك",
   "شيا",
   "صلح",
-  "عدو",
   "عذب",
   "عظم",
   "علم",
@@ -696,6 +699,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اثم",
+   "b": "عدو",
+   "directions": {
+    "عدو→اثم": {
+     "breath": 69,
+     "lift": 14.525,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اجر",
@@ -2467,6 +2486,22 @@
   },
   {
    "a": "بعض",
+   "b": "عدو",
+   "directions": {
+    "عدو→بعض": {
+     "breath": 69,
+     "lift": 4.675,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعض",
    "b": "عرف",
    "directions": {
     "عرف→بعض": {
@@ -2607,6 +2642,14 @@
    "directions": {
     "بغي→عدو": {
      "breath": 65,
+     "lift": 6.025,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    },
+    "عدو→بغي": {
+     "breath": 69,
      "lift": 6.025,
      "p": 0.0033,
      "stable": false,
@@ -3891,6 +3934,22 @@
   },
   {
    "a": "حبب",
+   "b": "عدو",
+   "directions": {
+    "عدو→حبب": {
+     "breath": 69,
+     "lift": 3.987,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حبب",
    "b": "نفق",
    "directions": {
     "نفق→حبب": {
@@ -4100,6 +4159,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حرم",
+   "b": "عدو",
+   "directions": {
+    "عدو→حرم": {
+     "breath": 69,
+     "lift": 7.637,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -6972,6 +7047,14 @@
      "stable": true,
      "tier": "قوی",
      "shared": 13
+    },
+    "عدو→شطن": {
+     "breath": 69,
+     "lift": 11.297,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 13
     }
    },
    "mutual_strong": false,
@@ -7618,6 +7701,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ضرر",
+   "b": "عدو",
+   "directions": {
+    "عدو→ضرر": {
+     "breath": 69,
+     "lift": 4.842,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "ضعف",
    "b": "كبر",
    "directions": {
@@ -7908,6 +8007,54 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عدو",
+   "b": "عصي",
+   "directions": {
+    "عدو→عصي": {
+     "breath": 69,
+     "lift": 12.709,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عدو",
+   "b": "فعل",
+   "directions": {
+    "عدو→فعل": {
+     "breath": 69,
+     "lift": 3.987,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "عدو",
+   "b": "قتل",
+   "directions": {
+    "عدو→قتل": {
+     "breath": 69,
+     "lift": 6.667,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
     }
    },
    "mutual_strong": false,
