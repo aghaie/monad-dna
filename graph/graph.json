@@ -52,6 +52,7 @@
   "ترب",
   "ترك",
   "تلو",
+  "توب",
   "ثلث",
   "ثمر",
   "ثمن",
@@ -220,6 +221,7 @@
   "فتح",
   "فرق",
   "فري",
+  "فسد",
   "فسق",
   "فضل",
   "فعل",
@@ -331,6 +333,7 @@
   "ولج",
   "ولد",
   "ولي",
+  "وهب",
   "يتم",
   "يدي",
   "يمن",
@@ -459,7 +462,8 @@
   "مرر",
   "ابو",
   "اخو",
-  "وجد"
+  "وجد",
+  "صلح"
  ],
  "open_queue": [
   "اتي",
@@ -471,6 +475,7 @@
   "ايي",
   "بعد",
   "بين",
+  "توب",
   "جنن",
   "حسن",
   "حكم",
@@ -482,11 +487,11 @@
   "سمع",
   "سمو",
   "شيا",
-  "صلح",
   "ظلم",
   "عذب",
   "علم",
   "عند",
+  "فسد",
   "قبل",
   "قول",
   "قوم",
@@ -1249,9 +1254,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 25
+    },
+    "صلح→اجر": {
+     "breath": 124,
+     "lift": 9.263,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 25
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -5753,10 +5766,18 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 14
+    },
+    "صلح→تحت": {
+     "breath": 124,
+     "lift": 10.271,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
     }
    },
    "mutual_strong": false,
-   "best_tier": "محتمل"
+   "best_tier": "قوی"
   },
   {
    "a": "تحت",
@@ -5933,6 +5954,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "توب",
+   "b": "صلح",
+   "directions": {
+    "صلح→توب": {
+     "breath": 124,
+     "lift": 9.038,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ثلث",
@@ -6304,6 +6341,22 @@
   },
   {
    "a": "جري",
+   "b": "صلح",
+   "directions": {
+    "صلح→جري": {
+     "breath": 124,
+     "lift": 6.878,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جري",
    "b": "عظم",
    "directions": {
     "عظم→جري": {
@@ -6597,6 +6650,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "جنن",
+   "b": "صلح",
+   "directions": {
+    "صلح→جنن": {
+     "breath": 124,
+     "lift": 4.679,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 25
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "جنن",
@@ -7033,6 +7102,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حزن",
+   "b": "صلح",
+   "directions": {
+    "صلح→حزن": {
+     "breath": 124,
+     "lift": 4.367,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -8441,10 +8526,18 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 20
+    },
+    "صلح→دخل": {
+     "breath": 124,
+     "lift": 6.609,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 20
     }
    },
    "mutual_strong": false,
-   "best_tier": "محتمل"
+   "best_tier": "قوی"
   },
   {
    "a": "دخل",
@@ -12201,10 +12294,50 @@
      "stable": true,
      "tier": "قوی",
      "shared": 93
+    },
+    "صلح→عمل": {
+     "breath": 124,
+     "lift": 10.899,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 93
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "صلح",
+   "b": "فسد",
+   "directions": {
+    "صلح→فسد": {
+     "breath": 124,
+     "lift": 7.024,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "صلح",
+   "b": "وهب",
+   "directions": {
+    "صلح→وهب": {
+     "breath": 124,
+     "lift": 8.337,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "صلو",
