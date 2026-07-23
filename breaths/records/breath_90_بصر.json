@@ -1,0 +1,1293 @@
+{
+ "breath_number": 90,
+ "deliberation": [
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نصر",
+   "attestation": 158
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "بصر",
+ "attestation": 148,
+ "ayat": 139,
+ "top": [
+  {
+   "root": "فاد",
+   "shared": 7,
+   "expected": 0.33,
+   "lift": 20.936,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عمي",
+   "shared": 11,
+   "expected": 0.67,
+   "lift": 16.45,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سمع",
+   "shared": 37,
+   "expected": 3.63,
+   "lift": 10.184,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "غفل",
+   "shared": 5,
+   "expected": 0.78,
+   "lift": 6.409,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خبر",
+   "shared": 7,
+   "expected": 1.16,
+   "lift": 6.039,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ليل",
+   "shared": 8,
+   "expected": 1.81,
+   "lift": 4.431,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قلب",
+   "shared": 14,
+   "expected": 3.45,
+   "lift": 4.052,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نهر",
+   "shared": 9,
+   "expected": 2.27,
+   "lift": 3.959,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سوي",
+   "shared": 7,
+   "expected": 1.78,
+   "lift": 3.926,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عمل",
+   "shared": 25,
+   "expected": 6.98,
+   "lift": 3.583,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "فاد",
+  "عمي",
+  "سمع",
+  "غفل",
+  "خبر",
+  "سوي"
+ ],
+ "one_way": [
+  "ليل",
+  "قلب",
+  "نهر",
+  "عمل"
+ ],
+ "neighbor_view": {
+  "فاد": {
+   "root": "بصر",
+   "shared": 7,
+   "expected": 0.33,
+   "lift": 20.936,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عمي": {
+   "root": "بصر",
+   "shared": 11,
+   "expected": 0.67,
+   "lift": 16.45,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سمع": {
+   "root": "بصر",
+   "shared": 37,
+   "expected": 3.63,
+   "lift": 10.184,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "غفل": {
+   "root": "بصر",
+   "shared": 5,
+   "expected": 0.78,
+   "lift": 6.409,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خبر": {
+   "root": "بصر",
+   "shared": 7,
+   "expected": 1.16,
+   "lift": 6.039,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ليل": null,
+  "قلب": null,
+  "نهر": null,
+  "سوي": {
+   "root": "بصر",
+   "shared": 7,
+   "expected": 1.78,
+   "lift": 3.926,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عمل": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "بصر↔فلح",
+   "shared": 1,
+   "expected": 0.89,
+   "lift": 1.12,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "بصر↔صلو",
+   "shared": 2,
+   "expected": 2.01,
+   "lift": 1.0,
+   "p_perm": 0.5548
+  },
+  {
+   "pair": "بصر↔زكو",
+   "shared": 3,
+   "expected": 1.25,
+   "lift": 2.4,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "بصر↔اذن",
+   "shared": 3,
+   "expected": 2.01,
+   "lift": 1.5,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "بصر↔نفق",
+   "shared": 1,
+   "expected": 1.92,
+   "lift": 0.52,
+   "p_perm": 0.8571
+  },
+  {
+   "pair": "بصر↔سرر",
+   "shared": 1,
+   "expected": 0.96,
+   "lift": 1.04,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "بصر↔علن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔رزق",
+   "shared": 4,
+   "expected": 2.43,
+   "lift": 1.65,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "بصر↔بسط",
+   "shared": 2,
+   "expected": 0.51,
+   "lift": 3.9,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "بصر↔طيب",
+   "shared": 0,
+   "expected": 1.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔خبث",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔حلل",
+   "shared": 0,
+   "expected": 0.96,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔حرم",
+   "shared": 1,
+   "expected": 1.58,
+   "lift": 0.63,
+   "p_perm": 0.794
+  },
+  {
+   "pair": "بصر↔سجد",
+   "shared": 2,
+   "expected": 1.81,
+   "lift": 1.11,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "بصر↔اكل",
+   "shared": 3,
+   "expected": 2.25,
+   "lift": 1.33,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "بصر↔طوع",
+   "shared": 1,
+   "expected": 2.63,
+   "lift": 0.38,
+   "p_perm": 0.9369
+  },
+  {
+   "pair": "بصر↔شهد",
+   "shared": 3,
+   "expected": 2.74,
+   "lift": 1.09,
+   "p_perm": 0.5349
+  },
+  {
+   "pair": "بصر↔كبر",
+   "shared": 1,
+   "expected": 3.41,
+   "lift": 0.29,
+   "p_perm": 0.9767
+  },
+  {
+   "pair": "بصر↔حيي",
+   "shared": 3,
+   "expected": 3.59,
+   "lift": 0.84,
+   "p_perm": 0.6811
+  },
+  {
+   "pair": "بصر↔خير",
+   "shared": 3,
+   "expected": 3.97,
+   "lift": 0.76,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "بصر↔ولي",
+   "shared": 5,
+   "expected": 4.5,
+   "lift": 1.11,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "بصر↔عمل",
+   "shared": 25,
+   "expected": 6.98,
+   "lift": 3.58,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "بصر↔رسل",
+   "shared": 5,
+   "expected": 9.56,
+   "lift": 0.52,
+   "p_perm": 0.9668
+  },
+  {
+   "pair": "بصر↔اله",
+   "shared": 60,
+   "expected": 41.88,
+   "lift": 1.43,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "بصر↔حبط",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔بقي",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔عدل",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.87,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "بصر↔كفي",
+   "shared": 2,
+   "expected": 0.71,
+   "lift": 2.8,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "بصر↔دبر",
+   "shared": 1,
+   "expected": 0.98,
+   "lift": 1.02,
+   "p_perm": 0.608
+  },
+  {
+   "pair": "بصر↔زين",
+   "shared": 2,
+   "expected": 0.96,
+   "lift": 2.09,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "بصر↔عقل",
+   "shared": 1,
+   "expected": 1.09,
+   "lift": 0.92,
+   "p_perm": 0.7209
+  },
+  {
+   "pair": "بصر↔خبر",
+   "shared": 7,
+   "expected": 1.16,
+   "lift": 6.04,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "بصر↔غيب",
+   "shared": 4,
+   "expected": 1.32,
+   "lift": 3.04,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "بصر↔جرم",
+   "shared": 2,
+   "expected": 1.45,
+   "lift": 1.38,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "بصر↔عرف",
+   "shared": 1,
+   "expected": 1.38,
+   "lift": 0.72,
+   "p_perm": 0.8007
+  },
+  {
+   "pair": "بصر↔نكر",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔علو",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔متع",
+   "shared": 0,
+   "expected": 1.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔حين",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔وكل",
+   "shared": 0,
+   "expected": 1.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔قلل",
+   "shared": 4,
+   "expected": 1.65,
+   "lift": 2.43,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "بصر↔ثمن",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔شري",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔شكر",
+   "shared": 5,
+   "expected": 1.54,
+   "lift": 3.25,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "بصر↔فلك",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔بحر",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔برر",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔جري",
+   "shared": 2,
+   "expected": 1.43,
+   "lift": 1.4,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "بصر↔ابد",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔فوز",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔سخر",
+   "shared": 1,
+   "expected": 0.78,
+   "lift": 1.28,
+   "p_perm": 0.5648
+  },
+  {
+   "pair": "بصر↔تحت",
+   "shared": 2,
+   "expected": 1.11,
+   "lift": 1.79,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "بصر↔رضو",
+   "shared": 3,
+   "expected": 1.43,
+   "lift": 2.1,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "بصر↔نجو",
+   "shared": 1,
+   "expected": 1.67,
+   "lift": 0.6,
+   "p_perm": 0.8206
+  },
+  {
+   "pair": "بصر↔خلد",
+   "shared": 1,
+   "expected": 1.92,
+   "lift": 0.52,
+   "p_perm": 0.8704
+  },
+  {
+   "pair": "بصر↔شطن",
+   "shared": 2,
+   "expected": 1.74,
+   "lift": 1.15,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "بصر↔سبح",
+   "shared": 2,
+   "expected": 1.94,
+   "lift": 1.03,
+   "p_perm": 0.598
+  },
+  {
+   "pair": "بصر↔حمد",
+   "shared": 0,
+   "expected": 1.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔غني",
+   "shared": 2,
+   "expected": 1.6,
+   "lift": 1.25,
+   "p_perm": 0.4784
+  },
+  {
+   "pair": "بصر↔فقر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔مول",
+   "shared": 2,
+   "expected": 1.78,
+   "lift": 1.12,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "بصر↔ليل",
+   "shared": 8,
+   "expected": 1.81,
+   "lift": 4.43,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "بصر↔قمر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔شمس",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔بغي",
+   "shared": 3,
+   "expected": 2.01,
+   "lift": 1.5,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "بصر↔صحب",
+   "shared": 1,
+   "expected": 1.98,
+   "lift": 0.5,
+   "p_perm": 0.8472
+  },
+  {
+   "pair": "بصر↔ولد",
+   "shared": 2,
+   "expected": 1.78,
+   "lift": 1.12,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "بصر↔فضل",
+   "shared": 3,
+   "expected": 2.05,
+   "lift": 1.46,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "بصر↔عدو",
+   "shared": 0,
+   "expected": 2.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔اثم",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔نهر",
+   "shared": 9,
+   "expected": 2.27,
+   "lift": 3.96,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "بصر↔دخل",
+   "shared": 0,
+   "expected": 2.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔بوب",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔فتح",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔اهل",
+   "shared": 3,
+   "expected": 2.67,
+   "lift": 1.12,
+   "p_perm": 0.4817
+  },
+  {
+   "pair": "بصر↔قري",
+   "shared": 0,
+   "expected": 1.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔هلك",
+   "shared": 2,
+   "expected": 1.4,
+   "lift": 1.42,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "بصر↔قرن",
+   "shared": 2,
+   "expected": 0.76,
+   "lift": 2.64,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "بصر↔عظم",
+   "shared": 1,
+   "expected": 2.83,
+   "lift": 0.35,
+   "p_perm": 0.9336
+  },
+  {
+   "pair": "بصر↔اجر",
+   "shared": 0,
+   "expected": 2.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔ضيع",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔قدر",
+   "shared": 5,
+   "expected": 2.7,
+   "lift": 1.85,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "بصر↔دنو",
+   "shared": 1,
+   "expected": 2.85,
+   "lift": 0.35,
+   "p_perm": 0.9701
+  },
+  {
+   "pair": "بصر↔خزي",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔دون",
+   "shared": 4,
+   "expected": 3.17,
+   "lift": 1.26,
+   "p_perm": 0.4352
+  },
+  {
+   "pair": "بصر↔نفع",
+   "shared": 2,
+   "expected": 1.09,
+   "lift": 1.83,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "بصر↔ضرر",
+   "shared": 2,
+   "expected": 1.56,
+   "lift": 1.28,
+   "p_perm": 0.4884
+  },
+  {
+   "pair": "بصر↔كشف",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.24,
+   "p_perm": 0.4086
+  },
+  {
+   "pair": "بصر↔مسس",
+   "shared": 2,
+   "expected": 1.27,
+   "lift": 1.57,
+   "p_perm": 0.3488
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "بصر↔علن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔طيب",
+   "shared": 0,
+   "expected": 1.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔خبث",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔حلل",
+   "shared": 0,
+   "expected": 0.96,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔حبط",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔بقي",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔نكر",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔علو",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔متع",
+   "shared": 0,
+   "expected": 1.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔حين",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔وكل",
+   "shared": 0,
+   "expected": 1.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔ثمن",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔شري",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔فلك",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔بحر",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔برر",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔ابد",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔فوز",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔حمد",
+   "shared": 0,
+   "expected": 1.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔فقر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔قمر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔شمس",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔عدو",
+   "shared": 0,
+   "expected": 2.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔اثم",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔دخل",
+   "shared": 0,
+   "expected": 2.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔بوب",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔فتح",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔قري",
+   "shared": 0,
+   "expected": 1.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔اجر",
+   "shared": 0,
+   "expected": 2.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔ضيع",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بصر↔خزي",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "7:179",
+   "degree": 3,
+   "roots_present": [
+    "سمع",
+    "غفل",
+    "قلب"
+   ]
+  },
+  {
+   "ayah": "10:67",
+   "degree": 3,
+   "roots_present": [
+    "سمع",
+    "ليل",
+    "نهر"
+   ]
+  },
+  {
+   "ayah": "11:24",
+   "degree": 3,
+   "roots_present": [
+    "عمي",
+    "سمع",
+    "سوي"
+   ]
+  },
+  {
+   "ayah": "16:108",
+   "degree": 3,
+   "roots_present": [
+    "سمع",
+    "غفل",
+    "قلب"
+   ]
+  },
+  {
+   "ayah": "22:46",
+   "degree": 3,
+   "roots_present": [
+    "عمي",
+    "سمع",
+    "قلب"
+   ]
+  },
+  {
+   "ayah": "22:61",
+   "degree": 3,
+   "roots_present": [
+    "سمع",
+    "ليل",
+    "نهر"
+   ]
+  },
+  {
+   "ayah": "24:44",
+   "degree": 3,
+   "roots_present": [
+    "ليل",
+    "قلب",
+    "نهر"
+   ]
+  },
+  {
+   "ayah": "32:9",
+   "degree": 3,
+   "roots_present": [
+    "فاد",
+    "سمع",
+    "سوي"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "بصر+فاد": [
+   "6:110",
+   "16:78",
+   "17:36",
+   "23:78",
+   "32:9",
+   "46:26",
+   "67:23"
+  ],
+  "بصر+عمي": [
+   "5:71",
+   "6:50",
+   "6:104",
+   "10:43",
+   "11:24",
+   "13:16",
+   "20:125",
+   "22:46",
+   "35:19",
+   "40:58",
+   "47:23"
+  ],
+  "بصر+سمع": [
+   "2:7",
+   "2:20",
+   "4:58",
+   "4:134",
+   "6:46",
+   "7:179",
+   "7:195",
+   "7:198",
+   "10:31",
+   "10:67",
+   "11:20",
+   "11:24",
+   "16:78",
+   "16:108",
+   "17:1",
+   "17:36",
+   "18:26",
+   "19:38",
+   "19:42",
+   "22:46"
+  ],
+  "بصر+غفل": [
+   "7:179",
+   "14:42",
+   "16:108",
+   "21:97",
+   "50:22"
+  ],
+  "بصر+خبر": [
+   "6:103",
+   "17:17",
+   "17:30",
+   "17:96",
+   "24:30",
+   "35:31",
+   "42:27"
+  ],
+  "بصر+ليل": [
+   "10:67",
+   "17:1",
+   "17:12",
+   "22:61",
+   "24:44",
+   "27:86",
+   "28:72",
+   "40:61"
+  ],
+  "بصر+قلب": [
+   "2:7",
+   "3:156",
+   "6:46",
+   "6:110",
+   "7:179",
+   "16:108",
+   "21:3",
+   "22:46",
+   "24:37",
+   "24:44",
+   "33:10",
+   "45:23",
+   "59:2",
+   "67:4"
+  ],
+  "بصر+نهر": [
+   "3:15",
+   "10:67",
+   "17:12",
+   "22:61",
+   "24:44",
+   "27:86",
+   "28:72",
+   "40:61",
+   "43:51"
+  ],
+  "بصر+سوي": [
+   "6:50",
+   "11:24",
+   "13:16",
+   "32:9",
+   "35:19",
+   "40:58",
+   "57:4"
+  ],
+  "بصر+عمل": [
+   "2:96",
+   "2:110",
+   "2:233",
+   "2:237",
+   "2:265",
+   "3:156",
+   "3:163",
+   "5:71",
+   "8:39",
+   "8:72",
+   "11:112",
+   "14:42",
+   "29:38",
+   "32:12",
+   "33:9",
+   "34:11",
+   "40:58",
+   "41:20",
+   "41:22",
+   "41:40"
+  ],
+  "بصر+اله": [
+   "2:7",
+   "2:17",
+   "2:20",
+   "2:96",
+   "2:110",
+   "2:233",
+   "2:237",
+   "2:265",
+   "3:13",
+   "3:15",
+   "3:20",
+   "3:156",
+   "3:163",
+   "4:58",
+   "4:134",
+   "5:71",
+   "6:46",
+   "6:50",
+   "8:39",
+   "8:72"
+  ],
+  "بصر+شكر": [
+   "16:78",
+   "23:78",
+   "32:9",
+   "40:61",
+   "67:23"
+  ]
+ }
+}
