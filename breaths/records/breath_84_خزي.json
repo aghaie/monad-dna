@@ -1,0 +1,1438 @@
+{
+ "breath_number": 84,
+ "deliberation": [
+  {
+   "root": "خزي",
+   "attestation": 26
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "خزي",
+ "attestation": 26,
+ "ayat": 24,
+ "top": [
+  {
+   "root": "دنو",
+   "shared": 8,
+   "expected": 0.49,
+   "lift": 16.24,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عذب",
+   "shared": 13,
+   "expected": 1.29,
+   "lift": 10.053,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اخر",
+   "shared": 5,
+   "expected": 0.93,
+   "lift": 5.368,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قوم",
+   "shared": 12,
+   "expected": 2.3,
+   "lift": 5.223,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "يوم",
+   "shared": 7,
+   "expected": 1.45,
+   "lift": 4.824,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اتي",
+   "shared": 7,
+   "expected": 1.87,
+   "lift": 3.742,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رسل",
+   "shared": 6,
+   "expected": 1.65,
+   "lift": 3.634,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كفر",
+   "shared": 5,
+   "expected": 1.79,
+   "lift": 2.794,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امن",
+   "shared": 6,
+   "expected": 2.78,
+   "lift": 2.156,
+   "p_perm": 0.0598,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "علم",
+   "shared": 6,
+   "expected": 2.8,
+   "lift": 2.141,
+   "p_perm": 0.0498,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "دنو",
+  "عذب",
+  "اخر",
+  "قوم",
+  "يوم",
+  "اتي",
+  "رسل"
+ ],
+ "one_way": [
+  "كفر",
+  "امن",
+  "علم"
+ ],
+ "neighbor_view": {
+  "دنو": {
+   "root": "خزي",
+   "shared": 8,
+   "expected": 0.49,
+   "lift": 16.24,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عذب": {
+   "root": "خزي",
+   "shared": 13,
+   "expected": 1.29,
+   "lift": 10.053,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخر": {
+   "root": "خزي",
+   "shared": 5,
+   "expected": 0.93,
+   "lift": 5.368,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قوم": {
+   "root": "خزي",
+   "shared": 12,
+   "expected": 2.3,
+   "lift": 5.223,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "يوم": {
+   "root": "خزي",
+   "shared": 7,
+   "expected": 1.45,
+   "lift": 4.824,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اتي": {
+   "root": "خزي",
+   "shared": 7,
+   "expected": 1.87,
+   "lift": 3.742,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رسل": {
+   "root": "خزي",
+   "shared": 6,
+   "expected": 1.65,
+   "lift": 3.634,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كفر": null,
+  "امن": null,
+  "علم": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "خزي↔فلح",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔صلو",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔زكو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔اذن",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.89,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "خزي↔نفق",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔سرر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔رزق",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بسط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔طيب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔حلل",
+   "shared": 2,
+   "expected": 0.17,
+   "lift": 12.09,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "خزي↔حرم",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.66,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "خزي↔سجد",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.21,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "خزي↔اكل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔طوع",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شهد",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔كبر",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.7,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "خزي↔حيي",
+   "shared": 4,
+   "expected": 0.62,
+   "lift": 6.46,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "خزي↔خير",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ولي",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عمل",
+   "shared": 3,
+   "expected": 1.2,
+   "lift": 2.49,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "خزي↔رسل",
+   "shared": 6,
+   "expected": 1.65,
+   "lift": 3.63,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "خزي↔اله",
+   "shared": 13,
+   "expected": 7.23,
+   "lift": 1.8,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "خزي↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عدل",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔كفي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔دبر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔زين",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عقل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔خبر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔غيب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔جرم",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عرف",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔نكر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔علو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔متع",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.0,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "خزي↔حين",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.87,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "خزي↔وكل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔قلل",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ثمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شري",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شكر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فلك",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بحر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔برر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔جري",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.06,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "خزي↔ابد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فوز",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔سخر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔تحت",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.2,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "خزي↔رضو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔نجو",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.46,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "خزي↔خلد",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.02,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "خزي↔شطن",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔سبح",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔حمد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔غني",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فقر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔مول",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ليل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔قمر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شمس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بغي",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔صحب",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ولد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فضل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عدو",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.82,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "خزي↔اثم",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.19,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "خزي↔نهر",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.55,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "خزي↔دخل",
+   "shared": 3,
+   "expected": 0.43,
+   "lift": 7.02,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "خزي↔بوب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فتح",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔اهل",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔قري",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.81,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "خزي↔هلك",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.12,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "خزي↔قرن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عظم",
+   "shared": 4,
+   "expected": 0.49,
+   "lift": 8.18,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "خزي↔اجر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ضيع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔قدر",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.15,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "خزي↔دنو",
+   "shared": 8,
+   "expected": 0.49,
+   "lift": 16.24,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "خزي↔فلح",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔صلو",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔زكو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔نفق",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔سرر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔رزق",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بسط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔طيب",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔اكل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔طوع",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شهد",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔خير",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ولي",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عدل",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔كفي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔دبر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔زين",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عقل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔خبر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔غيب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔جرم",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔عرف",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔نكر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔علو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔وكل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔قلل",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ثمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شري",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شكر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فلك",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بحر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔برر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ابد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فوز",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔سخر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔رضو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شطن",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔سبح",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔حمد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔غني",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فقر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔مول",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ليل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔قمر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔شمس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بغي",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔صحب",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ولد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فضل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔بوب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔فتح",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔اهل",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔قرن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔اجر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "خزي↔ضيع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "5:41",
+   "degree": 8,
+   "roots_present": [
+    "دنو",
+    "عذب",
+    "اخر",
+    "قوم",
+    "اتي",
+    "رسل",
+    "كفر",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "2:85",
+   "degree": 7,
+   "roots_present": [
+    "دنو",
+    "عذب",
+    "قوم",
+    "يوم",
+    "اتي",
+    "كفر",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "16:27",
+   "degree": 5,
+   "roots_present": [
+    "قوم",
+    "يوم",
+    "اتي",
+    "كفر",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "41:16",
+   "degree": 5,
+   "roots_present": [
+    "دنو",
+    "عذب",
+    "اخر",
+    "يوم",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "3:194",
+   "degree": 4,
+   "roots_present": [
+    "قوم",
+    "يوم",
+    "اتي",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "5:33",
+   "degree": 4,
+   "roots_present": [
+    "دنو",
+    "عذب",
+    "اخر",
+    "رسل"
+   ]
+  },
+  {
+   "ayah": "10:98",
+   "degree": 4,
+   "roots_present": [
+    "دنو",
+    "عذب",
+    "قوم",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "11:39",
+   "degree": 4,
+   "roots_present": [
+    "عذب",
+    "قوم",
+    "اتي",
+    "علم"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "خزي+دنو": [
+   "2:85",
+   "2:114",
+   "5:33",
+   "5:41",
+   "10:98",
+   "22:9",
+   "39:26",
+   "41:16"
+  ],
+  "خزي+عذب": [
+   "2:85",
+   "2:114",
+   "5:33",
+   "5:41",
+   "9:14",
+   "10:98",
+   "11:39",
+   "11:93",
+   "20:134",
+   "22:9",
+   "39:26",
+   "39:40",
+   "41:16"
+  ],
+  "خزي+اخر": [
+   "2:114",
+   "5:33",
+   "5:41",
+   "39:26",
+   "41:16"
+  ],
+  "خزي+قوم": [
+   "2:85",
+   "3:194",
+   "5:41",
+   "9:14",
+   "10:98",
+   "11:39",
+   "11:78",
+   "11:93",
+   "16:27",
+   "22:9",
+   "39:40",
+   "59:5"
+  ],
+  "خزي+يوم": [
+   "2:85",
+   "3:194",
+   "16:27",
+   "22:9",
+   "26:87",
+   "41:16",
+   "66:8"
+  ],
+  "خزي+اتي": [
+   "2:85",
+   "3:194",
+   "5:41",
+   "11:39",
+   "11:93",
+   "16:27",
+   "39:40"
+  ],
+  "خزي+رسل": [
+   "3:194",
+   "5:33",
+   "5:41",
+   "9:63",
+   "20:134",
+   "41:16"
+  ],
+  "خزي+كفر": [
+   "2:85",
+   "5:41",
+   "9:2",
+   "16:27",
+   "66:8"
+  ],
+  "خزي+علم": [
+   "9:2",
+   "9:63",
+   "11:39",
+   "11:93",
+   "16:27",
+   "39:26"
+  ],
+  "خزي+حلل": [
+   "11:39",
+   "39:40"
+  ],
+  "خزي+حيي": [
+   "2:85",
+   "10:98",
+   "39:26",
+   "41:16"
+  ],
+  "خزي+اله": [
+   "2:85",
+   "2:114",
+   "5:33",
+   "5:41",
+   "9:2",
+   "9:14",
+   "9:63",
+   "11:78",
+   "15:69",
+   "22:9",
+   "39:26",
+   "59:5",
+   "66:8"
+  ],
+  "خزي+دخل": [
+   "2:114",
+   "3:192",
+   "66:8"
+  ],
+  "خزي+عظم": [
+   "2:114",
+   "5:33",
+   "5:41",
+   "9:63"
+  ]
+ }
+}
