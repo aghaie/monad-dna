@@ -1,0 +1,1108 @@
+{
+ "breath_number": 75,
+ "deliberation": [
+  {
+   "root": "اهل",
+   "attestation": 127
+  },
+  {
+   "root": "عظم",
+   "attestation": 128
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "اهل",
+ "attestation": 127,
+ "ayat": 120,
+ "top": [
+  {
+   "root": "مدن",
+   "shared": 5,
+   "expected": 0.33,
+   "lift": 15.284,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قري",
+   "shared": 14,
+   "expected": 1.04,
+   "lift": 13.473,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بيت",
+   "shared": 8,
+   "expected": 1.04,
+   "lift": 7.699,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "مرا",
+   "shared": 5,
+   "expected": 0.71,
+   "lift": 7.023,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نجو",
+   "shared": 10,
+   "expected": 1.44,
+   "lift": 6.929,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كتب",
+   "shared": 33,
+   "expected": 5.37,
+   "lift": 6.147,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وجد",
+   "shared": 9,
+   "expected": 1.91,
+   "lift": 4.724,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ليس",
+   "shared": 7,
+   "expected": 1.64,
+   "lift": 4.28,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "هلك",
+   "shared": 5,
+   "expected": 1.21,
+   "lift": 4.124,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رجل",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.937,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "مدن",
+  "قري",
+  "بيت",
+  "مرا",
+  "نجو",
+  "كتب",
+  "وجد",
+  "ليس",
+  "هلك",
+  "رجل"
+ ],
+ "one_way": [],
+ "neighbor_view": {
+  "مدن": {
+   "root": "اهل",
+   "shared": 5,
+   "expected": 0.33,
+   "lift": 15.284,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قري": {
+   "root": "اهل",
+   "shared": 14,
+   "expected": 1.04,
+   "lift": 13.473,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "بيت": {
+   "root": "اهل",
+   "shared": 8,
+   "expected": 1.04,
+   "lift": 7.699,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "مرا": {
+   "root": "اهل",
+   "shared": 5,
+   "expected": 0.71,
+   "lift": 7.023,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نجو": {
+   "root": "اهل",
+   "shared": 10,
+   "expected": 1.44,
+   "lift": 6.929,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "كتب": {
+   "root": "اهل",
+   "shared": 33,
+   "expected": 5.37,
+   "lift": 6.147,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "وجد": {
+   "root": "اهل",
+   "shared": 9,
+   "expected": 1.91,
+   "lift": 4.724,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ليس": {
+   "root": "اهل",
+   "shared": 7,
+   "expected": 1.64,
+   "lift": 4.28,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "هلك": {
+   "root": "اهل",
+   "shared": 5,
+   "expected": 1.21,
+   "lift": 4.124,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رجل": {
+   "root": "اهل",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.937,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "اهل↔فلح",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔صلو",
+   "shared": 3,
+   "expected": 1.73,
+   "lift": 1.73,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "اهل↔زكو",
+   "shared": 2,
+   "expected": 1.08,
+   "lift": 1.86,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "اهل↔اذن",
+   "shared": 3,
+   "expected": 1.73,
+   "lift": 1.73,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "اهل↔نفق",
+   "shared": 2,
+   "expected": 1.65,
+   "lift": 1.21,
+   "p_perm": 0.4784
+  },
+  {
+   "pair": "اهل↔سرر",
+   "shared": 2,
+   "expected": 0.83,
+   "lift": 2.42,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "اهل↔علن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔رزق",
+   "shared": 2,
+   "expected": 2.1,
+   "lift": 0.95,
+   "p_perm": 0.6113
+  },
+  {
+   "pair": "اهل↔بسط",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔طيب",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔خبث",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔حلل",
+   "shared": 1,
+   "expected": 0.83,
+   "lift": 1.21,
+   "p_perm": 0.5947
+  },
+  {
+   "pair": "اهل↔حرم",
+   "shared": 3,
+   "expected": 1.37,
+   "lift": 2.2,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "اهل↔سجد",
+   "shared": 3,
+   "expected": 1.56,
+   "lift": 1.92,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "اهل↔اكل",
+   "shared": 1,
+   "expected": 1.94,
+   "lift": 0.51,
+   "p_perm": 0.8571
+  },
+  {
+   "pair": "اهل↔طوع",
+   "shared": 5,
+   "expected": 2.27,
+   "lift": 2.2,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "اهل↔شهد",
+   "shared": 8,
+   "expected": 2.37,
+   "lift": 3.38,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اهل↔كبر",
+   "shared": 3,
+   "expected": 2.94,
+   "lift": 1.02,
+   "p_perm": 0.6047
+  },
+  {
+   "pair": "اهل↔حيي",
+   "shared": 2,
+   "expected": 3.1,
+   "lift": 0.65,
+   "p_perm": 0.8405
+  },
+  {
+   "pair": "اهل↔خير",
+   "shared": 6,
+   "expected": 3.43,
+   "lift": 1.75,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "اهل↔ولي",
+   "shared": 4,
+   "expected": 3.89,
+   "lift": 1.03,
+   "p_perm": 0.5349
+  },
+  {
+   "pair": "اهل↔عمل",
+   "shared": 9,
+   "expected": 6.02,
+   "lift": 1.49,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "اهل↔رسل",
+   "shared": 17,
+   "expected": 8.26,
+   "lift": 2.06,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "اهل↔اله",
+   "shared": 42,
+   "expected": 36.16,
+   "lift": 1.16,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "اهل↔حبط",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.25,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "اهل↔بقي",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔عدل",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.17,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "اهل↔كفي",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.62,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "اهل↔دبر",
+   "shared": 2,
+   "expected": 0.85,
+   "lift": 2.36,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "اهل↔زين",
+   "shared": 2,
+   "expected": 0.83,
+   "lift": 2.42,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "اهل↔عقل",
+   "shared": 2,
+   "expected": 0.94,
+   "lift": 2.12,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "اهل↔خبر",
+   "shared": 4,
+   "expected": 1.0,
+   "lift": 4.0,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "اهل↔غيب",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔جرم",
+   "shared": 0,
+   "expected": 1.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔عرف",
+   "shared": 3,
+   "expected": 1.19,
+   "lift": 2.51,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "اهل↔نكر",
+   "shared": 1,
+   "expected": 0.71,
+   "lift": 1.4,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "اهل↔علو",
+   "shared": 2,
+   "expected": 1.31,
+   "lift": 1.53,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "اهل↔متع",
+   "shared": 3,
+   "expected": 1.25,
+   "lift": 2.4,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "اهل↔حين",
+   "shared": 1,
+   "expected": 0.64,
+   "lift": 1.57,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "اهل↔وكل",
+   "shared": 1,
+   "expected": 1.17,
+   "lift": 0.85,
+   "p_perm": 0.6977
+  },
+  {
+   "pair": "اهل↔قلل",
+   "shared": 3,
+   "expected": 1.42,
+   "lift": 2.11,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "اهل↔ثمن",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "اهل↔شري",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.26,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "اهل↔شكر",
+   "shared": 1,
+   "expected": 1.33,
+   "lift": 0.75,
+   "p_perm": 0.7508
+  },
+  {
+   "pair": "اهل↔فلك",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.08,
+   "p_perm": 0.3953
+  },
+  {
+   "pair": "اهل↔بحر",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔برر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔جري",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔ابد",
+   "shared": 2,
+   "expected": 0.54,
+   "lift": 3.71,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "اهل↔فوز",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔سخر",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔تحت",
+   "shared": 0,
+   "expected": 0.96,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔رضو",
+   "shared": 1,
+   "expected": 1.23,
+   "lift": 0.81,
+   "p_perm": 0.7276
+  },
+  {
+   "pair": "اهل↔نجو",
+   "shared": 10,
+   "expected": 1.44,
+   "lift": 6.93,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اهل↔خلد",
+   "shared": 2,
+   "expected": 1.65,
+   "lift": 1.21,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "اهل↔شطن",
+   "shared": 1,
+   "expected": 1.5,
+   "lift": 0.67,
+   "p_perm": 0.7973
+  },
+  {
+   "pair": "اهل↔سبح",
+   "shared": 1,
+   "expected": 1.67,
+   "lift": 0.6,
+   "p_perm": 0.804
+  },
+  {
+   "pair": "اهل↔حمد",
+   "shared": 1,
+   "expected": 1.17,
+   "lift": 0.85,
+   "p_perm": 0.6478
+  },
+  {
+   "pair": "اهل↔غني",
+   "shared": 2,
+   "expected": 1.39,
+   "lift": 1.44,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "اهل↔فقر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔مول",
+   "shared": 1,
+   "expected": 1.54,
+   "lift": 0.65,
+   "p_perm": 0.7708
+  },
+  {
+   "pair": "اهل↔ليل",
+   "shared": 4,
+   "expected": 1.56,
+   "lift": 2.57,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "اهل↔قمر",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔شمس",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔بغي",
+   "shared": 2,
+   "expected": 1.73,
+   "lift": 1.15,
+   "p_perm": 0.4884
+  },
+  {
+   "pair": "اهل↔صحب",
+   "shared": 1,
+   "expected": 1.71,
+   "lift": 0.58,
+   "p_perm": 0.8106
+  },
+  {
+   "pair": "اهل↔ولد",
+   "shared": 2,
+   "expected": 1.54,
+   "lift": 1.3,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "اهل↔فضل",
+   "shared": 2,
+   "expected": 1.77,
+   "lift": 1.13,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "اهل↔عدو",
+   "shared": 3,
+   "expected": 1.77,
+   "lift": 1.69,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "اهل↔اثم",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔نهر",
+   "shared": 2,
+   "expected": 1.96,
+   "lift": 1.02,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "اهل↔دخل",
+   "shared": 5,
+   "expected": 2.14,
+   "lift": 2.34,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "اهل↔بوب",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.17,
+   "p_perm": 0.3455
+  },
+  {
+   "pair": "اهل↔فتح",
+   "shared": 2,
+   "expected": 0.64,
+   "lift": 3.15,
+   "p_perm": 0.1096
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "اهل↔فلح",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔علن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔بسط",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔طيب",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔خبث",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔بقي",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔غيب",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔جرم",
+   "shared": 0,
+   "expected": 1.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔بحر",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔برر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔جري",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔فوز",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔سخر",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔تحت",
+   "shared": 0,
+   "expected": 0.96,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔فقر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔قمر",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔شمس",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اهل↔اثم",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "4:123",
+   "degree": 3,
+   "roots_present": [
+    "كتب",
+    "وجد",
+    "ليس"
+   ]
+  },
+  {
+   "ayah": "28:15",
+   "degree": 3,
+   "roots_present": [
+    "مدن",
+    "وجد",
+    "رجل"
+   ]
+  },
+  {
+   "ayah": "3:75",
+   "degree": 2,
+   "roots_present": [
+    "كتب",
+    "ليس"
+   ]
+  },
+  {
+   "ayah": "3:113",
+   "degree": 2,
+   "roots_present": [
+    "كتب",
+    "ليس"
+   ]
+  },
+  {
+   "ayah": "4:75",
+   "degree": 2,
+   "roots_present": [
+    "قري",
+    "رجل"
+   ]
+  },
+  {
+   "ayah": "5:68",
+   "degree": 2,
+   "roots_present": [
+    "كتب",
+    "ليس"
+   ]
+  },
+  {
+   "ayah": "6:131",
+   "degree": 2,
+   "roots_present": [
+    "قري",
+    "هلك"
+   ]
+  },
+  {
+   "ayah": "7:83",
+   "degree": 2,
+   "roots_present": [
+    "مرا",
+    "نجو"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "اهل+مدن": [
+   "7:123",
+   "9:101",
+   "9:120",
+   "15:67",
+   "28:15"
+  ],
+  "اهل+قري": [
+   "4:75",
+   "6:131",
+   "7:94",
+   "7:96",
+   "7:97",
+   "7:98",
+   "11:117",
+   "12:109",
+   "18:77",
+   "27:34",
+   "28:59",
+   "29:31",
+   "29:34",
+   "59:7"
+  ],
+  "اهل+بيت": [
+   "7:97",
+   "11:73",
+   "24:27",
+   "27:49",
+   "28:12",
+   "33:13",
+   "33:33",
+   "59:2"
+  ],
+  "اهل+مرا": [
+   "7:83",
+   "11:81",
+   "27:57",
+   "29:32",
+   "29:33"
+  ],
+  "اهل+نجو": [
+   "7:83",
+   "20:40",
+   "21:76",
+   "26:169",
+   "26:170",
+   "27:57",
+   "29:32",
+   "29:33",
+   "37:76",
+   "37:134"
+  ],
+  "اهل+كتب": [
+   "2:105",
+   "2:109",
+   "3:64",
+   "3:65",
+   "3:69",
+   "3:70",
+   "3:71",
+   "3:72",
+   "3:75",
+   "3:98",
+   "3:99",
+   "3:110",
+   "3:113",
+   "3:199",
+   "4:123",
+   "4:153",
+   "4:159",
+   "4:171",
+   "5:15",
+   "5:19"
+  ],
+  "اهل+وجد": [
+   "2:196",
+   "4:92",
+   "4:123",
+   "5:89",
+   "12:65",
+   "18:77",
+   "20:10",
+   "28:15",
+   "35:43"
+  ],
+  "اهل+ليس": [
+   "3:75",
+   "3:113",
+   "4:123",
+   "5:68",
+   "11:46",
+   "11:81",
+   "48:11"
+  ],
+  "اهل+هلك": [
+   "6:131",
+   "11:117",
+   "27:49",
+   "28:59",
+   "29:31"
+  ],
+  "اهل+رجل": [
+   "4:75",
+   "12:109",
+   "16:43",
+   "21:7",
+   "28:15"
+  ],
+  "اهل+شهد": [
+   "3:64",
+   "3:70",
+   "3:98",
+   "3:99",
+   "4:159",
+   "12:26",
+   "27:49",
+   "59:11"
+  ],
+  "اهل+رسل": [
+   "4:171",
+   "5:15",
+   "5:19",
+   "7:94",
+   "9:120",
+   "11:81",
+   "12:109",
+   "16:43",
+   "21:7",
+   "28:45",
+   "28:59",
+   "29:31",
+   "29:33",
+   "33:33",
+   "48:12",
+   "48:26",
+   "59:7"
+  ],
+  "اهل+خبر": [
+   "4:35",
+   "27:7",
+   "28:29",
+   "48:11"
+  ]
+ }
+}

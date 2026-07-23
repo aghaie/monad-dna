@@ -191,6 +191,7 @@
   "قدر",
   "قرب",
   "قرض",
+  "قري",
   "قسط",
   "قطع",
   "قلب",
@@ -245,6 +246,7 @@
   "نور",
   "نوس",
   "هزا",
+  "هلك",
   "هلل",
   "وجد",
   "وجه",
@@ -338,14 +340,14 @@
   "نهر",
   "دخل",
   "بوب",
-  "فتح"
+  "فتح",
+  "اهل"
  ],
  "open_queue": [
   "اتي",
   "ارض",
   "امر",
   "امن",
-  "اهل",
   "ايي",
   "بصر",
   "بين",
@@ -363,6 +365,7 @@
   "علم",
   "عند",
   "قدر",
+  "قري",
   "قلب",
   "قول",
   "قوم",
@@ -2012,6 +2015,38 @@
   },
   {
    "a": "اهل",
+   "b": "بيت",
+   "directions": {
+    "اهل→بيت": {
+     "breath": 75,
+     "lift": 7.699,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
+   "b": "رجل",
+   "directions": {
+    "اهل→رجل": {
+     "breath": 75,
+     "lift": 3.937,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
    "b": "شهد",
    "directions": {
     "شهد→اهل": {
@@ -2028,6 +2063,86 @@
   },
   {
    "a": "اهل",
+   "b": "قري",
+   "directions": {
+    "اهل→قري": {
+     "breath": 75,
+     "lift": 13.473,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اهل",
+   "b": "كتب",
+   "directions": {
+    "اهل→كتب": {
+     "breath": 75,
+     "lift": 6.147,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 33
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
+   "b": "ليس",
+   "directions": {
+    "اهل→ليس": {
+     "breath": 75,
+     "lift": 4.28,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
+   "b": "مدن",
+   "directions": {
+    "اهل→مدن": {
+     "breath": 75,
+     "lift": 15.284,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
+   "b": "مرا",
+   "directions": {
+    "اهل→مرا": {
+     "breath": 75,
+     "lift": 7.023,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
    "b": "نجو",
    "directions": {
     "نجو→اهل": {
@@ -2037,10 +2152,50 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "اهل→نجو": {
+     "breath": 75,
+     "lift": 6.929,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اهل",
+   "b": "هلك",
+   "directions": {
+    "اهل→هلك": {
+     "breath": 75,
+     "lift": 4.124,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
+   "b": "وجد",
+   "directions": {
+    "اهل→وجد": {
+     "breath": 75,
+     "lift": 4.724,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اول",
