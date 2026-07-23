@@ -92,6 +92,7 @@ b56 = rec("breath_56_شطن.json")
 b57 = rec("breath_57_سبح.json")
 b58 = rec("breath_58_حمد.json")
 b59 = rec("breath_59_غني.json")
+b60 = rec("breath_60_فقر.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -392,6 +393,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_59_غني.json",
      "breaths/records/breath_59_غني.json", LOG1,
      "سه قوی پایدار (فقر دوسویه ۴۳٫۳، حمد دوسویه ۱۴٫۲، مول دوسویه ۸٫۷)؛ جفتِ متقابل: غني↔حمد؛ كسب دوسویهٔ محتملِ ناپایدار lift=۸٫۷؛ ۴:۱۳۵ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: بیست‌وهشت صفر", b59["top"]),
+    (60, "تولدِ دوباره", "فقر", "قاعدهٔ صف (خودران)",
+     b60["ayat"], b60["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_60_فقر.json",
+     "breaths/records/breath_60_فقر.json", LOG1,
+     "دو قوی پایدار (غني دوسویه ۴۳٫۳، اله یک‌طرفه ۲٫۸)؛ جفتِ متقابل: فقر↔غني؛ بدون محتملِ برجسته؛ ۲:۲۷۳ و ۲۴:۳۲ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: چهل صفر", b60["top"]),
     # ⚓BREATHS
 ]
 
@@ -658,6 +664,7 @@ QUEUE_EVENTS = [
     (59, "pursued", "غني", "قاعدهٔ صف"),
     (59, "queued", "فقر", "چرخه"),
     (59, "queued", "مول", "چرخه"),
+    (60, "pursued", "فقر", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -722,6 +729,7 @@ PROJ = [
     (57, b57),
     (58, b58),
     (59, b59),
+    (60, b60),
     # ⚓PROJ
 ]
 

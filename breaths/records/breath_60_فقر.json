@@ -1,0 +1,935 @@
+{
+ "breath_number": 60,
+ "deliberation": [
+  {
+   "root": "فقر",
+   "attestation": 14
+  },
+  {
+   "root": "مول",
+   "attestation": 86
+  },
+  {
+   "root": "ليل",
+   "attestation": 92
+  },
+  {
+   "root": "بغي",
+   "attestation": 96
+  },
+  {
+   "root": "صحب",
+   "attestation": 97
+  },
+  {
+   "root": "ولد",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "عدو",
+   "attestation": 106
+  },
+  {
+   "root": "نهر",
+   "attestation": 113
+  },
+  {
+   "root": "دخل",
+   "attestation": 126
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "فقر",
+ "attestation": 14,
+ "ayat": 14,
+ "top": [
+  {
+   "root": "غني",
+   "shared": 7,
+   "expected": 0.16,
+   "lift": 43.306,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "علم",
+   "shared": 5,
+   "expected": 1.63,
+   "lift": 3.059,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 12,
+   "expected": 4.22,
+   "lift": 2.845,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "غني"
+ ],
+ "one_way": [
+  "علم",
+  "اله"
+ ],
+ "neighbor_view": {
+  "غني": {
+   "root": "فقر",
+   "shared": 7,
+   "expected": 0.16,
+   "lift": 43.306,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "علم": null,
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "فقر↔فلح",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔صلو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔زكو",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔اذن",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔نفق",
+   "shared": 2,
+   "expected": 0.19,
+   "lift": 10.36,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "فقر↔سرر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔علن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔رزق",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.09,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "فقر↔بسط",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔طيب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔خبث",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حلل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حرم",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔سجد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔اكل",
+   "shared": 2,
+   "expected": 0.23,
+   "lift": 8.82,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "فقر↔طوع",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.77,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "فقر↔شهد",
+   "shared": 3,
+   "expected": 0.28,
+   "lift": 10.86,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "فقر↔كبر",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.91,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "فقر↔حيي",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔خير",
+   "shared": 3,
+   "expected": 0.4,
+   "lift": 7.51,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "فقر↔ولي",
+   "shared": 3,
+   "expected": 0.45,
+   "lift": 6.62,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "فقر↔عمل",
+   "shared": 3,
+   "expected": 0.7,
+   "lift": 4.27,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "فقر↔رسل",
+   "shared": 1,
+   "expected": 0.96,
+   "lift": 1.04,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "فقر↔اله",
+   "shared": 12,
+   "expected": 4.22,
+   "lift": 2.84,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "فقر↔حبط",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔بقي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔عدل",
+   "shared": 1,
+   "expected": 0.05,
+   "lift": 18.56,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "فقر↔كفي",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 13.92,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "فقر↔دبر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔زين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔عقل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔خبر",
+   "shared": 2,
+   "expected": 0.12,
+   "lift": 17.13,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "فقر↔غيب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔جرم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔عرف",
+   "shared": 2,
+   "expected": 0.14,
+   "lift": 14.37,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "فقر↔نكر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔علو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔متع",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حين",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔وكل",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔قلل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔ثمن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔شري",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔شكر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔فلك",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔بحر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔برر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔جري",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔ابد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔فوز",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔سخر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔تحت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔رضو",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.96,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "فقر↔نجو",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔خلد",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔شطن",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.71,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "فقر↔سبح",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حمد",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.3,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "فقر↔غني",
+   "shared": 7,
+   "expected": 0.16,
+   "lift": 43.31,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "فقر↔فلح",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔صلو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔زكو",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔اذن",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔سرر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔علن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔بسط",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔طيب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔خبث",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حلل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حرم",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔سجد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حيي",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حبط",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔بقي",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔دبر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔زين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔عقل",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔غيب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔جرم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔نكر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔علو",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔متع",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔حين",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔وكل",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔قلل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔ثمن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔شري",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔شكر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔فلك",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔بحر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔برر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔جري",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔ابد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔فوز",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔سخر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔تحت",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔نجو",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔خلد",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فقر↔سبح",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:273",
+   "degree": 3,
+   "roots_present": [
+    "غني",
+    "علم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "24:32",
+   "degree": 3,
+   "roots_present": [
+    "غني",
+    "علم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:268",
+   "degree": 2,
+   "roots_present": [
+    "علم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "3:181",
+   "degree": 2,
+   "roots_present": [
+    "غني",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "4:6",
+   "degree": 2,
+   "roots_present": [
+    "غني",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "4:135",
+   "degree": 2,
+   "roots_present": [
+    "غني",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "9:60",
+   "degree": 2,
+   "roots_present": [
+    "علم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "22:28",
+   "degree": 2,
+   "roots_present": [
+    "علم",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "فقر+غني": [
+   "2:273",
+   "3:181",
+   "4:6",
+   "4:135",
+   "24:32",
+   "35:15",
+   "47:38"
+  ],
+  "فقر+علم": [
+   "2:268",
+   "2:273",
+   "9:60",
+   "22:28",
+   "24:32"
+  ],
+  "فقر+اله": [
+   "2:268",
+   "2:271",
+   "2:273",
+   "3:181",
+   "4:6",
+   "4:135",
+   "9:60",
+   "22:28",
+   "24:32",
+   "35:15",
+   "47:38",
+   "59:8"
+  ],
+  "فقر+نفق": [
+   "2:273",
+   "47:38"
+  ],
+  "فقر+اكل": [
+   "4:6",
+   "22:28"
+  ],
+  "فقر+شهد": [
+   "4:6",
+   "4:135",
+   "22:28"
+  ],
+  "فقر+خير": [
+   "2:271",
+   "2:273",
+   "28:24"
+  ],
+  "فقر+ولي": [
+   "4:135",
+   "28:24",
+   "47:38"
+  ],
+  "فقر+عمل": [
+   "2:271",
+   "4:135",
+   "9:60"
+  ],
+  "فقر+عدل": [
+   "4:135"
+  ],
+  "فقر+خبر": [
+   "2:271",
+   "4:135"
+  ],
+  "فقر+عرف": [
+   "2:273",
+   "4:6"
+  ]
+ }
+}
