@@ -1,0 +1,1155 @@
+{
+ "breath_number": 70,
+ "deliberation": [
+  {
+   "root": "اثم",
+   "attestation": 48
+  },
+  {
+   "root": "نهر",
+   "attestation": 113
+  },
+  {
+   "root": "دخل",
+   "attestation": 126
+  },
+  {
+   "root": "اهل",
+   "attestation": 127
+  },
+  {
+   "root": "عظم",
+   "attestation": 128
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "اثم",
+ "attestation": 48,
+ "ayat": 42,
+ "top": [
+  {
+   "root": "عدو",
+   "shared": 9,
+   "expected": 0.62,
+   "lift": 14.525,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حرم",
+   "shared": 6,
+   "expected": 0.48,
+   "lift": 12.547,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كسب",
+   "shared": 5,
+   "expected": 0.4,
+   "lift": 12.373,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اكل",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.35,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غير",
+   "shared": 5,
+   "expected": 0.98,
+   "lift": 5.085,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غفر",
+   "shared": 6,
+   "expected": 1.36,
+   "lift": 4.41,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وقي",
+   "shared": 7,
+   "expected": 1.6,
+   "lift": 4.385,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نفس",
+   "shared": 7,
+   "expected": 1.82,
+   "lift": 3.849,
+   "p_perm": 0.01,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بين",
+   "shared": 8,
+   "expected": 3.06,
+   "lift": 2.616,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 5,
+   "expected": 2.38,
+   "lift": 2.097,
+   "p_perm": 0.1063,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "عدو",
+  "حرم",
+  "كسب",
+  "اكل",
+  "وقي"
+ ],
+ "one_way": [
+  "غير",
+  "غفر",
+  "نفس",
+  "بين",
+  "كلل"
+ ],
+ "neighbor_view": {
+  "عدو": {
+   "root": "اثم",
+   "shared": 9,
+   "expected": 0.62,
+   "lift": 14.525,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حرم": {
+   "root": "اثم",
+   "shared": 6,
+   "expected": 0.48,
+   "lift": 12.547,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كسب": {
+   "root": "اثم",
+   "shared": 5,
+   "expected": 0.4,
+   "lift": 12.373,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اكل": {
+   "root": "اثم",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.35,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غير": null,
+  "غفر": null,
+  "وقي": {
+   "root": "اثم",
+   "shared": 7,
+   "expected": 1.6,
+   "lift": 4.385,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نفس": null,
+  "بين": null,
+  "كلل": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "اثم↔فلح",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔صلو",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.65,
+   "p_perm": 0.4419
+  },
+  {
+   "pair": "اثم↔زكو",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.65,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "اثم↔اذن",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔نفق",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.73,
+   "p_perm": 0.4718
+  },
+  {
+   "pair": "اثم↔سرر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔علن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔رزق",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔بسط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔طيب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔خبث",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔حلل",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.45,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "اثم↔حرم",
+   "shared": 6,
+   "expected": 0.48,
+   "lift": 12.55,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اثم↔سجد",
+   "shared": 1,
+   "expected": 0.55,
+   "lift": 1.83,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "اثم↔اكل",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.35,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اثم↔طوع",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.26,
+   "p_perm": 0.5681
+  },
+  {
+   "pair": "اثم↔شهد",
+   "shared": 3,
+   "expected": 0.83,
+   "lift": 3.62,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "اثم↔كبر",
+   "shared": 4,
+   "expected": 1.03,
+   "lift": 3.88,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "اثم↔حيي",
+   "shared": 2,
+   "expected": 1.08,
+   "lift": 1.84,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "اثم↔خير",
+   "shared": 3,
+   "expected": 1.2,
+   "lift": 2.5,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "اثم↔ولي",
+   "shared": 2,
+   "expected": 1.36,
+   "lift": 1.47,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "اثم↔عمل",
+   "shared": 3,
+   "expected": 2.11,
+   "lift": 1.42,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "اثم↔رسل",
+   "shared": 2,
+   "expected": 2.89,
+   "lift": 0.69,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "اثم↔اله",
+   "shared": 22,
+   "expected": 12.66,
+   "lift": 1.74,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "اثم↔حبط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔بقي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔عدل",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.19,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "اثم↔كفي",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.64,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "اثم↔دبر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔زين",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔عقل",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔خبر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔غيب",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.52,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "اثم↔جرم",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.28,
+   "p_perm": 0.3455
+  },
+  {
+   "pair": "اثم↔عرف",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔نكر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔علو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔متع",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔حين",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.5,
+   "p_perm": 0.1993
+  },
+  {
+   "pair": "اثم↔وكل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔قلل",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔ثمن",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.81,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "اثم↔شري",
+   "shared": 1,
+   "expected": 0.15,
+   "lift": 6.46,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "اثم↔شكر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔فلك",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔بحر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔برر",
+   "shared": 2,
+   "expected": 0.2,
+   "lift": 9.9,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "اثم↔جري",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔ابد",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔فوز",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔سخر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔تحت",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔رضو",
+   "shared": 2,
+   "expected": 0.43,
+   "lift": 4.64,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "اثم↔نجو",
+   "shared": 2,
+   "expected": 0.51,
+   "lift": 3.96,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "اثم↔خلد",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔شطن",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔سبح",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔حمد",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔غني",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔فقر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔مول",
+   "shared": 1,
+   "expected": 0.54,
+   "lift": 1.86,
+   "p_perm": 0.4086
+  },
+  {
+   "pair": "اثم↔ليل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔قمر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔شمس",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔بغي",
+   "shared": 3,
+   "expected": 0.61,
+   "lift": 4.95,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "اثم↔صحب",
+   "shared": 1,
+   "expected": 0.6,
+   "lift": 1.67,
+   "p_perm": 0.4385
+  },
+  {
+   "pair": "اثم↔ولد",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔فضل",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.61,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "اثم↔عدو",
+   "shared": 9,
+   "expected": 0.62,
+   "lift": 14.52,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "اثم↔فلح",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔اذن",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔سرر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔علن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔رزق",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔بسط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔طيب",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔خبث",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔حبط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔بقي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔دبر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔زين",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔عقل",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔خبر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔عرف",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔نكر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔علو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔متع",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔وكل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔قلل",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔شكر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔فلك",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔بحر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔جري",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔ابد",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔فوز",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔سخر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔تحت",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔خلد",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔شطن",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔سبح",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔حمد",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔غني",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔فقر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔ليل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔قمر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔شمس",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "اثم↔ولد",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:173",
+   "degree": 4,
+   "roots_present": [
+    "عدو",
+    "حرم",
+    "غير",
+    "غفر"
+   ]
+  },
+  {
+   "ayah": "5:3",
+   "degree": 4,
+   "roots_present": [
+    "حرم",
+    "اكل",
+    "غير",
+    "غفر"
+   ]
+  },
+  {
+   "ayah": "2:85",
+   "degree": 3,
+   "roots_present": [
+    "عدو",
+    "حرم",
+    "نفس"
+   ]
+  },
+  {
+   "ayah": "5:2",
+   "degree": 3,
+   "roots_present": [
+    "عدو",
+    "حرم",
+    "وقي"
+   ]
+  },
+  {
+   "ayah": "33:58",
+   "degree": 3,
+   "roots_present": [
+    "كسب",
+    "غير",
+    "بين"
+   ]
+  },
+  {
+   "ayah": "53:32",
+   "degree": 3,
+   "roots_present": [
+    "غفر",
+    "وقي",
+    "نفس"
+   ]
+  },
+  {
+   "ayah": "2:182",
+   "degree": 2,
+   "roots_present": [
+    "غفر",
+    "بين"
+   ]
+  },
+  {
+   "ayah": "2:188",
+   "degree": 2,
+   "roots_present": [
+    "اكل",
+    "بين"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "اثم+عدو": [
+   "2:85",
+   "2:173",
+   "5:2",
+   "5:62",
+   "5:107",
+   "58:8",
+   "58:9",
+   "68:12",
+   "83:12"
+  ],
+  "اثم+حرم": [
+   "2:85",
+   "2:173",
+   "5:2",
+   "5:3",
+   "7:33",
+   "25:68"
+  ],
+  "اثم+كسب": [
+   "4:111",
+   "4:112",
+   "6:120",
+   "24:11",
+   "33:58"
+  ],
+  "اثم+اكل": [
+   "2:188",
+   "5:3",
+   "5:62",
+   "5:63",
+   "49:12"
+  ],
+  "اثم+غير": [
+   "2:173",
+   "5:3",
+   "5:106",
+   "7:33",
+   "33:58"
+  ],
+  "اثم+غفر": [
+   "2:173",
+   "2:182",
+   "4:48",
+   "5:3",
+   "42:37",
+   "53:32"
+  ],
+  "اثم+وقي": [
+   "2:203",
+   "2:206",
+   "2:283",
+   "5:2",
+   "49:12",
+   "53:32",
+   "58:9"
+  ],
+  "اثم+نفس": [
+   "2:85",
+   "3:178",
+   "4:107",
+   "4:111",
+   "25:68",
+   "53:32",
+   "58:8"
+  ],
+  "اثم+بين": [
+   "2:182",
+   "2:188",
+   "2:219",
+   "4:20",
+   "4:50",
+   "4:112",
+   "5:106",
+   "33:58"
+  ],
+  "اثم+شهد": [
+   "2:283",
+   "5:106",
+   "5:107"
+  ],
+  "اثم+كبر": [
+   "2:219",
+   "24:11",
+   "42:37",
+   "53:32"
+  ],
+  "اثم+اله": [
+   "2:85",
+   "2:173",
+   "2:181",
+   "2:182",
+   "2:203",
+   "2:206",
+   "2:219",
+   "2:276",
+   "2:283",
+   "4:48",
+   "4:50",
+   "4:107",
+   "4:111",
+   "5:2",
+   "5:3",
+   "5:106",
+   "5:107",
+   "7:33",
+   "25:68",
+   "49:12"
+  ],
+  "اثم+برر": [
+   "5:2",
+   "58:9"
+  ],
+  "اثم+بغي": [
+   "2:173",
+   "5:2",
+   "7:33"
+  ]
+ }
+}

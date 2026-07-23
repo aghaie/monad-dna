@@ -330,11 +330,11 @@
   "صحب",
   "ولد",
   "فضل",
-  "عدو"
+  "عدو",
+  "اثم"
  ],
  "open_queue": [
   "اتي",
-  "اثم",
   "ارض",
   "امر",
   "امن",
@@ -366,6 +366,7 @@
   "ملك",
   "موت",
   "نبا",
+  "نفس",
   "نهر",
   "نور",
   "نوس",
@@ -679,6 +680,30 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "اثم→اكل": {
+     "breath": 70,
+     "lift": 7.35,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اثم",
+   "b": "بين",
+   "directions": {
+    "اثم→بين": {
+     "breath": 70,
+     "lift": 2.616,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -690,6 +715,14 @@
    "directions": {
     "حرم→اثم": {
      "breath": 13,
+     "lift": 12.547,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    },
+    "اثم→حرم": {
+     "breath": 70,
      "lift": 12.547,
      "p": 0.0033,
      "stable": false,
@@ -711,6 +744,94 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "اثم→عدو": {
+     "breath": 70,
+     "lift": 14.525,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اثم",
+   "b": "غفر",
+   "directions": {
+    "اثم→غفر": {
+     "breath": 70,
+     "lift": 4.41,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اثم",
+   "b": "غير",
+   "directions": {
+    "اثم→غير": {
+     "breath": 70,
+     "lift": 5.085,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اثم",
+   "b": "كسب",
+   "directions": {
+    "اثم→كسب": {
+     "breath": 70,
+     "lift": 12.373,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اثم",
+   "b": "نفس",
+   "directions": {
+    "اثم→نفس": {
+     "breath": 70,
+     "lift": 3.849,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اثم",
+   "b": "وقي",
+   "directions": {
+    "اثم→وقي": {
+     "breath": 70,
+     "lift": 4.385,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
    "mutual_strong": false,
