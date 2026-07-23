@@ -574,7 +574,8 @@
   "وعظ",
   "خلق",
   "ستت",
-  "جدد"
+  "جدد",
+  "طين"
  ],
  "open_queue": [
   "اتي",
@@ -590,7 +591,6 @@
   "رحم",
   "سمو",
   "شيا",
-  "طين",
   "ظلم",
   "عبد",
   "عذب",
@@ -11690,9 +11690,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "طين→خلق": {
+     "breath": 177,
+     "lift": 23.838,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -17574,6 +17582,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "طين",
+   "b": "قول",
+   "directions": {
+    "طين→قول": {
+     "breath": 177,
+     "lift": 2.255,
+     "p": 0.0133,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ظلم",
