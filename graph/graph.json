@@ -502,7 +502,8 @@
   "مثل",
   "ضرب",
   "عند",
-  "خزن"
+  "خزن",
+  "ثوب"
  ],
  "open_queue": [
   "اتي",
@@ -514,7 +515,6 @@
   "ايي",
   "بعد",
   "بين",
-  "ثوب",
   "جنن",
   "حكم",
   "خلق",
@@ -2562,6 +2562,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
+   "b": "ثوب",
+   "directions": {
+    "ثوب→اله": {
+     "breath": 143,
+     "lift": 2.02,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
     }
    },
    "mutual_strong": false,
@@ -6818,6 +6834,30 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    },
+    "ثوب→خير": {
+     "breath": 143,
+     "lift": 9.139,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثوب",
+   "b": "علم",
+   "directions": {
+    "ثوب→علم": {
+     "breath": 143,
+     "lift": 2.235,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -6834,9 +6874,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "ثوب→عند": {
+     "breath": 143,
+     "lift": 8.607,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
