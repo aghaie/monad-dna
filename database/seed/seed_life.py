@@ -173,6 +173,7 @@ b137 = rec("breath_137_بدو.json")
 b138 = rec("breath_138_خفي.json")
 b139 = rec("breath_139_مثل.json")
 b140 = rec("breath_140_ضرب.json")
+b141 = rec("breath_141_عند.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -878,6 +879,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_140_ضرب.json",
      "breaths/records/breath_140_ضرب.json", LOG1,
      "یک قوی پایدار (مثل دوسویه ۲۲٫۶)؛ جفتِ متقابل: ضرب↔مثل؛ محتمل‌ها کم‌جان (رجل ۸٫۷)؛ ۴:۳۴ و ۱۳:۱۷ و ۱۶:۷۵ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: پنجاه‌وشش صفر", b140["top"]),
+    (141, "تولدِ دوباره", "عند", "قاعدهٔ صف (خودران)",
+     b141["ayat"], b141["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_141_عند.json",
+     "breaths/records/breath_141_عند.json", LOG1,
+     "دو قوی پایدار (خزن دوسویه ۱۵٫۲، ثوب دوسویه ۸٫۶)؛ بدون جفتِ متقابل (هیچ‌کدام پیش‌تر زیسته نبود)؛ محتمل‌ها کم‌جان (بقي ۷٫۹)؛ ۲:۶۲ و ۲:۷۶ و ۲:۱۱۲ گرهِ دوریشه‌ای؛ شاهدِ غیاب: بیست‌ودو صفر", b141["top"]),
     # ⚓BREATHS
 ]
 
@@ -1299,6 +1305,9 @@ QUEUE_EVENTS = [
     (139, "pursued", "مثل", "قاعدهٔ صف"),
     (139, "queued", "ضرب", "چرخه"),
     (140, "pursued", "ضرب", "قاعدهٔ صف"),
+    (141, "pursued", "عند", "قاعدهٔ صف"),
+    (141, "queued", "خزن", "چرخه"),
+    (141, "queued", "ثوب", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -1444,6 +1453,7 @@ PROJ = [
     (138, b138),
     (139, b139),
     (140, b140),
+    (141, b141),
     # ⚓PROJ
 ]
 
