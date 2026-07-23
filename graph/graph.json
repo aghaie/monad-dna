@@ -523,7 +523,8 @@
   "جوب",
   "دين",
   "غفر",
-  "حلم"
+  "حلم",
+  "عفو"
  ],
  "open_queue": [
   "اتي",
@@ -546,7 +547,6 @@
   "ظلم",
   "عبد",
   "عذب",
-  "عفو",
   "علم",
   "قبل",
   "قول",
@@ -2795,6 +2795,22 @@
   },
   {
    "a": "اله",
+   "b": "عفو",
+   "directions": {
+    "عفو→اله": {
+     "breath": 155,
+     "lift": 2.462,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 23
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "فاي",
    "directions": {
     "اله→فاي": {
@@ -3099,6 +3115,22 @@
   },
   {
    "a": "امر",
+   "b": "عفو",
+   "directions": {
+    "عفو→امر": {
+     "breath": 155,
+     "lift": 4.45,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امر",
    "b": "فلك",
    "directions": {
     "فلك→امر": {
@@ -3268,6 +3300,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "عفو",
+   "directions": {
+    "عفو→امن": {
+     "breath": 155,
+     "lift": 2.226,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -5371,6 +5419,22 @@
   },
   {
    "a": "بعد",
+   "b": "عفو",
+   "directions": {
+    "عفو→بعد": {
+     "breath": 155,
+     "lift": 5.486,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
    "b": "عقل",
    "directions": {
     "عقل→بعد": {
@@ -6212,6 +6276,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
+   "b": "عفو",
+   "directions": {
+    "عفو→بين": {
+     "breath": 155,
+     "lift": 3.102,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -8172,6 +8252,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حبب",
+   "b": "عفو",
+   "directions": {
+    "عفو→حبب": {
+     "breath": 155,
+     "lift": 14.2,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -11763,6 +11859,22 @@
   },
   {
    "a": "رحم",
+   "b": "عفو",
+   "directions": {
+    "عفو→رحم": {
+     "breath": 155,
+     "lift": 3.213,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رحم",
    "b": "غفر",
    "directions": {
     "غفر→رحم": {
@@ -13519,6 +13631,14 @@
    "directions": {
     "سوا→عفو": {
      "breath": 136,
+     "lift": 6.661,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "عفو→سوا": {
+     "breath": 155,
      "lift": 6.661,
      "p": 0.0033,
      "stable": false,
@@ -16188,10 +16308,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "عفو→غفر": {
+     "breath": 155,
+     "lift": 9.958,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "عفو",
+   "b": "كتب",
+   "directions": {
+    "عفو→كتب": {
+     "breath": 155,
+     "lift": 3.605,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "عقب",

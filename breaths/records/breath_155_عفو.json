@@ -1,0 +1,2148 @@
+{
+ "breath_number": 155,
+ "deliberation": [
+  {
+   "root": "عفو",
+   "attestation": 35
+  },
+  {
+   "root": "ذنب",
+   "attestation": 39
+  },
+  {
+   "root": "بعد",
+   "attestation": 235
+  },
+  {
+   "root": "نوس",
+   "attestation": 241
+  },
+  {
+   "root": "امر",
+   "attestation": 248
+  },
+  {
+   "root": "اخر",
+   "attestation": 250
+  },
+  {
+   "root": "وقي",
+   "attestation": 258
+  },
+  {
+   "root": "خلق",
+   "attestation": 261
+  },
+  {
+   "root": "اخذ",
+   "attestation": 273
+  },
+  {
+   "root": "عبد",
+   "attestation": 275
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "عفو",
+ "attestation": 35,
+ "ayat": 31,
+ "top": [
+  {
+   "root": "حبب",
+   "shared": 6,
+   "expected": 0.42,
+   "lift": 14.2,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غفر",
+   "shared": 10,
+   "expected": 1.0,
+   "lift": 9.958,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سوا",
+   "shared": 5,
+   "expected": 0.75,
+   "lift": 6.661,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعد",
+   "shared": 6,
+   "expected": 1.09,
+   "lift": 5.486,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امر",
+   "shared": 5,
+   "expected": 1.12,
+   "lift": 4.45,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كتب",
+   "shared": 5,
+   "expected": 1.39,
+   "lift": 3.605,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رحم",
+   "shared": 5,
+   "expected": 1.56,
+   "lift": 3.213,
+   "p_perm": 0.0233,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بين",
+   "shared": 7,
+   "expected": 2.26,
+   "lift": 3.102,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 23,
+   "expected": 9.34,
+   "lift": 2.462,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امن",
+   "shared": 8,
+   "expected": 3.59,
+   "lift": 2.226,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "حبب",
+  "غفر",
+  "سوا",
+  "بعد"
+ ],
+ "one_way": [
+  "امر",
+  "كتب",
+  "رحم",
+  "بين",
+  "اله",
+  "امن"
+ ],
+ "neighbor_view": {
+  "حبب": {
+   "root": "عفو",
+   "shared": 6,
+   "expected": 0.42,
+   "lift": 14.2,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "غفر": {
+   "root": "عفو",
+   "shared": 10,
+   "expected": 1.0,
+   "lift": 9.958,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سوا": {
+   "root": "عفو",
+   "shared": 5,
+   "expected": 0.75,
+   "lift": 6.661,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعد": {
+   "root": "عفو",
+   "shared": 6,
+   "expected": 1.09,
+   "lift": 5.486,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "امر": null,
+  "كتب": null,
+  "رحم": null,
+  "بين": null,
+  "اله": null,
+  "امن": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "عفو↔فلح",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔صلو",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.24,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "عفو↔زكو",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔اذن",
+   "shared": 2,
+   "expected": 0.45,
+   "lift": 4.47,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "عفو↔نفق",
+   "shared": 2,
+   "expected": 0.43,
+   "lift": 4.68,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "عفو↔سرر",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.36,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "عفو↔علن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔رزق",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بسط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔طيب",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.37,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "عفو↔خبث",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔حلل",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.68,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "عفو↔حرم",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.83,
+   "p_perm": 0.3422
+  },
+  {
+   "pair": "عفو↔سجد",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.48,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "عفو↔اكل",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 1.99,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "عفو↔طوع",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شهد",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔كبر",
+   "shared": 2,
+   "expected": 0.76,
+   "lift": 2.63,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "عفو↔حيي",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خير",
+   "shared": 1,
+   "expected": 0.88,
+   "lift": 1.13,
+   "p_perm": 0.6312
+  },
+  {
+   "pair": "عفو↔ولي",
+   "shared": 2,
+   "expected": 1.0,
+   "lift": 1.99,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "عفو↔عمل",
+   "shared": 1,
+   "expected": 1.56,
+   "lift": 0.64,
+   "p_perm": 0.8173
+  },
+  {
+   "pair": "عفو↔رسل",
+   "shared": 1,
+   "expected": 2.13,
+   "lift": 0.47,
+   "p_perm": 0.8804
+  },
+  {
+   "pair": "عفو↔اله",
+   "shared": 23,
+   "expected": 9.34,
+   "lift": 2.46,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عفو↔حبط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بقي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عدل",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.38,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "عفو↔كفي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دبر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔زين",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عقل",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خبر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔غيب",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔جرم",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.09,
+   "p_perm": 0.2591
+  },
+  {
+   "pair": "عفو↔عرف",
+   "shared": 2,
+   "expected": 0.31,
+   "lift": 6.49,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "عفو↔نكر",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.44,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "عفو↔علو",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔متع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔حين",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.1,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "عفو↔وكل",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "عفو↔قلل",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.72,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "عفو↔ثمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شري",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شكر",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.92,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "عفو↔فلك",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بحر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔برر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔جري",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ابد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فوز",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔سخر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔تحت",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔رضو",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نجو",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خلد",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شطن",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.58,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "عفو↔سبح",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔حمد",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔غني",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فقر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔مول",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ليل",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.48,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "عفو↔قمر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شمس",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بغي",
+   "shared": 2,
+   "expected": 0.45,
+   "lift": 4.47,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "عفو↔صحب",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ولد",
+   "shared": 2,
+   "expected": 0.4,
+   "lift": 5.03,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "عفو↔فضل",
+   "shared": 3,
+   "expected": 0.46,
+   "lift": 6.56,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "عفو↔عدو",
+   "shared": 2,
+   "expected": 0.46,
+   "lift": 4.37,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "عفو↔اثم",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.79,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "عفو↔نهر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دخل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فتح",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔اهل",
+   "shared": 3,
+   "expected": 0.6,
+   "lift": 5.03,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "عفو↔قري",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔هلك",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔قرن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عظم",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔اجر",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.03,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "عفو↔ضيع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔قدر",
+   "shared": 2,
+   "expected": 0.6,
+   "lift": 3.32,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "عفو↔دنو",
+   "shared": 1,
+   "expected": 0.64,
+   "lift": 1.57,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "عفو↔خزي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دون",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نفع",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.11,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "عفو↔ضرر",
+   "shared": 2,
+   "expected": 0.35,
+   "lift": 5.75,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "عفو↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔مسس",
+   "shared": 2,
+   "expected": 0.28,
+   "lift": 7.06,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "عفو↔بصر",
+   "shared": 1,
+   "expected": 0.69,
+   "lift": 1.45,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "عفو↔فاد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عمي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نصر",
+   "shared": 2,
+   "expected": 0.68,
+   "lift": 2.94,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "عفو↔هجر",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.45,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "عفو↔اوي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔صير",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔باس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نبا",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔رجع",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ذوق",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "عفو↔موت",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بعث",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نظر",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔سير",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عقب",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.72,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "عفو↔كيف",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شدد",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔قوي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عزز",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.73,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "عفو↔قلب",
+   "shared": 2,
+   "expected": 0.77,
+   "lift": 2.6,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "عفو↔قسو",
+   "shared": 1,
+   "expected": 0.03,
+   "lift": 33.53,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "عفو↔طبع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔طمن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔مرض",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 8.75,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "عفو↔شرك",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔برا",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔اول",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.27,
+   "p_perm": 0.598
+  },
+  {
+   "pair": "عفو↔لبب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔سطر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔مرر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ابو",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.93,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "عفو↔اخو",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.51,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "عفو↔وجد",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.03,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "عفو↔صلح",
+   "shared": 1,
+   "expected": 0.85,
+   "lift": 1.18,
+   "p_perm": 0.598
+  },
+  {
+   "pair": "عفو↔فسد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔توب",
+   "shared": 2,
+   "expected": 0.34,
+   "lift": 5.83,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "عفو↔سمع",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔صمم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نور",
+   "shared": 1,
+   "expected": 0.86,
+   "lift": 1.16,
+   "p_perm": 0.5748
+  },
+  {
+   "pair": "عفو↔وقد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔صلي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔حسن",
+   "shared": 4,
+   "expected": 0.88,
+   "lift": 4.55,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "عفو↔صوب",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.59,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "عفو↔جزي",
+   "shared": 2,
+   "expected": 0.54,
+   "lift": 3.69,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "عفو↔كسب",
+   "shared": 4,
+   "expected": 0.3,
+   "lift": 13.41,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عفو↔سوا",
+   "shared": 5,
+   "expected": 0.75,
+   "lift": 6.66,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "عفو↔بدو",
+   "shared": 2,
+   "expected": 0.14,
+   "lift": 13.87,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "عفو↔خفي",
+   "shared": 2,
+   "expected": 0.15,
+   "lift": 12.98,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "عفو↔مثل",
+   "shared": 3,
+   "expected": 0.74,
+   "lift": 4.08,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "عفو↔ضرب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عند",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.06,
+   "p_perm": 0.6445
+  },
+  {
+   "pair": "عفو↔خزن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ثوب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔جنن",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عنب",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نخل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ملك",
+   "shared": 0,
+   "expected": 0.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔حكم",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.06,
+   "p_perm": 0.6146
+  },
+  {
+   "pair": "عفو↔دعو",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خلص",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔جوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دين",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔غفر",
+   "shared": 10,
+   "expected": 1.0,
+   "lift": 9.96,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عفو↔حلم",
+   "shared": 2,
+   "expected": 0.1,
+   "lift": 20.12,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "عفو↔فلح",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔زكو",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔علن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔رزق",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بسط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خبث",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔طوع",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شهد",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔حيي",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔حبط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بقي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔كفي",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دبر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔زين",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عقل",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خبر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔غيب",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔علو",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔متع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ثمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شري",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فلك",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بحر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔برر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔جري",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ابد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فوز",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔سخر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔تحت",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔رضو",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نجو",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خلد",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔سبح",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔حمد",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔غني",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فقر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔مول",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔قمر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شمس",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔صحب",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نهر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دخل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فتح",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔قري",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔هلك",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔قرن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عظم",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ضيع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خزي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دون",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فاد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عمي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔اوي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔صير",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔باس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نبا",
+   "shared": 0,
+   "expected": 0.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔رجع",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔موت",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔بعث",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نظر",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔سير",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔كيف",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شدد",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔قوي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔طبع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔طمن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔شرك",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔برا",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔لبب",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔سطر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔مرر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔فسد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔سمع",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔صمم",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔وقد",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔صلي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ضرب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خزن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ثوب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔جنن",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔عنب",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔نخل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔ملك",
+   "shared": 0,
+   "expected": 0.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دعو",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔خلص",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔جوب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عفو↔دين",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:109",
+   "degree": 6,
+   "roots_present": [
+    "بعد",
+    "امر",
+    "كتب",
+    "بين",
+    "اله",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "3:152",
+   "degree": 5,
+   "roots_present": [
+    "حبب",
+    "بعد",
+    "امر",
+    "اله",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "3:159",
+   "degree": 5,
+   "roots_present": [
+    "حبب",
+    "غفر",
+    "امر",
+    "رحم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "2:178",
+   "degree": 4,
+   "roots_present": [
+    "بعد",
+    "كتب",
+    "رحم",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "4:153",
+   "degree": 4,
+   "roots_present": [
+    "بعد",
+    "كتب",
+    "بين",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "5:101",
+   "degree": 4,
+   "roots_present": [
+    "غفر",
+    "سوا",
+    "اله",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "24:22",
+   "degree": 4,
+   "roots_present": [
+    "حبب",
+    "غفر",
+    "رحم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "64:14",
+   "degree": 4,
+   "roots_present": [
+    "غفر",
+    "رحم",
+    "اله",
+    "امن"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "عفو+حبب": [
+   "3:134",
+   "3:152",
+   "3:159",
+   "5:13",
+   "24:22",
+   "42:40"
+  ],
+  "عفو+غفر": [
+   "2:286",
+   "3:155",
+   "3:159",
+   "4:43",
+   "4:99",
+   "5:101",
+   "22:60",
+   "24:22",
+   "58:2",
+   "64:14"
+  ],
+  "عفو+سوا": [
+   "4:149",
+   "5:101",
+   "7:95",
+   "42:25",
+   "42:40"
+  ],
+  "عفو+بعد": [
+   "2:52",
+   "2:109",
+   "2:178",
+   "3:152",
+   "4:153",
+   "9:66"
+  ],
+  "عفو+امر": [
+   "2:109",
+   "3:152",
+   "3:159",
+   "5:95",
+   "7:199"
+  ],
+  "عفو+كتب": [
+   "2:109",
+   "2:178",
+   "2:187",
+   "4:153",
+   "5:15"
+  ],
+  "عفو+رحم": [
+   "2:178",
+   "2:286",
+   "3:159",
+   "24:22",
+   "64:14"
+  ],
+  "عفو+بين": [
+   "2:109",
+   "2:187",
+   "2:219",
+   "2:237",
+   "4:153",
+   "5:15",
+   "9:43"
+  ],
+  "عفو+اله": [
+   "2:109",
+   "2:187",
+   "2:219",
+   "2:237",
+   "2:286",
+   "3:134",
+   "3:152",
+   "3:155",
+   "3:159",
+   "4:43",
+   "4:99",
+   "4:149",
+   "4:153",
+   "5:13",
+   "5:15",
+   "5:95",
+   "5:101",
+   "9:43",
+   "22:60",
+   "24:22"
+  ],
+  "عفو+امن": [
+   "2:109",
+   "2:178",
+   "3:152",
+   "4:43",
+   "5:95",
+   "5:101",
+   "9:66",
+   "64:14"
+  ],
+  "عفو+سرر": [
+   "3:134",
+   "7:95"
+  ],
+  "عفو+فضل": [
+   "2:237",
+   "3:152",
+   "24:22"
+  ],
+  "عفو+عدو": [
+   "2:178",
+   "64:14"
+  ],
+  "عفو+اهل": [
+   "2:109",
+   "4:153",
+   "5:15"
+  ],
+  "عفو+ضرر": [
+   "3:134",
+   "7:95"
+  ],
+  "عفو+مسس": [
+   "2:237",
+   "7:95"
+  ],
+  "عفو+قسو": [
+   "5:13"
+  ],
+  "عفو+حسن": [
+   "2:178",
+   "3:134",
+   "5:13",
+   "7:95"
+  ],
+  "عفو+كسب": [
+   "2:286",
+   "3:155",
+   "42:30",
+   "42:34"
+  ],
+  "عفو+بدو": [
+   "4:149",
+   "5:101"
+  ],
+  "عفو+خفي": [
+   "4:149",
+   "5:15"
+  ],
+  "عفو+مثل": [
+   "5:95",
+   "22:60",
+   "42:40"
+  ],
+  "عفو+حلم": [
+   "3:155",
+   "5:101"
+  ]
+ }
+}
