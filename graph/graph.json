@@ -159,6 +159,7 @@
   "فلح",
   "فلك",
   "فوز",
+  "فوق",
   "فيا",
   "قتل",
   "قدر",
@@ -274,7 +275,8 @@
   "جري",
   "ابد",
   "فوز",
-  "سخر"
+  "سخر",
+  "تحت"
  ],
  "open_queue": [
   "اتي",
@@ -285,7 +287,6 @@
   "بصر",
   "بغي",
   "بين",
-  "تحت",
   "جنن",
   "خلد",
   "دخل",
@@ -293,6 +294,7 @@
   "دنو",
   "دون",
   "راي",
+  "رضو",
   "سبح",
   "سمو",
   "شرك",
@@ -346,9 +348,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    },
+    "تحت→ابد": {
+     "breath": 52,
+     "lift": 31.18,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2546,10 +2556,98 @@
      "stable": true,
      "tier": "قوی",
      "shared": 40
+    },
+    "تحت→جري": {
+     "breath": 52,
+     "lift": 77.95,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 40
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "تحت",
+   "b": "جنن",
+   "directions": {
+    "تحت→جنن": {
+     "breath": 52,
+     "lift": 24.18,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 38
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "تحت",
+   "b": "خلد",
+   "directions": {
+    "تحت→خلد": {
+     "breath": 52,
+     "lift": 30.455,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 21
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "تحت",
+   "b": "دخل",
+   "directions": {
+    "تحت→دخل": {
+     "breath": 52,
+     "lift": 20.225,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "تحت",
+   "b": "رضو",
+   "directions": {
+    "تحت→رضو": {
+     "breath": 52,
+     "lift": 13.641,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "تحت",
+   "b": "صلح",
+   "directions": {
+    "تحت→صلح": {
+     "breath": 52,
+     "lift": 10.271,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "تحت",
@@ -2578,6 +2676,46 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "تحت→فوز": {
+     "breath": 52,
+     "lift": 46.193,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "تحت",
+   "b": "فوق",
+   "directions": {
+    "تحت→فوق": {
+     "breath": 52,
+     "lift": 15.21,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "تحت",
+   "b": "نهر",
+   "directions": {
+    "تحت→نهر": {
+     "breath": 52,
+     "lift": 48.91,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 40
     }
    },
    "mutual_strong": false,
