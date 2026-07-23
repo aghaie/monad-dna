@@ -108,6 +108,7 @@ b72 = rec("breath_72_دخل.json")
 b73 = rec("breath_73_بوب.json")
 b74 = rec("breath_74_فتح.json")
 b75 = rec("breath_75_اهل.json")
+b76 = rec("breath_76_قري.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -488,6 +489,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_75_اهل.json",
      "breaths/records/breath_75_اهل.json", LOG1,
      "یک قوی پایدار (قري دوسویه ۱۳٫۵)؛ بدون جفتِ متقابل (قري پیش‌تر زیسته نبود)؛ مدن دوسویهٔ محتملِ ناپایدار lift=۱۵٫۳؛ ۴:۱۲۳ و ۲۸:۱۵ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: هجده صفر", b75["top"]),
+    (76, "تولدِ دوباره", "قري", "قاعدهٔ صف (خودران)",
+     b76["ayat"], b76["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_76_قري.json",
+     "breaths/records/breath_76_قري.json", LOG1,
+     "سه قوی پایدار (هلك دوسویه ۲۹٫۳، اهل دوسویه ۱۳٫۵، رسل یک‌طرفه ۲٫۷)؛ جفتِ متقابل: قري↔اهل؛ باس دوسویهٔ محتملِ ناپایدار lift=۸٫۶؛ ۷:۹۴ و ۲۸:۵۹ و ۲۹:۳۱ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: چهل‌وپنج صفر", b76["top"]),
     # ⚓BREATHS
 ]
 
@@ -779,6 +785,8 @@ QUEUE_EVENTS = [
     (74, "pursued", "فتح", "قاعدهٔ صف"),
     (75, "pursued", "اهل", "قاعدهٔ صف"),
     (75, "queued", "قري", "چرخه"),
+    (76, "pursued", "قري", "قاعدهٔ صف"),
+    (76, "queued", "هلك", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -859,6 +867,7 @@ PROJ = [
     (73, b73),
     (74, b74),
     (75, b75),
+    (76, b76),
     # ⚓PROJ
 ]
 

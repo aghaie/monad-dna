@@ -21,6 +21,7 @@
   "اهل",
   "اول",
   "ايي",
+  "باس",
   "بحر",
   "بدل",
   "برر",
@@ -187,6 +188,7 @@
   "فوز",
   "فوق",
   "فيا",
+  "قبل",
   "قتل",
   "قدر",
   "قرب",
@@ -232,6 +234,7 @@
   "نبا",
   "نجو",
   "ندو",
+  "نذر",
   "نزل",
   "نسو",
   "نصح",
@@ -341,7 +344,8 @@
   "دخل",
   "بوب",
   "فتح",
-  "اهل"
+  "اهل",
+  "قري"
  ],
  "open_queue": [
   "اتي",
@@ -365,7 +369,6 @@
   "علم",
   "عند",
   "قدر",
-  "قري",
   "قلب",
   "قول",
   "قوم",
@@ -378,6 +381,7 @@
   "نفس",
   "نور",
   "نوس",
+  "هلك",
   "وقي"
  ],
  "edges": [
@@ -920,6 +924,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخذ",
+   "b": "قري",
+   "directions": {
+    "قري→اخذ": {
+     "breath": 76,
+     "lift": 2.84,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -2072,9 +2092,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 14
+    },
+    "قري→اهل": {
+     "breath": 76,
+     "lift": 13.473,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2272,6 +2300,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "باس",
+   "b": "قري",
+   "directions": {
+    "قري→باس": {
+     "breath": 76,
+     "lift": 8.618,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -5382,6 +5426,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "خرج",
+   "b": "قري",
+   "directions": {
+    "قري→خرج": {
+     "breath": 76,
+     "lift": 3.678,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "خزي",
    "b": "رسل",
    "directions": {
@@ -6356,6 +6416,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "رسل",
+   "b": "قري",
+   "directions": {
+    "قري→رسل": {
+     "breath": 76,
+     "lift": 2.692,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "رسل",
@@ -7447,6 +7523,22 @@
   },
   {
    "a": "شدد",
+   "b": "قري",
+   "directions": {
+    "قري→شدد": {
+     "breath": 76,
+     "lift": 6.999,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شدد",
    "b": "متع",
    "directions": {
     "متع→شدد": {
@@ -8454,6 +8546,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ظلم",
+   "b": "قري",
+   "directions": {
+    "قري→ظلم": {
+     "breath": 76,
+     "lift": 3.982,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "عبد",
    "b": "كفي",
    "directions": {
@@ -9318,6 +9426,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "قبل",
+   "b": "قري",
+   "directions": {
+    "قري→قبل": {
+     "breath": 76,
+     "lift": 2.457,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "قتل",
    "b": "قلل",
    "directions": {
@@ -9348,6 +9472,38 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "قري",
+   "b": "نذر",
+   "directions": {
+    "قري→نذر": {
+     "breath": 76,
+     "lift": 6.025,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قري",
+   "b": "هلك",
+   "directions": {
+    "قري→هلك": {
+     "breath": 76,
+     "lift": 29.329,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "قلب",
