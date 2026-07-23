@@ -77,6 +77,7 @@ b41 = rec("breath_41_قلل.json")
 b42 = rec("breath_42_ثمن.json")
 b43 = rec("breath_43_شري.json")
 b44 = rec("breath_44_شكر.json")
+b45 = rec("breath_45_فلك.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -302,6 +303,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_44_شكر.json",
      "breaths/records/breath_44_شكر.json", LOG1,
      "چهار قوی پایدار (فلك دوسویه ۲۱٫۷، بحر دوسویه ۱۳٫۶، فضل دوسویه ۱۱٫۸، قلل دوسویه ۷٫۳)؛ جفتِ متقابل: شكر↔قلل؛ فاد دوسویهٔ محتملِ ناپایدار lift=۳۰٫۱؛ ۱۶:۱۴ و ۳۵:۱۲ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: بیست‌وشش صفر", b44["top"]),
+    (45, "تولدِ دوباره", "فلك", "قاعدهٔ صف (خودران)",
+     b45["ayat"], b45["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_45_فلك.json",
+     "breaths/records/breath_45_فلك.json", LOG1,
+     "چهار قوی پایدار (بحر دوسویه ۵۶٫۱، شكر دوسویه ۲۱٫۷، نجو دوسویه ۲۰٫۰، بغي دوسویه ۱۶٫۶)؛ جفتِ متقابل: فلك↔شكر؛ سخر دوسویهٔ محتملِ ناپایدار lift=۴۲٫۸؛ ۴۵:۱۲ گرهِ هفت‌ریشه‌ای؛ شاهدِ غیاب: سی‌وپنج صفر", b45["top"]),
     # ⚓BREATHS
 ]
 
@@ -525,6 +531,9 @@ QUEUE_EVENTS = [
     (44, "queued", "فلك", "چرخه"),
     (44, "queued", "بحر", "چرخه"),
     (44, "queued", "فضل", "چرخه"),
+    (45, "pursued", "فلك", "قاعدهٔ صف"),
+    (45, "queued", "نجو", "چرخه"),
+    (45, "queued", "بغي", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -574,6 +583,7 @@ PROJ = [
     (42, b42),
     (43, b43),
     (44, b44),
+    (45, b45),
     # ⚓PROJ
 ]
 

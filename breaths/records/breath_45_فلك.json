@@ -1,0 +1,968 @@
+{
+ "breath_number": 45,
+ "deliberation": [
+  {
+   "root": "فلك",
+   "attestation": 25
+  },
+  {
+   "root": "بحر",
+   "attestation": 42
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "سبح",
+   "attestation": 92
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "فلك",
+ "attestation": 25,
+ "ayat": 25,
+ "top": [
+  {
+   "root": "بحر",
+   "shared": 9,
+   "expected": 0.16,
+   "lift": 56.124,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سخر",
+   "shared": 6,
+   "expected": 0.14,
+   "lift": 42.761,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جري",
+   "shared": 7,
+   "expected": 0.26,
+   "lift": 27.282,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شكر",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.69,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نجو",
+   "shared": 6,
+   "expected": 0.3,
+   "lift": 19.955,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بغي",
+   "shared": 6,
+   "expected": 0.36,
+   "lift": 16.629,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "فضل",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.557,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 9,
+   "expected": 1.42,
+   "lift": 6.342,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امر",
+   "shared": 5,
+   "expected": 0.91,
+   "lift": 5.519,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ايي",
+   "shared": 6,
+   "expected": 1.42,
+   "lift": 4.24,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "بحر",
+  "سخر",
+  "جري",
+  "شكر",
+  "نجو",
+  "بغي",
+  "فضل",
+  "كلل"
+ ],
+ "one_way": [
+  "امر",
+  "ايي"
+ ],
+ "neighbor_view": {
+  "بحر": {
+   "root": "فلك",
+   "shared": 9,
+   "expected": 0.16,
+   "lift": 56.124,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سخر": {
+   "root": "فلك",
+   "shared": 6,
+   "expected": 0.14,
+   "lift": 42.761,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "جري": {
+   "root": "فلك",
+   "shared": 7,
+   "expected": 0.26,
+   "lift": 27.282,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شكر": {
+   "root": "فلك",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.69,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "نجو": {
+   "root": "فلك",
+   "shared": 6,
+   "expected": 0.3,
+   "lift": 19.955,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "بغي": {
+   "root": "فلك",
+   "shared": 6,
+   "expected": 0.36,
+   "lift": 16.629,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "فضل": {
+   "root": "فلك",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.557,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كلل": {
+   "root": "فلك",
+   "shared": 9,
+   "expected": 1.42,
+   "lift": 6.342,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "امر": null,
+  "ايي": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "فلك↔فلح",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔صلو",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔زكو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔اذن",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.77,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "فلك↔نفق",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔سرر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔رزق",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.29,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "فلك↔بسط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔طيب",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.42,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "فلك↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔حلل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔حرم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔سجد",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔اكل",
+   "shared": 2,
+   "expected": 0.4,
+   "lift": 4.94,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "فلك↔طوع",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔شهد",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔كبر",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔حيي",
+   "shared": 1,
+   "expected": 0.65,
+   "lift": 1.55,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "فلك↔خير",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔ولي",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔عمل",
+   "shared": 0,
+   "expected": 1.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔رسل",
+   "shared": 1,
+   "expected": 1.72,
+   "lift": 0.58,
+   "p_perm": 0.8073
+  },
+  {
+   "pair": "فلك↔اله",
+   "shared": 8,
+   "expected": 7.53,
+   "lift": 1.06,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "فلك↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔عدل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔كفي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔دبر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔زين",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔عقل",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 5.09,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "فلك↔خبر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔غيب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔جرم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔عرف",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔نكر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔علو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔متع",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔حين",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔وكل",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔قلل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔ثمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔شري",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔شكر",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.69,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "فلك↔فلح",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔صلو",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔زكو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔نفق",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔سرر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔بسط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔حلل",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔حرم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔سجد",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔طوع",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔شهد",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔كبر",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔خير",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔ولي",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔عمل",
+   "shared": 0,
+   "expected": 1.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔عدل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔كفي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔دبر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔زين",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔خبر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔غيب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔جرم",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔عرف",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔نكر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔علو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔متع",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔حين",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔وكل",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔قلل",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔ثمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فلك↔شري",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "45:12",
+   "degree": 7,
+   "roots_present": [
+    "بحر",
+    "سخر",
+    "جري",
+    "شكر",
+    "بغي",
+    "فضل",
+    "امر"
+   ]
+  },
+  {
+   "ayah": "30:46",
+   "degree": 6,
+   "roots_present": [
+    "جري",
+    "شكر",
+    "بغي",
+    "فضل",
+    "امر",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "2:164",
+   "degree": 5,
+   "roots_present": [
+    "بحر",
+    "سخر",
+    "جري",
+    "كلل",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "10:22",
+   "degree": 5,
+   "roots_present": [
+    "بحر",
+    "جري",
+    "شكر",
+    "نجو",
+    "كلل"
+   ]
+  },
+  {
+   "ayah": "16:14",
+   "degree": 5,
+   "roots_present": [
+    "بحر",
+    "سخر",
+    "شكر",
+    "بغي",
+    "فضل"
+   ]
+  },
+  {
+   "ayah": "31:31",
+   "degree": 5,
+   "roots_present": [
+    "بحر",
+    "جري",
+    "شكر",
+    "كلل",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "35:12",
+   "degree": 5,
+   "roots_present": [
+    "بحر",
+    "شكر",
+    "بغي",
+    "فضل",
+    "كلل"
+   ]
+  },
+  {
+   "ayah": "14:32",
+   "degree": 4,
+   "roots_present": [
+    "بحر",
+    "سخر",
+    "جري",
+    "امر"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "فلك+بحر": [
+   "2:164",
+   "10:22",
+   "14:32",
+   "16:14",
+   "17:66",
+   "22:65",
+   "31:31",
+   "35:12",
+   "45:12"
+  ],
+  "فلك+سخر": [
+   "2:164",
+   "11:38",
+   "14:32",
+   "16:14",
+   "22:65",
+   "45:12"
+  ],
+  "فلك+جري": [
+   "2:164",
+   "10:22",
+   "14:32",
+   "22:65",
+   "30:46",
+   "31:31",
+   "45:12"
+  ],
+  "فلك+شكر": [
+   "10:22",
+   "16:14",
+   "30:46",
+   "31:31",
+   "35:12",
+   "45:12"
+  ],
+  "فلك+نجو": [
+   "7:64",
+   "10:22",
+   "10:73",
+   "23:28",
+   "26:119",
+   "29:65"
+  ],
+  "فلك+بغي": [
+   "16:14",
+   "17:66",
+   "30:46",
+   "35:12",
+   "36:40",
+   "45:12"
+  ],
+  "فلك+فضل": [
+   "16:14",
+   "17:66",
+   "30:46",
+   "35:12",
+   "45:12"
+  ],
+  "فلك+كلل": [
+   "2:164",
+   "10:22",
+   "11:38",
+   "21:33",
+   "23:27",
+   "31:31",
+   "35:12",
+   "36:40",
+   "43:12"
+  ],
+  "فلك+امر": [
+   "14:32",
+   "22:65",
+   "23:27",
+   "30:46",
+   "45:12"
+  ],
+  "فلك+ايي": [
+   "2:164",
+   "7:64",
+   "10:73",
+   "30:46",
+   "31:31",
+   "36:41"
+  ]
+ }
+}
