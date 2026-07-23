@@ -451,7 +451,8 @@
   "شرك",
   "برا",
   "اول",
-  "لبب"
+  "لبب",
+  "سطر"
  ],
  "open_queue": [
   "ابو",
@@ -471,7 +472,6 @@
   "ذكر",
   "راي",
   "رحم",
-  "سطر",
   "سمع",
   "سمو",
   "شيا",
@@ -2962,9 +2962,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "سطر→اول": {
+     "breath": 119,
+     "lift": 24.668,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -10426,6 +10434,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سطر",
+   "b": "قول",
+   "directions": {
+    "سطر→قول": {
+     "breath": 119,
+     "lift": 1.973,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
