@@ -369,6 +369,7 @@
   "وحي",
   "ودد",
   "ورث",
+  "وزر",
   "وسع",
   "وصف",
   "وصي",
@@ -556,12 +557,13 @@
   "يدي",
   "قطع",
   "رجل",
-  "نسو"
+  "نسو",
+  "اخر"
  ],
  "open_queue": [
   "اتي",
+  "اجل",
   "اخذ",
-  "اخر",
   "ارض",
   "امن",
   "ايي",
@@ -1575,6 +1577,22 @@
   },
   {
    "a": "اجل",
+   "b": "اخر",
+   "directions": {
+    "اخر→اجل": {
+     "breath": 170,
+     "lift": 9.663,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اجل",
    "b": "عرف",
    "directions": {
     "عرف→اجل": {
@@ -1799,10 +1817,34 @@
   },
   {
    "a": "اخر",
+   "b": "ترك",
+   "directions": {
+    "اخر→ترك": {
+     "breath": 170,
+     "lift": 5.572,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
    "b": "حبط",
    "directions": {
     "حبط→اخر": {
      "breath": 25,
+     "lift": 9.663,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    },
+    "اخر→حبط": {
+     "breath": 170,
      "lift": 9.663,
      "p": 0.0033,
      "stable": false,
@@ -1824,6 +1866,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "اخر→خزي": {
+     "breath": 170,
+     "lift": 5.368,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1840,9 +1890,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 57
+    },
+    "اخر→دنو": {
+     "breath": 170,
+     "lift": 11.475,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 57
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -1872,6 +1930,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 12
+    },
+    "اخر→زكو": {
+     "breath": 170,
+     "lift": 5.522,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
     }
    },
    "mutual_strong": false,
@@ -1883,6 +1949,14 @@
    "directions": {
     "شري→اخر": {
      "breath": 43,
+     "lift": 5.602,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "اخر→شري": {
+     "breath": 170,
      "lift": 5.602,
      "p": 0.0033,
      "stable": false,
@@ -1901,6 +1975,14 @@
      "breath": 27,
      "lift": 5.368,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "اخر→عدل": {
+     "breath": 170,
+     "lift": 5.368,
+     "p": 0.0066,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -1933,6 +2015,38 @@
      "breath": 78,
      "lift": 3.789,
      "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "نشا",
+   "directions": {
+    "اخر→نشا": {
+     "breath": 170,
+     "lift": 8.246,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "وزر",
+   "directions": {
+    "اخر→وزر": {
+     "breath": 170,
+     "lift": 9.203,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
