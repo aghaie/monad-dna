@@ -1,0 +1,1538 @@
+{
+ "breath_number": 107,
+ "deliberation": [
+  {
+   "root": "شدد",
+   "attestation": 102
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "شدد",
+ "attestation": 102,
+ "ayat": 99,
+ "top": [
+  {
+   "root": "قوي",
+   "shared": 15,
+   "expected": 0.62,
+   "lift": 24.227,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عقب",
+   "shared": 18,
+   "expected": 1.17,
+   "lift": 15.322,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ذنب",
+   "shared": 5,
+   "expected": 0.59,
+   "lift": 8.512,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بلغ",
+   "shared": 9,
+   "expected": 1.16,
+   "lift": 7.766,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قري",
+   "shared": 6,
+   "expected": 0.86,
+   "lift": 6.999,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "باس",
+   "shared": 7,
+   "expected": 1.06,
+   "lift": 6.581,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "هلك",
+   "shared": 6,
+   "expected": 1.0,
+   "lift": 5.999,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عذب",
+   "shared": 30,
+   "expected": 5.33,
+   "lift": 5.624,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "متع",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.845,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "مول",
+   "shared": 6,
+   "expected": 1.27,
+   "lift": 4.724,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "قوي",
+  "عقب",
+  "ذنب",
+  "بلغ",
+  "قري",
+  "باس",
+  "هلك",
+  "متع"
+ ],
+ "one_way": [
+  "عذب",
+  "مول"
+ ],
+ "neighbor_view": {
+  "قوي": {
+   "root": "شدد",
+   "shared": 15,
+   "expected": 0.62,
+   "lift": 24.227,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عقب": {
+   "root": "شدد",
+   "shared": 18,
+   "expected": 1.17,
+   "lift": 15.322,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ذنب": {
+   "root": "شدد",
+   "shared": 5,
+   "expected": 0.59,
+   "lift": 8.512,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بلغ": {
+   "root": "شدد",
+   "shared": 9,
+   "expected": 1.16,
+   "lift": 7.766,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قري": {
+   "root": "شدد",
+   "shared": 6,
+   "expected": 0.86,
+   "lift": 6.999,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "باس": {
+   "root": "شدد",
+   "shared": 7,
+   "expected": 1.06,
+   "lift": 6.581,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "هلك": {
+   "root": "شدد",
+   "shared": 6,
+   "expected": 1.0,
+   "lift": 5.999,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عذب": null,
+  "متع": {
+   "root": "شدد",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.845,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "مول": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "شدد↔فلح",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔صلو",
+   "shared": 1,
+   "expected": 1.43,
+   "lift": 0.7,
+   "p_perm": 0.7442
+  },
+  {
+   "pair": "شدد↔زكو",
+   "shared": 1,
+   "expected": 0.89,
+   "lift": 1.12,
+   "p_perm": 0.6047
+  },
+  {
+   "pair": "شدد↔اذن",
+   "shared": 2,
+   "expected": 1.43,
+   "lift": 1.4,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "شدد↔نفق",
+   "shared": 1,
+   "expected": 1.37,
+   "lift": 0.73,
+   "p_perm": 0.7608
+  },
+  {
+   "pair": "شدد↔سرر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔علن",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔رزق",
+   "shared": 0,
+   "expected": 1.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔بسط",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔طيب",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.5581
+  },
+  {
+   "pair": "شدد↔خبث",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔حلل",
+   "shared": 2,
+   "expected": 0.68,
+   "lift": 2.93,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "شدد↔حرم",
+   "shared": 4,
+   "expected": 1.13,
+   "lift": 3.55,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "شدد↔سجد",
+   "shared": 4,
+   "expected": 1.29,
+   "lift": 3.11,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "شدد↔اكل",
+   "shared": 1,
+   "expected": 1.6,
+   "lift": 0.62,
+   "p_perm": 0.8173
+  },
+  {
+   "pair": "شدد↔طوع",
+   "shared": 2,
+   "expected": 1.87,
+   "lift": 1.07,
+   "p_perm": 0.5814
+  },
+  {
+   "pair": "شدد↔شهد",
+   "shared": 0,
+   "expected": 1.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔كبر",
+   "shared": 4,
+   "expected": 2.43,
+   "lift": 1.65,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "شدد↔حيي",
+   "shared": 3,
+   "expected": 2.56,
+   "lift": 1.17,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "شدد↔خير",
+   "shared": 3,
+   "expected": 2.83,
+   "lift": 1.06,
+   "p_perm": 0.5349
+  },
+  {
+   "pair": "شدد↔ولي",
+   "shared": 1,
+   "expected": 3.21,
+   "lift": 0.31,
+   "p_perm": 0.9701
+  },
+  {
+   "pair": "شدد↔عمل",
+   "shared": 14,
+   "expected": 4.97,
+   "lift": 2.82,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔رسل",
+   "shared": 12,
+   "expected": 6.81,
+   "lift": 1.76,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "شدد↔اله",
+   "shared": 47,
+   "expected": 29.83,
+   "lift": 1.58,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔حبط",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.94,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "شدد↔بقي",
+   "shared": 2,
+   "expected": 0.33,
+   "lift": 6.0,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "شدد↔عدل",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.62,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "شدد↔كفي",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔دبر",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔زين",
+   "shared": 3,
+   "expected": 0.68,
+   "lift": 4.39,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "شدد↔عقل",
+   "shared": 2,
+   "expected": 0.78,
+   "lift": 2.57,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "شدد↔خبر",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔غيب",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.07,
+   "p_perm": 0.6611
+  },
+  {
+   "pair": "شدد↔جرم",
+   "shared": 3,
+   "expected": 1.03,
+   "lift": 2.91,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "شدد↔عرف",
+   "shared": 0,
+   "expected": 0.98,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔نكر",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.7,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "شدد↔علو",
+   "shared": 0,
+   "expected": 1.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔متع",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.85,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔حين",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔وكل",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔قلل",
+   "shared": 3,
+   "expected": 1.17,
+   "lift": 2.55,
+   "p_perm": 0.0997
+  },
+  {
+   "pair": "شدد↔ثمن",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔شري",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔شكر",
+   "shared": 2,
+   "expected": 1.1,
+   "lift": 1.83,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "شدد↔فلك",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔بحر",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔برر",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.1,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "شدد↔جري",
+   "shared": 0,
+   "expected": 1.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔ابد",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔فوز",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔سخر",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔تحت",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.26,
+   "p_perm": 0.5548
+  },
+  {
+   "pair": "شدد↔رضو",
+   "shared": 4,
+   "expected": 1.02,
+   "lift": 3.94,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "شدد↔نجو",
+   "shared": 0,
+   "expected": 1.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔خلد",
+   "shared": 0,
+   "expected": 1.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔شطن",
+   "shared": 1,
+   "expected": 1.24,
+   "lift": 0.81,
+   "p_perm": 0.711
+  },
+  {
+   "pair": "شدد↔سبح",
+   "shared": 1,
+   "expected": 1.38,
+   "lift": 0.72,
+   "p_perm": 0.7475
+  },
+  {
+   "pair": "شدد↔حمد",
+   "shared": 1,
+   "expected": 0.97,
+   "lift": 1.03,
+   "p_perm": 0.6179
+  },
+  {
+   "pair": "شدد↔غني",
+   "shared": 2,
+   "expected": 1.14,
+   "lift": 1.75,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "شدد↔فقر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔مول",
+   "shared": 6,
+   "expected": 1.27,
+   "lift": 4.72,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔ليل",
+   "shared": 1,
+   "expected": 1.29,
+   "lift": 0.78,
+   "p_perm": 0.7276
+  },
+  {
+   "pair": "شدد↔قمر",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔شمس",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔بغي",
+   "shared": 2,
+   "expected": 1.43,
+   "lift": 1.4,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "شدد↔صحب",
+   "shared": 1,
+   "expected": 1.41,
+   "lift": 0.71,
+   "p_perm": 0.7674
+  },
+  {
+   "pair": "شدد↔ولد",
+   "shared": 3,
+   "expected": 1.27,
+   "lift": 2.36,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "شدد↔فضل",
+   "shared": 3,
+   "expected": 1.46,
+   "lift": 2.05,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "شدد↔عدو",
+   "shared": 3,
+   "expected": 1.46,
+   "lift": 2.05,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "شدد↔اثم",
+   "shared": 2,
+   "expected": 0.67,
+   "lift": 3.0,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "شدد↔نهر",
+   "shared": 1,
+   "expected": 1.62,
+   "lift": 0.62,
+   "p_perm": 0.8007
+  },
+  {
+   "pair": "شدد↔دخل",
+   "shared": 1,
+   "expected": 1.76,
+   "lift": 0.57,
+   "p_perm": 0.8173
+  },
+  {
+   "pair": "شدد↔بوب",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.62,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "شدد↔فتح",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.91,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "شدد↔اهل",
+   "shared": 3,
+   "expected": 1.91,
+   "lift": 1.57,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "شدد↔قري",
+   "shared": 6,
+   "expected": 0.86,
+   "lift": 7.0,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔هلك",
+   "shared": 6,
+   "expected": 1.0,
+   "lift": 6.0,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔قرن",
+   "shared": 2,
+   "expected": 0.54,
+   "lift": 3.71,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "شدد↔عظم",
+   "shared": 1,
+   "expected": 2.02,
+   "lift": 0.5,
+   "p_perm": 0.8771
+  },
+  {
+   "pair": "شدد↔اجر",
+   "shared": 4,
+   "expected": 1.57,
+   "lift": 2.55,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "شدد↔ضيع",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔قدر",
+   "shared": 2,
+   "expected": 1.92,
+   "lift": 1.04,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "شدد↔دنو",
+   "shared": 8,
+   "expected": 2.03,
+   "lift": 3.94,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔خزي",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.62,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "شدد↔دون",
+   "shared": 1,
+   "expected": 2.25,
+   "lift": 0.44,
+   "p_perm": 0.8837
+  },
+  {
+   "pair": "شدد↔نفع",
+   "shared": 1,
+   "expected": 0.78,
+   "lift": 1.29,
+   "p_perm": 0.588
+  },
+  {
+   "pair": "شدد↔ضرر",
+   "shared": 0,
+   "expected": 1.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔كشف",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔مسس",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔بصر",
+   "shared": 0,
+   "expected": 2.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔فاد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔عمي",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔نصر",
+   "shared": 5,
+   "expected": 2.17,
+   "lift": 2.3,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "شدد↔هجر",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔اوي",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.75,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "شدد↔صير",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.17,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "شدد↔باس",
+   "shared": 7,
+   "expected": 1.06,
+   "lift": 6.58,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔نبا",
+   "shared": 0,
+   "expected": 2.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔رجع",
+   "shared": 2,
+   "expected": 1.64,
+   "lift": 1.22,
+   "p_perm": 0.4817
+  },
+  {
+   "pair": "شدد↔ذوق",
+   "shared": 2,
+   "expected": 0.97,
+   "lift": 2.07,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "شدد↔موت",
+   "shared": 0,
+   "expected": 2.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔بعث",
+   "shared": 2,
+   "expected": 1.02,
+   "lift": 1.97,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "شدد↔نظر",
+   "shared": 5,
+   "expected": 1.83,
+   "lift": 2.74,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "شدد↔سير",
+   "shared": 4,
+   "expected": 0.4,
+   "lift": 10.08,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "شدد↔عقب",
+   "shared": 18,
+   "expected": 1.17,
+   "lift": 15.32,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شدد↔كيف",
+   "shared": 4,
+   "expected": 1.32,
+   "lift": 3.04,
+   "p_perm": 0.0432
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "شدد↔فلح",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔سرر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔علن",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔رزق",
+   "shared": 0,
+   "expected": 1.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔بسط",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔خبث",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔شهد",
+   "shared": 0,
+   "expected": 1.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔كفي",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔دبر",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔خبر",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔عرف",
+   "shared": 0,
+   "expected": 0.98,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔علو",
+   "shared": 0,
+   "expected": 1.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔حين",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔وكل",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔ثمن",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔شري",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔فلك",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔بحر",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔جري",
+   "shared": 0,
+   "expected": 1.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔ابد",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔فوز",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔سخر",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔نجو",
+   "shared": 0,
+   "expected": 1.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔خلد",
+   "shared": 0,
+   "expected": 1.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔فقر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔قمر",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔شمس",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔ضيع",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔ضرر",
+   "shared": 0,
+   "expected": 1.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔كشف",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔مسس",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔بصر",
+   "shared": 0,
+   "expected": 2.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔فاد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔عمي",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔هجر",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔نبا",
+   "shared": 0,
+   "expected": 2.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شدد↔موت",
+   "shared": 0,
+   "expected": 2.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:196",
+   "degree": 3,
+   "roots_present": [
+    "عقب",
+    "بلغ",
+    "متع"
+   ]
+  },
+  {
+   "ayah": "8:52",
+   "degree": 3,
+   "roots_present": [
+    "قوي",
+    "عقب",
+    "ذنب"
+   ]
+  },
+  {
+   "ayah": "9:69",
+   "degree": 3,
+   "roots_present": [
+    "قوي",
+    "متع",
+    "مول"
+   ]
+  },
+  {
+   "ayah": "17:58",
+   "degree": 3,
+   "roots_present": [
+    "قري",
+    "هلك",
+    "عذب"
+   ]
+  },
+  {
+   "ayah": "28:78",
+   "degree": 3,
+   "roots_present": [
+    "قوي",
+    "ذنب",
+    "هلك"
+   ]
+  },
+  {
+   "ayah": "40:21",
+   "degree": 3,
+   "roots_present": [
+    "قوي",
+    "عقب",
+    "ذنب"
+   ]
+  },
+  {
+   "ayah": "47:13",
+   "degree": 3,
+   "roots_present": [
+    "قوي",
+    "قري",
+    "هلك"
+   ]
+  },
+  {
+   "ayah": "57:20",
+   "degree": 3,
+   "roots_present": [
+    "عذب",
+    "متع",
+    "مول"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "شدد+قوي": [
+   "2:165",
+   "8:52",
+   "9:69",
+   "11:80",
+   "27:33",
+   "28:78",
+   "30:9",
+   "35:44",
+   "40:21",
+   "40:22",
+   "40:82",
+   "41:15",
+   "47:13",
+   "53:5",
+   "57:25"
+  ],
+  "شدد+عقب": [
+   "2:196",
+   "2:211",
+   "3:11",
+   "5:2",
+   "5:98",
+   "8:13",
+   "8:25",
+   "8:48",
+   "8:52",
+   "13:6",
+   "30:9",
+   "35:44",
+   "40:3",
+   "40:21",
+   "40:22",
+   "40:82",
+   "59:4",
+   "59:7"
+  ],
+  "شدد+ذنب": [
+   "3:11",
+   "8:52",
+   "28:78",
+   "40:3",
+   "40:21"
+  ],
+  "شدد+بلغ": [
+   "2:196",
+   "6:152",
+   "12:22",
+   "17:34",
+   "18:82",
+   "22:5",
+   "28:14",
+   "40:67",
+   "46:15"
+  ],
+  "شدد+قري": [
+   "11:102",
+   "17:58",
+   "47:13",
+   "59:7",
+   "59:14",
+   "65:8"
+  ],
+  "شدد+باس": [
+   "4:84",
+   "17:5",
+   "18:2",
+   "27:33",
+   "48:16",
+   "57:25",
+   "59:14"
+  ],
+  "شدد+هلك": [
+   "7:164",
+   "17:58",
+   "28:78",
+   "43:8",
+   "47:13",
+   "50:36"
+  ],
+  "شدد+عذب": [
+   "2:85",
+   "2:165",
+   "3:4",
+   "3:56",
+   "6:124",
+   "7:164",
+   "10:70",
+   "10:88",
+   "14:2",
+   "14:7",
+   "17:58",
+   "20:71",
+   "20:127",
+   "22:2",
+   "23:77",
+   "27:21",
+   "34:46",
+   "35:7",
+   "35:10",
+   "38:26"
+  ],
+  "شدد+متع": [
+   "2:196",
+   "4:77",
+   "9:69",
+   "10:70",
+   "57:20"
+  ],
+  "شدد+مول": [
+   "6:152",
+   "9:69",
+   "9:81",
+   "10:88",
+   "17:34",
+   "57:20"
+  ],
+  "شدد+حرم": [
+   "2:85",
+   "2:191",
+   "2:196",
+   "5:2"
+  ],
+  "شدد+سجد": [
+   "2:191",
+   "2:196",
+   "5:2",
+   "48:29"
+  ],
+  "شدد+عمل": [
+   "2:74",
+   "2:85",
+   "8:48",
+   "9:69",
+   "14:18",
+   "18:2",
+   "35:7",
+   "35:10",
+   "41:27",
+   "42:26",
+   "46:15",
+   "47:4",
+   "48:29",
+   "58:15"
+  ],
+  "شدد+رسل": [
+   "6:124",
+   "8:13",
+   "9:81",
+   "9:97",
+   "13:13",
+   "30:9",
+   "40:22",
+   "48:29",
+   "57:25",
+   "59:4",
+   "59:7",
+   "65:8"
+  ],
+  "شدد+اله": [
+   "2:74",
+   "2:85",
+   "2:165",
+   "2:196",
+   "2:200",
+   "2:211",
+   "3:4",
+   "3:11",
+   "4:77",
+   "4:84",
+   "5:2",
+   "5:98",
+   "6:124",
+   "6:152",
+   "7:164",
+   "8:13",
+   "8:25",
+   "8:48",
+   "8:52",
+   "9:81"
+  ],
+  "شدد+بقي": [
+   "20:71",
+   "20:127"
+  ],
+  "شدد+زين": [
+   "8:48",
+   "10:88",
+   "57:20"
+  ],
+  "شدد+رضو": [
+   "5:2",
+   "46:15",
+   "48:29",
+   "57:20"
+  ],
+  "شدد+دنو": [
+   "2:85",
+   "2:200",
+   "3:56",
+   "4:77",
+   "9:69",
+   "10:70",
+   "10:88",
+   "57:20"
+  ],
+  "شدد+نظر": [
+   "27:33",
+   "30:9",
+   "35:44",
+   "40:21",
+   "40:82"
+  ],
+  "شدد+سير": [
+   "30:9",
+   "35:44",
+   "40:21",
+   "40:82"
+  ],
+  "شدد+كيف": [
+   "30:9",
+   "35:44",
+   "40:21",
+   "40:82"
+  ]
+ }
+}
