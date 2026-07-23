@@ -1,0 +1,1885 @@
+{
+ "breath_number": 149,
+ "deliberation": [
+  {
+   "root": "دعو",
+   "attestation": 212
+  },
+  {
+   "root": "غفر",
+   "attestation": 234
+  },
+  {
+   "root": "بعد",
+   "attestation": 235
+  },
+  {
+   "root": "نوس",
+   "attestation": 241
+  },
+  {
+   "root": "امر",
+   "attestation": 248
+  },
+  {
+   "root": "اخر",
+   "attestation": 250
+  },
+  {
+   "root": "وقي",
+   "attestation": 258
+  },
+  {
+   "root": "خلق",
+   "attestation": 261
+  },
+  {
+   "root": "اخذ",
+   "attestation": 273
+  },
+  {
+   "root": "كذب",
+   "attestation": 282
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "دعو",
+ "attestation": 212,
+ "ayat": 182,
+ "top": [
+  {
+   "root": "جوب",
+   "shared": 17,
+   "expected": 1.2,
+   "lift": 14.207,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كشف",
+   "shared": 7,
+   "expected": 0.58,
+   "lift": 11.992,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "دون",
+   "shared": 35,
+   "expected": 4.14,
+   "lift": 8.445,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "برر",
+   "shared": 6,
+   "expected": 0.88,
+   "lift": 6.853,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خلص",
+   "shared": 6,
+   "expected": 0.88,
+   "lift": 6.853,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ضرر",
+   "shared": 13,
+   "expected": 2.04,
+   "lift": 6.363,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "شرك",
+   "shared": 21,
+   "expected": 4.17,
+   "lift": 5.032,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "مسس",
+   "shared": 7,
+   "expected": 1.66,
+   "lift": 4.208,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دين",
+   "shared": 10,
+   "expected": 2.54,
+   "lift": 3.938,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "انس",
+   "shared": 9,
+   "expected": 2.71,
+   "lift": 3.316,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 6,
+ "reciprocal": [
+  "جوب",
+  "كشف",
+  "دون",
+  "برر",
+  "خلص",
+  "ضرر",
+  "مسس",
+  "انس"
+ ],
+ "one_way": [
+  "شرك",
+  "دين"
+ ],
+ "neighbor_view": {
+  "جوب": {
+   "root": "دعو",
+   "shared": 17,
+   "expected": 1.2,
+   "lift": 14.207,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "كشف": {
+   "root": "دعو",
+   "shared": 7,
+   "expected": 0.58,
+   "lift": 11.992,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "دون": {
+   "root": "دعو",
+   "shared": 35,
+   "expected": 4.14,
+   "lift": 8.445,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "برر": {
+   "root": "دعو",
+   "shared": 6,
+   "expected": 0.88,
+   "lift": 6.853,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "خلص": {
+   "root": "دعو",
+   "shared": 6,
+   "expected": 0.88,
+   "lift": 6.853,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ضرر": {
+   "root": "دعو",
+   "shared": 13,
+   "expected": 2.04,
+   "lift": 6.363,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "شرك": null,
+  "مسس": {
+   "root": "دعو",
+   "shared": 7,
+   "expected": 1.66,
+   "lift": 4.208,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دين": null,
+  "انس": {
+   "root": "دعو",
+   "shared": 9,
+   "expected": 2.71,
+   "lift": 3.316,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "دعو↔فلح",
+   "shared": 3,
+   "expected": 1.17,
+   "lift": 2.57,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "دعو↔صلو",
+   "shared": 3,
+   "expected": 2.63,
+   "lift": 1.14,
+   "p_perm": 0.485
+  },
+  {
+   "pair": "دعو↔زكو",
+   "shared": 1,
+   "expected": 1.63,
+   "lift": 0.61,
+   "p_perm": 0.8472
+  },
+  {
+   "pair": "دعو↔اذن",
+   "shared": 7,
+   "expected": 2.63,
+   "lift": 2.66,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "دعو↔نفق",
+   "shared": 2,
+   "expected": 2.51,
+   "lift": 0.8,
+   "p_perm": 0.701
+  },
+  {
+   "pair": "دعو↔سرر",
+   "shared": 1,
+   "expected": 1.25,
+   "lift": 0.8,
+   "p_perm": 0.7043
+  },
+  {
+   "pair": "دعو↔علن",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔رزق",
+   "shared": 1,
+   "expected": 3.18,
+   "lift": 0.31,
+   "p_perm": 0.9834
+  },
+  {
+   "pair": "دعو↔بسط",
+   "shared": 1,
+   "expected": 0.67,
+   "lift": 1.49,
+   "p_perm": 0.5349
+  },
+  {
+   "pair": "دعو↔طيب",
+   "shared": 2,
+   "expected": 1.34,
+   "lift": 1.49,
+   "p_perm": 0.4153
+  },
+  {
+   "pair": "دعو↔خبث",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔حلل",
+   "shared": 0,
+   "expected": 1.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔حرم",
+   "shared": 1,
+   "expected": 2.07,
+   "lift": 0.48,
+   "p_perm": 0.8771
+  },
+  {
+   "pair": "دعو↔سجد",
+   "shared": 4,
+   "expected": 2.36,
+   "lift": 1.69,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "دعو↔اكل",
+   "shared": 0,
+   "expected": 2.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔طوع",
+   "shared": 8,
+   "expected": 3.44,
+   "lift": 2.32,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "دعو↔شهد",
+   "shared": 4,
+   "expected": 3.59,
+   "lift": 1.11,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "دعو↔كبر",
+   "shared": 9,
+   "expected": 4.47,
+   "lift": 2.02,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "دعو↔حيي",
+   "shared": 8,
+   "expected": 4.7,
+   "lift": 1.7,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "دعو↔خير",
+   "shared": 6,
+   "expected": 5.19,
+   "lift": 1.15,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "دعو↔ولي",
+   "shared": 12,
+   "expected": 5.9,
+   "lift": 2.04,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "دعو↔عمل",
+   "shared": 9,
+   "expected": 9.14,
+   "lift": 0.99,
+   "p_perm": 0.5382
+  },
+  {
+   "pair": "دعو↔رسل",
+   "shared": 13,
+   "expected": 12.52,
+   "lift": 1.04,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "دعو↔اله",
+   "shared": 88,
+   "expected": 54.84,
+   "lift": 1.6,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔حبط",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔بقي",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔عدل",
+   "shared": 2,
+   "expected": 0.7,
+   "lift": 2.86,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "دعو↔كفي",
+   "shared": 0,
+   "expected": 0.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔دبر",
+   "shared": 3,
+   "expected": 1.28,
+   "lift": 2.34,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "دعو↔زين",
+   "shared": 3,
+   "expected": 1.25,
+   "lift": 2.39,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "دعو↔عقل",
+   "shared": 1,
+   "expected": 1.43,
+   "lift": 0.7,
+   "p_perm": 0.7973
+  },
+  {
+   "pair": "دعو↔خبر",
+   "shared": 2,
+   "expected": 1.52,
+   "lift": 1.32,
+   "p_perm": 0.4518
+  },
+  {
+   "pair": "دعو↔غيب",
+   "shared": 1,
+   "expected": 1.72,
+   "lift": 0.58,
+   "p_perm": 0.8405
+  },
+  {
+   "pair": "دعو↔جرم",
+   "shared": 2,
+   "expected": 1.9,
+   "lift": 1.05,
+   "p_perm": 0.5781
+  },
+  {
+   "pair": "دعو↔عرف",
+   "shared": 1,
+   "expected": 1.81,
+   "lift": 0.55,
+   "p_perm": 0.8738
+  },
+  {
+   "pair": "دعو↔نكر",
+   "shared": 3,
+   "expected": 1.08,
+   "lift": 2.78,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "دعو↔علو",
+   "shared": 5,
+   "expected": 1.98,
+   "lift": 2.52,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "دعو↔متع",
+   "shared": 2,
+   "expected": 1.9,
+   "lift": 1.05,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "دعو↔حين",
+   "shared": 0,
+   "expected": 0.96,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔وكل",
+   "shared": 1,
+   "expected": 1.78,
+   "lift": 0.56,
+   "p_perm": 0.8439
+  },
+  {
+   "pair": "دعو↔قلل",
+   "shared": 3,
+   "expected": 2.16,
+   "lift": 1.39,
+   "p_perm": 0.3621
+  },
+  {
+   "pair": "دعو↔ثمن",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔شري",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔شكر",
+   "shared": 3,
+   "expected": 2.01,
+   "lift": 1.49,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "دعو↔فلك",
+   "shared": 2,
+   "expected": 0.73,
+   "lift": 2.74,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "دعو↔بحر",
+   "shared": 3,
+   "expected": 1.17,
+   "lift": 2.57,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "دعو↔برر",
+   "shared": 6,
+   "expected": 0.88,
+   "lift": 6.85,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔جري",
+   "shared": 2,
+   "expected": 1.87,
+   "lift": 1.07,
+   "p_perm": 0.5648
+  },
+  {
+   "pair": "دعو↔ابد",
+   "shared": 2,
+   "expected": 0.82,
+   "lift": 2.45,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "دعو↔فوز",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔سخر",
+   "shared": 1,
+   "expected": 1.02,
+   "lift": 0.98,
+   "p_perm": 0.6545
+  },
+  {
+   "pair": "دعو↔تحت",
+   "shared": 0,
+   "expected": 1.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔رضو",
+   "shared": 1,
+   "expected": 1.87,
+   "lift": 0.54,
+   "p_perm": 0.8538
+  },
+  {
+   "pair": "دعو↔نجو",
+   "shared": 7,
+   "expected": 2.19,
+   "lift": 3.2,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "دعو↔خلد",
+   "shared": 0,
+   "expected": 2.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔شطن",
+   "shared": 5,
+   "expected": 2.28,
+   "lift": 2.2,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "دعو↔سبح",
+   "shared": 2,
+   "expected": 2.54,
+   "lift": 0.79,
+   "p_perm": 0.711
+  },
+  {
+   "pair": "دعو↔حمد",
+   "shared": 4,
+   "expected": 1.78,
+   "lift": 2.25,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "دعو↔غني",
+   "shared": 2,
+   "expected": 2.1,
+   "lift": 0.95,
+   "p_perm": 0.6512
+  },
+  {
+   "pair": "دعو↔فقر",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.45,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "دعو↔مول",
+   "shared": 0,
+   "expected": 2.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔ليل",
+   "shared": 2,
+   "expected": 2.36,
+   "lift": 0.85,
+   "p_perm": 0.6611
+  },
+  {
+   "pair": "دعو↔قمر",
+   "shared": 1,
+   "expected": 0.76,
+   "lift": 1.32,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "دعو↔شمس",
+   "shared": 1,
+   "expected": 0.93,
+   "lift": 1.07,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "دعو↔بغي",
+   "shared": 2,
+   "expected": 2.63,
+   "lift": 0.76,
+   "p_perm": 0.7176
+  },
+  {
+   "pair": "دعو↔صحب",
+   "shared": 4,
+   "expected": 2.6,
+   "lift": 1.54,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "دعو↔ولد",
+   "shared": 1,
+   "expected": 2.33,
+   "lift": 0.43,
+   "p_perm": 0.8738
+  },
+  {
+   "pair": "دعو↔فضل",
+   "shared": 0,
+   "expected": 2.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔عدو",
+   "shared": 5,
+   "expected": 2.69,
+   "lift": 1.86,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "دعو↔اثم",
+   "shared": 1,
+   "expected": 1.23,
+   "lift": 0.82,
+   "p_perm": 0.7342
+  },
+  {
+   "pair": "دعو↔نهر",
+   "shared": 2,
+   "expected": 2.98,
+   "lift": 0.67,
+   "p_perm": 0.8073
+  },
+  {
+   "pair": "دعو↔دخل",
+   "shared": 2,
+   "expected": 3.24,
+   "lift": 0.62,
+   "p_perm": 0.8206
+  },
+  {
+   "pair": "دعو↔بوب",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔فتح",
+   "shared": 0,
+   "expected": 0.96,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔اهل",
+   "shared": 0,
+   "expected": 3.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔قري",
+   "shared": 0,
+   "expected": 1.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔هلك",
+   "shared": 1,
+   "expected": 1.84,
+   "lift": 0.54,
+   "p_perm": 0.8173
+  },
+  {
+   "pair": "دعو↔قرن",
+   "shared": 1,
+   "expected": 0.99,
+   "lift": 1.01,
+   "p_perm": 0.6213
+  },
+  {
+   "pair": "دعو↔عظم",
+   "shared": 2,
+   "expected": 3.71,
+   "lift": 0.54,
+   "p_perm": 0.9169
+  },
+  {
+   "pair": "دعو↔اجر",
+   "shared": 2,
+   "expected": 2.89,
+   "lift": 0.69,
+   "p_perm": 0.7674
+  },
+  {
+   "pair": "دعو↔ضيع",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔قدر",
+   "shared": 0,
+   "expected": 3.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔دنو",
+   "shared": 5,
+   "expected": 3.74,
+   "lift": 1.34,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "دعو↔خزي",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔دون",
+   "shared": 35,
+   "expected": 4.14,
+   "lift": 8.45,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔نفع",
+   "shared": 4,
+   "expected": 1.43,
+   "lift": 2.8,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "دعو↔ضرر",
+   "shared": 13,
+   "expected": 2.04,
+   "lift": 6.36,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔كشف",
+   "shared": 7,
+   "expected": 0.58,
+   "lift": 11.99,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔مسس",
+   "shared": 7,
+   "expected": 1.66,
+   "lift": 4.21,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔بصر",
+   "shared": 5,
+   "expected": 4.06,
+   "lift": 1.23,
+   "p_perm": 0.3787
+  },
+  {
+   "pair": "دعو↔فاد",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔عمي",
+   "shared": 1,
+   "expected": 0.88,
+   "lift": 1.14,
+   "p_perm": 0.5681
+  },
+  {
+   "pair": "دعو↔نصر",
+   "shared": 3,
+   "expected": 4.0,
+   "lift": 0.75,
+   "p_perm": 0.7575
+  },
+  {
+   "pair": "دعو↔هجر",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔اوي",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔صير",
+   "shared": 2,
+   "expected": 0.85,
+   "lift": 2.36,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "دعو↔باس",
+   "shared": 3,
+   "expected": 1.96,
+   "lift": 1.53,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "دعو↔نبا",
+   "shared": 5,
+   "expected": 4.41,
+   "lift": 1.13,
+   "p_perm": 0.515
+  },
+  {
+   "pair": "دعو↔رجع",
+   "shared": 2,
+   "expected": 3.01,
+   "lift": 0.67,
+   "p_perm": 0.8106
+  },
+  {
+   "pair": "دعو↔ذوق",
+   "shared": 1,
+   "expected": 1.78,
+   "lift": 0.56,
+   "p_perm": 0.794
+  },
+  {
+   "pair": "دعو↔موت",
+   "shared": 3,
+   "expected": 4.17,
+   "lift": 0.72,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "دعو↔بعث",
+   "shared": 0,
+   "expected": 1.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔نظر",
+   "shared": 4,
+   "expected": 3.36,
+   "lift": 1.19,
+   "p_perm": 0.4684
+  },
+  {
+   "pair": "دعو↔سير",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "دعو↔عقب",
+   "shared": 1,
+   "expected": 2.16,
+   "lift": 0.46,
+   "p_perm": 0.8837
+  },
+  {
+   "pair": "دعو↔كيف",
+   "shared": 1,
+   "expected": 2.42,
+   "lift": 0.41,
+   "p_perm": 0.907
+  },
+  {
+   "pair": "دعو↔شدد",
+   "shared": 1,
+   "expected": 2.89,
+   "lift": 0.35,
+   "p_perm": 0.9468
+  },
+  {
+   "pair": "دعو↔قوي",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔عزز",
+   "shared": 3,
+   "expected": 3.39,
+   "lift": 0.89,
+   "p_perm": 0.7043
+  },
+  {
+   "pair": "دعو↔قلب",
+   "shared": 9,
+   "expected": 4.52,
+   "lift": 1.99,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "دعو↔قسو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔طبع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔طمن",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.86,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "دعو↔مرض",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔شرك",
+   "shared": 21,
+   "expected": 4.17,
+   "lift": 5.03,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔برا",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔اول",
+   "shared": 1,
+   "expected": 4.61,
+   "lift": 0.22,
+   "p_perm": 0.9934
+  },
+  {
+   "pair": "دعو↔لبب",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔سطر",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔مرر",
+   "shared": 2,
+   "expected": 0.93,
+   "lift": 2.14,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "دعو↔ابو",
+   "shared": 5,
+   "expected": 3.04,
+   "lift": 1.65,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "دعو↔اخو",
+   "shared": 1,
+   "expected": 2.33,
+   "lift": 0.43,
+   "p_perm": 0.9169
+  },
+  {
+   "pair": "دعو↔وجد",
+   "shared": 1,
+   "expected": 2.89,
+   "lift": 0.35,
+   "p_perm": 0.9568
+  },
+  {
+   "pair": "دعو↔صلح",
+   "shared": 5,
+   "expected": 4.96,
+   "lift": 1.01,
+   "p_perm": 0.598
+  },
+  {
+   "pair": "دعو↔فسد",
+   "shared": 2,
+   "expected": 1.37,
+   "lift": 1.46,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "دعو↔توب",
+   "shared": 0,
+   "expected": 2.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔سمع",
+   "shared": 14,
+   "expected": 4.76,
+   "lift": 2.94,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔صمم",
+   "shared": 4,
+   "expected": 0.41,
+   "lift": 9.79,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دعو↔نور",
+   "shared": 7,
+   "expected": 5.08,
+   "lift": 1.38,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "دعو↔وقد",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔صلي",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔حسن",
+   "shared": 7,
+   "expected": 5.17,
+   "lift": 1.36,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "دعو↔صوب",
+   "shared": 2,
+   "expected": 1.63,
+   "lift": 1.22,
+   "p_perm": 0.4485
+  },
+  {
+   "pair": "دعو↔جزي",
+   "shared": 3,
+   "expected": 3.18,
+   "lift": 0.94,
+   "p_perm": 0.6146
+  },
+  {
+   "pair": "دعو↔كسب",
+   "shared": 0,
+   "expected": 1.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔سوا",
+   "shared": 2,
+   "expected": 4.41,
+   "lift": 0.45,
+   "p_perm": 0.9568
+  },
+  {
+   "pair": "دعو↔بدو",
+   "shared": 1,
+   "expected": 0.85,
+   "lift": 1.18,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "دعو↔خفي",
+   "shared": 3,
+   "expected": 0.9,
+   "lift": 3.32,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "دعو↔مثل",
+   "shared": 9,
+   "expected": 4.32,
+   "lift": 2.08,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "دعو↔ضرب",
+   "shared": 2,
+   "expected": 1.58,
+   "lift": 1.27,
+   "p_perm": 0.4684
+  },
+  {
+   "pair": "دعو↔عند",
+   "shared": 7,
+   "expected": 5.52,
+   "lift": 1.27,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "دعو↔خزن",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.64,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "دعو↔ثوب",
+   "shared": 2,
+   "expected": 0.67,
+   "lift": 2.98,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "دعو↔جنن",
+   "shared": 1,
+   "expected": 5.72,
+   "lift": 0.17,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔عنب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔نخل",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔ملك",
+   "shared": 4,
+   "expected": 5.57,
+   "lift": 0.72,
+   "p_perm": 0.8073
+  },
+  {
+   "pair": "دعو↔حكم",
+   "shared": 8,
+   "expected": 5.52,
+   "lift": 1.45,
+   "p_perm": 0.1827
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "دعو↔علن",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔خبث",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔حلل",
+   "shared": 0,
+   "expected": 1.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔اكل",
+   "shared": 0,
+   "expected": 2.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔حبط",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔بقي",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔كفي",
+   "shared": 0,
+   "expected": 0.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔حين",
+   "shared": 0,
+   "expected": 0.96,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔ثمن",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔شري",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔فوز",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔تحت",
+   "shared": 0,
+   "expected": 1.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔خلد",
+   "shared": 0,
+   "expected": 2.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔مول",
+   "shared": 0,
+   "expected": 2.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔فضل",
+   "shared": 0,
+   "expected": 2.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔بوب",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔فتح",
+   "shared": 0,
+   "expected": 0.96,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔اهل",
+   "shared": 0,
+   "expected": 3.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔قري",
+   "shared": 0,
+   "expected": 1.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔ضيع",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔قدر",
+   "shared": 0,
+   "expected": 3.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔خزي",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔فاد",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔هجر",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔اوي",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔بعث",
+   "shared": 0,
+   "expected": 1.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔قوي",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔قسو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔طبع",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔مرض",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔برا",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔لبب",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔سطر",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔توب",
+   "shared": 0,
+   "expected": 2.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔وقد",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔صلي",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔كسب",
+   "shared": 0,
+   "expected": 1.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔عنب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دعو↔نخل",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "10:12",
+   "degree": 4,
+   "roots_present": [
+    "كشف",
+    "ضرر",
+    "مسس",
+    "انس"
+   ]
+  },
+  {
+   "ayah": "17:67",
+   "degree": 4,
+   "roots_present": [
+    "برر",
+    "ضرر",
+    "مسس",
+    "انس"
+   ]
+  },
+  {
+   "ayah": "29:65",
+   "degree": 4,
+   "roots_present": [
+    "برر",
+    "خلص",
+    "شرك",
+    "دين"
+   ]
+  },
+  {
+   "ayah": "10:22",
+   "degree": 3,
+   "roots_present": [
+    "برر",
+    "خلص",
+    "دين"
+   ]
+  },
+  {
+   "ayah": "17:56",
+   "degree": 3,
+   "roots_present": [
+    "كشف",
+    "دون",
+    "ضرر"
+   ]
+  },
+  {
+   "ayah": "27:62",
+   "degree": 3,
+   "roots_present": [
+    "جوب",
+    "كشف",
+    "ضرر"
+   ]
+  },
+  {
+   "ayah": "30:33",
+   "degree": 3,
+   "roots_present": [
+    "ضرر",
+    "شرك",
+    "مسس"
+   ]
+  },
+  {
+   "ayah": "31:32",
+   "degree": 3,
+   "roots_present": [
+    "برر",
+    "خلص",
+    "دين"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "دعو+جوب": [
+   "2:186",
+   "7:194",
+   "8:24",
+   "10:89",
+   "13:14",
+   "14:22",
+   "14:44",
+   "17:52",
+   "18:52",
+   "21:90",
+   "27:62",
+   "28:64",
+   "35:14",
+   "40:60",
+   "46:5",
+   "46:31",
+   "46:32"
+  ],
+  "دعو+كشف": [
+   "6:41",
+   "7:134",
+   "10:12",
+   "17:56",
+   "27:62",
+   "39:38",
+   "68:42"
+  ],
+  "دعو+دون": [
+   "2:23",
+   "4:117",
+   "6:56",
+   "6:71",
+   "6:108",
+   "7:37",
+   "7:194",
+   "7:197",
+   "10:38",
+   "10:66",
+   "10:106",
+   "11:13",
+   "11:101",
+   "13:14",
+   "16:20",
+   "16:86",
+   "17:56",
+   "18:14",
+   "19:48",
+   "22:12"
+  ],
+  "دعو+برر": [
+   "6:63",
+   "10:22",
+   "17:67",
+   "29:65",
+   "31:32",
+   "52:28"
+  ],
+  "دعو+خلص": [
+   "7:29",
+   "10:22",
+   "29:65",
+   "31:32",
+   "40:14",
+   "40:65"
+  ],
+  "دعو+ضرر": [
+   "2:282",
+   "6:71",
+   "10:12",
+   "10:106",
+   "17:56",
+   "17:67",
+   "22:12",
+   "22:13",
+   "27:62",
+   "30:33",
+   "39:8",
+   "39:38",
+   "39:49"
+  ],
+  "دعو+شرك": [
+   "2:221",
+   "6:41",
+   "7:195",
+   "10:66",
+   "12:108",
+   "13:36",
+   "14:22",
+   "16:86",
+   "18:52",
+   "28:64",
+   "28:87",
+   "29:65",
+   "30:33",
+   "34:22",
+   "35:14",
+   "35:40",
+   "40:12",
+   "40:42",
+   "42:13",
+   "46:4"
+  ],
+  "دعو+مسس": [
+   "10:12",
+   "17:67",
+   "30:33",
+   "39:8",
+   "39:49",
+   "41:49",
+   "41:51"
+  ],
+  "دعو+دين": [
+   "2:282",
+   "7:29",
+   "10:22",
+   "29:65",
+   "31:32",
+   "33:5",
+   "40:14",
+   "40:26",
+   "40:65",
+   "42:13"
+  ],
+  "دعو+انس": [
+   "10:12",
+   "17:11",
+   "17:67",
+   "17:71",
+   "33:53",
+   "39:8",
+   "39:49",
+   "41:49",
+   "41:51"
+  ],
+  "دعو+اذن": [
+   "2:221",
+   "7:195",
+   "18:57",
+   "33:46",
+   "33:53",
+   "41:5",
+   "71:7"
+  ],
+  "دعو+طوع": [
+   "2:282",
+   "7:197",
+   "10:38",
+   "11:13",
+   "18:28",
+   "24:51",
+   "48:16",
+   "68:42"
+  ],
+  "دعو+كبر": [
+   "2:282",
+   "14:39",
+   "22:62",
+   "31:30",
+   "40:10",
+   "40:12",
+   "40:60",
+   "42:13",
+   "71:7"
+  ],
+  "دعو+ولي": [
+   "2:282",
+   "3:23",
+   "22:13",
+   "27:80",
+   "30:52",
+   "33:5",
+   "41:31",
+   "46:32",
+   "47:38",
+   "48:16",
+   "54:6",
+   "70:17"
+  ],
+  "دعو+اله": [
+   "2:23",
+   "2:61",
+   "2:70",
+   "2:221",
+   "2:260",
+   "2:282",
+   "3:23",
+   "3:61",
+   "3:153",
+   "6:40",
+   "6:56",
+   "6:71",
+   "6:108",
+   "7:37",
+   "7:56",
+   "7:180",
+   "7:189",
+   "7:194",
+   "8:24",
+   "10:10"
+  ],
+  "دعو+علو": [
+   "3:61",
+   "22:62",
+   "31:30",
+   "40:12",
+   "47:35"
+  ],
+  "دعو+نجو": [
+   "6:63",
+   "10:22",
+   "17:67",
+   "28:25",
+   "29:65",
+   "31:32",
+   "40:41"
+  ],
+  "دعو+قلب": [
+   "2:260",
+   "8:24",
+   "18:14",
+   "18:28",
+   "18:57",
+   "33:4",
+   "33:5",
+   "33:53",
+   "41:5"
+  ],
+  "دعو+سمع": [
+   "2:171",
+   "3:38",
+   "7:195",
+   "7:198",
+   "14:39",
+   "20:108",
+   "21:45",
+   "22:73",
+   "24:51",
+   "26:72",
+   "27:80",
+   "30:52",
+   "35:14",
+   "40:20"
+  ],
+  "دعو+صمم": [
+   "2:171",
+   "21:45",
+   "27:80",
+   "30:52"
+  ],
+  "دعو+مثل": [
+   "2:23",
+   "2:171",
+   "7:194",
+   "10:38",
+   "11:13",
+   "14:10",
+   "22:73",
+   "35:14",
+   "47:38"
+  ]
+ }
+}
