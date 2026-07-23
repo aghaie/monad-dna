@@ -1,0 +1,1499 @@
+{
+ "breath_number": 100,
+ "deliberation": [
+  {
+   "root": "ذوق",
+   "attestation": 63
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "ذوق",
+ "attestation": 63,
+ "ayat": 61,
+ "top": [
+  {
+   "root": "عذب",
+   "shared": 36,
+   "expected": 3.29,
+   "lift": 10.953,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "مسس",
+   "shared": 5,
+   "expected": 0.56,
+   "lift": 8.968,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ضرر",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.302,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رجع",
+   "shared": 6,
+   "expected": 1.01,
+   "lift": 5.955,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "دنو",
+   "shared": 6,
+   "expected": 1.25,
+   "lift": 4.792,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سوا",
+   "shared": 7,
+   "expected": 1.48,
+   "lift": 4.739,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نور",
+   "shared": 8,
+   "expected": 1.7,
+   "lift": 4.7,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "موت",
+   "shared": 5,
+   "expected": 1.4,
+   "lift": 3.574,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كفر",
+   "shared": 16,
+   "expected": 4.55,
+   "lift": 3.518,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "يوم",
+   "shared": 11,
+   "expected": 3.69,
+   "lift": 2.983,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "عذب",
+  "مسس",
+  "ضرر",
+  "رجع",
+  "نور"
+ ],
+ "one_way": [
+  "دنو",
+  "سوا",
+  "موت",
+  "كفر",
+  "يوم"
+ ],
+ "neighbor_view": {
+  "عذب": {
+   "root": "ذوق",
+   "shared": 36,
+   "expected": 3.29,
+   "lift": 10.953,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "مسس": {
+   "root": "ذوق",
+   "shared": 5,
+   "expected": 0.56,
+   "lift": 8.968,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ضرر": {
+   "root": "ذوق",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.302,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رجع": {
+   "root": "ذوق",
+   "shared": 6,
+   "expected": 1.01,
+   "lift": 5.955,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "دنو": null,
+  "سوا": null,
+  "نور": {
+   "root": "ذوق",
+   "shared": 8,
+   "expected": 1.7,
+   "lift": 4.7,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "موت": null,
+  "كفر": null,
+  "يوم": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "ذوق↔فلح",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔صلو",
+   "shared": 1,
+   "expected": 0.88,
+   "lift": 1.14,
+   "p_perm": 0.5781
+  },
+  {
+   "pair": "ذوق↔زكو",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔اذن",
+   "shared": 1,
+   "expected": 0.88,
+   "lift": 1.14,
+   "p_perm": 0.588
+  },
+  {
+   "pair": "ذوق↔نفق",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔سرر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔علن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔رزق",
+   "shared": 1,
+   "expected": 1.07,
+   "lift": 0.94,
+   "p_perm": 0.6578
+  },
+  {
+   "pair": "ذوق↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔طيب",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔خبث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔حلل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔حرم",
+   "shared": 3,
+   "expected": 0.69,
+   "lift": 4.32,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "ذوق↔سجد",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.26,
+   "p_perm": 0.5349
+  },
+  {
+   "pair": "ذوق↔اكل",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔طوع",
+   "shared": 1,
+   "expected": 1.15,
+   "lift": 0.87,
+   "p_perm": 0.711
+  },
+  {
+   "pair": "ذوق↔شهد",
+   "shared": 0,
+   "expected": 1.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔كبر",
+   "shared": 3,
+   "expected": 1.5,
+   "lift": 2.0,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "ذوق↔حيي",
+   "shared": 4,
+   "expected": 1.57,
+   "lift": 2.54,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "ذوق↔خير",
+   "shared": 1,
+   "expected": 1.74,
+   "lift": 0.57,
+   "p_perm": 0.814
+  },
+  {
+   "pair": "ذوق↔ولي",
+   "shared": 0,
+   "expected": 1.98,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عمل",
+   "shared": 7,
+   "expected": 3.06,
+   "lift": 2.29,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "ذوق↔رسل",
+   "shared": 4,
+   "expected": 4.2,
+   "lift": 0.95,
+   "p_perm": 0.5548
+  },
+  {
+   "pair": "ذوق↔اله",
+   "shared": 10,
+   "expected": 18.38,
+   "lift": 0.54,
+   "p_perm": 0.99
+  },
+  {
+   "pair": "ذوق↔حبط",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔بقي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عدل",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.26,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "ذوق↔كفي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔دبر",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.32,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "ذوق↔زين",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عقل",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔خبر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔غيب",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔جرم",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عرف",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔نكر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔علو",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔متع",
+   "shared": 2,
+   "expected": 0.64,
+   "lift": 3.15,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "ذوق↔حين",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔وكل",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔قلل",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ثمن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔شري",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔شكر",
+   "shared": 1,
+   "expected": 0.67,
+   "lift": 1.48,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "ذوق↔فلك",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.09,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "ذوق↔بحر",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.56,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "ذوق↔برر",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.41,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "ذوق↔جري",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.6,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "ذوق↔ابد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔فوز",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.79,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "ذوق↔سخر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔تحت",
+   "shared": 2,
+   "expected": 0.49,
+   "lift": 4.09,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "ذوق↔رضو",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔نجو",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔خلد",
+   "shared": 2,
+   "expected": 0.84,
+   "lift": 2.38,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "ذوق↔شطن",
+   "shared": 1,
+   "expected": 0.76,
+   "lift": 1.31,
+   "p_perm": 0.5415
+  },
+  {
+   "pair": "ذوق↔سبح",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔حمد",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔غني",
+   "shared": 1,
+   "expected": 0.7,
+   "lift": 1.42,
+   "p_perm": 0.5382
+  },
+  {
+   "pair": "ذوق↔فقر",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.3,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "ذوق↔مول",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ليل",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔قمر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔شمس",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔بغي",
+   "shared": 1,
+   "expected": 0.88,
+   "lift": 1.14,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "ذوق↔صحب",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ولد",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔فضل",
+   "shared": 2,
+   "expected": 0.9,
+   "lift": 2.22,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "ذوق↔عدو",
+   "shared": 1,
+   "expected": 0.9,
+   "lift": 1.11,
+   "p_perm": 0.6279
+  },
+  {
+   "pair": "ذوق↔اثم",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔نهر",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔دخل",
+   "shared": 2,
+   "expected": 1.09,
+   "lift": 1.84,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "ذوق↔بوب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔فتح",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔اهل",
+   "shared": 0,
+   "expected": 1.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔قري",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.89,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "ذوق↔هلك",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔قرن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عظم",
+   "shared": 1,
+   "expected": 1.24,
+   "lift": 0.8,
+   "p_perm": 0.7309
+  },
+  {
+   "pair": "ذوق↔اجر",
+   "shared": 1,
+   "expected": 0.97,
+   "lift": 1.03,
+   "p_perm": 0.6346
+  },
+  {
+   "pair": "ذوق↔ضيع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔قدر",
+   "shared": 1,
+   "expected": 1.18,
+   "lift": 0.84,
+   "p_perm": 0.7243
+  },
+  {
+   "pair": "ذوق↔دنو",
+   "shared": 6,
+   "expected": 1.25,
+   "lift": 4.79,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ذوق↔خزي",
+   "shared": 3,
+   "expected": 0.23,
+   "lift": 12.78,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ذوق↔دون",
+   "shared": 1,
+   "expected": 1.39,
+   "lift": 0.72,
+   "p_perm": 0.7641
+  },
+  {
+   "pair": "ذوق↔نفع",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.09,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "ذوق↔ضرر",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.3,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "ذوق↔كشف",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔مسس",
+   "shared": 5,
+   "expected": 0.56,
+   "lift": 8.97,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ذوق↔بصر",
+   "shared": 0,
+   "expected": 1.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔فاد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عمي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔نصر",
+   "shared": 4,
+   "expected": 1.34,
+   "lift": 2.98,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "ذوق↔هجر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔اوي",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.84,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "ذوق↔صير",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔باس",
+   "shared": 2,
+   "expected": 0.66,
+   "lift": 3.05,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "ذوق↔نبا",
+   "shared": 3,
+   "expected": 1.48,
+   "lift": 2.03,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "ذوق↔رجع",
+   "shared": 6,
+   "expected": 1.01,
+   "lift": 5.96,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "ذوق↔فلح",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔زكو",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔نفق",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔سرر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔علن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔طيب",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔خبث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔حلل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔اكل",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔شهد",
+   "shared": 0,
+   "expected": 1.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ولي",
+   "shared": 0,
+   "expected": 1.98,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔حبط",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔بقي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔كفي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔زين",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عقل",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔خبر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔غيب",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔جرم",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عرف",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔نكر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔علو",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔حين",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔وكل",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔قلل",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ثمن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔شري",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ابد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔سخر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔رضو",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔نجو",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔سبح",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔حمد",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔مول",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ليل",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔قمر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔شمس",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔صحب",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ولد",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔اثم",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔نهر",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔بوب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔فتح",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔اهل",
+   "shared": 0,
+   "expected": 1.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔هلك",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔قرن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔ضيع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔كشف",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔بصر",
+   "shared": 0,
+   "expected": 1.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔فاد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔عمي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔هجر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ذوق↔صير",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "41:50",
+   "degree": 5,
+   "roots_present": [
+    "عذب",
+    "مسس",
+    "ضرر",
+    "رجع",
+    "كفر"
+   ]
+  },
+  {
+   "ayah": "3:185",
+   "degree": 4,
+   "roots_present": [
+    "دنو",
+    "نور",
+    "موت",
+    "يوم"
+   ]
+  },
+  {
+   "ayah": "10:70",
+   "degree": 4,
+   "roots_present": [
+    "عذب",
+    "رجع",
+    "دنو",
+    "كفر"
+   ]
+  },
+  {
+   "ayah": "34:42",
+   "degree": 4,
+   "roots_present": [
+    "عذب",
+    "ضرر",
+    "نور",
+    "يوم"
+   ]
+  },
+  {
+   "ayah": "46:34",
+   "degree": 4,
+   "roots_present": [
+    "عذب",
+    "نور",
+    "كفر",
+    "يوم"
+   ]
+  },
+  {
+   "ayah": "3:106",
+   "degree": 3,
+   "roots_present": [
+    "عذب",
+    "كفر",
+    "يوم"
+   ]
+  },
+  {
+   "ayah": "4:56",
+   "degree": 3,
+   "roots_present": [
+    "عذب",
+    "نور",
+    "كفر"
+   ]
+  },
+  {
+   "ayah": "8:14",
+   "degree": 3,
+   "roots_present": [
+    "عذب",
+    "نور",
+    "كفر"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "ذوق+عذب": [
+   "3:106",
+   "3:181",
+   "4:56",
+   "6:30",
+   "6:65",
+   "7:39",
+   "8:14",
+   "8:35",
+   "8:50",
+   "10:52",
+   "10:70",
+   "16:94",
+   "22:9",
+   "22:22",
+   "22:25",
+   "25:19",
+   "29:55",
+   "32:14",
+   "32:20",
+   "32:21"
+  ],
+  "ذوق+مسس": [
+   "10:21",
+   "11:10",
+   "30:33",
+   "41:50",
+   "54:48"
+  ],
+  "ذوق+ضرر": [
+   "10:21",
+   "11:10",
+   "30:33",
+   "34:42",
+   "41:50"
+  ],
+  "ذوق+رجع": [
+   "10:70",
+   "21:35",
+   "29:57",
+   "30:41",
+   "32:21",
+   "41:50"
+  ],
+  "ذوق+دنو": [
+   "3:185",
+   "10:70",
+   "22:9",
+   "32:21",
+   "39:26",
+   "41:16"
+  ],
+  "ذوق+سوا": [
+   "7:22",
+   "11:10",
+   "16:94",
+   "30:36",
+   "39:24",
+   "41:27",
+   "42:48"
+  ],
+  "ذوق+نور": [
+   "3:185",
+   "4:56",
+   "8:14",
+   "9:35",
+   "32:20",
+   "34:42",
+   "46:34",
+   "54:48"
+  ],
+  "ذوق+موت": [
+   "3:185",
+   "17:75",
+   "21:35",
+   "29:57",
+   "44:56"
+  ],
+  "ذوق+كفر": [
+   "3:106",
+   "4:56",
+   "5:95",
+   "6:30",
+   "8:14",
+   "8:35",
+   "8:50",
+   "10:70",
+   "11:9",
+   "16:112",
+   "22:25",
+   "41:27",
+   "41:50",
+   "42:48",
+   "46:34",
+   "64:5"
+  ],
+  "ذوق+يوم": [
+   "3:106",
+   "3:185",
+   "9:35",
+   "22:9",
+   "29:55",
+   "32:14",
+   "34:42",
+   "39:24",
+   "41:16",
+   "46:34",
+   "54:48"
+  ],
+  "ذوق+حرم": [
+   "5:95",
+   "6:148",
+   "22:25"
+  ],
+  "ذوق+عمل": [
+   "29:55",
+   "30:41",
+   "32:14",
+   "34:12",
+   "35:37",
+   "41:27",
+   "41:50"
+  ],
+  "ذوق+خزي": [
+   "22:9",
+   "39:26",
+   "41:16"
+  ],
+  "ذوق+نصر": [
+   "17:75",
+   "25:19",
+   "35:37",
+   "41:16"
+  ]
+ }
+}

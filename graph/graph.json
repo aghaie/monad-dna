@@ -402,7 +402,8 @@
   "صير",
   "باس",
   "نبا",
-  "رجع"
+  "رجع",
+  "ذوق"
  ],
  "open_queue": [
   "اتي",
@@ -417,7 +418,6 @@
   "جنن",
   "حسن",
   "دعو",
-  "ذوق",
   "راي",
   "رحم",
   "سمع",
@@ -7407,6 +7407,22 @@
   },
   {
    "a": "دنو",
+   "b": "ذوق",
+   "directions": {
+    "ذوق→دنو": {
+     "breath": 100,
+     "lift": 4.792,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دنو",
    "b": "زين",
    "directions": {
     "زين→دنو": {
@@ -7768,10 +7784,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "ذوق→رجع": {
+     "breath": 100,
+     "lift": 5.955,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ذوق",
+   "b": "سوا",
+   "directions": {
+    "ذوق→سوا": {
+     "breath": 100,
+     "lift": 4.739,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "ذوق",
@@ -7784,6 +7824,46 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ذوق→ضرر": {
+     "breath": 100,
+     "lift": 7.302,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
+   "b": "عذب",
+   "directions": {
+    "ذوق→عذب": {
+     "breath": 100,
+     "lift": 10.953,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 36
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ذوق",
+   "b": "كفر",
+   "directions": {
+    "ذوق→كفر": {
+     "breath": 100,
+     "lift": 3.518,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 16
     }
    },
    "mutual_strong": false,
@@ -7800,6 +7880,62 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ذوق→مسس": {
+     "breath": 100,
+     "lift": 8.968,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
+   "b": "موت",
+   "directions": {
+    "ذوق→موت": {
+     "breath": 100,
+     "lift": 3.574,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
+   "b": "نور",
+   "directions": {
+    "ذوق→نور": {
+     "breath": 100,
+     "lift": 4.7,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ذوق",
+   "b": "يوم",
+   "directions": {
+    "ذوق→يوم": {
+     "breath": 100,
+     "lift": 2.983,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
