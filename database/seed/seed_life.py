@@ -163,6 +163,7 @@ b127 = rec("breath_127_سمع.json")
 b128 = rec("breath_128_صمم.json")
 b129 = rec("breath_129_نور.json")
 b130 = rec("breath_130_وقد.json")
+b131 = rec("breath_131_صلي.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -818,6 +819,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_130_وقد.json",
      "breaths/records/breath_130_وقد.json", LOG1,
      "دو قوی پایدار (نور دوسویه ۳۲٫۶، اله یک‌طرفه ۲٫۴)؛ جفتِ متقابل: وقد↔نور؛ بدون محتمل؛ ۲:۱۷ و ۳:۱۰ و ۵:۶۴ گرهِ دوریشه‌ای؛ شاهدِ غیاب: صدویازده صفر", b130["top"]),
+    (131, "تولدِ دوباره", "صلي", "قاعدهٔ صف (خودران)",
+     b131["ayat"], b131["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_131_صلي.json",
+     "breaths/records/breath_131_صلي.json", LOG1,
+     "یک قوی پایدار (نور دوسویه ۱۲٫۹)؛ جفتِ متقابل: صلي↔نور؛ بدون محتمل؛ ۴:۳۰ و ۴:۵۶ و ۴:۱۰ گرهِ دوریشه‌ای؛ شاهدِ غیاب: صدویازده صفر (هم‌تراز با نفسِ ۱۳۰)", b131["top"]),
     # ⚓BREATHS
 ]
 
@@ -1221,6 +1227,7 @@ QUEUE_EVENTS = [
     (129, "queued", "وقد", "چرخه"),
     (129, "queued", "صلي", "چرخه"),
     (130, "pursued", "وقد", "قاعدهٔ صف"),
+    (131, "pursued", "صلي", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -1356,6 +1363,7 @@ PROJ = [
     (128, b128),
     (129, b129),
     (130, b130),
+    (131, b131),
     # ⚓PROJ
 ]
 
