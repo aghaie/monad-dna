@@ -89,6 +89,7 @@
   "حقق",
   "حكم",
   "حلل",
+  "حلم",
   "حمد",
   "حنف",
   "حيث",
@@ -101,6 +102,7 @@
   "خزن",
   "خزي",
   "خشي",
+  "خطا",
   "خفي",
   "خلد",
   "خلص",
@@ -239,6 +241,7 @@
   "فاد",
   "فاي",
   "فتح",
+  "فحش",
   "فرح",
   "فرق",
   "فري",
@@ -518,7 +521,8 @@
   "دعو",
   "خلص",
   "جوب",
-  "دين"
+  "دين",
+  "غفر"
  ],
  "open_queue": [
   "اتي",
@@ -530,8 +534,10 @@
   "ايي",
   "بعد",
   "بين",
+  "حلم",
   "خلق",
   "ذكر",
+  "ذنب",
   "راي",
   "ربب",
   "رحم",
@@ -540,8 +546,8 @@
   "ظلم",
   "عبد",
   "عذب",
+  "عفو",
   "علم",
-  "غفر",
   "قبل",
   "قول",
   "قوم",
@@ -6846,6 +6852,14 @@
      "stable": true,
      "tier": "قوی",
      "shared": 25
+    },
+    "غفر→توب": {
+     "breath": 153,
+     "lift": 11.185,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 25
     }
    },
    "mutual_strong": false,
@@ -8900,6 +8914,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "حلم",
+   "b": "غفر",
+   "directions": {
+    "غفر→حلم": {
+     "breath": 153,
+     "lift": 13.892,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "حمد",
    "b": "ربب",
    "directions": {
@@ -9734,6 +9764,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خطا",
+   "b": "غفر",
+   "directions": {
+    "غفر→خطا": {
+     "breath": 153,
+     "lift": 13.892,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
     }
    },
    "mutual_strong": false,
@@ -11188,6 +11234,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ذنب",
+   "b": "غفر",
+   "directions": {
+    "غفر→ذنب": {
+     "breath": 153,
+     "lift": 15.853,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 19
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "ذهب",
    "b": "قدر",
    "directions": {
@@ -11654,6 +11716,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 20
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رحم",
+   "b": "غفر",
+   "directions": {
+    "غفر→رحم": {
+     "breath": 153,
+     "lift": 8.975,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 91
     }
    },
    "mutual_strong": false,
@@ -16060,6 +16138,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "عفو",
+   "b": "غفر",
+   "directions": {
+    "غفر→عفو": {
+     "breath": 153,
+     "lift": 9.958,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "عقب",
    "b": "قبل",
    "directions": {
@@ -16581,11 +16675,67 @@
   },
   {
    "a": "غفر",
+   "b": "فحش",
+   "directions": {
+    "غفر→فحش": {
+     "breath": 153,
+     "lift": 6.711,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "غفر",
+   "b": "نكح",
+   "directions": {
+    "غفر→نكح": {
+     "breath": 153,
+     "lift": 8.124,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "غفر",
    "b": "هجر",
    "directions": {
     "هجر→غفر": {
      "breath": 94,
      "lift": 6.86,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    },
+    "غفر→هجر": {
+     "breath": 153,
+     "lift": 6.86,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "غفر",
+   "b": "وسع",
+   "directions": {
+    "غفر→وسع": {
+     "breath": 153,
+     "lift": 6.387,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
