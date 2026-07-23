@@ -186,6 +186,7 @@ b150 = rec("breath_150_خلص.json")
 b151 = rec("breath_151_جوب.json")
 b152 = rec("breath_152_دين.json")
 b153 = rec("breath_153_غفر.json")
+b154 = rec("breath_154_حلم.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -956,6 +957,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_153_غفر.json",
      "breaths/records/breath_153_غفر.json", LOG1,
      "سه قوی پایدار (ذنب دوسویه ۱۵٫۹، حلم دوسویه ۱۳٫۹، عفو دوسویه ۱۰٫۰)؛ بدون جفتِ متقابل (هیچ‌کدام پیش‌تر زیسته نبود)؛ خطا دوسویهٔ محتملِ ناپایدار lift=۱۳٫۹؛ ۲:۲۸۶ و ۲۴:۲۲ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: سی‌ودو صفر", b153["top"]),
+    (154, "تولدِ دوباره", "حلم", "قاعدهٔ صف (خودران)",
+     b154["ayat"], b154["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_154_حلم.json",
+     "breaths/records/breath_154_حلم.json", LOG1,
+     "دو قوی پایدار (غفر دوسویه ۱۳٫۹، اله یک‌طرفه ۲٫۲)؛ جفتِ متقابل: حلم↔غفر؛ علم یک‌طرفهٔ محتملِ ناپایدار lift=۳٫۰؛ ۲:۲۳۵ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: صدوسیزده صفر", b154["top"]),
     # ⚓BREATHS
 ]
 
@@ -1402,6 +1408,7 @@ QUEUE_EVENTS = [
     (153, "queued", "ذنب", "چرخه"),
     (153, "queued", "حلم", "چرخه"),
     (153, "queued", "عفو", "چرخه"),
+    (154, "pursued", "حلم", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -1560,6 +1567,7 @@ PROJ = [
     (151, b151),
     (152, b152),
     (153, b153),
+    (154, b154),
     # ⚓PROJ
 ]
 
