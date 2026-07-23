@@ -1,0 +1,1324 @@
+{
+ "breath_number": 87,
+ "deliberation": [
+  {
+   "root": "ضرر",
+   "attestation": 74
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نصر",
+   "attestation": 158
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "ضرر",
+ "attestation": 74,
+ "ayat": 70,
+ "top": [
+  {
+   "root": "كشف",
+   "shared": 9,
+   "expected": 0.22,
+   "lift": 40.089,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نفع",
+   "shared": 17,
+   "expected": 0.55,
+   "lift": 30.907,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "مسس",
+   "shared": 17,
+   "expected": 0.64,
+   "lift": 26.569,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "باس",
+   "shared": 7,
+   "expected": 0.75,
+   "lift": 9.307,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دون",
+   "shared": 12,
+   "expected": 1.59,
+   "lift": 7.528,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ذوق",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.302,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دعو",
+   "shared": 13,
+   "expected": 2.04,
+   "lift": 6.363,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حرم",
+   "shared": 5,
+   "expected": 0.8,
+   "lift": 6.274,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ملك",
+   "shared": 12,
+   "expected": 2.14,
+   "lift": 5.597,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غير",
+   "shared": 9,
+   "expected": 1.64,
+   "lift": 5.492,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "كشف",
+  "نفع",
+  "مسس",
+  "باس",
+  "دون",
+  "ذوق",
+  "دعو",
+  "ملك"
+ ],
+ "one_way": [
+  "حرم",
+  "غير"
+ ],
+ "neighbor_view": {
+  "كشف": {
+   "root": "ضرر",
+   "shared": 9,
+   "expected": 0.22,
+   "lift": 40.089,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "نفع": {
+   "root": "ضرر",
+   "shared": 17,
+   "expected": 0.55,
+   "lift": 30.907,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "مسس": {
+   "root": "ضرر",
+   "shared": 17,
+   "expected": 0.64,
+   "lift": 26.569,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "باس": {
+   "root": "ضرر",
+   "shared": 7,
+   "expected": 0.75,
+   "lift": 9.307,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دون": {
+   "root": "ضرر",
+   "shared": 12,
+   "expected": 1.59,
+   "lift": 7.528,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ذوق": {
+   "root": "ضرر",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.302,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دعو": {
+   "root": "ضرر",
+   "shared": 13,
+   "expected": 2.04,
+   "lift": 6.363,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حرم": null,
+  "ملك": {
+   "root": "ضرر",
+   "shared": 12,
+   "expected": 2.14,
+   "lift": 5.597,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "غير": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "ضرر↔فلح",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔صلو",
+   "shared": 1,
+   "expected": 1.01,
+   "lift": 0.99,
+   "p_perm": 0.6412
+  },
+  {
+   "pair": "ضرر↔زكو",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.59,
+   "p_perm": 0.4419
+  },
+  {
+   "pair": "ضرر↔اذن",
+   "shared": 2,
+   "expected": 1.01,
+   "lift": 1.98,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "ضرر↔نفق",
+   "shared": 2,
+   "expected": 0.97,
+   "lift": 2.07,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "ضرر↔سرر",
+   "shared": 2,
+   "expected": 0.48,
+   "lift": 4.14,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "ضرر↔علن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔رزق",
+   "shared": 2,
+   "expected": 1.22,
+   "lift": 1.63,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "ضرر↔بسط",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔طيب",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔خبث",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔حلل",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔حرم",
+   "shared": 5,
+   "expected": 0.8,
+   "lift": 6.27,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "ضرر↔سجد",
+   "shared": 1,
+   "expected": 0.91,
+   "lift": 1.1,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "ضرر↔اكل",
+   "shared": 3,
+   "expected": 1.13,
+   "lift": 2.65,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "ضرر↔طوع",
+   "shared": 1,
+   "expected": 1.32,
+   "lift": 0.75,
+   "p_perm": 0.7641
+  },
+  {
+   "pair": "ضرر↔شهد",
+   "shared": 2,
+   "expected": 1.38,
+   "lift": 1.45,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "ضرر↔كبر",
+   "shared": 1,
+   "expected": 1.72,
+   "lift": 0.58,
+   "p_perm": 0.8372
+  },
+  {
+   "pair": "ضرر↔حيي",
+   "shared": 1,
+   "expected": 1.81,
+   "lift": 0.55,
+   "p_perm": 0.8704
+  },
+  {
+   "pair": "ضرر↔خير",
+   "shared": 3,
+   "expected": 2.0,
+   "lift": 1.5,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "ضرر↔ولي",
+   "shared": 6,
+   "expected": 2.27,
+   "lift": 2.65,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "ضرر↔عمل",
+   "shared": 7,
+   "expected": 3.51,
+   "lift": 1.99,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "ضرر↔رسل",
+   "shared": 8,
+   "expected": 4.82,
+   "lift": 1.66,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "ضرر↔اله",
+   "shared": 47,
+   "expected": 21.09,
+   "lift": 2.23,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرر↔حبط",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.57,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "ضرر↔بقي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔عدل",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.71,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "ضرر↔كفي",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔دبر",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.02,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "ضرر↔زين",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.07,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "ضرر↔عقل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔خبر",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.71,
+   "p_perm": 0.4053
+  },
+  {
+   "pair": "ضرر↔غيب",
+   "shared": 1,
+   "expected": 0.66,
+   "lift": 1.51,
+   "p_perm": 0.5415
+  },
+  {
+   "pair": "ضرر↔جرم",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔عرف",
+   "shared": 3,
+   "expected": 0.7,
+   "lift": 4.31,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "ضرر↔نكر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔علو",
+   "shared": 1,
+   "expected": 0.76,
+   "lift": 1.31,
+   "p_perm": 0.5382
+  },
+  {
+   "pair": "ضرر↔متع",
+   "shared": 3,
+   "expected": 0.73,
+   "lift": 4.11,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "ضرر↔حين",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.7,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "ضرر↔وكل",
+   "shared": 2,
+   "expected": 0.68,
+   "lift": 2.92,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "ضرر↔قلل",
+   "shared": 4,
+   "expected": 0.83,
+   "lift": 4.82,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرر↔ثمن",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.69,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "ضرر↔شري",
+   "shared": 2,
+   "expected": 0.26,
+   "lift": 7.75,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "ضرر↔شكر",
+   "shared": 1,
+   "expected": 0.77,
+   "lift": 1.29,
+   "p_perm": 0.5648
+  },
+  {
+   "pair": "ضرر↔فلك",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔بحر",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.23,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "ضرر↔برر",
+   "shared": 2,
+   "expected": 0.34,
+   "lift": 5.94,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "ضرر↔جري",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔ابد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔فوز",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔سخر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔تحت",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔رضو",
+   "shared": 3,
+   "expected": 0.72,
+   "lift": 4.18,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "ضرر↔نجو",
+   "shared": 2,
+   "expected": 0.84,
+   "lift": 2.38,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "ضرر↔خلد",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔شطن",
+   "shared": 3,
+   "expected": 0.88,
+   "lift": 3.43,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "ضرر↔سبح",
+   "shared": 1,
+   "expected": 0.98,
+   "lift": 1.02,
+   "p_perm": 0.598
+  },
+  {
+   "pair": "ضرر↔حمد",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔غني",
+   "shared": 1,
+   "expected": 0.81,
+   "lift": 1.24,
+   "p_perm": 0.5681
+  },
+  {
+   "pair": "ضرر↔فقر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔مول",
+   "shared": 3,
+   "expected": 0.9,
+   "lift": 3.34,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "ضرر↔ليل",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔قمر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔شمس",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔بغي",
+   "shared": 3,
+   "expected": 1.01,
+   "lift": 2.97,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "ضرر↔صحب",
+   "shared": 2,
+   "expected": 1.0,
+   "lift": 2.0,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "ضرر↔ولد",
+   "shared": 2,
+   "expected": 0.9,
+   "lift": 2.23,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "ضرر↔فضل",
+   "shared": 3,
+   "expected": 1.03,
+   "lift": 2.9,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "ضرر↔عدو",
+   "shared": 5,
+   "expected": 1.03,
+   "lift": 4.84,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "ضرر↔اثم",
+   "shared": 2,
+   "expected": 0.47,
+   "lift": 4.24,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "ضرر↔نهر",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔دخل",
+   "shared": 2,
+   "expected": 1.25,
+   "lift": 1.61,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "ضرر↔بوب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔فتح",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔اهل",
+   "shared": 5,
+   "expected": 1.35,
+   "lift": 3.71,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "ضرر↔قري",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.65,
+   "p_perm": 0.4452
+  },
+  {
+   "pair": "ضرر↔هلك",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔قرن",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔عظم",
+   "shared": 3,
+   "expected": 1.43,
+   "lift": 2.1,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "ضرر↔اجر",
+   "shared": 2,
+   "expected": 1.11,
+   "lift": 1.8,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "ضرر↔ضيع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔قدر",
+   "shared": 2,
+   "expected": 1.36,
+   "lift": 1.47,
+   "p_perm": 0.3953
+  },
+  {
+   "pair": "ضرر↔دنو",
+   "shared": 1,
+   "expected": 1.44,
+   "lift": 0.7,
+   "p_perm": 0.7741
+  },
+  {
+   "pair": "ضرر↔خزي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔دون",
+   "shared": 12,
+   "expected": 1.59,
+   "lift": 7.53,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "ضرر↔نفع",
+   "shared": 17,
+   "expected": 0.55,
+   "lift": 30.91,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "ضرر↔فلح",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔علن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔بسط",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔طيب",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔خبث",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔حلل",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔بقي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔كفي",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔عقل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔جرم",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔نكر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔فلك",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔جري",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔ابد",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔فوز",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔سخر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔تحت",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔خلد",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔حمد",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔فقر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔ليل",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔قمر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔شمس",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔نهر",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔بوب",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔فتح",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔هلك",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔قرن",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔ضيع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "ضرر↔خزي",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "17:56",
+   "degree": 4,
+   "roots_present": [
+    "كشف",
+    "دون",
+    "دعو",
+    "ملك"
+   ]
+  },
+  {
+   "ayah": "2:102",
+   "degree": 3,
+   "roots_present": [
+    "نفع",
+    "باس",
+    "ملك"
+   ]
+  },
+  {
+   "ayah": "5:76",
+   "degree": 3,
+   "roots_present": [
+    "نفع",
+    "دون",
+    "ملك"
+   ]
+  },
+  {
+   "ayah": "6:71",
+   "degree": 3,
+   "roots_present": [
+    "نفع",
+    "دون",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "7:188",
+   "degree": 3,
+   "roots_present": [
+    "نفع",
+    "مسس",
+    "ملك"
+   ]
+  },
+  {
+   "ayah": "10:12",
+   "degree": 3,
+   "roots_present": [
+    "كشف",
+    "مسس",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "10:106",
+   "degree": 3,
+   "roots_present": [
+    "نفع",
+    "دون",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "13:16",
+   "degree": 3,
+   "roots_present": [
+    "نفع",
+    "دون",
+    "ملك"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "ضرر+كشف": [
+   "6:17",
+   "10:12",
+   "10:107",
+   "16:54",
+   "17:56",
+   "21:84",
+   "23:75",
+   "27:62",
+   "39:38"
+  ],
+  "ضرر+نفع": [
+   "2:102",
+   "5:76",
+   "6:71",
+   "7:188",
+   "10:18",
+   "10:49",
+   "10:106",
+   "13:16",
+   "20:89",
+   "21:66",
+   "22:12",
+   "22:13",
+   "25:3",
+   "25:55",
+   "26:73",
+   "34:42",
+   "48:11"
+  ],
+  "ضرر+مسس": [
+   "2:214",
+   "3:120",
+   "6:17",
+   "7:95",
+   "7:188",
+   "10:12",
+   "10:21",
+   "10:107",
+   "11:10",
+   "12:88",
+   "16:53",
+   "17:67",
+   "21:83",
+   "30:33",
+   "39:8",
+   "39:49",
+   "41:50"
+  ],
+  "ضرر+باس": [
+   "2:102",
+   "2:126",
+   "2:177",
+   "2:214",
+   "6:42",
+   "7:94",
+   "22:13"
+  ],
+  "ضرر+دون": [
+   "5:76",
+   "6:71",
+   "10:18",
+   "10:106",
+   "13:16",
+   "17:56",
+   "21:66",
+   "22:12",
+   "25:3",
+   "25:55",
+   "36:23",
+   "39:38"
+  ],
+  "ضرر+ذوق": [
+   "10:21",
+   "11:10",
+   "30:33",
+   "34:42",
+   "41:50"
+  ],
+  "ضرر+دعو": [
+   "2:282",
+   "6:71",
+   "10:12",
+   "10:106",
+   "17:56",
+   "17:67",
+   "22:12",
+   "22:13",
+   "27:62",
+   "30:33",
+   "39:8",
+   "39:38",
+   "39:49"
+  ],
+  "ضرر+حرم": [
+   "2:173",
+   "5:3",
+   "6:119",
+   "6:145",
+   "16:115"
+  ],
+  "ضرر+ملك": [
+   "2:102",
+   "2:177",
+   "5:76",
+   "7:188",
+   "10:49",
+   "13:16",
+   "17:56",
+   "20:89",
+   "25:3",
+   "34:42",
+   "48:11",
+   "72:21"
+  ],
+  "ضرر+غير": [
+   "2:173",
+   "4:12",
+   "4:95",
+   "5:3",
+   "6:119",
+   "6:145",
+   "9:39",
+   "11:57",
+   "16:115"
+  ],
+  "ضرر+ولي": [
+   "2:177",
+   "2:282",
+   "3:111",
+   "11:57",
+   "13:16",
+   "22:13"
+  ],
+  "ضرر+اله": [
+   "2:102",
+   "2:126",
+   "2:173",
+   "2:177",
+   "2:214",
+   "2:231",
+   "2:233",
+   "2:282",
+   "3:120",
+   "3:134",
+   "3:144",
+   "3:176",
+   "3:177",
+   "4:12",
+   "4:95",
+   "4:113",
+   "5:3",
+   "5:42",
+   "5:76",
+   "5:105"
+  ],
+  "ضرر+عرف": [
+   "2:231",
+   "2:233",
+   "65:6"
+  ],
+  "ضرر+قلل": [
+   "2:126",
+   "27:62",
+   "31:24",
+   "39:8"
+  ],
+  "ضرر+شري": [
+   "2:102",
+   "3:177"
+  ],
+  "ضرر+برر": [
+   "2:177",
+   "17:67"
+  ],
+  "ضرر+رضو": [
+   "2:233",
+   "2:282",
+   "5:3"
+  ],
+  "ضرر+شطن": [
+   "2:102",
+   "6:71",
+   "58:10"
+  ],
+  "ضرر+عدو": [
+   "2:173",
+   "2:231",
+   "6:119",
+   "6:145",
+   "16:115"
+  ],
+  "ضرر+اهل": [
+   "2:126",
+   "7:94",
+   "12:88",
+   "21:84",
+   "48:11"
+  ]
+ }
+}
