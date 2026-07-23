@@ -112,6 +112,7 @@
   "خنزر",
   "خوف",
   "خير",
+  "دبب",
   "دبر",
   "دخل",
   "درج",
@@ -254,6 +255,7 @@
   "فعل",
   "فقر",
   "فقه",
+  "فكر",
   "فلح",
   "فلك",
   "فوز",
@@ -533,7 +535,8 @@
   "ذنب",
   "بعد",
   "شقق",
-  "ورث"
+  "ورث",
+  "نوس"
  ],
  "open_queue": [
   "اتي",
@@ -545,6 +548,7 @@
   "ايي",
   "بين",
   "خلق",
+  "دبب",
   "ذكر",
   "راي",
   "ربب",
@@ -564,7 +568,6 @@
   "كلل",
   "كون",
   "نفس",
-  "نوس",
   "وقي"
  ],
  "edges": [
@@ -1563,6 +1566,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اجل",
+   "b": "نوس",
+   "directions": {
+    "نوس→اجل": {
+     "breath": 160,
+     "lift": 4.619,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -5289,6 +5308,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بطل",
+   "b": "نوس",
+   "directions": {
+    "نوس→بطل": {
+     "breath": 160,
+     "lift": 6.521,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بعث",
    "b": "بعد",
    "directions": {
@@ -8593,6 +8628,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "حجج",
+   "b": "نوس",
+   "directions": {
+    "نوس→حجج": {
+     "breath": 160,
+     "lift": 6.396,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "حدد",
    "b": "رسل",
    "directions": {
@@ -10137,6 +10188,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "خشي",
+   "b": "نوس",
+   "directions": {
+    "نوس→خشي": {
+     "breath": 160,
+     "lift": 5.543,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "خطا",
    "b": "غفر",
    "directions": {
@@ -10751,6 +10818,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "دبب",
+   "b": "نوس",
+   "directions": {
+    "نوس→دبب": {
+     "breath": 160,
+     "lift": 9.239,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "دبر",
@@ -14539,6 +14622,14 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "نوس→شري": {
+     "breath": 160,
+     "lift": 7.23,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -15686,6 +15777,14 @@
    "directions": {
     "ضرب→نوس": {
      "breath": 140,
+     "lift": 5.646,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
+    },
+    "نوس→ضرب": {
+     "breath": 160,
      "lift": 5.646,
      "p": 0.0033,
      "stable": false,
@@ -17617,6 +17716,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "فكر",
+   "b": "نوس",
+   "directions": {
+    "نوس→فكر": {
+     "breath": 160,
+     "lift": 9.239,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "فلح",
    "b": "وقي",
    "directions": {
@@ -18417,6 +18532,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "كثر",
+   "b": "نوس",
+   "directions": {
+    "نوس→كثر": {
+     "breath": 160,
+     "lift": 6.33,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 37
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "كذب",
    "b": "كيف",
    "directions": {
@@ -18531,6 +18662,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كلم",
+   "b": "نوس",
+   "directions": {
+    "نوس→كلم": {
+     "breath": 160,
+     "lift": 4.294,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
