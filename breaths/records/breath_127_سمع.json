@@ -1,0 +1,1630 @@
+{
+ "breath_number": 127,
+ "deliberation": [
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  },
+  {
+   "root": "ملك",
+   "attestation": 206
+  },
+  {
+   "root": "حكم",
+   "attestation": 210
+  },
+  {
+   "root": "دعو",
+   "attestation": 212
+  },
+  {
+   "root": "غفر",
+   "attestation": 234
+  },
+  {
+   "root": "بعد",
+   "attestation": 235
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "سمع",
+ "attestation": 185,
+ "ayat": 163,
+ "top": [
+  {
+   "root": "لغو",
+   "shared": 6,
+   "expected": 0.29,
+   "lift": 20.868,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "صمم",
+   "shared": 7,
+   "expected": 0.37,
+   "lift": 19.129,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "فاد",
+   "shared": 6,
+   "expected": 0.39,
+   "lift": 15.303,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بصر",
+   "shared": 37,
+   "expected": 3.63,
+   "lift": 10.184,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عمي",
+   "shared": 6,
+   "expected": 0.78,
+   "lift": 7.652,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قعد",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.357,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عقل",
+   "shared": 6,
+   "expected": 1.28,
+   "lift": 4.685,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلم",
+   "shared": 6,
+   "expected": 1.86,
+   "lift": 3.233,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قلب",
+   "shared": 12,
+   "expected": 4.05,
+   "lift": 2.962,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دعو",
+   "shared": 14,
+   "expected": 4.76,
+   "lift": 2.943,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "لغو",
+  "صمم",
+  "فاد",
+  "بصر",
+  "عمي",
+  "قعد",
+  "عقل"
+ ],
+ "one_way": [
+  "كلم",
+  "قلب",
+  "دعو"
+ ],
+ "neighbor_view": {
+  "لغو": {
+   "root": "سمع",
+   "shared": 6,
+   "expected": 0.29,
+   "lift": 20.868,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "صمم": {
+   "root": "سمع",
+   "shared": 7,
+   "expected": 0.37,
+   "lift": 19.129,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "فاد": {
+   "root": "سمع",
+   "shared": 6,
+   "expected": 0.39,
+   "lift": 15.303,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "بصر": {
+   "root": "سمع",
+   "shared": 37,
+   "expected": 3.63,
+   "lift": 10.184,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عمي": {
+   "root": "سمع",
+   "shared": 6,
+   "expected": 0.78,
+   "lift": 7.652,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "قعد": {
+   "root": "سمع",
+   "shared": 5,
+   "expected": 0.68,
+   "lift": 7.357,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عقل": {
+   "root": "سمع",
+   "shared": 6,
+   "expected": 1.28,
+   "lift": 4.685,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كلم": null,
+  "قلب": null,
+  "دعو": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "سمع↔فلح",
+   "shared": 2,
+   "expected": 1.05,
+   "lift": 1.91,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "سمع↔صلو",
+   "shared": 1,
+   "expected": 2.35,
+   "lift": 0.43,
+   "p_perm": 0.9136
+  },
+  {
+   "pair": "سمع↔زكو",
+   "shared": 2,
+   "expected": 1.46,
+   "lift": 1.37,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "سمع↔اذن",
+   "shared": 5,
+   "expected": 2.35,
+   "lift": 2.13,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "سمع↔نفق",
+   "shared": 3,
+   "expected": 2.25,
+   "lift": 1.33,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "سمع↔سرر",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.89,
+   "p_perm": 0.6412
+  },
+  {
+   "pair": "سمع↔علن",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔رزق",
+   "shared": 3,
+   "expected": 2.85,
+   "lift": 1.05,
+   "p_perm": 0.5781
+  },
+  {
+   "pair": "سمع↔بسط",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔طيب",
+   "shared": 1,
+   "expected": 1.2,
+   "lift": 0.83,
+   "p_perm": 0.7309
+  },
+  {
+   "pair": "سمع↔خبث",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔حلل",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔حرم",
+   "shared": 1,
+   "expected": 1.86,
+   "lift": 0.54,
+   "p_perm": 0.8272
+  },
+  {
+   "pair": "سمع↔سجد",
+   "shared": 1,
+   "expected": 2.12,
+   "lift": 0.47,
+   "p_perm": 0.8937
+  },
+  {
+   "pair": "سمع↔اكل",
+   "shared": 1,
+   "expected": 2.64,
+   "lift": 0.38,
+   "p_perm": 0.9369
+  },
+  {
+   "pair": "سمع↔طوع",
+   "shared": 8,
+   "expected": 3.08,
+   "lift": 2.59,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "سمع↔شهد",
+   "shared": 5,
+   "expected": 3.22,
+   "lift": 1.56,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "سمع↔كبر",
+   "shared": 5,
+   "expected": 4.0,
+   "lift": 1.25,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "سمع↔حيي",
+   "shared": 4,
+   "expected": 4.21,
+   "lift": 0.95,
+   "p_perm": 0.608
+  },
+  {
+   "pair": "سمع↔خير",
+   "shared": 6,
+   "expected": 4.65,
+   "lift": 1.29,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "سمع↔ولي",
+   "shared": 9,
+   "expected": 5.28,
+   "lift": 1.7,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "سمع↔عمل",
+   "shared": 4,
+   "expected": 8.18,
+   "lift": 0.49,
+   "p_perm": 0.9767
+  },
+  {
+   "pair": "سمع↔رسل",
+   "shared": 9,
+   "expected": 11.21,
+   "lift": 0.8,
+   "p_perm": 0.7973
+  },
+  {
+   "pair": "سمع↔اله",
+   "shared": 70,
+   "expected": 49.11,
+   "lift": 1.43,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سمع↔حبط",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بقي",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔عدل",
+   "shared": 2,
+   "expected": 0.63,
+   "lift": 3.19,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "سمع↔كفي",
+   "shared": 1,
+   "expected": 0.84,
+   "lift": 1.2,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "سمع↔دبر",
+   "shared": 3,
+   "expected": 1.15,
+   "lift": 2.61,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "سمع↔زين",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.89,
+   "p_perm": 0.6977
+  },
+  {
+   "pair": "سمع↔عقل",
+   "shared": 6,
+   "expected": 1.28,
+   "lift": 4.68,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "سمع↔خبر",
+   "shared": 1,
+   "expected": 1.36,
+   "lift": 0.74,
+   "p_perm": 0.7276
+  },
+  {
+   "pair": "سمع↔غيب",
+   "shared": 1,
+   "expected": 1.54,
+   "lift": 0.65,
+   "p_perm": 0.814
+  },
+  {
+   "pair": "سمع↔جرم",
+   "shared": 1,
+   "expected": 1.7,
+   "lift": 0.59,
+   "p_perm": 0.8239
+  },
+  {
+   "pair": "سمع↔عرف",
+   "shared": 1,
+   "expected": 1.62,
+   "lift": 0.62,
+   "p_perm": 0.8306
+  },
+  {
+   "pair": "سمع↔نكر",
+   "shared": 1,
+   "expected": 0.97,
+   "lift": 1.03,
+   "p_perm": 0.6279
+  },
+  {
+   "pair": "سمع↔علو",
+   "shared": 1,
+   "expected": 1.78,
+   "lift": 0.56,
+   "p_perm": 0.8306
+  },
+  {
+   "pair": "سمع↔متع",
+   "shared": 0,
+   "expected": 1.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔حين",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔وكل",
+   "shared": 1,
+   "expected": 1.59,
+   "lift": 0.63,
+   "p_perm": 0.8339
+  },
+  {
+   "pair": "سمع↔قلل",
+   "shared": 4,
+   "expected": 1.93,
+   "lift": 2.07,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "سمع↔ثمن",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔شري",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔شكر",
+   "shared": 4,
+   "expected": 1.8,
+   "lift": 2.22,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "سمع↔فلك",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بحر",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔برر",
+   "shared": 2,
+   "expected": 0.78,
+   "lift": 2.55,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "سمع↔جري",
+   "shared": 0,
+   "expected": 1.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔ابد",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "سمع↔فوز",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔سخر",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔تحت",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔رضو",
+   "shared": 0,
+   "expected": 1.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔نجو",
+   "shared": 2,
+   "expected": 1.96,
+   "lift": 1.02,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "سمع↔خلد",
+   "shared": 1,
+   "expected": 2.25,
+   "lift": 0.44,
+   "p_perm": 0.8937
+  },
+  {
+   "pair": "سمع↔شطن",
+   "shared": 3,
+   "expected": 2.04,
+   "lift": 1.47,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "سمع↔سبح",
+   "shared": 2,
+   "expected": 2.27,
+   "lift": 0.88,
+   "p_perm": 0.6346
+  },
+  {
+   "pair": "سمع↔حمد",
+   "shared": 1,
+   "expected": 1.59,
+   "lift": 0.63,
+   "p_perm": 0.7708
+  },
+  {
+   "pair": "سمع↔غني",
+   "shared": 3,
+   "expected": 1.88,
+   "lift": 1.59,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "سمع↔فقر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.73,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "سمع↔مول",
+   "shared": 2,
+   "expected": 2.09,
+   "lift": 0.96,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "سمع↔ليل",
+   "shared": 6,
+   "expected": 2.12,
+   "lift": 2.83,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "سمع↔قمر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔شمس",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بغي",
+   "shared": 3,
+   "expected": 2.35,
+   "lift": 1.28,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "سمع↔صحب",
+   "shared": 1,
+   "expected": 2.33,
+   "lift": 0.43,
+   "p_perm": 0.9003
+  },
+  {
+   "pair": "سمع↔ولد",
+   "shared": 0,
+   "expected": 2.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔فضل",
+   "shared": 3,
+   "expected": 2.4,
+   "lift": 1.25,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "سمع↔عدو",
+   "shared": 2,
+   "expected": 2.4,
+   "lift": 0.83,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "سمع↔اثم",
+   "shared": 2,
+   "expected": 1.1,
+   "lift": 1.82,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "سمع↔نهر",
+   "shared": 4,
+   "expected": 2.67,
+   "lift": 1.5,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "سمع↔دخل",
+   "shared": 0,
+   "expected": 2.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بوب",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔فتح",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔اهل",
+   "shared": 3,
+   "expected": 3.14,
+   "lift": 0.96,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "سمع↔قري",
+   "shared": 0,
+   "expected": 1.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔هلك",
+   "shared": 3,
+   "expected": 1.65,
+   "lift": 1.82,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "سمع↔قرن",
+   "shared": 2,
+   "expected": 0.89,
+   "lift": 2.25,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "سمع↔عظم",
+   "shared": 3,
+   "expected": 3.32,
+   "lift": 0.9,
+   "p_perm": 0.6777
+  },
+  {
+   "pair": "سمع↔اجر",
+   "shared": 0,
+   "expected": 2.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔ضيع",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔قدر",
+   "shared": 1,
+   "expected": 3.16,
+   "lift": 0.32,
+   "p_perm": 0.9668
+  },
+  {
+   "pair": "سمع↔دنو",
+   "shared": 4,
+   "expected": 3.35,
+   "lift": 1.2,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "سمع↔خزي",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.59,
+   "p_perm": 0.5017
+  },
+  {
+   "pair": "سمع↔دون",
+   "shared": 5,
+   "expected": 3.71,
+   "lift": 1.35,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "سمع↔نفع",
+   "shared": 1,
+   "expected": 1.28,
+   "lift": 0.78,
+   "p_perm": 0.7342
+  },
+  {
+   "pair": "سمع↔ضرر",
+   "shared": 2,
+   "expected": 1.83,
+   "lift": 1.09,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "سمع↔كشف",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔مسس",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بصر",
+   "shared": 37,
+   "expected": 3.63,
+   "lift": 10.18,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سمع↔فاد",
+   "shared": 6,
+   "expected": 0.39,
+   "lift": 15.3,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سمع↔عمي",
+   "shared": 6,
+   "expected": 0.78,
+   "lift": 7.65,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سمع↔نصر",
+   "shared": 0,
+   "expected": 3.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔هجر",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔اوي",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔صير",
+   "shared": 1,
+   "expected": 0.76,
+   "lift": 1.32,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "سمع↔باس",
+   "shared": 0,
+   "expected": 1.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔نبا",
+   "shared": 2,
+   "expected": 3.95,
+   "lift": 0.51,
+   "p_perm": 0.9402
+  },
+  {
+   "pair": "سمع↔رجع",
+   "shared": 2,
+   "expected": 2.69,
+   "lift": 0.74,
+   "p_perm": 0.7508
+  },
+  {
+   "pair": "سمع↔ذوق",
+   "shared": 1,
+   "expected": 1.59,
+   "lift": 0.63,
+   "p_perm": 0.7608
+  },
+  {
+   "pair": "سمع↔موت",
+   "shared": 6,
+   "expected": 3.74,
+   "lift": 1.61,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "سمع↔بعث",
+   "shared": 2,
+   "expected": 1.67,
+   "lift": 1.2,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "سمع↔نظر",
+   "shared": 5,
+   "expected": 3.01,
+   "lift": 1.66,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "سمع↔سير",
+   "shared": 1,
+   "expected": 0.65,
+   "lift": 1.53,
+   "p_perm": 0.4718
+  },
+  {
+   "pair": "سمع↔عقب",
+   "shared": 0,
+   "expected": 1.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔كيف",
+   "shared": 1,
+   "expected": 2.17,
+   "lift": 0.46,
+   "p_perm": 0.8804
+  },
+  {
+   "pair": "سمع↔شدد",
+   "shared": 0,
+   "expected": 2.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔قوي",
+   "shared": 1,
+   "expected": 1.02,
+   "lift": 0.98,
+   "p_perm": 0.6047
+  },
+  {
+   "pair": "سمع↔عزز",
+   "shared": 1,
+   "expected": 3.03,
+   "lift": 0.33,
+   "p_perm": 0.9701
+  },
+  {
+   "pair": "سمع↔قلب",
+   "shared": 12,
+   "expected": 4.05,
+   "lift": 2.96,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "سمع↔قسو",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔طبع",
+   "shared": 3,
+   "expected": 0.29,
+   "lift": 10.43,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "سمع↔طمن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔مرض",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔شرك",
+   "shared": 5,
+   "expected": 3.74,
+   "lift": 1.34,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "سمع↔برا",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔اول",
+   "shared": 5,
+   "expected": 4.13,
+   "lift": 1.21,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "سمع↔لبب",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.39,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "سمع↔سطر",
+   "shared": 2,
+   "expected": 0.42,
+   "lift": 4.78,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "سمع↔مرر",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔ابو",
+   "shared": 3,
+   "expected": 2.72,
+   "lift": 1.1,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "سمع↔اخو",
+   "shared": 0,
+   "expected": 2.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔وجد",
+   "shared": 1,
+   "expected": 2.59,
+   "lift": 0.39,
+   "p_perm": 0.9402
+  },
+  {
+   "pair": "سمع↔صلح",
+   "shared": 2,
+   "expected": 4.44,
+   "lift": 0.45,
+   "p_perm": 0.9635
+  },
+  {
+   "pair": "سمع↔فسد",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔توب",
+   "shared": 0,
+   "expected": 1.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "سمع↔علن",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بسط",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔خبث",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔حلل",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔حبط",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بقي",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔متع",
+   "shared": 0,
+   "expected": 1.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔حين",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔ثمن",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔شري",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔فلك",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بحر",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔جري",
+   "shared": 0,
+   "expected": 1.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔فوز",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔سخر",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔تحت",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔رضو",
+   "shared": 0,
+   "expected": 1.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔قمر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔شمس",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔ولد",
+   "shared": 0,
+   "expected": 2.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔دخل",
+   "shared": 0,
+   "expected": 2.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔بوب",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔فتح",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔قري",
+   "shared": 0,
+   "expected": 1.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔اجر",
+   "shared": 0,
+   "expected": 2.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔ضيع",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔كشف",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔مسس",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔نصر",
+   "shared": 0,
+   "expected": 3.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔هجر",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔اوي",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔باس",
+   "shared": 0,
+   "expected": 1.75,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔عقب",
+   "shared": 0,
+   "expected": 1.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔شدد",
+   "shared": 0,
+   "expected": 2.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔قسو",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔طمن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔مرض",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔برا",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔مرر",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔اخو",
+   "shared": 0,
+   "expected": 2.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔فسد",
+   "shared": 0,
+   "expected": 1.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "سمع↔توب",
+   "shared": 0,
+   "expected": 1.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:171",
+   "degree": 4,
+   "roots_present": [
+    "صمم",
+    "عمي",
+    "عقل",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "22:46",
+   "degree": 4,
+   "roots_present": [
+    "بصر",
+    "عمي",
+    "عقل",
+    "قلب"
+   ]
+  },
+  {
+   "ayah": "11:24",
+   "degree": 3,
+   "roots_present": [
+    "صمم",
+    "بصر",
+    "عمي"
+   ]
+  },
+  {
+   "ayah": "2:7",
+   "degree": 2,
+   "roots_present": [
+    "بصر",
+    "قلب"
+   ]
+  },
+  {
+   "ayah": "2:75",
+   "degree": 2,
+   "roots_present": [
+    "عقل",
+    "كلم"
+   ]
+  },
+  {
+   "ayah": "5:41",
+   "degree": 2,
+   "roots_present": [
+    "كلم",
+    "قلب"
+   ]
+  },
+  {
+   "ayah": "6:46",
+   "degree": 2,
+   "roots_present": [
+    "بصر",
+    "قلب"
+   ]
+  },
+  {
+   "ayah": "7:179",
+   "degree": 2,
+   "roots_present": [
+    "بصر",
+    "قلب"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "سمع+لغو": [
+   "19:62",
+   "28:55",
+   "41:26",
+   "56:25",
+   "78:35",
+   "88:11"
+  ],
+  "سمع+صمم": [
+   "2:171",
+   "10:42",
+   "11:24",
+   "21:45",
+   "27:80",
+   "30:52",
+   "43:40"
+  ],
+  "سمع+فاد": [
+   "16:78",
+   "17:36",
+   "23:78",
+   "32:9",
+   "46:26",
+   "67:23"
+  ],
+  "سمع+بصر": [
+   "2:7",
+   "2:20",
+   "4:58",
+   "4:134",
+   "6:46",
+   "7:179",
+   "7:195",
+   "7:198",
+   "10:31",
+   "10:67",
+   "11:20",
+   "11:24",
+   "16:78",
+   "16:108",
+   "17:1",
+   "17:36",
+   "18:26",
+   "19:38",
+   "19:42",
+   "22:46"
+  ],
+  "سمع+عمي": [
+   "2:171",
+   "11:24",
+   "22:46",
+   "27:81",
+   "30:53",
+   "43:40"
+  ],
+  "سمع+قعد": [
+   "2:127",
+   "3:121",
+   "4:140",
+   "24:60",
+   "72:9"
+  ],
+  "سمع+عقل": [
+   "2:75",
+   "2:171",
+   "10:42",
+   "22:46",
+   "25:44",
+   "67:10"
+  ],
+  "سمع+كلم": [
+   "2:75",
+   "4:46",
+   "5:41",
+   "6:115",
+   "9:6",
+   "24:16"
+  ],
+  "سمع+قلب": [
+   "2:7",
+   "2:93",
+   "5:41",
+   "6:25",
+   "6:46",
+   "7:100",
+   "7:179",
+   "16:108",
+   "22:46",
+   "45:23",
+   "47:16",
+   "50:37"
+  ],
+  "سمع+دعو": [
+   "2:171",
+   "3:38",
+   "7:195",
+   "7:198",
+   "14:39",
+   "20:108",
+   "21:45",
+   "22:73",
+   "24:51",
+   "26:72",
+   "27:80",
+   "30:52",
+   "35:14",
+   "40:20"
+  ],
+  "سمع+طوع": [
+   "2:285",
+   "4:46",
+   "5:7",
+   "8:20",
+   "11:20",
+   "18:101",
+   "24:51",
+   "64:16"
+  ],
+  "سمع+اله": [
+   "2:7",
+   "2:20",
+   "2:75",
+   "2:137",
+   "2:181",
+   "2:224",
+   "2:227",
+   "2:244",
+   "2:256",
+   "2:285",
+   "3:34",
+   "3:121",
+   "3:181",
+   "4:46",
+   "4:58",
+   "4:134",
+   "4:140",
+   "4:148",
+   "5:7",
+   "5:41"
+  ],
+  "سمع+ليل": [
+   "6:13",
+   "10:67",
+   "17:1",
+   "22:61",
+   "28:71",
+   "30:23"
+  ],
+  "سمع+طبع": [
+   "7:100",
+   "16:108",
+   "47:16"
+  ]
+ }
+}
