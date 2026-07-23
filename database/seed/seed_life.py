@@ -184,6 +184,7 @@ b148 = rec("breath_148_حكم.json")
 b149 = rec("breath_149_دعو.json")
 b150 = rec("breath_150_خلص.json")
 b151 = rec("breath_151_جوب.json")
+b152 = rec("breath_152_دين.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -944,6 +945,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_151_جوب.json",
      "breaths/records/breath_151_جوب.json", LOG1,
      "دو قوی پایدار (دعو دوسویه ۱۴٫۲، قوم یک‌طرفه ۲٫۸)؛ جفتِ متقابل: جوب↔دعو؛ ندو دوسویهٔ محتملِ ناپایدار lift=۱۵٫۲؛ ۱۴:۴۴ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: نودوچهار صفر", b151["top"]),
+    (152, "تولدِ دوباره", "دين", "قاعدهٔ صف (خودران)",
+     b152["ayat"], b152["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_152_دين.json",
+     "breaths/records/breath_152_دين.json", LOG1,
+     "یک قوی پایدار (خلص دوسویه ۲۸٫۷)؛ جفتِ متقابل: دين↔خلص؛ حنف دوسویهٔ محتملِ ناپایدار lift=۲۹٫۹؛ ۴:۱۲۵ و ۹:۳۳ و ۱۰:۱۰۵ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: هفتادویک صفر", b152["top"]),
     # ⚓BREATHS
 ]
 
@@ -1385,6 +1391,7 @@ QUEUE_EVENTS = [
     (150, "queued", "دين", "چرخه"),
     (150, "queued", "عبد", "چرخه"),
     (151, "pursued", "جوب", "قاعدهٔ صف"),
+    (152, "pursued", "دين", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -1541,6 +1548,7 @@ PROJ = [
     (149, b149),
     (150, b150),
     (151, b151),
+    (152, b152),
     # ⚓PROJ
 ]
 
