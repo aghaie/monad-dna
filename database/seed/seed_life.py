@@ -100,6 +100,7 @@ b64 = rec("breath_64_شمس.json")
 b65 = rec("breath_65_بغي.json")
 b66 = rec("breath_66_صحب.json")
 b67 = rec("breath_67_ولد.json")
+b68 = rec("breath_68_فضل.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -440,6 +441,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_67_ولد.json",
      "breaths/records/breath_67_ولد.json", LOG1,
      "بدون قوی — بالاترین: وصي دوسویه ۲۶٫۰ (محتملِ ناپایدار)؛ ۴:۱۱ و ۴:۱۲ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: بیست‌وپنج صفر", b67["top"]),
+    (68, "تولدِ دوباره", "فضل", "قاعدهٔ صف (خودران)",
+     b68["ayat"], b68["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_68_فضل.json",
+     "breaths/records/breath_68_فضل.json", LOG1,
+     "سه قوی پایدار (بغي دوسویه ۱۳٫۶، شكر دوسویه ۱۱٫۸، عظم دوسویه ۸٫۰)؛ سه جفتِ متقابل: فضل↔بغي، فضل↔شكر، فضل↔عظم؛ فلك دوسویهٔ محتملِ ناپایدار lift=۱۳٫۶؛ ۱۶:۱۴ و ۳۵:۱۲ و ۴۵:۱۲ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: بیست‌ودو صفر", b68["top"]),
     # ⚓BREATHS
 ]
 
@@ -718,6 +724,7 @@ QUEUE_EVENTS = [
     (66, "queued", "نور", "چرخه"),
     (66, "queued", "كذب", "چرخه"),
     (67, "pursued", "ولد", "قاعدهٔ صف"),
+    (68, "pursued", "فضل", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -790,6 +797,7 @@ PROJ = [
     (65, b65),
     (66, b66),
     (67, b67),
+    (68, b68),
     # ⚓PROJ
 ]
 
