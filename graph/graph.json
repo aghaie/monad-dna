@@ -69,6 +69,7 @@
   "حرف",
   "حرم",
   "حزن",
+  "حسب",
   "حسن",
   "حقق",
   "حكم",
@@ -250,6 +251,7 @@
   "مكر",
   "ملك",
   "منن",
+  "مهد",
   "موت",
   "مول",
   "موه",
@@ -393,7 +395,8 @@
   "نصر",
   "هجر",
   "اوي",
-  "صير"
+  "صير",
+  "باس"
  ],
  "open_queue": [
   "اتي",
@@ -403,7 +406,6 @@
   "امن",
   "اول",
   "ايي",
-  "باس",
   "بعد",
   "بين",
   "جنن",
@@ -2712,9 +2714,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "باس→اوي": {
+     "breath": 97,
+     "lift": 25.854,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2895,6 +2905,54 @@
   },
   {
    "a": "باس",
+   "b": "حسب",
+   "directions": {
+    "باس→حسب": {
+     "breath": 97,
+     "lift": 5.475,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "باس",
+   "b": "خلد",
+   "directions": {
+    "باس→خلد": {
+     "breath": 97,
+     "lift": 5.411,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "باس",
+   "b": "شدد",
+   "directions": {
+    "باس→شدد": {
+     "breath": 97,
+     "lift": 6.581,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "باس",
    "b": "صير",
    "directions": {
     "صير→باس": {
@@ -2904,9 +2962,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 11
+    },
+    "باس→صير": {
+     "breath": 97,
+     "lift": 35.304,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2915,6 +2981,14 @@
    "directions": {
     "ضرر→باس": {
      "breath": 87,
+     "lift": 9.307,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    },
+    "باس→ضرر": {
+     "breath": 97,
      "lift": 9.307,
      "p": 0.0033,
      "stable": false,
@@ -2936,6 +3010,30 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "باس→قري": {
+     "breath": 97,
+     "lift": 8.618,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "باس",
+   "b": "مهد",
+   "directions": {
+    "باس→مهد": {
+     "breath": 97,
+     "lift": 31.025,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -2952,6 +3050,30 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "باس→نفع": {
+     "breath": 97,
+     "lift": 9.497,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "باس",
+   "b": "نور",
+   "directions": {
+    "باس→نور": {
+     "breath": 97,
+     "lift": 4.279,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
