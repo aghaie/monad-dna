@@ -1,0 +1,1519 @@
+{
+ "breath_number": 92,
+ "deliberation": [
+  {
+   "root": "عمي",
+   "attestation": 33
+  },
+  {
+   "root": "نصر",
+   "attestation": 158
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "عمي",
+ "attestation": 33,
+ "ayat": 30,
+ "top": [
+  {
+   "root": "صمم",
+   "shared": 8,
+   "expected": 0.07,
+   "lift": 118.781,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بصر",
+   "shared": 11,
+   "expected": 0.67,
+   "lift": 16.45,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سوي",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 12.992,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سمع",
+   "shared": 6,
+   "expected": 0.78,
+   "lift": 7.652,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ضلل",
+   "shared": 5,
+   "expected": 0.82,
+   "lift": 6.114,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "هدي",
+   "shared": 7,
+   "expected": 1.29,
+   "lift": 5.429,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ذكر",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.937,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ايي",
+   "shared": 6,
+   "expected": 1.7,
+   "lift": 3.533,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كون",
+   "shared": 10,
+   "expected": 5.66,
+   "lift": 1.768,
+   "p_perm": 0.0299,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ربب",
+   "shared": 6,
+   "expected": 4.19,
+   "lift": 1.432,
+   "p_perm": 0.1495,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "صمم",
+  "بصر",
+  "سوي",
+  "سمع",
+  "ضلل",
+  "هدي",
+  "ذكر"
+ ],
+ "one_way": [
+  "ايي",
+  "كون",
+  "ربب"
+ ],
+ "neighbor_view": {
+  "صمم": {
+   "root": "عمي",
+   "shared": 8,
+   "expected": 0.07,
+   "lift": 118.781,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بصر": {
+   "root": "عمي",
+   "shared": 11,
+   "expected": 0.67,
+   "lift": 16.45,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سوي": {
+   "root": "عمي",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 12.992,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سمع": {
+   "root": "عمي",
+   "shared": 6,
+   "expected": 0.78,
+   "lift": 7.652,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ضلل": {
+   "root": "عمي",
+   "shared": 5,
+   "expected": 0.82,
+   "lift": 6.114,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "هدي": {
+   "root": "عمي",
+   "shared": 7,
+   "expected": 1.29,
+   "lift": 5.429,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ذكر": {
+   "root": "عمي",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.937,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ايي": null,
+  "كون": null,
+  "ربب": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "عمي↔فلح",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔صلو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔زكو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔اذن",
+   "shared": 2,
+   "expected": 0.43,
+   "lift": 4.62,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "عمي↔نفق",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔سرر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔علن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔رزق",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بسط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔طيب",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.52,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "عمي↔خبث",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حلل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حرم",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔سجد",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔اكل",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.06,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "عمي↔طوع",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.76,
+   "p_perm": 0.4352
+  },
+  {
+   "pair": "عمي↔شهد",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔كبر",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حيي",
+   "shared": 1,
+   "expected": 0.77,
+   "lift": 1.29,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "عمي↔خير",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ولي",
+   "shared": 3,
+   "expected": 0.97,
+   "lift": 3.09,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "عمي↔عمل",
+   "shared": 2,
+   "expected": 1.51,
+   "lift": 1.33,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "عمي↔رسل",
+   "shared": 1,
+   "expected": 2.06,
+   "lift": 0.48,
+   "p_perm": 0.8538
+  },
+  {
+   "pair": "عمي↔اله",
+   "shared": 7,
+   "expected": 9.04,
+   "lift": 0.77,
+   "p_perm": 0.8571
+  },
+  {
+   "pair": "عمي↔حبط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بقي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عدل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔كفي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔دبر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔زين",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عقل",
+   "shared": 3,
+   "expected": 0.24,
+   "lift": 12.73,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عمي↔خبر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔غيب",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.52,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "عمي↔جرم",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عرف",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔نكر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔علو",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔متع",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حين",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔وكل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قلل",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.81,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "عمي↔ثمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شري",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شكر",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فلك",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.31,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "عمي↔بحر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔برر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔جري",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.25,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "عمي↔ابد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فوز",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔سخر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔تحت",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.16,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "عمي↔رضو",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔نجو",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.77,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "عمي↔خلد",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شطن",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔سبح",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حمد",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔غني",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فقر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔مول",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ليل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قمر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شمس",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بغي",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔صحب",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ولد",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فضل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عدو",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔اثم",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔نهر",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.04,
+   "p_perm": 0.3787
+  },
+  {
+   "pair": "عمي↔دخل",
+   "shared": 2,
+   "expected": 0.53,
+   "lift": 3.75,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "عمي↔بوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فتح",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.3,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "عمي↔اهل",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قري",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔هلك",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قرن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عظم",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔اجر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ضيع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قدر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔دنو",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔خزي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔دون",
+   "shared": 2,
+   "expected": 0.68,
+   "lift": 2.93,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "عمي↔نفع",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.24,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "عمي↔ضرر",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.97,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "عمي↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔مسس",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بصر",
+   "shared": 11,
+   "expected": 0.67,
+   "lift": 16.45,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "عمي↔فاد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "عمي↔فلح",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔صلو",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔زكو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔نفق",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔سرر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔علن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔رزق",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بسط",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔خبث",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حلل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حرم",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔سجد",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شهد",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔كبر",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔خير",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حبط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بقي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عدل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔كفي",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔دبر",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔زين",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔خبر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔جرم",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عرف",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔نكر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔علو",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔متع",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حين",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔وكل",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ثمن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شري",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شكر",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بحر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔برر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ابد",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فوز",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔سخر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔رضو",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔خلد",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شطن",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔سبح",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔حمد",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔غني",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فقر",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔مول",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ليل",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قمر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔شمس",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بغي",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔صحب",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ولد",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فضل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عدو",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔اثم",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔بوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔اهل",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قري",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔هلك",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قرن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔عظم",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔اجر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔ضيع",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔قدر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔دنو",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔خزي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔كشف",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔مسس",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "عمي↔فاد",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "11:24",
+   "degree": 5,
+   "roots_present": [
+    "صمم",
+    "بصر",
+    "سوي",
+    "سمع",
+    "ذكر"
+   ]
+  },
+  {
+   "ayah": "43:40",
+   "degree": 5,
+   "roots_present": [
+    "صمم",
+    "سمع",
+    "ضلل",
+    "هدي",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "25:73",
+   "degree": 4,
+   "roots_present": [
+    "صمم",
+    "ذكر",
+    "ايي",
+    "ربب"
+   ]
+  },
+  {
+   "ayah": "27:81",
+   "degree": 4,
+   "roots_present": [
+    "سمع",
+    "ضلل",
+    "هدي",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "30:53",
+   "degree": 4,
+   "roots_present": [
+    "سمع",
+    "ضلل",
+    "هدي",
+    "ايي"
+   ]
+  },
+  {
+   "ayah": "5:71",
+   "degree": 3,
+   "roots_present": [
+    "صمم",
+    "بصر",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "10:43",
+   "degree": 3,
+   "roots_present": [
+    "بصر",
+    "هدي",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "13:16",
+   "degree": 3,
+   "roots_present": [
+    "بصر",
+    "سوي",
+    "ربب"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "عمي+صمم": [
+   "2:18",
+   "2:171",
+   "5:71",
+   "11:24",
+   "17:97",
+   "25:73",
+   "43:40",
+   "47:23"
+  ],
+  "عمي+بصر": [
+   "5:71",
+   "6:50",
+   "6:104",
+   "10:43",
+   "11:24",
+   "13:16",
+   "20:125",
+   "22:46",
+   "35:19",
+   "40:58",
+   "47:23"
+  ],
+  "عمي+سوي": [
+   "6:50",
+   "11:24",
+   "13:16",
+   "35:19",
+   "40:58"
+  ],
+  "عمي+سمع": [
+   "2:171",
+   "11:24",
+   "22:46",
+   "27:81",
+   "30:53",
+   "43:40"
+  ],
+  "عمي+ضلل": [
+   "17:72",
+   "17:97",
+   "27:81",
+   "30:53",
+   "43:40"
+  ],
+  "عمي+هدي": [
+   "10:43",
+   "17:97",
+   "27:81",
+   "30:53",
+   "41:17",
+   "41:44",
+   "43:40"
+  ],
+  "عمي+ذكر": [
+   "11:24",
+   "13:19",
+   "20:124",
+   "25:73",
+   "40:58"
+  ],
+  "عمي+ايي": [
+   "7:64",
+   "24:61",
+   "25:73",
+   "27:81",
+   "30:53",
+   "41:44"
+  ],
+  "عمي+كون": [
+   "5:71",
+   "7:64",
+   "10:43",
+   "11:28",
+   "17:72",
+   "20:125",
+   "22:46",
+   "41:17",
+   "41:44",
+   "43:40"
+  ],
+  "عمي+اذن": [
+   "22:46",
+   "41:44"
+  ],
+  "عمي+ولي": [
+   "13:16",
+   "17:97",
+   "48:17"
+  ],
+  "عمي+عقل": [
+   "2:171",
+   "22:46",
+   "24:61"
+  ]
+ }
+}
