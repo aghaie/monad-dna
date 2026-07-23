@@ -506,7 +506,8 @@
   "عند",
   "خزن",
   "ثوب",
-  "جنن"
+  "جنن",
+  "عنب"
  ],
  "open_queue": [
   "اتي",
@@ -530,7 +531,6 @@
   "ظلم",
   "عذب",
   "علم",
-  "عنب",
   "غفر",
   "قبل",
   "قول",
@@ -3966,6 +3966,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايي",
+   "b": "عنب",
+   "directions": {
+    "عنب→ايي": {
+     "breath": 145,
+     "lift": 8.03,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -7670,9 +7686,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    },
+    "عنب→جنن": {
+     "breath": 145,
+     "lift": 20.247,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -15730,6 +15754,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "عنب",
+   "b": "نخل",
+   "directions": {
+    "عنب→نخل": {
+     "breath": 145,
+     "lift": 255.109,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "عند",
