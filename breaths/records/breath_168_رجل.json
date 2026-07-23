@@ -1,0 +1,2090 @@
+{
+ "breath_number": 168,
+ "deliberation": [
+  {
+   "root": "رجل",
+   "attestation": 73
+  },
+  {
+   "root": "اخر",
+   "attestation": 250
+  },
+  {
+   "root": "وقي",
+   "attestation": 258
+  },
+  {
+   "root": "خلق",
+   "attestation": 261
+  },
+  {
+   "root": "اخذ",
+   "attestation": 273
+  },
+  {
+   "root": "عبد",
+   "attestation": 275
+  },
+  {
+   "root": "كذب",
+   "attestation": 282
+  },
+  {
+   "root": "ذكر",
+   "attestation": 292
+  },
+  {
+   "root": "قبل",
+   "attestation": 294
+  },
+  {
+   "root": "نفس",
+   "attestation": 298
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "رجل",
+ "attestation": 73,
+ "ayat": 66,
+ "top": [
+  {
+   "root": "نسو",
+   "shared": 12,
+   "expected": 0.56,
+   "lift": 21.393,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قطع",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.123,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سحر",
+   "shared": 6,
+   "expected": 0.62,
+   "lift": 9.609,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ضرب",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.749,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ولد",
+   "shared": 7,
+   "expected": 0.85,
+   "lift": 8.267,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "يدي",
+   "shared": 9,
+   "expected": 1.16,
+   "lift": 7.731,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "احد",
+   "shared": 5,
+   "expected": 0.87,
+   "lift": 5.761,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قتل",
+   "shared": 6,
+   "expected": 1.29,
+   "lift": 4.647,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خلف",
+   "shared": 5,
+   "expected": 1.23,
+   "lift": 4.073,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اهل",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.937,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "نسو",
+  "قطع",
+  "سحر",
+  "ضرب",
+  "ولد",
+  "يدي",
+  "احد",
+  "اهل"
+ ],
+ "one_way": [
+  "قتل",
+  "خلف"
+ ],
+ "neighbor_view": {
+  "نسو": {
+   "root": "رجل",
+   "shared": 12,
+   "expected": 0.56,
+   "lift": 21.393,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "قطع": {
+   "root": "رجل",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.123,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سحر": {
+   "root": "رجل",
+   "shared": 6,
+   "expected": 0.62,
+   "lift": 9.609,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ضرب": {
+   "root": "رجل",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.749,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ولد": {
+   "root": "رجل",
+   "shared": 7,
+   "expected": 0.85,
+   "lift": 8.267,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "يدي": {
+   "root": "رجل",
+   "shared": 9,
+   "expected": 1.16,
+   "lift": 7.731,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "احد": {
+   "root": "رجل",
+   "shared": 5,
+   "expected": 0.87,
+   "lift": 5.761,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قتل": null,
+  "خلف": null,
+  "اهل": {
+   "root": "رجل",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.937,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "رجل↔فلح",
+   "shared": 2,
+   "expected": 0.42,
+   "lift": 4.72,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "رجل↔صلو",
+   "shared": 2,
+   "expected": 0.95,
+   "lift": 2.1,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "رجل↔زكو",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.69,
+   "p_perm": 0.4252
+  },
+  {
+   "pair": "رجل↔اذن",
+   "shared": 4,
+   "expected": 0.95,
+   "lift": 4.2,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "رجل↔نفق",
+   "shared": 1,
+   "expected": 0.91,
+   "lift": 1.1,
+   "p_perm": 0.6346
+  },
+  {
+   "pair": "رجل↔سرر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔علن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔رزق",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔بسط",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.11,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "رجل↔طيب",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.05,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "رجل↔خبث",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔حلل",
+   "shared": 2,
+   "expected": 0.46,
+   "lift": 4.39,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "رجل↔حرم",
+   "shared": 1,
+   "expected": 0.75,
+   "lift": 1.33,
+   "p_perm": 0.5714
+  },
+  {
+   "pair": "رجل↔سجد",
+   "shared": 2,
+   "expected": 0.86,
+   "lift": 2.33,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "رجل↔اكل",
+   "shared": 2,
+   "expected": 1.07,
+   "lift": 1.87,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "رجل↔طوع",
+   "shared": 4,
+   "expected": 1.25,
+   "lift": 3.2,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "رجل↔شهد",
+   "shared": 3,
+   "expected": 1.3,
+   "lift": 2.3,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "رجل↔كبر",
+   "shared": 5,
+   "expected": 1.62,
+   "lift": 3.09,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "رجل↔حيي",
+   "shared": 0,
+   "expected": 1.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔خير",
+   "shared": 3,
+   "expected": 1.88,
+   "lift": 1.59,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "رجل↔ولي",
+   "shared": 4,
+   "expected": 2.14,
+   "lift": 1.87,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "رجل↔عمل",
+   "shared": 5,
+   "expected": 3.31,
+   "lift": 1.51,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "رجل↔رسل",
+   "shared": 6,
+   "expected": 4.54,
+   "lift": 1.32,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "رجل↔اله",
+   "shared": 28,
+   "expected": 19.89,
+   "lift": 1.41,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "رجل↔حبط",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔بقي",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.5,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "رجل↔عدل",
+   "shared": 2,
+   "expected": 0.25,
+   "lift": 7.87,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "رجل↔كفي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔دبر",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔زين",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.2,
+   "p_perm": 0.3688
+  },
+  {
+   "pair": "رجل↔عقل",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.93,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "رجل↔خبر",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔غيب",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.6,
+   "p_perm": 0.515
+  },
+  {
+   "pair": "رجل↔جرم",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔عرف",
+   "shared": 4,
+   "expected": 0.66,
+   "lift": 6.1,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "رجل↔نكر",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.55,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "رجل↔علو",
+   "shared": 1,
+   "expected": 0.72,
+   "lift": 1.39,
+   "p_perm": 0.515
+  },
+  {
+   "pair": "رجل↔متع",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔حين",
+   "shared": 2,
+   "expected": 0.35,
+   "lift": 5.73,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "رجل↔وكل",
+   "shared": 1,
+   "expected": 0.65,
+   "lift": 1.55,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "رجل↔قلل",
+   "shared": 1,
+   "expected": 0.78,
+   "lift": 1.28,
+   "p_perm": 0.5548
+  },
+  {
+   "pair": "رجل↔ثمن",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 4.97,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "رجل↔شري",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔شكر",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "رجل↔فلك",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔بحر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔برر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔جري",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ابد",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.37,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "رجل↔فوز",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔سخر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔تحت",
+   "shared": 3,
+   "expected": 0.53,
+   "lift": 5.67,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "رجل↔رضو",
+   "shared": 1,
+   "expected": 0.68,
+   "lift": 1.48,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "رجل↔نجو",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.26,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "رجل↔خلد",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔شطن",
+   "shared": 2,
+   "expected": 0.83,
+   "lift": 2.42,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "رجل↔سبح",
+   "shared": 0,
+   "expected": 0.92,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔حمد",
+   "shared": 1,
+   "expected": 0.65,
+   "lift": 1.55,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "رجل↔غني",
+   "shared": 1,
+   "expected": 0.76,
+   "lift": 1.31,
+   "p_perm": 0.5449
+  },
+  {
+   "pair": "رجل↔فقر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔مول",
+   "shared": 2,
+   "expected": 0.85,
+   "lift": 2.36,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "رجل↔ليل",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔قمر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔شمس",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔بغي",
+   "shared": 1,
+   "expected": 0.95,
+   "lift": 1.05,
+   "p_perm": 0.5648
+  },
+  {
+   "pair": "رجل↔صحب",
+   "shared": 3,
+   "expected": 0.94,
+   "lift": 3.18,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "رجل↔ولد",
+   "shared": 7,
+   "expected": 0.85,
+   "lift": 8.27,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "رجل↔فضل",
+   "shared": 2,
+   "expected": 0.97,
+   "lift": 2.05,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "رجل↔عدو",
+   "shared": 1,
+   "expected": 0.97,
+   "lift": 1.03,
+   "p_perm": 0.6611
+  },
+  {
+   "pair": "رجل↔اثم",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔نهر",
+   "shared": 0,
+   "expected": 1.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔دخل",
+   "shared": 4,
+   "expected": 1.17,
+   "lift": 3.4,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "رجل↔بوب",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 3.94,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "رجل↔فتح",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔اهل",
+   "shared": 5,
+   "expected": 1.27,
+   "lift": 3.94,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "رجل↔قري",
+   "shared": 3,
+   "expected": 0.57,
+   "lift": 5.25,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "رجل↔هلك",
+   "shared": 2,
+   "expected": 0.67,
+   "lift": 3.0,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "رجل↔قرن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔عظم",
+   "shared": 2,
+   "expected": 1.34,
+   "lift": 1.49,
+   "p_perm": 0.3953
+  },
+  {
+   "pair": "رجل↔اجر",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ضيع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔قدر",
+   "shared": 3,
+   "expected": 1.28,
+   "lift": 2.34,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "رجل↔دنو",
+   "shared": 2,
+   "expected": 1.35,
+   "lift": 1.48,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "رجل↔خزي",
+   "shared": 2,
+   "expected": 0.25,
+   "lift": 7.87,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "رجل↔دون",
+   "shared": 2,
+   "expected": 1.5,
+   "lift": 1.33,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "رجل↔نفع",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ضرر",
+   "shared": 2,
+   "expected": 0.74,
+   "lift": 2.7,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "رجل↔كشف",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔مسس",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔بصر",
+   "shared": 3,
+   "expected": 1.47,
+   "lift": 2.04,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "رجل↔فاد",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔عمي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔نصر",
+   "shared": 1,
+   "expected": 1.45,
+   "lift": 0.69,
+   "p_perm": 0.7542
+  },
+  {
+   "pair": "رجل↔هجر",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.5,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "رجل↔اوي",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔صير",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔باس",
+   "shared": 1,
+   "expected": 0.71,
+   "lift": 1.41,
+   "p_perm": 0.4718
+  },
+  {
+   "pair": "رجل↔نبا",
+   "shared": 3,
+   "expected": 1.6,
+   "lift": 1.88,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "رجل↔رجع",
+   "shared": 0,
+   "expected": 1.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ذوق",
+   "shared": 2,
+   "expected": 0.65,
+   "lift": 3.1,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "رجل↔موت",
+   "shared": 0,
+   "expected": 1.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔بعث",
+   "shared": 1,
+   "expected": 0.68,
+   "lift": 1.48,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "رجل↔نظر",
+   "shared": 4,
+   "expected": 1.22,
+   "lift": 3.29,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "رجل↔سير",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.78,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "رجل↔عقب",
+   "shared": 1,
+   "expected": 0.78,
+   "lift": 1.28,
+   "p_perm": 0.5748
+  },
+  {
+   "pair": "رجل↔كيف",
+   "shared": 2,
+   "expected": 0.88,
+   "lift": 2.28,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "رجل↔شدد",
+   "shared": 1,
+   "expected": 1.05,
+   "lift": 0.95,
+   "p_perm": 0.6877
+  },
+  {
+   "pair": "رجل↔قوي",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔عزز",
+   "shared": 1,
+   "expected": 1.23,
+   "lift": 0.81,
+   "p_perm": 0.6711
+  },
+  {
+   "pair": "رجل↔قلب",
+   "shared": 2,
+   "expected": 1.64,
+   "lift": 1.22,
+   "p_perm": 0.4485
+  },
+  {
+   "pair": "رجل↔قسو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔طبع",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔طمن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔مرض",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.11,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "رجل↔شرك",
+   "shared": 5,
+   "expected": 1.51,
+   "lift": 3.3,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "رجل↔برا",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔اول",
+   "shared": 3,
+   "expected": 1.67,
+   "lift": 1.79,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "رجل↔لبب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔سطر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔مرر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ابو",
+   "shared": 3,
+   "expected": 1.1,
+   "lift": 2.73,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "رجل↔اخو",
+   "shared": 3,
+   "expected": 0.85,
+   "lift": 3.54,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "رجل↔وجد",
+   "shared": 2,
+   "expected": 1.05,
+   "lift": 1.91,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "رجل↔صلح",
+   "shared": 2,
+   "expected": 1.8,
+   "lift": 1.11,
+   "p_perm": 0.5781
+  },
+  {
+   "pair": "رجل↔فسد",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 2.01,
+   "p_perm": 0.4086
+  },
+  {
+   "pair": "رجل↔توب",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.5714
+  },
+  {
+   "pair": "رجل↔سمع",
+   "shared": 2,
+   "expected": 1.73,
+   "lift": 1.16,
+   "p_perm": 0.5116
+  },
+  {
+   "pair": "رجل↔صمم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔نور",
+   "shared": 0,
+   "expected": 1.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔وقد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔صلي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔حسن",
+   "shared": 0,
+   "expected": 1.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔صوب",
+   "shared": 2,
+   "expected": 0.59,
+   "lift": 3.37,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "رجل↔جزي",
+   "shared": 1,
+   "expected": 1.15,
+   "lift": 0.87,
+   "p_perm": 0.6811
+  },
+  {
+   "pair": "رجل↔كسب",
+   "shared": 2,
+   "expected": 0.64,
+   "lift": 3.15,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "رجل↔سوا",
+   "shared": 2,
+   "expected": 1.6,
+   "lift": 1.25,
+   "p_perm": 0.4684
+  },
+  {
+   "pair": "رجل↔بدو",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.26,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "رجل↔خفي",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.05,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "رجل↔مثل",
+   "shared": 5,
+   "expected": 1.57,
+   "lift": 3.19,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "رجل↔ضرب",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.75,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "رجل↔عند",
+   "shared": 2,
+   "expected": 2.0,
+   "lift": 1.0,
+   "p_perm": 0.6478
+  },
+  {
+   "pair": "رجل↔خزن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ثوب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔جنن",
+   "shared": 5,
+   "expected": 2.07,
+   "lift": 2.41,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "رجل↔عنب",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.59,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "رجل↔نخل",
+   "shared": 2,
+   "expected": 0.21,
+   "lift": 9.45,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "رجل↔ملك",
+   "shared": 2,
+   "expected": 2.02,
+   "lift": 0.99,
+   "p_perm": 0.6379
+  },
+  {
+   "pair": "رجل↔حكم",
+   "shared": 1,
+   "expected": 2.0,
+   "lift": 0.5,
+   "p_perm": 0.8339
+  },
+  {
+   "pair": "رجل↔دعو",
+   "shared": 3,
+   "expected": 1.93,
+   "lift": 1.56,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "رجل↔خلص",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔جوب",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.3,
+   "p_perm": 0.3621
+  },
+  {
+   "pair": "رجل↔دين",
+   "shared": 2,
+   "expected": 0.92,
+   "lift": 2.17,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "رجل↔غفر",
+   "shared": 2,
+   "expected": 2.14,
+   "lift": 0.94,
+   "p_perm": 0.6047
+  },
+  {
+   "pair": "رجل↔حلم",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.72,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "رجل↔عفو",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ذنب",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔بعد",
+   "shared": 2,
+   "expected": 2.33,
+   "lift": 0.86,
+   "p_perm": 0.701
+  },
+  {
+   "pair": "رجل↔شقق",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ورث",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.56,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "رجل↔نوس",
+   "shared": 3,
+   "expected": 2.38,
+   "lift": 1.26,
+   "p_perm": 0.4352
+  },
+  {
+   "pair": "رجل↔دبب",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.25,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "رجل↔امر",
+   "shared": 2,
+   "expected": 2.39,
+   "lift": 0.84,
+   "p_perm": 0.6744
+  },
+  {
+   "pair": "رجل↔قضي",
+   "shared": 2,
+   "expected": 0.62,
+   "lift": 3.2,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "رجل↔خلف",
+   "shared": 5,
+   "expected": 1.23,
+   "lift": 4.07,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "رجل↔لون",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔يدي",
+   "shared": 9,
+   "expected": 1.16,
+   "lift": 7.73,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "رجل↔قطع",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.12,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "رجل↔سرر",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔علن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔رزق",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔خبث",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔حيي",
+   "shared": 0,
+   "expected": 1.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔حبط",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔كفي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔دبر",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔خبر",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔جرم",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔متع",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔شري",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔فلك",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔بحر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔برر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔جري",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔فوز",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔سخر",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔خلد",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔سبح",
+   "shared": 0,
+   "expected": 0.92,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔فقر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ليل",
+   "shared": 0,
+   "expected": 0.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔قمر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔شمس",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔اثم",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔نهر",
+   "shared": 0,
+   "expected": 1.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔فتح",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔قرن",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔اجر",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ضيع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔نفع",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔كشف",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔مسس",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔فاد",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔عمي",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔اوي",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔صير",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔رجع",
+   "shared": 0,
+   "expected": 1.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔موت",
+   "shared": 0,
+   "expected": 1.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔قوي",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔قسو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔طبع",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔طمن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔برا",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔لبب",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔سطر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔مرر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔صمم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔نور",
+   "shared": 0,
+   "expected": 1.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔وقد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔صلي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔حسن",
+   "shared": 0,
+   "expected": 1.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔خزن",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ثوب",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔خلص",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔عفو",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔ذنب",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔شقق",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجل↔لون",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "4:75",
+   "degree": 4,
+   "roots_present": [
+    "نسو",
+    "ولد",
+    "قتل",
+    "اهل"
+   ]
+  },
+  {
+   "ayah": "5:33",
+   "degree": 4,
+   "roots_present": [
+    "قطع",
+    "يدي",
+    "قتل",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "20:71",
+   "degree": 4,
+   "roots_present": [
+    "قطع",
+    "سحر",
+    "يدي",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "26:49",
+   "degree": 4,
+   "roots_present": [
+    "قطع",
+    "سحر",
+    "يدي",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "5:6",
+   "degree": 3,
+   "roots_present": [
+    "نسو",
+    "يدي",
+    "احد"
+   ]
+  },
+  {
+   "ayah": "7:124",
+   "degree": 3,
+   "roots_present": [
+    "قطع",
+    "يدي",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "60:12",
+   "degree": 3,
+   "roots_present": [
+    "ولد",
+    "يدي",
+    "قتل"
+   ]
+  },
+  {
+   "ayah": "4:7",
+   "degree": 2,
+   "roots_present": [
+    "نسو",
+    "ولد"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "رجل+نسو": [
+   "4:1",
+   "4:7",
+   "4:32",
+   "4:34",
+   "4:75",
+   "4:98",
+   "4:176",
+   "5:6",
+   "7:81",
+   "24:31",
+   "27:55",
+   "48:25"
+  ],
+  "رجل+قطع": [
+   "5:33",
+   "7:124",
+   "20:71",
+   "26:49",
+   "29:29"
+  ],
+  "رجل+سحر": [
+   "10:2",
+   "17:47",
+   "20:71",
+   "25:8",
+   "26:49",
+   "34:43"
+  ],
+  "رجل+ضرب": [
+   "4:34",
+   "16:76",
+   "18:32",
+   "24:31",
+   "39:29"
+  ],
+  "رجل+ولد": [
+   "4:7",
+   "4:12",
+   "4:75",
+   "4:98",
+   "4:176",
+   "17:64",
+   "60:12"
+  ],
+  "رجل+يدي": [
+   "5:6",
+   "5:33",
+   "7:124",
+   "7:195",
+   "20:71",
+   "24:24",
+   "26:49",
+   "36:65",
+   "60:12"
+  ],
+  "رجل+احد": [
+   "2:282",
+   "5:6",
+   "16:76",
+   "18:32",
+   "33:40"
+  ],
+  "رجل+قتل": [
+   "4:75",
+   "5:33",
+   "28:15",
+   "28:20",
+   "40:28",
+   "60:12"
+  ],
+  "رجل+خلف": [
+   "5:33",
+   "7:69",
+   "7:124",
+   "20:71",
+   "26:49"
+  ],
+  "رجل+اهل": [
+   "4:75",
+   "12:109",
+   "16:43",
+   "21:7",
+   "28:15"
+  ],
+  "رجل+اذن": [
+   "7:195",
+   "20:71",
+   "22:27",
+   "26:49"
+  ],
+  "رجل+طوع": [
+   "2:282",
+   "4:34",
+   "4:98",
+   "17:64"
+  ],
+  "رجل+كبر": [
+   "2:282",
+   "4:34",
+   "7:48",
+   "20:71",
+   "26:49"
+  ],
+  "رجل+اله": [
+   "2:228",
+   "2:239",
+   "2:282",
+   "4:1",
+   "4:12",
+   "4:32",
+   "4:34",
+   "4:75",
+   "4:176",
+   "5:6",
+   "5:23",
+   "5:33",
+   "7:69",
+   "9:108",
+   "11:78",
+   "16:76",
+   "23:38",
+   "24:31",
+   "24:37",
+   "24:45"
+  ],
+  "رجل+عدل": [
+   "2:282",
+   "16:76"
+  ],
+  "رجل+عرف": [
+   "2:228",
+   "7:46",
+   "7:48",
+   "60:12"
+  ],
+  "رجل+حين": [
+   "23:25",
+   "28:15"
+  ],
+  "رجل+تحت": [
+   "5:66",
+   "6:65",
+   "29:55"
+  ],
+  "رجل+صحب": [
+   "7:46",
+   "7:48",
+   "18:37"
+  ],
+  "رجل+دخل": [
+   "5:23",
+   "7:46",
+   "28:15",
+   "48:25"
+  ],
+  "رجل+قري": [
+   "4:75",
+   "12:109",
+   "43:31"
+  ],
+  "رجل+خزي": [
+   "5:33",
+   "11:78"
+  ],
+  "رجل+نظر": [
+   "6:65",
+   "7:195",
+   "12:109",
+   "33:23"
+  ],
+  "رجل+شرك": [
+   "4:12",
+   "7:195",
+   "17:64",
+   "39:29",
+   "60:12"
+  ],
+  "رجل+مثل": [
+   "2:228",
+   "4:176",
+   "16:76",
+   "18:32",
+   "39:29"
+  ],
+  "رجل+نخل": [
+   "18:32",
+   "20:71"
+  ],
+  "رجل+ورث": [
+   "4:12",
+   "4:176"
+  ]
+ }
+}
