@@ -483,7 +483,8 @@
   "صلي",
   "حسن",
   "صوب",
-  "جزي"
+  "جزي",
+  "كسب"
  ],
  "open_queue": [
   "اتي",
@@ -515,7 +516,6 @@
   "قوم",
   "كتب",
   "كذب",
-  "كسب",
   "كفر",
   "كلل",
   "كون",
@@ -1177,6 +1177,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "كسب→اثم": {
+     "breath": 135,
+     "lift": 12.373,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1589,6 +1597,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "اخذ",
+   "b": "كسب",
+   "directions": {
+    "كسب→اخذ": {
+     "breath": 135,
+     "lift": 3.834,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "اخذ",
@@ -5112,6 +5136,22 @@
   },
   {
    "a": "بعض",
+   "b": "كسب",
+   "directions": {
+    "كسب→بعض": {
+     "breath": 135,
+     "lift": 5.973,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعض",
    "b": "نظر",
    "directions": {
     "نظر→بعض": {
@@ -7001,9 +7041,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "كسب→جزي": {
+     "breath": 135,
+     "lift": 9.535,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -11904,6 +11952,22 @@
   },
   {
    "a": "سوا",
+   "b": "كسب",
+   "directions": {
+    "كسب→سوا": {
+     "breath": 135,
+     "lift": 3.442,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سوا",
    "b": "مسس",
    "directions": {
     "مسس→سوا": {
@@ -13848,6 +13912,22 @@
   },
   {
    "a": "ظلم",
+   "b": "كسب",
+   "directions": {
+    "كسب→ظلم": {
+     "breath": 135,
+     "lift": 3.942,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ظلم",
    "b": "نفع",
    "directions": {
     "نفع→ظلم": {
@@ -14852,6 +14932,14 @@
    "directions": {
     "غني→كسب": {
      "breath": 59,
+     "lift": 8.661,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    },
+    "كسب→غني": {
+     "breath": 135,
      "lift": 8.661,
      "p": 0.0033,
      "stable": false,
@@ -15905,6 +15993,54 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كسب",
+   "b": "كلل",
+   "directions": {
+    "كسب→كلل": {
+     "breath": 135,
+     "lift": 4.11,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كسب",
+   "b": "نفس",
+   "directions": {
+    "كسب→نفس": {
+     "breath": 135,
+     "lift": 5.774,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "كسب",
+   "b": "يدي",
+   "directions": {
+    "كسب→يدي": {
+     "breath": 135,
+     "lift": 4.724,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,

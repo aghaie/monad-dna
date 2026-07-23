@@ -1,0 +1,1890 @@
+{
+ "breath_number": 135,
+ "deliberation": [
+  {
+   "root": "كسب",
+   "attestation": 67
+  },
+  {
+   "root": "سوا",
+   "attestation": 167
+  },
+  {
+   "root": "مثل",
+   "attestation": 169
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  },
+  {
+   "root": "ملك",
+   "attestation": 206
+  },
+  {
+   "root": "حكم",
+   "attestation": 210
+  },
+  {
+   "root": "دعو",
+   "attestation": 212
+  },
+  {
+   "root": "غفر",
+   "attestation": 234
+  },
+  {
+   "root": "بعد",
+   "attestation": 235
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "كسب",
+ "attestation": 67,
+ "ayat": 60,
+ "top": [
+  {
+   "root": "اثم",
+   "shared": 5,
+   "expected": 0.4,
+   "lift": 12.373,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "جزي",
+   "shared": 10,
+   "expected": 1.05,
+   "lift": 9.535,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "غني",
+   "shared": 6,
+   "expected": 0.69,
+   "lift": 8.661,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعض",
+   "shared": 5,
+   "expected": 0.84,
+   "lift": 5.973,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نفس",
+   "shared": 15,
+   "expected": 2.6,
+   "lift": 5.774,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "يدي",
+   "shared": 5,
+   "expected": 1.06,
+   "lift": 4.724,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 14,
+   "expected": 3.41,
+   "lift": 4.11,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ظلم",
+   "shared": 11,
+   "expected": 2.79,
+   "lift": 3.942,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخذ",
+   "shared": 9,
+   "expected": 2.35,
+   "lift": 3.834,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سوا",
+   "shared": 5,
+   "expected": 1.45,
+   "lift": 3.442,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "اثم",
+  "جزي",
+  "غني",
+  "بعض",
+  "نفس",
+  "ظلم"
+ ],
+ "one_way": [
+  "يدي",
+  "كلل",
+  "اخذ",
+  "سوا"
+ ],
+ "neighbor_view": {
+  "اثم": {
+   "root": "كسب",
+   "shared": 5,
+   "expected": 0.4,
+   "lift": 12.373,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "جزي": {
+   "root": "كسب",
+   "shared": 10,
+   "expected": 1.05,
+   "lift": 9.535,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "غني": {
+   "root": "كسب",
+   "shared": 6,
+   "expected": 0.69,
+   "lift": 8.661,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعض": {
+   "root": "كسب",
+   "shared": 5,
+   "expected": 0.84,
+   "lift": 5.973,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نفس": {
+   "root": "كسب",
+   "shared": 15,
+   "expected": 2.6,
+   "lift": 5.774,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "يدي": null,
+  "كلل": null,
+  "ظلم": {
+   "root": "كسب",
+   "shared": 11,
+   "expected": 2.79,
+   "lift": 3.942,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخذ": null,
+  "سوا": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "كسب↔فلح",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔صلو",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔زكو",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اذن",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نفق",
+   "shared": 3,
+   "expected": 0.83,
+   "lift": 3.63,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "كسب↔سرر",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.42,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "كسب↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔رزق",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔طيب",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.26,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "كسب↔خبث",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.39,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "كسب↔حلل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حرم",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سجد",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اكل",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔طوع",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔شهد",
+   "shared": 1,
+   "expected": 1.18,
+   "lift": 0.84,
+   "p_perm": 0.6877
+  },
+  {
+   "pair": "كسب↔كبر",
+   "shared": 2,
+   "expected": 1.47,
+   "lift": 1.36,
+   "p_perm": 0.4784
+  },
+  {
+   "pair": "كسب↔حيي",
+   "shared": 1,
+   "expected": 1.55,
+   "lift": 0.65,
+   "p_perm": 0.8206
+  },
+  {
+   "pair": "كسب↔خير",
+   "shared": 2,
+   "expected": 1.71,
+   "lift": 1.17,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "كسب↔ولي",
+   "shared": 6,
+   "expected": 1.94,
+   "lift": 3.09,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "كسب↔عمل",
+   "shared": 6,
+   "expected": 3.01,
+   "lift": 1.99,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "كسب↔رسل",
+   "shared": 0,
+   "expected": 4.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اله",
+   "shared": 26,
+   "expected": 18.08,
+   "lift": 1.44,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "كسب↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بقي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔عدل",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.33,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "كسب↔كفي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔دبر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔زين",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.42,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "كسب↔عقل",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔خبر",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 2.0,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "كسب↔غيب",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔جرم",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔عرف",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نكر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔علو",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔متع",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حين",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔وكل",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔قلل",
+   "shared": 2,
+   "expected": 0.71,
+   "lift": 2.81,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "كسب↔ثمن",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.47,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "كسب↔شري",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.52,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "كسب↔شكر",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔فلك",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بحر",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.6,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "كسب↔برر",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.46,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "كسب↔جري",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔ابد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔فوز",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سخر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔تحت",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔رضو",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نجو",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔خلد",
+   "shared": 3,
+   "expected": 0.83,
+   "lift": 3.63,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "كسب↔شطن",
+   "shared": 1,
+   "expected": 0.75,
+   "lift": 1.33,
+   "p_perm": 0.5415
+  },
+  {
+   "pair": "كسب↔سبح",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حمد",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.7,
+   "p_perm": 0.4053
+  },
+  {
+   "pair": "كسب↔غني",
+   "shared": 6,
+   "expected": 0.69,
+   "lift": 8.66,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "كسب↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔مول",
+   "shared": 2,
+   "expected": 0.77,
+   "lift": 2.6,
+   "p_perm": 0.1661
+  },
+  {
+   "pair": "كسب↔ليل",
+   "shared": 1,
+   "expected": 0.78,
+   "lift": 1.28,
+   "p_perm": 0.5847
+  },
+  {
+   "pair": "كسب↔قمر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔شمس",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بغي",
+   "shared": 1,
+   "expected": 0.87,
+   "lift": 1.15,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "كسب↔صحب",
+   "shared": 2,
+   "expected": 0.86,
+   "lift": 2.34,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "كسب↔ولد",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔فضل",
+   "shared": 3,
+   "expected": 0.89,
+   "lift": 3.39,
+   "p_perm": 0.0631
+  },
+  {
+   "pair": "كسب↔عدو",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اثم",
+   "shared": 5,
+   "expected": 0.4,
+   "lift": 12.37,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "كسب↔نهر",
+   "shared": 0,
+   "expected": 0.98,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔دخل",
+   "shared": 0,
+   "expected": 1.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بوب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔فتح",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.15,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "كسب↔اهل",
+   "shared": 1,
+   "expected": 1.15,
+   "lift": 0.87,
+   "p_perm": 0.6744
+  },
+  {
+   "pair": "كسب↔قري",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.92,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "كسب↔هلك",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔قرن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔عظم",
+   "shared": 2,
+   "expected": 1.22,
+   "lift": 1.64,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "كسب↔اجر",
+   "shared": 0,
+   "expected": 0.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔ضيع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔قدر",
+   "shared": 2,
+   "expected": 1.16,
+   "lift": 1.72,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "كسب↔دنو",
+   "shared": 1,
+   "expected": 1.23,
+   "lift": 0.81,
+   "p_perm": 0.7076
+  },
+  {
+   "pair": "كسب↔خزي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔دون",
+   "shared": 3,
+   "expected": 1.37,
+   "lift": 2.2,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "كسب↔نفع",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.12,
+   "p_perm": 0.3787
+  },
+  {
+   "pair": "كسب↔ضرر",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔كشف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔مسس",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بصر",
+   "shared": 1,
+   "expected": 1.34,
+   "lift": 0.75,
+   "p_perm": 0.7375
+  },
+  {
+   "pair": "كسب↔فاد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔عمي",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.46,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "كسب↔نصر",
+   "shared": 1,
+   "expected": 1.32,
+   "lift": 0.76,
+   "p_perm": 0.7243
+  },
+  {
+   "pair": "كسب↔هجر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اوي",
+   "shared": 2,
+   "expected": 0.35,
+   "lift": 5.77,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "كسب↔صير",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔باس",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نبا",
+   "shared": 3,
+   "expected": 1.45,
+   "lift": 2.06,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "كسب↔رجع",
+   "shared": 3,
+   "expected": 0.99,
+   "lift": 3.03,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "كسب↔ذوق",
+   "shared": 4,
+   "expected": 0.59,
+   "lift": 6.82,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "كسب↔موت",
+   "shared": 1,
+   "expected": 1.38,
+   "lift": 0.73,
+   "p_perm": 0.7641
+  },
+  {
+   "pair": "كسب↔بعث",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نظر",
+   "shared": 2,
+   "expected": 1.11,
+   "lift": 1.81,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "كسب↔سير",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.16,
+   "p_perm": 0.1993
+  },
+  {
+   "pair": "كسب↔عقب",
+   "shared": 2,
+   "expected": 0.71,
+   "lift": 2.81,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "كسب↔كيف",
+   "shared": 2,
+   "expected": 0.8,
+   "lift": 2.5,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "كسب↔شدد",
+   "shared": 2,
+   "expected": 0.95,
+   "lift": 2.1,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "كسب↔قوي",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.66,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "كسب↔عزز",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.9,
+   "p_perm": 0.6578
+  },
+  {
+   "pair": "كسب↔قلب",
+   "shared": 3,
+   "expected": 1.49,
+   "lift": 2.01,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "كسب↔قسو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔طبع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔طمن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔مرض",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔شرك",
+   "shared": 1,
+   "expected": 1.38,
+   "lift": 0.73,
+   "p_perm": 0.7575
+  },
+  {
+   "pair": "كسب↔برا",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.71,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "كسب↔اول",
+   "shared": 1,
+   "expected": 1.52,
+   "lift": 0.66,
+   "p_perm": 0.7874
+  },
+  {
+   "pair": "كسب↔لبب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سطر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔مرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔ابو",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اخو",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔وجد",
+   "shared": 2,
+   "expected": 0.95,
+   "lift": 2.1,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "كسب↔صلح",
+   "shared": 1,
+   "expected": 1.64,
+   "lift": 0.61,
+   "p_perm": 0.8106
+  },
+  {
+   "pair": "كسب↔فسد",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.21,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "كسب↔توب",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سمع",
+   "shared": 0,
+   "expected": 1.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔صمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نور",
+   "shared": 3,
+   "expected": 1.67,
+   "lift": 1.79,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "كسب↔وقد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔صلي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حسن",
+   "shared": 0,
+   "expected": 1.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔صوب",
+   "shared": 3,
+   "expected": 0.54,
+   "lift": 5.57,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "كسب↔جزي",
+   "shared": 10,
+   "expected": 1.05,
+   "lift": 9.54,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "كسب↔فلح",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔صلو",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔زكو",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اذن",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔رزق",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حلل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حرم",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سجد",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اكل",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔طوع",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔رسل",
+   "shared": 0,
+   "expected": 4.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بقي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔كفي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔دبر",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔عقل",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔غيب",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔جرم",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔عرف",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نكر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔علو",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔متع",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حين",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔وكل",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔شكر",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔فلك",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔جري",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔ابد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔فوز",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سخر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔تحت",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔رضو",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نجو",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سبح",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔قمر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔شمس",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔ولد",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔عدو",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔نهر",
+   "shared": 0,
+   "expected": 0.98,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔دخل",
+   "shared": 0,
+   "expected": 1.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بوب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔هلك",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔قرن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اجر",
+   "shared": 0,
+   "expected": 0.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔ضيع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔خزي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔ضرر",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔كشف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔مسس",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔فاد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔هجر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔صير",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔باس",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔بعث",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔قسو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔طبع",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔طمن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔مرض",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔لبب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سطر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔مرر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔ابو",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔اخو",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔توب",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔سمع",
+   "shared": 0,
+   "expected": 1.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔صمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔وقد",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔صلي",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "كسب↔حسن",
+   "shared": 0,
+   "expected": 1.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "40:17",
+   "degree": 4,
+   "roots_present": [
+    "جزي",
+    "نفس",
+    "كلل",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "45:22",
+   "degree": 4,
+   "roots_present": [
+    "جزي",
+    "نفس",
+    "كلل",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "2:281",
+   "degree": 3,
+   "roots_present": [
+    "نفس",
+    "كلل",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "3:25",
+   "degree": 3,
+   "roots_present": [
+    "نفس",
+    "كلل",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "3:161",
+   "degree": 3,
+   "roots_present": [
+    "نفس",
+    "كلل",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "6:70",
+   "degree": 3,
+   "roots_present": [
+    "نفس",
+    "كلل",
+    "اخذ"
+   ]
+  },
+  {
+   "ayah": "10:27",
+   "degree": 3,
+   "roots_present": [
+    "جزي",
+    "ظلم",
+    "سوا"
+   ]
+  },
+  {
+   "ayah": "14:51",
+   "degree": 3,
+   "roots_present": [
+    "جزي",
+    "نفس",
+    "كلل"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "كسب+اثم": [
+   "4:111",
+   "4:112",
+   "6:120",
+   "24:11",
+   "33:58"
+  ],
+  "كسب+جزي": [
+   "5:38",
+   "6:120",
+   "9:82",
+   "9:95",
+   "10:27",
+   "10:52",
+   "14:51",
+   "40:17",
+   "45:14",
+   "45:22"
+  ],
+  "كسب+غني": [
+   "2:267",
+   "15:84",
+   "39:50",
+   "40:82",
+   "45:10",
+   "111:2"
+  ],
+  "كسب+بعض": [
+   "3:155",
+   "4:32",
+   "6:129",
+   "6:158",
+   "30:41"
+  ],
+  "كسب+نفس": [
+   "2:281",
+   "2:286",
+   "3:25",
+   "3:161",
+   "4:111",
+   "6:70",
+   "6:158",
+   "6:164",
+   "13:33",
+   "13:42",
+   "14:51",
+   "31:34",
+   "40:17",
+   "45:22",
+   "74:38"
+  ],
+  "كسب+يدي": [
+   "2:79",
+   "5:38",
+   "30:41",
+   "36:65",
+   "42:30"
+  ],
+  "كسب+كلل": [
+   "2:281",
+   "3:25",
+   "3:161",
+   "4:32",
+   "6:70",
+   "6:164",
+   "13:33",
+   "13:42",
+   "14:51",
+   "24:11",
+   "40:17",
+   "45:22",
+   "52:21",
+   "74:38"
+  ],
+  "كسب+ظلم": [
+   "2:281",
+   "3:25",
+   "3:161",
+   "6:129",
+   "10:27",
+   "10:52",
+   "39:24",
+   "39:51",
+   "40:17",
+   "42:22",
+   "45:22"
+  ],
+  "كسب+اخذ": [
+   "2:225",
+   "2:267",
+   "2:286",
+   "6:70",
+   "7:96",
+   "18:58",
+   "35:45",
+   "41:17",
+   "45:10"
+  ],
+  "كسب+سوا": [
+   "2:81",
+   "10:27",
+   "39:24",
+   "39:48",
+   "39:51"
+  ],
+  "كسب+ولي": [
+   "2:286",
+   "3:155",
+   "6:70",
+   "6:129",
+   "24:11",
+   "45:10"
+  ],
+  "كسب+اله": [
+   "2:79",
+   "2:202",
+   "2:225",
+   "2:264",
+   "2:267",
+   "2:281",
+   "2:286",
+   "3:155",
+   "4:32",
+   "4:88",
+   "4:111",
+   "5:38",
+   "6:3",
+   "6:70",
+   "6:164",
+   "9:95",
+   "10:27",
+   "13:33",
+   "13:42",
+   "14:51"
+  ],
+  "كسب+اوي": [
+   "9:95",
+   "10:8"
+  ],
+  "كسب+ذوق": [
+   "7:39",
+   "10:52",
+   "30:41",
+   "39:24"
+  ],
+  "كسب+صوب": [
+   "2:264",
+   "39:51",
+   "42:30"
+  ]
+ }
+}
