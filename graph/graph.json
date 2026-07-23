@@ -262,6 +262,7 @@
   "كلم",
   "كون",
   "كيف",
+  "كيل",
   "لبب",
   "لبث",
   "لحم",
@@ -455,13 +456,13 @@
   "لبب",
   "سطر",
   "مرر",
-  "ابو"
+  "ابو",
+  "اخو"
  ],
  "open_queue": [
   "اتي",
   "اخذ",
   "اخر",
-  "اخو",
   "ارض",
   "امر",
   "امن",
@@ -735,9 +736,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 15
+    },
+    "اخو→ابو": {
+     "breath": 122,
+     "lift": 11.243,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -1604,6 +1613,150 @@
      "breath": 78,
      "lift": 3.789,
      "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "امم",
+   "directions": {
+    "اخو→امم": {
+     "breath": 122,
+     "lift": 5.052,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "بني",
+   "directions": {
+    "اخو→بني": {
+     "breath": 122,
+     "lift": 4.677,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "دخل",
+   "directions": {
+    "اخو→دخل": {
+     "breath": 122,
+     "lift": 4.916,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "دين",
+   "directions": {
+    "اخو→دين": {
+     "breath": 122,
+     "lift": 4.48,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "صلح",
+   "directions": {
+    "اخو→صلح": {
+     "breath": 122,
+     "lift": 3.668,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "غير",
+   "directions": {
+    "اخو→غير": {
+     "breath": 122,
+     "lift": 4.271,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "قتل",
+   "directions": {
+    "اخو→قتل": {
+     "breath": 122,
+     "lift": 4.473,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "كيل",
+   "directions": {
+    "اخو→كيل": {
+     "breath": 122,
+     "lift": 29.981,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخو",
+   "b": "نسو",
+   "directions": {
+    "اخو→نسو": {
+     "breath": 122,
+     "lift": 7.354,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
