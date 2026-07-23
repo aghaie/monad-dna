@@ -45,6 +45,7 @@
   "جزي",
   "جعل",
   "جلد",
+  "جمع",
   "جنح",
   "جنن",
   "جهد",
@@ -277,13 +278,15 @@
   "فوز",
   "سخر",
   "تحت",
-  "رضو"
+  "رضو",
+  "نجو"
  ],
  "open_queue": [
   "اتي",
   "ارض",
   "امر",
   "امن",
+  "اهل",
   "ايي",
   "بصر",
   "بغي",
@@ -315,7 +318,6 @@
   "ليل",
   "موت",
   "نبا",
-  "نجو",
   "نهر",
   "نوس",
   "وقي"
@@ -1714,6 +1716,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "اهل",
+   "b": "نجو",
+   "directions": {
+    "نجو→اهل": {
+     "breath": 54,
+     "lift": 6.929,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "اول",
    "b": "قلل",
    "directions": {
@@ -1724,6 +1742,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اول",
+   "b": "نجو",
+   "directions": {
+    "نجو→اول": {
+     "breath": 54,
+     "lift": 4.21,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -2020,9 +2054,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "نجو→برر": {
+     "breath": 54,
+     "lift": 16.629,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2516,6 +2558,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بني",
+   "b": "نجو",
+   "directions": {
+    "نجو→بني": {
+     "breath": 54,
+     "lift": 3.326,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -3177,6 +3235,22 @@
      "breath": 17,
      "lift": 28.166,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جمع",
+   "b": "نجو",
+   "directions": {
+    "نجو→جمع": {
+     "breath": 54,
+     "lift": 3.38,
+     "p": 0.01,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -4426,6 +4500,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "دعو",
+   "b": "نجو",
+   "directions": {
+    "نجو→دعو": {
+     "breath": 54,
+     "lift": 3.198,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "دنو",
    "b": "زين",
    "directions": {
@@ -5562,6 +5652,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "سوا",
+   "b": "نجو",
+   "directions": {
+    "نجو→سوا": {
+     "breath": 54,
+     "lift": 3.854,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "سوم",
    "b": "عرف",
    "directions": {
@@ -6474,6 +6580,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "عظم",
+   "b": "نجو",
+   "directions": {
+    "نجو→عظم": {
+     "breath": 54,
+     "lift": 4.583,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "عقل",
    "b": "كثر",
    "directions": {
@@ -6796,9 +6918,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "نجو→فلك": {
+     "breath": 54,
+     "lift": 19.955,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -7032,6 +7162,22 @@
     "وكل→ليس": {
      "breath": 40,
      "lift": 6.014,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "مرا",
+   "b": "نجو",
+   "directions": {
+    "نجو→مرا": {
+     "breath": 54,
+     "lift": 11.236,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
