@@ -434,7 +434,8 @@
   "قلب",
   "قسو",
   "طبع",
-  "طمن"
+  "طمن",
+  "مرض"
  ],
  "open_queue": [
   "اتي",
@@ -469,7 +470,6 @@
   "كذب",
   "كفر",
   "كون",
-  "مرض",
   "ملك",
   "نفس",
   "نور",
@@ -2268,6 +2268,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "مرض",
+   "directions": {
+    "مرض→اله": {
+     "breath": 114,
+     "lift": 2.309,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -13624,9 +13640,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 12
+    },
+    "مرض→قلب": {
+     "breath": 114,
+     "lift": 20.991,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -14060,6 +14084,22 @@
     "نجو→مرا": {
      "breath": 54,
      "lift": 11.236,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "مرض",
+   "b": "وجد",
+   "directions": {
+    "مرض→وجد": {
+     "breath": 114,
+     "lift": 13.693,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",

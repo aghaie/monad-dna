@@ -1,0 +1,1565 @@
+{
+ "breath_number": 114,
+ "deliberation": [
+  {
+   "root": "مرض",
+   "attestation": 24
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  },
+  {
+   "root": "ملك",
+   "attestation": 206
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "مرض",
+ "attestation": 24,
+ "ayat": 23,
+ "top": [
+  {
+   "root": "قلب",
+   "shared": 12,
+   "expected": 0.57,
+   "lift": 20.991,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "وجد",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.693,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 16,
+   "expected": 6.93,
+   "lift": 2.309,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "امن",
+   "shared": 5,
+   "expected": 2.67,
+   "lift": 1.875,
+   "p_perm": 0.1163,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "علم",
+   "shared": 5,
+   "expected": 2.69,
+   "lift": 1.862,
+   "p_perm": 0.1063,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "كون",
+   "shared": 8,
+   "expected": 4.34,
+   "lift": 1.844,
+   "p_perm": 0.0598,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "قول",
+   "shared": 7,
+   "expected": 5.1,
+   "lift": 1.372,
+   "p_perm": 0.2193,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "قلب",
+  "وجد"
+ ],
+ "one_way": [
+  "اله",
+  "امن",
+  "علم",
+  "كون",
+  "قول"
+ ],
+ "neighbor_view": {
+  "قلب": {
+   "root": "مرض",
+   "shared": 12,
+   "expected": 0.57,
+   "lift": 20.991,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "وجد": {
+   "root": "مرض",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.693,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اله": null,
+  "امن": null,
+  "علم": null,
+  "كون": null,
+  "قول": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "مرض↔فلح",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔صلو",
+   "shared": 4,
+   "expected": 0.33,
+   "lift": 12.05,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "مرض↔زكو",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.84,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "مرض↔اذن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نفق",
+   "shared": 4,
+   "expected": 0.32,
+   "lift": 12.61,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "مرض↔سرر",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.31,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "مرض↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔رزق",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بسط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔طيب",
+   "shared": 3,
+   "expected": 0.17,
+   "lift": 17.68,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "مرض↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔حلل",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.31,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "مرض↔حرم",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.82,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "مرض↔سجد",
+   "shared": 2,
+   "expected": 0.3,
+   "lift": 6.69,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "مرض↔اكل",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.68,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "مرض↔طوع",
+   "shared": 2,
+   "expected": 0.44,
+   "lift": 4.6,
+   "p_perm": 0.0797
+  },
+  {
+   "pair": "مرض↔شهد",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.2,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "مرض↔كبر",
+   "shared": 1,
+   "expected": 0.56,
+   "lift": 1.77,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "مرض↔حيي",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.68,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "مرض↔خير",
+   "shared": 2,
+   "expected": 0.66,
+   "lift": 3.05,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "مرض↔ولي",
+   "shared": 2,
+   "expected": 0.75,
+   "lift": 2.68,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "مرض↔عمل",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔رسل",
+   "shared": 4,
+   "expected": 1.58,
+   "lift": 2.53,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "مرض↔اله",
+   "shared": 16,
+   "expected": 6.93,
+   "lift": 2.31,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "مرض↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عدل",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔كفي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔دبر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔زين",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عقل",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.53,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "مرض↔خبر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔غيب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔جرم",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عرف",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.37,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "مرض↔نكر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔علو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔متع",
+   "shared": 2,
+   "expected": 0.24,
+   "lift": 8.34,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "مرض↔حين",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔وكل",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.44,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "مرض↔قلل",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.66,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "مرض↔ثمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔شري",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔شكر",
+   "shared": 2,
+   "expected": 0.25,
+   "lift": 7.86,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "مرض↔فلك",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بحر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔برر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔جري",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.24,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "مرض↔ابد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فوز",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔سخر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔تحت",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.42,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "مرض↔رضو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نجو",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔خلد",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔شطن",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.48,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "مرض↔سبح",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔حمد",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔غني",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فقر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔مول",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔ليل",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.35,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "مرض↔قمر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔شمس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بغي",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.01,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "مرض↔صحب",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 3.05,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "مرض↔ولد",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فضل",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.95,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "مرض↔عدو",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔اثم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نهر",
+   "shared": 2,
+   "expected": 0.38,
+   "lift": 5.32,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "مرض↔دخل",
+   "shared": 2,
+   "expected": 0.41,
+   "lift": 4.89,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "مرض↔بوب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فتح",
+   "shared": 2,
+   "expected": 0.12,
+   "lift": 16.43,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "مرض↔اهل",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.26,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "مرض↔قري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔هلك",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔قرن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عظم",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.13,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "مرض↔اجر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "مرض↔ضيع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔قدر",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.24,
+   "p_perm": 0.3787
+  },
+  {
+   "pair": "مرض↔دنو",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.12,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "مرض↔خزي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔دون",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نفع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔ضرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔مسس",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بصر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فاد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عمي",
+   "shared": 2,
+   "expected": 0.11,
+   "lift": 18.08,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "مرض↔نصر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔اوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔صير",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔باس",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نبا",
+   "shared": 1,
+   "expected": 0.56,
+   "lift": 1.8,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "مرض↔رجع",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.63,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "مرض↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔موت",
+   "shared": 2,
+   "expected": 0.53,
+   "lift": 3.79,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "مرض↔بعث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نظر",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.36,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "مرض↔سير",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عقب",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.66,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "مرض↔كيف",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔شدد",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "مرض↔قوي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عزز",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.34,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "مرض↔قلب",
+   "shared": 12,
+   "expected": 0.57,
+   "lift": 20.99,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "مرض↔قسو",
+   "shared": 1,
+   "expected": 0.02,
+   "lift": 45.19,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "مرض↔طبع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔طمن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "مرض↔فلح",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔اذن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔علن",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔رزق",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بسط",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عمل",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔حبط",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بقي",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عدل",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔كفي",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔دبر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔زين",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔خبر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔غيب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔جرم",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نكر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔علو",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔حين",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔ثمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔شري",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فلك",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بحر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔برر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔ابد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فوز",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔سخر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔رضو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نجو",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔خلد",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔سبح",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔حمد",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔غني",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فقر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔مول",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔قمر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔شمس",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔ولد",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔عدو",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔اثم",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بوب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔قري",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔هلك",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔قرن",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔ضيع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔خزي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔دون",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نفع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔ضرر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔كشف",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔مسس",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بصر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔فاد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔نصر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔هجر",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔اوي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔صير",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔باس",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔ذوق",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔بعث",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔سير",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔كيف",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔قوي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔طبع",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مرض↔طمن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "4:43",
+   "degree": 6,
+   "roots_present": [
+    "وجد",
+    "اله",
+    "امن",
+    "علم",
+    "كون",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "2:196",
+   "degree": 5,
+   "roots_present": [
+    "وجد",
+    "اله",
+    "امن",
+    "علم",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "74:31",
+   "degree": 5,
+   "roots_present": [
+    "قلب",
+    "اله",
+    "امن",
+    "علم",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "5:6",
+   "degree": 4,
+   "roots_present": [
+    "وجد",
+    "اله",
+    "امن",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "73:20",
+   "degree": 4,
+   "roots_present": [
+    "وجد",
+    "اله",
+    "علم",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "2:10",
+   "degree": 3,
+   "roots_present": [
+    "قلب",
+    "اله",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "5:52",
+   "degree": 3,
+   "roots_present": [
+    "قلب",
+    "اله",
+    "قول"
+   ]
+  },
+  {
+   "ayah": "8:49",
+   "degree": 3,
+   "roots_present": [
+    "قلب",
+    "اله",
+    "قول"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "مرض+قلب": [
+   "2:10",
+   "5:52",
+   "8:49",
+   "9:125",
+   "22:53",
+   "24:50",
+   "33:12",
+   "33:32",
+   "33:60",
+   "47:20",
+   "47:29",
+   "74:31"
+  ],
+  "مرض+وجد": [
+   "2:196",
+   "4:43",
+   "5:6",
+   "9:91",
+   "73:20"
+  ],
+  "مرض+اله": [
+   "2:10",
+   "2:185",
+   "2:196",
+   "4:43",
+   "4:102",
+   "5:6",
+   "5:52",
+   "8:49",
+   "9:91",
+   "24:50",
+   "24:61",
+   "33:12",
+   "47:29",
+   "48:17",
+   "73:20",
+   "74:31"
+  ],
+  "مرض+صلو": [
+   "4:43",
+   "4:102",
+   "5:6",
+   "73:20"
+  ],
+  "مرض+نفق": [
+   "8:49",
+   "9:91",
+   "33:12",
+   "33:60"
+  ],
+  "مرض+طيب": [
+   "4:43",
+   "5:6",
+   "24:61"
+  ],
+  "مرض+سجد": [
+   "2:196",
+   "4:102"
+  ],
+  "مرض+متع": [
+   "2:196",
+   "4:102"
+  ],
+  "مرض+شكر": [
+   "2:185",
+   "5:6"
+  ],
+  "مرض+فتح": [
+   "5:52",
+   "24:61"
+  ],
+  "مرض+عمي": [
+   "24:61",
+   "48:17"
+  ],
+  "مرض+قسو": [
+   "22:53"
+  ]
+ }
+}
