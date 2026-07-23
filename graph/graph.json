@@ -531,7 +531,8 @@
   "حلم",
   "عفو",
   "ذنب",
-  "بعد"
+  "بعد",
+  "شقق"
  ],
  "open_queue": [
   "اتي",
@@ -548,7 +549,6 @@
   "ربب",
   "رحم",
   "سمو",
-  "شقق",
   "شيا",
   "ظلم",
   "عبد",
@@ -5499,9 +5499,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 8
+    },
+    "شقق→بعد": {
+     "breath": 158,
+     "lift": 9.071,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -13731,6 +13739,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سمو",
+   "b": "شقق",
+   "directions": {
+    "شقق→سمو": {
+     "breath": 158,
+     "lift": 3.543,
+     "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
