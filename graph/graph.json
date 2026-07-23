@@ -11,6 +11,7 @@
   "احد",
   "اخذ",
   "اخر",
+  "اخو",
   "اذن",
   "ارض",
   "اكل",
@@ -453,13 +454,14 @@
   "اول",
   "لبب",
   "سطر",
-  "مرر"
+  "مرر",
+  "ابو"
  ],
  "open_queue": [
-  "ابو",
   "اتي",
   "اخذ",
   "اخر",
+  "اخو",
   "ارض",
   "امر",
   "امن",
@@ -494,6 +496,7 @@
   "نفس",
   "نور",
   "نوس",
+  "وجد",
   "وقي"
  ],
  "edges": [
@@ -707,6 +710,54 @@
   },
   {
    "a": "ابو",
+   "b": "احد",
+   "directions": {
+    "ابو→احد": {
+     "breath": 121,
+     "lift": 3.656,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابو",
+   "b": "اخو",
+   "directions": {
+    "ابو→اخو": {
+     "breath": 121,
+     "lift": 11.243,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ابو",
+   "b": "امم",
+   "directions": {
+    "ابو→امم": {
+     "breath": 121,
+     "lift": 3.886,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابو",
    "b": "اول",
    "directions": {
     "اول→ابو": {
@@ -716,10 +767,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 14
+    },
+    "ابو→اول": {
+     "breath": 121,
+     "lift": 5.313,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ابو",
+   "b": "بني",
+   "directions": {
+    "ابو→بني": {
+     "breath": 121,
+     "lift": 3.598,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "ابو",
@@ -732,6 +807,46 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ابو→شطن": {
+     "breath": 121,
+     "lift": 3.844,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابو",
+   "b": "عبد",
+   "directions": {
+    "ابو→عبد": {
+     "breath": 121,
+     "lift": 3.822,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ابو",
+   "b": "فعل",
+   "directions": {
+    "ابو→فعل": {
+     "breath": 121,
+     "lift": 4.703,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -748,10 +863,34 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ابو→متع": {
+     "breath": 121,
+     "lift": 4.612,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ابو",
+   "b": "وجد",
+   "directions": {
+    "ابو→وجد": {
+     "breath": 121,
+     "lift": 8.479,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اتي",

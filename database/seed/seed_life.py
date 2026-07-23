@@ -153,6 +153,7 @@ b117 = rec("breath_117_اول.json")
 b118 = rec("breath_118_لبب.json")
 b119 = rec("breath_119_سطر.json")
 b120 = rec("breath_120_مرر.json")
+b121 = rec("breath_121_ابو.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -758,6 +759,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_120_مرر.json",
      "breaths/records/breath_120_مرر.json", LOG1,
      "سه قوی پایدار (اول دوسویه ۱۱٫۱، خلق یک‌طرفه ۵٫۴، كلل یک‌طرفه ۳٫۹)؛ جفتِ متقابل: مرر↔اول؛ محتمل‌ها کم‌جان؛ ۴۱:۲۱ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: هفتادوهفت صفر", b120["top"]),
+    (121, "تولدِ دوباره", "ابو", "قاعدهٔ صف (خودران)",
+     b121["ayat"], b121["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_121_ابو.json",
+     "breaths/records/breath_121_ابو.json", LOG1,
+     "سه قوی پایدار (اخو دوسویه ۱۱٫۲، وجد دوسویه ۸٫۵، اول دوسویه ۵٫۳)؛ جفتِ متقابل: ابو↔اول؛ فعل دوسویهٔ محتملِ ناپایدار lift=۴٫۷؛ ۴:۱۱ و ۱۲:۶۵ و ۱۲:۱۰۰ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: چهل‌وپنج صفر", b121["top"]),
     # ⚓BREATHS
 ]
 
@@ -1143,6 +1149,9 @@ QUEUE_EVENTS = [
     (120, "pursued", "مرر", "قاعدهٔ صف"),
     (120, "queued", "خلق", "چرخه"),
     (120, "queued", "كلل", "چرخه"),
+    (121, "pursued", "ابو", "قاعدهٔ صف"),
+    (121, "queued", "اخو", "چرخه"),
+    (121, "queued", "وجد", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -1268,6 +1277,7 @@ PROJ = [
     (118, b118),
     (119, b119),
     (120, b120),
+    (121, b121),
     # ⚓PROJ
 ]
 
