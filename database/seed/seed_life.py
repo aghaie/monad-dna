@@ -193,6 +193,7 @@ b157 = rec("breath_157_بعد.json")
 b158 = rec("breath_158_شقق.json")
 b159 = rec("breath_159_ورث.json")
 b160 = rec("breath_160_نوس.json")
+b161 = rec("breath_161_دبب.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -998,6 +999,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_160_نوس.json",
      "breaths/records/breath_160_نوس.json", LOG1,
      "یک قوی پایدار (دبب دوسویه ۹٫۲)؛ بدون جفتِ متقابل (دبب پیش‌تر زیسته نبود)؛ فكر دوسویهٔ محتملِ ناپایدار lift=۹٫۲؛ ۳۰:۸ و ۵۹:۲۱ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: بیست‌وشش صفر", b160["top"]),
+    (161, "تولدِ دوباره", "دبب", "قاعدهٔ صف (خودران)",
+     b161["ayat"], b161["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_161_دبب.json",
+     "breaths/records/breath_161_دبب.json", LOG1,
+     "سه قوی پایدار (نوس دوسویه ۹٫۲، ارض یک‌طرفه ۷٫۱، اله یک‌طرفه ۲٫۲)؛ جفتِ متقابل: دبب↔نوس؛ خلق دوسویهٔ محتملِ ناپایدار lift=۷٫۹؛ ۲:۱۶۴ گرهِ پنج‌ریشه‌ای؛ ۱۲۸ صفر شاهدِ غیاب — بیشترین زندگیِ دوم تاکنون (پیشین: ۱۲۷، نفسِ ۱۴۵)", b161["top"]),
     # ⚓BREATHS
 ]
 
@@ -1454,6 +1460,7 @@ QUEUE_EVENTS = [
     (159, "pursued", "ورث", "قاعدهٔ صف"),
     (160, "pursued", "نوس", "قاعدهٔ صف"),
     (160, "queued", "دبب", "چرخه"),
+    (161, "pursued", "دبب", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -1619,6 +1626,7 @@ PROJ = [
     (158, b158),
     (159, b159),
     (160, b160),
+    (161, b161),
     # ⚓PROJ
 ]
 

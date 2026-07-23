@@ -1,0 +1,2303 @@
+{
+ "breath_number": 161,
+ "deliberation": [
+  {
+   "root": "دبب",
+   "attestation": 18
+  },
+  {
+   "root": "امر",
+   "attestation": 248
+  },
+  {
+   "root": "اخر",
+   "attestation": 250
+  },
+  {
+   "root": "وقي",
+   "attestation": 258
+  },
+  {
+   "root": "خلق",
+   "attestation": 261
+  },
+  {
+   "root": "اخذ",
+   "attestation": 273
+  },
+  {
+   "root": "عبد",
+   "attestation": 275
+  },
+  {
+   "root": "كذب",
+   "attestation": 282
+  },
+  {
+   "root": "ذكر",
+   "attestation": 292
+  },
+  {
+   "root": "قبل",
+   "attestation": 294
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "دبب",
+ "attestation": 18,
+ "ayat": 18,
+ "top": [
+  {
+   "root": "نوس",
+   "shared": 6,
+   "expected": 0.65,
+   "lift": 9.239,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خلق",
+   "shared": 5,
+   "expected": 0.63,
+   "lift": 7.946,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ارض",
+   "shared": 9,
+   "expected": 1.27,
+   "lift": 7.086,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سمو",
+   "shared": 7,
+   "expected": 1.02,
+   "lift": 6.89,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 12,
+   "expected": 5.42,
+   "lift": 2.213,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "نوس",
+  "خلق",
+  "سمو"
+ ],
+ "one_way": [
+  "ارض",
+  "اله"
+ ],
+ "neighbor_view": {
+  "نوس": {
+   "root": "دبب",
+   "shared": 6,
+   "expected": 0.65,
+   "lift": 9.239,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "خلق": {
+   "root": "دبب",
+   "shared": 5,
+   "expected": 0.63,
+   "lift": 7.946,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ارض": null,
+  "سمو": {
+   "root": "دبب",
+   "shared": 7,
+   "expected": 1.02,
+   "lift": 6.89,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "دبب↔فلح",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صلو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔زكو",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اذن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نفق",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سرر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔علن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔رزق",
+   "shared": 2,
+   "expected": 0.31,
+   "lift": 6.36,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "دبب↔بسط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔طيب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خبث",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حلل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حرم",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سجد",
+   "shared": 2,
+   "expected": 0.23,
+   "lift": 8.55,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "دبب↔اكل",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.43,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "دبب↔طوع",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شهد",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔كبر",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.26,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "دبب↔حيي",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.15,
+   "p_perm": 0.4153
+  },
+  {
+   "pair": "دبب↔خير",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ولي",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عمل",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔رسل",
+   "shared": 0,
+   "expected": 1.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اله",
+   "shared": 12,
+   "expected": 5.42,
+   "lift": 2.21,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "دبب↔حبط",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بقي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عدل",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔كفي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دبر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔زين",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عقل",
+   "shared": 2,
+   "expected": 0.14,
+   "lift": 14.14,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "دبب↔خبر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔غيب",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.87,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "دبب↔جرم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عرف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نكر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔علو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔متع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔وكل",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.68,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "دبب↔قلل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ثمن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شري",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شكر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فلك",
+   "shared": 1,
+   "expected": 0.07,
+   "lift": 13.86,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "دبب↔بحر",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.66,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "دبب↔برر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔جري",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.41,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "دبب↔ابد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فوز",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سخر",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 9.9,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "دبب↔تحت",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔رضو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نجو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خلد",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شطن",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سبح",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حمد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔غني",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فقر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مول",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ليل",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.28,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "دبب↔قمر",
+   "shared": 1,
+   "expected": 0.08,
+   "lift": 13.32,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "دبب↔شمس",
+   "shared": 1,
+   "expected": 0.09,
+   "lift": 10.83,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "دبب↔بغي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صحب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ولد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فضل",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عدو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اثم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نهر",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.4,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "دبب↔دخل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بوب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فتح",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اهل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔هلك",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قرن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عظم",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اجر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ضيع",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قدر",
+   "shared": 2,
+   "expected": 0.35,
+   "lift": 5.73,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "دبب↔دنو",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خزي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دون",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نفع",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 7.07,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "دبب↔ضرر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔كشف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مسس",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بصر",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.49,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "دبب↔فاد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عمي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نصر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔هجر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اوي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صير",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔باس",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نبا",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔رجع",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ذوق",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔موت",
+   "shared": 2,
+   "expected": 0.41,
+   "lift": 4.85,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "دبب↔بعث",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نظر",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سير",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عقب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔كيف",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شدد",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قوي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عزز",
+   "shared": 1,
+   "expected": 0.33,
+   "lift": 2.99,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "دبب↔قلب",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قسو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔طبع",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔طمن",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مرض",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شرك",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔برا",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اول",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔لبب",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سطر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مرر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ابو",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اخو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔وجد",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صلح",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فسد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔توب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سمع",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.13,
+   "p_perm": 0.3455
+  },
+  {
+   "pair": "دبب↔صمم",
+   "shared": 1,
+   "expected": 0.04,
+   "lift": 24.75,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "دبب↔نور",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔وقد",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صلي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حسن",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔جزي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔كسب",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.77,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "دبب↔سوا",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بدو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خفي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مثل",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.34,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "دبب↔ضرب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عند",
+   "shared": 2,
+   "expected": 0.55,
+   "lift": 3.67,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "دبب↔خزن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ثوب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔جنن",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.77,
+   "p_perm": 0.4186
+  },
+  {
+   "pair": "دبب↔عنب",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نخل",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ملك",
+   "shared": 1,
+   "expected": 0.55,
+   "lift": 1.81,
+   "p_perm": 0.4186
+  },
+  {
+   "pair": "دبب↔حكم",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دعو",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خلص",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔جوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دين",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔غفر",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.72,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "دبب↔حلم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عفو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ذنب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بعد",
+   "shared": 1,
+   "expected": 0.64,
+   "lift": 1.57,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "دبب↔شقق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ورث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نوس",
+   "shared": 6,
+   "expected": 0.65,
+   "lift": 9.24,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "دبب↔فلح",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صلو",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔زكو",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اذن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نفق",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سرر",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔علن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بسط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔طيب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خبث",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حلل",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حرم",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔طوع",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شهد",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خير",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ولي",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عمل",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔رسل",
+   "shared": 0,
+   "expected": 1.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حبط",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بقي",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عدل",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔كفي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دبر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔زين",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خبر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔جرم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عرف",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نكر",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔علو",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔متع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حين",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قلل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ثمن",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شري",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شكر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔برر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ابد",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فوز",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔تحت",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔رضو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نجو",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خلد",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شطن",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سبح",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حمد",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔غني",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فقر",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مول",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بغي",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صحب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ولد",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فضل",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عدو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اثم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دخل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بوب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فتح",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اهل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قري",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔هلك",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قرن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عظم",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اجر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ضيع",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دنو",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خزي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دون",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ضرر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔كشف",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مسس",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فاد",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عمي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نصر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔هجر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اوي",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صير",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔باس",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نبا",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔رجع",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ذوق",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بعث",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نظر",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سير",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عقب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔كيف",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شدد",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قوي",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قلب",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔قسو",
+   "shared": 0,
+   "expected": 0.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔طبع",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔طمن",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مرض",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شرك",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔برا",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اول",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔لبب",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سطر",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔مرر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ابو",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔اخو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔وجد",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صلح",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔فسد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔توب",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نور",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔وقد",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صلي",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حسن",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔صوب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔جزي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔سوا",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔بدو",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خفي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ضرب",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خزن",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ثوب",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عنب",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔نخل",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حكم",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دعو",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔خلص",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔جوب",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔دين",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔حلم",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔عفو",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ذنب",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔شقق",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "دبب↔ورث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:164",
+   "degree": 5,
+   "roots_present": [
+    "نوس",
+    "خلق",
+    "ارض",
+    "سمو",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "22:18",
+   "degree": 4,
+   "roots_present": [
+    "نوس",
+    "ارض",
+    "سمو",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "16:49",
+   "degree": 3,
+   "roots_present": [
+    "ارض",
+    "سمو",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "16:61",
+   "degree": 3,
+   "roots_present": [
+    "نوس",
+    "سمو",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "31:10",
+   "degree": 3,
+   "roots_present": [
+    "خلق",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "35:45",
+   "degree": 3,
+   "roots_present": [
+    "نوس",
+    "سمو",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "42:29",
+   "degree": 3,
+   "roots_present": [
+    "خلق",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "11:6",
+   "degree": 2,
+   "roots_present": [
+    "ارض",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "دبب+نوس": [
+   "2:164",
+   "16:61",
+   "22:18",
+   "27:82",
+   "35:28",
+   "35:45"
+  ],
+  "دبب+خلق": [
+   "2:164",
+   "24:45",
+   "31:10",
+   "42:29",
+   "45:4"
+  ],
+  "دبب+ارض": [
+   "2:164",
+   "6:38",
+   "11:6",
+   "16:49",
+   "22:18",
+   "27:82",
+   "31:10",
+   "34:14",
+   "42:29"
+  ],
+  "دبب+سمو": [
+   "2:164",
+   "16:49",
+   "16:61",
+   "22:18",
+   "31:10",
+   "35:45",
+   "42:29"
+  ],
+  "دبب+اله": [
+   "2:164",
+   "8:22",
+   "8:55",
+   "11:6",
+   "11:56",
+   "16:49",
+   "16:61",
+   "22:18",
+   "24:45",
+   "29:60",
+   "35:28",
+   "35:45"
+  ],
+  "دبب+رزق": [
+   "11:6",
+   "29:60"
+  ],
+  "دبب+سجد": [
+   "16:49",
+   "22:18"
+  ],
+  "دبب+عقل": [
+   "2:164",
+   "8:22"
+  ],
+  "دبب+قدر": [
+   "24:45",
+   "42:29"
+  ],
+  "دبب+صمم": [
+   "8:22"
+  ]
+ }
+}
