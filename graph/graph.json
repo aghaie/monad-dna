@@ -17,6 +17,7 @@
   "امر",
   "امن",
   "اهل",
+  "اول",
   "ايي",
   "بدل",
   "بسط",
@@ -34,6 +35,7 @@
   "تحت",
   "تلو",
   "ثمر",
+  "ثمن",
   "ثوب",
   "جرم",
   "جري",
@@ -69,6 +71,7 @@
   "درج",
   "دنو",
   "دون",
+  "ذكر",
   "راي",
   "ربب",
   "ربع",
@@ -99,6 +102,7 @@
   "شرب",
   "شرر",
   "شرك",
+  "شري",
   "شطن",
   "شفع",
   "شكر",
@@ -240,7 +244,8 @@
   "علو",
   "متع",
   "حين",
-  "وكل"
+  "وكل",
+  "قلل"
  ],
  "open_queue": [
   "اتي",
@@ -250,18 +255,20 @@
   "ايي",
   "بصر",
   "بين",
+  "ثمن",
   "دنو",
   "دون",
   "سبح",
   "شرك",
+  "شري",
   "شطن",
+  "شكر",
   "شيا",
   "صلح",
   "علم",
   "عند",
   "قدر",
   "قلب",
-  "قلل",
   "قول",
   "قوم",
   "موت",
@@ -909,6 +916,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "اكل",
+   "b": "قلل",
+   "directions": {
+    "قلل→اكل": {
+     "breath": 41,
+     "lift": 4.172,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "اله",
    "b": "بسط",
    "directions": {
@@ -1335,6 +1358,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اول",
+   "b": "قلل",
+   "directions": {
+    "قلل→اول": {
+     "breath": 41,
+     "lift": 2.667,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -1915,6 +1954,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ثمن",
+   "b": "قلل",
+   "directions": {
+    "قلل→ثمن": {
+     "breath": 41,
+     "lift": 44.353,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ثوب",
@@ -3293,6 +3348,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "ذكر",
+   "b": "قلل",
+   "directions": {
+    "قلل→ذكر": {
+     "breath": 41,
+     "lift": 2.873,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "ربب",
    "b": "علن",
    "directions": {
@@ -4181,6 +4252,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "شري",
+   "b": "قلل",
+   "directions": {
+    "قلل→شري": {
+     "breath": 41,
+     "lift": 32.975,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "شكر",
    "b": "طيب",
    "directions": {
@@ -4195,6 +4282,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "شكر",
+   "b": "قلل",
+   "directions": {
+    "قلل→شكر": {
+     "breath": 41,
+     "lift": 7.328,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "شهد",
@@ -5101,6 +5204,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "قتل",
+   "b": "قلل",
+   "directions": {
+    "قلل→قتل": {
+     "breath": 41,
+     "lift": 4.144,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "قلب",
    "b": "نفق",
    "directions": {
@@ -5118,6 +5237,38 @@
   },
   {
    "a": "قلل",
+   "b": "كثر",
+   "directions": {
+    "قلل→كثر": {
+     "breath": 41,
+     "lift": 3.121,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قلل",
+   "b": "كلم",
+   "directions": {
+    "قلل→كلم": {
+     "breath": 41,
+     "lift": 5.935,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قلل",
    "b": "متع",
    "directions": {
     "متع→قلل": {
@@ -5127,9 +5278,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "قلل→متع": {
+     "breath": 41,
+     "lift": 11.668,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
