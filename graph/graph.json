@@ -432,7 +432,8 @@
   "قوي",
   "عزز",
   "قلب",
-  "قسو"
+  "قسو",
+  "طبع"
  ],
  "open_queue": [
   "اتي",
@@ -456,7 +457,6 @@
   "شرك",
   "شيا",
   "صلح",
-  "طبع",
   "طمن",
   "ظلم",
   "عذب",
@@ -2079,6 +2079,22 @@
   },
   {
    "a": "اله",
+   "b": "طبع",
+   "directions": {
+    "طبع→اله": {
+     "breath": 112,
+     "lift": 2.112,
+     "p": 0.01,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "اله",
    "b": "عصم",
    "directions": {
     "اله→عصم": {
@@ -2440,6 +2456,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امن",
+   "b": "طبع",
+   "directions": {
+    "طبع→امن": {
+     "breath": 112,
+     "lift": 3.921,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -11656,9 +11688,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 11
+    },
+    "طبع→قلب": {
+     "breath": 112,
+     "lift": 40.232,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
