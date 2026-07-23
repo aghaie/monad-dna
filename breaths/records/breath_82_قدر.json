@@ -1,0 +1,1326 @@
+{
+ "breath_number": 82,
+ "deliberation": [
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "قدر",
+ "attestation": 132,
+ "ayat": 121,
+ "top": [
+  {
+   "root": "بسط",
+   "shared": 10,
+   "expected": 0.45,
+   "lift": 22.407,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "موه",
+   "shared": 9,
+   "expected": 1.16,
+   "lift": 7.731,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شيا",
+   "shared": 64,
+   "expected": 8.71,
+   "lift": 7.346,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "رزق",
+   "shared": 14,
+   "expected": 2.11,
+   "lift": 6.619,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 45,
+   "expected": 6.87,
+   "lift": 6.551,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ضرب",
+   "shared": 5,
+   "expected": 1.05,
+   "lift": 4.772,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ذهب",
+   "shared": 5,
+   "expected": 1.09,
+   "lift": 4.602,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "مثل",
+   "shared": 13,
+   "expected": 2.87,
+   "lift": 4.527,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ليل",
+   "shared": 7,
+   "expected": 1.57,
+   "lift": 4.454,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كيف",
+   "shared": 7,
+   "expected": 1.61,
+   "lift": 4.347,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "بسط",
+  "موه",
+  "شيا",
+  "رزق",
+  "كلل",
+  "ضرب",
+  "ذهب",
+  "مثل",
+  "كيف"
+ ],
+ "one_way": [
+  "ليل"
+ ],
+ "neighbor_view": {
+  "بسط": {
+   "root": "قدر",
+   "shared": 10,
+   "expected": 0.45,
+   "lift": 22.407,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "موه": {
+   "root": "قدر",
+   "shared": 9,
+   "expected": 1.16,
+   "lift": 7.731,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "شيا": {
+   "root": "قدر",
+   "shared": 64,
+   "expected": 8.71,
+   "lift": 7.346,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "رزق": {
+   "root": "قدر",
+   "shared": 14,
+   "expected": 2.11,
+   "lift": 6.619,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كلل": {
+   "root": "قدر",
+   "shared": 45,
+   "expected": 6.87,
+   "lift": 6.551,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ضرب": {
+   "root": "قدر",
+   "shared": 5,
+   "expected": 1.05,
+   "lift": 4.772,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ذهب": {
+   "root": "قدر",
+   "shared": 5,
+   "expected": 1.09,
+   "lift": 4.602,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "مثل": {
+   "root": "قدر",
+   "shared": 13,
+   "expected": 2.87,
+   "lift": 4.527,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ليل": null,
+  "كيف": {
+   "root": "قدر",
+   "shared": 7,
+   "expected": 1.61,
+   "lift": 4.347,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "قدر↔فلح",
+   "shared": 1,
+   "expected": 0.78,
+   "lift": 1.29,
+   "p_perm": 0.5548
+  },
+  {
+   "pair": "قدر↔صلو",
+   "shared": 1,
+   "expected": 1.75,
+   "lift": 0.57,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "قدر↔زكو",
+   "shared": 1,
+   "expected": 1.09,
+   "lift": 0.92,
+   "p_perm": 0.6645
+  },
+  {
+   "pair": "قدر↔اذن",
+   "shared": 1,
+   "expected": 1.75,
+   "lift": 0.57,
+   "p_perm": 0.8405
+  },
+  {
+   "pair": "قدر↔نفق",
+   "shared": 4,
+   "expected": 1.67,
+   "lift": 2.4,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "قدر↔سرر",
+   "shared": 1,
+   "expected": 0.83,
+   "lift": 1.2,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "قدر↔علن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔رزق",
+   "shared": 14,
+   "expected": 2.11,
+   "lift": 6.62,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قدر↔بسط",
+   "shared": 10,
+   "expected": 0.45,
+   "lift": 22.41,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قدر↔طيب",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔خبث",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔حلل",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔حرم",
+   "shared": 0,
+   "expected": 1.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔سجد",
+   "shared": 0,
+   "expected": 1.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔اكل",
+   "shared": 1,
+   "expected": 1.96,
+   "lift": 0.51,
+   "p_perm": 0.8671
+  },
+  {
+   "pair": "قدر↔طوع",
+   "shared": 0,
+   "expected": 2.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔شهد",
+   "shared": 0,
+   "expected": 2.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔كبر",
+   "shared": 0,
+   "expected": 2.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔حيي",
+   "shared": 11,
+   "expected": 3.12,
+   "lift": 3.52,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قدر↔خير",
+   "shared": 9,
+   "expected": 3.45,
+   "lift": 2.61,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "قدر↔ولي",
+   "shared": 3,
+   "expected": 3.92,
+   "lift": 0.77,
+   "p_perm": 0.7641
+  },
+  {
+   "pair": "قدر↔عمل",
+   "shared": 3,
+   "expected": 6.07,
+   "lift": 0.49,
+   "p_perm": 0.9203
+  },
+  {
+   "pair": "قدر↔رسل",
+   "shared": 4,
+   "expected": 8.32,
+   "lift": 0.48,
+   "p_perm": 0.9834
+  },
+  {
+   "pair": "قدر↔اله",
+   "shared": 64,
+   "expected": 36.46,
+   "lift": 1.76,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قدر↔حبط",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔بقي",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔عدل",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.15,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "قدر↔كفي",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔دبر",
+   "shared": 1,
+   "expected": 0.85,
+   "lift": 1.17,
+   "p_perm": 0.5581
+  },
+  {
+   "pair": "قدر↔زين",
+   "shared": 2,
+   "expected": 0.83,
+   "lift": 2.4,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "قدر↔عقل",
+   "shared": 0,
+   "expected": 0.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔خبر",
+   "shared": 2,
+   "expected": 1.01,
+   "lift": 1.98,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "قدر↔غيب",
+   "shared": 1,
+   "expected": 1.14,
+   "lift": 0.87,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "قدر↔جرم",
+   "shared": 0,
+   "expected": 1.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔عرف",
+   "shared": 1,
+   "expected": 1.2,
+   "lift": 0.83,
+   "p_perm": 0.6944
+  },
+  {
+   "pair": "قدر↔نكر",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔علو",
+   "shared": 1,
+   "expected": 1.32,
+   "lift": 0.76,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "قدر↔متع",
+   "shared": 3,
+   "expected": 1.26,
+   "lift": 2.38,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "قدر↔حين",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔وكل",
+   "shared": 1,
+   "expected": 1.18,
+   "lift": 0.84,
+   "p_perm": 0.7276
+  },
+  {
+   "pair": "قدر↔قلل",
+   "shared": 1,
+   "expected": 1.44,
+   "lift": 0.7,
+   "p_perm": 0.7542
+  },
+  {
+   "pair": "قدر↔ثمن",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔شري",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔شكر",
+   "shared": 1,
+   "expected": 1.34,
+   "lift": 0.75,
+   "p_perm": 0.7508
+  },
+  {
+   "pair": "قدر↔فلك",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔بحر",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔برر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔جري",
+   "shared": 2,
+   "expected": 1.24,
+   "lift": 1.61,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "قدر↔ابد",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔فوز",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔سخر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔تحت",
+   "shared": 2,
+   "expected": 0.97,
+   "lift": 2.06,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "قدر↔رضو",
+   "shared": 0,
+   "expected": 1.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔نجو",
+   "shared": 2,
+   "expected": 1.46,
+   "lift": 1.37,
+   "p_perm": 0.4086
+  },
+  {
+   "pair": "قدر↔خلد",
+   "shared": 0,
+   "expected": 1.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔شطن",
+   "shared": 0,
+   "expected": 1.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔سبح",
+   "shared": 3,
+   "expected": 1.69,
+   "lift": 1.78,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "قدر↔حمد",
+   "shared": 3,
+   "expected": 1.18,
+   "lift": 2.53,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "قدر↔غني",
+   "shared": 1,
+   "expected": 1.4,
+   "lift": 0.72,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "قدر↔فقر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔مول",
+   "shared": 2,
+   "expected": 1.55,
+   "lift": 1.29,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "قدر↔ليل",
+   "shared": 7,
+   "expected": 1.57,
+   "lift": 4.45,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قدر↔قمر",
+   "shared": 3,
+   "expected": 0.5,
+   "lift": 5.95,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "قدر↔شمس",
+   "shared": 3,
+   "expected": 0.62,
+   "lift": 4.83,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "قدر↔بغي",
+   "shared": 3,
+   "expected": 1.75,
+   "lift": 1.72,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "قدر↔صحب",
+   "shared": 0,
+   "expected": 1.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔ولد",
+   "shared": 1,
+   "expected": 1.55,
+   "lift": 0.64,
+   "p_perm": 0.7641
+  },
+  {
+   "pair": "قدر↔فضل",
+   "shared": 2,
+   "expected": 1.79,
+   "lift": 1.12,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "قدر↔عدو",
+   "shared": 1,
+   "expected": 1.79,
+   "lift": 0.56,
+   "p_perm": 0.8372
+  },
+  {
+   "pair": "قدر↔اثم",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔نهر",
+   "shared": 3,
+   "expected": 1.98,
+   "lift": 1.52,
+   "p_perm": 0.3023
+  },
+  {
+   "pair": "قدر↔دخل",
+   "shared": 1,
+   "expected": 2.15,
+   "lift": 0.46,
+   "p_perm": 0.8704
+  },
+  {
+   "pair": "قدر↔بوب",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔فتح",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔اهل",
+   "shared": 6,
+   "expected": 2.33,
+   "lift": 2.58,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "قدر↔قري",
+   "shared": 2,
+   "expected": 1.05,
+   "lift": 1.91,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "قدر↔هلك",
+   "shared": 1,
+   "expected": 1.22,
+   "lift": 0.82,
+   "p_perm": 0.6645
+  },
+  {
+   "pair": "قدر↔قرن",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔عظم",
+   "shared": 3,
+   "expected": 2.46,
+   "lift": 1.22,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "قدر↔اجر",
+   "shared": 1,
+   "expected": 1.92,
+   "lift": 0.52,
+   "p_perm": 0.8571
+  },
+  {
+   "pair": "قدر↔ضيع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "قدر↔علن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔طيب",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔خبث",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔حلل",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔حرم",
+   "shared": 0,
+   "expected": 1.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔سجد",
+   "shared": 0,
+   "expected": 1.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔طوع",
+   "shared": 0,
+   "expected": 2.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔شهد",
+   "shared": 0,
+   "expected": 2.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔كبر",
+   "shared": 0,
+   "expected": 2.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔حبط",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔بقي",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔كفي",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔عقل",
+   "shared": 0,
+   "expected": 0.95,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔جرم",
+   "shared": 0,
+   "expected": 1.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔نكر",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔حين",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔ثمن",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔شري",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔فلك",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔بحر",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔برر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔ابد",
+   "shared": 0,
+   "expected": 0.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔فوز",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔سخر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔رضو",
+   "shared": 0,
+   "expected": 1.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔خلد",
+   "shared": 0,
+   "expected": 1.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔شطن",
+   "shared": 0,
+   "expected": 1.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔فقر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔صحب",
+   "shared": 0,
+   "expected": 1.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔اثم",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔بوب",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔فتح",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔قرن",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قدر↔ضيع",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "18:45",
+   "degree": 5,
+   "roots_present": [
+    "موه",
+    "شيا",
+    "كلل",
+    "ضرب",
+    "مثل"
+   ]
+  },
+  {
+   "ayah": "13:17",
+   "degree": 4,
+   "roots_present": [
+    "موه",
+    "ضرب",
+    "ذهب",
+    "مثل"
+   ]
+  },
+  {
+   "ayah": "16:75",
+   "degree": 4,
+   "roots_present": [
+    "شيا",
+    "رزق",
+    "ضرب",
+    "مثل"
+   ]
+  },
+  {
+   "ayah": "16:76",
+   "degree": 4,
+   "roots_present": [
+    "شيا",
+    "كلل",
+    "ضرب",
+    "مثل"
+   ]
+  },
+  {
+   "ayah": "29:62",
+   "degree": 4,
+   "roots_present": [
+    "بسط",
+    "شيا",
+    "رزق",
+    "كلل"
+   ]
+  },
+  {
+   "ayah": "42:12",
+   "degree": 4,
+   "roots_present": [
+    "بسط",
+    "شيا",
+    "رزق",
+    "كلل"
+   ]
+  },
+  {
+   "ayah": "2:20",
+   "degree": 3,
+   "roots_present": [
+    "شيا",
+    "كلل",
+    "ذهب"
+   ]
+  },
+  {
+   "ayah": "2:106",
+   "degree": 3,
+   "roots_present": [
+    "شيا",
+    "كلل",
+    "مثل"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "قدر+بسط": [
+   "13:26",
+   "17:30",
+   "28:82",
+   "29:62",
+   "30:37",
+   "34:36",
+   "34:39",
+   "39:52",
+   "42:12",
+   "42:27"
+  ],
+  "قدر+موه": [
+   "10:24",
+   "13:17",
+   "18:45",
+   "23:18",
+   "24:45",
+   "25:54",
+   "41:39",
+   "43:11",
+   "54:12"
+  ],
+  "قدر+شيا": [
+   "2:20",
+   "2:106",
+   "2:109",
+   "2:148",
+   "2:259",
+   "2:264",
+   "2:284",
+   "3:26",
+   "3:29",
+   "3:165",
+   "3:189",
+   "4:133",
+   "5:17",
+   "5:19",
+   "5:40",
+   "5:120",
+   "6:17",
+   "6:91",
+   "8:41",
+   "9:39"
+  ],
+  "قدر+رزق": [
+   "13:26",
+   "16:75",
+   "17:30",
+   "28:82",
+   "29:62",
+   "30:37",
+   "34:36",
+   "34:39",
+   "39:52",
+   "42:12",
+   "42:27",
+   "65:3",
+   "65:7",
+   "89:16"
+  ],
+  "قدر+كلل": [
+   "2:20",
+   "2:106",
+   "2:109",
+   "2:148",
+   "2:259",
+   "2:284",
+   "3:26",
+   "3:29",
+   "3:165",
+   "3:189",
+   "5:17",
+   "5:19",
+   "5:40",
+   "5:120",
+   "6:17",
+   "8:41",
+   "9:39",
+   "11:4",
+   "13:8",
+   "16:76"
+  ],
+  "قدر+ضرب": [
+   "13:17",
+   "16:75",
+   "16:76",
+   "18:45",
+   "73:20"
+  ],
+  "قدر+ذهب": [
+   "2:20",
+   "4:133",
+   "13:17",
+   "21:87",
+   "23:18"
+  ],
+  "قدر+مثل": [
+   "2:106",
+   "2:264",
+   "3:165",
+   "10:24",
+   "13:17",
+   "14:18",
+   "16:75",
+   "16:76",
+   "17:99",
+   "18:45",
+   "34:13",
+   "36:81",
+   "65:12"
+  ],
+  "قدر+ليل": [
+   "6:96",
+   "10:24",
+   "34:18",
+   "73:20",
+   "97:1",
+   "97:2",
+   "97:3"
+  ],
+  "قدر+كيف": [
+   "2:259",
+   "6:65",
+   "29:20",
+   "30:50",
+   "35:44",
+   "74:19",
+   "74:20"
+  ],
+  "قدر+حيي": [
+   "2:259",
+   "10:24",
+   "13:26",
+   "18:45",
+   "22:6",
+   "30:50",
+   "41:39",
+   "42:9",
+   "46:33",
+   "57:2",
+   "75:40"
+  ],
+  "قدر+خير": [
+   "2:106",
+   "2:148",
+   "3:26",
+   "4:149",
+   "6:17",
+   "16:76",
+   "34:39",
+   "73:20",
+   "97:3"
+  ],
+  "قدر+اله": [
+   "2:20",
+   "2:106",
+   "2:109",
+   "2:148",
+   "2:259",
+   "2:264",
+   "2:284",
+   "3:26",
+   "3:29",
+   "3:165",
+   "3:189",
+   "4:133",
+   "4:149",
+   "5:17",
+   "5:19",
+   "5:34",
+   "5:40",
+   "5:120",
+   "6:17",
+   "6:37"
+  ],
+  "قدر+قمر": [
+   "6:96",
+   "10:5",
+   "36:39"
+  ],
+  "قدر+شمس": [
+   "6:96",
+   "10:5",
+   "36:38"
+  ],
+  "قدر+اهل": [
+   "2:109",
+   "5:19",
+   "10:24",
+   "20:40",
+   "27:57",
+   "57:29"
+  ]
+ }
+}

@@ -93,6 +93,7 @@
   "دنو",
   "دون",
   "ذكر",
+  "ذهب",
   "راي",
   "ربب",
   "ربع",
@@ -145,6 +146,7 @@
   "صلو",
   "صوب",
   "صيد",
+  "ضرب",
   "ضرر",
   "ضعف",
   "ضيع",
@@ -222,6 +224,7 @@
   "كلل",
   "كلم",
   "كون",
+  "كيف",
   "لحم",
   "لطف",
   "لعب",
@@ -230,6 +233,7 @@
   "ليس",
   "ليل",
   "متع",
+  "مثل",
   "مدد",
   "مدن",
   "مرا",
@@ -360,7 +364,8 @@
   "قرن",
   "عظم",
   "اجر",
-  "ضيع"
+  "ضيع",
+  "قدر"
  ],
  "open_queue": [
   "اتي",
@@ -387,7 +392,6 @@
   "علم",
   "عند",
   "قبل",
-  "قدر",
   "قلب",
   "قول",
   "قوم",
@@ -2974,9 +2978,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "قدر→بسط": {
+     "breath": 82,
+     "lift": 22.407,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -6436,6 +6448,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ذهب",
+   "b": "قدر",
+   "directions": {
+    "قدر→ذهب": {
+     "breath": 82,
+     "lift": 4.602,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "راي",
    "b": "سخر",
    "directions": {
@@ -6713,6 +6741,14 @@
    "directions": {
     "رزق→قدر": {
      "breath": 8,
+     "lift": 6.619,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    },
+    "قدر→رزق": {
+     "breath": 82,
      "lift": 6.619,
      "p": 0.0033,
      "stable": false,
@@ -8525,6 +8561,22 @@
   },
   {
    "a": "شيا",
+   "b": "قدر",
+   "directions": {
+    "قدر→شيا": {
+     "breath": 82,
+     "lift": 7.346,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 64
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "شيا",
    "b": "وكل",
    "directions": {
     "وكل→شيا": {
@@ -8779,6 +8831,22 @@
      "breath": 2,
      "lift": 3.499,
      "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ضرب",
+   "b": "قدر",
+   "directions": {
+    "قدر→ضرب": {
+     "breath": 82,
+     "lift": 4.772,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -9974,6 +10042,86 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قدر",
+   "b": "كلل",
+   "directions": {
+    "قدر→كلل": {
+     "breath": 82,
+     "lift": 6.551,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 45
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قدر",
+   "b": "كيف",
+   "directions": {
+    "قدر→كيف": {
+     "breath": 82,
+     "lift": 4.347,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قدر",
+   "b": "ليل",
+   "directions": {
+    "قدر→ليل": {
+     "breath": 82,
+     "lift": 4.454,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قدر",
+   "b": "مثل",
+   "directions": {
+    "قدر→مثل": {
+     "breath": 82,
+     "lift": 4.527,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قدر",
+   "b": "موه",
+   "directions": {
+    "قدر→موه": {
+     "breath": 82,
+     "lift": 7.731,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
     }
    },
    "mutual_strong": false,
