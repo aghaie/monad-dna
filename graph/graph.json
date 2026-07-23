@@ -524,7 +524,8 @@
   "دين",
   "غفر",
   "حلم",
-  "عفو"
+  "عفو",
+  "ذنب"
  ],
  "open_queue": [
   "اتي",
@@ -538,7 +539,6 @@
   "بين",
   "خلق",
   "ذكر",
-  "ذنب",
   "راي",
   "ربب",
   "رحم",
@@ -1755,6 +1755,22 @@
   },
   {
    "a": "اخر",
+   "b": "ذنب",
+   "directions": {
+    "ذنب→اخر": {
+     "breath": 156,
+     "lift": 3.482,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
    "b": "زكو",
    "directions": {
     "زكو→اخر": {
@@ -2696,6 +2712,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "ذنب",
+   "directions": {
+    "ذنب→اله": {
+     "breath": 156,
+     "lift": 1.704,
+     "p": 0.0166,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 19
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اله",
@@ -11364,6 +11396,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ذنب→شدد": {
+     "breath": 156,
+     "lift": 8.512,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -11380,10 +11420,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 19
+    },
+    "ذنب→غفر": {
+     "breath": 156,
+     "lift": 15.853,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 19
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ذنب",
+   "b": "قبل",
+   "directions": {
+    "ذنب→قبل": {
+     "breath": 156,
+     "lift": 4.184,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "ذهب",
