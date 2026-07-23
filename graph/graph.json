@@ -331,7 +331,8 @@
   "ولد",
   "فضل",
   "عدو",
-  "اثم"
+  "اثم",
+  "نهر"
  ],
  "open_queue": [
   "اتي",
@@ -367,7 +368,6 @@
   "موت",
   "نبا",
   "نفس",
-  "نهر",
   "نور",
   "نوس",
   "وقي"
@@ -551,6 +551,14 @@
      "p": 0.0033,
      "stable": true,
      "tier": "قوی",
+     "shared": 7
+    },
+    "نهر→ابد": {
+     "breath": 71,
+     "lift": 15.284,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
      "shared": 7
     }
    },
@@ -3344,9 +3352,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 40
+    },
+    "نهر→تحت": {
+     "breath": 71,
+     "lift": 48.91,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 40
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -3792,9 +3808,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 45
+    },
+    "نهر→جري": {
+     "breath": 71,
+     "lift": 42.987,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 45
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -5144,9 +5168,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 22
+    },
+    "نهر→خلد": {
+     "breath": 71,
+     "lift": 15.64,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 22
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -6760,9 +6792,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 8
+    },
+    "نهر→سخر": {
+     "breath": 71,
+     "lift": 13.974,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -7432,9 +7472,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "نهر→شمس": {
+     "breath": 71,
+     "lift": 19.105,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -8824,6 +8872,14 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "نهر→فوز": {
+     "breath": 71,
+     "lift": 22.643,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
     }
    },
    "mutual_strong": false,
@@ -9000,9 +9056,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "نهر→قمر": {
+     "breath": 71,
+     "lift": 21.163,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -9136,9 +9200,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 42
+    },
+    "نهر→ليل": {
+     "breath": 71,
+     "lift": 31.701,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 42
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -9296,6 +9368,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "نهر",
+   "b": "ولج",
+   "directions": {
+    "نهر→ولج": {
+     "breath": 71,
+     "lift": 33.965,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
