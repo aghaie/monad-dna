@@ -1,0 +1,1439 @@
+{
+ "breath_number": 89,
+ "deliberation": [
+  {
+   "root": "مسس",
+   "attestation": 61
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نصر",
+   "attestation": 158
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "مسس",
+ "attestation": 61,
+ "ayat": 57,
+ "top": [
+  {
+   "root": "ضرر",
+   "shared": 17,
+   "expected": 0.64,
+   "lift": 26.569,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ذوق",
+   "shared": 5,
+   "expected": 0.56,
+   "lift": 8.968,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "انس",
+   "shared": 7,
+   "expected": 0.85,
+   "lift": 8.235,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "الم",
+   "shared": 5,
+   "expected": 0.67,
+   "lift": 7.493,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سوا",
+   "shared": 9,
+   "expected": 1.38,
+   "lift": 6.521,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نعم",
+   "shared": 7,
+   "expected": 1.16,
+   "lift": 6.03,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "فضل",
+   "shared": 5,
+   "expected": 0.84,
+   "lift": 5.946,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عذب",
+   "shared": 14,
+   "expected": 3.07,
+   "lift": 4.558,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نور",
+   "shared": 7,
+   "expected": 1.59,
+   "lift": 4.401,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دعو",
+   "shared": 7,
+   "expected": 1.66,
+   "lift": 4.208,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "ضرر",
+  "ذوق",
+  "انس",
+  "الم",
+  "سوا",
+  "نعم",
+  "فضل",
+  "دعو"
+ ],
+ "one_way": [
+  "عذب",
+  "نور"
+ ],
+ "neighbor_view": {
+  "ضرر": {
+   "root": "مسس",
+   "shared": 17,
+   "expected": 0.64,
+   "lift": 26.569,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ذوق": {
+   "root": "مسس",
+   "shared": 5,
+   "expected": 0.56,
+   "lift": 8.968,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "انس": {
+   "root": "مسس",
+   "shared": 7,
+   "expected": 0.85,
+   "lift": 8.235,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "الم": {
+   "root": "مسس",
+   "shared": 5,
+   "expected": 0.67,
+   "lift": 7.493,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "سوا": {
+   "root": "مسس",
+   "shared": 9,
+   "expected": 1.38,
+   "lift": 6.521,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نعم": {
+   "root": "مسس",
+   "shared": 7,
+   "expected": 1.16,
+   "lift": 6.03,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "فضل": {
+   "root": "مسس",
+   "shared": 5,
+   "expected": 0.84,
+   "lift": 5.946,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عذب": null,
+  "نور": null,
+  "دعو": {
+   "root": "مسس",
+   "shared": 7,
+   "expected": 1.66,
+   "lift": 4.208,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "مسس↔فلح",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔صلو",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔زكو",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔اذن",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔نفق",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔سرر",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.54,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "مسس↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔رزق",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔بسط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔طيب",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔حلل",
+   "shared": 2,
+   "expected": 0.39,
+   "lift": 5.09,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "مسس↔حرم",
+   "shared": 1,
+   "expected": 0.65,
+   "lift": 1.54,
+   "p_perm": 0.4884
+  },
+  {
+   "pair": "مسس↔سجد",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔اكل",
+   "shared": 3,
+   "expected": 0.92,
+   "lift": 3.25,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "مسس↔طوع",
+   "shared": 1,
+   "expected": 1.08,
+   "lift": 0.93,
+   "p_perm": 0.6844
+  },
+  {
+   "pair": "مسس↔شهد",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.89,
+   "p_perm": 0.6645
+  },
+  {
+   "pair": "مسس↔كبر",
+   "shared": 1,
+   "expected": 1.4,
+   "lift": 0.72,
+   "p_perm": 0.7741
+  },
+  {
+   "pair": "مسس↔حيي",
+   "shared": 1,
+   "expected": 1.47,
+   "lift": 0.68,
+   "p_perm": 0.8306
+  },
+  {
+   "pair": "مسس↔خير",
+   "shared": 5,
+   "expected": 1.63,
+   "lift": 3.07,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "مسس↔ولي",
+   "shared": 2,
+   "expected": 1.85,
+   "lift": 1.08,
+   "p_perm": 0.5382
+  },
+  {
+   "pair": "مسس↔عمل",
+   "shared": 5,
+   "expected": 2.86,
+   "lift": 1.75,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "مسس↔رسل",
+   "shared": 3,
+   "expected": 3.92,
+   "lift": 0.77,
+   "p_perm": 0.7375
+  },
+  {
+   "pair": "مسس↔اله",
+   "shared": 26,
+   "expected": 17.17,
+   "lift": 1.51,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "مسس↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔بقي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔عدل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔كفي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔دبر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔زين",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.54,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "مسس↔عقل",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔خبر",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.1,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "مسس↔غيب",
+   "shared": 1,
+   "expected": 0.54,
+   "lift": 1.85,
+   "p_perm": 0.4751
+  },
+  {
+   "pair": "مسس↔جرم",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔عرف",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.76,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "مسس↔نكر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔علو",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔متع",
+   "shared": 4,
+   "expected": 0.59,
+   "lift": 6.73,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "مسس↔حين",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔وكل",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔قلل",
+   "shared": 1,
+   "expected": 0.68,
+   "lift": 1.48,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "مسس↔ثمن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔شري",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔شكر",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔فلك",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔بحر",
+   "shared": 1,
+   "expected": 0.37,
+   "lift": 2.74,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "مسس↔برر",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.65,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "مسس↔جري",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔ابد",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔فوز",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.05,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "مسس↔سخر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔تحت",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔رضو",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.71,
+   "p_perm": 0.4651
+  },
+  {
+   "pair": "مسس↔نجو",
+   "shared": 2,
+   "expected": 0.69,
+   "lift": 2.92,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "مسس↔خلد",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.27,
+   "p_perm": 0.5648
+  },
+  {
+   "pair": "مسس↔شطن",
+   "shared": 4,
+   "expected": 0.71,
+   "lift": 5.61,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "مسس↔سبح",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔حمد",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔غني",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔مول",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔ليل",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔قمر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔شمس",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔بغي",
+   "shared": 1,
+   "expected": 0.82,
+   "lift": 1.22,
+   "p_perm": 0.5116
+  },
+  {
+   "pair": "مسس↔صحب",
+   "shared": 2,
+   "expected": 0.81,
+   "lift": 2.46,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "مسس↔ولد",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.505
+  },
+  {
+   "pair": "مسس↔فضل",
+   "shared": 5,
+   "expected": 0.84,
+   "lift": 5.95,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "مسس↔عدو",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔اثم",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔نهر",
+   "shared": 0,
+   "expected": 0.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔دخل",
+   "shared": 2,
+   "expected": 1.01,
+   "lift": 1.97,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "مسس↔بوب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔فتح",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔اهل",
+   "shared": 1,
+   "expected": 1.1,
+   "lift": 0.91,
+   "p_perm": 0.6545
+  },
+  {
+   "pair": "مسس↔قري",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔هلك",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔قرن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔عظم",
+   "shared": 4,
+   "expected": 1.16,
+   "lift": 3.45,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "مسس↔اجر",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔قدر",
+   "shared": 2,
+   "expected": 1.11,
+   "lift": 1.81,
+   "p_perm": 0.3189
+  },
+  {
+   "pair": "مسس↔دنو",
+   "shared": 1,
+   "expected": 1.17,
+   "lift": 0.85,
+   "p_perm": 0.7276
+  },
+  {
+   "pair": "مسس↔خزي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔دون",
+   "shared": 1,
+   "expected": 1.3,
+   "lift": 0.77,
+   "p_perm": 0.7508
+  },
+  {
+   "pair": "مسس↔نفع",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.23,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "مسس↔ضرر",
+   "shared": 17,
+   "expected": 0.64,
+   "lift": 26.57,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "مسس↔كشف",
+   "shared": 3,
+   "expected": 0.18,
+   "lift": 16.41,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "مسس↔فلح",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔صلو",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔زكو",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔اذن",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔نفق",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔رزق",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔بسط",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔طيب",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔سجد",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔بقي",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔عدل",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔كفي",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔دبر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔عقل",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔جرم",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔نكر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔علو",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔حين",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔وكل",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔ثمن",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔شري",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔شكر",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔فلك",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔جري",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔ابد",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔سخر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔تحت",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔سبح",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔حمد",
+   "shared": 0,
+   "expected": 0.56,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔غني",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔مول",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔ليل",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔قمر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔شمس",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔عدو",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔اثم",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔نهر",
+   "shared": 0,
+   "expected": 0.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔بوب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔فتح",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔قري",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔هلك",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔قرن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔اجر",
+   "shared": 0,
+   "expected": 0.9,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "مسس↔خزي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "39:8",
+   "degree": 5,
+   "roots_present": [
+    "ضرر",
+    "انس",
+    "نعم",
+    "نور",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "11:10",
+   "degree": 4,
+   "roots_present": [
+    "ضرر",
+    "ذوق",
+    "سوا",
+    "نعم"
+   ]
+  },
+  {
+   "ayah": "39:49",
+   "degree": 4,
+   "roots_present": [
+    "ضرر",
+    "انس",
+    "نعم",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "3:174",
+   "degree": 3,
+   "roots_present": [
+    "سوا",
+    "نعم",
+    "فضل"
+   ]
+  },
+  {
+   "ayah": "7:73",
+   "degree": 3,
+   "roots_present": [
+    "الم",
+    "سوا",
+    "عذب"
+   ]
+  },
+  {
+   "ayah": "10:12",
+   "degree": 3,
+   "roots_present": [
+    "ضرر",
+    "انس",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "17:67",
+   "degree": 3,
+   "roots_present": [
+    "ضرر",
+    "انس",
+    "دعو"
+   ]
+  },
+  {
+   "ayah": "30:33",
+   "degree": 3,
+   "roots_present": [
+    "ضرر",
+    "ذوق",
+    "دعو"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "مسس+ضرر": [
+   "2:214",
+   "3:120",
+   "6:17",
+   "7:95",
+   "7:188",
+   "10:12",
+   "10:21",
+   "10:107",
+   "11:10",
+   "12:88",
+   "16:53",
+   "17:67",
+   "21:83",
+   "30:33",
+   "39:8",
+   "39:49",
+   "41:50"
+  ],
+  "مسس+ذوق": [
+   "10:21",
+   "11:10",
+   "30:33",
+   "41:50",
+   "54:48"
+  ],
+  "مسس+انس": [
+   "10:12",
+   "17:67",
+   "17:83",
+   "39:8",
+   "39:49",
+   "41:49",
+   "41:51"
+  ],
+  "مسس+الم": [
+   "5:73",
+   "7:73",
+   "11:48",
+   "36:18",
+   "58:4"
+  ],
+  "مسس+سوا": [
+   "3:120",
+   "3:174",
+   "7:73",
+   "7:95",
+   "7:188",
+   "11:10",
+   "11:64",
+   "26:156",
+   "39:61"
+  ],
+  "مسس+نعم": [
+   "3:174",
+   "11:10",
+   "16:53",
+   "17:83",
+   "39:8",
+   "39:49",
+   "41:51"
+  ],
+  "مسس+فضل": [
+   "2:237",
+   "3:174",
+   "10:107",
+   "24:14",
+   "35:35"
+  ],
+  "مسس+عذب": [
+   "5:73",
+   "6:49",
+   "7:73",
+   "8:68",
+   "11:48",
+   "11:64",
+   "19:45",
+   "21:46",
+   "24:14",
+   "26:156",
+   "36:18",
+   "38:41",
+   "41:50",
+   "58:4"
+  ],
+  "مسس+نور": [
+   "2:80",
+   "2:275",
+   "3:24",
+   "11:113",
+   "24:35",
+   "39:8",
+   "54:48"
+  ],
+  "مسس+دعو": [
+   "10:12",
+   "17:67",
+   "30:33",
+   "39:8",
+   "39:49",
+   "41:49",
+   "41:51"
+  ],
+  "مسس+حلل": [
+   "2:275",
+   "35:35"
+  ],
+  "مسس+اكل": [
+   "2:275",
+   "7:73",
+   "11:64"
+  ],
+  "مسس+خير": [
+   "6:17",
+   "7:188",
+   "10:107",
+   "41:49",
+   "70:21"
+  ],
+  "مسس+اله": [
+   "2:80",
+   "2:214",
+   "2:237",
+   "2:275",
+   "3:47",
+   "3:120",
+   "3:140",
+   "3:174",
+   "5:73",
+   "6:17",
+   "7:73",
+   "7:188",
+   "8:68",
+   "10:21",
+   "10:107",
+   "11:64",
+   "11:113",
+   "12:88",
+   "16:53",
+   "20:97"
+  ],
+  "مسس+متع": [
+   "2:236",
+   "11:48",
+   "33:49",
+   "39:8"
+  ],
+  "مسس+شطن": [
+   "2:275",
+   "7:201",
+   "19:45",
+   "38:41"
+  ],
+  "مسس+عظم": [
+   "3:174",
+   "8:68",
+   "24:14",
+   "26:156"
+  ],
+  "مسس+كشف": [
+   "6:17",
+   "10:12",
+   "10:107"
+  ]
+ }
+}
