@@ -186,6 +186,7 @@
   "صدر",
   "صرف",
   "صغر",
+  "صلب",
   "صلح",
   "صلو",
   "صلي",
@@ -306,6 +307,7 @@
   "لعن",
   "لغو",
   "لهو",
+  "لون",
   "لوي",
   "ليس",
   "ليل",
@@ -365,6 +367,7 @@
   "وسع",
   "وصف",
   "وصي",
+  "وعد",
   "وفي",
   "وقد",
   "وقر",
@@ -542,7 +545,8 @@
   "نوس",
   "دبب",
   "امر",
-  "قضي"
+  "قضي",
+  "خلف"
  ],
  "open_queue": [
   "اتي",
@@ -552,7 +556,6 @@
   "امن",
   "ايي",
   "بين",
-  "خلف",
   "خلق",
   "ذكر",
   "راي",
@@ -572,8 +575,10 @@
   "كفر",
   "كلل",
   "كون",
+  "لون",
   "نفس",
-  "وقي"
+  "وقي",
+  "يدي"
  ],
  "edges": [
   {
@@ -6706,6 +6711,22 @@
   },
   {
    "a": "بين",
+   "b": "خلف",
+   "directions": {
+    "خلف→بين": {
+     "breath": 164,
+     "lift": 5.328,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 45
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بين",
    "b": "صير",
    "directions": {
     "صير→بين": {
@@ -10818,6 +10839,38 @@
   },
   {
    "a": "خلف",
+   "b": "رضو",
+   "directions": {
+    "خلف→رضو": {
+     "breath": 164,
+     "lift": 5.04,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلف",
+   "b": "صلب",
+   "directions": {
+    "خلف→صلب": {
+     "breath": 164,
+     "lift": 33.599,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلف",
    "b": "قضي",
    "directions": {
     "قضي→خلف": {
@@ -10827,6 +10880,110 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    },
+    "خلف→قضي": {
+     "breath": 164,
+     "lift": 6.378,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خلف",
+   "b": "قطع",
+   "directions": {
+    "خلف→قطع": {
+     "breath": 164,
+     "lift": 7.466,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلف",
+   "b": "كلم",
+   "directions": {
+    "خلف→كلم": {
+     "breath": 164,
+     "lift": 4.543,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلف",
+   "b": "لون",
+   "directions": {
+    "خلف→لون": {
+     "breath": 164,
+     "lift": 46.079,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "خلف",
+   "b": "ليل",
+   "directions": {
+    "خلف→ليل": {
+     "breath": 164,
+     "lift": 4.646,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلف",
+   "b": "وعد",
+   "directions": {
+    "خلف→وعد": {
+     "breath": 164,
+     "lift": 6.616,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خلف",
+   "b": "يدي",
+   "directions": {
+    "خلف→يدي": {
+     "breath": 164,
+     "lift": 10.263,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 21
     }
    },
    "mutual_strong": false,
