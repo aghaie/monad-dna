@@ -375,7 +375,8 @@
   "خزي",
   "دون",
   "نفع",
-  "ضرر"
+  "ضرر",
+  "كشف"
  ],
  "open_queue": [
   "اتي",
@@ -406,7 +407,6 @@
   "قوم",
   "كتب",
   "كذب",
-  "كشف",
   "كون",
   "مسس",
   "ملك",
@@ -6645,6 +6645,22 @@
   },
   {
    "a": "دعو",
+   "b": "كشف",
+   "directions": {
+    "كشف→دعو": {
+     "breath": 88,
+     "lift": 11.992,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "دعو",
    "b": "نجو",
    "directions": {
     "نجو→دعو": {
@@ -9454,9 +9470,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "كشف→ضرر": {
+     "breath": 88,
+     "lift": 40.089,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
