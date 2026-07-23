@@ -67,13 +67,20 @@ def _pick_unlived_root(with_structure):
     ریشهٔ تازه را می‌بلعد)، پس یک نامِ ثابت مثلِ «عنب» دیر یا زود زیسته و
     نامعتبر می‌شود (دقیقاً همین اتفاق برایِ نفسِ ۵۳ افتاد). این تابع همیشه
     یک ریشهٔ واقعاً نزیستهٔ کنونی را برمی‌گزیند — قطعی (اولین مواردِ
-    مرتب‌شده)، نه تصادفی."""
+    مرتب‌شده)، نه تصادفی.
+
+    ROOT_A باید دقیقاً همان معیارِ _expected_unseen_strong_count را داشته
+    باشد (تیرِ «قوی»، نه صرفِ وجودِ top) وگرنه با رشدِ بیشترِ life.db
+    اولین ریشهٔ باساختارِ نزیسته ممکن است فقط «محتمل»/«نامشخص» باشد و
+    هرگز توسط queue-sync-observatory تزریق نشود (این دقیقاً در نفسِ ۱۲۱
+    افتاد — سومین‌بارِ همین کلاس از لغزش)."""
     db = sqlite3.connect("database/life.db")
     lived = {r for (r,) in db.execute("SELECT pursued_root FROM breaths")}
     obs = json.load(open("observatory/observatory.json"))
     if with_structure:
         cands = sorted(e["root"] for e in obs["roots"]
-                       if e["root"] not in lived and e["top"])
+                       if e["root"] not in lived
+                       and any(t["tier"] == "قوی" for t in e["top"]))
     else:
         cands = sorted(r for r in obs["roots_no_structure"] if r not in lived)
     assert cands, "هیچ ریشهٔ نزیستهٔ مناسبی نماند — این خودش نشانه‌ای‌ست"
