@@ -1,0 +1,2184 @@
+{
+ "breath_number": 163,
+ "deliberation": [
+  {
+   "root": "قضي",
+   "attestation": 63
+  },
+  {
+   "root": "اخر",
+   "attestation": 250
+  },
+  {
+   "root": "وقي",
+   "attestation": 258
+  },
+  {
+   "root": "خلق",
+   "attestation": 261
+  },
+  {
+   "root": "اخذ",
+   "attestation": 273
+  },
+  {
+   "root": "عبد",
+   "attestation": 275
+  },
+  {
+   "root": "كذب",
+   "attestation": 282
+  },
+  {
+   "root": "ذكر",
+   "attestation": 292
+  },
+  {
+   "root": "قبل",
+   "attestation": 294
+  },
+  {
+   "root": "نفس",
+   "attestation": 298
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "قضي",
+ "attestation": 63,
+ "ayat": 59,
+ "top": [
+  {
+   "root": "اجل",
+   "shared": 7,
+   "expected": 0.45,
+   "lift": 15.414,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امر",
+   "shared": 24,
+   "expected": 2.14,
+   "lift": 11.224,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كلم",
+   "shared": 5,
+   "expected": 0.67,
+   "lift": 7.443,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خلف",
+   "shared": 7,
+   "expected": 1.1,
+   "lift": 6.378,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بين",
+   "shared": 20,
+   "expected": 4.3,
+   "lift": 4.656,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "جيا",
+   "shared": 7,
+   "expected": 2.48,
+   "lift": 2.824,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نوس",
+   "shared": 6,
+   "expected": 2.13,
+   "lift": 2.819,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حقق",
+   "shared": 7,
+   "expected": 2.49,
+   "lift": 2.813,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ملك",
+   "shared": 5,
+   "expected": 1.81,
+   "lift": 2.767,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ظلم",
+   "shared": 7,
+   "expected": 2.74,
+   "lift": 2.551,
+   "p_perm": 0.0233,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "اجل",
+  "امر",
+  "كلم",
+  "خلف",
+  "بين"
+ ],
+ "one_way": [
+  "جيا",
+  "نوس",
+  "حقق",
+  "ملك",
+  "ظلم"
+ ],
+ "neighbor_view": {
+  "اجل": {
+   "root": "قضي",
+   "shared": 7,
+   "expected": 0.45,
+   "lift": 15.414,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "امر": {
+   "root": "قضي",
+   "shared": 24,
+   "expected": 2.14,
+   "lift": 11.224,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "كلم": {
+   "root": "قضي",
+   "shared": 5,
+   "expected": 0.67,
+   "lift": 7.443,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خلف": {
+   "root": "قضي",
+   "shared": 7,
+   "expected": 1.1,
+   "lift": 6.378,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بين": {
+   "root": "قضي",
+   "shared": 20,
+   "expected": 4.3,
+   "lift": 4.656,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "جيا": null,
+  "نوس": null,
+  "حقق": null,
+  "ملك": null,
+  "ظلم": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "قضي↔فلح",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.64,
+   "p_perm": 0.3355
+  },
+  {
+   "pair": "قضي↔صلو",
+   "shared": 2,
+   "expected": 0.85,
+   "lift": 2.35,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "قضي↔زكو",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اذن",
+   "shared": 2,
+   "expected": 0.85,
+   "lift": 2.35,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "قضي↔نفق",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سرر",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.46,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "قضي↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔رزق",
+   "shared": 1,
+   "expected": 1.03,
+   "lift": 0.97,
+   "p_perm": 0.6312
+  },
+  {
+   "pair": "قضي↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔طيب",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.3,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "قضي↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔حلل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔حرم",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سجد",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اكل",
+   "shared": 2,
+   "expected": 0.96,
+   "lift": 2.09,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "قضي↔طوع",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شهد",
+   "shared": 2,
+   "expected": 1.16,
+   "lift": 1.72,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "قضي↔كبر",
+   "shared": 3,
+   "expected": 1.45,
+   "lift": 2.07,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "قضي↔حيي",
+   "shared": 3,
+   "expected": 1.52,
+   "lift": 1.97,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "قضي↔خير",
+   "shared": 2,
+   "expected": 1.68,
+   "lift": 1.19,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "قضي↔ولي",
+   "shared": 1,
+   "expected": 1.91,
+   "lift": 0.52,
+   "p_perm": 0.8505
+  },
+  {
+   "pair": "قضي↔عمل",
+   "shared": 2,
+   "expected": 2.96,
+   "lift": 0.68,
+   "p_perm": 0.7874
+  },
+  {
+   "pair": "قضي↔رسل",
+   "shared": 4,
+   "expected": 4.06,
+   "lift": 0.99,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "قضي↔اله",
+   "shared": 23,
+   "expected": 17.78,
+   "lift": 1.29,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "قضي↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بقي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔كفي",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔دبر",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.4,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "قضي↔زين",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.46,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "قضي↔عقل",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔خبر",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.03,
+   "p_perm": 0.3455
+  },
+  {
+   "pair": "قضي↔غيب",
+   "shared": 1,
+   "expected": 0.56,
+   "lift": 1.79,
+   "p_perm": 0.485
+  },
+  {
+   "pair": "قضي↔جرم",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عرف",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نكر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔علو",
+   "shared": 2,
+   "expected": 0.64,
+   "lift": 3.11,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "قضي↔متع",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔حين",
+   "shared": 2,
+   "expected": 0.31,
+   "lift": 6.41,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "قضي↔وكل",
+   "shared": 2,
+   "expected": 0.58,
+   "lift": 3.47,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "قضي↔قلل",
+   "shared": 1,
+   "expected": 0.7,
+   "lift": 1.43,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "قضي↔ثمن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شري",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شكر",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فلك",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بحر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔برر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔جري",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ابد",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فوز",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سخر",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔تحت",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔رضو",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نجو",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔خلد",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شطن",
+   "shared": 2,
+   "expected": 0.74,
+   "lift": 2.71,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "قضي↔سبح",
+   "shared": 2,
+   "expected": 0.82,
+   "lift": 2.43,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "قضي↔حمد",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.73,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "قضي↔غني",
+   "shared": 1,
+   "expected": 0.68,
+   "lift": 1.47,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "قضي↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔مول",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ليل",
+   "shared": 1,
+   "expected": 0.77,
+   "lift": 1.3,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "قضي↔قمر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شمس",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بغي",
+   "shared": 3,
+   "expected": 0.85,
+   "lift": 3.52,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "قضي↔صحب",
+   "shared": 1,
+   "expected": 0.84,
+   "lift": 1.19,
+   "p_perm": 0.5847
+  },
+  {
+   "pair": "قضي↔ولد",
+   "shared": 3,
+   "expected": 0.76,
+   "lift": 3.96,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "قضي↔فضل",
+   "shared": 1,
+   "expected": 0.87,
+   "lift": 1.15,
+   "p_perm": 0.5748
+  },
+  {
+   "pair": "قضي↔عدو",
+   "shared": 3,
+   "expected": 0.87,
+   "lift": 3.45,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "قضي↔اثم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نهر",
+   "shared": 2,
+   "expected": 0.97,
+   "lift": 2.07,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "قضي↔دخل",
+   "shared": 2,
+   "expected": 1.05,
+   "lift": 1.9,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "قضي↔بوب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فتح",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اهل",
+   "shared": 2,
+   "expected": 1.14,
+   "lift": 1.76,
+   "p_perm": 0.3455
+  },
+  {
+   "pair": "قضي↔قري",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔هلك",
+   "shared": 1,
+   "expected": 0.6,
+   "lift": 1.68,
+   "p_perm": 0.4252
+  },
+  {
+   "pair": "قضي↔قرن",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عظم",
+   "shared": 0,
+   "expected": 1.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اجر",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔قدر",
+   "shared": 1,
+   "expected": 1.14,
+   "lift": 0.87,
+   "p_perm": 0.6944
+  },
+  {
+   "pair": "قضي↔دنو",
+   "shared": 4,
+   "expected": 1.21,
+   "lift": 3.3,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "قضي↔خزي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔دون",
+   "shared": 1,
+   "expected": 1.34,
+   "lift": 0.74,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "قضي↔نفع",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ضرر",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔كشف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔مسس",
+   "shared": 1,
+   "expected": 0.54,
+   "lift": 1.85,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "قضي↔بصر",
+   "shared": 1,
+   "expected": 1.32,
+   "lift": 0.76,
+   "p_perm": 0.7508
+  },
+  {
+   "pair": "قضي↔فاد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عمي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نصر",
+   "shared": 0,
+   "expected": 1.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔هجر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اوي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔صير",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔باس",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نبا",
+   "shared": 3,
+   "expected": 1.43,
+   "lift": 2.1,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "قضي↔رجع",
+   "shared": 3,
+   "expected": 0.97,
+   "lift": 3.08,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "قضي↔ذوق",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔موت",
+   "shared": 4,
+   "expected": 1.35,
+   "lift": 2.96,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "قضي↔بعث",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.65,
+   "p_perm": 0.4751
+  },
+  {
+   "pair": "قضي↔نظر",
+   "shared": 4,
+   "expected": 1.09,
+   "lift": 3.68,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "قضي↔سير",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.23,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "قضي↔عقب",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔كيف",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شدد",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.07,
+   "p_perm": 0.6645
+  },
+  {
+   "pair": "قضي↔قوي",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عزز",
+   "shared": 2,
+   "expected": 1.1,
+   "lift": 1.82,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "قضي↔قلب",
+   "shared": 0,
+   "expected": 1.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔قسو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔طمن",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 8.81,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "قضي↔مرض",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شرك",
+   "shared": 3,
+   "expected": 1.35,
+   "lift": 2.22,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "قضي↔برا",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اول",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔لبب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سطر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔مرر",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "قضي↔ابو",
+   "shared": 2,
+   "expected": 0.98,
+   "lift": 2.03,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "قضي↔اخو",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔وجد",
+   "shared": 2,
+   "expected": 0.94,
+   "lift": 2.14,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "قضي↔صلح",
+   "shared": 0,
+   "expected": 1.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فسد",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.25,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "قضي↔توب",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سمع",
+   "shared": 3,
+   "expected": 1.54,
+   "lift": 1.95,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "قضي↔صمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نور",
+   "shared": 3,
+   "expected": 1.65,
+   "lift": 1.82,
+   "p_perm": 0.196
+  },
+  {
+   "pair": "قضي↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔صلي",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.23,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "قضي↔حسن",
+   "shared": 1,
+   "expected": 1.67,
+   "lift": 0.6,
+   "p_perm": 0.7973
+  },
+  {
+   "pair": "قضي↔صوب",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔جزي",
+   "shared": 1,
+   "expected": 1.03,
+   "lift": 0.97,
+   "p_perm": 0.6213
+  },
+  {
+   "pair": "قضي↔كسب",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سوا",
+   "shared": 0,
+   "expected": 1.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بدو",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.64,
+   "p_perm": 0.2392
+  },
+  {
+   "pair": "قضي↔خفي",
+   "shared": 1,
+   "expected": 0.29,
+   "lift": 3.41,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "قضي↔مثل",
+   "shared": 0,
+   "expected": 1.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ضرب",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عند",
+   "shared": 3,
+   "expected": 1.79,
+   "lift": 1.68,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "قضي↔خزن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ثوب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔جنن",
+   "shared": 2,
+   "expected": 1.85,
+   "lift": 1.08,
+   "p_perm": 0.5947
+  },
+  {
+   "pair": "قضي↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نخل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ملك",
+   "shared": 5,
+   "expected": 1.81,
+   "lift": 2.77,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "قضي↔حكم",
+   "shared": 2,
+   "expected": 1.79,
+   "lift": 1.12,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "قضي↔دعو",
+   "shared": 3,
+   "expected": 1.72,
+   "lift": 1.74,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "قضي↔خلص",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔جوب",
+   "shared": 1,
+   "expected": 0.39,
+   "lift": 2.58,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "قضي↔دين",
+   "shared": 1,
+   "expected": 0.82,
+   "lift": 1.21,
+   "p_perm": 0.5415
+  },
+  {
+   "pair": "قضي↔غفر",
+   "shared": 0,
+   "expected": 1.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔حلم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عفو",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ذنب",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بعد",
+   "shared": 3,
+   "expected": 2.08,
+   "lift": 1.44,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "قضي↔شقق",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ورث",
+   "shared": 1,
+   "expected": 0.32,
+   "lift": 3.11,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "قضي↔نوس",
+   "shared": 6,
+   "expected": 2.13,
+   "lift": 2.82,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "قضي↔دبب",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.87,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "قضي↔امر",
+   "shared": 24,
+   "expected": 2.14,
+   "lift": 11.22,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "قضي↔زكو",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نفق",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔علن",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔خبث",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔حلل",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔حرم",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سجد",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔طوع",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔حبط",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بقي",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عدل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔كفي",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عقل",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔جرم",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عرف",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نكر",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔متع",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ثمن",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شري",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شكر",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فلك",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بحر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔برر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔جري",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ابد",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فوز",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سخر",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔تحت",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔رضو",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نجو",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔خلد",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فقر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔مول",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔قمر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شمس",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اثم",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔بوب",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فتح",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔قري",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔قرن",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عظم",
+   "shared": 0,
+   "expected": 1.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اجر",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ضيع",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔خزي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نفع",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ضرر",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔كشف",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔فاد",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عمي",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نصر",
+   "shared": 0,
+   "expected": 1.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔هجر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اوي",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔صير",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔باس",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ذوق",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عقب",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔كيف",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔قوي",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔قلب",
+   "shared": 0,
+   "expected": 1.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔قسو",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔طبع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔مرض",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔برا",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اول",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔لبب",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سطر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔اخو",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔صلح",
+   "shared": 0,
+   "expected": 1.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔توب",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔صمم",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔وقد",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔صوب",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔كسب",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔سوا",
+   "shared": 0,
+   "expected": 1.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔مثل",
+   "shared": 0,
+   "expected": 1.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ضرب",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔خزن",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ثوب",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عنب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔نخل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔خلص",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔غفر",
+   "shared": 0,
+   "expected": 1.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔حلم",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔عفو",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔ذنب",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قضي↔شقق",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "10:19",
+   "degree": 4,
+   "roots_present": [
+    "كلم",
+    "خلف",
+    "بين",
+    "نوس"
+   ]
+  },
+  {
+   "ayah": "14:22",
+   "degree": 4,
+   "roots_present": [
+    "امر",
+    "خلف",
+    "حقق",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "39:69",
+   "degree": 4,
+   "roots_present": [
+    "بين",
+    "جيا",
+    "حقق",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "42:14",
+   "degree": 4,
+   "roots_present": [
+    "اجل",
+    "كلم",
+    "بين",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "45:17",
+   "degree": 4,
+   "roots_present": [
+    "امر",
+    "خلف",
+    "بين",
+    "جيا"
+   ]
+  },
+  {
+   "ayah": "6:58",
+   "degree": 3,
+   "roots_present": [
+    "امر",
+    "بين",
+    "ظلم"
+   ]
+  },
+  {
+   "ayah": "8:42",
+   "degree": 3,
+   "roots_present": [
+    "امر",
+    "خلف",
+    "بين"
+   ]
+  },
+  {
+   "ayah": "10:47",
+   "degree": 3,
+   "roots_present": [
+    "بين",
+    "جيا",
+    "ظلم"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "قضي+اجل": [
+   "6:2",
+   "6:60",
+   "10:11",
+   "28:28",
+   "28:29",
+   "39:42",
+   "42:14"
+  ],
+  "قضي+امر": [
+   "2:117",
+   "2:210",
+   "3:47",
+   "6:8",
+   "6:58",
+   "8:42",
+   "8:44",
+   "10:71",
+   "11:44",
+   "12:41",
+   "12:68",
+   "14:22",
+   "15:66",
+   "19:21",
+   "19:35",
+   "19:39",
+   "28:44",
+   "33:36",
+   "33:37",
+   "40:68"
+  ],
+  "قضي+كلم": [
+   "10:19",
+   "11:110",
+   "41:45",
+   "42:14",
+   "42:21"
+  ],
+  "قضي+خلف": [
+   "8:42",
+   "10:19",
+   "10:93",
+   "11:110",
+   "14:22",
+   "41:45",
+   "45:17"
+  ],
+  "قضي+بين": [
+   "4:65",
+   "6:58",
+   "8:42",
+   "10:19",
+   "10:47",
+   "10:54",
+   "10:93",
+   "11:110",
+   "20:72",
+   "27:78",
+   "28:15",
+   "28:28",
+   "33:36",
+   "34:14",
+   "39:69",
+   "39:75",
+   "41:45",
+   "42:14",
+   "42:21",
+   "45:17"
+  ],
+  "قضي+جيا": [
+   "10:47",
+   "10:93",
+   "20:72",
+   "39:69",
+   "40:78",
+   "42:14",
+   "45:17"
+  ],
+  "قضي+نوس": [
+   "2:200",
+   "10:11",
+   "10:19",
+   "12:68",
+   "19:21",
+   "33:37"
+  ],
+  "قضي+حقق": [
+   "14:22",
+   "20:114",
+   "33:37",
+   "39:69",
+   "39:75",
+   "40:20",
+   "40:78"
+  ],
+  "قضي+ملك": [
+   "2:210",
+   "6:8",
+   "20:114",
+   "39:75",
+   "43:77"
+  ],
+  "قضي+ظلم": [
+   "6:58",
+   "10:47",
+   "10:54",
+   "11:44",
+   "14:22",
+   "39:69",
+   "42:21"
+  ],
+  "قضي+حين": [
+   "28:15",
+   "39:42"
+  ],
+  "قضي+بغي": [
+   "42:14",
+   "45:17",
+   "62:10"
+  ],
+  "قضي+ولد": [
+   "3:47",
+   "17:23",
+   "19:35"
+  ],
+  "قضي+عدو": [
+   "8:42",
+   "28:15",
+   "28:28"
+  ],
+  "قضي+دنو": [
+   "2:200",
+   "8:42",
+   "20:72",
+   "41:12"
+  ],
+  "قضي+موت": [
+   "34:14",
+   "35:36",
+   "39:42",
+   "40:68"
+  ],
+  "قضي+نظر": [
+   "2:210",
+   "6:8",
+   "10:71",
+   "33:23"
+  ]
+ }
+}

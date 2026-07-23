@@ -195,6 +195,7 @@ b159 = rec("breath_159_ورث.json")
 b160 = rec("breath_160_نوس.json")
 b161 = rec("breath_161_دبب.json")
 b162 = rec("breath_162_امر.json")
+b163 = rec("breath_163_قضي.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -1010,6 +1011,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_162_امر.json",
      "breaths/records/breath_162_امر.json", LOG1,
      "یک قوی پایدار (قضي دوسویه ۱۱٫۲)؛ بدون جفتِ متقابل (قضي پیش‌تر زیسته نبود)؛ عزم دوسویهٔ محتملِ ناپایدار lift=۱۵٫۳؛ ۱۶:۹۰ و ۳۱:۱۷ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: سی‌وپنج صفر", b162["top"]),
+    (163, "تولدِ دوباره", "قضي", "قاعدهٔ صف (خودران)",
+     b163["ayat"], b163["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_163_قضي.json",
+     "breaths/records/breath_163_قضي.json", LOG1,
+     "سه قوی پایدار (امر دوسویه ۱۱٫۲، خلف دوسویه ۶٫۴، بين دوسویه ۴٫۷)؛ جفتِ متقابل: قضي↔امر؛ اجل دوسویهٔ محتملِ ناپایدار lift=۱۵٫۴؛ ۱۰:۱۹ و ۱۴:۲۲ و ۳۹:۶۹ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: هشتادوهفت صفر", b163["top"]),
     # ⚓BREATHS
 ]
 
@@ -1469,6 +1475,8 @@ QUEUE_EVENTS = [
     (161, "pursued", "دبب", "قاعدهٔ صف"),
     (162, "pursued", "امر", "قاعدهٔ صف"),
     (162, "queued", "قضي", "چرخه"),
+    (163, "pursued", "قضي", "قاعدهٔ صف"),
+    (163, "queued", "خلف", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -1636,6 +1644,7 @@ PROJ = [
     (160, b160),
     (161, b161),
     (162, b162),
+    (163, b163),
     # ⚓PROJ
 ]
 
