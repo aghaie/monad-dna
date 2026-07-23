@@ -452,7 +452,8 @@
   "برا",
   "اول",
   "لبب",
-  "سطر"
+  "سطر",
+  "مرر"
  ],
  "open_queue": [
   "ابو",
@@ -468,6 +469,7 @@
   "جنن",
   "حسن",
   "حكم",
+  "خلق",
   "دعو",
   "ذكر",
   "راي",
@@ -486,8 +488,8 @@
   "كتب",
   "كذب",
   "كفر",
+  "كلل",
   "كون",
-  "مرر",
   "ملك",
   "نفس",
   "نور",
@@ -3082,9 +3084,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "مرر→اول": {
+     "breath": 120,
+     "lift": 11.1,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -7806,6 +7816,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "خلق",
+   "b": "مرر",
+   "directions": {
+    "مرر→خلق": {
+     "breath": 120,
+     "lift": 5.364,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "خلق",
@@ -14405,6 +14431,22 @@
     }
    },
    "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "كلل",
+   "b": "مرر",
+   "directions": {
+    "مرر→كلل": {
+     "breath": 120,
+     "lift": 3.853,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
    "best_tier": "قوی"
   },
   {
