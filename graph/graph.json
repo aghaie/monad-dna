@@ -32,6 +32,7 @@
   "بعض",
   "بغي",
   "بقي",
+  "بكر",
   "بلغ",
   "بني",
   "بيت",
@@ -60,6 +61,7 @@
   "حقق",
   "حكم",
   "حلل",
+  "حمد",
   "حيث",
   "حين",
   "حيي",
@@ -142,6 +144,7 @@
   "عدو",
   "عذب",
   "عرف",
+  "عزز",
   "عسي",
   "عصم",
   "عصي",
@@ -226,9 +229,11 @@
   "وجه",
   "وحي",
   "ورث",
+  "وصف",
   "وقر",
   "وقي",
   "وكل",
+  "ولد",
   "ولي",
   "يدي",
   "يوم"
@@ -289,7 +294,8 @@
   "رضو",
   "نجو",
   "خلد",
-  "شطن"
+  "شطن",
+  "سبح"
  ],
  "open_queue": [
   "اتي",
@@ -302,12 +308,12 @@
   "بغي",
   "بين",
   "جنن",
+  "حمد",
   "دخل",
   "دعو",
   "دنو",
   "دون",
   "راي",
-  "سبح",
   "سمو",
   "شرك",
   "شيا",
@@ -330,7 +336,8 @@
   "نبا",
   "نهر",
   "نوس",
-  "وقي"
+  "وقي",
+  "ولد"
  ],
  "edges": [
   {
@@ -2518,6 +2525,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بكر",
+   "b": "سبح",
+   "directions": {
+    "سبح→بكر": {
+     "breath": 57,
+     "lift": 29.866,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بلغ",
    "b": "رسل",
    "directions": {
@@ -3916,6 +3939,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "حمد",
+   "b": "سبح",
+   "directions": {
+    "سبح→حمد": {
+     "breath": 57,
+     "lift": 18.801,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "حيث",
@@ -5512,6 +5551,62 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    },
+    "سبح→سجد": {
+     "breath": 57,
+     "lift": 5.309,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبح",
+   "b": "سمو",
+   "directions": {
+    "سبح→سمو": {
+     "breath": 57,
+     "lift": 4.48,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 22
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبح",
+   "b": "شرك",
+   "directions": {
+    "سبح→شرك": {
+     "breath": 57,
+     "lift": 5.012,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبح",
+   "b": "عزز",
+   "directions": {
+    "سبح→عزز": {
+     "breath": 57,
+     "lift": 4.325,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -5528,6 +5623,62 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "سبح→علو": {
+     "breath": 57,
+     "lift": 9.487,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سبح",
+   "b": "ليل",
+   "directions": {
+    "سبح→ليل": {
+     "breath": 57,
+     "lift": 7.964,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "سبح",
+   "b": "وصف",
+   "directions": {
+    "سبح→وصف": {
+     "breath": 57,
+     "lift": 30.719,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبح",
+   "b": "ولد",
+   "directions": {
+    "سبح→ولد": {
+     "breath": 57,
+     "lift": 6.272,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
    "mutual_strong": false,
