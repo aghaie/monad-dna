@@ -1,0 +1,1410 @@
+{
+ "breath_number": 101,
+ "deliberation": [
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "موت",
+ "attestation": 165,
+ "ayat": 143,
+ "top": [
+  {
+   "root": "لحم",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.804,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حيي",
+   "shared": 65,
+   "expected": 3.69,
+   "lift": 17.606,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ترب",
+   "shared": 6,
+   "expected": 0.5,
+   "lift": 11.893,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بلد",
+   "shared": 5,
+   "expected": 0.44,
+   "lift": 11.476,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعث",
+   "shared": 12,
+   "expected": 1.47,
+   "lift": 8.177,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عقل",
+   "shared": 7,
+   "expected": 1.12,
+   "lift": 6.23,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "موه",
+   "shared": 8,
+   "expected": 1.38,
+   "lift": 5.814,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خرج",
+   "shared": 18,
+   "expected": 3.6,
+   "lift": 5.0,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "احد",
+   "shared": 9,
+   "expected": 1.88,
+   "lift": 4.786,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "روح",
+   "shared": 5,
+   "expected": 1.19,
+   "lift": 4.193,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "لحم",
+  "حيي",
+  "ترب",
+  "بلد",
+  "بعث",
+  "عقل",
+  "موه",
+  "خرج",
+  "احد"
+ ],
+ "one_way": [
+  "روح"
+ ],
+ "neighbor_view": {
+  "لحم": {
+   "root": "موت",
+   "shared": 6,
+   "expected": 0.28,
+   "lift": 21.804,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "حيي": {
+   "root": "موت",
+   "shared": 65,
+   "expected": 3.69,
+   "lift": 17.606,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ترب": {
+   "root": "موت",
+   "shared": 6,
+   "expected": 0.5,
+   "lift": 11.893,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بلد": {
+   "root": "موت",
+   "shared": 5,
+   "expected": 0.44,
+   "lift": 11.476,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعث": {
+   "root": "موت",
+   "shared": 12,
+   "expected": 1.47,
+   "lift": 8.177,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عقل": {
+   "root": "موت",
+   "shared": 7,
+   "expected": 1.12,
+   "lift": 6.23,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "موه": {
+   "root": "موت",
+   "shared": 8,
+   "expected": 1.38,
+   "lift": 5.814,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خرج": {
+   "root": "موت",
+   "shared": 18,
+   "expected": 3.6,
+   "lift": 5.0,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "احد": {
+   "root": "موت",
+   "shared": 9,
+   "expected": 1.88,
+   "lift": 4.786,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "روح": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "موت↔فلح",
+   "shared": 0,
+   "expected": 0.92,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔صلو",
+   "shared": 3,
+   "expected": 2.06,
+   "lift": 1.45,
+   "p_perm": 0.3621
+  },
+  {
+   "pair": "موت↔زكو",
+   "shared": 0,
+   "expected": 1.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔اذن",
+   "shared": 4,
+   "expected": 2.06,
+   "lift": 1.94,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "موت↔نفق",
+   "shared": 1,
+   "expected": 1.97,
+   "lift": 0.51,
+   "p_perm": 0.8505
+  },
+  {
+   "pair": "موت↔سرر",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔علن",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔رزق",
+   "shared": 8,
+   "expected": 2.5,
+   "lift": 3.2,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "موت↔بسط",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.9,
+   "p_perm": 0.4153
+  },
+  {
+   "pair": "موت↔طيب",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔خبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔حلل",
+   "shared": 1,
+   "expected": 0.99,
+   "lift": 1.01,
+   "p_perm": 0.6811
+  },
+  {
+   "pair": "موت↔حرم",
+   "shared": 6,
+   "expected": 1.63,
+   "lift": 3.69,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "موت↔سجد",
+   "shared": 1,
+   "expected": 1.86,
+   "lift": 0.54,
+   "p_perm": 0.8505
+  },
+  {
+   "pair": "موت↔اكل",
+   "shared": 5,
+   "expected": 2.32,
+   "lift": 2.16,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "موت↔طوع",
+   "shared": 2,
+   "expected": 2.71,
+   "lift": 0.74,
+   "p_perm": 0.7608
+  },
+  {
+   "pair": "موت↔شهد",
+   "shared": 5,
+   "expected": 2.82,
+   "lift": 1.77,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "موت↔كبر",
+   "shared": 2,
+   "expected": 3.51,
+   "lift": 0.57,
+   "p_perm": 0.8904
+  },
+  {
+   "pair": "موت↔حيي",
+   "shared": 65,
+   "expected": 3.69,
+   "lift": 17.61,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "موت↔خير",
+   "shared": 5,
+   "expected": 4.08,
+   "lift": 1.22,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "موت↔ولي",
+   "shared": 6,
+   "expected": 4.63,
+   "lift": 1.3,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "موت↔عمل",
+   "shared": 9,
+   "expected": 7.18,
+   "lift": 1.25,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "موت↔رسل",
+   "shared": 9,
+   "expected": 9.84,
+   "lift": 0.91,
+   "p_perm": 0.6478
+  },
+  {
+   "pair": "موت↔اله",
+   "shared": 64,
+   "expected": 43.09,
+   "lift": 1.49,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "موت↔حبط",
+   "shared": 2,
+   "expected": 0.37,
+   "lift": 5.45,
+   "p_perm": 0.0698
+  },
+  {
+   "pair": "موت↔بقي",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔عدل",
+   "shared": 1,
+   "expected": 0.55,
+   "lift": 1.82,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "موت↔كفي",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.36,
+   "p_perm": 0.5515
+  },
+  {
+   "pair": "موت↔دبر",
+   "shared": 3,
+   "expected": 1.01,
+   "lift": 2.97,
+   "p_perm": 0.0764
+  },
+  {
+   "pair": "موت↔زين",
+   "shared": 1,
+   "expected": 0.99,
+   "lift": 1.01,
+   "p_perm": 0.6645
+  },
+  {
+   "pair": "موت↔عقل",
+   "shared": 7,
+   "expected": 1.12,
+   "lift": 6.23,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "موت↔خبر",
+   "shared": 2,
+   "expected": 1.19,
+   "lift": 1.68,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "موت↔غيب",
+   "shared": 3,
+   "expected": 1.35,
+   "lift": 2.22,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "موت↔جرم",
+   "shared": 1,
+   "expected": 1.49,
+   "lift": 0.67,
+   "p_perm": 0.7575
+  },
+  {
+   "pair": "موت↔عرف",
+   "shared": 2,
+   "expected": 1.42,
+   "lift": 1.41,
+   "p_perm": 0.4585
+  },
+  {
+   "pair": "موت↔نكر",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔علو",
+   "shared": 1,
+   "expected": 1.56,
+   "lift": 0.64,
+   "p_perm": 0.8106
+  },
+  {
+   "pair": "موت↔متع",
+   "shared": 2,
+   "expected": 1.49,
+   "lift": 1.34,
+   "p_perm": 0.4086
+  },
+  {
+   "pair": "موت↔حين",
+   "shared": 2,
+   "expected": 0.76,
+   "lift": 2.64,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "موت↔وكل",
+   "shared": 2,
+   "expected": 1.4,
+   "lift": 1.43,
+   "p_perm": 0.4618
+  },
+  {
+   "pair": "موت↔قلل",
+   "shared": 2,
+   "expected": 1.7,
+   "lift": 1.18,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "موت↔ثمن",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.3,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "موت↔شري",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.9,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "موت↔شكر",
+   "shared": 4,
+   "expected": 1.58,
+   "lift": 2.53,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "موت↔فلك",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.74,
+   "p_perm": 0.4718
+  },
+  {
+   "pair": "موت↔بحر",
+   "shared": 1,
+   "expected": 0.92,
+   "lift": 1.09,
+   "p_perm": 0.6312
+  },
+  {
+   "pair": "موت↔برر",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔جري",
+   "shared": 1,
+   "expected": 1.47,
+   "lift": 0.68,
+   "p_perm": 0.7641
+  },
+  {
+   "pair": "موت↔ابد",
+   "shared": 1,
+   "expected": 0.64,
+   "lift": 1.56,
+   "p_perm": 0.5017
+  },
+  {
+   "pair": "موت↔فوز",
+   "shared": 1,
+   "expected": 0.62,
+   "lift": 1.62,
+   "p_perm": 0.4618
+  },
+  {
+   "pair": "موت↔سخر",
+   "shared": 1,
+   "expected": 0.8,
+   "lift": 1.25,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "موت↔تحت",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔رضو",
+   "shared": 1,
+   "expected": 1.47,
+   "lift": 0.68,
+   "p_perm": 0.8007
+  },
+  {
+   "pair": "موت↔نجو",
+   "shared": 0,
+   "expected": 1.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔خلد",
+   "shared": 2,
+   "expected": 1.97,
+   "lift": 1.01,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "موت↔شطن",
+   "shared": 0,
+   "expected": 1.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔سبح",
+   "shared": 2,
+   "expected": 2.0,
+   "lift": 1.0,
+   "p_perm": 0.5748
+  },
+  {
+   "pair": "موت↔حمد",
+   "shared": 2,
+   "expected": 1.4,
+   "lift": 1.43,
+   "p_perm": 0.3854
+  },
+  {
+   "pair": "موت↔غني",
+   "shared": 0,
+   "expected": 1.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔فقر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔مول",
+   "shared": 0,
+   "expected": 1.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔ليل",
+   "shared": 4,
+   "expected": 1.86,
+   "lift": 2.15,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "موت↔قمر",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔شمس",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.36,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "موت↔بغي",
+   "shared": 3,
+   "expected": 2.06,
+   "lift": 1.45,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "موت↔صحب",
+   "shared": 1,
+   "expected": 2.04,
+   "lift": 0.49,
+   "p_perm": 0.8738
+  },
+  {
+   "pair": "موت↔ولد",
+   "shared": 4,
+   "expected": 1.83,
+   "lift": 2.18,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "موت↔فضل",
+   "shared": 1,
+   "expected": 2.11,
+   "lift": 0.47,
+   "p_perm": 0.8738
+  },
+  {
+   "pair": "موت↔عدو",
+   "shared": 3,
+   "expected": 2.11,
+   "lift": 1.42,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "موت↔اثم",
+   "shared": 4,
+   "expected": 0.96,
+   "lift": 4.15,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "موت↔نهر",
+   "shared": 4,
+   "expected": 2.34,
+   "lift": 1.71,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "موت↔دخل",
+   "shared": 1,
+   "expected": 2.55,
+   "lift": 0.39,
+   "p_perm": 0.9169
+  },
+  {
+   "pair": "موت↔بوب",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔فتح",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔اهل",
+   "shared": 2,
+   "expected": 2.75,
+   "lift": 0.73,
+   "p_perm": 0.7741
+  },
+  {
+   "pair": "موت↔قري",
+   "shared": 1,
+   "expected": 1.24,
+   "lift": 0.81,
+   "p_perm": 0.7043
+  },
+  {
+   "pair": "موت↔هلك",
+   "shared": 1,
+   "expected": 1.44,
+   "lift": 0.69,
+   "p_perm": 0.7442
+  },
+  {
+   "pair": "موت↔قرن",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔عظم",
+   "shared": 6,
+   "expected": 2.91,
+   "lift": 2.06,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "موت↔اجر",
+   "shared": 2,
+   "expected": 2.27,
+   "lift": 0.88,
+   "p_perm": 0.6611
+  },
+  {
+   "pair": "موت↔ضيع",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔قدر",
+   "shared": 10,
+   "expected": 2.77,
+   "lift": 3.6,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "موت↔دنو",
+   "shared": 5,
+   "expected": 2.94,
+   "lift": 1.7,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "موت↔خزي",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔دون",
+   "shared": 5,
+   "expected": 3.26,
+   "lift": 1.54,
+   "p_perm": 0.2724
+  },
+  {
+   "pair": "موت↔نفع",
+   "shared": 3,
+   "expected": 1.12,
+   "lift": 2.67,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "موت↔ضرر",
+   "shared": 6,
+   "expected": 1.61,
+   "lift": 3.74,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "موت↔كشف",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔مسس",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔بصر",
+   "shared": 2,
+   "expected": 3.19,
+   "lift": 0.63,
+   "p_perm": 0.8671
+  },
+  {
+   "pair": "موت↔فاد",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔عمي",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔نصر",
+   "shared": 3,
+   "expected": 3.14,
+   "lift": 0.95,
+   "p_perm": 0.5748
+  },
+  {
+   "pair": "موت↔هجر",
+   "shared": 2,
+   "expected": 0.62,
+   "lift": 3.23,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "موت↔اوي",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔صير",
+   "shared": 1,
+   "expected": 0.67,
+   "lift": 1.5,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "موت↔باس",
+   "shared": 0,
+   "expected": 1.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔نبا",
+   "shared": 3,
+   "expected": 3.46,
+   "lift": 0.87,
+   "p_perm": 0.7243
+  },
+  {
+   "pair": "موت↔رجع",
+   "shared": 8,
+   "expected": 2.36,
+   "lift": 3.39,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "موت↔ذوق",
+   "shared": 5,
+   "expected": 1.4,
+   "lift": 3.57,
+   "p_perm": 0.01
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "موت↔فلح",
+   "shared": 0,
+   "expected": 0.92,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔زكو",
+   "shared": 0,
+   "expected": 1.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔سرر",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔علن",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔طيب",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔خبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔بقي",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔نكر",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔برر",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔تحت",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔نجو",
+   "shared": 0,
+   "expected": 1.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔شطن",
+   "shared": 0,
+   "expected": 1.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔غني",
+   "shared": 0,
+   "expected": 1.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔فقر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔مول",
+   "shared": 0,
+   "expected": 1.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔قمر",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔بوب",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔فتح",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔قرن",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔ضيع",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔خزي",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔كشف",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔مسس",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔فاد",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔عمي",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔اوي",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "موت↔باس",
+   "shared": 0,
+   "expected": 1.54,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:164",
+   "degree": 4,
+   "roots_present": [
+    "حيي",
+    "عقل",
+    "موه",
+    "روح"
+   ]
+  },
+  {
+   "ayah": "7:57",
+   "degree": 4,
+   "roots_present": [
+    "بلد",
+    "موه",
+    "خرج",
+    "روح"
+   ]
+  },
+  {
+   "ayah": "2:259",
+   "degree": 3,
+   "roots_present": [
+    "لحم",
+    "حيي",
+    "بعث"
+   ]
+  },
+  {
+   "ayah": "29:63",
+   "degree": 3,
+   "roots_present": [
+    "حيي",
+    "عقل",
+    "موه"
+   ]
+  },
+  {
+   "ayah": "30:24",
+   "degree": 3,
+   "roots_present": [
+    "حيي",
+    "عقل",
+    "موه"
+   ]
+  },
+  {
+   "ayah": "35:9",
+   "degree": 3,
+   "roots_present": [
+    "حيي",
+    "بلد",
+    "روح"
+   ]
+  },
+  {
+   "ayah": "43:11",
+   "degree": 3,
+   "roots_present": [
+    "بلد",
+    "موه",
+    "خرج"
+   ]
+  },
+  {
+   "ayah": "45:5",
+   "degree": 3,
+   "roots_present": [
+    "حيي",
+    "عقل",
+    "روح"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "موت+لحم": [
+   "2:173",
+   "2:259",
+   "5:3",
+   "6:145",
+   "16:115",
+   "49:12"
+  ],
+  "موت+حيي": [
+   "2:28",
+   "2:73",
+   "2:154",
+   "2:164",
+   "2:243",
+   "2:258",
+   "2:259",
+   "2:260",
+   "3:27",
+   "3:49",
+   "3:156",
+   "3:169",
+   "3:185",
+   "6:95",
+   "6:122",
+   "6:162",
+   "7:25",
+   "7:158",
+   "9:116",
+   "10:31"
+  ],
+  "موت+ترب": [
+   "23:35",
+   "23:82",
+   "37:16",
+   "37:53",
+   "50:3",
+   "56:47"
+  ],
+  "موت+بلد": [
+   "7:57",
+   "25:49",
+   "35:9",
+   "43:11",
+   "50:11"
+  ],
+  "موت+بعث": [
+   "2:56",
+   "2:259",
+   "6:36",
+   "11:7",
+   "16:21",
+   "16:38",
+   "19:15",
+   "19:33",
+   "23:37",
+   "23:82",
+   "37:16",
+   "56:47"
+  ],
+  "موت+عقل": [
+   "2:73",
+   "2:164",
+   "23:80",
+   "29:63",
+   "30:24",
+   "45:5",
+   "57:17"
+  ],
+  "موت+موه": [
+   "2:164",
+   "7:57",
+   "11:7",
+   "16:65",
+   "29:63",
+   "30:24",
+   "41:39",
+   "43:11"
+  ],
+  "موت+خرج": [
+   "2:217",
+   "2:243",
+   "3:27",
+   "4:100",
+   "5:110",
+   "6:93",
+   "6:95",
+   "6:122",
+   "7:25",
+   "7:57",
+   "10:31",
+   "19:66",
+   "23:35",
+   "30:19",
+   "36:33",
+   "40:11",
+   "43:11",
+   "50:11"
+  ],
+  "موت+احد": [
+   "2:180",
+   "3:91",
+   "4:18",
+   "5:106",
+   "6:61",
+   "9:84",
+   "23:99",
+   "49:12",
+   "63:10"
+  ],
+  "موت+روح": [
+   "2:164",
+   "5:110",
+   "7:57",
+   "35:9",
+   "45:5"
+  ],
+  "موت+رزق": [
+   "3:27",
+   "3:169",
+   "10:31",
+   "22:58",
+   "30:40",
+   "45:5",
+   "50:11",
+   "63:10"
+  ],
+  "موت+حرم": [
+   "2:173",
+   "2:217",
+   "5:3",
+   "6:139",
+   "6:145",
+   "16:115"
+  ],
+  "موت+اله": [
+   "2:19",
+   "2:28",
+   "2:73",
+   "2:94",
+   "2:132",
+   "2:133",
+   "2:154",
+   "2:161",
+   "2:164",
+   "2:173",
+   "2:217",
+   "2:243",
+   "2:258",
+   "2:259",
+   "2:260",
+   "3:49",
+   "3:102",
+   "3:119",
+   "3:144",
+   "3:145"
+  ],
+  "موت+اثم": [
+   "2:173",
+   "5:3",
+   "5:106",
+   "49:12"
+  ],
+  "موت+قدر": [
+   "2:259",
+   "22:6",
+   "30:50",
+   "41:39",
+   "42:9",
+   "43:11",
+   "46:33",
+   "56:60",
+   "57:2",
+   "75:40"
+  ],
+  "موت+ضرر": [
+   "2:173",
+   "3:144",
+   "5:3",
+   "6:145",
+   "16:115",
+   "25:3"
+  ],
+  "موت+رجع": [
+   "2:28",
+   "6:36",
+   "10:56",
+   "21:35",
+   "23:99",
+   "29:57",
+   "32:11",
+   "50:3"
+  ],
+  "موت+ذوق": [
+   "3:185",
+   "17:75",
+   "21:35",
+   "29:57",
+   "44:56"
+  ]
+ }
+}
