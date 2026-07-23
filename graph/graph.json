@@ -450,7 +450,8 @@
   "مرض",
   "شرك",
   "برا",
-  "اول"
+  "اول",
+  "لبب"
  ],
  "open_queue": [
   "ابو",
@@ -467,6 +468,7 @@
   "حسن",
   "حكم",
   "دعو",
+  "ذكر",
   "راي",
   "رحم",
   "سطر",
@@ -485,7 +487,6 @@
   "كذب",
   "كفر",
   "كون",
-  "لبب",
   "مرر",
   "ملك",
   "نفس",
@@ -3049,9 +3050,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 16
+    },
+    "لبب→اول": {
+     "breath": 118,
+     "lift": 39.468,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -8583,6 +8592,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ذكر",
+   "b": "لبب",
+   "directions": {
+    "لبب→ذكر": {
+     "breath": 118,
+     "lift": 14.763,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "ذنب",
    "b": "شدد",
    "directions": {
@@ -13111,6 +13136,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "علم",
+   "b": "لبب",
+   "directions": {
+    "لبب→علم": {
+     "breath": 118,
+     "lift": 2.677,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "علو",
    "b": "كبر",
    "directions": {
@@ -14381,6 +14422,22 @@
    },
    "mutual_strong": true,
    "best_tier": "قوی"
+  },
+  {
+   "a": "لبب",
+   "b": "نزل",
+   "directions": {
+    "لبب→نزل": {
+     "breath": 118,
+     "lift": 7.583,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "لحم",
