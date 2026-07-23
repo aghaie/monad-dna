@@ -1,0 +1,1586 @@
+{
+ "breath_number": 102,
+ "deliberation": [
+  {
+   "root": "بعث",
+   "attestation": 67
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "بعث",
+ "attestation": 67,
+ "ayat": 64,
+ "top": [
+  {
+   "root": "لبث",
+   "shared": 5,
+   "expected": 0.28,
+   "lift": 18.044,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "زكو",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.7,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "موت",
+   "shared": 12,
+   "expected": 1.47,
+   "lift": 8.177,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نظر",
+   "shared": 8,
+   "expected": 1.18,
+   "lift": 6.778,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كيف",
+   "shared": 5,
+   "expected": 0.85,
+   "lift": 5.87,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امم",
+   "shared": 6,
+   "expected": 1.11,
+   "lift": 5.413,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعد",
+   "shared": 11,
+   "expected": 2.26,
+   "lift": 4.872,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "يوم",
+   "shared": 18,
+   "expected": 3.87,
+   "lift": 4.652,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عظم",
+   "shared": 6,
+   "expected": 1.3,
+   "lift": 4.603,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نبا",
+   "shared": 6,
+   "expected": 1.55,
+   "lift": 3.872,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "لبث",
+  "زكو",
+  "موت",
+  "نظر",
+  "كيف",
+  "امم",
+  "بعد",
+  "يوم",
+  "نبا"
+ ],
+ "one_way": [
+  "عظم"
+ ],
+ "neighbor_view": {
+  "لبث": {
+   "root": "بعث",
+   "shared": 5,
+   "expected": 0.28,
+   "lift": 18.044,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "زكو": {
+   "root": "بعث",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.7,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "موت": {
+   "root": "بعث",
+   "shared": 12,
+   "expected": 1.47,
+   "lift": 8.177,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "نظر": {
+   "root": "بعث",
+   "shared": 8,
+   "expected": 1.18,
+   "lift": 6.778,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "كيف": {
+   "root": "بعث",
+   "shared": 5,
+   "expected": 0.85,
+   "lift": 5.87,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "امم": {
+   "root": "بعث",
+   "shared": 6,
+   "expected": 1.11,
+   "lift": 5.413,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعد": {
+   "root": "بعث",
+   "shared": 11,
+   "expected": 2.26,
+   "lift": 4.872,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "يوم": {
+   "root": "بعث",
+   "shared": 18,
+   "expected": 3.87,
+   "lift": 4.652,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "عظم": null,
+  "نبا": {
+   "root": "بعث",
+   "shared": 6,
+   "expected": 1.55,
+   "lift": 3.872,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "بعث↔فلح",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔صلو",
+   "shared": 1,
+   "expected": 0.92,
+   "lift": 1.08,
+   "p_perm": 0.608
+  },
+  {
+   "pair": "بعث↔زكو",
+   "shared": 5,
+   "expected": 0.57,
+   "lift": 8.7,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "بعث↔اذن",
+   "shared": 3,
+   "expected": 0.92,
+   "lift": 3.25,
+   "p_perm": 0.0532
+  },
+  {
+   "pair": "بعث↔نفق",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔سرر",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔علن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔رزق",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.89,
+   "p_perm": 0.6944
+  },
+  {
+   "pair": "بعث↔بسط",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.24,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "بعث↔طيب",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔خبث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔حلل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔حرم",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔سجد",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔اكل",
+   "shared": 0,
+   "expected": 1.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔طوع",
+   "shared": 0,
+   "expected": 1.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔شهد",
+   "shared": 3,
+   "expected": 1.26,
+   "lift": 2.38,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "بعث↔كبر",
+   "shared": 1,
+   "expected": 1.57,
+   "lift": 0.64,
+   "p_perm": 0.8007
+  },
+  {
+   "pair": "بعث↔حيي",
+   "shared": 6,
+   "expected": 1.65,
+   "lift": 3.63,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "بعث↔خير",
+   "shared": 0,
+   "expected": 1.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔ولي",
+   "shared": 1,
+   "expected": 2.07,
+   "lift": 0.48,
+   "p_perm": 0.8671
+  },
+  {
+   "pair": "بعث↔عمل",
+   "shared": 5,
+   "expected": 3.21,
+   "lift": 1.56,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "بعث↔رسل",
+   "shared": 12,
+   "expected": 4.4,
+   "lift": 2.73,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "بعث↔اله",
+   "shared": 23,
+   "expected": 19.28,
+   "lift": 1.19,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "بعث↔حبط",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔بقي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عدل",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔كفي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔دبر",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔زين",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عقل",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔خبر",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.87,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "بعث↔غيب",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.65,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "بعث↔جرم",
+   "shared": 1,
+   "expected": 0.67,
+   "lift": 1.5,
+   "p_perm": 0.4784
+  },
+  {
+   "pair": "بعث↔عرف",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نكر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔علو",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔متع",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔حين",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔وكل",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔قلل",
+   "shared": 1,
+   "expected": 0.76,
+   "lift": 1.32,
+   "p_perm": 0.5581
+  },
+  {
+   "pair": "بعث↔ثمن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔شري",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔شكر",
+   "shared": 1,
+   "expected": 0.71,
+   "lift": 1.41,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "بعث↔فلك",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔بحر",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔برر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔جري",
+   "shared": 1,
+   "expected": 0.66,
+   "lift": 1.52,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "بعث↔ابد",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فوز",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔سخر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔تحت",
+   "shared": 2,
+   "expected": 0.51,
+   "lift": 3.9,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "بعث↔رضو",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نجو",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔خلد",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔شطن",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔سبح",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔حمد",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.6,
+   "p_perm": 0.4352
+  },
+  {
+   "pair": "بعث↔غني",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فقر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔مول",
+   "shared": 1,
+   "expected": 0.82,
+   "lift": 1.22,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "بعث↔ليل",
+   "shared": 2,
+   "expected": 0.83,
+   "lift": 2.41,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "بعث↔قمر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔شمس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔بغي",
+   "shared": 1,
+   "expected": 0.92,
+   "lift": 1.08,
+   "p_perm": 0.5349
+  },
+  {
+   "pair": "بعث↔صحب",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔ولد",
+   "shared": 2,
+   "expected": 0.82,
+   "lift": 2.44,
+   "p_perm": 0.1927
+  },
+  {
+   "pair": "بعث↔فضل",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عدو",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.06,
+   "p_perm": 0.6279
+  },
+  {
+   "pair": "بعث↔اثم",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نهر",
+   "shared": 2,
+   "expected": 1.05,
+   "lift": 1.91,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "بعث↔دخل",
+   "shared": 1,
+   "expected": 1.14,
+   "lift": 0.88,
+   "p_perm": 0.6478
+  },
+  {
+   "pair": "بعث↔بوب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فتح",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔اهل",
+   "shared": 2,
+   "expected": 1.23,
+   "lift": 1.62,
+   "p_perm": 0.3754
+  },
+  {
+   "pair": "بعث↔قري",
+   "shared": 3,
+   "expected": 0.55,
+   "lift": 5.41,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "بعث↔هلك",
+   "shared": 2,
+   "expected": 0.65,
+   "lift": 3.09,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "بعث↔قرن",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عظم",
+   "shared": 6,
+   "expected": 1.3,
+   "lift": 4.6,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "بعث↔اجر",
+   "shared": 0,
+   "expected": 1.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔ضيع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔قدر",
+   "shared": 2,
+   "expected": 1.24,
+   "lift": 1.61,
+   "p_perm": 0.3688
+  },
+  {
+   "pair": "بعث↔دنو",
+   "shared": 2,
+   "expected": 1.31,
+   "lift": 1.52,
+   "p_perm": 0.4086
+  },
+  {
+   "pair": "بعث↔خزي",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.06,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "بعث↔دون",
+   "shared": 0,
+   "expected": 1.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نفع",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔ضرر",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔كشف",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔مسس",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔بصر",
+   "shared": 1,
+   "expected": 1.43,
+   "lift": 0.7,
+   "p_perm": 0.7774
+  },
+  {
+   "pair": "بعث↔فاد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عمي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نصر",
+   "shared": 0,
+   "expected": 1.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔هجر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔اوي",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔صير",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔باس",
+   "shared": 2,
+   "expected": 0.69,
+   "lift": 2.91,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "بعث↔نبا",
+   "shared": 6,
+   "expected": 1.55,
+   "lift": 3.87,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "بعث↔رجع",
+   "shared": 2,
+   "expected": 1.06,
+   "lift": 1.89,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "بعث↔ذوق",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.6,
+   "p_perm": 0.4352
+  },
+  {
+   "pair": "بعث↔موت",
+   "shared": 12,
+   "expected": 1.47,
+   "lift": 8.18,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "بعث↔فلح",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نفق",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔سرر",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔علن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔طيب",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔خبث",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔حلل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔حرم",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔سجد",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔اكل",
+   "shared": 0,
+   "expected": 1.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔طوع",
+   "shared": 0,
+   "expected": 1.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔خير",
+   "shared": 0,
+   "expected": 1.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔حبط",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔بقي",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عدل",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔كفي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔دبر",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔زين",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عقل",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عرف",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نكر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔علو",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔متع",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔حين",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔وكل",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔ثمن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔شري",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فلك",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔بحر",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔برر",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔ابد",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فوز",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔سخر",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔رضو",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نجو",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔خلد",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔شطن",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔سبح",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔غني",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فقر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔قمر",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔شمس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔صحب",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فضل",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔اثم",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔بوب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فتح",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔قرن",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔اجر",
+   "shared": 0,
+   "expected": 1.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔ضيع",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔دون",
+   "shared": 0,
+   "expected": 1.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نفع",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔ضرر",
+   "shared": 0,
+   "expected": 0.72,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔كشف",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔مسس",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔فاد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔عمي",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔نصر",
+   "shared": 0,
+   "expected": 1.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔هجر",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔اوي",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "بعث↔صير",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:259",
+   "degree": 7,
+   "roots_present": [
+    "لبث",
+    "موت",
+    "نظر",
+    "كيف",
+    "بعد",
+    "يوم",
+    "عظم"
+   ]
+  },
+  {
+   "ayah": "18:19",
+   "degree": 4,
+   "roots_present": [
+    "لبث",
+    "زكو",
+    "نظر",
+    "يوم"
+   ]
+  },
+  {
+   "ayah": "2:213",
+   "degree": 3,
+   "roots_present": [
+    "امم",
+    "بعد",
+    "نبا"
+   ]
+  },
+  {
+   "ayah": "7:103",
+   "degree": 3,
+   "roots_present": [
+    "نظر",
+    "كيف",
+    "بعد"
+   ]
+  },
+  {
+   "ayah": "11:7",
+   "degree": 3,
+   "roots_present": [
+    "موت",
+    "بعد",
+    "يوم"
+   ]
+  },
+  {
+   "ayah": "16:36",
+   "degree": 3,
+   "roots_present": [
+    "نظر",
+    "كيف",
+    "امم"
+   ]
+  },
+  {
+   "ayah": "2:56",
+   "degree": 2,
+   "roots_present": [
+    "موت",
+    "بعد"
+   ]
+  },
+  {
+   "ayah": "2:246",
+   "degree": 2,
+   "roots_present": [
+    "بعد",
+    "نبا"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "بعث+لبث": [
+   "2:259",
+   "18:12",
+   "18:19",
+   "30:56",
+   "37:144"
+  ],
+  "بعث+زكو": [
+   "2:129",
+   "3:164",
+   "5:12",
+   "18:19",
+   "62:2"
+  ],
+  "بعث+موت": [
+   "2:56",
+   "2:259",
+   "6:36",
+   "11:7",
+   "16:21",
+   "16:38",
+   "19:15",
+   "19:33",
+   "23:37",
+   "23:82",
+   "37:16",
+   "56:47"
+  ],
+  "بعث+نظر": [
+   "2:259",
+   "6:65",
+   "7:14",
+   "7:103",
+   "15:36",
+   "16:36",
+   "18:19",
+   "38:79"
+  ],
+  "بعث+كيف": [
+   "2:259",
+   "5:31",
+   "6:65",
+   "7:103",
+   "16:36"
+  ],
+  "بعث+امم": [
+   "2:213",
+   "16:36",
+   "16:84",
+   "16:89",
+   "28:59",
+   "62:2"
+  ],
+  "بعث+بعد": [
+   "2:56",
+   "2:213",
+   "2:246",
+   "2:259",
+   "5:12",
+   "7:103",
+   "10:74",
+   "10:75",
+   "11:7",
+   "22:5",
+   "40:34"
+  ],
+  "بعث+يوم": [
+   "2:259",
+   "7:14",
+   "7:167",
+   "11:7",
+   "15:36",
+   "16:84",
+   "16:89",
+   "18:19",
+   "19:15",
+   "19:33",
+   "23:16",
+   "23:100",
+   "26:87",
+   "30:56",
+   "37:144",
+   "38:79",
+   "58:6",
+   "58:18"
+  ],
+  "بعث+عظم": [
+   "2:259",
+   "17:49",
+   "17:98",
+   "23:82",
+   "37:16",
+   "56:47"
+  ],
+  "بعث+نبا": [
+   "2:213",
+   "2:246",
+   "2:247",
+   "6:60",
+   "58:6",
+   "64:7"
+  ],
+  "بعث+حيي": [
+   "2:259",
+   "6:29",
+   "16:21",
+   "19:15",
+   "19:33",
+   "23:37"
+  ],
+  "بعث+رسل": [
+   "2:129",
+   "3:164",
+   "5:12",
+   "10:74",
+   "16:36",
+   "17:15",
+   "17:94",
+   "25:41",
+   "28:59",
+   "36:52",
+   "40:34",
+   "62:2"
+  ],
+  "بعث+قري": [
+   "2:259",
+   "25:51",
+   "28:59"
+  ]
+ }
+}

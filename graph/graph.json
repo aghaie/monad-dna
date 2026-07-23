@@ -241,6 +241,7 @@
   "كلم",
   "كون",
   "كيف",
+  "لبث",
   "لحم",
   "لطف",
   "لعب",
@@ -270,6 +271,7 @@
   "نسو",
   "نصح",
   "نصر",
+  "نظر",
   "نعم",
   "نفس",
   "نفع",
@@ -406,7 +408,8 @@
   "نبا",
   "رجع",
   "ذوق",
-  "موت"
+  "موت",
+  "بعث"
  ],
  "open_queue": [
   "اتي",
@@ -416,7 +419,6 @@
   "امن",
   "اول",
   "ايي",
-  "بعث",
   "بعد",
   "بين",
   "جنن",
@@ -442,6 +444,7 @@
   "كفر",
   "كون",
   "ملك",
+  "نظر",
   "نفس",
   "نور",
   "نوس",
@@ -2290,6 +2293,22 @@
   },
   {
    "a": "امم",
+   "b": "بعث",
+   "directions": {
+    "بعث→امم": {
+     "breath": 102,
+     "lift": 5.413,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "امم",
    "b": "رجع",
    "directions": {
     "رجع→امم": {
@@ -3770,11 +3789,83 @@
   },
   {
    "a": "بعث",
+   "b": "بعد",
+   "directions": {
+    "بعث→بعد": {
+     "breath": 102,
+     "lift": 4.872,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بعث",
    "b": "زكو",
    "directions": {
     "زكو→بعث": {
      "breath": 3,
      "lift": 8.7,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "بعث→زكو": {
+     "breath": 102,
+     "lift": 8.7,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعث",
+   "b": "عظم",
+   "directions": {
+    "بعث→عظم": {
+     "breath": 102,
+     "lift": 4.603,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعث",
+   "b": "كيف",
+   "directions": {
+    "بعث→كيف": {
+     "breath": 102,
+     "lift": 5.87,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعث",
+   "b": "لبث",
+   "directions": {
+    "بعث→لبث": {
+     "breath": 102,
+     "lift": 18.044,
      "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
@@ -3795,9 +3886,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 12
+    },
+    "بعث→موت": {
+     "breath": 102,
+     "lift": 8.177,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -3811,6 +3910,46 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    },
+    "بعث→نبا": {
+     "breath": 102,
+     "lift": 3.872,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعث",
+   "b": "نظر",
+   "directions": {
+    "بعث→نظر": {
+     "breath": 102,
+     "lift": 6.778,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "بعث",
+   "b": "يوم",
+   "directions": {
+    "بعث→يوم": {
+     "breath": 102,
+     "lift": 4.652,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 18
     }
    },
    "mutual_strong": false,
