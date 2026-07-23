@@ -179,6 +179,7 @@ b143 = rec("breath_143_ثوب.json")
 b144 = rec("breath_144_جنن.json")
 b145 = rec("breath_145_عنب.json")
 b146 = rec("breath_146_نخل.json")
+b147 = rec("breath_147_ملك.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -914,6 +915,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_146_نخل.json",
      "breaths/records/breath_146_نخل.json", LOG1,
      "دو قوی پایدار (عنب دوسویه ۲۵۵٫۱، جنن دوسویه ۱۲٫۷)؛ دو جفتِ متقابل: نخل↔عنب، نخل↔جنن؛ زرع دوسویهٔ محتملِ ناپایدار lift=۱۲۹٫۹؛ ۶:۹۹ و ۱۳:۴ و ۱۶:۱۱ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: صدوبیست صفر", b146["top"]),
+    (147, "تولدِ دوباره", "ملك", "قاعدهٔ صف (خودران)",
+     b147["ayat"], b147["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_147_ملك.json",
+     "breaths/records/breath_147_ملك.json", LOG1,
+     "دو قوی پایدار (نفع دوسویه ۶٫۷، ضرر دوسویه ۵٫۶)؛ دو جفتِ متقابل: ملك↔نفع، ملك↔ضرر؛ يمن دوسویهٔ محتملِ ناپایدار lift=۷٫۳؛ ۴:۳ و ۴:۲۴ و ۲۴:۵۸ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: بیست‌وسه صفر", b147["top"]),
     # ⚓BREATHS
 ]
 
@@ -1346,6 +1352,7 @@ QUEUE_EVENTS = [
     (144, "queued", "نخل", "چرخه"),
     (145, "pursued", "عنب", "قاعدهٔ صف"),
     (146, "pursued", "نخل", "قاعدهٔ صف"),
+    (147, "pursued", "ملك", "قاعدهٔ صف"),
     # ⚓QUEUE
 ]
 
@@ -1497,6 +1504,7 @@ PROJ = [
     (144, b144),
     (145, b145),
     (146, b146),
+    (147, b147),
     # ⚓PROJ
 ]
 

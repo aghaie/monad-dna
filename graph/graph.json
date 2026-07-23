@@ -20,6 +20,7 @@
   "امر",
   "امم",
   "امن",
+  "انث",
   "انس",
   "اهل",
   "اوب",
@@ -509,7 +510,8 @@
   "ثوب",
   "جنن",
   "عنب",
-  "نخل"
+  "نخل",
+  "ملك"
  ],
  "open_queue": [
   "اتي",
@@ -542,7 +544,6 @@
   "كفر",
   "كلل",
   "كون",
-  "ملك",
   "نفس",
   "نوس",
   "وقي"
@@ -3311,6 +3312,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "انث",
+   "b": "ملك",
+   "directions": {
+    "ملك→انث": {
+     "breath": 147,
+     "lift": 6.279,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -6750,6 +6767,22 @@
   },
   {
    "a": "ثلث",
+   "b": "ملك",
+   "directions": {
+    "ملك→ثلث": {
+     "breath": 147,
+     "lift": 5.83,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ثلث",
    "b": "ولد",
    "directions": {
     "ولد→ثلث": {
@@ -7607,6 +7640,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جنح",
+   "b": "ملك",
+   "directions": {
+    "ملك→جنح": {
+     "breath": 147,
+     "lift": 5.101,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -8678,6 +8727,14 @@
      "p": 0.0033,
      "stable": true,
      "tier": "قوی",
+     "shared": 8
+    },
+    "ملك→حمد": {
+     "breath": 147,
+     "lift": 4.282,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
      "shared": 8
     }
    },
@@ -13478,6 +13535,22 @@
   },
   {
    "a": "شفع",
+   "b": "ملك",
+   "directions": {
+    "ملك→شفع": {
+     "breath": 147,
+     "lift": 6.279,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "شفع",
    "b": "نفع",
    "directions": {
     "نفع→شفع": {
@@ -14399,6 +14472,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    },
+    "ملك→صير": {
+     "breath": 147,
+     "lift": 5.629,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -14623,10 +14704,18 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 12
+    },
+    "ملك→ضرر": {
+     "breath": 147,
+     "lift": 5.597,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 12
     }
    },
    "mutual_strong": false,
-   "best_tier": "محتمل"
+   "best_tier": "قوی"
   },
   {
    "a": "ضرر",
@@ -17470,6 +17559,22 @@
   },
   {
    "a": "ملك",
+   "b": "نسو",
+   "directions": {
+    "ملك→نسو": {
+     "breath": 147,
+     "lift": 4.312,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ملك",
    "b": "نفع",
    "directions": {
     "نفع→ملك": {
@@ -17479,10 +17584,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "ملك→نفع": {
+     "breath": 147,
+     "lift": 6.663,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ملك",
+   "b": "يمن",
+   "directions": {
+    "ملك→يمن": {
+     "breath": 147,
+     "lift": 7.255,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "موت",
