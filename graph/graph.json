@@ -133,6 +133,7 @@
   "ركع",
   "روح",
   "رود",
+  "زرع",
   "زعم",
   "زكو",
   "زوج",
@@ -507,7 +508,8 @@
   "خزن",
   "ثوب",
   "جنن",
-  "عنب"
+  "عنب",
+  "نخل"
  ],
  "open_queue": [
   "اتي",
@@ -541,7 +543,6 @@
   "كلل",
   "كون",
   "ملك",
-  "نخل",
   "نفس",
   "نوس",
   "وقي"
@@ -4005,6 +4006,22 @@
   },
   {
    "a": "ايي",
+   "b": "نخل",
+   "directions": {
+    "نخل→ايي": {
+     "breath": 146,
+     "lift": 4.416,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ايي",
    "b": "هلك",
    "directions": {
     "هلك→ايي": {
@@ -6780,6 +6797,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "ثمر",
+   "b": "نخل",
+   "directions": {
+    "نخل→ثمر": {
+     "breath": 146,
+     "lift": 70.864,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "ثمن",
    "b": "شري",
    "directions": {
@@ -7734,9 +7767,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 8
+    },
+    "نخل→جنن": {
+     "breath": 146,
+     "lift": 12.727,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -11579,6 +11620,22 @@
      "breath": 109,
      "lift": 2.24,
      "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "زرع",
+   "b": "نخل",
+   "directions": {
+    "نخل→زرع": {
+     "breath": 146,
+     "lift": 129.917,
+     "p": 0.0033,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -15766,9 +15823,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    },
+    "نخل→عنب": {
+     "breath": 146,
+     "lift": 255.109,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -16914,6 +16979,22 @@
    },
    "mutual_strong": true,
    "best_tier": "قوی"
+  },
+  {
+   "a": "قوم",
+   "b": "نخل",
+   "directions": {
+    "نخل→قوم": {
+     "breath": 146,
+     "lift": 2.611,
+     "p": 0.0498,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "قوم",
