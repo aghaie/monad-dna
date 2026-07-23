@@ -444,7 +444,8 @@
   "طبع",
   "طمن",
   "مرض",
-  "شرك"
+  "شرك",
+  "برا"
  ],
  "open_queue": [
   "اتي",
@@ -455,7 +456,6 @@
   "امن",
   "اول",
   "ايي",
-  "برا",
   "بعد",
   "بين",
   "جنن",
@@ -1953,6 +1953,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
+   "b": "برا",
+   "directions": {
+    "برا→اله": {
+     "breath": 116,
+     "lift": 1.659,
+     "p": 0.0266,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
     }
    },
    "mutual_strong": false,
@@ -3592,12 +3608,84 @@
   },
   {
    "a": "برا",
+   "b": "بين",
+   "directions": {
+    "برا→بين": {
+     "breath": 116,
+     "lift": 2.453,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "برا",
    "b": "شرك",
    "directions": {
     "شرك→برا": {
      "breath": 115,
      "lift": 9.345,
      "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    },
+    "برا→شرك": {
+     "breath": 116,
+     "lift": 9.345,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برا",
+   "b": "عمل",
+   "directions": {
+    "برا→عمل": {
+     "breath": 116,
+     "lift": 3.558,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "برا",
+   "b": "قول",
+   "directions": {
+    "برا→قول": {
+     "breath": 116,
+     "lift": 2.577,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "برا",
+   "b": "كفر",
+   "directions": {
+    "برا→كفر": {
+     "breath": 116,
+     "lift": 2.874,
+     "p": 0.01,
      "stable": true,
      "tier": "قوی",
      "shared": 6
