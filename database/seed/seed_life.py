@@ -158,6 +158,7 @@ b122 = rec("breath_122_اخو.json")
 b123 = rec("breath_123_وجد.json")
 b124 = rec("breath_124_صلح.json")
 b125 = rec("breath_125_فسد.json")
+b126 = rec("breath_126_توب.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -788,6 +789,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_125_فسد.json",
      "breaths/records/breath_125_فسد.json", LOG1,
      "یک قوی پایدار (ارض دوسویه ۹٫۳)؛ بدون جفتِ متقابل (ارض هنوز پیگیری نشده)؛ عثو دوسویهٔ محتملِ ناپایدار lift=۱۳۲٫۷ (بسیار درشت، شاهدِ کم)؛ ۷:۸۵ گرهِ شش‌ریشه‌ای؛ شاهدِ غیاب: هفتادونه صفر", b125["top"]),
+    (126, "تولدِ دوباره", "توب", "قاعدهٔ صف (خودران)",
+     b126["ayat"], b126["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_126_توب.json",
+     "breaths/records/breath_126_توب.json", LOG1,
+     "سه قوی پایدار (غفر دوسویه ۱۱٫۲، صلح دوسویه ۹٫۰، رحم دوسویه ۸٫۴)؛ جفتِ متقابل: توب↔صلح؛ عسي دوسویهٔ محتملِ ناپایدار lift=۱۶٫۱؛ ۶:۵۴ و ۹:۱۰۲ و ۱۶:۱۱۹ گرهِ هفت‌ریشه‌ای؛ شاهدِ غیاب: پنجاه‌وپنج صفر", b126["top"]),
     # ⚓BREATHS
 ]
 
@@ -1182,6 +1188,8 @@ QUEUE_EVENTS = [
     (124, "queued", "توب", "چرخه"),
     (124, "queued", "فسد", "چرخه"),
     (125, "pursued", "فسد", "قاعدهٔ صف"),
+    (126, "pursued", "توب", "قاعدهٔ صف"),
+    (126, "queued", "غفر", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -1312,6 +1320,7 @@ PROJ = [
     (123, b123),
     (124, b124),
     (125, b125),
+    (126, b126),
     # ⚓PROJ
 ]
 

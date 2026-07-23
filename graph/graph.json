@@ -142,6 +142,7 @@
   "سقي",
   "سكن",
   "سلط",
+  "سلم",
   "سمع",
   "سمو",
   "سوا",
@@ -465,7 +466,8 @@
   "اخو",
   "وجد",
   "صلح",
-  "فسد"
+  "فسد",
+  "توب"
  ],
  "open_queue": [
   "اتي",
@@ -477,7 +479,6 @@
   "ايي",
   "بعد",
   "بين",
-  "توب",
   "جنن",
   "حسن",
   "حكم",
@@ -493,6 +494,7 @@
   "عذب",
   "علم",
   "عند",
+  "غفر",
   "قبل",
   "قول",
   "قوم",
@@ -4838,6 +4840,22 @@
   },
   {
    "a": "بعد",
+   "b": "توب",
+   "directions": {
+    "توب→بعد": {
+     "breath": 126,
+     "lift": 4.93,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 12
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "بعد",
    "b": "عقل",
    "directions": {
     "عقل→بعد": {
@@ -5662,6 +5680,22 @@
   },
   {
    "a": "تبع",
+   "b": "توب",
+   "directions": {
+    "توب→تبع": {
+     "breath": 126,
+     "lift": 2.897,
+     "p": 0.0133,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "تبع",
    "b": "شطن",
    "directions": {
     "شطن→تبع": {
@@ -6006,6 +6040,70 @@
   },
   {
    "a": "توب",
+   "b": "خير",
+   "directions": {
+    "توب→خير": {
+     "breath": 126,
+     "lift": 3.046,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "توب",
+   "b": "رحم",
+   "directions": {
+    "توب→رحم": {
+     "breath": 126,
+     "lift": 8.374,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 29
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "توب",
+   "b": "سلم",
+   "directions": {
+    "توب→سلم": {
+     "breath": 126,
+     "lift": 4.27,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "توب",
+   "b": "سوا",
+   "directions": {
+    "توب→سوا": {
+     "breath": 126,
+     "lift": 5.387,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "توب",
    "b": "صلح",
    "directions": {
     "صلح→توب": {
@@ -6015,6 +6113,62 @@
      "stable": true,
      "tier": "قوی",
      "shared": 17
+    },
+    "توب→صلح": {
+     "breath": 126,
+     "lift": 9.038,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "توب",
+   "b": "عسي",
+   "directions": {
+    "توب→عسي": {
+     "breath": 126,
+     "lift": 16.139,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "توب",
+   "b": "عمل",
+   "directions": {
+    "توب→عمل": {
+     "breath": 126,
+     "lift": 4.331,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 15
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "توب",
+   "b": "غفر",
+   "directions": {
+    "توب→غفر": {
+     "breath": 126,
+     "lift": 11.185,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 25
     }
    },
    "mutual_strong": false,
