@@ -219,7 +219,8 @@
   "وقي",
   "وكل",
   "ولي",
-  "يدي"
+  "يدي",
+  "يوم"
  ],
  "visited_roots": [
   "فلح",
@@ -270,7 +271,8 @@
   "بحر",
   "برر",
   "جري",
-  "ابد"
+  "ابد",
+  "فوز"
  ],
  "open_queue": [
   "اتي",
@@ -282,6 +284,7 @@
   "بغي",
   "بين",
   "تحت",
+  "جنن",
   "خلد",
   "دخل",
   "دعو",
@@ -294,10 +297,10 @@
   "شيا",
   "صلح",
   "عذب",
+  "عظم",
   "علم",
   "عند",
   "فضل",
-  "فوز",
   "قدر",
   "قلب",
   "قول",
@@ -1322,6 +1325,22 @@
   },
   {
    "a": "اله",
+   "b": "فوز",
+   "directions": {
+    "فوز→اله": {
+     "breath": 50,
+     "lift": 1.721,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اله",
    "b": "فيا",
    "directions": {
     "اله→فيا": {
@@ -1591,6 +1610,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "امن",
+   "b": "فوز",
+   "directions": {
+    "فوز→امن": {
+     "breath": 50,
+     "lift": 2.556,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "امن",
@@ -2505,6 +2540,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "تحت",
+   "b": "فوز",
+   "directions": {
+    "فوز→تحت": {
+     "breath": 50,
+     "lift": 46.193,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "تلو",
    "b": "كبر",
    "directions": {
@@ -2835,9 +2886,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "فوز→جري": {
+     "breath": 50,
+     "lift": 36.088,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -2967,6 +3026,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "جنن",
+   "b": "فوز",
+   "directions": {
+    "فوز→جنن": {
+     "breath": 50,
+     "lift": 15.319,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "جهد",
@@ -3841,6 +3916,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "خلد",
+   "b": "فوز",
+   "directions": {
+    "فوز→خلد": {
+     "breath": 50,
+     "lift": 21.485,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "خلق",
    "b": "علو",
    "directions": {
@@ -4063,6 +4154,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "دخل",
+   "b": "فوز",
+   "directions": {
+    "فوز→دخل": {
+     "breath": 50,
+     "lift": 12.484,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "درج",
@@ -5929,6 +6036,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "عظم",
+   "b": "فوز",
+   "directions": {
+    "فوز→عظم": {
+     "breath": 50,
+     "lift": 30.916,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
    "a": "عقل",
    "b": "كثر",
    "directions": {
@@ -6255,6 +6378,38 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "فوز",
+   "b": "نهر",
+   "directions": {
+    "فوز→نهر": {
+     "breath": 50,
+     "lift": 22.643,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "فوز",
+   "b": "يوم",
+   "directions": {
+    "فوز→يوم": {
+     "breath": 50,
+     "lift": 3.063,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "قتل",

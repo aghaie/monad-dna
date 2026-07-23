@@ -1,0 +1,1095 @@
+{
+ "breath_number": 50,
+ "deliberation": [
+  {
+   "root": "فوز",
+   "attestation": 29
+  },
+  {
+   "root": "سخر",
+   "attestation": 42
+  },
+  {
+   "root": "تحت",
+   "attestation": 51
+  },
+  {
+   "root": "نجو",
+   "attestation": 84
+  },
+  {
+   "root": "خلد",
+   "attestation": 87
+  },
+  {
+   "root": "شطن",
+   "attestation": 88
+  },
+  {
+   "root": "سبح",
+   "attestation": 92
+  },
+  {
+   "root": "بغي",
+   "attestation": 96
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "نهر",
+   "attestation": 113
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "فوز",
+ "attestation": 29,
+ "ayat": 27,
+ "top": [
+  {
+   "root": "تحت",
+   "shared": 10,
+   "expected": 0.22,
+   "lift": 46.193,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "جري",
+   "shared": 10,
+   "expected": 0.28,
+   "lift": 36.088,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عظم",
+   "shared": 17,
+   "expected": 0.55,
+   "lift": 30.916,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نهر",
+   "shared": 10,
+   "expected": 0.44,
+   "lift": 22.643,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خلد",
+   "shared": 8,
+   "expected": 0.37,
+   "lift": 21.485,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "جنن",
+   "shared": 13,
+   "expected": 0.85,
+   "lift": 15.319,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "دخل",
+   "shared": 6,
+   "expected": 0.48,
+   "lift": 12.484,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "يوم",
+   "shared": 5,
+   "expected": 1.63,
+   "lift": 3.063,
+   "p_perm": 0.0299,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امن",
+   "shared": 8,
+   "expected": 3.13,
+   "lift": 2.556,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 14,
+   "expected": 8.14,
+   "lift": 1.721,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 7,
+ "reciprocal": [
+  "تحت",
+  "جري",
+  "عظم",
+  "نهر",
+  "خلد",
+  "جنن",
+  "دخل"
+ ],
+ "one_way": [
+  "يوم",
+  "امن",
+  "اله"
+ ],
+ "neighbor_view": {
+  "تحت": {
+   "root": "فوز",
+   "shared": 10,
+   "expected": 0.22,
+   "lift": 46.193,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "جري": {
+   "root": "فوز",
+   "shared": 10,
+   "expected": 0.28,
+   "lift": 36.088,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عظم": {
+   "root": "فوز",
+   "shared": 17,
+   "expected": 0.55,
+   "lift": 30.916,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "نهر": {
+   "root": "فوز",
+   "shared": 10,
+   "expected": 0.44,
+   "lift": 22.643,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خلد": {
+   "root": "فوز",
+   "shared": 8,
+   "expected": 0.37,
+   "lift": 21.485,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "جنن": {
+   "root": "فوز",
+   "shared": 13,
+   "expected": 0.85,
+   "lift": 15.319,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دخل": {
+   "root": "فوز",
+   "shared": 6,
+   "expected": 0.48,
+   "lift": 12.484,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "يوم": null,
+  "امن": null,
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "فوز↔فلح",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔صلو",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔زكو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔اذن",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔نفق",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔سرر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔علن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔رزق",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔بسط",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔طيب",
+   "shared": 2,
+   "expected": 0.2,
+   "lift": 10.04,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "فوز↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔حلل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔حرم",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔سجد",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔اكل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔طوع",
+   "shared": 3,
+   "expected": 0.51,
+   "lift": 5.87,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "فوز↔شهد",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔كبر",
+   "shared": 2,
+   "expected": 0.66,
+   "lift": 3.02,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "فوز↔حيي",
+   "shared": 2,
+   "expected": 0.7,
+   "lift": 2.87,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "فوز↔خير",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔ولي",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔عمل",
+   "shared": 4,
+   "expected": 1.36,
+   "lift": 2.95,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "فوز↔رسل",
+   "shared": 3,
+   "expected": 1.86,
+   "lift": 1.62,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "فوز↔اله",
+   "shared": 14,
+   "expected": 8.14,
+   "lift": 1.72,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "فوز↔حبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔بقي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔عدل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔كفي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔دبر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔زين",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔عقل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔خبر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔غيب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔جرم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔عرف",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔نكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔علو",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔متع",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.55,
+   "p_perm": 0.2757
+  },
+  {
+   "pair": "فوز↔حين",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔وكل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔قلل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔ثمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔شري",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.04,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "فوز↔شكر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔فلك",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔بحر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔برر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔جري",
+   "shared": 10,
+   "expected": 0.28,
+   "lift": 36.09,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "فوز↔ابد",
+   "shared": 3,
+   "expected": 0.12,
+   "lift": 24.75,
+   "p_perm": 0.0066
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "فوز↔فلح",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔صلو",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔زكو",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔اذن",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔نفق",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔سرر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔علن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔رزق",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔بسط",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔حلل",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔حرم",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔سجد",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔اكل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔شهد",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔خير",
+   "shared": 0,
+   "expected": 0.77,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔ولي",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔حبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔بقي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔عدل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔كفي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔دبر",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔زين",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔عقل",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔خبر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔غيب",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔جرم",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔عرف",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔نكر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔علو",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔حين",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔وكل",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔قلل",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔ثمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔شكر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔فلك",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔بحر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "فوز↔برر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "64:9",
+   "degree": 10,
+   "roots_present": [
+    "تحت",
+    "جري",
+    "عظم",
+    "نهر",
+    "خلد",
+    "جنن",
+    "دخل",
+    "يوم",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "48:5",
+   "degree": 9,
+   "roots_present": [
+    "تحت",
+    "جري",
+    "عظم",
+    "نهر",
+    "خلد",
+    "جنن",
+    "دخل",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "4:13",
+   "degree": 8,
+   "roots_present": [
+    "تحت",
+    "جري",
+    "عظم",
+    "نهر",
+    "خلد",
+    "جنن",
+    "دخل",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "5:119",
+   "degree": 8,
+   "roots_present": [
+    "تحت",
+    "جري",
+    "عظم",
+    "نهر",
+    "خلد",
+    "جنن",
+    "يوم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "9:72",
+   "degree": 8,
+   "roots_present": [
+    "تحت",
+    "جري",
+    "عظم",
+    "نهر",
+    "خلد",
+    "جنن",
+    "امن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "57:12",
+   "degree": 8,
+   "roots_present": [
+    "تحت",
+    "جري",
+    "عظم",
+    "نهر",
+    "خلد",
+    "جنن",
+    "يوم",
+    "امن"
+   ]
+  },
+  {
+   "ayah": "9:89",
+   "degree": 7,
+   "roots_present": [
+    "تحت",
+    "جري",
+    "عظم",
+    "نهر",
+    "خلد",
+    "جنن",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "9:100",
+   "degree": 7,
+   "roots_present": [
+    "تحت",
+    "جري",
+    "عظم",
+    "نهر",
+    "خلد",
+    "جنن",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "فوز+تحت": [
+   "4:13",
+   "5:119",
+   "9:72",
+   "9:89",
+   "9:100",
+   "48:5",
+   "57:12",
+   "61:12",
+   "64:9",
+   "85:11"
+  ],
+  "فوز+جري": [
+   "4:13",
+   "5:119",
+   "9:72",
+   "9:89",
+   "9:100",
+   "48:5",
+   "57:12",
+   "61:12",
+   "64:9",
+   "85:11"
+  ],
+  "فوز+عظم": [
+   "4:13",
+   "4:73",
+   "5:119",
+   "9:20",
+   "9:72",
+   "9:89",
+   "9:100",
+   "9:111",
+   "10:64",
+   "33:71",
+   "37:60",
+   "40:9",
+   "44:57",
+   "48:5",
+   "57:12",
+   "61:12",
+   "64:9"
+  ],
+  "فوز+نهر": [
+   "4:13",
+   "5:119",
+   "9:72",
+   "9:89",
+   "9:100",
+   "48:5",
+   "57:12",
+   "61:12",
+   "64:9",
+   "85:11"
+  ],
+  "فوز+خلد": [
+   "4:13",
+   "5:119",
+   "9:72",
+   "9:89",
+   "9:100",
+   "48:5",
+   "57:12",
+   "64:9"
+  ],
+  "فوز+جنن": [
+   "3:185",
+   "4:13",
+   "5:119",
+   "9:72",
+   "9:89",
+   "9:100",
+   "9:111",
+   "48:5",
+   "57:12",
+   "59:20",
+   "61:12",
+   "64:9",
+   "85:11"
+  ],
+  "فوز+دخل": [
+   "3:185",
+   "4:13",
+   "45:30",
+   "48:5",
+   "61:12",
+   "64:9"
+  ],
+  "فوز+يوم": [
+   "3:185",
+   "5:119",
+   "23:111",
+   "57:12",
+   "64:9"
+  ],
+  "فوز+امن": [
+   "9:20",
+   "9:72",
+   "9:111",
+   "45:30",
+   "48:5",
+   "57:12",
+   "64:9",
+   "85:11"
+  ],
+  "فوز+اله": [
+   "4:13",
+   "4:73",
+   "5:119",
+   "9:20",
+   "9:72",
+   "9:89",
+   "9:100",
+   "9:111",
+   "10:64",
+   "24:52",
+   "33:71",
+   "39:61",
+   "48:5",
+   "64:9"
+  ],
+  "فوز+طيب": [
+   "9:72",
+   "61:12"
+  ],
+  "فوز+طوع": [
+   "4:13",
+   "24:52",
+   "33:71"
+  ],
+  "فوز+عمل": [
+   "33:71",
+   "45:30",
+   "64:9",
+   "85:11"
+  ],
+  "فوز+ابد": [
+   "5:119",
+   "9:100",
+   "64:9"
+  ]
+ }
+}
