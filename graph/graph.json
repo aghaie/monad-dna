@@ -572,7 +572,8 @@
   "اجل",
   "وقي",
   "وعظ",
-  "خلق"
+  "خلق",
+  "ستت"
  ],
  "open_queue": [
   "اتي",
@@ -587,7 +588,6 @@
   "راي",
   "ربب",
   "رحم",
-  "ستت",
   "سمو",
   "شيا",
   "طين",
@@ -603,7 +603,8 @@
   "كفر",
   "كلل",
   "كون",
-  "نفس"
+  "نفس",
+  "يوم"
  ],
  "edges": [
   {
@@ -2601,6 +2602,22 @@
      "stable": true,
      "tier": "قوی",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ارض",
+   "b": "ستت",
+   "directions": {
+    "ستت→ارض": {
+     "breath": 175,
+     "lift": 12.401,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -11609,9 +11626,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 7
+    },
+    "ستت→خلق": {
+     "breath": 175,
+     "lift": 25.03,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -14621,6 +14646,70 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ستت",
+   "b": "سمو",
+   "directions": {
+    "ستت→سمو": {
+     "breath": 175,
+     "lift": 15.501,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ستت",
+   "b": "سوي",
+   "directions": {
+    "ستت→سوي": {
+     "breath": 175,
+     "lift": 48.719,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ستت",
+   "b": "عرش",
+   "directions": {
+    "ستت→عرش": {
+     "breath": 175,
+     "lift": 146.156,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ستت",
+   "b": "يوم",
+   "directions": {
+    "ستت→يوم": {
+     "breath": 175,
+     "lift": 14.473,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "سجد",
