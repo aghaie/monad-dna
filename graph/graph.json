@@ -516,7 +516,8 @@
   "ملك",
   "حكم",
   "دعو",
-  "خلص"
+  "خلص",
+  "جوب"
  ],
  "open_queue": [
   "اتي",
@@ -528,7 +529,6 @@
   "ايي",
   "بعد",
   "بين",
-  "جوب",
   "خلق",
   "دين",
   "ذكر",
@@ -8014,10 +8014,98 @@
      "stable": true,
      "tier": "قوی",
      "shared": 17
+    },
+    "جوب→دعو": {
+     "breath": 151,
+     "lift": 14.207,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جوب",
+   "b": "عبد",
+   "directions": {
+    "جوب→عبد": {
+     "breath": 151,
+     "lift": 3.03,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جوب",
+   "b": "عذب",
+   "directions": {
+    "جوب→عذب": {
+     "breath": 151,
+     "lift": 3.169,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جوب",
+   "b": "قوم",
+   "directions": {
+    "جوب→قوم": {
+     "breath": 151,
+     "lift": 2.802,
+     "p": 0.0066,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "جوب",
+   "b": "ندو",
+   "directions": {
+    "جوب→ندو": {
+     "breath": 151,
+     "lift": 15.21,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "جوب",
+   "b": "يوم",
+   "directions": {
+    "جوب→يوم": {
+     "breath": 151,
+     "lift": 3.228,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "جيا",
