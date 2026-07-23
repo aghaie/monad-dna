@@ -91,6 +91,7 @@
   "درج",
   "دعو",
   "دنو",
+  "دور",
   "دون",
   "ذكر",
   "ذهب",
@@ -245,6 +246,7 @@
   "مول",
   "موه",
   "نبا",
+  "نبت",
   "نجو",
   "ندو",
   "نذر",
@@ -365,10 +367,12 @@
   "عظم",
   "اجر",
   "ضيع",
-  "قدر"
+  "قدر",
+  "دنو"
  ],
  "open_queue": [
   "اتي",
+  "اخر",
   "ارض",
   "امر",
   "امن",
@@ -379,8 +383,8 @@
   "بين",
   "جنن",
   "حسن",
+  "خزي",
   "دعو",
-  "دنو",
   "دون",
   "راي",
   "سمو",
@@ -1190,6 +1194,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "اخر",
+   "b": "دنو",
+   "directions": {
+    "دنو→اخر": {
+     "breath": 83,
+     "lift": 11.475,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 57
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "اخر",
@@ -5506,9 +5526,17 @@
      "stable": true,
      "tier": "قوی",
      "shared": 66
+    },
+    "دنو→حيي": {
+     "breath": 83,
+     "lift": 19.972,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 66
     }
    },
-   "mutual_strong": false,
+   "mutual_strong": true,
    "best_tier": "قوی"
   },
   {
@@ -5830,6 +5858,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "خزي",
+   "b": "دنو",
+   "directions": {
+    "دنو→خزي": {
+     "breath": 83,
+     "lift": 16.24,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "خزي",
@@ -6369,6 +6413,22 @@
   },
   {
    "a": "دنو",
+   "b": "دور",
+   "directions": {
+    "دنو→دور": {
+     "breath": 83,
+     "lift": 7.354,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دنو",
    "b": "زين",
    "directions": {
     "زين→دنو": {
@@ -6378,10 +6438,66 @@
      "stable": true,
      "tier": "قوی",
      "shared": 15
+    },
+    "دنو→زين": {
+     "breath": 83,
+     "lift": 16.995,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 15
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "دنو",
+   "b": "غرر",
+   "directions": {
+    "دنو→غرر": {
+     "breath": 83,
+     "lift": 18.56,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دنو",
+   "b": "لعب",
+   "directions": {
+    "دنو→لعب": {
+     "breath": 83,
+     "lift": 14.616,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "دنو",
+   "b": "لهو",
+   "directions": {
+    "دنو→لهو": {
+     "breath": 83,
+     "lift": 19.488,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "دنو",
@@ -6394,10 +6510,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 18
+    },
+    "دنو→متع": {
+     "breath": 83,
+     "lift": 13.491,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "دنو",
+   "b": "نبت",
+   "directions": {
+    "دنو→نبت": {
+     "breath": 83,
+     "lift": 10.591,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "دون",
