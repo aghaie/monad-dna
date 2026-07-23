@@ -1,0 +1,1606 @@
+{
+ "breath_number": 115,
+ "deliberation": [
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  },
+  {
+   "root": "ملك",
+   "attestation": 206
+  },
+  {
+   "root": "حكم",
+   "attestation": 210
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "شرك",
+ "attestation": 168,
+ "ayat": 143,
+ "top": [
+  {
+   "root": "حنف",
+   "shared": 9,
+   "expected": 0.28,
+   "lift": 32.706,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "زعم",
+   "shared": 7,
+   "expected": 0.37,
+   "lift": 19.079,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ملل",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.628,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "برا",
+   "shared": 6,
+   "expected": 0.64,
+   "lift": 9.345,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "علو",
+   "shared": 13,
+   "expected": 1.56,
+   "lift": 8.337,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "حرم",
+   "shared": 11,
+   "expected": 1.63,
+   "lift": 6.756,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سلط",
+   "shared": 6,
+   "expected": 0.89,
+   "lift": 6.709,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ظهر",
+   "shared": 8,
+   "expected": 1.31,
+   "lift": 6.12,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دين",
+   "shared": 11,
+   "expected": 2.0,
+   "lift": 5.514,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "وحد",
+   "shared": 8,
+   "expected": 1.54,
+   "lift": 5.207,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "حنف",
+  "زعم",
+  "ملل",
+  "برا",
+  "علو",
+  "سلط",
+  "ظهر",
+  "دين",
+  "وحد"
+ ],
+ "one_way": [
+  "حرم"
+ ],
+ "neighbor_view": {
+  "حنف": {
+   "root": "شرك",
+   "shared": 9,
+   "expected": 0.28,
+   "lift": 32.706,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "زعم": {
+   "root": "شرك",
+   "shared": 7,
+   "expected": 0.37,
+   "lift": 19.079,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ملل": {
+   "root": "شرك",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.628,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "برا": {
+   "root": "شرك",
+   "shared": 6,
+   "expected": 0.64,
+   "lift": 9.345,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "علو": {
+   "root": "شرك",
+   "shared": 13,
+   "expected": 1.56,
+   "lift": 8.337,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "حرم": null,
+  "سلط": {
+   "root": "شرك",
+   "shared": 6,
+   "expected": 0.89,
+   "lift": 6.709,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ظهر": {
+   "root": "شرك",
+   "shared": 8,
+   "expected": 1.31,
+   "lift": 6.12,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دين": {
+   "root": "شرك",
+   "shared": 11,
+   "expected": 2.0,
+   "lift": 5.514,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "وحد": {
+   "root": "شرك",
+   "shared": 8,
+   "expected": 1.54,
+   "lift": 5.207,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "شرك↔فلح",
+   "shared": 0,
+   "expected": 0.92,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔صلو",
+   "shared": 2,
+   "expected": 2.06,
+   "lift": 0.97,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "شرك↔زكو",
+   "shared": 1,
+   "expected": 1.28,
+   "lift": 0.78,
+   "p_perm": 0.7375
+  },
+  {
+   "pair": "شرك↔اذن",
+   "shared": 5,
+   "expected": 2.06,
+   "lift": 2.42,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "شرك↔نفق",
+   "shared": 3,
+   "expected": 1.97,
+   "lift": 1.52,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "شرك↔سرر",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔علن",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔رزق",
+   "shared": 3,
+   "expected": 2.5,
+   "lift": 1.2,
+   "p_perm": 0.4684
+  },
+  {
+   "pair": "شرك↔بسط",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔طيب",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔خبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔حلل",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔حرم",
+   "shared": 11,
+   "expected": 1.63,
+   "lift": 6.76,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شرك↔سجد",
+   "shared": 4,
+   "expected": 1.86,
+   "lift": 2.15,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "شرك↔اكل",
+   "shared": 1,
+   "expected": 2.32,
+   "lift": 0.43,
+   "p_perm": 0.9003
+  },
+  {
+   "pair": "شرك↔طوع",
+   "shared": 4,
+   "expected": 2.71,
+   "lift": 1.48,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "شرك↔شهد",
+   "shared": 7,
+   "expected": 2.82,
+   "lift": 2.48,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "شرك↔كبر",
+   "shared": 9,
+   "expected": 3.51,
+   "lift": 2.57,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "شرك↔حيي",
+   "shared": 2,
+   "expected": 3.69,
+   "lift": 0.54,
+   "p_perm": 0.9003
+  },
+  {
+   "pair": "شرك↔خير",
+   "shared": 5,
+   "expected": 4.08,
+   "lift": 1.22,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "شرك↔ولي",
+   "shared": 8,
+   "expected": 4.63,
+   "lift": 1.73,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "شرك↔عمل",
+   "shared": 8,
+   "expected": 7.18,
+   "lift": 1.11,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "شرك↔رسل",
+   "shared": 7,
+   "expected": 9.84,
+   "lift": 0.71,
+   "p_perm": 0.8704
+  },
+  {
+   "pair": "شرك↔اله",
+   "shared": 85,
+   "expected": 43.09,
+   "lift": 1.97,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شرك↔حبط",
+   "shared": 3,
+   "expected": 0.37,
+   "lift": 8.18,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "شرك↔بقي",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔عدل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔كفي",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔دبر",
+   "shared": 0,
+   "expected": 1.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔زين",
+   "shared": 2,
+   "expected": 0.99,
+   "lift": 2.03,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "شرك↔عقل",
+   "shared": 2,
+   "expected": 1.12,
+   "lift": 1.78,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "شرك↔خبر",
+   "shared": 1,
+   "expected": 1.19,
+   "lift": 0.84,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "شرك↔غيب",
+   "shared": 2,
+   "expected": 1.35,
+   "lift": 1.48,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "شرك↔جرم",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔عرف",
+   "shared": 2,
+   "expected": 1.42,
+   "lift": 1.41,
+   "p_perm": 0.4585
+  },
+  {
+   "pair": "شرك↔نكر",
+   "shared": 1,
+   "expected": 0.85,
+   "lift": 1.18,
+   "p_perm": 0.5648
+  },
+  {
+   "pair": "شرك↔علو",
+   "shared": 13,
+   "expected": 1.56,
+   "lift": 8.34,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شرك↔متع",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔حين",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔وكل",
+   "shared": 2,
+   "expected": 1.4,
+   "lift": 1.43,
+   "p_perm": 0.4618
+  },
+  {
+   "pair": "شرك↔قلل",
+   "shared": 0,
+   "expected": 1.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔ثمن",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.3,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "شرك↔شري",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔شكر",
+   "shared": 1,
+   "expected": 1.58,
+   "lift": 0.63,
+   "p_perm": 0.794
+  },
+  {
+   "pair": "شرك↔فلك",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.74,
+   "p_perm": 0.4718
+  },
+  {
+   "pair": "شرك↔بحر",
+   "shared": 1,
+   "expected": 0.92,
+   "lift": 1.09,
+   "p_perm": 0.6312
+  },
+  {
+   "pair": "شرك↔برر",
+   "shared": 2,
+   "expected": 0.69,
+   "lift": 2.91,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "شرك↔جري",
+   "shared": 0,
+   "expected": 1.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔ابد",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔فوز",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔سخر",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔تحت",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔رضو",
+   "shared": 1,
+   "expected": 1.47,
+   "lift": 0.68,
+   "p_perm": 0.8007
+  },
+  {
+   "pair": "شرك↔نجو",
+   "shared": 2,
+   "expected": 1.72,
+   "lift": 1.16,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "شرك↔خلد",
+   "shared": 2,
+   "expected": 1.97,
+   "lift": 1.01,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "شرك↔شطن",
+   "shared": 3,
+   "expected": 1.79,
+   "lift": 1.68,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "شرك↔سبح",
+   "shared": 10,
+   "expected": 2.0,
+   "lift": 5.01,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شرك↔حمد",
+   "shared": 3,
+   "expected": 1.4,
+   "lift": 2.14,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "شرك↔غني",
+   "shared": 1,
+   "expected": 1.65,
+   "lift": 0.61,
+   "p_perm": 0.8239
+  },
+  {
+   "pair": "شرك↔فقر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔مول",
+   "shared": 2,
+   "expected": 1.83,
+   "lift": 1.09,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "شرك↔ليل",
+   "shared": 0,
+   "expected": 1.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔قمر",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔شمس",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.36,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "شرك↔بغي",
+   "shared": 1,
+   "expected": 2.06,
+   "lift": 0.48,
+   "p_perm": 0.8605
+  },
+  {
+   "pair": "شرك↔صحب",
+   "shared": 3,
+   "expected": 2.04,
+   "lift": 1.47,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "شرك↔ولد",
+   "shared": 9,
+   "expected": 1.83,
+   "lift": 4.91,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شرك↔فضل",
+   "shared": 3,
+   "expected": 2.11,
+   "lift": 1.42,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "شرك↔عدو",
+   "shared": 1,
+   "expected": 2.11,
+   "lift": 0.47,
+   "p_perm": 0.8837
+  },
+  {
+   "pair": "شرك↔اثم",
+   "shared": 2,
+   "expected": 0.96,
+   "lift": 2.08,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "شرك↔نهر",
+   "shared": 0,
+   "expected": 2.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔دخل",
+   "shared": 0,
+   "expected": 2.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔بوب",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔فتح",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔اهل",
+   "shared": 4,
+   "expected": 2.75,
+   "lift": 1.45,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "شرك↔قري",
+   "shared": 0,
+   "expected": 1.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔هلك",
+   "shared": 1,
+   "expected": 1.44,
+   "lift": 0.69,
+   "p_perm": 0.7442
+  },
+  {
+   "pair": "شرك↔قرن",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔عظم",
+   "shared": 3,
+   "expected": 2.91,
+   "lift": 1.03,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "شرك↔اجر",
+   "shared": 0,
+   "expected": 2.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔ضيع",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔قدر",
+   "shared": 2,
+   "expected": 2.77,
+   "lift": 0.72,
+   "p_perm": 0.7342
+  },
+  {
+   "pair": "شرك↔دنو",
+   "shared": 1,
+   "expected": 2.94,
+   "lift": 0.34,
+   "p_perm": 0.9734
+  },
+  {
+   "pair": "شرك↔خزي",
+   "shared": 1,
+   "expected": 0.55,
+   "lift": 1.82,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "شرك↔دون",
+   "shared": 13,
+   "expected": 3.26,
+   "lift": 3.99,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "شرك↔نفع",
+   "shared": 3,
+   "expected": 1.12,
+   "lift": 2.67,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "شرك↔ضرر",
+   "shared": 5,
+   "expected": 1.61,
+   "lift": 3.11,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "شرك↔كشف",
+   "shared": 2,
+   "expected": 0.46,
+   "lift": 4.36,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "شرك↔مسس",
+   "shared": 1,
+   "expected": 1.31,
+   "lift": 0.77,
+   "p_perm": 0.7309
+  },
+  {
+   "pair": "شرك↔بصر",
+   "shared": 5,
+   "expected": 3.19,
+   "lift": 1.57,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "شرك↔فاد",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔عمي",
+   "shared": 1,
+   "expected": 0.69,
+   "lift": 1.45,
+   "p_perm": 0.5116
+  },
+  {
+   "pair": "شرك↔نصر",
+   "shared": 5,
+   "expected": 3.14,
+   "lift": 1.59,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "شرك↔هجر",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔اوي",
+   "shared": 2,
+   "expected": 0.83,
+   "lift": 2.42,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "شرك↔صير",
+   "shared": 1,
+   "expected": 0.67,
+   "lift": 1.5,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "شرك↔باس",
+   "shared": 3,
+   "expected": 1.54,
+   "lift": 1.95,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "شرك↔نبا",
+   "shared": 8,
+   "expected": 3.46,
+   "lift": 2.31,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "شرك↔رجع",
+   "shared": 2,
+   "expected": 2.36,
+   "lift": 0.85,
+   "p_perm": 0.7209
+  },
+  {
+   "pair": "شرك↔ذوق",
+   "shared": 2,
+   "expected": 1.4,
+   "lift": 1.43,
+   "p_perm": 0.3621
+  },
+  {
+   "pair": "شرك↔موت",
+   "shared": 2,
+   "expected": 3.28,
+   "lift": 0.61,
+   "p_perm": 0.8571
+  },
+  {
+   "pair": "شرك↔بعث",
+   "shared": 0,
+   "expected": 1.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔نظر",
+   "shared": 3,
+   "expected": 2.64,
+   "lift": 1.14,
+   "p_perm": 0.505
+  },
+  {
+   "pair": "شرك↔سير",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.74,
+   "p_perm": 0.4252
+  },
+  {
+   "pair": "شرك↔عقب",
+   "shared": 1,
+   "expected": 1.7,
+   "lift": 0.59,
+   "p_perm": 0.8306
+  },
+  {
+   "pair": "شرك↔كيف",
+   "shared": 4,
+   "expected": 1.9,
+   "lift": 2.1,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "شرك↔شدد",
+   "shared": 1,
+   "expected": 2.27,
+   "lift": 0.44,
+   "p_perm": 0.8937
+  },
+  {
+   "pair": "شرك↔قوي",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔عزز",
+   "shared": 3,
+   "expected": 2.66,
+   "lift": 1.13,
+   "p_perm": 0.5482
+  },
+  {
+   "pair": "شرك↔قلب",
+   "shared": 2,
+   "expected": 3.55,
+   "lift": 0.56,
+   "p_perm": 0.8804
+  },
+  {
+   "pair": "شرك↔قسو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔طبع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔طمن",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔مرض",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "شرك↔فلح",
+   "shared": 0,
+   "expected": 0.92,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔سرر",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔علن",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔بسط",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔طيب",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔خبث",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔حلل",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔بقي",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔عدل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔كفي",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔دبر",
+   "shared": 0,
+   "expected": 1.01,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔جرم",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔متع",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔حين",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔قلل",
+   "shared": 0,
+   "expected": 1.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔شري",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔جري",
+   "shared": 0,
+   "expected": 1.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔ابد",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔فوز",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔سخر",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔تحت",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔فقر",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔ليل",
+   "shared": 0,
+   "expected": 1.86,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔قمر",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔نهر",
+   "shared": 0,
+   "expected": 2.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔دخل",
+   "shared": 0,
+   "expected": 2.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔بوب",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔فتح",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔قري",
+   "shared": 0,
+   "expected": 1.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔قرن",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔اجر",
+   "shared": 0,
+   "expected": 2.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔ضيع",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔فاد",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔هجر",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔بعث",
+   "shared": 0,
+   "expected": 1.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔قوي",
+   "shared": 0,
+   "expected": 0.89,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔قسو",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔طبع",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔طمن",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "شرك↔مرض",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "6:151",
+   "degree": 3,
+   "roots_present": [
+    "علو",
+    "حرم",
+    "ظهر"
+   ]
+  },
+  {
+   "ayah": "6:161",
+   "degree": 3,
+   "roots_present": [
+    "حنف",
+    "ملل",
+    "دين"
+   ]
+  },
+  {
+   "ayah": "7:33",
+   "degree": 3,
+   "roots_present": [
+    "حرم",
+    "سلط",
+    "ظهر"
+   ]
+  },
+  {
+   "ayah": "2:135",
+   "degree": 2,
+   "roots_present": [
+    "حنف",
+    "ملل"
+   ]
+  },
+  {
+   "ayah": "3:95",
+   "degree": 2,
+   "roots_present": [
+    "حنف",
+    "ملل"
+   ]
+  },
+  {
+   "ayah": "4:12",
+   "degree": 2,
+   "roots_present": [
+    "دين",
+    "وحد"
+   ]
+  },
+  {
+   "ayah": "6:19",
+   "degree": 2,
+   "roots_present": [
+    "برا",
+    "وحد"
+   ]
+  },
+  {
+   "ayah": "6:94",
+   "degree": 2,
+   "roots_present": [
+    "زعم",
+    "ظهر"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "شرك+حنف": [
+   "2:135",
+   "3:67",
+   "3:95",
+   "6:79",
+   "6:161",
+   "10:105",
+   "16:120",
+   "16:123",
+   "22:31"
+  ],
+  "شرك+زعم": [
+   "6:22",
+   "6:94",
+   "6:136",
+   "18:52",
+   "28:62",
+   "28:74",
+   "34:22"
+  ],
+  "شرك+ملل": [
+   "2:135",
+   "3:95",
+   "6:161",
+   "12:38",
+   "16:123"
+  ],
+  "شرك+برا": [
+   "6:19",
+   "6:78",
+   "9:1",
+   "9:3",
+   "11:54",
+   "98:6"
+  ],
+  "شرك+علو": [
+   "3:64",
+   "6:100",
+   "6:151",
+   "7:190",
+   "10:18",
+   "16:1",
+   "16:3",
+   "23:92",
+   "27:63",
+   "28:68",
+   "30:40",
+   "39:67",
+   "40:12"
+  ],
+  "شرك+حرم": [
+   "5:72",
+   "6:139",
+   "6:148",
+   "6:151",
+   "7:33",
+   "9:5",
+   "9:7",
+   "9:28",
+   "9:36",
+   "16:35",
+   "24:3"
+  ],
+  "شرك+سلط": [
+   "3:151",
+   "6:81",
+   "7:33",
+   "14:22",
+   "16:100",
+   "30:35"
+  ],
+  "شرك+ظهر": [
+   "6:94",
+   "6:151",
+   "7:33",
+   "9:4",
+   "9:33",
+   "13:33",
+   "34:22",
+   "61:9"
+  ],
+  "شرك+دين": [
+   "4:12",
+   "6:137",
+   "6:161",
+   "9:33",
+   "9:36",
+   "10:105",
+   "24:55",
+   "29:65",
+   "42:13",
+   "42:21",
+   "61:9"
+  ],
+  "شرك+وحد": [
+   "4:12",
+   "6:19",
+   "9:31",
+   "13:16",
+   "18:110",
+   "40:12",
+   "40:84",
+   "41:6"
+  ],
+  "شرك+اذن": [
+   "2:221",
+   "7:195",
+   "9:3",
+   "41:47",
+   "42:21"
+  ],
+  "شرك+شهد": [
+   "3:64",
+   "6:19",
+   "9:17",
+   "11:54",
+   "22:17",
+   "23:92",
+   "41:47"
+  ],
+  "شرك+كبر": [
+   "5:82",
+   "6:19",
+   "6:78",
+   "9:3",
+   "10:71",
+   "17:111",
+   "40:12",
+   "42:13",
+   "59:23"
+  ],
+  "شرك+اله": [
+   "2:96",
+   "2:105",
+   "2:221",
+   "3:64",
+   "3:95",
+   "3:151",
+   "4:12",
+   "4:36",
+   "4:48",
+   "4:116",
+   "5:72",
+   "6:14",
+   "6:19",
+   "6:23",
+   "6:64",
+   "6:80",
+   "6:81",
+   "6:88",
+   "6:100",
+   "6:106"
+  ],
+  "شرك+حبط": [
+   "6:88",
+   "9:17",
+   "39:65"
+  ],
+  "شرك+سبح": [
+   "6:100",
+   "9:31",
+   "10:18",
+   "12:108",
+   "16:1",
+   "28:68",
+   "30:40",
+   "39:67",
+   "52:43",
+   "59:23"
+  ],
+  "شرك+ولد": [
+   "4:12",
+   "4:36",
+   "6:137",
+   "6:151",
+   "17:64",
+   "17:111",
+   "25:2",
+   "29:8",
+   "60:12"
+  ],
+  "شرك+دون": [
+   "3:64",
+   "4:48",
+   "4:116",
+   "9:31",
+   "10:18",
+   "10:66",
+   "13:16",
+   "16:35",
+   "16:86",
+   "18:26",
+   "34:22",
+   "35:40",
+   "46:4"
+  ],
+  "شرك+ضرر": [
+   "4:12",
+   "10:18",
+   "13:16",
+   "16:54",
+   "30:33"
+  ],
+  "شرك+نبا": [
+   "9:113",
+   "10:18",
+   "10:71",
+   "13:33",
+   "29:8",
+   "31:15",
+   "35:14",
+   "60:12"
+  ]
+ }
+}

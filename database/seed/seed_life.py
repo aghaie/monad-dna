@@ -147,6 +147,7 @@ b111 = rec("breath_111_قسو.json")
 b112 = rec("breath_112_طبع.json")
 b113 = rec("breath_113_طمن.json")
 b114 = rec("breath_114_مرض.json")
+b115 = rec("breath_115_شرك.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -722,6 +723,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_114_مرض.json",
      "breaths/records/breath_114_مرض.json", LOG1,
      "دو قوی پایدار (قلب دوسویه ۲۱٫۰، اله یک‌طرفه ۲٫۳)؛ جفتِ متقابل: مرض↔قلب؛ وجد دوسویهٔ محتملِ ناپایدار lift=۱۳٫۷؛ ۴:۴۳ گرهِ شش‌ریشه‌ای؛ شاهدِ غیاب: شصت‌وپنج صفر", b114["top"]),
+    (115, "تولدِ دوباره", "شرك", "قاعدهٔ صف (خودران)",
+     b115["ayat"], b115["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_115_شرك.json",
+     "breaths/records/breath_115_شرك.json", LOG1,
+     "دو قوی پایدار (برا دوسویه ۹٫۳، علو دوسویه ۸٫۳)؛ جفتِ متقابل: شرك↔علو؛ حنف دوسویهٔ محتملِ ناپایدار lift=۳۲٫۷؛ ۶:۱۵۱ و ۶:۱۶۱ و ۷:۳۳ گرهِ سه‌ریشه‌ای؛ شاهدِ غیاب: چهل صفر", b115["top"]),
     # ⚓BREATHS
 ]
 
@@ -1093,6 +1099,8 @@ QUEUE_EVENTS = [
     (112, "pursued", "طبع", "قاعدهٔ صف"),
     (113, "pursued", "طمن", "قاعدهٔ صف"),
     (114, "pursued", "مرض", "قاعدهٔ صف"),
+    (115, "pursued", "شرك", "قاعدهٔ صف"),
+    (115, "queued", "برا", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -1212,6 +1220,7 @@ PROJ = [
     (112, b112),
     (113, b113),
     (114, b114),
+    (115, b115),
     # ⚓PROJ
 ]
 
