@@ -496,7 +496,8 @@
   "سوا",
   "بدو",
   "خفي",
-  "مثل"
+  "مثل",
+  "ضرب"
  ],
  "open_queue": [
   "اتي",
@@ -517,7 +518,6 @@
   "رحم",
   "سمو",
   "شيا",
-  "ضرب",
   "ظلم",
   "عذب",
   "علم",
@@ -8515,6 +8515,22 @@
   },
   {
    "a": "حيي",
+   "b": "ضرب",
+   "directions": {
+    "ضرب→حيي": {
+     "breath": 140,
+     "lift": 4.304,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حيي",
    "b": "عقل",
    "directions": {
     "حيي→عقل": {
@@ -9345,6 +9361,22 @@
      "breath": 56,
      "lift": 3.569,
      "p": 0.0233,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "خوف",
+   "b": "ضرب",
+   "directions": {
+    "ضرب→خوف": {
+     "breath": 140,
+     "lift": 5.155,
+     "p": 0.01,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -10587,6 +10619,22 @@
   },
   {
    "a": "رجل",
+   "b": "ضرب",
+   "directions": {
+    "ضرب→رجل": {
+     "breath": 140,
+     "lift": 8.749,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجل",
    "b": "ولد",
    "directions": {
     "ولد→رجل": {
@@ -10732,6 +10780,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رزق",
+   "b": "ضرب",
+   "directions": {
+    "ضرب→رزق": {
+     "breath": 140,
+     "lift": 5.297,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -11644,6 +11708,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سبل",
+   "b": "ضرب",
+   "directions": {
+    "ضرب→سبل": {
+     "breath": 140,
+     "lift": 4.929,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
     }
    },
    "mutual_strong": false,
@@ -13955,12 +14035,36 @@
   },
   {
    "a": "ضرب",
+   "b": "قتل",
+   "directions": {
+    "ضرب→قتل": {
+     "breath": 140,
+     "lift": 4.733,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "ضرب",
    "b": "قدر",
    "directions": {
     "قدر→ضرب": {
      "breath": 82,
      "lift": 4.772,
      "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "ضرب→قدر": {
+     "breath": 140,
+     "lift": 4.772,
+     "p": 0.0066,
      "stable": false,
      "tier": "محتمل",
      "shared": 5
@@ -13975,6 +14079,14 @@
    "directions": {
     "كيف→ضرب": {
      "breath": 106,
+     "lift": 6.957,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    },
+    "ضرب→كيف": {
+     "breath": 140,
      "lift": 6.957,
      "p": 0.0033,
      "stable": false,
@@ -13996,10 +14108,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 29
+    },
+    "ضرب→مثل": {
+     "breath": 140,
+     "lift": 22.628,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 29
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ضرب",
+   "b": "نوس",
+   "directions": {
+    "ضرب→نوس": {
+     "breath": 140,
+     "lift": 5.646,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 11
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "ضرر",
