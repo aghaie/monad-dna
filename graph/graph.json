@@ -16,6 +16,7 @@
   "الم",
   "اله",
   "امر",
+  "امم",
   "امن",
   "انس",
   "اهل",
@@ -400,7 +401,8 @@
   "اوي",
   "صير",
   "باس",
-  "نبا"
+  "نبا",
+  "رجع"
  ],
  "open_queue": [
   "اتي",
@@ -415,8 +417,8 @@
   "جنن",
   "حسن",
   "دعو",
+  "ذوق",
   "راي",
-  "رجع",
   "رحم",
   "سمع",
   "سمو",
@@ -2268,6 +2270,22 @@
    "best_tier": "قوی"
   },
   {
+   "a": "امم",
+   "b": "رجع",
+   "directions": {
+    "رجع→امم": {
+     "breath": 99,
+     "lift": 2.803,
+     "p": 0.01,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "امن",
    "b": "بقي",
    "directions": {
@@ -2454,6 +2472,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اهل",
+   "b": "رجع",
+   "directions": {
+    "رجع→اهل": {
+     "breath": 99,
+     "lift": 3.027,
+     "p": 0.0166,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
@@ -6900,6 +6934,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "خلف",
+   "b": "رجع",
+   "directions": {
+    "رجع→خلف": {
+     "breath": 99,
+     "lift": 3.653,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "خلق",
    "b": "شمس",
    "directions": {
@@ -7709,6 +7759,22 @@
   },
   {
    "a": "ذوق",
+   "b": "رجع",
+   "directions": {
+    "رجع→ذوق": {
+     "breath": 99,
+     "lift": 5.955,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "ذوق",
    "b": "ضرر",
    "directions": {
     "ضرر→ذوق": {
@@ -7853,6 +7919,54 @@
   },
   {
    "a": "رجع",
+   "b": "عمل",
+   "directions": {
+    "رجع→عمل": {
+     "breath": 99,
+     "lift": 3.288,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجع",
+   "b": "ملك",
+   "directions": {
+    "رجع→ملك": {
+     "breath": 99,
+     "lift": 2.853,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجع",
+   "b": "موت",
+   "directions": {
+    "رجع→موت": {
+     "breath": 99,
+     "lift": 3.387,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجع",
    "b": "نبا",
    "directions": {
     "نبا→رجع": {
@@ -7862,10 +7976,50 @@
      "stable": true,
      "tier": "قوی",
      "shared": 14
+    },
+    "رجع→نبا": {
+     "breath": 99,
+     "lift": 5.613,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 14
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "رجع",
+   "b": "وفي",
+   "directions": {
+    "رجع→وفي": {
+     "breath": 99,
+     "lift": 5.676,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "رجع",
+   "b": "يدي",
+   "directions": {
+    "رجع→يدي": {
+     "breath": 99,
+     "lift": 3.302,
+     "p": 0.0199,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "رجل",

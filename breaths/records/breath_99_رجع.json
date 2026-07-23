@@ -1,0 +1,1381 @@
+{
+ "breath_number": 99,
+ "deliberation": [
+  {
+   "root": "رجع",
+   "attestation": 104
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "رجع",
+ "attestation": 104,
+ "ayat": 103,
+ "top": [
+  {
+   "root": "ذوق",
+   "shared": 6,
+   "expected": 1.01,
+   "lift": 5.955,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "وفي",
+   "shared": 6,
+   "expected": 1.06,
+   "lift": 5.676,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "نبا",
+   "shared": 14,
+   "expected": 2.49,
+   "lift": 5.613,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خلف",
+   "shared": 7,
+   "expected": 1.92,
+   "lift": 3.653,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "موت",
+   "shared": 8,
+   "expected": 2.36,
+   "lift": 3.387,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "يدي",
+   "shared": 6,
+   "expected": 1.82,
+   "lift": 3.302,
+   "p_perm": 0.0199,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "عمل",
+   "shared": 17,
+   "expected": 5.17,
+   "lift": 3.288,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اهل",
+   "shared": 6,
+   "expected": 1.98,
+   "lift": 3.027,
+   "p_perm": 0.0166,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ملك",
+   "shared": 9,
+   "expected": 3.15,
+   "lift": 2.853,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امم",
+   "shared": 5,
+   "expected": 1.78,
+   "lift": 2.803,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "ذوق",
+  "وفي",
+  "نبا"
+ ],
+ "one_way": [
+  "خلف",
+  "موت",
+  "يدي",
+  "عمل",
+  "اهل",
+  "ملك",
+  "امم"
+ ],
+ "neighbor_view": {
+  "ذوق": {
+   "root": "رجع",
+   "shared": 6,
+   "expected": 1.01,
+   "lift": 5.955,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "وفي": {
+   "root": "رجع",
+   "shared": 6,
+   "expected": 1.06,
+   "lift": 5.676,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "نبا": {
+   "root": "رجع",
+   "shared": 14,
+   "expected": 2.49,
+   "lift": 5.613,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "خلف": null,
+  "موت": null,
+  "يدي": null,
+  "عمل": null,
+  "اهل": null,
+  "ملك": null,
+  "امم": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "رجع↔فلح",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔صلو",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔زكو",
+   "shared": 1,
+   "expected": 0.92,
+   "lift": 1.08,
+   "p_perm": 0.6146
+  },
+  {
+   "pair": "رجع↔اذن",
+   "shared": 3,
+   "expected": 1.49,
+   "lift": 2.02,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "رجع↔نفق",
+   "shared": 3,
+   "expected": 1.42,
+   "lift": 2.11,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "رجع↔سرر",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔علن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔رزق",
+   "shared": 1,
+   "expected": 1.8,
+   "lift": 0.56,
+   "p_perm": 0.8339
+  },
+  {
+   "pair": "رجع↔بسط",
+   "shared": 1,
+   "expected": 0.38,
+   "lift": 2.63,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "رجع↔طيب",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔خبث",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔حلل",
+   "shared": 4,
+   "expected": 0.71,
+   "lift": 5.63,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "رجع↔حرم",
+   "shared": 2,
+   "expected": 1.17,
+   "lift": 1.71,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "رجع↔سجد",
+   "shared": 1,
+   "expected": 1.34,
+   "lift": 0.75,
+   "p_perm": 0.7243
+  },
+  {
+   "pair": "رجع↔اكل",
+   "shared": 1,
+   "expected": 1.67,
+   "lift": 0.6,
+   "p_perm": 0.8239
+  },
+  {
+   "pair": "رجع↔طوع",
+   "shared": 5,
+   "expected": 1.95,
+   "lift": 2.57,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "رجع↔شهد",
+   "shared": 4,
+   "expected": 2.03,
+   "lift": 1.97,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "رجع↔كبر",
+   "shared": 5,
+   "expected": 2.53,
+   "lift": 1.98,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "رجع↔حيي",
+   "shared": 3,
+   "expected": 2.66,
+   "lift": 1.13,
+   "p_perm": 0.5282
+  },
+  {
+   "pair": "رجع↔خير",
+   "shared": 2,
+   "expected": 2.94,
+   "lift": 0.68,
+   "p_perm": 0.8106
+  },
+  {
+   "pair": "رجع↔ولي",
+   "shared": 1,
+   "expected": 3.34,
+   "lift": 0.3,
+   "p_perm": 0.9601
+  },
+  {
+   "pair": "رجع↔عمل",
+   "shared": 17,
+   "expected": 5.17,
+   "lift": 3.29,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "رجع↔رسل",
+   "shared": 6,
+   "expected": 7.09,
+   "lift": 0.85,
+   "p_perm": 0.7076
+  },
+  {
+   "pair": "رجع↔اله",
+   "shared": 39,
+   "expected": 31.04,
+   "lift": 1.26,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "رجع↔حبط",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔بقي",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.88,
+   "p_perm": 0.3123
+  },
+  {
+   "pair": "رجع↔عدل",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔كفي",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔دبر",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔زين",
+   "shared": 1,
+   "expected": 0.71,
+   "lift": 1.41,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "رجع↔عقل",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔خبر",
+   "shared": 1,
+   "expected": 0.86,
+   "lift": 1.16,
+   "p_perm": 0.5581
+  },
+  {
+   "pair": "رجع↔غيب",
+   "shared": 3,
+   "expected": 0.97,
+   "lift": 3.08,
+   "p_perm": 0.0864
+  },
+  {
+   "pair": "رجع↔جرم",
+   "shared": 1,
+   "expected": 1.07,
+   "lift": 0.93,
+   "p_perm": 0.6478
+  },
+  {
+   "pair": "رجع↔عرف",
+   "shared": 2,
+   "expected": 1.02,
+   "lift": 1.95,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "رجع↔نكر",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔علو",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔متع",
+   "shared": 3,
+   "expected": 1.07,
+   "lift": 2.79,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "رجع↔حين",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔وكل",
+   "shared": 2,
+   "expected": 1.01,
+   "lift": 1.99,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "رجع↔قلل",
+   "shared": 1,
+   "expected": 1.22,
+   "lift": 0.82,
+   "p_perm": 0.7076
+  },
+  {
+   "pair": "رجع↔ثمن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔شري",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔شكر",
+   "shared": 2,
+   "expected": 1.14,
+   "lift": 1.75,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "رجع↔فلك",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔بحر",
+   "shared": 1,
+   "expected": 0.66,
+   "lift": 1.51,
+   "p_perm": 0.5316
+  },
+  {
+   "pair": "رجع↔برر",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 2.02,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "رجع↔جري",
+   "shared": 0,
+   "expected": 1.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔ابد",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.16,
+   "p_perm": 0.4219
+  },
+  {
+   "pair": "رجع↔فوز",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔سخر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔تحت",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔رضو",
+   "shared": 3,
+   "expected": 1.06,
+   "lift": 2.84,
+   "p_perm": 0.093
+  },
+  {
+   "pair": "رجع↔نجو",
+   "shared": 2,
+   "expected": 1.24,
+   "lift": 1.61,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "رجع↔خلد",
+   "shared": 0,
+   "expected": 1.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔شطن",
+   "shared": 0,
+   "expected": 1.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔سبح",
+   "shared": 1,
+   "expected": 1.44,
+   "lift": 0.7,
+   "p_perm": 0.7774
+  },
+  {
+   "pair": "رجع↔حمد",
+   "shared": 1,
+   "expected": 1.01,
+   "lift": 0.99,
+   "p_perm": 0.6213
+  },
+  {
+   "pair": "رجع↔غني",
+   "shared": 1,
+   "expected": 1.19,
+   "lift": 0.84,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "رجع↔فقر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔مول",
+   "shared": 0,
+   "expected": 1.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔ليل",
+   "shared": 1,
+   "expected": 1.34,
+   "lift": 0.75,
+   "p_perm": 0.7409
+  },
+  {
+   "pair": "رجع↔قمر",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔شمس",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔بغي",
+   "shared": 4,
+   "expected": 1.49,
+   "lift": 2.69,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "رجع↔صحب",
+   "shared": 1,
+   "expected": 1.47,
+   "lift": 0.68,
+   "p_perm": 0.7907
+  },
+  {
+   "pair": "رجع↔ولد",
+   "shared": 1,
+   "expected": 1.32,
+   "lift": 0.76,
+   "p_perm": 0.7076
+  },
+  {
+   "pair": "رجع↔فضل",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔عدو",
+   "shared": 3,
+   "expected": 1.52,
+   "lift": 1.97,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "رجع↔اثم",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔نهر",
+   "shared": 2,
+   "expected": 1.68,
+   "lift": 1.19,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "رجع↔دخل",
+   "shared": 1,
+   "expected": 1.83,
+   "lift": 0.55,
+   "p_perm": 0.804
+  },
+  {
+   "pair": "رجع↔بوب",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.52,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "رجع↔فتح",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔اهل",
+   "shared": 6,
+   "expected": 1.98,
+   "lift": 3.03,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "رجع↔قري",
+   "shared": 2,
+   "expected": 0.89,
+   "lift": 2.24,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "رجع↔هلك",
+   "shared": 4,
+   "expected": 1.04,
+   "lift": 3.84,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "رجع↔قرن",
+   "shared": 1,
+   "expected": 0.56,
+   "lift": 1.78,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "رجع↔عظم",
+   "shared": 0,
+   "expected": 2.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔اجر",
+   "shared": 1,
+   "expected": 1.64,
+   "lift": 0.61,
+   "p_perm": 0.8106
+  },
+  {
+   "pair": "رجع↔ضيع",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔قدر",
+   "shared": 3,
+   "expected": 2.0,
+   "lift": 1.5,
+   "p_perm": 0.3223
+  },
+  {
+   "pair": "رجع↔دنو",
+   "shared": 4,
+   "expected": 2.11,
+   "lift": 1.89,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "رجع↔خزي",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔دون",
+   "shared": 4,
+   "expected": 2.35,
+   "lift": 1.71,
+   "p_perm": 0.2691
+  },
+  {
+   "pair": "رجع↔نفع",
+   "shared": 2,
+   "expected": 0.81,
+   "lift": 2.47,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "رجع↔ضرر",
+   "shared": 3,
+   "expected": 1.16,
+   "lift": 2.59,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "رجع↔كشف",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔مسس",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.06,
+   "p_perm": 0.5814
+  },
+  {
+   "pair": "رجع↔بصر",
+   "shared": 3,
+   "expected": 2.3,
+   "lift": 1.31,
+   "p_perm": 0.3654
+  },
+  {
+   "pair": "رجع↔فاد",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔عمي",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 2.02,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "رجع↔نصر",
+   "shared": 0,
+   "expected": 2.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔هجر",
+   "shared": 1,
+   "expected": 0.45,
+   "lift": 2.24,
+   "p_perm": 0.3056
+  },
+  {
+   "pair": "رجع↔اوي",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔صير",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔باس",
+   "shared": 0,
+   "expected": 1.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔نبا",
+   "shared": 14,
+   "expected": 2.49,
+   "lift": 5.61,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "رجع↔فلح",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔صلو",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔سرر",
+   "shared": 0,
+   "expected": 0.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔علن",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔طيب",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔خبث",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔حبط",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔عدل",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔كفي",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔دبر",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔عقل",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔نكر",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔علو",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔حين",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔ثمن",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔شري",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔فلك",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔جري",
+   "shared": 0,
+   "expected": 1.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔فوز",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔سخر",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔تحت",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔خلد",
+   "shared": 0,
+   "expected": 1.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔شطن",
+   "shared": 0,
+   "expected": 1.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔فقر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔مول",
+   "shared": 0,
+   "expected": 1.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔قمر",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔شمس",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔فضل",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔اثم",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔فتح",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔عظم",
+   "shared": 0,
+   "expected": 2.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔ضيع",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔خزي",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔كشف",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔فاد",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔نصر",
+   "shared": 0,
+   "expected": 2.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔اوي",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔صير",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "رجع↔باس",
+   "shared": 0,
+   "expected": 1.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "5:48",
+   "degree": 4,
+   "roots_present": [
+    "نبا",
+    "خلف",
+    "يدي",
+    "امم"
+   ]
+  },
+  {
+   "ayah": "6:60",
+   "degree": 3,
+   "roots_present": [
+    "وفي",
+    "نبا",
+    "عمل"
+   ]
+  },
+  {
+   "ayah": "6:108",
+   "degree": 3,
+   "roots_present": [
+    "نبا",
+    "عمل",
+    "امم"
+   ]
+  },
+  {
+   "ayah": "30:41",
+   "degree": 3,
+   "roots_present": [
+    "ذوق",
+    "يدي",
+    "عمل"
+   ]
+  },
+  {
+   "ayah": "32:11",
+   "degree": 3,
+   "roots_present": [
+    "وفي",
+    "موت",
+    "ملك"
+   ]
+  },
+  {
+   "ayah": "41:50",
+   "degree": 3,
+   "roots_present": [
+    "ذوق",
+    "نبا",
+    "عمل"
+   ]
+  },
+  {
+   "ayah": "3:55",
+   "degree": 2,
+   "roots_present": [
+    "وفي",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "5:105",
+   "degree": 2,
+   "roots_present": [
+    "نبا",
+    "عمل"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "رجع+ذوق": [
+   "10:70",
+   "21:35",
+   "29:57",
+   "30:41",
+   "32:21",
+   "41:50"
+  ],
+  "رجع+وفي": [
+   "2:281",
+   "3:55",
+   "6:60",
+   "10:46",
+   "32:11",
+   "40:77"
+  ],
+  "رجع+نبا": [
+   "5:48",
+   "5:105",
+   "6:60",
+   "6:108",
+   "6:164",
+   "9:94",
+   "10:23",
+   "24:64",
+   "29:8",
+   "31:15",
+   "31:23",
+   "33:13",
+   "39:7",
+   "41:50"
+  ],
+  "رجع+خلف": [
+   "3:55",
+   "5:48",
+   "6:164",
+   "7:150",
+   "9:83",
+   "20:86",
+   "22:76"
+  ],
+  "رجع+موت": [
+   "2:28",
+   "6:36",
+   "10:56",
+   "21:35",
+   "23:99",
+   "29:57",
+   "32:11",
+   "50:3"
+  ],
+  "رجع+يدي": [
+   "5:48",
+   "12:50",
+   "22:76",
+   "30:41",
+   "34:31",
+   "36:83"
+  ],
+  "رجع+عمل": [
+   "5:105",
+   "6:60",
+   "6:108",
+   "9:94",
+   "10:4",
+   "10:23",
+   "11:123",
+   "24:28",
+   "24:64",
+   "29:8",
+   "30:41",
+   "31:15",
+   "31:23",
+   "32:12",
+   "39:7",
+   "41:50",
+   "45:15"
+  ],
+  "رجع+اهل": [
+   "2:196",
+   "3:72",
+   "12:62",
+   "20:40",
+   "33:13",
+   "36:50"
+  ],
+  "رجع+ملك": [
+   "2:210",
+   "12:50",
+   "20:89",
+   "29:17",
+   "32:11",
+   "36:83",
+   "39:44",
+   "43:85",
+   "57:5"
+  ],
+  "رجع+امم": [
+   "5:48",
+   "6:108",
+   "7:150",
+   "7:168",
+   "20:40"
+  ],
+  "رجع+حلل": [
+   "2:196",
+   "2:230",
+   "20:86",
+   "60:10"
+  ],
+  "رجع+طوع": [
+   "3:83",
+   "29:8",
+   "31:15",
+   "36:50",
+   "36:67"
+  ],
+  "رجع+اله": [
+   "2:28",
+   "2:156",
+   "2:196",
+   "2:210",
+   "2:230",
+   "2:245",
+   "2:281",
+   "3:55",
+   "3:83",
+   "3:109",
+   "5:48",
+   "5:105",
+   "6:36",
+   "6:108",
+   "6:164",
+   "8:44",
+   "9:83",
+   "9:94",
+   "10:4",
+   "10:46"
+  ],
+  "رجع+بغي": [
+   "3:83",
+   "6:164",
+   "10:23",
+   "29:17"
+  ],
+  "رجع+هلك": [
+   "21:95",
+   "28:88",
+   "36:31",
+   "46:27"
+  ]
+ }
+}
