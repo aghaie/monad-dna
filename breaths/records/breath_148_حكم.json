@@ -1,0 +1,1884 @@
+{
+ "breath_number": 148,
+ "deliberation": [
+  {
+   "root": "حكم",
+   "attestation": 210
+  },
+  {
+   "root": "دعو",
+   "attestation": 212
+  },
+  {
+   "root": "غفر",
+   "attestation": 234
+  },
+  {
+   "root": "بعد",
+   "attestation": 235
+  },
+  {
+   "root": "نوس",
+   "attestation": 241
+  },
+  {
+   "root": "امر",
+   "attestation": 248
+  },
+  {
+   "root": "اخر",
+   "attestation": 250
+  },
+  {
+   "root": "وقي",
+   "attestation": 258
+  },
+  {
+   "root": "خلق",
+   "attestation": 261
+  },
+  {
+   "root": "اخذ",
+   "attestation": 273
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "حكم",
+ "attestation": 210,
+ "ayat": 189,
+ "top": [
+  {
+   "root": "عزز",
+   "shared": 49,
+   "expected": 3.52,
+   "lift": 13.937,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "تلو",
+   "shared": 8,
+   "expected": 1.85,
+   "lift": 4.327,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بلغ",
+   "shared": 9,
+   "expected": 2.21,
+   "lift": 4.068,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حلل",
+   "shared": 5,
+   "expected": 1.3,
+   "lift": 3.837,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خبر",
+   "shared": 6,
+   "expected": 1.58,
+   "lift": 3.807,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كتب",
+   "shared": 31,
+   "expected": 8.46,
+   "lift": 3.666,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "خلف",
+   "shared": 12,
+   "expected": 3.52,
+   "lift": 3.413,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "علم",
+   "shared": 71,
+   "expected": 22.06,
+   "lift": 3.218,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سبح",
+   "shared": 8,
+   "expected": 2.64,
+   "lift": 3.034,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "فرق",
+   "shared": 6,
+   "expected": 2.0,
+   "lift": 3.0,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "عزز",
+  "تلو",
+  "بلغ",
+  "حلل",
+  "خبر",
+  "فرق"
+ ],
+ "one_way": [
+  "كتب",
+  "خلف",
+  "علم",
+  "سبح"
+ ],
+ "neighbor_view": {
+  "عزز": {
+   "root": "حكم",
+   "shared": 49,
+   "expected": 3.52,
+   "lift": 13.937,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "تلو": {
+   "root": "حكم",
+   "shared": 8,
+   "expected": 1.85,
+   "lift": 4.327,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "بلغ": {
+   "root": "حكم",
+   "shared": 9,
+   "expected": 2.21,
+   "lift": 4.068,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "حلل": {
+   "root": "حكم",
+   "shared": 5,
+   "expected": 1.3,
+   "lift": 3.837,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "خبر": {
+   "root": "حكم",
+   "shared": 6,
+   "expected": 1.58,
+   "lift": 3.807,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "كتب": null,
+  "خلف": null,
+  "علم": null,
+  "سبح": null,
+  "فرق": {
+   "root": "حكم",
+   "shared": 6,
+   "expected": 2.0,
+   "lift": 3.0,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ },
+ "projection_on_map": [
+  {
+   "pair": "حكم↔فلح",
+   "shared": 1,
+   "expected": 1.21,
+   "lift": 0.82,
+   "p_perm": 0.7442
+  },
+  {
+   "pair": "حكم↔صلو",
+   "shared": 2,
+   "expected": 2.73,
+   "lift": 0.73,
+   "p_perm": 0.7309
+  },
+  {
+   "pair": "حكم↔زكو",
+   "shared": 5,
+   "expected": 1.7,
+   "lift": 2.95,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "حكم↔اذن",
+   "shared": 8,
+   "expected": 2.73,
+   "lift": 2.93,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "حكم↔نفق",
+   "shared": 5,
+   "expected": 2.61,
+   "lift": 1.92,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "حكم↔سرر",
+   "shared": 0,
+   "expected": 1.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔علن",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔رزق",
+   "shared": 1,
+   "expected": 3.3,
+   "lift": 0.3,
+   "p_perm": 0.9701
+  },
+  {
+   "pair": "حكم↔بسط",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔طيب",
+   "shared": 1,
+   "expected": 1.39,
+   "lift": 0.72,
+   "p_perm": 0.7774
+  },
+  {
+   "pair": "حكم↔خبث",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.3,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "حكم↔حلل",
+   "shared": 5,
+   "expected": 1.3,
+   "lift": 3.84,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "حكم↔حرم",
+   "shared": 4,
+   "expected": 2.15,
+   "lift": 1.86,
+   "p_perm": 0.1429
+  },
+  {
+   "pair": "حكم↔سجد",
+   "shared": 2,
+   "expected": 2.45,
+   "lift": 0.81,
+   "p_perm": 0.7243
+  },
+  {
+   "pair": "حكم↔اكل",
+   "shared": 2,
+   "expected": 3.06,
+   "lift": 0.65,
+   "p_perm": 0.8007
+  },
+  {
+   "pair": "حكم↔طوع",
+   "shared": 5,
+   "expected": 3.58,
+   "lift": 1.4,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "حكم↔شهد",
+   "shared": 7,
+   "expected": 3.73,
+   "lift": 1.88,
+   "p_perm": 0.0963
+  },
+  {
+   "pair": "حكم↔كبر",
+   "shared": 4,
+   "expected": 4.64,
+   "lift": 0.86,
+   "p_perm": 0.6977
+  },
+  {
+   "pair": "حكم↔حيي",
+   "shared": 2,
+   "expected": 4.88,
+   "lift": 0.41,
+   "p_perm": 0.9734
+  },
+  {
+   "pair": "حكم↔خير",
+   "shared": 8,
+   "expected": 5.39,
+   "lift": 1.48,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "حكم↔ولي",
+   "shared": 11,
+   "expected": 6.12,
+   "lift": 1.8,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "حكم↔عمل",
+   "shared": 6,
+   "expected": 9.49,
+   "lift": 0.63,
+   "p_perm": 0.9169
+  },
+  {
+   "pair": "حكم↔رسل",
+   "shared": 17,
+   "expected": 13.0,
+   "lift": 1.31,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "حكم↔اله",
+   "shared": 127,
+   "expected": 56.95,
+   "lift": 2.23,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "حكم↔حبط",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔بقي",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عدل",
+   "shared": 2,
+   "expected": 0.73,
+   "lift": 2.75,
+   "p_perm": 0.1661
+  },
+  {
+   "pair": "حكم↔كفي",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔دبر",
+   "shared": 0,
+   "expected": 1.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔زين",
+   "shared": 0,
+   "expected": 1.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عقل",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔خبر",
+   "shared": 6,
+   "expected": 1.58,
+   "lift": 3.81,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "حكم↔غيب",
+   "shared": 4,
+   "expected": 1.79,
+   "lift": 2.24,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "حكم↔جرم",
+   "shared": 0,
+   "expected": 1.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عرف",
+   "shared": 4,
+   "expected": 1.88,
+   "lift": 2.13,
+   "p_perm": 0.1362
+  },
+  {
+   "pair": "حكم↔نكر",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.89,
+   "p_perm": 0.6877
+  },
+  {
+   "pair": "حكم↔علو",
+   "shared": 6,
+   "expected": 2.06,
+   "lift": 2.91,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "حكم↔متع",
+   "shared": 3,
+   "expected": 1.97,
+   "lift": 1.52,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "حكم↔حين",
+   "shared": 2,
+   "expected": 1.0,
+   "lift": 2.0,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "حكم↔وكل",
+   "shared": 4,
+   "expected": 1.85,
+   "lift": 2.16,
+   "p_perm": 0.113
+  },
+  {
+   "pair": "حكم↔قلل",
+   "shared": 1,
+   "expected": 2.24,
+   "lift": 0.45,
+   "p_perm": 0.8671
+  },
+  {
+   "pair": "حكم↔ثمن",
+   "shared": 1,
+   "expected": 0.58,
+   "lift": 1.74,
+   "p_perm": 0.4518
+  },
+  {
+   "pair": "حكم↔شري",
+   "shared": 1,
+   "expected": 0.7,
+   "lift": 1.43,
+   "p_perm": 0.5017
+  },
+  {
+   "pair": "حكم↔شكر",
+   "shared": 1,
+   "expected": 2.09,
+   "lift": 0.48,
+   "p_perm": 0.9003
+  },
+  {
+   "pair": "حكم↔فلك",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔بحر",
+   "shared": 1,
+   "expected": 1.21,
+   "lift": 0.82,
+   "p_perm": 0.7375
+  },
+  {
+   "pair": "حكم↔برر",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔جري",
+   "shared": 0,
+   "expected": 1.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔ابد",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔فوز",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔سخر",
+   "shared": 1,
+   "expected": 1.06,
+   "lift": 0.94,
+   "p_perm": 0.6578
+  },
+  {
+   "pair": "حكم↔تحت",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔رضو",
+   "shared": 1,
+   "expected": 1.94,
+   "lift": 0.52,
+   "p_perm": 0.8605
+  },
+  {
+   "pair": "حكم↔نجو",
+   "shared": 2,
+   "expected": 2.27,
+   "lift": 0.88,
+   "p_perm": 0.6379
+  },
+  {
+   "pair": "حكم↔خلد",
+   "shared": 2,
+   "expected": 2.61,
+   "lift": 0.77,
+   "p_perm": 0.7575
+  },
+  {
+   "pair": "حكم↔شطن",
+   "shared": 3,
+   "expected": 2.36,
+   "lift": 1.27,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "حكم↔سبح",
+   "shared": 8,
+   "expected": 2.64,
+   "lift": 3.03,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "حكم↔حمد",
+   "shared": 5,
+   "expected": 1.85,
+   "lift": 2.7,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "حكم↔غني",
+   "shared": 5,
+   "expected": 2.18,
+   "lift": 2.29,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "حكم↔فقر",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.36,
+   "p_perm": 0.4053
+  },
+  {
+   "pair": "حكم↔مول",
+   "shared": 2,
+   "expected": 2.42,
+   "lift": 0.82,
+   "p_perm": 0.6744
+  },
+  {
+   "pair": "حكم↔ليل",
+   "shared": 0,
+   "expected": 2.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔قمر",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔شمس",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔بغي",
+   "shared": 7,
+   "expected": 2.73,
+   "lift": 2.57,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "حكم↔صحب",
+   "shared": 2,
+   "expected": 2.7,
+   "lift": 0.74,
+   "p_perm": 0.7176
+  },
+  {
+   "pair": "حكم↔ولد",
+   "shared": 2,
+   "expected": 2.42,
+   "lift": 0.82,
+   "p_perm": 0.7043
+  },
+  {
+   "pair": "حكم↔فضل",
+   "shared": 7,
+   "expected": 2.79,
+   "lift": 2.51,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "حكم↔عدو",
+   "shared": 2,
+   "expected": 2.79,
+   "lift": 0.72,
+   "p_perm": 0.7674
+  },
+  {
+   "pair": "حكم↔اثم",
+   "shared": 3,
+   "expected": 1.27,
+   "lift": 2.36,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "حكم↔نهر",
+   "shared": 0,
+   "expected": 3.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔دخل",
+   "shared": 3,
+   "expected": 3.36,
+   "lift": 0.89,
+   "p_perm": 0.6512
+  },
+  {
+   "pair": "حكم↔بوب",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.37,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "حكم↔فتح",
+   "shared": 2,
+   "expected": 1.0,
+   "lift": 2.0,
+   "p_perm": 0.2525
+  },
+  {
+   "pair": "حكم↔اهل",
+   "shared": 5,
+   "expected": 3.64,
+   "lift": 1.37,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "حكم↔قري",
+   "shared": 1,
+   "expected": 1.64,
+   "lift": 0.61,
+   "p_perm": 0.8106
+  },
+  {
+   "pair": "حكم↔هلك",
+   "shared": 1,
+   "expected": 1.91,
+   "lift": 0.52,
+   "p_perm": 0.8439
+  },
+  {
+   "pair": "حكم↔قرن",
+   "shared": 0,
+   "expected": 1.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عظم",
+   "shared": 2,
+   "expected": 3.85,
+   "lift": 0.52,
+   "p_perm": 0.9136
+  },
+  {
+   "pair": "حكم↔اجر",
+   "shared": 2,
+   "expected": 3.0,
+   "lift": 0.67,
+   "p_perm": 0.7874
+  },
+  {
+   "pair": "حكم↔ضيع",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔قدر",
+   "shared": 0,
+   "expected": 3.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔دنو",
+   "shared": 2,
+   "expected": 3.88,
+   "lift": 0.52,
+   "p_perm": 0.9136
+  },
+  {
+   "pair": "حكم↔خزي",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔دون",
+   "shared": 5,
+   "expected": 4.3,
+   "lift": 1.16,
+   "p_perm": 0.4452
+  },
+  {
+   "pair": "حكم↔نفع",
+   "shared": 1,
+   "expected": 1.49,
+   "lift": 0.67,
+   "p_perm": 0.7708
+  },
+  {
+   "pair": "حكم↔ضرر",
+   "shared": 3,
+   "expected": 2.12,
+   "lift": 1.41,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "حكم↔كشف",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔مسس",
+   "shared": 0,
+   "expected": 1.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔بصر",
+   "shared": 2,
+   "expected": 4.21,
+   "lift": 0.47,
+   "p_perm": 0.9502
+  },
+  {
+   "pair": "حكم↔فاد",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عمي",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔نصر",
+   "shared": 5,
+   "expected": 4.15,
+   "lift": 1.2,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "حكم↔هجر",
+   "shared": 2,
+   "expected": 0.82,
+   "lift": 2.44,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "حكم↔اوي",
+   "shared": 0,
+   "expected": 1.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔صير",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔باس",
+   "shared": 0,
+   "expected": 2.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔نبا",
+   "shared": 10,
+   "expected": 4.58,
+   "lift": 2.19,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "حكم↔رجع",
+   "shared": 5,
+   "expected": 3.12,
+   "lift": 1.6,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "حكم↔ذوق",
+   "shared": 2,
+   "expected": 1.85,
+   "lift": 1.08,
+   "p_perm": 0.485
+  },
+  {
+   "pair": "حكم↔موت",
+   "shared": 5,
+   "expected": 4.33,
+   "lift": 1.15,
+   "p_perm": 0.4153
+  },
+  {
+   "pair": "حكم↔بعث",
+   "shared": 5,
+   "expected": 1.94,
+   "lift": 2.58,
+   "p_perm": 0.0498
+  },
+  {
+   "pair": "حكم↔نظر",
+   "shared": 1,
+   "expected": 3.49,
+   "lift": 0.29,
+   "p_perm": 0.9734
+  },
+  {
+   "pair": "حكم↔سير",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عقب",
+   "shared": 1,
+   "expected": 2.24,
+   "lift": 0.45,
+   "p_perm": 0.907
+  },
+  {
+   "pair": "حكم↔كيف",
+   "shared": 6,
+   "expected": 2.52,
+   "lift": 2.39,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "حكم↔شدد",
+   "shared": 5,
+   "expected": 3.0,
+   "lift": 1.67,
+   "p_perm": 0.1694
+  },
+  {
+   "pair": "حكم↔قوي",
+   "shared": 1,
+   "expected": 1.18,
+   "lift": 0.85,
+   "p_perm": 0.6877
+  },
+  {
+   "pair": "حكم↔عزز",
+   "shared": 49,
+   "expected": 3.52,
+   "lift": 13.94,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "حكم↔قلب",
+   "shared": 11,
+   "expected": 4.7,
+   "lift": 2.34,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "حكم↔قسو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔طبع",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔طمن",
+   "shared": 3,
+   "expected": 0.36,
+   "lift": 8.25,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "حكم↔مرض",
+   "shared": 2,
+   "expected": 0.7,
+   "lift": 2.87,
+   "p_perm": 0.1329
+  },
+  {
+   "pair": "حكم↔شرك",
+   "shared": 7,
+   "expected": 4.33,
+   "lift": 1.62,
+   "p_perm": 0.1661
+  },
+  {
+   "pair": "حكم↔برا",
+   "shared": 2,
+   "expected": 0.85,
+   "lift": 2.36,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "حكم↔اول",
+   "shared": 7,
+   "expected": 4.79,
+   "lift": 1.46,
+   "p_perm": 0.1993
+  },
+  {
+   "pair": "حكم↔لبب",
+   "shared": 2,
+   "expected": 0.48,
+   "lift": 4.12,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "حكم↔سطر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔مرر",
+   "shared": 1,
+   "expected": 0.97,
+   "lift": 1.03,
+   "p_perm": 0.6047
+  },
+  {
+   "pair": "حكم↔ابو",
+   "shared": 6,
+   "expected": 3.15,
+   "lift": 1.9,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "حكم↔اخو",
+   "shared": 3,
+   "expected": 2.42,
+   "lift": 1.24,
+   "p_perm": 0.4585
+  },
+  {
+   "pair": "حكم↔وجد",
+   "shared": 2,
+   "expected": 3.0,
+   "lift": 0.67,
+   "p_perm": 0.804
+  },
+  {
+   "pair": "حكم↔صلح",
+   "shared": 7,
+   "expected": 5.15,
+   "lift": 1.36,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "حكم↔فسد",
+   "shared": 2,
+   "expected": 1.42,
+   "lift": 1.4,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "حكم↔توب",
+   "shared": 6,
+   "expected": 2.09,
+   "lift": 2.87,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "حكم↔سمع",
+   "shared": 4,
+   "expected": 4.94,
+   "lift": 0.81,
+   "p_perm": 0.7641
+  },
+  {
+   "pair": "حكم↔صمم",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔نور",
+   "shared": 3,
+   "expected": 5.27,
+   "lift": 0.57,
+   "p_perm": 0.9136
+  },
+  {
+   "pair": "حكم↔وقد",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔صلي",
+   "shared": 1,
+   "expected": 0.76,
+   "lift": 1.32,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "حكم↔حسن",
+   "shared": 6,
+   "expected": 5.36,
+   "lift": 1.12,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "حكم↔صوب",
+   "shared": 1,
+   "expected": 1.7,
+   "lift": 0.59,
+   "p_perm": 0.8937
+  },
+  {
+   "pair": "حكم↔جزي",
+   "shared": 5,
+   "expected": 3.3,
+   "lift": 1.51,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "حكم↔كسب",
+   "shared": 2,
+   "expected": 1.82,
+   "lift": 1.1,
+   "p_perm": 0.598
+  },
+  {
+   "pair": "حكم↔سوا",
+   "shared": 7,
+   "expected": 4.58,
+   "lift": 1.53,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "حكم↔بدو",
+   "shared": 1,
+   "expected": 0.88,
+   "lift": 1.14,
+   "p_perm": 0.6379
+  },
+  {
+   "pair": "حكم↔خفي",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔مثل",
+   "shared": 6,
+   "expected": 4.49,
+   "lift": 1.34,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "حكم↔ضرب",
+   "shared": 0,
+   "expected": 1.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عند",
+   "shared": 5,
+   "expected": 5.73,
+   "lift": 0.87,
+   "p_perm": 0.7276
+  },
+  {
+   "pair": "حكم↔خزن",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔ثوب",
+   "shared": 1,
+   "expected": 0.7,
+   "lift": 1.43,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "حكم↔جنن",
+   "shared": 3,
+   "expected": 5.94,
+   "lift": 0.51,
+   "p_perm": 0.9502
+  },
+  {
+   "pair": "حكم↔عنب",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔نخل",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔ملك",
+   "shared": 9,
+   "expected": 5.79,
+   "lift": 1.55,
+   "p_perm": 0.1262
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "حكم↔سرر",
+   "shared": 0,
+   "expected": 1.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔علن",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔بسط",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔حبط",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔بقي",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔كفي",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔دبر",
+   "shared": 0,
+   "expected": 1.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔زين",
+   "shared": 0,
+   "expected": 1.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عقل",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔جرم",
+   "shared": 0,
+   "expected": 1.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔فلك",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔برر",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔جري",
+   "shared": 0,
+   "expected": 1.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔ابد",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔فوز",
+   "shared": 0,
+   "expected": 0.82,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔تحت",
+   "shared": 0,
+   "expected": 1.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔ليل",
+   "shared": 0,
+   "expected": 2.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔قمر",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔شمس",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔نهر",
+   "shared": 0,
+   "expected": 3.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔قرن",
+   "shared": 0,
+   "expected": 1.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔ضيع",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔قدر",
+   "shared": 0,
+   "expected": 3.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔خزي",
+   "shared": 0,
+   "expected": 0.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔كشف",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔مسس",
+   "shared": 0,
+   "expected": 1.73,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔فاد",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عمي",
+   "shared": 0,
+   "expected": 0.91,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔اوي",
+   "shared": 0,
+   "expected": 1.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔صير",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔باس",
+   "shared": 0,
+   "expected": 2.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔سير",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔قسو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔طبع",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔سطر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔صمم",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔وقد",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔خفي",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔ضرب",
+   "shared": 0,
+   "expected": 1.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔خزن",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔عنب",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حكم↔نخل",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:113",
+   "degree": 4,
+   "roots_present": [
+    "تلو",
+    "كتب",
+    "خلف",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "2:129",
+   "degree": 4,
+   "roots_present": [
+    "عزز",
+    "تلو",
+    "كتب",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "2:151",
+   "degree": 3,
+   "roots_present": [
+    "تلو",
+    "كتب",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "2:231",
+   "degree": 3,
+   "roots_present": [
+    "بلغ",
+    "كتب",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "3:164",
+   "degree": 3,
+   "roots_present": [
+    "تلو",
+    "كتب",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "4:24",
+   "degree": 3,
+   "roots_present": [
+    "حلل",
+    "كتب",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "62:2",
+   "degree": 3,
+   "roots_present": [
+    "تلو",
+    "كتب",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "2:32",
+   "degree": 2,
+   "roots_present": [
+    "علم",
+    "سبح"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "حكم+عزز": [
+   "2:129",
+   "2:209",
+   "2:220",
+   "2:228",
+   "2:240",
+   "2:260",
+   "3:6",
+   "3:18",
+   "3:62",
+   "3:126",
+   "4:56",
+   "4:158",
+   "4:165",
+   "5:38",
+   "5:95",
+   "5:118",
+   "8:10",
+   "8:49",
+   "8:63",
+   "8:67"
+  ],
+  "حكم+تلو": [
+   "2:113",
+   "2:129",
+   "2:151",
+   "3:58",
+   "3:164",
+   "5:1",
+   "33:34",
+   "62:2"
+  ],
+  "حكم+بلغ": [
+   "2:231",
+   "5:95",
+   "6:128",
+   "12:22",
+   "24:58",
+   "24:59",
+   "28:14",
+   "54:5",
+   "68:39"
+  ],
+  "حكم+حلل": [
+   "2:228",
+   "4:24",
+   "5:1",
+   "60:10",
+   "66:2"
+  ],
+  "حكم+خبر": [
+   "4:35",
+   "6:18",
+   "6:73",
+   "11:1",
+   "33:34",
+   "34:1"
+  ],
+  "حكم+كتب": [
+   "2:113",
+   "2:129",
+   "2:151",
+   "2:213",
+   "2:231",
+   "3:7",
+   "3:23",
+   "3:48",
+   "3:79",
+   "3:81",
+   "3:164",
+   "4:24",
+   "4:54",
+   "4:105",
+   "4:113",
+   "5:44",
+   "5:45",
+   "5:48",
+   "5:110",
+   "6:89"
+  ],
+  "حكم+خلف": [
+   "2:113",
+   "2:213",
+   "3:55",
+   "5:48",
+   "16:124",
+   "22:69",
+   "38:26",
+   "39:3",
+   "39:46",
+   "41:42",
+   "42:10",
+   "43:63"
+  ],
+  "حكم+علم": [
+   "2:32",
+   "2:113",
+   "2:129",
+   "2:151",
+   "2:188",
+   "2:209",
+   "2:220",
+   "2:231",
+   "2:251",
+   "2:260",
+   "3:7",
+   "3:18",
+   "3:48",
+   "3:79",
+   "3:164",
+   "4:11",
+   "4:17",
+   "4:24",
+   "4:26",
+   "4:35"
+  ],
+  "حكم+سبح": [
+   "2:32",
+   "21:79",
+   "52:48",
+   "57:1",
+   "59:1",
+   "59:24",
+   "61:1",
+   "62:1"
+  ],
+  "حكم+فرق": [
+   "2:188",
+   "3:23",
+   "4:130",
+   "12:67",
+   "24:48",
+   "44:4"
+  ],
+  "حكم+زكو": [
+   "2:129",
+   "2:151",
+   "3:164",
+   "9:71",
+   "62:2"
+  ],
+  "حكم+اذن": [
+   "2:213",
+   "2:251",
+   "5:45",
+   "5:110",
+   "12:80",
+   "24:58",
+   "24:59",
+   "42:51"
+  ],
+  "حكم+ولي": [
+   "3:23",
+   "5:43",
+   "5:49",
+   "6:62",
+   "6:128",
+   "9:71",
+   "13:37",
+   "18:26",
+   "39:3",
+   "47:20",
+   "66:2"
+  ],
+  "حكم+اله": [
+   "2:113",
+   "2:209",
+   "2:213",
+   "2:220",
+   "2:228",
+   "2:231",
+   "2:240",
+   "2:251",
+   "2:260",
+   "3:6",
+   "3:7",
+   "3:18",
+   "3:23",
+   "3:55",
+   "3:62",
+   "3:79",
+   "3:81",
+   "3:126",
+   "3:164",
+   "4:11"
+  ],
+  "حكم+علو": [
+   "9:40",
+   "16:60",
+   "30:27",
+   "40:12",
+   "42:51",
+   "43:4"
+  ],
+  "حكم+حمد": [
+   "28:70",
+   "31:12",
+   "34:1",
+   "41:42",
+   "52:48"
+  ],
+  "حكم+بغي": [
+   "2:213",
+   "3:7",
+   "4:24",
+   "4:104",
+   "5:50",
+   "6:114",
+   "38:22"
+  ],
+  "حكم+فضل": [
+   "2:251",
+   "4:54",
+   "4:113",
+   "9:28",
+   "24:10",
+   "45:16",
+   "49:8"
+  ],
+  "حكم+نبا": [
+   "2:213",
+   "3:79",
+   "3:81",
+   "5:44",
+   "5:48",
+   "6:89",
+   "8:67",
+   "22:52",
+   "33:1",
+   "45:16"
+  ],
+  "حكم+بعث": [
+   "2:129",
+   "2:213",
+   "3:164",
+   "4:35",
+   "62:2"
+  ],
+  "حكم+قلب": [
+   "2:260",
+   "3:7",
+   "3:126",
+   "8:10",
+   "8:49",
+   "8:63",
+   "9:15",
+   "9:60",
+   "9:110",
+   "47:20",
+   "48:4"
+  ],
+  "حكم+طمن": [
+   "2:260",
+   "3:126",
+   "8:10"
+  ],
+  "حكم+توب": [
+   "4:17",
+   "4:26",
+   "4:92",
+   "9:15",
+   "9:106",
+   "24:10"
+  ]
+ }
+}
