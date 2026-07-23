@@ -1,0 +1,1460 @@
+{
+ "breath_number": 103,
+ "deliberation": [
+  {
+   "root": "نظر",
+   "attestation": 129
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  },
+  {
+   "root": "اول",
+   "attestation": 170
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "نظر",
+ "attestation": 129,
+ "ayat": 115,
+ "top": [
+  {
+   "root": "سير",
+   "shared": 12,
+   "expected": 0.46,
+   "lift": 26.029,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كيف",
+   "shared": 36,
+   "expected": 1.53,
+   "lift": 23.52,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "عقب",
+   "shared": 21,
+   "expected": 1.36,
+   "lift": 15.388,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قوي",
+   "shared": 5,
+   "expected": 0.72,
+   "lift": 6.952,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعث",
+   "shared": 8,
+   "expected": 1.18,
+   "lift": 6.778,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "طعم",
+   "shared": 5,
+   "expected": 0.76,
+   "lift": 6.613,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بعض",
+   "shared": 6,
+   "expected": 1.6,
+   "lift": 3.74,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قبل",
+   "shared": 17,
+   "expected": 5.2,
+   "lift": 3.269,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "شدد",
+   "shared": 5,
+   "expected": 1.83,
+   "lift": 2.739,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ارض",
+   "shared": 20,
+   "expected": 8.11,
+   "lift": 2.465,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 4,
+ "reciprocal": [
+  "سير",
+  "كيف",
+  "عقب",
+  "قوي",
+  "بعث",
+  "طعم"
+ ],
+ "one_way": [
+  "بعض",
+  "قبل",
+  "شدد",
+  "ارض"
+ ],
+ "neighbor_view": {
+  "سير": {
+   "root": "نظر",
+   "shared": 12,
+   "expected": 0.46,
+   "lift": 26.029,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "كيف": {
+   "root": "نظر",
+   "shared": 36,
+   "expected": 1.53,
+   "lift": 23.52,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "عقب": {
+   "root": "نظر",
+   "shared": 21,
+   "expected": 1.36,
+   "lift": 15.388,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "قوي": {
+   "root": "نظر",
+   "shared": 5,
+   "expected": 0.72,
+   "lift": 6.952,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعث": {
+   "root": "نظر",
+   "shared": 8,
+   "expected": 1.18,
+   "lift": 6.778,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "طعم": {
+   "root": "نظر",
+   "shared": 5,
+   "expected": 0.76,
+   "lift": 6.613,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بعض": null,
+  "قبل": null,
+  "شدد": null,
+  "ارض": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "نظر↔فلح",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔صلو",
+   "shared": 0,
+   "expected": 1.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔زكو",
+   "shared": 2,
+   "expected": 1.03,
+   "lift": 1.94,
+   "p_perm": 0.2824
+  },
+  {
+   "pair": "نظر↔اذن",
+   "shared": 2,
+   "expected": 1.66,
+   "lift": 1.21,
+   "p_perm": 0.5183
+  },
+  {
+   "pair": "نظر↔نفق",
+   "shared": 1,
+   "expected": 1.59,
+   "lift": 0.63,
+   "p_perm": 0.794
+  },
+  {
+   "pair": "نظر↔سرر",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.26,
+   "p_perm": 0.5249
+  },
+  {
+   "pair": "نظر↔علن",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔رزق",
+   "shared": 1,
+   "expected": 2.01,
+   "lift": 0.5,
+   "p_perm": 0.8671
+  },
+  {
+   "pair": "نظر↔بسط",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔طيب",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔خبث",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔حلل",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔حرم",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔سجد",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔اكل",
+   "shared": 1,
+   "expected": 1.86,
+   "lift": 0.54,
+   "p_perm": 0.8372
+  },
+  {
+   "pair": "نظر↔طوع",
+   "shared": 4,
+   "expected": 2.18,
+   "lift": 1.84,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "نظر↔شهد",
+   "shared": 0,
+   "expected": 2.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔كبر",
+   "shared": 3,
+   "expected": 2.82,
+   "lift": 1.06,
+   "p_perm": 0.5581
+  },
+  {
+   "pair": "نظر↔حيي",
+   "shared": 4,
+   "expected": 2.97,
+   "lift": 1.35,
+   "p_perm": 0.3588
+  },
+  {
+   "pair": "نظر↔خير",
+   "shared": 5,
+   "expected": 3.28,
+   "lift": 1.52,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "نظر↔ولي",
+   "shared": 2,
+   "expected": 3.73,
+   "lift": 0.54,
+   "p_perm": 0.887
+  },
+  {
+   "pair": "نظر↔عمل",
+   "shared": 5,
+   "expected": 5.77,
+   "lift": 0.87,
+   "p_perm": 0.6611
+  },
+  {
+   "pair": "نظر↔رسل",
+   "shared": 7,
+   "expected": 7.91,
+   "lift": 0.88,
+   "p_perm": 0.6944
+  },
+  {
+   "pair": "نظر↔اله",
+   "shared": 30,
+   "expected": 34.65,
+   "lift": 0.87,
+   "p_perm": 0.8704
+  },
+  {
+   "pair": "نظر↔حبط",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.39,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "نظر↔بقي",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔عدل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔كفي",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.69,
+   "p_perm": 0.4817
+  },
+  {
+   "pair": "نظر↔دبر",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔زين",
+   "shared": 2,
+   "expected": 0.79,
+   "lift": 2.52,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "نظر↔عقل",
+   "shared": 1,
+   "expected": 0.9,
+   "lift": 1.11,
+   "p_perm": 0.598
+  },
+  {
+   "pair": "نظر↔خبر",
+   "shared": 1,
+   "expected": 0.96,
+   "lift": 1.04,
+   "p_perm": 0.6047
+  },
+  {
+   "pair": "نظر↔غيب",
+   "shared": 1,
+   "expected": 1.09,
+   "lift": 0.92,
+   "p_perm": 0.6777
+  },
+  {
+   "pair": "نظر↔جرم",
+   "shared": 2,
+   "expected": 1.2,
+   "lift": 1.67,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "نظر↔عرف",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔نكر",
+   "shared": 1,
+   "expected": 0.68,
+   "lift": 1.47,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "نظر↔علو",
+   "shared": 1,
+   "expected": 1.25,
+   "lift": 0.8,
+   "p_perm": 0.6977
+  },
+  {
+   "pair": "نظر↔متع",
+   "shared": 1,
+   "expected": 1.2,
+   "lift": 0.83,
+   "p_perm": 0.6944
+  },
+  {
+   "pair": "نظر↔حين",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.64,
+   "p_perm": 0.4784
+  },
+  {
+   "pair": "نظر↔وكل",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.89,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "نظر↔قلل",
+   "shared": 3,
+   "expected": 1.36,
+   "lift": 2.2,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "نظر↔ثمن",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.85,
+   "p_perm": 0.2857
+  },
+  {
+   "pair": "نظر↔شري",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.36,
+   "p_perm": 0.3455
+  },
+  {
+   "pair": "نظر↔شكر",
+   "shared": 0,
+   "expected": 1.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔فلك",
+   "shared": 1,
+   "expected": 0.46,
+   "lift": 2.17,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "نظر↔بحر",
+   "shared": 1,
+   "expected": 0.74,
+   "lift": 1.36,
+   "p_perm": 0.5515
+  },
+  {
+   "pair": "نظر↔برر",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔جري",
+   "shared": 0,
+   "expected": 1.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔ابد",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.94,
+   "p_perm": 0.4485
+  },
+  {
+   "pair": "نظر↔فوز",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔سخر",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔تحت",
+   "shared": 1,
+   "expected": 0.92,
+   "lift": 1.08,
+   "p_perm": 0.6013
+  },
+  {
+   "pair": "نظر↔رضو",
+   "shared": 0,
+   "expected": 1.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔نجو",
+   "shared": 2,
+   "expected": 1.38,
+   "lift": 1.45,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "نظر↔خلد",
+   "shared": 2,
+   "expected": 1.59,
+   "lift": 1.26,
+   "p_perm": 0.4817
+  },
+  {
+   "pair": "نظر↔شطن",
+   "shared": 0,
+   "expected": 1.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔سبح",
+   "shared": 1,
+   "expected": 1.6,
+   "lift": 0.62,
+   "p_perm": 0.7807
+  },
+  {
+   "pair": "نظر↔حمد",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔غني",
+   "shared": 2,
+   "expected": 1.33,
+   "lift": 1.51,
+   "p_perm": 0.3721
+  },
+  {
+   "pair": "نظر↔فقر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔مول",
+   "shared": 0,
+   "expected": 1.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔ليل",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔قمر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔شمس",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔بغي",
+   "shared": 1,
+   "expected": 1.66,
+   "lift": 0.6,
+   "p_perm": 0.7475
+  },
+  {
+   "pair": "نظر↔صحب",
+   "shared": 0,
+   "expected": 1.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔ولد",
+   "shared": 0,
+   "expected": 1.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔فضل",
+   "shared": 1,
+   "expected": 1.7,
+   "lift": 0.59,
+   "p_perm": 0.8007
+  },
+  {
+   "pair": "نظر↔عدو",
+   "shared": 1,
+   "expected": 1.7,
+   "lift": 0.59,
+   "p_perm": 0.8339
+  },
+  {
+   "pair": "نظر↔اثم",
+   "shared": 1,
+   "expected": 0.77,
+   "lift": 1.29,
+   "p_perm": 0.5681
+  },
+  {
+   "pair": "نظر↔نهر",
+   "shared": 0,
+   "expected": 1.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔دخل",
+   "shared": 1,
+   "expected": 2.05,
+   "lift": 0.49,
+   "p_perm": 0.8405
+  },
+  {
+   "pair": "نظر↔بوب",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.26,
+   "p_perm": 0.3389
+  },
+  {
+   "pair": "نظر↔فتح",
+   "shared": 1,
+   "expected": 0.61,
+   "lift": 1.64,
+   "p_perm": 0.4053
+  },
+  {
+   "pair": "نظر↔اهل",
+   "shared": 3,
+   "expected": 2.21,
+   "lift": 1.36,
+   "p_perm": 0.4086
+  },
+  {
+   "pair": "نظر↔قري",
+   "shared": 2,
+   "expected": 1.0,
+   "lift": 2.01,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "نظر↔هلك",
+   "shared": 1,
+   "expected": 1.16,
+   "lift": 0.86,
+   "p_perm": 0.6611
+  },
+  {
+   "pair": "نظر↔قرن",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔عظم",
+   "shared": 2,
+   "expected": 2.34,
+   "lift": 0.85,
+   "p_perm": 0.7475
+  },
+  {
+   "pair": "نظر↔اجر",
+   "shared": 0,
+   "expected": 1.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔ضيع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔قدر",
+   "shared": 5,
+   "expected": 2.23,
+   "lift": 2.24,
+   "p_perm": 0.0664
+  },
+  {
+   "pair": "نظر↔دنو",
+   "shared": 2,
+   "expected": 2.36,
+   "lift": 0.85,
+   "p_perm": 0.7542
+  },
+  {
+   "pair": "نظر↔خزي",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔دون",
+   "shared": 1,
+   "expected": 2.62,
+   "lift": 0.38,
+   "p_perm": 0.9236
+  },
+  {
+   "pair": "نظر↔نفع",
+   "shared": 2,
+   "expected": 0.9,
+   "lift": 2.21,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "نظر↔ضرر",
+   "shared": 0,
+   "expected": 1.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔كشف",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔مسس",
+   "shared": 1,
+   "expected": 1.05,
+   "lift": 0.95,
+   "p_perm": 0.6346
+  },
+  {
+   "pair": "نظر↔بصر",
+   "shared": 4,
+   "expected": 2.56,
+   "lift": 1.56,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "نظر↔فاد",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔عمي",
+   "shared": 1,
+   "expected": 0.55,
+   "lift": 1.81,
+   "p_perm": 0.4252
+  },
+  {
+   "pair": "نظر↔نصر",
+   "shared": 1,
+   "expected": 2.53,
+   "lift": 0.4,
+   "p_perm": 0.9203
+  },
+  {
+   "pair": "نظر↔هجر",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔اوي",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔صير",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔باس",
+   "shared": 2,
+   "expected": 1.24,
+   "lift": 1.62,
+   "p_perm": 0.3488
+  },
+  {
+   "pair": "نظر↔نبا",
+   "shared": 2,
+   "expected": 2.78,
+   "lift": 0.72,
+   "p_perm": 0.7841
+  },
+  {
+   "pair": "نظر↔رجع",
+   "shared": 4,
+   "expected": 1.9,
+   "lift": 2.11,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "نظر↔ذوق",
+   "shared": 1,
+   "expected": 1.12,
+   "lift": 0.89,
+   "p_perm": 0.6346
+  },
+  {
+   "pair": "نظر↔موت",
+   "shared": 6,
+   "expected": 2.64,
+   "lift": 2.28,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "نظر↔بعث",
+   "shared": 8,
+   "expected": 1.18,
+   "lift": 6.78,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "نظر↔فلح",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔صلو",
+   "shared": 0,
+   "expected": 1.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔علن",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔بسط",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔طيب",
+   "shared": 0,
+   "expected": 0.85,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔خبث",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔حلل",
+   "shared": 0,
+   "expected": 0.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔حرم",
+   "shared": 0,
+   "expected": 1.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔سجد",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔شهد",
+   "shared": 0,
+   "expected": 2.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔بقي",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔عدل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔دبر",
+   "shared": 0,
+   "expected": 0.81,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔عرف",
+   "shared": 0,
+   "expected": 1.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔شكر",
+   "shared": 0,
+   "expected": 1.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔برر",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔جري",
+   "shared": 0,
+   "expected": 1.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔فوز",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔سخر",
+   "shared": 0,
+   "expected": 0.65,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔رضو",
+   "shared": 0,
+   "expected": 1.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔شطن",
+   "shared": 0,
+   "expected": 1.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔حمد",
+   "shared": 0,
+   "expected": 1.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔فقر",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔مول",
+   "shared": 0,
+   "expected": 1.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔ليل",
+   "shared": 0,
+   "expected": 1.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔قمر",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔شمس",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔صحب",
+   "shared": 0,
+   "expected": 1.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔ولد",
+   "shared": 0,
+   "expected": 1.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔نهر",
+   "shared": 0,
+   "expected": 1.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔قرن",
+   "shared": 0,
+   "expected": 0.63,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔اجر",
+   "shared": 0,
+   "expected": 1.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔ضيع",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔خزي",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔ضرر",
+   "shared": 0,
+   "expected": 1.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔كشف",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔فاد",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔هجر",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔اوي",
+   "shared": 0,
+   "expected": 0.66,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "نظر↔صير",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "30:9",
+   "degree": 7,
+   "roots_present": [
+    "سير",
+    "كيف",
+    "عقب",
+    "قوي",
+    "قبل",
+    "شدد",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "35:44",
+   "degree": 7,
+   "roots_present": [
+    "سير",
+    "كيف",
+    "عقب",
+    "قوي",
+    "قبل",
+    "شدد",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "40:21",
+   "degree": 7,
+   "roots_present": [
+    "سير",
+    "كيف",
+    "عقب",
+    "قوي",
+    "قبل",
+    "شدد",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "40:82",
+   "degree": 7,
+   "roots_present": [
+    "سير",
+    "كيف",
+    "عقب",
+    "قوي",
+    "قبل",
+    "شدد",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "3:137",
+   "degree": 5,
+   "roots_present": [
+    "سير",
+    "كيف",
+    "عقب",
+    "قبل",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "12:109",
+   "degree": 5,
+   "roots_present": [
+    "سير",
+    "كيف",
+    "عقب",
+    "قبل",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "16:36",
+   "degree": 5,
+   "roots_present": [
+    "سير",
+    "كيف",
+    "عقب",
+    "بعث",
+    "ارض"
+   ]
+  },
+  {
+   "ayah": "30:42",
+   "degree": 5,
+   "roots_present": [
+    "سير",
+    "كيف",
+    "عقب",
+    "قبل",
+    "ارض"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "نظر+سير": [
+   "3:137",
+   "6:11",
+   "12:109",
+   "16:36",
+   "27:69",
+   "29:20",
+   "30:9",
+   "30:42",
+   "35:44",
+   "40:21",
+   "40:82",
+   "47:10"
+  ],
+  "نظر+كيف": [
+   "2:259",
+   "3:137",
+   "4:50",
+   "5:75",
+   "6:11",
+   "6:24",
+   "6:46",
+   "6:65",
+   "7:84",
+   "7:86",
+   "7:103",
+   "7:129",
+   "10:14",
+   "10:39",
+   "10:73",
+   "12:109",
+   "16:36",
+   "17:21",
+   "17:48",
+   "25:9"
+  ],
+  "نظر+عقب": [
+   "3:137",
+   "6:11",
+   "7:84",
+   "7:86",
+   "7:103",
+   "10:39",
+   "10:73",
+   "12:109",
+   "16:36",
+   "27:14",
+   "27:51",
+   "27:69",
+   "28:40",
+   "30:9",
+   "30:42",
+   "35:44",
+   "37:73",
+   "40:21",
+   "40:82",
+   "43:25"
+  ],
+  "نظر+قوي": [
+   "27:33",
+   "30:9",
+   "35:44",
+   "40:21",
+   "40:82"
+  ],
+  "نظر+بعث": [
+   "2:259",
+   "6:65",
+   "7:14",
+   "7:103",
+   "15:36",
+   "16:36",
+   "18:19",
+   "38:79"
+  ],
+  "نظر+طعم": [
+   "2:259",
+   "5:75",
+   "18:19",
+   "33:53",
+   "80:24"
+  ],
+  "نظر+بعض": [
+   "2:259",
+   "6:65",
+   "6:158",
+   "9:127",
+   "17:21",
+   "18:19"
+  ],
+  "نظر+قبل": [
+   "3:137",
+   "3:143",
+   "5:75",
+   "6:158",
+   "7:53",
+   "7:129",
+   "10:39",
+   "10:102",
+   "12:109",
+   "16:33",
+   "30:9",
+   "30:42",
+   "35:44",
+   "40:21",
+   "40:82",
+   "47:10",
+   "57:13"
+  ],
+  "نظر+شدد": [
+   "27:33",
+   "30:9",
+   "35:44",
+   "40:21",
+   "40:82"
+  ],
+  "نظر+ارض": [
+   "3:137",
+   "6:11",
+   "7:129",
+   "7:185",
+   "10:14",
+   "10:101",
+   "12:109",
+   "16:36",
+   "27:69",
+   "29:20",
+   "30:9",
+   "30:42",
+   "30:50",
+   "35:43",
+   "35:44",
+   "39:68",
+   "40:21",
+   "40:82",
+   "44:29",
+   "47:10"
+  ],
+  "نظر+موت": [
+   "2:259",
+   "3:143",
+   "8:6",
+   "30:50",
+   "33:19",
+   "47:20"
+  ]
+ }
+}
