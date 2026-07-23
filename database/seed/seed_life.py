@@ -110,6 +110,7 @@ b74 = rec("breath_74_فتح.json")
 b75 = rec("breath_75_اهل.json")
 b76 = rec("breath_76_قري.json")
 b77 = rec("breath_77_هلك.json")
+b78 = rec("breath_78_قرن.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -500,6 +501,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_77_هلك.json",
      "breaths/records/breath_77_هلك.json", LOG1,
      "پنج قوی پایدار (قرن دوسویه ۳۴٫۹، قري دوسویه ۲۹٫۳، قبل دوسویه ۶٫۷، اول دوسویه ۴٫۴، ظلم دوسویه ۳٫۸)؛ جفتِ متقابل: هلك↔قري؛ شدد دوسویهٔ محتملِ ناپایدار lift=۶٫۰؛ ۶:۶ و ۸:۵۴ و ۲۰:۱۲۸ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: پنجاه‌ودو صفر", b77["top"]),
+    (78, "تولدِ دوباره", "قرن", "قاعدهٔ صف (خودران)",
+     b78["ayat"], b78["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_78_قرن.json",
+     "breaths/records/breath_78_قرن.json", LOG1,
+     "سه قوی پایدار (هلك دوسویه ۳۴٫۹، قبل دوسویه ۸٫۵، بعد دوسویه ۵٫۸)؛ جفتِ متقابل: قرن↔هلك؛ اول دوسویهٔ محتملِ ناپایدار lift=۵٫۸؛ ۶:۶ گرهِ پنج‌ریشه‌ای؛ شاهدِ غیاب: پنجاه‌وچهار صفر", b78["top"]),
     # ⚓BREATHS
 ]
 
@@ -798,6 +804,8 @@ QUEUE_EVENTS = [
     (77, "queued", "قبل", "چرخه"),
     (77, "queued", "اول", "چرخه"),
     (77, "queued", "ظلم", "چرخه"),
+    (78, "pursued", "قرن", "قاعدهٔ صف"),
+    (78, "queued", "بعد", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -880,6 +888,7 @@ PROJ = [
     (75, b75),
     (76, b76),
     (77, b77),
+    (78, b78),
     # ⚓PROJ
 ]
 

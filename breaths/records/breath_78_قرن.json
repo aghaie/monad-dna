@@ -1,0 +1,1262 @@
+{
+ "breath_number": 78,
+ "deliberation": [
+  {
+   "root": "قرن",
+   "attestation": 36
+  },
+  {
+   "root": "عظم",
+   "attestation": 128
+  },
+  {
+   "root": "قدر",
+   "attestation": 132
+  },
+  {
+   "root": "دنو",
+   "attestation": 133
+  },
+  {
+   "root": "دون",
+   "attestation": 144
+  },
+  {
+   "root": "بصر",
+   "attestation": 148
+  },
+  {
+   "root": "نبا",
+   "attestation": 160
+  },
+  {
+   "root": "موت",
+   "attestation": 165
+  },
+  {
+   "root": "قلب",
+   "attestation": 168
+  },
+  {
+   "root": "شرك",
+   "attestation": 168
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "قرن",
+ "attestation": 36,
+ "ayat": 34,
+ "top": [
+  {
+   "root": "هلك",
+   "shared": 12,
+   "expected": 0.34,
+   "lift": 34.936,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "قبل",
+   "shared": 13,
+   "expected": 1.54,
+   "lift": 8.455,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "بعد",
+   "shared": 7,
+   "expected": 1.2,
+   "lift": 5.836,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اول",
+   "shared": 5,
+   "expected": 0.86,
+   "lift": 5.804,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اخر",
+   "shared": 5,
+   "expected": 1.32,
+   "lift": 3.789,
+   "p_perm": 0.0166,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "راي",
+   "shared": 5,
+   "expected": 1.62,
+   "lift": 3.088,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بين",
+   "shared": 5,
+   "expected": 2.48,
+   "lift": 2.02,
+   "p_perm": 0.0133,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قول",
+   "shared": 12,
+   "expected": 7.54,
+   "lift": 1.591,
+   "p_perm": 0.0731,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "كون",
+   "shared": 9,
+   "expected": 6.41,
+   "lift": 1.404,
+   "p_perm": 0.1462,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "هلك",
+  "قبل",
+  "بعد",
+  "اول"
+ ],
+ "one_way": [
+  "اخر",
+  "راي",
+  "بين",
+  "قول",
+  "كون"
+ ],
+ "neighbor_view": {
+  "هلك": {
+   "root": "قرن",
+   "shared": 12,
+   "expected": 0.34,
+   "lift": 34.936,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "قبل": {
+   "root": "قرن",
+   "shared": 13,
+   "expected": 1.54,
+   "lift": 8.455,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "بعد": {
+   "root": "قرن",
+   "shared": 7,
+   "expected": 1.2,
+   "lift": 5.836,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اول": {
+   "root": "قرن",
+   "shared": 5,
+   "expected": 0.86,
+   "lift": 5.804,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اخر": null,
+  "راي": null,
+  "بين": null,
+  "قول": null,
+  "كون": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "قرن↔فلح",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔صلو",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔زكو",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔اذن",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔نفق",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.13,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "قرن↔سرر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔علن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔رزق",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔بسط",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔طيب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔خبث",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حلل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حرم",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔سجد",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔اكل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔طوع",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔شهد",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔كبر",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حيي",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔خير",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔ولي",
+   "shared": 0,
+   "expected": 1.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔عمل",
+   "shared": 0,
+   "expected": 1.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔رسل",
+   "shared": 3,
+   "expected": 2.34,
+   "lift": 1.28,
+   "p_perm": 0.3787
+  },
+  {
+   "pair": "قرن↔اله",
+   "shared": 3,
+   "expected": 10.24,
+   "lift": 0.29,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حبط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔بقي",
+   "shared": 1,
+   "expected": 0.11,
+   "lift": 8.73,
+   "p_perm": 0.1163
+  },
+  {
+   "pair": "قرن↔عدل",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔كفي",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.73,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "قرن↔دبر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔زين",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.27,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "قرن↔عقل",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔خبر",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.53,
+   "p_perm": 0.206
+  },
+  {
+   "pair": "قرن↔غيب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔جرم",
+   "shared": 4,
+   "expected": 0.35,
+   "lift": 11.29,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قرن↔عرف",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔نكر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔علو",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔متع",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حين",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.56,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "قرن↔وكل",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔قلل",
+   "shared": 1,
+   "expected": 0.4,
+   "lift": 2.48,
+   "p_perm": 0.3522
+  },
+  {
+   "pair": "قرن↔ثمن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔شري",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔شكر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فلك",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔بحر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔برر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔جري",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.87,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "قرن↔ابد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فوز",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔سخر",
+   "shared": 1,
+   "expected": 0.19,
+   "lift": 5.24,
+   "p_perm": 0.1628
+  },
+  {
+   "pair": "قرن↔تحت",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.67,
+   "p_perm": 0.2558
+  },
+  {
+   "pair": "قرن↔رضو",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔نجو",
+   "shared": 1,
+   "expected": 0.41,
+   "lift": 2.45,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "قرن↔خلد",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔شطن",
+   "shared": 2,
+   "expected": 0.43,
+   "lift": 4.7,
+   "p_perm": 0.0565
+  },
+  {
+   "pair": "قرن↔سبح",
+   "shared": 1,
+   "expected": 0.47,
+   "lift": 2.11,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "قرن↔حمد",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔غني",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فقر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔مول",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.29,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "قرن↔ليل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔قمر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔شمس",
+   "shared": 1,
+   "expected": 0.17,
+   "lift": 5.73,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "قرن↔بغي",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔صحب",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.06,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "قرن↔ولد",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.29,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "قرن↔فضل",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔عدو",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔اثم",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔نهر",
+   "shared": 1,
+   "expected": 0.56,
+   "lift": 1.8,
+   "p_perm": 0.4286
+  },
+  {
+   "pair": "قرن↔دخل",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔بوب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فتح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔اهل",
+   "shared": 1,
+   "expected": 0.65,
+   "lift": 1.53,
+   "p_perm": 0.4983
+  },
+  {
+   "pair": "قرن↔قري",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔هلك",
+   "shared": 12,
+   "expected": 0.34,
+   "lift": 34.94,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "قرن↔فلح",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔صلو",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔زكو",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔اذن",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔سرر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔علن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔رزق",
+   "shared": 0,
+   "expected": 0.59,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔بسط",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔طيب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔خبث",
+   "shared": 0,
+   "expected": 0.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حلل",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حرم",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔سجد",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔اكل",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔طوع",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔شهد",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔كبر",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حيي",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔خير",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔ولي",
+   "shared": 0,
+   "expected": 1.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔عمل",
+   "shared": 0,
+   "expected": 1.71,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حبط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔عدل",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔دبر",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔عقل",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔غيب",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔عرف",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔نكر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔علو",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔متع",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔وكل",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔ثمن",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔شري",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔شكر",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فلك",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔بحر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔برر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔ابد",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فوز",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔رضو",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔خلد",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔حمد",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔غني",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فقر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔ليل",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔قمر",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔بغي",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فضل",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔عدو",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔اثم",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔دخل",
+   "shared": 0,
+   "expected": 0.61,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔بوب",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔فتح",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قرن↔قري",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "6:6",
+   "degree": 5,
+   "roots_present": [
+    "هلك",
+    "قبل",
+    "بعد",
+    "اخر",
+    "راي"
+   ]
+  },
+  {
+   "ayah": "10:13",
+   "degree": 4,
+   "roots_present": [
+    "هلك",
+    "قبل",
+    "بين",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "41:25",
+   "degree": 4,
+   "roots_present": [
+    "قبل",
+    "بين",
+    "قول",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "4:38",
+   "degree": 3,
+   "roots_present": [
+    "اخر",
+    "راي",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "11:116",
+   "degree": 3,
+   "roots_present": [
+    "قبل",
+    "اول",
+    "كون"
+   ]
+  },
+  {
+   "ayah": "19:74",
+   "degree": 3,
+   "roots_present": [
+    "هلك",
+    "قبل",
+    "راي"
+   ]
+  },
+  {
+   "ayah": "20:128",
+   "degree": 3,
+   "roots_present": [
+    "هلك",
+    "قبل",
+    "اول"
+   ]
+  },
+  {
+   "ayah": "28:43",
+   "degree": 3,
+   "roots_present": [
+    "هلك",
+    "بعد",
+    "اول"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "قرن+هلك": [
+   "6:6",
+   "10:13",
+   "17:17",
+   "19:74",
+   "19:98",
+   "20:128",
+   "28:43",
+   "28:78",
+   "32:26",
+   "36:31",
+   "38:3",
+   "50:36"
+  ],
+  "قرن+قبل": [
+   "6:6",
+   "10:13",
+   "11:116",
+   "19:74",
+   "19:98",
+   "20:128",
+   "28:78",
+   "32:26",
+   "36:31",
+   "38:3",
+   "41:25",
+   "46:17",
+   "50:36"
+  ],
+  "قرن+بعد": [
+   "6:6",
+   "17:17",
+   "23:31",
+   "23:42",
+   "28:43",
+   "43:38",
+   "50:27"
+  ],
+  "قرن+اول": [
+   "11:116",
+   "20:51",
+   "20:128",
+   "28:43",
+   "46:17"
+  ],
+  "قرن+اخر": [
+   "4:38",
+   "6:6",
+   "23:31",
+   "23:42",
+   "38:38"
+  ],
+  "قرن+راي": [
+   "4:38",
+   "6:6",
+   "14:49",
+   "19:74",
+   "36:31"
+  ],
+  "قرن+بين": [
+   "10:13",
+   "18:94",
+   "25:38",
+   "41:25",
+   "43:38"
+  ],
+  "قرن+جرم": [
+   "10:13",
+   "11:116",
+   "14:49",
+   "28:78"
+  ]
+ }
+}
