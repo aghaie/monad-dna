@@ -1,0 +1,1704 @@
+{
+ "breath_number": 123,
+ "deliberation": [
+  {
+   "root": "وجد",
+   "attestation": 107
+  },
+  {
+   "root": "صلح",
+   "attestation": 180
+  },
+  {
+   "root": "سمع",
+   "attestation": 185
+  },
+  {
+   "root": "نور",
+   "attestation": 194
+  },
+  {
+   "root": "حسن",
+   "attestation": 194
+  },
+  {
+   "root": "عند",
+   "attestation": 201
+  },
+  {
+   "root": "جنن",
+   "attestation": 201
+  },
+  {
+   "root": "ملك",
+   "attestation": 206
+  },
+  {
+   "root": "حكم",
+   "attestation": 210
+  },
+  {
+   "root": "دعو",
+   "attestation": 212
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "وجد",
+ "attestation": 107,
+ "ayat": 99,
+ "top": [
+  {
+   "root": "مرض",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.693,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ودد",
+   "shared": 5,
+   "expected": 0.44,
+   "lift": 11.248,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ابو",
+   "shared": 14,
+   "expected": 1.65,
+   "lift": 8.479,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نصر",
+   "shared": 12,
+   "expected": 2.17,
+   "lift": 5.517,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "احد",
+   "shared": 7,
+   "expected": 1.3,
+   "lift": 5.377,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "دون",
+   "shared": 12,
+   "expected": 2.25,
+   "lift": 5.323,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "اهل",
+   "shared": 9,
+   "expected": 1.91,
+   "lift": 4.724,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "بلغ",
+   "shared": 5,
+   "expected": 1.16,
+   "lift": 4.314,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قتل",
+   "shared": 8,
+   "expected": 1.94,
+   "lift": 4.13,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اجر",
+   "shared": 6,
+   "expected": 1.57,
+   "lift": 3.818,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 2,
+ "reciprocal": [
+  "مرض",
+  "ودد",
+  "ابو",
+  "نصر",
+  "احد",
+  "دون",
+  "اهل",
+  "بلغ"
+ ],
+ "one_way": [
+  "قتل",
+  "اجر"
+ ],
+ "neighbor_view": {
+  "مرض": {
+   "root": "وجد",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.693,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ودد": {
+   "root": "وجد",
+   "shared": 5,
+   "expected": 0.44,
+   "lift": 11.248,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ابو": {
+   "root": "وجد",
+   "shared": 14,
+   "expected": 1.65,
+   "lift": 8.479,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "نصر": {
+   "root": "وجد",
+   "shared": 12,
+   "expected": 2.17,
+   "lift": 5.517,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "احد": {
+   "root": "وجد",
+   "shared": 7,
+   "expected": 1.3,
+   "lift": 5.377,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "دون": {
+   "root": "وجد",
+   "shared": 12,
+   "expected": 2.25,
+   "lift": 5.323,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اهل": {
+   "root": "وجد",
+   "shared": 9,
+   "expected": 1.91,
+   "lift": 4.724,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "بلغ": {
+   "root": "وجد",
+   "shared": 5,
+   "expected": 1.16,
+   "lift": 4.314,
+   "p_perm": 0.0066,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "قتل": null,
+  "اجر": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "وجد↔فلح",
+   "shared": 3,
+   "expected": 0.64,
+   "lift": 4.72,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "وجد↔صلو",
+   "shared": 5,
+   "expected": 1.43,
+   "lift": 3.5,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "وجد↔زكو",
+   "shared": 4,
+   "expected": 0.89,
+   "lift": 4.5,
+   "p_perm": 0.0133
+  },
+  {
+   "pair": "وجد↔اذن",
+   "shared": 3,
+   "expected": 1.43,
+   "lift": 2.1,
+   "p_perm": 0.1495
+  },
+  {
+   "pair": "وجد↔نفق",
+   "shared": 5,
+   "expected": 1.37,
+   "lift": 3.66,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "وجد↔سرر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔علن",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔رزق",
+   "shared": 1,
+   "expected": 1.73,
+   "lift": 0.58,
+   "p_perm": 0.8272
+  },
+  {
+   "pair": "وجد↔بسط",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔طيب",
+   "shared": 3,
+   "expected": 0.73,
+   "lift": 4.11,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "وجد↔خبث",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.3,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "وجد↔حلل",
+   "shared": 2,
+   "expected": 0.68,
+   "lift": 2.93,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "وجد↔حرم",
+   "shared": 4,
+   "expected": 1.13,
+   "lift": 3.55,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "وجد↔سجد",
+   "shared": 2,
+   "expected": 1.29,
+   "lift": 1.56,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "وجد↔اكل",
+   "shared": 0,
+   "expected": 1.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔طوع",
+   "shared": 3,
+   "expected": 1.87,
+   "lift": 1.6,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "وجد↔شهد",
+   "shared": 1,
+   "expected": 1.95,
+   "lift": 0.51,
+   "p_perm": 0.8671
+  },
+  {
+   "pair": "وجد↔كبر",
+   "shared": 6,
+   "expected": 2.43,
+   "lift": 2.47,
+   "p_perm": 0.0266
+  },
+  {
+   "pair": "وجد↔حيي",
+   "shared": 3,
+   "expected": 2.56,
+   "lift": 1.17,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "وجد↔خير",
+   "shared": 6,
+   "expected": 2.83,
+   "lift": 2.12,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "وجد↔ولي",
+   "shared": 11,
+   "expected": 3.21,
+   "lift": 3.43,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وجد↔عمل",
+   "shared": 12,
+   "expected": 4.97,
+   "lift": 2.41,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وجد↔رسل",
+   "shared": 13,
+   "expected": 6.81,
+   "lift": 1.91,
+   "p_perm": 0.0199
+  },
+  {
+   "pair": "وجد↔اله",
+   "shared": 49,
+   "expected": 29.83,
+   "lift": 1.64,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وجد↔حبط",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔بقي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔عدل",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔كفي",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔دبر",
+   "shared": 2,
+   "expected": 0.7,
+   "lift": 2.86,
+   "p_perm": 0.1661
+  },
+  {
+   "pair": "وجد↔زين",
+   "shared": 1,
+   "expected": 0.68,
+   "lift": 1.46,
+   "p_perm": 0.515
+  },
+  {
+   "pair": "وجد↔عقل",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔خبر",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔غيب",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔جرم",
+   "shared": 2,
+   "expected": 1.03,
+   "lift": 1.94,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "وجد↔عرف",
+   "shared": 2,
+   "expected": 0.98,
+   "lift": 2.03,
+   "p_perm": 0.289
+  },
+  {
+   "pair": "وجد↔نكر",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.7,
+   "p_perm": 0.4551
+  },
+  {
+   "pair": "وجد↔علو",
+   "shared": 1,
+   "expected": 1.08,
+   "lift": 0.93,
+   "p_perm": 0.6412
+  },
+  {
+   "pair": "وجد↔متع",
+   "shared": 3,
+   "expected": 1.03,
+   "lift": 2.91,
+   "p_perm": 0.103
+  },
+  {
+   "pair": "وجد↔حين",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.91,
+   "p_perm": 0.412
+  },
+  {
+   "pair": "وجد↔وكل",
+   "shared": 2,
+   "expected": 0.97,
+   "lift": 2.07,
+   "p_perm": 0.2791
+  },
+  {
+   "pair": "وجد↔قلل",
+   "shared": 0,
+   "expected": 1.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔ثمن",
+   "shared": 1,
+   "expected": 0.3,
+   "lift": 3.32,
+   "p_perm": 0.2658
+  },
+  {
+   "pair": "وجد↔شري",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔شكر",
+   "shared": 3,
+   "expected": 1.1,
+   "lift": 2.74,
+   "p_perm": 0.1063
+  },
+  {
+   "pair": "وجد↔فلك",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔بحر",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔برر",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.1,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "وجد↔جري",
+   "shared": 1,
+   "expected": 1.02,
+   "lift": 0.98,
+   "p_perm": 0.6844
+  },
+  {
+   "pair": "وجد↔ابد",
+   "shared": 1,
+   "expected": 0.44,
+   "lift": 2.25,
+   "p_perm": 0.3887
+  },
+  {
+   "pair": "وجد↔فوز",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔سخر",
+   "shared": 1,
+   "expected": 0.56,
+   "lift": 1.8,
+   "p_perm": 0.4585
+  },
+  {
+   "pair": "وجد↔تحت",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.26,
+   "p_perm": 0.5548
+  },
+  {
+   "pair": "وجد↔رضو",
+   "shared": 1,
+   "expected": 1.02,
+   "lift": 0.98,
+   "p_perm": 0.6777
+  },
+  {
+   "pair": "وجد↔نجو",
+   "shared": 1,
+   "expected": 1.19,
+   "lift": 0.84,
+   "p_perm": 0.6844
+  },
+  {
+   "pair": "وجد↔خلد",
+   "shared": 2,
+   "expected": 1.37,
+   "lift": 1.46,
+   "p_perm": 0.4186
+  },
+  {
+   "pair": "وجد↔شطن",
+   "shared": 3,
+   "expected": 1.24,
+   "lift": 2.42,
+   "p_perm": 0.1262
+  },
+  {
+   "pair": "وجد↔سبح",
+   "shared": 0,
+   "expected": 1.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔حمد",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔غني",
+   "shared": 2,
+   "expected": 1.14,
+   "lift": 1.75,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "وجد↔فقر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔مول",
+   "shared": 1,
+   "expected": 1.27,
+   "lift": 0.79,
+   "p_perm": 0.6811
+  },
+  {
+   "pair": "وجد↔ليل",
+   "shared": 1,
+   "expected": 1.29,
+   "lift": 0.78,
+   "p_perm": 0.7276
+  },
+  {
+   "pair": "وجد↔قمر",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔شمس",
+   "shared": 4,
+   "expected": 0.51,
+   "lift": 7.87,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "وجد↔بغي",
+   "shared": 4,
+   "expected": 1.43,
+   "lift": 2.8,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "وجد↔صحب",
+   "shared": 1,
+   "expected": 1.41,
+   "lift": 0.71,
+   "p_perm": 0.7674
+  },
+  {
+   "pair": "وجد↔ولد",
+   "shared": 0,
+   "expected": 1.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔فضل",
+   "shared": 3,
+   "expected": 1.46,
+   "lift": 2.05,
+   "p_perm": 0.1827
+  },
+  {
+   "pair": "وجد↔عدو",
+   "shared": 4,
+   "expected": 1.46,
+   "lift": 2.74,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "وجد↔اثم",
+   "shared": 1,
+   "expected": 0.67,
+   "lift": 1.5,
+   "p_perm": 0.5116
+  },
+  {
+   "pair": "وجد↔نهر",
+   "shared": 2,
+   "expected": 1.62,
+   "lift": 1.24,
+   "p_perm": 0.5083
+  },
+  {
+   "pair": "وجد↔دخل",
+   "shared": 6,
+   "expected": 1.76,
+   "lift": 3.4,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "وجد↔بوب",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔فتح",
+   "shared": 1,
+   "expected": 0.52,
+   "lift": 1.91,
+   "p_perm": 0.392
+  },
+  {
+   "pair": "وجد↔اهل",
+   "shared": 9,
+   "expected": 1.91,
+   "lift": 4.72,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وجد↔قري",
+   "shared": 2,
+   "expected": 0.86,
+   "lift": 2.33,
+   "p_perm": 0.2292
+  },
+  {
+   "pair": "وجد↔هلك",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔قرن",
+   "shared": 1,
+   "expected": 0.54,
+   "lift": 1.85,
+   "p_perm": 0.3821
+  },
+  {
+   "pair": "وجد↔عظم",
+   "shared": 2,
+   "expected": 2.02,
+   "lift": 0.99,
+   "p_perm": 0.6312
+  },
+  {
+   "pair": "وجد↔اجر",
+   "shared": 6,
+   "expected": 1.57,
+   "lift": 3.82,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "وجد↔ضيع",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔قدر",
+   "shared": 1,
+   "expected": 1.92,
+   "lift": 0.52,
+   "p_perm": 0.8505
+  },
+  {
+   "pair": "وجد↔دنو",
+   "shared": 2,
+   "expected": 2.03,
+   "lift": 0.98,
+   "p_perm": 0.6179
+  },
+  {
+   "pair": "وجد↔خزي",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔دون",
+   "shared": 12,
+   "expected": 2.25,
+   "lift": 5.32,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وجد↔نفع",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔ضرر",
+   "shared": 2,
+   "expected": 1.11,
+   "lift": 1.8,
+   "p_perm": 0.3156
+  },
+  {
+   "pair": "وجد↔كشف",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔مسس",
+   "shared": 1,
+   "expected": 0.9,
+   "lift": 1.11,
+   "p_perm": 0.5714
+  },
+  {
+   "pair": "وجد↔بصر",
+   "shared": 2,
+   "expected": 2.21,
+   "lift": 0.91,
+   "p_perm": 0.6545
+  },
+  {
+   "pair": "وجد↔فاد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔عمي",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.1,
+   "p_perm": 0.3555
+  },
+  {
+   "pair": "وجد↔نصر",
+   "shared": 12,
+   "expected": 2.17,
+   "lift": 5.52,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وجد↔هجر",
+   "shared": 3,
+   "expected": 0.43,
+   "lift": 7.0,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "وجد↔اوي",
+   "shared": 3,
+   "expected": 0.57,
+   "lift": 5.25,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "وجد↔صير",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔باس",
+   "shared": 0,
+   "expected": 1.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔نبا",
+   "shared": 1,
+   "expected": 2.4,
+   "lift": 0.42,
+   "p_perm": 0.9336
+  },
+  {
+   "pair": "وجد↔رجع",
+   "shared": 2,
+   "expected": 1.64,
+   "lift": 1.22,
+   "p_perm": 0.4817
+  },
+  {
+   "pair": "وجد↔ذوق",
+   "shared": 1,
+   "expected": 0.97,
+   "lift": 1.03,
+   "p_perm": 0.6047
+  },
+  {
+   "pair": "وجد↔موت",
+   "shared": 3,
+   "expected": 2.27,
+   "lift": 1.32,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "وجد↔بعث",
+   "shared": 0,
+   "expected": 1.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔نظر",
+   "shared": 2,
+   "expected": 1.83,
+   "lift": 1.1,
+   "p_perm": 0.515
+  },
+  {
+   "pair": "وجد↔سير",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔عقب",
+   "shared": 1,
+   "expected": 1.17,
+   "lift": 0.85,
+   "p_perm": 0.7176
+  },
+  {
+   "pair": "وجد↔كيف",
+   "shared": 0,
+   "expected": 1.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔شدد",
+   "shared": 3,
+   "expected": 1.57,
+   "lift": 1.91,
+   "p_perm": 0.1894
+  },
+  {
+   "pair": "وجد↔قوي",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔عزز",
+   "shared": 0,
+   "expected": 1.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔قلب",
+   "shared": 3,
+   "expected": 2.46,
+   "lift": 1.22,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "وجد↔قسو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔طبع",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔طمن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔مرض",
+   "shared": 5,
+   "expected": 0.37,
+   "lift": 13.69,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وجد↔شرك",
+   "shared": 3,
+   "expected": 2.27,
+   "lift": 1.32,
+   "p_perm": 0.4252
+  },
+  {
+   "pair": "وجد↔برا",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔اول",
+   "shared": 2,
+   "expected": 2.51,
+   "lift": 0.8,
+   "p_perm": 0.7143
+  },
+  {
+   "pair": "وجد↔لبب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔سطر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔مرر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔ابو",
+   "shared": 14,
+   "expected": 1.65,
+   "lift": 8.48,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "وجد↔اخو",
+   "shared": 2,
+   "expected": 1.27,
+   "lift": 1.57,
+   "p_perm": 0.3821
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "وجد↔سرر",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔علن",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔بسط",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔اكل",
+   "shared": 0,
+   "expected": 1.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔حبط",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔بقي",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔عدل",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔كفي",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔عقل",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔خبر",
+   "shared": 0,
+   "expected": 0.83,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔غيب",
+   "shared": 0,
+   "expected": 0.94,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔قلل",
+   "shared": 0,
+   "expected": 1.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔شري",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔فلك",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔بحر",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔فوز",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔سبح",
+   "shared": 0,
+   "expected": 1.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔حمد",
+   "shared": 0,
+   "expected": 0.97,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔فقر",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔قمر",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔ولد",
+   "shared": 0,
+   "expected": 1.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔بوب",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔هلك",
+   "shared": 0,
+   "expected": 1.0,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔ضيع",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔خزي",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔نفع",
+   "shared": 0,
+   "expected": 0.78,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔كشف",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔فاد",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔صير",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔باس",
+   "shared": 0,
+   "expected": 1.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔بعث",
+   "shared": 0,
+   "expected": 1.02,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔سير",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔كيف",
+   "shared": 0,
+   "expected": 1.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔قوي",
+   "shared": 0,
+   "expected": 0.62,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔عزز",
+   "shared": 0,
+   "expected": 1.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔قسو",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔طبع",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔طمن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔برا",
+   "shared": 0,
+   "expected": 0.44,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔لبب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔سطر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "وجد↔مرر",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "2:196",
+   "degree": 3,
+   "roots_present": [
+    "مرض",
+    "اهل",
+    "بلغ"
+   ]
+  },
+  {
+   "ayah": "4:89",
+   "degree": 3,
+   "roots_present": [
+    "ودد",
+    "نصر",
+    "قتل"
+   ]
+  },
+  {
+   "ayah": "4:123",
+   "degree": 3,
+   "roots_present": [
+    "نصر",
+    "دون",
+    "اهل"
+   ]
+  },
+  {
+   "ayah": "4:173",
+   "degree": 3,
+   "roots_present": [
+    "نصر",
+    "دون",
+    "اجر"
+   ]
+  },
+  {
+   "ayah": "73:20",
+   "degree": 3,
+   "roots_present": [
+    "مرض",
+    "قتل",
+    "اجر"
+   ]
+  },
+  {
+   "ayah": "2:96",
+   "degree": 2,
+   "roots_present": [
+    "ودد",
+    "احد"
+   ]
+  },
+  {
+   "ayah": "4:43",
+   "degree": 2,
+   "roots_present": [
+    "مرض",
+    "احد"
+   ]
+  },
+  {
+   "ayah": "4:92",
+   "degree": 2,
+   "roots_present": [
+    "اهل",
+    "قتل"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "وجد+مرض": [
+   "2:196",
+   "4:43",
+   "5:6",
+   "9:91",
+   "73:20"
+  ],
+  "وجد+ودد": [
+   "2:96",
+   "3:30",
+   "4:89",
+   "5:82",
+   "58:22"
+  ],
+  "وجد+ابو": [
+   "5:104",
+   "7:28",
+   "10:78",
+   "12:65",
+   "12:94",
+   "21:53",
+   "26:74",
+   "28:23",
+   "31:21",
+   "37:102",
+   "43:22",
+   "43:23",
+   "43:24",
+   "58:22"
+  ],
+  "وجد+نصر": [
+   "4:52",
+   "4:89",
+   "4:123",
+   "4:145",
+   "4:173",
+   "5:82",
+   "7:157",
+   "17:75",
+   "33:17",
+   "33:65",
+   "48:22",
+   "71:25"
+  ],
+  "وجد+احد": [
+   "2:96",
+   "4:43",
+   "5:6",
+   "18:49",
+   "24:28",
+   "28:27",
+   "72:22"
+  ],
+  "وجد+دون": [
+   "4:123",
+   "4:173",
+   "17:97",
+   "18:27",
+   "18:58",
+   "18:90",
+   "18:93",
+   "27:24",
+   "28:23",
+   "33:17",
+   "71:25",
+   "72:22"
+  ],
+  "وجد+اهل": [
+   "2:196",
+   "4:92",
+   "4:123",
+   "5:89",
+   "12:65",
+   "18:77",
+   "20:10",
+   "28:15",
+   "35:43"
+  ],
+  "وجد+بلغ": [
+   "2:196",
+   "18:86",
+   "18:90",
+   "18:93",
+   "37:102"
+  ],
+  "وجد+قتل": [
+   "4:89",
+   "4:91",
+   "4:92",
+   "9:5",
+   "9:123",
+   "28:15",
+   "48:22",
+   "73:20"
+  ],
+  "وجد+اجر": [
+   "4:100",
+   "4:173",
+   "18:77",
+   "28:27",
+   "65:6",
+   "73:20"
+  ],
+  "وجد+فلح": [
+   "7:157",
+   "58:22",
+   "59:9"
+  ],
+  "وجد+صلو": [
+   "2:110",
+   "4:43",
+   "5:6",
+   "9:5",
+   "73:20"
+  ],
+  "وجد+زكو": [
+   "2:110",
+   "9:5",
+   "24:28",
+   "73:20"
+  ],
+  "وجد+نفق": [
+   "4:88",
+   "4:145",
+   "9:91",
+   "9:92",
+   "65:6"
+  ],
+  "وجد+طيب": [
+   "4:43",
+   "5:6",
+   "7:157"
+  ],
+  "وجد+حرم": [
+   "2:196",
+   "6:145",
+   "7:157",
+   "9:5"
+  ],
+  "وجد+كبر": [
+   "4:173",
+   "5:82",
+   "10:78",
+   "18:49",
+   "28:23",
+   "35:43"
+  ],
+  "وجد+ولي": [
+   "4:89",
+   "4:123",
+   "4:173",
+   "9:57",
+   "9:92",
+   "9:123",
+   "17:97",
+   "18:17",
+   "33:17",
+   "33:65",
+   "48:22"
+  ],
+  "وجد+عمل": [
+   "2:96",
+   "2:110",
+   "2:283",
+   "3:30",
+   "4:110",
+   "4:123",
+   "4:173",
+   "18:49",
+   "24:28",
+   "24:39",
+   "27:24",
+   "28:15"
+  ],
+  "وجد+رسل": [
+   "4:64",
+   "4:100",
+   "5:104",
+   "7:157",
+   "9:91",
+   "17:68",
+   "17:69",
+   "17:77",
+   "43:23",
+   "43:24",
+   "58:4",
+   "58:12",
+   "58:22"
+  ],
+  "وجد+اله": [
+   "2:96",
+   "2:110",
+   "2:196",
+   "2:283",
+   "3:30",
+   "3:37",
+   "4:43",
+   "4:52",
+   "4:64",
+   "4:82",
+   "4:88",
+   "4:89",
+   "4:92",
+   "4:100",
+   "4:110",
+   "4:123",
+   "4:143",
+   "4:173",
+   "5:6",
+   "5:89"
+  ],
+  "وجد+شمس": [
+   "18:17",
+   "18:86",
+   "18:90",
+   "27:24"
+  ],
+  "وجد+بغي": [
+   "6:145",
+   "12:65",
+   "24:33",
+   "73:20"
+  ],
+  "وجد+عدو": [
+   "4:92",
+   "5:82",
+   "6:145",
+   "28:15"
+  ],
+  "وجد+دخل": [
+   "3:37",
+   "9:57",
+   "24:28",
+   "28:15",
+   "58:22",
+   "71:25"
+  ],
+  "وجد+هجر": [
+   "4:89",
+   "4:100",
+   "59:9"
+  ],
+  "وجد+اوي": [
+   "4:121",
+   "17:97",
+   "93:6"
+  ]
+ }
+}
