@@ -1,0 +1,2273 @@
+{
+ "breath_number": 167,
+ "deliberation": [
+  {
+   "root": "قطع",
+   "attestation": 36
+  },
+  {
+   "root": "رجل",
+   "attestation": 73
+  },
+  {
+   "root": "اخر",
+   "attestation": 250
+  },
+  {
+   "root": "وقي",
+   "attestation": 258
+  },
+  {
+   "root": "خلق",
+   "attestation": 261
+  },
+  {
+   "root": "اخذ",
+   "attestation": 273
+  },
+  {
+   "root": "عبد",
+   "attestation": 275
+  },
+  {
+   "root": "كذب",
+   "attestation": 282
+  },
+  {
+   "root": "ذكر",
+   "attestation": 292
+  },
+  {
+   "root": "قبل",
+   "attestation": 294
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "قطع",
+ "attestation": 36,
+ "ayat": 36,
+ "top": [
+  {
+   "root": "دبر",
+   "shared": 5,
+   "expected": 0.25,
+   "lift": 19.684,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "رجل",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.123,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "يدي",
+   "shared": 7,
+   "expected": 0.64,
+   "lift": 11.023,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خلف",
+   "shared": 5,
+   "expected": 0.67,
+   "lift": 7.466,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "امر",
+   "shared": 8,
+   "expected": 1.3,
+   "lift": 6.132,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ارض",
+   "shared": 7,
+   "expected": 2.54,
+   "lift": 2.756,
+   "p_perm": 0.01,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 5,
+   "expected": 2.04,
+   "lift": 2.447,
+   "p_perm": 0.0233,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "قوم",
+   "shared": 5,
+   "expected": 3.45,
+   "lift": 1.451,
+   "p_perm": 0.1229,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "علم",
+   "shared": 6,
+   "expected": 4.2,
+   "lift": 1.428,
+   "p_perm": 0.1096,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "اله",
+   "shared": 14,
+   "expected": 10.85,
+   "lift": 1.291,
+   "p_perm": 0.103,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 1,
+ "reciprocal": [
+  "دبر",
+  "رجل",
+  "يدي",
+  "خلف",
+  "امر"
+ ],
+ "one_way": [
+  "ارض",
+  "كلل",
+  "قوم",
+  "علم",
+  "اله"
+ ],
+ "neighbor_view": {
+  "دبر": {
+   "root": "قطع",
+   "shared": 5,
+   "expected": 0.25,
+   "lift": 19.684,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "رجل": {
+   "root": "قطع",
+   "shared": 5,
+   "expected": 0.38,
+   "lift": 13.123,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "يدي": {
+   "root": "قطع",
+   "shared": 7,
+   "expected": 0.64,
+   "lift": 11.023,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "خلف": {
+   "root": "قطع",
+   "shared": 5,
+   "expected": 0.67,
+   "lift": 7.466,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "امر": {
+   "root": "قطع",
+   "shared": 8,
+   "expected": 1.3,
+   "lift": 6.132,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ارض": null,
+  "كلل": null,
+  "قوم": null,
+  "علم": null,
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "قطع↔فلح",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صلو",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔زكو",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اذن",
+   "shared": 3,
+   "expected": 0.52,
+   "lift": 5.77,
+   "p_perm": 0.0166
+  },
+  {
+   "pair": "قطع↔نفق",
+   "shared": 1,
+   "expected": 0.5,
+   "lift": 2.01,
+   "p_perm": 0.4319
+  },
+  {
+   "pair": "قطع↔سرر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔علن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔رزق",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.59,
+   "p_perm": 0.4452
+  },
+  {
+   "pair": "قطع↔بسط",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔طيب",
+   "shared": 1,
+   "expected": 0.27,
+   "lift": 3.77,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "قطع↔خبث",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حلل",
+   "shared": 1,
+   "expected": 0.25,
+   "lift": 4.03,
+   "p_perm": 0.2126
+  },
+  {
+   "pair": "قطع↔حرم",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سجد",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اكل",
+   "shared": 2,
+   "expected": 0.58,
+   "lift": 3.43,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "قطع↔طوع",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شهد",
+   "shared": 1,
+   "expected": 0.71,
+   "lift": 1.41,
+   "p_perm": 0.495
+  },
+  {
+   "pair": "قطع↔كبر",
+   "shared": 4,
+   "expected": 0.88,
+   "lift": 4.53,
+   "p_perm": 0.0233
+  },
+  {
+   "pair": "قطع↔حيي",
+   "shared": 0,
+   "expected": 0.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خير",
+   "shared": 0,
+   "expected": 1.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ولي",
+   "shared": 1,
+   "expected": 1.17,
+   "lift": 0.86,
+   "p_perm": 0.6545
+  },
+  {
+   "pair": "قطع↔عمل",
+   "shared": 1,
+   "expected": 1.81,
+   "lift": 0.55,
+   "p_perm": 0.8472
+  },
+  {
+   "pair": "قطع↔رسل",
+   "shared": 4,
+   "expected": 2.48,
+   "lift": 1.62,
+   "p_perm": 0.1993
+  },
+  {
+   "pair": "قطع↔اله",
+   "shared": 14,
+   "expected": 10.85,
+   "lift": 1.29,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "قطع↔حبط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بقي",
+   "shared": 1,
+   "expected": 0.12,
+   "lift": 8.25,
+   "p_perm": 0.1096
+  },
+  {
+   "pair": "قطع↔عدل",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔كفي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔دبر",
+   "shared": 5,
+   "expected": 0.25,
+   "lift": 19.68,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قطع↔زين",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عقل",
+   "shared": 1,
+   "expected": 0.28,
+   "lift": 3.54,
+   "p_perm": 0.2492
+  },
+  {
+   "pair": "قطع↔خبر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔غيب",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔جرم",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عرف",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نكر",
+   "shared": 1,
+   "expected": 0.21,
+   "lift": 4.68,
+   "p_perm": 0.2159
+  },
+  {
+   "pair": "قطع↔علو",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔متع",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حين",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔وكل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قلل",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ثمن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شري",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شكر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فلك",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بحر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔برر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔جري",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ابد",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فوز",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سخر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔تحت",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔رضو",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نجو",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.31,
+   "p_perm": 0.3322
+  },
+  {
+   "pair": "قطع↔خلد",
+   "shared": 2,
+   "expected": 0.5,
+   "lift": 4.03,
+   "p_perm": 0.1229
+  },
+  {
+   "pair": "قطع↔شطن",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سبح",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حمد",
+   "shared": 1,
+   "expected": 0.35,
+   "lift": 2.84,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "قطع↔غني",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فقر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔مول",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ليل",
+   "shared": 3,
+   "expected": 0.47,
+   "lift": 6.42,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "قطع↔قمر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شمس",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بغي",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صحب",
+   "shared": 1,
+   "expected": 0.51,
+   "lift": 1.95,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "قطع↔ولد",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فضل",
+   "shared": 1,
+   "expected": 0.53,
+   "lift": 1.88,
+   "p_perm": 0.4452
+  },
+  {
+   "pair": "قطع↔عدو",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اثم",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نهر",
+   "shared": 1,
+   "expected": 0.59,
+   "lift": 1.7,
+   "p_perm": 0.4352
+  },
+  {
+   "pair": "قطع↔دخل",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بوب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فتح",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اهل",
+   "shared": 2,
+   "expected": 0.69,
+   "lift": 2.89,
+   "p_perm": 0.1595
+  },
+  {
+   "pair": "قطع↔قري",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔هلك",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قرن",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عظم",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.36,
+   "p_perm": 0.5615
+  },
+  {
+   "pair": "قطع↔اجر",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ضيع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قدر",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔دنو",
+   "shared": 2,
+   "expected": 0.74,
+   "lift": 2.71,
+   "p_perm": 0.1728
+  },
+  {
+   "pair": "قطع↔خزي",
+   "shared": 2,
+   "expected": 0.14,
+   "lift": 14.44,
+   "p_perm": 0.0066
+  },
+  {
+   "pair": "قطع↔دون",
+   "shared": 1,
+   "expected": 0.82,
+   "lift": 1.22,
+   "p_perm": 0.5914
+  },
+  {
+   "pair": "قطع↔نفع",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ضرر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔كشف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔مسس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بصر",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فاد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عمي",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نصر",
+   "shared": 1,
+   "expected": 0.79,
+   "lift": 1.26,
+   "p_perm": 0.5449
+  },
+  {
+   "pair": "قطع↔هجر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اوي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صير",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔باس",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نبا",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔رجع",
+   "shared": 3,
+   "expected": 0.59,
+   "lift": 5.05,
+   "p_perm": 0.0332
+  },
+  {
+   "pair": "قطع↔ذوق",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔موت",
+   "shared": 1,
+   "expected": 0.83,
+   "lift": 1.21,
+   "p_perm": 0.5648
+  },
+  {
+   "pair": "قطع↔بعث",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نظر",
+   "shared": 1,
+   "expected": 0.66,
+   "lift": 1.51,
+   "p_perm": 0.4618
+  },
+  {
+   "pair": "قطع↔سير",
+   "shared": 1,
+   "expected": 0.14,
+   "lift": 6.93,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "قطع↔عقب",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔كيف",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شدد",
+   "shared": 1,
+   "expected": 0.57,
+   "lift": 1.75,
+   "p_perm": 0.4618
+  },
+  {
+   "pair": "قطع↔قوي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عزز",
+   "shared": 1,
+   "expected": 0.67,
+   "lift": 1.49,
+   "p_perm": 0.5116
+  },
+  {
+   "pair": "قطع↔قلب",
+   "shared": 2,
+   "expected": 0.89,
+   "lift": 2.24,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "قطع↔قسو",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔طبع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔طمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔مرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شرك",
+   "shared": 1,
+   "expected": 0.83,
+   "lift": 1.21,
+   "p_perm": 0.5415
+  },
+  {
+   "pair": "قطع↔برا",
+   "shared": 1,
+   "expected": 0.16,
+   "lift": 6.19,
+   "p_perm": 0.1395
+  },
+  {
+   "pair": "قطع↔اول",
+   "shared": 1,
+   "expected": 0.91,
+   "lift": 1.1,
+   "p_perm": 0.6246
+  },
+  {
+   "pair": "قطع↔لبب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سطر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔مرر",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.41,
+   "p_perm": 0.1761
+  },
+  {
+   "pair": "قطع↔ابو",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اخو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔وجد",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صلح",
+   "shared": 1,
+   "expected": 0.98,
+   "lift": 1.02,
+   "p_perm": 0.6611
+  },
+  {
+   "pair": "قطع↔فسد",
+   "shared": 4,
+   "expected": 0.27,
+   "lift": 14.74,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قطع↔توب",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سمع",
+   "shared": 1,
+   "expected": 0.94,
+   "lift": 1.06,
+   "p_perm": 0.6312
+  },
+  {
+   "pair": "قطع↔صمم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نور",
+   "shared": 3,
+   "expected": 1.0,
+   "lift": 2.99,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "قطع↔وقد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صلي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حسن",
+   "shared": 2,
+   "expected": 1.02,
+   "lift": 1.96,
+   "p_perm": 0.2326
+  },
+  {
+   "pair": "قطع↔صوب",
+   "shared": 2,
+   "expected": 0.32,
+   "lift": 6.19,
+   "p_perm": 0.0399
+  },
+  {
+   "pair": "قطع↔جزي",
+   "shared": 4,
+   "expected": 0.63,
+   "lift": 6.36,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "قطع↔كسب",
+   "shared": 2,
+   "expected": 0.35,
+   "lift": 5.77,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "قطع↔سوا",
+   "shared": 3,
+   "expected": 0.87,
+   "lift": 3.44,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "قطع↔بدو",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خفي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔مثل",
+   "shared": 2,
+   "expected": 0.85,
+   "lift": 2.34,
+   "p_perm": 0.2226
+  },
+  {
+   "pair": "قطع↔ضرب",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.21,
+   "p_perm": 0.2625
+  },
+  {
+   "pair": "قطع↔عند",
+   "shared": 0,
+   "expected": 1.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خزن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ثوب",
+   "shared": 1,
+   "expected": 0.13,
+   "lift": 7.53,
+   "p_perm": 0.1196
+  },
+  {
+   "pair": "قطع↔جنن",
+   "shared": 2,
+   "expected": 1.13,
+   "lift": 1.77,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "قطع↔عنب",
+   "shared": 1,
+   "expected": 0.06,
+   "lift": 15.75,
+   "p_perm": 0.0598
+  },
+  {
+   "pair": "قطع↔نخل",
+   "shared": 2,
+   "expected": 0.12,
+   "lift": 17.32,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "قطع↔ملك",
+   "shared": 2,
+   "expected": 1.1,
+   "lift": 1.81,
+   "p_perm": 0.309
+  },
+  {
+   "pair": "قطع↔حكم",
+   "shared": 2,
+   "expected": 1.09,
+   "lift": 1.83,
+   "p_perm": 0.299
+  },
+  {
+   "pair": "قطع↔دعو",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خلص",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔جوب",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.22,
+   "p_perm": 0.2093
+  },
+  {
+   "pair": "قطع↔دين",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔غفر",
+   "shared": 1,
+   "expected": 1.17,
+   "lift": 0.86,
+   "p_perm": 0.6744
+  },
+  {
+   "pair": "قطع↔حلم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عفو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ذنب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بعد",
+   "shared": 2,
+   "expected": 1.27,
+   "lift": 1.57,
+   "p_perm": 0.3621
+  },
+  {
+   "pair": "قطع↔شقق",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ورث",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نوس",
+   "shared": 1,
+   "expected": 1.3,
+   "lift": 0.77,
+   "p_perm": 0.7409
+  },
+  {
+   "pair": "قطع↔دبب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔امر",
+   "shared": 8,
+   "expected": 1.3,
+   "lift": 6.13,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قطع↔قضي",
+   "shared": 1,
+   "expected": 0.34,
+   "lift": 2.94,
+   "p_perm": 0.2458
+  },
+  {
+   "pair": "قطع↔خلف",
+   "shared": 5,
+   "expected": 0.67,
+   "lift": 7.47,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قطع↔لون",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔يدي",
+   "shared": 7,
+   "expected": 0.64,
+   "lift": 11.02,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "قطع↔فلح",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صلو",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔زكو",
+   "shared": 0,
+   "expected": 0.32,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سرر",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔علن",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بسط",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خبث",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حرم",
+   "shared": 0,
+   "expected": 0.41,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سجد",
+   "shared": 0,
+   "expected": 0.47,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔طوع",
+   "shared": 0,
+   "expected": 0.68,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حيي",
+   "shared": 0,
+   "expected": 0.93,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خير",
+   "shared": 0,
+   "expected": 1.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حبط",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عدل",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔كفي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔زين",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خبر",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔غيب",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔جرم",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عرف",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔علو",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔متع",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حين",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔وكل",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قلل",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ثمن",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شري",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شكر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فلك",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بحر",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔برر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔جري",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ابد",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فوز",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سخر",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔تحت",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔رضو",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شطن",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سبح",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔غني",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فقر",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔مول",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قمر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شمس",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بغي",
+   "shared": 0,
+   "expected": 0.52,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ولد",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عدو",
+   "shared": 0,
+   "expected": 0.53,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اثم",
+   "shared": 0,
+   "expected": 0.24,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔دخل",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بوب",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فتح",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قري",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔هلك",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قرن",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اجر",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ضيع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قدر",
+   "shared": 0,
+   "expected": 0.7,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نفع",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ضرر",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔كشف",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔مسس",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بصر",
+   "shared": 0,
+   "expected": 0.8,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔فاد",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عمي",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔هجر",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اوي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صير",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔باس",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔نبا",
+   "shared": 0,
+   "expected": 0.87,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ذوق",
+   "shared": 0,
+   "expected": 0.35,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بعث",
+   "shared": 0,
+   "expected": 0.37,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عقب",
+   "shared": 0,
+   "expected": 0.43,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔كيف",
+   "shared": 0,
+   "expected": 0.48,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قوي",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔قسو",
+   "shared": 0,
+   "expected": 0.03,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔طبع",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔طمن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔مرض",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔لبب",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔سطر",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ابو",
+   "shared": 0,
+   "expected": 0.6,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔اخو",
+   "shared": 0,
+   "expected": 0.46,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔وجد",
+   "shared": 0,
+   "expected": 0.57,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔توب",
+   "shared": 0,
+   "expected": 0.4,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صمم",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔وقد",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔صلي",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔بدو",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خفي",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عند",
+   "shared": 0,
+   "expected": 1.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خزن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔دعو",
+   "shared": 0,
+   "expected": 1.05,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔خلص",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔دين",
+   "shared": 0,
+   "expected": 0.5,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔حلم",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔عفو",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ذنب",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔شقق",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔ورث",
+   "shared": 0,
+   "expected": 0.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔دبب",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قطع↔لون",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "5:33",
+   "degree": 5,
+   "roots_present": [
+    "رجل",
+    "يدي",
+    "خلف",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "6:45",
+   "degree": 4,
+   "roots_present": [
+    "دبر",
+    "قوم",
+    "علم",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "13:31",
+   "degree": 4,
+   "roots_present": [
+    "خلف",
+    "امر",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "20:71",
+   "degree": 4,
+   "roots_present": [
+    "رجل",
+    "يدي",
+    "خلف",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "26:49",
+   "degree": 4,
+   "roots_present": [
+    "رجل",
+    "يدي",
+    "خلف",
+    "علم"
+   ]
+  },
+  {
+   "ayah": "2:27",
+   "degree": 3,
+   "roots_present": [
+    "امر",
+    "ارض",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "7:124",
+   "degree": 3,
+   "roots_present": [
+    "رجل",
+    "يدي",
+    "خلف"
+   ]
+  },
+  {
+   "ayah": "7:160",
+   "degree": 3,
+   "roots_present": [
+    "كلل",
+    "قوم",
+    "علم"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "قطع+دبر": [
+   "6:45",
+   "7:72",
+   "8:7",
+   "15:65",
+   "15:66"
+  ],
+  "قطع+رجل": [
+   "5:33",
+   "7:124",
+   "20:71",
+   "26:49",
+   "29:29"
+  ],
+  "قطع+يدي": [
+   "5:33",
+   "5:38",
+   "7:124",
+   "12:31",
+   "12:50",
+   "20:71",
+   "26:49"
+  ],
+  "قطع+خلف": [
+   "5:33",
+   "7:124",
+   "13:31",
+   "20:71",
+   "26:49"
+  ],
+  "قطع+امر": [
+   "2:27",
+   "13:25",
+   "13:31",
+   "15:65",
+   "15:66",
+   "21:93",
+   "23:53",
+   "27:32"
+  ],
+  "قطع+ارض": [
+   "2:27",
+   "5:33",
+   "7:168",
+   "13:4",
+   "13:25",
+   "13:31",
+   "47:22"
+  ],
+  "قطع+كلل": [
+   "7:160",
+   "12:31",
+   "21:93",
+   "23:53",
+   "47:15"
+  ],
+  "قطع+اذن": [
+   "20:71",
+   "26:49",
+   "59:5"
+  ],
+  "قطع+كبر": [
+   "9:121",
+   "12:31",
+   "20:71",
+   "26:49"
+  ],
+  "قطع+ليل": [
+   "10:27",
+   "11:81",
+   "15:65"
+  ],
+  "قطع+خزي": [
+   "5:33",
+   "59:5"
+  ],
+  "قطع+رجع": [
+   "7:168",
+   "12:50",
+   "21:93"
+  ],
+  "قطع+فسد": [
+   "2:27",
+   "5:33",
+   "13:25",
+   "47:22"
+  ],
+  "قطع+صوب": [
+   "11:81",
+   "13:31"
+  ],
+  "قطع+جزي": [
+   "5:33",
+   "5:38",
+   "9:121",
+   "10:27"
+  ],
+  "قطع+كسب": [
+   "5:38",
+   "10:27"
+  ],
+  "قطع+سوا": [
+   "7:168",
+   "10:27",
+   "13:25"
+  ],
+  "قطع+نخل": [
+   "13:4",
+   "20:71"
+  ]
+ }
+}
