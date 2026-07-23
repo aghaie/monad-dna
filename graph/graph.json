@@ -22,6 +22,7 @@
   "امن",
   "انس",
   "اهل",
+  "اوب",
   "اول",
   "اوي",
   "ايد",
@@ -44,6 +45,7 @@
   "بكم",
   "بلد",
   "بلغ",
+  "بلو",
   "بني",
   "بوب",
   "بيت",
@@ -478,7 +480,8 @@
   "صمم",
   "نور",
   "وقد",
-  "صلي"
+  "صلي",
+  "حسن"
  ],
  "open_queue": [
   "اتي",
@@ -490,8 +493,8 @@
   "ايي",
   "بعد",
   "بين",
+  "جزي",
   "جنن",
-  "حسن",
   "حكم",
   "خلق",
   "دعو",
@@ -500,6 +503,7 @@
   "رحم",
   "سمو",
   "شيا",
+  "صوب",
   "ظلم",
   "عذب",
   "علم",
@@ -1229,6 +1233,14 @@
    "directions": {
     "اجر→حسن": {
      "breath": 80,
+     "lift": 7.829,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 22
+    },
+    "حسن→اجر": {
+     "breath": 132,
      "lift": 7.829,
      "p": 0.0033,
      "stable": false,
@@ -3362,6 +3374,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 9
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "اوب",
+   "b": "حسن",
+   "directions": {
+    "حسن→اوب": {
+     "breath": 132,
+     "lift": 10.362,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
     }
    },
    "mutual_strong": false,
@@ -5512,6 +5540,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "بلو",
+   "b": "حسن",
+   "directions": {
+    "حسن→بلو": {
+     "breath": 132,
+     "lift": 5.033,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "بني",
    "b": "زين",
    "directions": {
@@ -5822,6 +5866,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "تحت",
+   "b": "حسن",
+   "directions": {
+    "حسن→تحت": {
+     "breath": 132,
+     "lift": 4.228,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "تحت",
@@ -6737,6 +6797,22 @@
   },
   {
    "a": "جزي",
+   "b": "حسن",
+   "directions": {
+    "حسن→جزي": {
+     "breath": 132,
+     "lift": 7.434,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 23
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "جزي",
    "b": "خلد",
    "directions": {
     "خلد→جزي": {
@@ -7417,6 +7493,54 @@
   },
   {
    "a": "حسن",
+   "b": "سوا",
+   "directions": {
+    "حسن→سوا": {
+     "breath": 132,
+     "lift": 6.533,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 28
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حسن",
+   "b": "صوب",
+   "directions": {
+    "حسن→صوب": {
+     "breath": 132,
+     "lift": 6.921,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حسن",
+   "b": "ضعف",
+   "directions": {
+    "حسن→ضعف": {
+     "breath": 132,
+     "lift": 5.48,
+     "p": 0.0066,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 7
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حسن",
    "b": "ضيع",
    "directions": {
     "ضيع→حسن": {
@@ -7426,10 +7550,34 @@
      "stable": true,
      "tier": "قوی",
      "shared": 6
+    },
+    "حسن→ضيع": {
+     "breath": 132,
+     "lift": 21.139,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 6
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حسن",
+   "b": "قرض",
+   "directions": {
+    "حسن→قرض": {
+     "breath": 132,
+     "lift": 30.199,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
     }
    },
    "mutual_strong": false,
-   "best_tier": "قوی"
+   "best_tier": "محتمل"
   },
   {
    "a": "حقق",
