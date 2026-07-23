@@ -1,0 +1,1199 @@
+{
+ "breath_number": 63,
+ "deliberation": [
+  {
+   "root": "قمر",
+   "attestation": 27
+  },
+  {
+   "root": "شمس",
+   "attestation": 33
+  },
+  {
+   "root": "بغي",
+   "attestation": 96
+  },
+  {
+   "root": "صحب",
+   "attestation": 97
+  },
+  {
+   "root": "ولد",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "عدو",
+   "attestation": 106
+  },
+  {
+   "root": "نهر",
+   "attestation": 113
+  },
+  {
+   "root": "دخل",
+   "attestation": 126
+  },
+  {
+   "root": "اهل",
+   "attestation": 127
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "قمر",
+ "attestation": 27,
+ "ayat": 26,
+ "top": [
+  {
+   "root": "شمس",
+   "shared": 18,
+   "expected": 0.13,
+   "lift": 134.913,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سخر",
+   "shared": 8,
+   "expected": 0.15,
+   "lift": 54.822,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ليل",
+   "shared": 10,
+   "expected": 0.34,
+   "lift": 29.611,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "نهر",
+   "shared": 9,
+   "expected": 0.43,
+   "lift": 21.163,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "خلق",
+   "shared": 6,
+   "expected": 0.91,
+   "lift": 6.601,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "سمو",
+   "shared": 8,
+   "expected": 1.47,
+   "lift": 5.451,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "كلل",
+   "shared": 6,
+   "expected": 1.48,
+   "lift": 4.065,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "راي",
+   "shared": 5,
+   "expected": 1.24,
+   "lift": 4.038,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "اله",
+   "shared": 8,
+   "expected": 7.83,
+   "lift": 1.021,
+   "p_perm": 0.5581,
+   "stable": false,
+   "tier": "نامشخص"
+  }
+ ],
+ "halves_overlap": 3,
+ "reciprocal": [
+  "شمس",
+  "سخر",
+  "ليل",
+  "نهر",
+  "راي"
+ ],
+ "one_way": [
+  "خلق",
+  "سمو",
+  "كلل",
+  "اله"
+ ],
+ "neighbor_view": {
+  "شمس": {
+   "root": "قمر",
+   "shared": 18,
+   "expected": 0.13,
+   "lift": 134.913,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "سخر": {
+   "root": "قمر",
+   "shared": 8,
+   "expected": 0.15,
+   "lift": 54.822,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ليل": {
+   "root": "قمر",
+   "shared": 10,
+   "expected": 0.34,
+   "lift": 29.611,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "نهر": {
+   "root": "قمر",
+   "shared": 9,
+   "expected": 0.43,
+   "lift": 21.163,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "خلق": null,
+  "سمو": null,
+  "كلل": null,
+  "راي": {
+   "root": "قمر",
+   "shared": 5,
+   "expected": 1.24,
+   "lift": 4.038,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "اله": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "قمر↔فلح",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔صلو",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔زكو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔اذن",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔نفق",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔سرر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔علن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔رزق",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔بسط",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔طيب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حلل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حرم",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔سجد",
+   "shared": 3,
+   "expected": 0.34,
+   "lift": 8.88,
+   "p_perm": 0.01
+  },
+  {
+   "pair": "قمر↔اكل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔طوع",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔شهد",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔كبر",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حيي",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔خير",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔ولي",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔عمل",
+   "shared": 1,
+   "expected": 1.31,
+   "lift": 0.77,
+   "p_perm": 0.7475
+  },
+  {
+   "pair": "قمر↔رسل",
+   "shared": 0,
+   "expected": 1.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔اله",
+   "shared": 8,
+   "expected": 7.83,
+   "lift": 1.02,
+   "p_perm": 0.5581
+  },
+  {
+   "pair": "قمر↔حبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔بقي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔عدل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔كفي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔دبر",
+   "shared": 1,
+   "expected": 0.18,
+   "lift": 5.45,
+   "p_perm": 0.1528
+  },
+  {
+   "pair": "قمر↔زين",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔عقل",
+   "shared": 1,
+   "expected": 0.2,
+   "lift": 4.89,
+   "p_perm": 0.186
+  },
+  {
+   "pair": "قمر↔خبر",
+   "shared": 1,
+   "expected": 0.22,
+   "lift": 4.61,
+   "p_perm": 0.1561
+  },
+  {
+   "pair": "قمر↔غيب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔جرم",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔عرف",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔نكر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔علو",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔متع",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حين",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔وكل",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔قلل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔ثمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔شري",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔شكر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔فلك",
+   "shared": 2,
+   "expected": 0.1,
+   "lift": 19.19,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قمر↔بحر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔برر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔جري",
+   "shared": 4,
+   "expected": 0.27,
+   "lift": 14.99,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قمر↔ابد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔فوز",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔سخر",
+   "shared": 8,
+   "expected": 0.15,
+   "lift": 54.82,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "قمر↔تحت",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔رضو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔نجو",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔خلد",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔شطن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔سبح",
+   "shared": 2,
+   "expected": 0.36,
+   "lift": 5.51,
+   "p_perm": 0.0465
+  },
+  {
+   "pair": "قمر↔حمد",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔غني",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔فقر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔مول",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔ليل",
+   "shared": 10,
+   "expected": 0.34,
+   "lift": 29.61,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "قمر↔فلح",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔صلو",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔زكو",
+   "shared": 0,
+   "expected": 0.23,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔اذن",
+   "shared": 0,
+   "expected": 0.38,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔نفق",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔سرر",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔علن",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔رزق",
+   "shared": 0,
+   "expected": 0.45,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔بسط",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔طيب",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔خبث",
+   "shared": 0,
+   "expected": 0.04,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حلل",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حرم",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔اكل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔طوع",
+   "shared": 0,
+   "expected": 0.49,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔شهد",
+   "shared": 0,
+   "expected": 0.51,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔كبر",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حيي",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔خير",
+   "shared": 0,
+   "expected": 0.74,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔ولي",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔رسل",
+   "shared": 0,
+   "expected": 1.79,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حبط",
+   "shared": 0,
+   "expected": 0.07,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔بقي",
+   "shared": 0,
+   "expected": 0.09,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔عدل",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔كفي",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔زين",
+   "shared": 0,
+   "expected": 0.18,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔غيب",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔جرم",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔عرف",
+   "shared": 0,
+   "expected": 0.26,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔نكر",
+   "shared": 0,
+   "expected": 0.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔علو",
+   "shared": 0,
+   "expected": 0.28,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔متع",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حين",
+   "shared": 0,
+   "expected": 0.14,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔وكل",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔قلل",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔ثمن",
+   "shared": 0,
+   "expected": 0.08,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔شري",
+   "shared": 0,
+   "expected": 0.1,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔شكر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔بحر",
+   "shared": 0,
+   "expected": 0.17,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔برر",
+   "shared": 0,
+   "expected": 0.13,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔ابد",
+   "shared": 0,
+   "expected": 0.12,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔فوز",
+   "shared": 0,
+   "expected": 0.11,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔تحت",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔رضو",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔نجو",
+   "shared": 0,
+   "expected": 0.31,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔خلد",
+   "shared": 0,
+   "expected": 0.36,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔شطن",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔حمد",
+   "shared": 0,
+   "expected": 0.25,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔غني",
+   "shared": 0,
+   "expected": 0.3,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔فقر",
+   "shared": 0,
+   "expected": 0.06,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "قمر↔مول",
+   "shared": 0,
+   "expected": 0.33,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "31:29",
+   "degree": 8,
+   "roots_present": [
+    "شمس",
+    "سخر",
+    "ليل",
+    "نهر",
+    "سمو",
+    "كلل",
+    "راي",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "7:54",
+   "degree": 7,
+   "roots_present": [
+    "شمس",
+    "سخر",
+    "ليل",
+    "نهر",
+    "خلق",
+    "سمو",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "35:13",
+   "degree": 7,
+   "roots_present": [
+    "شمس",
+    "سخر",
+    "ليل",
+    "نهر",
+    "سمو",
+    "كلل",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "39:5",
+   "degree": 7,
+   "roots_present": [
+    "شمس",
+    "سخر",
+    "ليل",
+    "نهر",
+    "خلق",
+    "سمو",
+    "كلل"
+   ]
+  },
+  {
+   "ayah": "13:2",
+   "degree": 6,
+   "roots_present": [
+    "شمس",
+    "سخر",
+    "سمو",
+    "كلل",
+    "راي",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "21:33",
+   "degree": 5,
+   "roots_present": [
+    "شمس",
+    "ليل",
+    "نهر",
+    "خلق",
+    "كلل"
+   ]
+  },
+  {
+   "ayah": "29:61",
+   "degree": 5,
+   "roots_present": [
+    "شمس",
+    "سخر",
+    "خلق",
+    "سمو",
+    "اله"
+   ]
+  },
+  {
+   "ayah": "41:37",
+   "degree": 5,
+   "roots_present": [
+    "شمس",
+    "ليل",
+    "نهر",
+    "خلق",
+    "اله"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "قمر+شمس": [
+   "6:96",
+   "7:54",
+   "10:5",
+   "12:4",
+   "13:2",
+   "14:33",
+   "16:12",
+   "21:33",
+   "22:18",
+   "29:61",
+   "31:29",
+   "35:13",
+   "36:40",
+   "39:5",
+   "41:37",
+   "55:5",
+   "71:16",
+   "75:9"
+  ],
+  "قمر+سخر": [
+   "7:54",
+   "13:2",
+   "14:33",
+   "16:12",
+   "29:61",
+   "31:29",
+   "35:13",
+   "39:5"
+  ],
+  "قمر+ليل": [
+   "6:96",
+   "7:54",
+   "14:33",
+   "16:12",
+   "21:33",
+   "31:29",
+   "35:13",
+   "36:40",
+   "39:5",
+   "41:37"
+  ],
+  "قمر+نهر": [
+   "7:54",
+   "14:33",
+   "16:12",
+   "21:33",
+   "31:29",
+   "35:13",
+   "36:40",
+   "39:5",
+   "41:37"
+  ],
+  "قمر+خلق": [
+   "7:54",
+   "10:5",
+   "21:33",
+   "29:61",
+   "39:5",
+   "41:37"
+  ],
+  "قمر+سمو": [
+   "7:54",
+   "13:2",
+   "22:18",
+   "25:61",
+   "29:61",
+   "31:29",
+   "35:13",
+   "39:5"
+  ],
+  "قمر+كلل": [
+   "13:2",
+   "21:33",
+   "31:29",
+   "35:13",
+   "36:40",
+   "39:5"
+  ],
+  "قمر+راي": [
+   "6:77",
+   "12:4",
+   "13:2",
+   "22:18",
+   "31:29"
+  ],
+  "قمر+سجد": [
+   "12:4",
+   "22:18",
+   "41:37"
+  ],
+  "قمر+فلك": [
+   "21:33",
+   "36:40"
+  ],
+  "قمر+جري": [
+   "13:2",
+   "31:29",
+   "35:13",
+   "39:5"
+  ],
+  "قمر+سبح": [
+   "21:33",
+   "36:40"
+  ]
+ }
+}

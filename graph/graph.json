@@ -309,7 +309,8 @@
   "غني",
   "فقر",
   "مول",
-  "ليل"
+  "ليل",
+  "قمر"
  ],
  "open_queue": [
   "اتي",
@@ -341,7 +342,6 @@
   "فضل",
   "قدر",
   "قلب",
-  "قمر",
   "قول",
   "قوم",
   "كتب",
@@ -4740,6 +4740,22 @@
    "best_tier": "محتمل"
   },
   {
+   "a": "خلق",
+   "b": "قمر",
+   "directions": {
+    "قمر→خلق": {
+     "breath": 63,
+     "lift": 6.601,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
    "a": "خوف",
    "b": "شطن",
    "directions": {
@@ -5106,6 +5122,22 @@
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "راي",
+   "b": "قمر",
+   "directions": {
+    "قمر→راي": {
+     "breath": 63,
+     "lift": 4.038,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "ربب",
@@ -6150,6 +6182,14 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 8
+    },
+    "قمر→سخر": {
+     "breath": 63,
+     "lift": 54.822,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -6350,6 +6390,22 @@
      "stable": false,
      "tier": "محتمل",
      "shared": 11
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "سمو",
+   "b": "قمر",
+   "directions": {
+    "قمر→سمو": {
+     "breath": 63,
+     "lift": 5.451,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 8
     }
    },
    "mutual_strong": false,
@@ -6706,6 +6762,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "شمس",
+   "b": "قمر",
+   "directions": {
+    "قمر→شمس": {
+     "breath": 63,
+     "lift": 134.913,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 18
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "شمس",
@@ -7997,6 +8069,22 @@
   },
   {
    "a": "قمر",
+   "b": "كلل",
+   "directions": {
+    "قمر→كلل": {
+     "breath": 63,
+     "lift": 4.065,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "قمر",
    "b": "ليل",
    "directions": {
     "ليل→قمر": {
@@ -8006,6 +8094,30 @@
      "stable": true,
      "tier": "قوی",
      "shared": 10
+    },
+    "قمر→ليل": {
+     "breath": 63,
+     "lift": 29.611,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "قمر",
+   "b": "نهر",
+   "directions": {
+    "قمر→نهر": {
+     "breath": 63,
+     "lift": 21.163,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 9
     }
    },
    "mutual_strong": false,
