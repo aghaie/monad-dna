@@ -204,6 +204,7 @@ b168 = rec("breath_168_رجل.json")
 b169 = rec("breath_169_نسو.json")
 b170 = rec("breath_170_اخر.json")
 b171 = rec("breath_171_اجل.json")
+b172 = rec("breath_172_وقي.json")
 # ⚓RECORDS
 
 BREATHS = [
@@ -1064,6 +1065,11 @@ BREATHS = [
      "cli/monad breathe-record-from breaths/records/breath_171_اجل.json",
      "breaths/records/breath_171_اجل.json", LOG1,
      "یک قوی پایدار (سمو دوسویه ۸٫۵)؛ بدون جفتِ متقابل (سمو پیش‌تر زیسته نبود)؛ ريب دوسویهٔ محتملِ ناپایدار lift=۱۸٫۶؛ ۲۲:۵ گرهِ شش‌ریشه‌ای؛ شاهدِ غیاب: هشتادوچهار صفر", b171["top"]),
+    (172, "تولدِ دوباره", "وقي", "قاعدهٔ صف (خودران)",
+     b172["ayat"], b172["halves_overlap"],
+     "cli/monad breathe-record-from breaths/records/breath_172_وقي.json",
+     "breaths/records/breath_172_وقي.json", LOG1,
+     "یک قوی پایدار (وعظ دوسویه ۷٫۷)؛ بدون جفتِ متقابل (وعظ پیش‌تر زیسته نبود)؛ شهر دوسویهٔ محتملِ ناپایدار lift=۷٫۷؛ ۵:۲ گرهِ چهارریشه‌ای؛ شاهدِ غیاب: سی صفر", b172["top"]),
     # ⚓BREATHS
 ]
 
@@ -1539,6 +1545,8 @@ QUEUE_EVENTS = [
     (170, "pursued", "اخر", "قاعدهٔ صف"),
     (170, "queued", "اجل", "چرخه"),
     (171, "pursued", "اجل", "قاعدهٔ صف"),
+    (172, "pursued", "وقي", "قاعدهٔ صف"),
+    (172, "queued", "وعظ", "چرخه"),
     # ⚓QUEUE
 ]
 
@@ -1715,6 +1723,7 @@ PROJ = [
     (169, b169),
     (170, b170),
     (171, b171),
+    (172, b172),
     # ⚓PROJ
 ]
 
