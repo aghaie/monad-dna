@@ -205,6 +205,7 @@
   "مدن",
   "مرا",
   "مكر",
+  "ملك",
   "موت",
   "مول",
   "موه",
@@ -295,7 +296,8 @@
   "نجو",
   "خلد",
   "شطن",
-  "سبح"
+  "سبح",
+  "حمد"
  ],
  "open_queue": [
   "اتي",
@@ -308,7 +310,6 @@
   "بغي",
   "بين",
   "جنن",
-  "حمد",
   "دخل",
   "دعو",
   "دنو",
@@ -324,6 +325,7 @@
   "عظم",
   "علم",
   "عند",
+  "غني",
   "فضل",
   "قدر",
   "قلب",
@@ -332,6 +334,7 @@
   "كتب",
   "كون",
   "ليل",
+  "ملك",
   "موت",
   "نبا",
   "نهر",
@@ -987,6 +990,22 @@
    },
    "mutual_strong": false,
    "best_tier": "محتمل"
+  },
+  {
+   "a": "ارض",
+   "b": "حمد",
+   "directions": {
+    "حمد→ارض": {
+     "breath": 58,
+     "lift": 3.95,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 17
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
   },
   {
    "a": "ارض",
@@ -3942,6 +3961,22 @@
   },
   {
    "a": "حمد",
+   "b": "ربب",
+   "directions": {
+    "حمد→ربب": {
+     "breath": 58,
+     "lift": 2.934,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 25
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حمد",
    "b": "سبح",
    "directions": {
     "سبح→حمد": {
@@ -3951,10 +3986,114 @@
      "stable": true,
      "tier": "قوی",
      "shared": 16
+    },
+    "حمد→سبح": {
+     "breath": 58,
+     "lift": 18.801,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 16
+    }
+   },
+   "mutual_strong": true,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حمد",
+   "b": "سمو",
+   "directions": {
+    "حمد→سمو": {
+     "breath": 58,
+     "lift": 3.776,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 13
     }
    },
    "mutual_strong": false,
    "best_tier": "قوی"
+  },
+  {
+   "a": "حمد",
+   "b": "غفر",
+   "directions": {
+    "حمد→غفر": {
+     "breath": 58,
+     "lift": 3.037,
+     "p": 0.0033,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 6
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حمد",
+   "b": "غني",
+   "directions": {
+    "حمد→غني": {
+     "breath": 58,
+     "lift": 14.199,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 10
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حمد",
+   "b": "كثر",
+   "directions": {
+    "حمد→كثر": {
+     "breath": 58,
+     "lift": 3.155,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
+  },
+  {
+   "a": "حمد",
+   "b": "ملك",
+   "directions": {
+    "حمد→ملك": {
+     "breath": 58,
+     "lift": 4.282,
+     "p": 0.0033,
+     "stable": true,
+     "tier": "قوی",
+     "shared": 8
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "قوی"
+  },
+  {
+   "a": "حمد",
+   "b": "ولي",
+   "directions": {
+    "حمد→ولي": {
+     "breath": 58,
+     "lift": 2.53,
+     "p": 0.0299,
+     "stable": false,
+     "tier": "محتمل",
+     "shared": 5
+    }
+   },
+   "mutual_strong": false,
+   "best_tier": "محتمل"
   },
   {
    "a": "حيث",

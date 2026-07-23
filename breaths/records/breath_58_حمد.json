@@ -1,0 +1,1001 @@
+{
+ "breath_number": 58,
+ "deliberation": [
+  {
+   "root": "حمد",
+   "attestation": 63
+  },
+  {
+   "root": "ليل",
+   "attestation": 92
+  },
+  {
+   "root": "بغي",
+   "attestation": 96
+  },
+  {
+   "root": "صحب",
+   "attestation": 97
+  },
+  {
+   "root": "ولد",
+   "attestation": 102
+  },
+  {
+   "root": "فضل",
+   "attestation": 104
+  },
+  {
+   "root": "عدو",
+   "attestation": 106
+  },
+  {
+   "root": "نهر",
+   "attestation": 113
+  },
+  {
+   "root": "دخل",
+   "attestation": 126
+  },
+  {
+   "root": "اهل",
+   "attestation": 127
+  }
+ ],
+ "chosen_by": "قاعدهٔ صف (نادرتر مقدم)",
+ "pursued": "حمد",
+ "attestation": 63,
+ "ayat": 61,
+ "top": [
+  {
+   "root": "سبح",
+   "shared": 16,
+   "expected": 0.85,
+   "lift": 18.801,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "غني",
+   "shared": 10,
+   "expected": 0.7,
+   "lift": 14.199,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ملك",
+   "shared": 8,
+   "expected": 1.87,
+   "lift": 4.282,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "ارض",
+   "shared": 17,
+   "expected": 4.3,
+   "lift": 3.95,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "سمو",
+   "shared": 13,
+   "expected": 3.44,
+   "lift": 3.776,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  {
+   "root": "كثر",
+   "shared": 5,
+   "expected": 1.58,
+   "lift": 3.155,
+   "p_perm": 0.0299,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "غفر",
+   "shared": 6,
+   "expected": 1.98,
+   "lift": 3.037,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "ربب",
+   "shared": 25,
+   "expected": 8.52,
+   "lift": 2.934,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  {
+   "root": "حكم",
+   "shared": 5,
+   "expected": 1.85,
+   "lift": 2.704,
+   "p_perm": 0.0532,
+   "stable": false,
+   "tier": "نامشخص"
+  },
+  {
+   "root": "ولي",
+   "shared": 5,
+   "expected": 1.98,
+   "lift": 2.53,
+   "p_perm": 0.0299,
+   "stable": false,
+   "tier": "محتمل"
+  }
+ ],
+ "halves_overlap": 5,
+ "reciprocal": [
+  "سبح",
+  "غني",
+  "ملك"
+ ],
+ "one_way": [
+  "ارض",
+  "سمو",
+  "كثر",
+  "غفر",
+  "ربب",
+  "حكم",
+  "ولي"
+ ],
+ "neighbor_view": {
+  "سبح": {
+   "root": "حمد",
+   "shared": 16,
+   "expected": 0.85,
+   "lift": 18.801,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "غني": {
+   "root": "حمد",
+   "shared": 10,
+   "expected": 0.7,
+   "lift": 14.199,
+   "p_perm": 0.0033,
+   "stable": true,
+   "tier": "قوی"
+  },
+  "ملك": {
+   "root": "حمد",
+   "shared": 8,
+   "expected": 1.87,
+   "lift": 4.282,
+   "p_perm": 0.0033,
+   "stable": false,
+   "tier": "محتمل"
+  },
+  "ارض": null,
+  "سمو": null,
+  "كثر": null,
+  "غفر": null,
+  "ربب": null,
+  "حكم": null,
+  "ولي": null
+ },
+ "projection_on_map": [
+  {
+   "pair": "حمد↔فلح",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔صلو",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔زكو",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔اذن",
+   "shared": 1,
+   "expected": 0.88,
+   "lift": 1.14,
+   "p_perm": 0.588
+  },
+  {
+   "pair": "حمد↔نفق",
+   "shared": 2,
+   "expected": 0.84,
+   "lift": 2.38,
+   "p_perm": 0.2359
+  },
+  {
+   "pair": "حمد↔سرر",
+   "shared": 1,
+   "expected": 0.42,
+   "lift": 2.38,
+   "p_perm": 0.3289
+  },
+  {
+   "pair": "حمد↔علن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔رزق",
+   "shared": 1,
+   "expected": 1.07,
+   "lift": 0.94,
+   "p_perm": 0.6578
+  },
+  {
+   "pair": "حمد↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔طيب",
+   "shared": 2,
+   "expected": 0.45,
+   "lift": 4.44,
+   "p_perm": 0.0731
+  },
+  {
+   "pair": "حمد↔خبث",
+   "shared": 1,
+   "expected": 0.1,
+   "lift": 10.22,
+   "p_perm": 0.1296
+  },
+  {
+   "pair": "حمد↔حلل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔حرم",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔سجد",
+   "shared": 3,
+   "expected": 0.79,
+   "lift": 3.79,
+   "p_perm": 0.0432
+  },
+  {
+   "pair": "حمد↔اكل",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔طوع",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔شهد",
+   "shared": 0,
+   "expected": 1.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔كبر",
+   "shared": 3,
+   "expected": 1.5,
+   "lift": 2.0,
+   "p_perm": 0.2193
+  },
+  {
+   "pair": "حمد↔حيي",
+   "shared": 4,
+   "expected": 1.57,
+   "lift": 2.54,
+   "p_perm": 0.0897
+  },
+  {
+   "pair": "حمد↔خير",
+   "shared": 1,
+   "expected": 1.74,
+   "lift": 0.57,
+   "p_perm": 0.814
+  },
+  {
+   "pair": "حمد↔ولي",
+   "shared": 5,
+   "expected": 1.98,
+   "lift": 2.53,
+   "p_perm": 0.0299
+  },
+  {
+   "pair": "حمد↔عمل",
+   "shared": 3,
+   "expected": 3.06,
+   "lift": 0.98,
+   "p_perm": 0.6047
+  },
+  {
+   "pair": "حمد↔رسل",
+   "shared": 4,
+   "expected": 4.2,
+   "lift": 0.95,
+   "p_perm": 0.5548
+  },
+  {
+   "pair": "حمد↔اله",
+   "shared": 42,
+   "expected": 18.38,
+   "lift": 2.29,
+   "p_perm": 0.0033
+  },
+  {
+   "pair": "حمد↔حبط",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔بقي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔عدل",
+   "shared": 1,
+   "expected": 0.23,
+   "lift": 4.26,
+   "p_perm": 0.2027
+  },
+  {
+   "pair": "حمد↔كفي",
+   "shared": 1,
+   "expected": 0.31,
+   "lift": 3.19,
+   "p_perm": 0.2924
+  },
+  {
+   "pair": "حمد↔دبر",
+   "shared": 1,
+   "expected": 0.43,
+   "lift": 2.32,
+   "p_perm": 0.3256
+  },
+  {
+   "pair": "حمد↔زين",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔عقل",
+   "shared": 1,
+   "expected": 0.48,
+   "lift": 2.09,
+   "p_perm": 0.3987
+  },
+  {
+   "pair": "حمد↔خبر",
+   "shared": 2,
+   "expected": 0.51,
+   "lift": 3.93,
+   "p_perm": 0.0831
+  },
+  {
+   "pair": "حمد↔غيب",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔جرم",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔عرف",
+   "shared": 2,
+   "expected": 0.61,
+   "lift": 3.3,
+   "p_perm": 0.1462
+  },
+  {
+   "pair": "حمد↔نكر",
+   "shared": 1,
+   "expected": 0.36,
+   "lift": 2.76,
+   "p_perm": 0.2957
+  },
+  {
+   "pair": "حمد↔علو",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔متع",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔حين",
+   "shared": 2,
+   "expected": 0.32,
+   "lift": 6.2,
+   "p_perm": 0.0365
+  },
+  {
+   "pair": "حمد↔وكل",
+   "shared": 1,
+   "expected": 0.6,
+   "lift": 1.68,
+   "p_perm": 0.4784
+  },
+  {
+   "pair": "حمد↔قلل",
+   "shared": 1,
+   "expected": 0.72,
+   "lift": 1.38,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "حمد↔ثمن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔شري",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔شكر",
+   "shared": 2,
+   "expected": 0.67,
+   "lift": 2.96,
+   "p_perm": 0.1794
+  },
+  {
+   "pair": "حمد↔فلك",
+   "shared": 1,
+   "expected": 0.24,
+   "lift": 4.09,
+   "p_perm": 0.2259
+  },
+  {
+   "pair": "حمد↔بحر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔برر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔جري",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.6,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "حمد↔ابد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔فوز",
+   "shared": 1,
+   "expected": 0.26,
+   "lift": 3.79,
+   "p_perm": 0.2425
+  },
+  {
+   "pair": "حمد↔سخر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔تحت",
+   "shared": 1,
+   "expected": 0.49,
+   "lift": 2.04,
+   "p_perm": 0.402
+  },
+  {
+   "pair": "حمد↔رضو",
+   "shared": 1,
+   "expected": 0.63,
+   "lift": 1.6,
+   "p_perm": 0.4917
+  },
+  {
+   "pair": "حمد↔نجو",
+   "shared": 1,
+   "expected": 0.73,
+   "lift": 1.36,
+   "p_perm": 0.5216
+  },
+  {
+   "pair": "حمد↔خلد",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔شطن",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔سبح",
+   "shared": 16,
+   "expected": 0.85,
+   "lift": 18.8,
+   "p_perm": 0.0033
+  }
+ ],
+ "absence_evidence": [
+  {
+   "pair": "حمد↔فلح",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔صلو",
+   "shared": 0,
+   "expected": 0.88,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔زكو",
+   "shared": 0,
+   "expected": 0.55,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔علن",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔بسط",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔حلل",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔حرم",
+   "shared": 0,
+   "expected": 0.69,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔اكل",
+   "shared": 0,
+   "expected": 0.99,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔طوع",
+   "shared": 0,
+   "expected": 1.15,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔شهد",
+   "shared": 0,
+   "expected": 1.2,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔حبط",
+   "shared": 0,
+   "expected": 0.16,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔بقي",
+   "shared": 0,
+   "expected": 0.21,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔زين",
+   "shared": 0,
+   "expected": 0.42,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔غيب",
+   "shared": 0,
+   "expected": 0.58,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔جرم",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔علو",
+   "shared": 0,
+   "expected": 0.67,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔متع",
+   "shared": 0,
+   "expected": 0.64,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔ثمن",
+   "shared": 0,
+   "expected": 0.19,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔شري",
+   "shared": 0,
+   "expected": 0.22,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔بحر",
+   "shared": 0,
+   "expected": 0.39,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔برر",
+   "shared": 0,
+   "expected": 0.29,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔ابد",
+   "shared": 0,
+   "expected": 0.27,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔سخر",
+   "shared": 0,
+   "expected": 0.34,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔خلد",
+   "shared": 0,
+   "expected": 0.84,
+   "lift": 0.0,
+   "p_perm": 1.0
+  },
+  {
+   "pair": "حمد↔شطن",
+   "shared": 0,
+   "expected": 0.76,
+   "lift": 0.0,
+   "p_perm": 1.0
+  }
+ ],
+ "central_ayat": [
+  {
+   "ayah": "42:5",
+   "degree": 6,
+   "roots_present": [
+    "سبح",
+    "ملك",
+    "ارض",
+    "سمو",
+    "غفر",
+    "ربب"
+   ]
+  },
+  {
+   "ayah": "2:30",
+   "degree": 4,
+   "roots_present": [
+    "سبح",
+    "ملك",
+    "ارض",
+    "ربب"
+   ]
+  },
+  {
+   "ayah": "17:44",
+   "degree": 4,
+   "roots_present": [
+    "سبح",
+    "ارض",
+    "سمو",
+    "غفر"
+   ]
+  },
+  {
+   "ayah": "64:1",
+   "degree": 4,
+   "roots_present": [
+    "سبح",
+    "ملك",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "4:131",
+   "degree": 3,
+   "roots_present": [
+    "غني",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "6:1",
+   "degree": 3,
+   "roots_present": [
+    "ارض",
+    "سمو",
+    "ربب"
+   ]
+  },
+  {
+   "ayah": "22:64",
+   "degree": 3,
+   "roots_present": [
+    "غني",
+    "ارض",
+    "سمو"
+   ]
+  },
+  {
+   "ayah": "29:63",
+   "degree": 3,
+   "roots_present": [
+    "ارض",
+    "سمو",
+    "كثر"
+   ]
+  }
+ ],
+ "citation_spines": {
+  "حمد+سبح": [
+   "2:30",
+   "10:10",
+   "13:13",
+   "15:98",
+   "17:44",
+   "20:130",
+   "25:58",
+   "32:15",
+   "39:75",
+   "40:7",
+   "40:55",
+   "42:5",
+   "50:39",
+   "52:48",
+   "64:1",
+   "110:3"
+  ],
+  "حمد+غني": [
+   "2:267",
+   "4:131",
+   "14:8",
+   "22:64",
+   "31:12",
+   "31:26",
+   "35:15",
+   "57:24",
+   "60:6",
+   "64:6"
+  ],
+  "حمد+ملك": [
+   "2:30",
+   "13:13",
+   "16:75",
+   "17:111",
+   "35:1",
+   "39:75",
+   "42:5",
+   "64:1"
+  ],
+  "حمد+ارض": [
+   "2:30",
+   "2:267",
+   "4:131",
+   "6:1",
+   "14:8",
+   "17:44",
+   "22:64",
+   "29:63",
+   "30:18",
+   "31:25",
+   "31:26",
+   "34:1",
+   "35:1",
+   "39:74",
+   "42:5",
+   "45:36",
+   "64:1"
+  ],
+  "حمد+سمو": [
+   "4:131",
+   "6:1",
+   "17:44",
+   "22:64",
+   "29:63",
+   "30:18",
+   "31:25",
+   "31:26",
+   "34:1",
+   "35:1",
+   "42:5",
+   "45:36",
+   "64:1"
+  ],
+  "حمد+كثر": [
+   "16:75",
+   "27:15",
+   "29:63",
+   "31:25",
+   "39:29"
+  ],
+  "حمد+غفر": [
+   "17:44",
+   "35:34",
+   "40:7",
+   "40:55",
+   "42:5",
+   "110:3"
+  ],
+  "حمد+ربب": [
+   "1:2",
+   "2:30",
+   "6:1",
+   "6:45",
+   "7:43",
+   "10:10",
+   "14:1",
+   "14:39",
+   "15:98",
+   "17:79",
+   "20:130",
+   "27:93",
+   "32:15",
+   "34:6",
+   "35:34",
+   "37:182",
+   "39:75",
+   "40:7",
+   "40:55",
+   "40:65"
+  ],
+  "حمد+ولي": [
+   "17:111",
+   "42:28",
+   "57:24",
+   "60:6",
+   "64:6"
+  ],
+  "حمد+سجد": [
+   "9:112",
+   "15:98",
+   "32:15"
+  ],
+  "حمد+اله": [
+   "1:2",
+   "2:267",
+   "4:131",
+   "6:1",
+   "6:45",
+   "7:43",
+   "9:112",
+   "10:10",
+   "11:73",
+   "13:13",
+   "14:8",
+   "14:39",
+   "16:75",
+   "17:111",
+   "18:1",
+   "22:64",
+   "23:28",
+   "27:15",
+   "27:59",
+   "27:93"
+  ],
+  "حمد+حين": [
+   "30:18",
+   "52:48"
+  ]
+ }
+}
